@@ -8,6 +8,7 @@ import hashlib
 import html
 import json
 import math
+import os
 import re
 import sys
 import urllib.error
@@ -236,6 +237,18 @@ def load_env(env_path: Path) -> dict[str, str]:
     return values
 
 
+def apply_runtime_env(env: dict[str, str]) -> dict[str, str]:
+    runtime_key = os.environ.get("DEEPSEEK_API_KEY", "").strip()
+    if runtime_key:
+        env["DEEPSEEK_API_KEY"] = runtime_key
+        print("DeepSeek API key source: env", flush=True)
+    elif env.get("DEEPSEEK_API_KEY"):
+        print("DeepSeek API key source: .env", flush=True)
+    else:
+        print("DeepSeek API key source: missing", flush=True)
+    return env
+
+
 def format_date_str(dt: datetime) -> str:
     return dt.strftime("%Y.%m.%d")
 
@@ -381,6 +394,11 @@ def xiaoyuzhou_deep_link(url: str) -> str:
         return ""
     kind, item_id = match.groups()
     return f"cosmos://page.cos/{kind.lower()}/{item_id}?utm_source=rss"
+
+
+def episode_id_from_href(url: str) -> str:
+    match = re.search(r"episode/([^?]+)", url or "", re.I)
+    return match.group(1) if match else ""
 
 
 def preferred_episode_href(episode: FeedEpisode) -> str:
@@ -661,6 +679,7 @@ def triage_hint(item: ScoredEpisode, index: int, selected: list[ScoredEpisode]) 
 
 def episode_to_card(episode: FeedEpisode, scenario_index: int | None = None) -> dict:
     card = {
+        "episodeId": episode.unique_id,
         "podcastName": episode.podcast_name,
         "episodeTitle": episode.episode_title,
         "description": episode.description,
@@ -735,7 +754,7 @@ def deepseek_json(
     request_body = {
         "model": model,
         "messages": messages,
-        "temperature": 0.2,
+        "temperature": 0,
     }
     if response_format:
         request_body["response_format"] = {"type": response_format}
@@ -1167,6 +1186,91 @@ def build_briefing(selected: list[ScoredEpisode], now: datetime, card_cache: dic
     }
 
 
+def to_frontend_card(card: dict) -> dict:
+    normalized = dict(card)
+    quotes = normalized.get("goldenQuotes") if isinstance(normalized.get("goldenQuotes"), list) else []
+    first_quote = quotes[0] if quotes else {}
+    quote_text = ""
+    if isinstance(first_quote, dict):
+        quote_text = str(first_quote.get("quote") or "").strip()
+    elif first_quote:
+        quote_text = str(first_quote).strip()
+
+    normalized["whyRecommend"] = str(normalized.get("whyRecommended") or "").strip()
+    normalized["goldenQuote"] = quote_text or str(normalized.get("whyRecommend") or "").strip()
+    normalized["topicTag"] = str(normalized.get("triageTag") or "").strip()
+    normalized["episodeId"] = str(normalized.get("episodeId") or episode_id_from_href(normalized.get("href", "")) or "").strip()
+    return normalized
+
+
+def to_frontend_briefing(data: dict) -> dict:
+    normalized = dict(data)
+    normalized["mainEpisode"] = to_frontend_card(data.get("mainEpisode", {}))
+    normalized["backupEpisodes"] = [
+        to_frontend_card(card) for card in data.get("backupEpisodes", []) if isinstance(card, dict)
+    ]
+    return normalized
+
+
+def build_ranking_rows(scored: list[ScoredEpisode]) -> list[dict]:
+    return [
+        {
+            "podcastName": item.episode.podcast_name,
+            "episodeTitle": item.episode.episode_title,
+            "uniqueId": item.episode.unique_id,
+            "publishedAt": item.episode.published_at.isoformat() if item.episode.published_at else "",
+            "recencyScore": item.recency_score,
+            "valueScore": item.value_score,
+            "totalScore": item.total_score,
+            "domain": item.domain,
+            "selected": item.selected,
+            "reason": item.reason,
+        }
+        for item in scored
+    ]
+
+
+def abort_schema_invalid() -> None:
+    print("[ABORT] schema invalid, keep previous data")
+    raise SystemExit(0)
+
+
+def is_non_empty(value: object) -> bool:
+    if value is None:
+        return False
+    if isinstance(value, str):
+        return bool(value.strip())
+    if isinstance(value, (list, dict)):
+        return bool(value)
+    return True
+
+
+def validate_briefing(data: dict) -> bool:
+    cards = [data.get("mainEpisode"), *data.get("backupEpisodes", [])]
+    required_fields = ["whyRecommend", "goldenQuote", "topicTag", "episodeId", "episodeTitle"]
+    return all(
+        isinstance(card, dict) and all(is_non_empty(card.get(field)) for field in required_fields)
+        for card in cards
+    )
+
+
+def validate_explore(explore_data: list[dict]) -> bool:
+    if not explore_data:
+        return False
+    return all(is_non_empty(item.get("title")) and is_non_empty(item.get("divergence")) for item in explore_data)
+
+
+def validate_ranking(ranking_rows: list[dict]) -> bool:
+    if not ranking_rows:
+        return False
+    return all(
+        is_non_empty(item.get("uniqueId"))
+        and is_non_empty(item.get("episodeTitle"))
+        and is_non_empty(item.get("podcastName"))
+        for item in ranking_rows
+    )
+
+
 def write_generated_ts(data: dict, output_path: Path) -> None:
     payload = json.dumps(data, ensure_ascii=False, indent=2)
     output_path.write_text(
@@ -1182,23 +1286,8 @@ def write_generated_ts(data: dict, output_path: Path) -> None:
     )
 
 
-def write_ranking(scored: list[ScoredEpisode], output_path: Path) -> None:
-    rows = [
-        {
-            "podcastName": item.episode.podcast_name,
-            "episodeTitle": item.episode.episode_title,
-            "uniqueId": item.episode.unique_id,
-            "publishedAt": item.episode.published_at.isoformat() if item.episode.published_at else "",
-            "recencyScore": item.recency_score,
-            "valueScore": item.value_score,
-            "totalScore": item.total_score,
-            "domain": item.domain,
-            "selected": item.selected,
-            "reason": item.reason,
-        }
-        for item in scored
-    ]
-    output_path.write_text(json.dumps(rows, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+def write_ranking(ranking_rows: list[dict], output_path: Path) -> None:
+    output_path.write_text(json.dumps(ranking_rows, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 def write_explore(explore_data: list[dict], output_path: Path) -> None:
@@ -1247,17 +1336,22 @@ def main() -> int:
     now = local_now()
     scored = score_candidates(episodes, now)
     selected = select_candidates(scored, now, limit=3)
-    env = load_env(ROOT / ".env")
+    env = apply_runtime_env(load_env(ROOT / ".env"))
     card_cache = build_card_cache(selected, env, args.ai_timeout)
-    data = build_briefing(selected, now, card_cache, env, args.ai_timeout)
+    data = to_frontend_briefing(build_briefing(selected, now, card_cache, env, args.ai_timeout))
     explore_data = build_topics(scored, now, env, args.ai_timeout)
+    ranking_rows = build_ranking_rows(scored)
+
+    if not validate_briefing(data) or not validate_ranking(ranking_rows) or not validate_explore(explore_data):
+        abort_schema_invalid()
+
     write_generated_ts(data, args.output)
-    write_ranking(scored, args.ranking)
+    write_ranking(ranking_rows, args.ranking)
     write_explore(explore_data, args.explore)
 
-    print(f"Generated {args.output}")
-    print(f"Generated {args.ranking}")
-    print(f"Generated {args.explore}")
+    print(f"[OK] write {args.output}")
+    print(f"[OK] write {args.ranking}")
+    print(f"[OK] write {args.explore}")
     print(f"RSS feeds found: {len(rss_urls)}")
     print(f"Episodes parsed after favorite filtering: {len(episodes)}")
     print(f"Skipped feeds: {len(failures)}")
