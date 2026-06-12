@@ -293,118 +293,154 @@ function EpisodeDeck({
     return null;
   }
 
-  const activeEpisode = episodes[activeIndex];
-  const recommendationReason = getSafeRecommendationReason(activeEpisode.whyRecommended);
-  const goldenQuote = activeEpisode.goldenQuotes?.[0]?.quote?.trim() ?? '';
+  const getOffsetX = (diff: number) => {
+    if (diff === 0) return '0%';
+    if (diff === 1) return '100%';
+    if (diff === -1) return '-100%';
+    return '200%';
+  };
 
   return (
     <>
-      <div className="relative mt-4 flex w-full flex-none flex-col items-center justify-start overflow-hidden">
-        <div className="relative h-fit w-full max-w-[344px] min-h-0">
-          <motion.div
-            key={getEpisodeKey(activeEpisode)}
-            initial={{ opacity: 0.72, y: 8 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{
-              type: 'spring',
-              stiffness: 280,
-              damping: 24,
-              mass: 0.85,
-            }}
-            drag="x"
-            dragConstraints={{ left: 0, right: 0 }}
-            dragElastic={0.18}
-            onDragEnd={(_, info) => {
-              const swipeThreshold = 50;
-              if (info.offset.x < -swipeThreshold) {
-                handleNext();
-              } else if (info.offset.x > swipeThreshold) {
-                handlePrev();
-              }
-            }}
-            className="episode-card relative w-full overflow-hidden rounded-[20px] border border-black/10 bg-white paper-texture cursor-grab active:cursor-grabbing select-none"
-            style={{
-              filter: 'drop-shadow(0 12px 40px rgba(0, 0, 0, 0.06))',
-            }}
-          >
-            <div className="card-accent-strip" />
+      <div className="relative mt-[112px] flex w-full flex-none flex-col items-center justify-start overflow-visible">
+        <div className="relative h-fit w-full max-w-[344px] overflow-visible min-h-0">
+          {episodes.map((episode, index) => {
+            let diff = 0;
+            const nextIndex = (activeIndex + 1) % episodeCount;
+            const prevIndex = (activeIndex - 1 + episodeCount) % episodeCount;
 
-            <div className="card-top-row">
-              <div className="min-w-0 pr-1">
-                <span className="font-serif font-black text-[12px] leading-tight border border-zinc-300 px-2.5 py-1 rounded text-zinc-900 bg-[#FAF9F5] select-none break-words max-w-[185px]">
-                  {activeEpisode.podcastName}
-                </span>
-              </div>
+            if (index === activeIndex) diff = 0;
+            else if (episodeCount > 1 && index === nextIndex) diff = 1;
+            else if (episodeCount > 2 && index === prevIndex) diff = -1;
+            else diff = 2;
 
-              <FavoriteHeartButton
-                isFavorited={isFavorited(activeEpisode)}
-                onClick={(event) => onToggleFavorite(activeEpisode, event)}
-                ariaLabel={`收藏 ${activeEpisode.episodeTitle}`}
-              />
-            </div>
+            const recommendationReason = getSafeRecommendationReason(episode.whyRecommended);
+            const goldenQuote = episode.goldenQuotes?.[0]?.quote?.trim() ?? '';
 
-            <div className="card-tag-row">
-              <span
-                className="text-[8px] font-medium px-2 py-0.5 rounded-full whitespace-nowrap"
+            return (
+              <motion.div
+                key={getEpisodeKey(episode)}
+                animate={{
+                  x: getOffsetX(diff),
+                  scale: 1,
+                  opacity: diff === 0 ? 1 : diff === 2 ? 0 : 0.35,
+                  filter: diff === 0 ? 'blur(0px)' : 'blur(1.5px)',
+                  zIndex: diff === 0 ? 30 : diff === 2 ? 0 : 10,
+                }}
+                transition={{
+                  type: 'spring',
+                  stiffness: 280,
+                  damping: 24,
+                  mass: 0.85,
+                }}
+                drag={diff === 0 ? 'x' : false}
+                dragConstraints={{ left: 0, right: 0 }}
+                dragElastic={0.65}
+                onDragEnd={(_, info) => {
+                  const swipeThreshold = 50;
+                  if (info.offset.x < -swipeThreshold) {
+                    handleNext();
+                  } else if (info.offset.x > swipeThreshold) {
+                    handlePrev();
+                  }
+                }}
+                onClick={() => {
+                  if (diff === -1) handlePrev();
+                  if (diff === 1) handleNext();
+                }}
+                className="episode-card relative overflow-hidden rounded-[20px] border border-black/10 bg-white paper-texture cursor-grab active:cursor-grabbing select-none"
                 style={{
-                  color: 'rgba(82, 82, 91, 0.9)',
-                  backgroundColor: 'rgba(244, 244, 245, 0.9)',
-                  border: '1px solid rgba(161, 161, 170, 0.35)',
+                  position: diff === 0 ? 'relative' : 'absolute',
+                  left: diff === 0 ? '0' : '24px',
+                  right: diff === 0 ? '0' : '24px',
+                  top: diff === 0 ? 'auto' : 0,
+                  bottom: 'auto',
+                  width: 'auto',
+                  filter: diff === 0
+                    ? 'drop-shadow(0 12px 40px rgba(0, 0, 0, 0.06))'
+                    : 'drop-shadow(0 12px 40px rgba(0, 0, 0, 0.04))',
                 }}
               >
-                {activeEpisode.triageTag}
-              </span>
-            </div>
+                <div className="card-accent-strip" />
 
-            <h2 className="card-title-text font-serif font-black text-[14px] text-[#1A1A1A] hover:text-[#D14A28] transition-colors">
-              {activeEpisode.episodeTitle}
-            </h2>
+                <div className="card-top-row">
+                  <div className="min-w-0 pr-1">
+                    <span className="font-serif font-black text-[12px] leading-tight border border-zinc-300 px-2.5 py-1 rounded text-zinc-900 bg-[#FAF9F5] select-none break-words max-w-[185px]">
+                      {episode.podcastName}
+                    </span>
+                  </div>
 
-            <div className="card-reason-slot text-justify">
-              {recommendationReason ? (
-                <p className="card-reason-text text-[12px] text-zinc-600">
-                  <span className="font-serif font-bold text-[#1A1A1A]">【推荐语】</span>
-                  {recommendationReason}
-                </p>
-              ) : null}
-            </div>
+                  <FavoriteHeartButton
+                    isFavorited={isFavorited(episode)}
+                    onClick={(event) => onToggleFavorite(episode, event)}
+                    ariaLabel={`收藏 ${episode.episodeTitle}`}
+                  />
+                </div>
 
-            <div className="card-cover-frame overflow-hidden bg-white">
-              {activeEpisode.coverImageUrl ? (
-                <img
-                  src={activeEpisode.coverImageUrl}
-                  alt=""
-                  aria-hidden="true"
-                  loading="lazy"
-                  onError={(event) => {
-                    event.currentTarget.style.display = 'none';
-                  }}
-                  className="h-full w-full object-cover opacity-[0.72] saturate-[0.92]"
-                />
-              ) : null}
-            </div>
-
-            <div className="card-quote-block">
-              {goldenQuote ? (
-                <>
-                  <span aria-hidden="true" className="card-quote-mark">
-                    "
+                <div className="card-tag-row">
+                  <span
+                    className="text-[8px] font-medium px-2 py-0.5 rounded-full whitespace-nowrap"
+                    style={{
+                      color: 'rgba(82, 82, 91, 0.9)',
+                      backgroundColor: 'rgba(244, 244, 245, 0.9)',
+                      border: '1px solid rgba(161, 161, 170, 0.35)',
+                    }}
+                  >
+                    {episode.triageTag}
                   </span>
-                  <AdaptiveQuoteText quote={goldenQuote} />
-                </>
-              ) : null}
-            </div>
+                </div>
 
-            <div className="card-footer-bar flex items-center justify-between gap-3">
-              <XiaoyuzhouListenLink
-                episodeId={getEpisodeIdValue(activeEpisode)}
-                isCompactViewport={isCompactViewport}
-              />
-              <span className="font-mono text-[8px] text-zinc-400">
-                第 {activeIndex + 1} 集 / 共 {episodeCount} 集
-              </span>
-            </div>
-          </motion.div>
+                <h2 className="card-title-text font-serif font-black text-[14px] text-[#1A1A1A] hover:text-[#D14A28] transition-colors">
+                  {episode.episodeTitle}
+                </h2>
+
+                <div className="card-reason-slot text-justify">
+                  {recommendationReason ? (
+                    <p className="card-reason-text text-[12px] text-zinc-600">
+                      <span className="font-serif font-bold text-[#1A1A1A]">【推荐语】</span>
+                      {recommendationReason}
+                    </p>
+                  ) : null}
+                </div>
+
+                <div className="card-cover-frame overflow-hidden bg-white">
+                  {episode.coverImageUrl ? (
+                    <img
+                      src={episode.coverImageUrl}
+                      alt=""
+                      aria-hidden="true"
+                      loading="lazy"
+                      onError={(event) => {
+                        event.currentTarget.style.display = 'none';
+                      }}
+                      className="h-full w-full object-cover opacity-[0.72] saturate-[0.92]"
+                    />
+                  ) : null}
+                </div>
+
+                <div className="card-quote-block">
+                  {goldenQuote ? (
+                    <>
+                      <span aria-hidden="true" className="card-quote-mark">
+                        "
+                      </span>
+                      <AdaptiveQuoteText quote={goldenQuote} />
+                    </>
+                  ) : null}
+                </div>
+
+                <div className="card-footer-bar flex items-center justify-between gap-3">
+                  <XiaoyuzhouListenLink
+                    episodeId={getEpisodeIdValue(episode)}
+                    isCompactViewport={isCompactViewport}
+                  />
+                  <span className="font-mono text-[8px] text-zinc-400">
+                    第 {index + 1} 集 / 共 {episodeCount} 集
+                  </span>
+                </div>
+              </motion.div>
+            );
+          })}
         </div>
       </div>
 
