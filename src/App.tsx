@@ -12,7 +12,6 @@ import {
   Compass,
   ExternalLink,
   Heart,
-  Sparkles,
   User,
   X,
 } from 'lucide-react';
@@ -47,6 +46,10 @@ function buildEpisodeHref(episodeId: string) {
   return `cosmos://page.cos/episode/${episodeId}?utm_source=rss`;
 }
 
+function buildEpisodeWebHref(episodeId: string) {
+  return `https://www.xiaoyuzhoufm.com/episode/${episodeId}`;
+}
+
 function getTopicPodcastCount(topic: ExploreData[number]) {
   return new Set([...topic.consensus, ...topic.divergence].map((item) => item.podcast)).size;
 }
@@ -70,6 +73,10 @@ function getCalendarDayDiff(fromDate: string, toDate: Date) {
 
 function getEpisodeId(episode: PodcastEpisode) {
   return getEpisodeIdFromHref(episode.href);
+}
+
+function getEpisodeIdValue(episode: PodcastEpisode) {
+  return (episode as PodcastEpisode & { episodeId?: string }).episodeId ?? getEpisodeId(episode);
 }
 
 function getSeedFavoriteEpisodeIds(seed: PodcastEpisode[]) {
@@ -99,6 +106,7 @@ type EpisodeDeckProps = {
   onActiveIndexChange: (index: number) => void;
   favorites: PodcastEpisode[];
   onToggleFavorite: (episode: PodcastEpisode, event?: React.MouseEvent) => void;
+  isCompactViewport: boolean;
 };
 
 function EpisodeDeck({
@@ -107,6 +115,7 @@ function EpisodeDeck({
   onActiveIndexChange,
   favorites,
   onToggleFavorite,
+  isCompactViewport,
 }: EpisodeDeckProps) {
   const episodeCount = episodes.length;
 
@@ -180,7 +189,7 @@ function EpisodeDeck({
                   if (diff === -1) handlePrev();
                   if (diff === 1) handleNext();
                 }}
-                className="relative overflow-hidden rounded-[20px] border border-black/10 bg-white px-5 pt-5 pb-6 flex flex-col paper-texture cursor-grab active:cursor-grabbing select-none"
+                className="relative overflow-hidden rounded-[20px] border border-black/10 bg-white px-5 pt-5 pb-10 flex flex-col paper-texture cursor-grab active:cursor-grabbing select-none"
                 style={{
                   position: 'absolute',
                   left: '24px',
@@ -282,17 +291,13 @@ function EpisodeDeck({
                   ) : null}
                 </div>
 
-                <div className="card-footer-bar relative z-10 mt-auto border-t border-black/5 pt-3 pb-1 flex justify-between items-center text-[10px] font-medium text-zinc-500">
-                  <a
-                    href={episode.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-0.5 hover:underline font-bold text-zinc-700"
-                  >
-                    <span>去小宇宙听</span>
-                    <ExternalLink className="w-2.5 h-2.5" />
-                  </a>
+                <XiaoyuzhouListenLink
+                  episodeId={getEpisodeIdValue(episode)}
+                  isCompactViewport={isCompactViewport}
+                  className="absolute bottom-3 left-4 z-10"
+                />
 
+                <div className="absolute bottom-3 right-4 z-10">
                   <span className="font-mono text-[8px] text-zinc-400">
                     第 {index + 1} 集 / 共 {episodeCount} 集
                   </span>
@@ -345,14 +350,43 @@ function SynthesisCard({ synthesis }: { synthesis: PodcastSynthesis | null }) {
   );
 }
 
+type XiaoyuzhouListenLinkProps = {
+  episodeId: string | null;
+  isCompactViewport: boolean;
+  className?: string;
+};
+
+function XiaoyuzhouListenLink({
+  episodeId,
+  isCompactViewport,
+  className = '',
+}: XiaoyuzhouListenLinkProps) {
+  if (!episodeId) {
+    return null;
+  }
+
+  const href = isCompactViewport ? buildEpisodeHref(episodeId) : buildEpisodeWebHref(episodeId);
+
+  return (
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener"
+      className={`inline-flex items-center text-[12px] font-medium leading-none text-[#FF7A1A] ${className}`.trim()}
+    >
+      去小宇宙听 →
+    </a>
+  );
+}
+
 function TopicSection({
   title,
   points,
-  resolveEpisodeHref,
+  isCompactViewport,
 }: {
   title: string;
   points: TopicPoint[];
-  resolveEpisodeHref: (episodeId: string) => string;
+  isCompactViewport: boolean;
 }) {
   if (!points.length) {
     return null;
@@ -361,22 +395,19 @@ function TopicSection({
   return (
     <section className="space-y-3">
       <h2 className="font-serif font-black text-[15px] text-[#1A1A1A]">{title}</h2>
-                <div className="space-y-2.5">
+      <div className="space-y-2.5">
         {points.map((point, index) => (
-          <div key={`${point.episodeId}-${index}`} className="rounded-xl bg-[#F1EEE8] px-3 py-3">
+          <div
+            key={`${point.episodeId}-${index}`}
+            className="relative rounded-xl bg-[#F1EEE8] px-3 py-3 pb-10"
+          >
             <p className="text-[14px] font-semibold text-[#666666]">{point.podcast}</p>
             <p className="mt-1 text-[15px] leading-[1.6] text-[#1A1A1A]">{point.point}</p>
-            <div className="mt-2 flex justify-end">
-              <a
-                href={resolveEpisodeHref(point.episodeId)}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-1 text-[9px] font-bold text-[#666666] hover:text-[#D14A28]"
-              >
-                <span>去小宇宙听</span>
-                <ExternalLink className="w-2.5 h-2.5" />
-              </a>
-            </div>
+            <XiaoyuzhouListenLink
+              episodeId={point.episodeId}
+              isCompactViewport={isCompactViewport}
+              className="absolute bottom-3 left-4"
+            />
           </div>
         ))}
       </div>
@@ -390,6 +421,13 @@ export default function App() {
   const [showExplore, setShowExplore] = useState(false);
   const [selectedTopicIndex, setSelectedTopicIndex] = useState<number | null>(null);
   const [daysSinceFirstVisit, setDaysSinceFirstVisit] = useState(0);
+  const [isCompactViewport, setIsCompactViewport] = useState(() => {
+    if (typeof window === 'undefined') {
+      return true;
+    }
+
+    return window.innerWidth <= 768;
+  });
   const [favoriteEpisodeIds, setFavoriteEpisodeIds] = useState<string[]>(() => {
     if (typeof window === 'undefined') {
       return getSeedFavoriteEpisodeIds(favoritesSeed);
@@ -429,25 +467,20 @@ export default function App() {
         .filter((episode): episode is PodcastEpisode => Boolean(episode)),
     [favoriteEpisodeIds, episodeLookup]
   );
-  const curatedEpisodeHrefMap = useMemo(() => {
-    const map = new Map<string, string>();
-    for (const episode of curatedEpisodes) {
-      const episodeId = getEpisodeIdFromHref(episode.href);
-      if (episodeId) {
-        map.set(episodeId, episode.href);
-      }
-    }
-    return map;
-  }, [curatedEpisodes]);
 
   useEffect(() => {
     window.localStorage.setItem(FAVORITES_STORAGE_KEY, JSON.stringify(favoriteEpisodeIds));
   }, [favoriteEpisodeIds]);
 
-  const isFavorited = (episode: PodcastEpisode) => {
-    const episodeId = getEpisodeId(episode);
-    return episodeId ? favoriteEpisodeIds.includes(episodeId) : false;
-  };
+  useEffect(() => {
+    const updateViewport = () => {
+      setIsCompactViewport(window.innerWidth <= 768);
+    };
+
+    updateViewport();
+    window.addEventListener('resize', updateViewport);
+    return () => window.removeEventListener('resize', updateViewport);
+  }, []);
 
   const toggleFavorite = (episode: PodcastEpisode, event?: React.MouseEvent) => {
     if (event) {
@@ -481,8 +514,6 @@ export default function App() {
     setSelectedTopicIndex(null);
   };
 
-  const resolveTopicEpisodeHref = (episodeId: string) =>
-    curatedEpisodeHrefMap.get(episodeId) ?? buildEpisodeHref(episodeId);
   const importedFavoritesCount = favoriteEpisodes.length;
   const shortWeekday = getShortWeekday(initialData.chinaDateStr);
 
@@ -537,7 +568,7 @@ export default function App() {
           style={{ paddingBottom: 'calc(64px + env(safe-area-inset-bottom, 0px))' }}
         >
           {activeTab === 'curated' ? (
-            <div className="flex h-full flex-1 flex-col justify-between overflow-hidden px-4 pb-2 pt-4 md:px-5">
+            <div className="flex h-full flex-1 flex-col overflow-y-auto px-4 pt-4 md:px-5">
               <div className="flex justify-between items-center border-b border-black/10 pb-2 select-none">
                 <div className="flex items-baseline gap-1">
                   <span className="font-serif font-black text-xl tracking-tight text-[#1A1A1A]">听荐</span>
@@ -554,27 +585,29 @@ export default function App() {
                 </div>
               </div>
 
-              <EpisodeDeck
-                episodes={curatedEpisodes}
-                activeIndex={activeIndex}
-                onActiveIndexChange={setActiveIndex}
-                favorites={favoriteEpisodes}
-                onToggleFavorite={toggleFavorite}
-              />
+              <div className="flex flex-1 flex-col pb-20">
+                <EpisodeDeck
+                  episodes={curatedEpisodes}
+                  activeIndex={activeIndex}
+                  onActiveIndexChange={setActiveIndex}
+                  favorites={favoriteEpisodes}
+                  onToggleFavorite={toggleFavorite}
+                  isCompactViewport={isCompactViewport}
+                />
 
-              <div className="mt-2 flex w-full shrink-0">
-                {exploreTopics.length > 0 ? (
-                  <button
-                    onClick={openExplore}
-                    className="inline-flex h-10 w-full items-center justify-center gap-1 rounded-full border border-[#D14A28]/20 bg-[#FFF7F2] px-5 py-2.5 text-[14px] font-semibold text-[#B8502F] hover:bg-[#FFF1E8]"
-                  >
-                    <Sparkles className="w-4 h-4" />
-                    <span>议题广场</span>
-                  </button>
-                ) : null}
+                <div className="mt-2 flex w-full shrink-0">
+                  {exploreTopics.length > 0 ? (
+                    <button
+                      onClick={openExplore}
+                      className="inline-flex h-10 w-full items-center justify-center rounded-[20px] border border-[#D14A28]/20 bg-[#FFF7F2] px-5 text-[14px] font-semibold text-[#B8502F] hover:bg-[#FFF1E8]"
+                    >
+                      ✦ 议题广场
+                    </button>
+                  ) : null}
+                </div>
+
+                <SynthesisCard synthesis={curatedSynthesis} />
               </div>
-
-              <SynthesisCard synthesis={curatedSynthesis} />
             </div>
           ) : null}
 
@@ -824,12 +857,12 @@ export default function App() {
                     <TopicSection
                       title="🤝 播客观点共识"
                       points={selectedTopic.consensus}
-                      resolveEpisodeHref={resolveTopicEpisodeHref}
+                      isCompactViewport={isCompactViewport}
                     />
                     <TopicSection
                       title="⚡ 播客观点分歧"
                       points={selectedTopic.divergence}
-                      resolveEpisodeHref={resolveTopicEpisodeHref}
+                      isCompactViewport={isCompactViewport}
                     />
                   </div>
                 </div>
