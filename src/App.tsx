@@ -38,6 +38,18 @@ const favoritesSeed = favoritesDataRaw as PodcastEpisode[];
 const rankingData = rankingDataRaw as RankingEpisode[];
 const FIRST_VISIT_DATE_STORAGE_KEY = 'firstVisitDate';
 const LEGACY_FIRST_VISIT_DATE_STORAGE_KEY = 'pickast-first-visit-date';
+const ABOUT_PICKAST_TEXT = `听荐是一款 AI 驱动的播客筛选工具,帮你从信息洪流里捞出真正值得听的内容。
+
+① 今日精选
+AI 每天替你听完上百集播客,挑出 3 期最值得听的,附推荐理由和节目金句,让你 10 秒就能判断"要不要听这期"。
+
+② 议题广场
+当多档播客同时讨论同一件事,AI 会自动聚合它们的共识与分歧,一眼看清"大家怎么看"。
+
+③ 收藏夹
+想反复听的单集、击中你的播客观点,一键收藏。已收藏的不再重复推荐,避免推荐疲劳。
+
+把筛选交给 AI,把聆听留给你。`;
 
 function getEpisodeKey(episode: PodcastEpisode) {
   return `${episode.podcastName}::${episode.episodeTitle}`;
@@ -891,9 +903,6 @@ export default function App() {
                   favoriteItems.map((favorite) => {
                     const briefingEpisode = episodeLookup.get(favorite.id);
                     const topicEpisodeDetail = topicEpisodeDetailLookup.get(favorite.id);
-                    const href = favorite.type === 'topic_episode'
-                      ? buildEpisodeWebHref(favorite.id)
-                      : briefingEpisode?.href ?? buildEpisodeWebHref(favorite.id);
 
                     if (favorite.type === 'topic_episode') {
                       return (
@@ -935,15 +944,11 @@ export default function App() {
                           </p>
 
                           <div className="flex justify-between items-center text-[9px] border-t border-black/5 pt-2 mt-0.5">
-                            <a
-                              href={href}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="inline-flex items-center gap-0.5 hover:underline font-bold text-[#D14A28]"
-                            >
-                              <span>去小宇宙听</span>
-                              <ExternalLink className="w-2.5 h-2.5" />
-                            </a>
+                            <XiaoyuzhouListenLink
+                              episodeId={favorite.id}
+                              isCompactViewport={isCompactViewport}
+                              className="font-bold text-[#D14A28]"
+                            />
                           </div>
                         </div>
                       );
@@ -982,15 +987,11 @@ export default function App() {
                         </h3>
 
                         <div className="flex justify-between items-center text-[9px] border-t border-black/5 pt-2 mt-0.5">
-                          <a
-                            href={briefingEpisode.href}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="inline-flex items-center gap-0.5 hover:underline font-bold"
-                          >
-                            <span>播放该单集</span>
-                            <ExternalLink className="w-2.5 h-2.5" />
-                          </a>
+                          <XiaoyuzhouListenLink
+                            episodeId={favorite.id}
+                            isCompactViewport={isCompactViewport}
+                            className="font-bold"
+                          />
 
                           <button
                             onClick={(event) => toggleBriefingFavorite(briefingEpisode, event)}
@@ -1013,33 +1014,37 @@ export default function App() {
                 <h1 className="font-serif font-black text-xl tracking-tight text-[#1A1A1A]">我的听荐</h1>
               </div>
 
-              <div className="mt-5 flex-1 overflow-y-auto space-y-3.5 pb-4 min-h-0 scrollbar-thin scrollbar-thumb-zinc-300">
-                <section className="relative overflow-hidden rounded-[24px] border border-black/10 bg-white px-4 pb-5 pt-5 paper-texture shadow-sm">
+              <div
+                className={`mt-3 flex-1 min-h-0 space-y-2.5 pb-2 ${
+                  aboutExpanded ? 'overflow-y-auto pr-0.5 scrollbar-thin scrollbar-thumb-zinc-300' : 'overflow-hidden'
+                }`}
+              >
+                <section className="relative overflow-hidden rounded-[24px] border border-black/10 bg-white px-4 pb-4 pt-4 paper-texture shadow-sm">
                   <div className="absolute inset-x-0 top-0 h-[5.5px]" style={{ backgroundColor: '#D14A28' }} />
                   <div className="flex items-start justify-between gap-4">
                     <div className="max-w-[230px]">
                       <p className="text-[10px] font-medium uppercase tracking-[0.18em] text-[#888888]">
                         陪伴统计
                       </p>
-                      <p className="mt-3 font-serif text-[20px] font-black leading-[1.45] text-[#1A1A1A]">
+                      <p className="mt-2.5 font-serif text-[20px] font-black leading-[1.4] text-[#1A1A1A]">
                         认识听荐的第{' '}
                         <span className="rounded bg-[#FFF1E8] px-1.5 py-0.5 text-[#D14A28]">
                           {daysSinceFirstVisit || 1}
                         </span>
                         天
                       </p>
-                      <p className="mt-3 text-[13px] leading-relaxed text-[#666666]">
+                      <p className="mt-2 text-[12px] leading-relaxed text-[#666666]">
                         把筛选交给 AI,把聆听留给你
                       </p>
                     </div>
                   </div>
                 </section>
 
-                <section className="relative flex max-h-[400px] flex-col overflow-hidden rounded-[24px] border border-black/10 bg-white px-4 pb-4 pt-5 paper-texture shadow-sm">
+                <section className="relative flex h-[298px] flex-col overflow-hidden rounded-[24px] border border-black/10 bg-white px-4 pb-3 pt-4 paper-texture shadow-sm">
                   <div className="absolute inset-x-0 top-0 h-[5.5px]" style={{ backgroundColor: '#D14A28' }} />
                   <div className="flex items-center justify-between gap-3">
                     <div>
-                      <p className="font-serif font-black text-[18px] text-[#1A1A1A]">我的订阅源</p>
+                      <p className="font-serif font-black text-[17px] text-[#1A1A1A]">我的订阅源</p>
                     </div>
 
                     <button
@@ -1051,7 +1056,7 @@ export default function App() {
                     </button>
                   </div>
 
-                  <div className="mt-4 flex-1 space-y-2.5 overflow-y-auto pr-0.5 scrollbar-thin scrollbar-thumb-zinc-300">
+                  <div className="mt-3 flex-1 space-y-2 overflow-y-auto pr-0.5 scrollbar-thin scrollbar-thumb-zinc-300">
                     {subscriptionItems.map((item) => (
                       <button
                         key={item.podcastName}
@@ -1078,16 +1083,16 @@ export default function App() {
                             />
                           ) : (
                             <span className="px-1 text-center font-serif text-[11px] font-black leading-tight text-[#1A1A1A]">
-                              {item.podcastName.slice(0, 2)}
+                            {item.podcastName.slice(0, 2)}
                             </span>
                           )}
                         </div>
 
                         <div className="min-w-0 flex-1">
-                          <p className="truncate font-serif font-black text-[13px] text-[#1A1A1A]">
+                          <p className="truncate font-serif font-black text-[12px] text-[#1A1A1A]">
                             {item.podcastName}
                           </p>
-                          <p className="mt-0.5 text-[10px] text-[#888888]">
+                          <p className="mt-0.5 text-[9px] text-[#888888]">
                             {item.podcastId ? '已绑定播客主页' : '将通过搜索打开主页'}
                           </p>
                         </div>
@@ -1104,8 +1109,8 @@ export default function App() {
                   </p>
                 </section>
 
-                <section className="space-y-3">
-                  <div className="relative overflow-hidden rounded-[24px] border border-black/10 bg-white px-4 py-4 paper-texture shadow-sm">
+                <section className="space-y-2.5">
+                  <div className="relative overflow-hidden rounded-[24px] border border-black/10 bg-white px-4 py-3 paper-texture shadow-sm">
                     <div className="absolute inset-x-0 top-0 h-[5.5px]" style={{ backgroundColor: '#D14A28' }} />
                     <button
                       type="button"
@@ -1120,48 +1125,17 @@ export default function App() {
                       />
                     </button>
 
-                    <div
-                      className={`overflow-hidden transition-all duration-300 ${
-                        aboutExpanded ? 'mt-3 max-h-40 opacity-100' : 'max-h-0 opacity-0'
-                      }`}
-                    >
-                      <div className="space-y-3 text-[13px] leading-relaxed text-[#666666]">
-                        <p>
-                          听荐是一款 AI 驱动的播客筛选工具,帮你从信息洪流里捞出真正值得听的内容。
-                        </p>
-
-                        <div className="space-y-3">
-                          <div className="rounded-[18px] bg-[#FAF9F5] px-3.5 py-3">
-                            <p className="font-serif font-black text-[14px] text-[#1A1A1A]">① 今日精选</p>
-                            <p className="mt-1.5">
-                              AI 每天替你听完上百集播客,只挑出 3 期最值得听的,附上一段推荐理由和一句节目中的原话金句,让你 30 秒就能判断&quot;要不要点开&quot;。如果某一期没有合适的金句,我们宁可空着,也不编一句假的。
-                            </p>
-                          </div>
-
-                          <div className="rounded-[18px] bg-[#FAF9F5] px-3.5 py-3">
-                            <p className="font-serif font-black text-[14px] text-[#1A1A1A]">② 议题广场</p>
-                            <p className="mt-1.5">
-                              当多档播客同时讨论同一件事,AI 会自动聚合它们的共识与分歧,让你一眼看清&quot;大家怎么看&quot;。
-                            </p>
-                          </div>
-
-                          <div className="rounded-[18px] bg-[#FAF9F5] px-3.5 py-3">
-                            <p className="font-serif font-black text-[14px] text-[#1A1A1A]">③ 收藏夹</p>
-                            <p className="mt-1.5">
-                              想反复听的单集、击中你的播客观点,一键收藏。已收藏的不再重复推荐,避免推荐疲劳。
-                            </p>
-                          </div>
-                        </div>
-
-                        <p>把筛选交给 AI,把聆听留给你。</p>
+                    {aboutExpanded ? (
+                      <div className="mt-3 whitespace-pre-line text-[12px] leading-relaxed text-[#666666]">
+                        {ABOUT_PICKAST_TEXT}
                       </div>
-                    </div>
+                    ) : null}
                   </div>
 
-                  <div className="relative overflow-hidden rounded-[24px] border border-black/10 bg-white px-4 py-4 paper-texture shadow-sm">
+                  <div className="relative overflow-hidden rounded-[24px] border border-black/10 bg-white px-4 py-3 paper-texture shadow-sm">
                     <div className="absolute inset-x-0 top-0 h-[5.5px]" style={{ backgroundColor: '#D14A28' }} />
                     <p className="text-[10px] font-medium uppercase tracking-[0.18em] text-[#888888]">版本号</p>
-                    <p className="mt-2 font-serif font-black text-[16px] text-[#1A1A1A]">v0.1</p>
+                    <p className="mt-1.5 font-serif font-black text-[15px] text-[#1A1A1A]">v0.1</p>
                   </div>
                 </section>
               </div>
