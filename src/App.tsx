@@ -798,10 +798,10 @@ export default function App() {
   return (
     <div
       id="briefing-app"
-      className="min-h-[100dvh] flex flex-col w-full overflow-hidden bg-[#EFECE6] pt-[env(safe-area-inset-top)] font-sans antialiased text-[#1A1A1A]"
+      className="flex h-[100dvh] w-full flex-col overflow-hidden bg-[#EFECE6] pt-[env(safe-area-inset-top)] font-sans antialiased text-[#1A1A1A]"
     >
       <div
-        className="relative mx-auto flex w-full max-w-[480px] flex-1 flex-col overflow-hidden bg-[#F7F4EC] select-none"
+        className="relative mx-auto flex h-full w-full max-w-[480px] flex-1 flex-col overflow-hidden bg-[#F7F4EC] select-none"
         style={{ contentVisibility: 'auto' }}
       >
         <style>{`
@@ -1008,13 +1008,13 @@ export default function App() {
           ) : null}
 
           {activeTab === 'my' ? (
-            <div className="flex h-full flex-1 flex-col justify-start overflow-hidden px-4 pb-1 pt-3 md:px-5">
+            <div className="flex h-full flex-1 flex-col justify-start overflow-y-auto px-4 pb-1 pt-3 md:px-5">
               <div>
                 <h1 className="font-serif font-black text-xl tracking-tight text-[#1A1A1A]">我的听荐</h1>
               </div>
 
-              <div className="mt-2 flex-1 min-h-0 overflow-hidden pb-1">
-                <div className="flex h-full min-h-0 flex-col justify-between gap-2">
+              <div className="mt-2 pb-1">
+                <div className="space-y-2">
                   <section className="relative overflow-hidden rounded-[24px] border border-black/10 bg-white px-4 pb-3.5 pt-3.5 paper-texture shadow-sm">
                     <div className="absolute inset-x-0 top-0 h-[5.5px]" style={{ backgroundColor: '#D14A28' }} />
                     <div className="flex items-start justify-between gap-4">
@@ -1151,7 +1151,7 @@ export default function App() {
         </div>
 
         <div
-          className="fixed bottom-0 left-1/2 z-[90] flex w-full max-w-[480px] -translate-x-1/2 items-center justify-between border-t-2 border-[#1A1A1A] bg-[#FAF9F5] px-4 pt-2 md:px-5 paper-texture"
+          className="absolute bottom-0 left-0 right-0 z-[90] flex items-center justify-between border-t-2 border-[#1A1A1A] bg-[#FAF9F5] px-4 pt-2 md:px-5 paper-texture"
           style={{
             minHeight: 'calc(64px + env(safe-area-inset-bottom, 0px))',
             paddingBottom: 'calc(8px + env(safe-area-inset-bottom, 0px))',
