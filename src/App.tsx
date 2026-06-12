@@ -374,17 +374,38 @@ function XiaoyuzhouListenLink({
     return null;
   }
 
-  const href = isCompactViewport ? buildEpisodeHref(episodeId) : buildEpisodeWebHref(episodeId);
+  const handleClick = () => {
+    const webUrl = buildEpisodeWebHref(episodeId);
+
+    if (isCompactViewport) {
+      const deepLink = buildEpisodeHref(episodeId);
+      const fallbackTimer = window.setTimeout(() => {
+        window.location.href = webUrl;
+      }, 1500);
+
+      const handleVisibilityChange = () => {
+        if (document.hidden) {
+          window.clearTimeout(fallbackTimer);
+          document.removeEventListener('visibilitychange', handleVisibilityChange);
+        }
+      };
+
+      document.addEventListener('visibilitychange', handleVisibilityChange);
+      window.location.href = deepLink;
+      return;
+    }
+
+    window.open(webUrl, '_blank', 'noopener');
+  };
 
   return (
-    <a
-      href={href}
-      target="_blank"
-      rel="noopener"
-      className={`inline-flex items-center text-[12px] font-medium leading-none text-[#FF7A1A] ${className}`.trim()}
+    <button
+      type="button"
+      onClick={handleClick}
+      className={`inline-flex items-center text-[12px] font-medium leading-none text-[#FF7A1A] hover:opacity-80 active:opacity-60 transition ${className}`.trim()}
     >
       去小宇宙听 →
-    </a>
+    </button>
   );
 }
 
