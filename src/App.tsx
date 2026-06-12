@@ -11,7 +11,6 @@ import {
   Check,
   ChevronDown,
   Compass,
-  ExternalLink,
   User,
   X,
 } from 'lucide-react';
@@ -1009,24 +1008,21 @@ export default function App() {
           ) : null}
 
           {activeTab === 'my' ? (
-            <div className="flex h-full flex-1 flex-col justify-start overflow-hidden px-4 pb-2 pt-4 md:px-5">
+            <div className="flex h-full flex-1 flex-col justify-start overflow-hidden px-4 pb-1 pt-3 md:px-5">
               <div>
                 <h1 className="font-serif font-black text-xl tracking-tight text-[#1A1A1A]">我的听荐</h1>
               </div>
 
-              <div
-                className={`mt-3 flex-1 min-h-0 space-y-2.5 pb-2 ${
-                  aboutExpanded ? 'overflow-y-auto pr-0.5 scrollbar-thin scrollbar-thumb-zinc-300' : 'overflow-hidden'
-                }`}
-              >
-                <section className="relative overflow-hidden rounded-[24px] border border-black/10 bg-white px-4 pb-4 pt-4 paper-texture shadow-sm">
+              <div className="mt-2 flex-1 min-h-0 overflow-hidden pb-1">
+                <div className="flex h-full min-h-0 flex-col justify-between gap-2">
+                <section className="relative overflow-hidden rounded-[24px] border border-black/10 bg-white px-4 pb-3.5 pt-3.5 paper-texture shadow-sm">
                   <div className="absolute inset-x-0 top-0 h-[5.5px]" style={{ backgroundColor: '#D14A28' }} />
                   <div className="flex items-start justify-between gap-4">
                     <div className="max-w-[230px]">
                       <p className="text-[10px] font-medium uppercase tracking-[0.18em] text-[#888888]">
                         陪伴统计
                       </p>
-                      <p className="mt-2.5 font-serif text-[20px] font-black leading-[1.4] text-[#1A1A1A]">
+                      <p className="mt-2 font-serif text-[20px] font-black leading-[1.35] text-[#1A1A1A]">
                         认识听荐的第{' '}
                         <span className="rounded bg-[#FFF1E8] px-1.5 py-0.5 text-[#D14A28]">
                           {daysSinceFirstVisit || 1}
@@ -1040,7 +1036,7 @@ export default function App() {
                   </div>
                 </section>
 
-                <section className="relative flex h-[298px] flex-col overflow-hidden rounded-[24px] border border-black/10 bg-white px-4 pb-3 pt-4 paper-texture shadow-sm">
+                <section className="relative flex h-[292px] flex-col overflow-hidden rounded-[24px] border border-black/10 bg-white px-4 pb-3 pt-3.5 paper-texture shadow-sm">
                   <div className="absolute inset-x-0 top-0 h-[5.5px]" style={{ backgroundColor: '#D14A28' }} />
                   <div className="flex items-center justify-between gap-3">
                     <div>
@@ -1109,7 +1105,7 @@ export default function App() {
                   </p>
                 </section>
 
-                <section className="space-y-2.5">
+                <section className="space-y-2">
                   <div className="relative overflow-hidden rounded-[24px] border border-black/10 bg-white px-4 py-3 paper-texture shadow-sm">
                     <div className="absolute inset-x-0 top-0 h-[5.5px]" style={{ backgroundColor: '#D14A28' }} />
                     <button
@@ -1126,18 +1122,15 @@ export default function App() {
                     </button>
 
                     {aboutExpanded ? (
-                      <div className="mt-3 whitespace-pre-line text-[12px] leading-relaxed text-[#666666]">
+                      <div className="mt-2 h-[200px] overflow-y-auto pr-0.5 whitespace-pre-line text-[12px] leading-relaxed text-[#666666] scrollbar-thin scrollbar-thumb-zinc-300">
                         {ABOUT_PICKAST_TEXT}
                       </div>
                     ) : null}
                   </div>
 
-                  <div className="relative overflow-hidden rounded-[24px] border border-black/10 bg-white px-4 py-3 paper-texture shadow-sm">
-                    <div className="absolute inset-x-0 top-0 h-[5.5px]" style={{ backgroundColor: '#D14A28' }} />
-                    <p className="text-[10px] font-medium uppercase tracking-[0.18em] text-[#888888]">版本号</p>
-                    <p className="mt-1.5 font-serif font-black text-[15px] text-[#1A1A1A]">v0.1</p>
-                  </div>
                 </section>
+                <p className="pb-0.5 text-center text-[10px] leading-none text-[#A1A1AA]">v0.1</p>
+                </div>
               </div>
             </div>
           ) : null}
