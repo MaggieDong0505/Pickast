@@ -303,7 +303,7 @@ function EpisodeDeck({
 
   return (
     <>
-      <div className="relative mt-16 flex w-full flex-none flex-col items-center justify-start overflow-visible">
+      <div className="relative mt-8 flex w-full flex-none flex-col items-center justify-start overflow-visible">
         <div className="relative h-fit w-full max-w-[344px] overflow-visible min-h-0">
           {episodes.map((episode, index) => {
             let diff = 0;
@@ -899,7 +899,7 @@ export default function App() {
                   isCompactViewport={isCompactViewport}
                 />
 
-                <div className="mt-3 flex w-full shrink-0">
+                <div className="mt-2 flex w-full shrink-0">
                   {exploreTopics.length > 0 ? (
                     <button
                       onClick={openExplore}
