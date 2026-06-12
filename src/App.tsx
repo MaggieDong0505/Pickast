@@ -25,6 +25,7 @@ type AppTab = 'curated' | 'favorites' | 'my';
 
 const exploreData = exploreDataRaw as ExploreData;
 const favoritesSeed = favoritesDataRaw as PodcastEpisode[];
+const FAVORITES_STORAGE_KEY = 'pickast_favorites';
 
 function getEpisodeKey(episode: PodcastEpisode) {
   return `${episode.podcastName}::${episode.episodeTitle}`;
@@ -65,6 +66,31 @@ function getCalendarDayDiff(fromDate: string, toDate: Date) {
   }
 
   return Math.max(0, Math.floor((end.getTime() - start.getTime()) / 86400000));
+}
+
+function getEpisodeId(episode: PodcastEpisode) {
+  return getEpisodeIdFromHref(episode.href);
+}
+
+function getSeedFavoriteEpisodeIds(seed: PodcastEpisode[]) {
+  return seed.map(getEpisodeId).filter((id): id is string => Boolean(id));
+}
+
+function parseFavoriteEpisodeIds(rawValue: string | null) {
+  if (!rawValue) {
+    return [];
+  }
+
+  try {
+    const parsed = JSON.parse(rawValue);
+    if (!Array.isArray(parsed)) {
+      return [];
+    }
+
+    return parsed.filter((value): value is string => typeof value === 'string' && Boolean(value));
+  } catch {
+    return [];
+  }
 }
 
 type EpisodeDeckProps = {
@@ -110,7 +136,7 @@ function EpisodeDeck({
     <>
       <div className="relative flex w-full items-center justify-center overflow-visible py-1">
         <div
-          className="relative w-full max-w-[388px] overflow-visible"
+          className="relative w-full max-w-[344px] overflow-visible"
           style={{ aspectRatio: '29 / 50' }}
         >
           {episodes.map((episode, index) => {
@@ -361,10 +387,23 @@ function TopicSection({
 export default function App() {
   const [activeTab, setActiveTab] = useState<AppTab>('curated');
   const [activeIndex, setActiveIndex] = useState(0);
-  const [favorites, setFavorites] = useState<PodcastEpisode[]>([]);
   const [showExplore, setShowExplore] = useState(false);
   const [selectedTopicIndex, setSelectedTopicIndex] = useState<number | null>(null);
   const [daysSinceFirstVisit, setDaysSinceFirstVisit] = useState(0);
+  const [favoriteEpisodeIds, setFavoriteEpisodeIds] = useState<string[]>(() => {
+    if (typeof window === 'undefined') {
+      return getSeedFavoriteEpisodeIds(favoritesSeed);
+    }
+
+    const storedIds = parseFavoriteEpisodeIds(window.localStorage.getItem(FAVORITES_STORAGE_KEY));
+    if (storedIds.length > 0) {
+      return storedIds;
+    }
+
+    const seedIds = getSeedFavoriteEpisodeIds(favoritesSeed);
+    window.localStorage.setItem(FAVORITES_STORAGE_KEY, JSON.stringify(seedIds));
+    return seedIds;
+  });
 
   const curatedEpisodes = useMemo(
     () => [initialData.mainEpisode, ...initialData.backupEpisodes],
@@ -373,6 +412,23 @@ export default function App() {
   const curatedSynthesis = toSynthesis(initialData.synthesis);
   const exploreTopics = useMemo(() => (Array.isArray(exploreData) ? exploreData : []), []);
   const selectedTopic = selectedTopicIndex !== null ? exploreTopics[selectedTopicIndex] ?? null : null;
+  const episodeLookup = useMemo(() => {
+    const map = new Map<string, PodcastEpisode>();
+    [...curatedEpisodes, ...favoritesSeed].forEach((episode) => {
+      const episodeId = getEpisodeId(episode);
+      if (episodeId && !map.has(episodeId)) {
+        map.set(episodeId, episode);
+      }
+    });
+    return map;
+  }, [curatedEpisodes]);
+  const favoriteEpisodes = useMemo(
+    () =>
+      favoriteEpisodeIds
+        .map((episodeId) => episodeLookup.get(episodeId))
+        .filter((episode): episode is PodcastEpisode => Boolean(episode)),
+    [favoriteEpisodeIds, episodeLookup]
+  );
   const curatedEpisodeHrefMap = useMemo(() => {
     const map = new Map<string, string>();
     for (const episode of curatedEpisodes) {
@@ -384,8 +440,14 @@ export default function App() {
     return map;
   }, [curatedEpisodes]);
 
-  const isFavorited = (episode: PodcastEpisode) =>
-    favorites.some((item) => getEpisodeKey(item) === getEpisodeKey(episode));
+  useEffect(() => {
+    window.localStorage.setItem(FAVORITES_STORAGE_KEY, JSON.stringify(favoriteEpisodeIds));
+  }, [favoriteEpisodeIds]);
+
+  const isFavorited = (episode: PodcastEpisode) => {
+    const episodeId = getEpisodeId(episode);
+    return episodeId ? favoriteEpisodeIds.includes(episodeId) : false;
+  };
 
   const toggleFavorite = (episode: PodcastEpisode, event?: React.MouseEvent) => {
     if (event) {
@@ -393,12 +455,14 @@ export default function App() {
       event.stopPropagation();
     }
 
-    if (isFavorited(episode)) {
-      setFavorites((prev) => prev.filter((item) => getEpisodeKey(item) !== getEpisodeKey(episode)));
+    const episodeId = getEpisodeId(episode);
+    if (!episodeId) {
       return;
     }
 
-    setFavorites((prev) => [...prev, episode]);
+    setFavoriteEpisodeIds((prev) =>
+      prev.includes(episodeId) ? prev.filter((item) => item !== episodeId) : [...prev, episodeId]
+    );
   };
 
   const switchTab = (tab: AppTab) => {
@@ -419,7 +483,7 @@ export default function App() {
 
   const resolveTopicEpisodeHref = (episodeId: string) =>
     curatedEpisodeHrefMap.get(episodeId) ?? buildEpisodeHref(episodeId);
-  const importedFavoritesCount = Array.isArray(favoritesSeed) ? favoritesSeed.length : 0;
+  const importedFavoritesCount = favoriteEpisodes.length;
   const shortWeekday = getShortWeekday(initialData.chinaDateStr);
 
   useEffect(() => {
@@ -443,7 +507,7 @@ export default function App() {
       className="h-[100dvh] min-h-screen w-full bg-[#EFECE6] font-sans antialiased text-[#1A1A1A] overflow-x-hidden"
     >
       <div
-        className="relative flex h-full w-full flex-col overflow-hidden bg-[#F7F4EC] select-none md:mx-auto md:max-w-[420px]"
+        className="relative mx-auto flex h-full w-full max-w-[480px] flex-col overflow-hidden bg-[#F7F4EC] select-none"
         style={{ contentVisibility: 'auto' }}
       >
         <style>{`
@@ -494,21 +558,19 @@ export default function App() {
                 episodes={curatedEpisodes}
                 activeIndex={activeIndex}
                 onActiveIndexChange={setActiveIndex}
-                favorites={favorites}
+                favorites={favoriteEpisodes}
                 onToggleFavorite={toggleFavorite}
               />
 
-              <div className="mt-1 flex w-full">
-                {exploreTopics.length ? (
-                  <>
-                    <button
-                      onClick={openExplore}
-                      className="inline-flex h-10 w-full items-center justify-center gap-1 rounded-full border border-[#D14A28]/20 bg-[#FFF7F2] px-5 py-2.5 text-[14px] font-semibold text-[#B8502F] hover:bg-[#FFF1E8]"
-                    >
-                      <Sparkles className="w-4 h-4" />
-                      <span>议题广场</span>
-                    </button>
-                  </>
+              <div className="mt-2 flex w-full shrink-0">
+                {exploreTopics.length > 0 ? (
+                  <button
+                    onClick={openExplore}
+                    className="inline-flex h-10 w-full items-center justify-center gap-1 rounded-full border border-[#D14A28]/20 bg-[#FFF7F2] px-5 py-2.5 text-[14px] font-semibold text-[#B8502F] hover:bg-[#FFF1E8]"
+                  >
+                    <Sparkles className="w-4 h-4" />
+                    <span>议题广场</span>
+                  </button>
                 ) : null}
               </div>
 
@@ -522,7 +584,7 @@ export default function App() {
                 <h1 className="font-serif font-black text-xl tracking-tight text-[#1A1A1A] flex items-center gap-1.5">
                   <span>我的播客收藏</span>
                   <span className="text-[10px] bg-[#1A1A1A] text-[#FAF9F5] px-1.5 py-0.5 rounded font-mono font-bold">
-                    {favorites.length}
+                    {favoriteEpisodes.length}
                   </span>
                 </h1>
                 <p className="text-[11px] text-[#888888] mt-0.5 font-medium">收藏你想反复听的单集。</p>
@@ -532,14 +594,14 @@ export default function App() {
               </div>
 
               <div className="flex-1 overflow-y-auto space-y-3.5 pr-0.5 scrollbar-thin scrollbar-thumb-zinc-300 min-h-0">
-                {favorites.length === 0 ? (
+                {favoriteEpisodes.length === 0 ? (
                   <div className="flex flex-col items-center justify-center text-center py-16 bg-[#FAF9F5] border border-[#1A1A1A]/20 rounded-2xl p-6 paper-texture shadow-sm">
                     <Bookmark className="w-8 h-8 stroke-1 text-[#888888] mb-3" />
                     <h3 className="font-serif font-bold text-xs text-[#1A1A1A] mb-1">还没有收藏，去今日精选看看</h3>
                     <p className="text-[10px] text-[#666666] leading-relaxed">在卡片上点爱心即可收藏</p>
                   </div>
                 ) : (
-                  favorites.map((episode) => (
+                  favoriteEpisodes.map((episode) => (
                     <div
                       key={getEpisodeKey(episode)}
                       className="bg-[#FAF9F5] border border-[#1A1A1A] rounded-xl p-3.5 shadow-sm relative overflow-hidden flex flex-col justify-between paper-texture"
