@@ -23,11 +23,11 @@ export const initialData: BriefingCardData = {
     "coverText": "跨国",
     "coverBg": "bg-[#18181B]",
     "coverTextColor": "text-amber-50",
-    "whyRecommended": "适合对AI、技术停滞、文明风险有深度兴趣的听众，一场跨越科技、政治与历史的思维风暴。",
+    "whyRecommended": "PeterThiel与JoeRogan的深度对谈，涵盖AI、技术停滞、文明风险等宏大议题，适合对科技与社会未。",
     "viewpoints": [
-      "ChatGPT通过图灵测试可能比AGI更重要",
-      "比特世界进步，原子世界停滞的悖论",
-      "低生育率可能形成自我强化的下降螺旋"
+      "ChatGPT 通过图灵测试可能比 AGI 更重要",
+      "比特世界进步，原子世界停滞",
+      "低生育率可能比想象中更难逆转"
     ],
     "goldenQuotes": [
       {
@@ -41,11 +41,11 @@ export const initialData: BriefingCardData = {
         "source_note": "来自本期 shownote"
       }
     ],
-    "triageTag": "📖值得精听｜信息密度极高，需专注思考",
+    "triageTag": "📖值得精听｜Thiel 论 AI",
     "href": "cosmos://page.cos/episode/6a2abd770a34cf8ce5a78266?utm_source=rss",
-    "whyRecommend": "适合对AI、技术停滞、文明风险有深度兴趣的听众，一场跨越科技、政治与历史的思维风暴。",
+    "whyRecommend": "PeterThiel与JoeRogan的深度对谈，涵盖AI、技术停滞、文明风险等宏大议题，适合对科技与社会未。",
     "goldenQuote": "你实际生活的环境，一百年来并没有改变。",
-    "topicTag": "📖值得精听｜信息密度极高，需专注思考"
+    "topicTag": "📖值得精听｜Thiel 论 AI"
   },
   "backupEpisodes": [
     {
@@ -59,10 +59,10 @@ export const initialData: BriefingCardData = {
       "coverText": "搞钱",
       "coverBg": "bg-[#18181B]",
       "coverTextColor": "text-amber-50",
-      "whyRecommended": "职场沟通实战宝典，适合想提升汇报、加薪、跨部门协作效率的职场人，有具体话术和案例。",
+      "whyRecommended": "适合职场新人及老手，用真实案例和具体方法解决沟通内耗，Olga姐姐35年经验提炼的沟通宝典。",
       "viewpoints": [
         "提不同意不讨人厌法：表达要干脆，先yes再and",
-        "EARS高效能沟通法则：Explore→Analyze→Response→Stick",
+        "EARS高效能沟通法则：探索、分析、回应、立flag",
         "升职加薪靠日常有效汇报，非年底一博"
       ],
       "goldenQuotes": [
@@ -75,14 +75,19 @@ export const initialData: BriefingCardData = {
           "quote": "强女不是永远不倒，是倒了还能利他且不卖惨地分享经验",
           "source": "来自本期 shownote",
           "source_note": "来自本期 shownote"
+        },
+        {
+          "quote": "别拐弯抹角，别小看自己，别内耗",
+          "source": "来自本期 shownote",
+          "source_note": "来自本期 shownote"
         }
       ],
-      "triageTag": "🚶边走边听｜案例多，方法具体，可边听",
+      "triageTag": "☕有空再听｜职场沟通实战故事+方法",
       "href": "cosmos://page.cos/episode/6a29bb33dbccffcfa9c6fdda?utm_source=rss",
       "scenario": "",
-      "whyRecommend": "职场沟通实战宝典，适合想提升汇报、加薪、跨部门协作效率的职场人，有具体话术和案例。",
+      "whyRecommend": "适合职场新人及老手，用真实案例和具体方法解决沟通内耗，Olga姐姐35年经验提炼的沟通宝典。",
       "goldenQuote": "不是人微而言轻，而是言轻才人微！",
-      "topicTag": "🚶边走边听｜案例多，方法具体，可边听"
+      "topicTag": "☕有空再听｜职场沟通实战故事+方法"
     },
     {
       "episodeId": "6a242507b30e1571aea1b88d",
@@ -95,19 +100,19 @@ export const initialData: BriefingCardData = {
       "coverText": "十分",
       "coverBg": "bg-[#18181B]",
       "coverTextColor": "text-amber-50",
-      "whyRecommended": "想理解韩国股市暴涨、Kpop产业逻辑与K型社会分化，这期用3K主线拼出真实韩国图景，适合对经济、社会议题感兴。",
+      "whyRecommended": "适合对韩国经济、股市、社会结构感兴趣的听众，从3K主线剖析韩国繁荣背后的脆弱性。",
       "viewpoints": [
-        "韩国股市2026年指数翻倍，SK海力士股价涨超10倍",
-        "Kpop用造芯片的方式造爱豆，出口导向标准化生产",
-        "韩国家庭债务与可支配收入比高达170%，净储蓄率仅4%"
+        "韩国股市2026年翻倍，散户接盘外资出逃",
+        "SK海力士HBM深度绑定英伟达，股价涨超10倍",
+        "K型社会分化加剧，家庭债务与赌性并存"
       ],
       "goldenQuotes": [],
-      "triageTag": "📖值得精听｜信息密度高，需专注理解",
+      "triageTag": "📖值得精听｜韩国股市翻倍背后的结构性分析",
       "href": "cosmos://page.cos/episode/6a242507b30e1571aea1b88d?utm_source=rss",
       "scenario": "",
-      "whyRecommend": "想理解韩国股市暴涨、Kpop产业逻辑与K型社会分化，这期用3K主线拼出真实韩国图景，适合对经济、社会议题感兴。",
-      "goldenQuote": "想理解韩国股市暴涨、Kpop产业逻辑与K型社会分化，这期用3K主线拼出真实韩国图景，适合对经济、社会议题感兴。",
-      "topicTag": "📖值得精听｜信息密度高，需专注理解"
+      "whyRecommend": "适合对韩国经济、股市、社会结构感兴趣的听众，从3K主线剖析韩国繁荣背后的脆弱性。",
+      "goldenQuote": "适合对韩国经济、股市、社会结构感兴趣的听众，从3K主线剖析韩国繁荣背后的脆弱性。",
+      "topicTag": "📖值得精听｜韩国股市翻倍背后的结构性分析"
     }
   ],
   "synthesis": null

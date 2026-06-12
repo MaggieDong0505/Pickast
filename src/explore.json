@@ -1,7 +1,24 @@
 [
   {
-    "title": "AIAgent会取代软件公司吗？",
-    "domainTag": "AI与软件",
+    "title": "AI投资热潮是否过热",
+    "domainTag": "AI投资",
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI热潮才刚刚开始，不是泡沫",
+        "episodeId": "6a286aa1dbccffcfa9c661ec"
+      },
+      {
+        "podcast": "十字路口Crossing",
+        "point": "AI投资存在泡沫，商业价值高度集中",
+        "episodeId": "6a275ed57444b5722235a897"
+      }
+    ]
+  },
+  {
+    "title": "AI会让软件公司消失吗",
+    "domainTag": "AI与商业",
     "consensus": [],
     "divergence": [
       {
@@ -11,7 +28,7 @@
       },
       {
         "podcast": "十字路口Crossing",
-        "point": "传统软件老路径更难，商业价值被基模吞掉",
+        "point": "传统软件老路径变得更难，创业机会在两极化",
         "episodeId": "6a275ed57444b5722235a897"
       }
     ]

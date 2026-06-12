@@ -172,12 +172,14 @@ DOMAIN_KEYWORDS = {
         "兴趣",
     ],
 }
-SYSTEM_PROMPT = (
-    '你是"播客质检员"，站在听众一边，目标是帮一个时间有限的人判断'
-    '"这期到底值不值得花时间听、该用什么状态听"。你不是节目宣传，'
-    "不写软文，不堆形容词，只给真实、具体、能帮人做决定的判断。"
-    "所有内容只能基于 shownote，绝不编造 shownote 里没有的信息。"
-)
+SYSTEM_PROMPT = """你是"播客质检员",站在听众一侧。目标是帮一个时间有限的人判断:"这档播客的这一集值不值得我点开,以及该用什么方式听"。
+
+【强制规则】
+- 不写软文,不堆砌形容词。
+- 只基于 shownote 写,没说的就不要编。
+- shownote 里的"广告/赞助商鸣谢/品牌口播/扫码加微信/加群引导/优惠码/推广折扣/打赏赞助",一律视为噪音,不要写进任何字段,不要从中提炼"内容亮点"。
+- 所有内容只基于 shownote,绝不编造。宁可信息少,也不写没有依据的信息。
+- 所有输出必须是合法 JSON,字段名严格按 schema,字段名一个字母都不能改,禁止增删字段。"""
 TOPIC_SYSTEM_PROMPT = """你是播客议题分析师。给你最近两周多档播客的单集（标题/简介/shownote）。
 找出"多档不同播客真的在讨论同一个具体议题"的情况，归纳成议题。
 议题必须是具体有争议的问句钩子（✅"AI会让大多数人失业吗"；❌"AI的未来""科技趋势"）。
@@ -785,29 +787,46 @@ def deepseek_json(
 def episode_ai_prompt(item: ScoredEpisode, suggested_triage: str) -> str:
     episode = item.episode
     return (
-        "请只返回 JSON，不要 Markdown，不要解释。\n"
+        "请只返回 JSON,不要 Markdown,不要解释。\n\n"
         "JSON schema:\n"
         "{\n"
-        '  "whyRecommended": "1句中文，30-55字，具体说明独特价值/适合谁听，必须一句话说完",\n'
-        '  "key_points": ["固定3条，每条15-25字，必须来自shownote", "...", "..."],\n'
-        '  "golden_quotes": [{"quote": "逐字摘自shownote原文，不许改写，优先选择≤40字的完整句子", "source_note": "来自本期 shownote"}],\n'
-        '  "triage": {"label": "📖值得精听|🚶边走边听|☕有空再听", "reason": "≤12字理由"}\n'
-        "}\n"
-        "规则：\n"
-        "- 只基于 shownote，不能编造 shownote 没有的信息。\n"
-        "- whyRecommended 必须≤55字，必须是一句完整中文，不要逗号后悬空，不要留下半句。\n"
-        "- golden_quotes 必须逐字摘自 shownote；没有就返回 []。\n"
-        "- golden_quotes.quote 优先选择≤40字的完整句子；如果没有合适短句，可返回 []，不要截断原文。\n"
-        "- source_note 一律写「来自本期 shownote」。\n"
-        "- shownote 信息过少时，whyRecommended 写「本期简介信息有限，建议直接听」，不要硬凑。\n"
-        "- 分诊按需要多少专注力判断，不是评节目好坏；请优先考虑这个建议档位："
-        f"{suggested_triage}。\n"
-        "- 禁止空泛词：精彩、值得一听、干货满满、深度访谈、信息量大。\n\n"
-        f"节目名：{episode.podcast_name}\n"
-        f"单集标题：{episode.episode_title}\n"
-        f"发布时间：{episode.published_at.isoformat() if episode.published_at else ''}\n"
-        f"时效分：{item.recency_score}，价值分：{item.value_score}，总分：{item.total_score}\n"
-        f"shownote：\n{compact_text(episode.description)}"
+        '  "whyRecommended": "1句中文,30~55字,具体说明这一集的独特价值/适合谁听,必须一句话说完",\n'
+        '  "key_points": ["固定3条,每条15~25字,必须来自 shownote", "...", "..."],\n'
+        '  "golden_quotes": [{"quote": "逐字摘自 shownote 原文,不许改写,优先选择 ≤40字 的完整句子"}],\n'
+        '  "triage": {"label": "<三选一>", "reason": "<≤14字内容钩子>"}\n'
+        "}\n\n"
+        "【triage 字段硬约束】\n"
+        "1. label 必须严格三选一,从以下三个值中精确选一个,emoji 不能丢:\n"
+        '   - "📖值得精听"\n'
+        '   - "🚶边走边听"\n'
+        '   - "☕有空再听"\n'
+        "   禁止自由发挥、禁止改字、禁止 emoji 缺失、禁止写其它值。\n\n"
+        '2. reason 是"内容钩子",≤14 字。请实际控制在 10~12 字,保留 1~2 字余量,绝不要写到 13、14 字。\n'
+        "   必须以完整词语结尾,绝不允许中途截断半个词。坏例子对照:\n"
+        '   - 输入"Thiel 论 AI 与文明风险"被错误截成"Thiel 论 AI 与文明风"(把"风险"切成"风",错误)\n'
+        '   - 输入"韩国股市暴涨与 K 型社会分化"被错误截成"韩国股市暴涨与 K 型社会分"(把"分化"切成"分",错误)\n'
+        "   - 正确做法:宁可整句缩短,也不留半截词\n"
+        "   必须包含至少一个【具体内容元素】,从下面四类里至少出现一个:\n"
+        "   (a) 具体话题/议题(例:AI失业、K型社会、加薪谈判)\n"
+        "   (b) 嘉宾名 + 嘉宾干了什么(只写人名不算,必须搭配动作或观点)\n"
+        "   (c) 具体案例/故事(例:跨部门沟通实战案例)\n"
+        "   (d) 具体结论/观点(例:AI热潮不是泡沫、韩国股市存在结构性问题)\n\n"
+        "   绝对禁止只描述抽象听感/场景/听法,以下任何短语单独成 reason 都是违规:\n"
+        '   - "轻量浏览"、"信息密度高"、"干货满满"、"值得反复听"、"适合放松"、"轻松吸收"、"边走边听"、"通勤听"、"睡前听"、"碎片时间"\n'
+        '   - 单纯一个嘉宾名(如只写"Peter Thiel"),必须搭配 TA 的观点或行动\n\n'
+        "   好/坏对照:\n"
+        '   - ❌ "Peter Thiel" → ✅ "Thiel 论 AI 与文明风险"\n'
+        '   - ❌ "轻量浏览" → ✅ "职场沟通实战故事"\n'
+        '   - ❌ "干货满满" → ✅ "AI Agent 替代工程师之争"\n\n'
+        "3. reason 好坏对照:\n"
+        '   - ❌ 坏:"案例多,方法具体,可边听"(末尾"可边听"复刻 label)\n'
+        '   - ❌ 坏:"适合通勤路上听"(描述场景不是描述内容)\n'
+        '   - ✅ 好:"职场沟通实战,故事+方法"(讲了什么)\n'
+        '   - ✅ 好:"Peter Thiel 对 AI 的反共识判断"(讲了什么)\n\n'
+        "输入:\n"
+        f"- 单集标题: {episode.episode_title}\n"
+        f"- 单集发布时间: {episode.published_at.isoformat() if episode.published_at else ''}\n"
+        f"- shownote: {compact_text(episode.description)}"
     )
 
 
@@ -857,6 +876,25 @@ def complete_sentence_within_limit(value: str, limit: int = 55) -> str:
         return clipped[: best_position + 1]
 
     return clipped.rstrip("，,、；;：:") + "。"
+
+
+def clamp_reason(value: str, limit: int = 14) -> str:
+    value = re.sub(r"\s+", " ", value).strip()
+    if len(value) <= limit:
+        return value
+
+    clipped = value[:limit]
+    punctuation_positions = [clipped.rfind(mark) for mark in ",。、!?"]
+    best_position = max(punctuation_positions)
+    if best_position >= 2:
+        return clipped[:best_position].strip()
+
+    boundary_positions = [clipped.rfind(mark) for mark in " -_+/｜·"]
+    best_boundary = max(boundary_positions)
+    if best_boundary >= 2:
+        return clipped[:best_boundary].strip()
+
+    return clipped.rstrip("风分社观议案故方题险化会点题例事法")
 
 
 def local_golden_quotes(description: str) -> list[dict]:
@@ -930,7 +968,7 @@ def normalize_episode_ai(card: dict, episode: FeedEpisode, ai_data: dict | None,
     triage_reason = ""
     if isinstance(triage, dict):
         triage_label = str(triage.get("label") or "").strip()
-        triage_reason = str(triage.get("reason") or "").strip()[:12]
+        triage_reason = clamp_reason(str(triage.get("reason") or ""))
     elif isinstance(triage, str):
         triage_label = triage.strip()
 
@@ -988,8 +1026,9 @@ def enforce_triage_diversity(cards: list[dict], selected: list[ScoredEpisode]) -
 
     weakest_index = min(range(len(selected)), key=lambda idx: selected[idx].value_score)
     card = cards[weakest_index]
-    reason = "轻量浏览" if selected[weakest_index].value_score < 6 else "可边走听"
-    card["triageTag"] = f"☕有空再听｜{reason}" if weakest_index != 0 else f"🚶边走边听｜{reason}"
+    _, separator, reason = str(card.get("triageTag", "")).partition("｜")
+    label = "☕有空再听" if weakest_index != 0 else "🚶边走边听"
+    card["triageTag"] = f"{label}{separator}{reason}" if reason else label
 
 
 def select_topic_source_episodes(scored: list[ScoredEpisode], now: datetime, days: int = 14) -> list[ScoredEpisode]:

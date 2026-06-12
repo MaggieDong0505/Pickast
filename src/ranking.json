@@ -28,9 +28,9 @@
     "episodeTitle": "#579.普通人如何看懂 AI 投资机会，泡沫争议下的科技周期突围",
     "uniqueId": "6a286aa1dbccffcfa9c661ec",
     "publishedAt": "2026-06-10T16:00:00+08:00",
-    "recencyScore": 9.96,
+    "recencyScore": 9.94,
     "valueScore": 9.38,
-    "totalScore": 9.64,
+    "totalScore": 9.63,
     "domain": "AI",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
@@ -40,7 +40,7 @@
     "episodeTitle": "#578.女性如何稳住更年期健康，在医学误解与激素争议中夺回主动权",
     "uniqueId": "6a28551f623ad1bf9b345256",
     "publishedAt": "2026-06-10T07:00:00+08:00",
-    "recencyScore": 9.77,
+    "recencyScore": 9.76,
     "valueScore": 9.5,
     "totalScore": 9.62,
     "domain": "健康",
@@ -64,7 +64,7 @@
     "episodeTitle": "#577.长时运行 Agent：开发者如何让 AI 连续干活不跑偏，模型前沿快速迁移下的工程取舍",
     "uniqueId": "6a26b911b30e1571aea2c09d",
     "publishedAt": "2026-06-09T16:30:00+08:00",
-    "recencyScore": 9.48,
+    "recencyScore": 9.47,
     "valueScore": 9.34,
     "totalScore": 9.4,
     "domain": "AI",
@@ -76,9 +76,9 @@
     "episodeTitle": "#574. AI 时代如何做出真正有品味的产品，在快软件浪潮中保持人的判断",
     "uniqueId": "6a267400b30e1571aea293fe",
     "publishedAt": "2026-06-08T15:54:00+08:00",
-    "recencyScore": 9.01,
+    "recencyScore": 8.99,
     "valueScore": 9.44,
-    "totalScore": 9.25,
+    "totalScore": 9.24,
     "domain": "AI",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
@@ -88,7 +88,7 @@
     "episodeTitle": "#573.AI 如何拥有长期记忆，持续学习浪潮下的架构范式之争",
     "uniqueId": "6a2573b0b30e1571aea22606",
     "publishedAt": "2026-06-07T21:50:44+08:00",
-    "recencyScore": 8.67,
+    "recencyScore": 8.66,
     "valueScore": 9.31,
     "totalScore": 9.02,
     "domain": "AI",
@@ -100,7 +100,7 @@
     "episodeTitle": "#576.Claude Code：工程师如何放大生产力，AI 重塑团队分工的通才时代",
     "uniqueId": "6a26a3e4b30e1571aea2b45c",
     "publishedAt": "2026-06-09T07:00:00+08:00",
-    "recencyScore": 9.29,
+    "recencyScore": 9.28,
     "valueScore": 8.77,
     "totalScore": 9.0,
     "domain": "AI",
@@ -112,7 +112,7 @@
     "episodeTitle": "Vol.70 亢奋的韩国：AI芯片、K-Pop与K型社会",
     "uniqueId": "6a242507b30e1571aea1b88d",
     "publishedAt": "2026-06-08T07:00:00+08:00",
-    "recencyScore": 8.84,
+    "recencyScore": 8.83,
     "valueScore": 9.06,
     "totalScore": 8.96,
     "domain": "财经",
@@ -124,9 +124,21 @@
     "episodeTitle": "#575.杰弗里·辛顿：如何面对 AI 失控焦虑，超级智能临近下的人类位置之争",
     "uniqueId": "6a268f017444b57222356326",
     "publishedAt": "2026-06-08T17:51:03+08:00",
-    "recencyScore": 9.04,
+    "recencyScore": 9.03,
     "valueScore": 8.54,
-    "totalScore": 8.77,
+    "totalScore": 8.76,
+    "domain": "AI",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#571. Demis Hassabis：普通人如何理解 AI 权力中心，巨头竞赛下的安全与科学理想",
+    "uniqueId": "6a213cb3b30e1571aea09324",
+    "publishedAt": "2026-06-04T17:07:14+08:00",
+    "recencyScore": 7.38,
+    "valueScore": 9.38,
+    "totalScore": 8.48,
     "domain": "AI",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
@@ -136,22 +148,10 @@
     "episodeTitle": "225. 从“卖产品”到“被信任”，是中国企业出海英国最难的一课",
     "uniqueId": "6a26ebaab30e1571aea2dfc5",
     "publishedAt": "2026-06-10T08:00:00+08:00",
-    "recencyScore": 9.79,
+    "recencyScore": 9.78,
     "valueScore": 7.42,
-    "totalScore": 8.49,
-    "domain": "商业",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#571. Demis Hassabis：普通人如何理解 AI 权力中心，巨头竞赛下的安全与科学理想",
-    "uniqueId": "6a213cb3b30e1571aea09324",
-    "publishedAt": "2026-06-04T17:07:14+08:00",
-    "recencyScore": 7.39,
-    "valueScore": 9.38,
     "totalScore": 8.48,
-    "domain": "AI",
+    "domain": "商业",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -160,9 +160,9 @@
     "episodeTitle": "#572.AI越强大，其经济占比反而可能越小",
     "uniqueId": "6a226610b30e1571aea10f57",
     "publishedAt": "2026-06-05T14:10:46+08:00",
-    "recencyScore": 7.72,
+    "recencyScore": 7.71,
     "valueScore": 9.08,
-    "totalScore": 8.47,
+    "totalScore": 8.46,
     "domain": "AI",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
@@ -172,9 +172,9 @@
     "episodeTitle": "#570. Notion创始人如何重启公司，AI 战时状态下的组织重塑",
     "uniqueId": "6a1fe65e7444b5722232b5d9",
     "publishedAt": "2026-06-03T16:51:42+08:00",
-    "recencyScore": 7.03,
+    "recencyScore": 7.02,
     "valueScore": 9.44,
-    "totalScore": 8.36,
+    "totalScore": 8.35,
     "domain": "商业",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
@@ -208,9 +208,9 @@
     "episodeTitle": "#568. Transformer辩论：如何理解下一代智能之争",
     "uniqueId": "6a1ebbd5b30e1571ae9f78ee",
     "publishedAt": "2026-06-02T19:24:01+08:00",
-    "recencyScore": 6.72,
+    "recencyScore": 6.71,
     "valueScore": 9.44,
-    "totalScore": 8.22,
+    "totalScore": 8.21,
     "domain": "AI",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
@@ -220,7 +220,7 @@
     "episodeTitle": "#567. 黄仁勋：Agent 时代普通人和企业的新生产力，AI 基础设施竞赛下的计算革命",
     "uniqueId": "6a1e8760122ade5348e85027",
     "publishedAt": "2026-06-02T15:45:00+08:00",
-    "recencyScore": 6.67,
+    "recencyScore": 6.66,
     "valueScore": 9.15,
     "totalScore": 8.03,
     "domain": "AI",
@@ -232,7 +232,7 @@
     "episodeTitle": "#565. LVMH商业史",
     "uniqueId": "6a1d15df7460cabdeb591ef1",
     "publishedAt": "2026-06-01T13:38:53+08:00",
-    "recencyScore": 6.32,
+    "recencyScore": 6.31,
     "valueScore": 9.38,
     "totalScore": 8.0,
     "domain": "商业",
@@ -256,9 +256,9 @@
     "episodeTitle": "#561.AI、信用与250亿美元投资版图：Third Point 创始人 Dan Loeb 的市场判断与人生信念",
     "uniqueId": "6a1b06bbac7bdb080c334ef1",
     "publishedAt": "2026-05-31T01:23:41+08:00",
-    "recencyScore": 5.86,
+    "recencyScore": 5.85,
     "valueScore": 9.36,
-    "totalScore": 7.79,
+    "totalScore": 7.78,
     "domain": "财经",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
@@ -280,9 +280,9 @@
     "episodeTitle": "#566. AI Agent 如何真正交付代码，非确定性时代的工程信任危机",
     "uniqueId": "6a1d207bac7bdb080c340a1a",
     "publishedAt": "2026-06-01T14:06:43+08:00",
-    "recencyScore": 6.32,
+    "recencyScore": 6.31,
     "valueScore": 8.64,
-    "totalScore": 7.6,
+    "totalScore": 7.59,
     "domain": "AI",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
@@ -292,9 +292,9 @@
     "episodeTitle": "#558.AI时代的个人革命：Garry Tan 谈开源 AI、创业信仰、创伤动力",
     "uniqueId": "6a190e77ac7bdb080c328d9c",
     "publishedAt": "2026-05-29T12:09:38+08:00",
-    "recencyScore": 5.42,
+    "recencyScore": 5.41,
     "valueScore": 9.38,
-    "totalScore": 7.6,
+    "totalScore": 7.59,
     "domain": "AI",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
@@ -304,7 +304,7 @@
     "episodeTitle": "WWDC 26 补上了 AI，但离真正的 AI 助手还差什么？| S10E15",
     "uniqueId": "9ab1512e-a4a8-4ea6-81b5-0ac7ec677d2d",
     "publishedAt": "2026-06-10T15:30:00+08:00",
-    "recencyScore": 9.94,
+    "recencyScore": 9.93,
     "valueScore": 5.64,
     "totalScore": 7.57,
     "domain": "AI",
@@ -336,25 +336,13 @@
     "reason": "近2天更新且信息密度高"
   },
   {
-    "podcastName": "颜如玉|医美 A to Z",
-    "episodeTitle": "EP22｜医美“全程抗衰”不是口号，护肤品浓度成分也不是爽文逻辑",
-    "uniqueId": "6a224aa97444b5722233b82d",
-    "publishedAt": "2026-06-07T00:00:00+08:00",
-    "recencyScore": 8.29,
-    "valueScore": 6.64,
-    "totalScore": 7.38,
-    "domain": "健康",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#560.Obsidian 的产品哲学：不开会、不融资、不统治世界，一个 7 人团队如何做出千万级笔记工具",
     "uniqueId": "6a19348bac7bdb080c32a406",
     "publishedAt": "2026-05-29T14:45:17+08:00",
-    "recencyScore": 5.45,
+    "recencyScore": 5.44,
     "valueScore": 8.9,
-    "totalScore": 7.35,
+    "totalScore": 7.34,
     "domain": "AI",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
@@ -364,7 +352,7 @@
     "episodeTitle": "#557. Shopify 创始人：AI 时代的公司、产品与长期主义",
     "uniqueId": "6a1739247460cabdeb56e435",
     "publishedAt": "2026-05-28T07:00:00+08:00",
-    "recencyScore": 5.1,
+    "recencyScore": 5.09,
     "valueScore": 8.99,
     "totalScore": 7.24,
     "domain": "AI",
@@ -376,7 +364,7 @@
     "episodeTitle": "#556.AppLovin CEO深度访谈：AI时代创始人的胜利心态、组织重构与残酷真相",
     "uniqueId": "6a152c91e59ebca9364bb242",
     "publishedAt": "2026-05-26T17:40:19+08:00",
-    "recencyScore": 4.72,
+    "recencyScore": 4.71,
     "valueScore": 9.11,
     "totalScore": 7.13,
     "domain": "商业",
@@ -388,9 +376,9 @@
     "episodeTitle": "Vol.69 动量与Carry：产业视角下的投资策略",
     "uniqueId": "6a1af723ac7bdb080c33478e",
     "publishedAt": "2026-06-01T07:00:00+08:00",
-    "recencyScore": 6.23,
+    "recencyScore": 6.22,
     "valueScore": 7.68,
-    "totalScore": 7.03,
+    "totalScore": 7.02,
     "domain": "财经",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
@@ -400,9 +388,9 @@
     "episodeTitle": "#562.Lex|宇宙最深谜题：反物质去哪了、暗能量是什么、万物理论还有多远？",
     "uniqueId": "6a1b23fb7460cabdeb5870c9",
     "publishedAt": "2026-05-31T08:00:00+08:00",
-    "recencyScore": 5.94,
+    "recencyScore": 5.93,
     "valueScore": 7.86,
-    "totalScore": 7.0,
+    "totalScore": 6.99,
     "domain": "文化",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
@@ -412,9 +400,9 @@
     "episodeTitle": "#550. AI资本市场狂热：Anthropic 9000亿估值、SpaceX超级IPO与SaaS旧王的生死转型",
     "uniqueId": "6a120213e59ebca9362dff3e",
     "publishedAt": "2026-05-24T03:55:53+08:00",
-    "recencyScore": 4.15,
+    "recencyScore": 4.14,
     "valueScore": 9.31,
-    "totalScore": 6.99,
+    "totalScore": 6.98,
     "domain": "AI",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
@@ -424,9 +412,9 @@
     "episodeTitle": "Vol.68 世界秩序大重构：文化如何影响制度与资产定价？",
     "uniqueId": "6a12fddbe59ebca93635ed23",
     "publishedAt": "2026-05-25T07:00:00+08:00",
-    "recencyScore": 4.39,
+    "recencyScore": 4.38,
     "valueScore": 9.06,
-    "totalScore": 6.96,
+    "totalScore": 6.95,
     "domain": "文化",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
@@ -456,18 +444,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "十字路口Crossing",
-    "episodeTitle": "OpenAI 和 Anthropic 共同看好的 FDE：AI 时代的新岗位出现，旧分工松动｜对谈 Rolling AI",
-    "uniqueId": "6a1e4022ac7bdb080c348b41",
-    "publishedAt": "2026-06-04T00:00:00+08:00",
-    "recencyScore": 7.13,
-    "valueScore": 6.63,
-    "totalScore": 6.86,
-    "domain": "AI",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#552. AI进展为何突然变得真实：详解 GPT 5.5、强化学习与模型最后一公里",
     "uniqueId": "6a13c01ae59ebca9363bc8eb",
@@ -475,6 +451,18 @@
     "recencyScore": 4.43,
     "valueScore": 8.85,
     "totalScore": 6.86,
+    "domain": "AI",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "十字路口Crossing",
+    "episodeTitle": "OpenAI 和 Anthropic 共同看好的 FDE：AI 时代的新岗位出现，旧分工松动｜对谈 Rolling AI",
+    "uniqueId": "6a1e4022ac7bdb080c348b41",
+    "publishedAt": "2026-06-04T00:00:00+08:00",
+    "recencyScore": 7.12,
+    "valueScore": 6.63,
+    "totalScore": 6.85,
     "domain": "AI",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
@@ -520,7 +508,7 @@
     "episodeTitle": "224. 去英国留学，孩子的未来怎么选？与择校顾问与华人爸爸一起聊聊教育、未来与家庭选择",
     "uniqueId": "6a1d995cac7bdb080c345b62",
     "publishedAt": "2026-06-03T08:00:00+08:00",
-    "recencyScore": 6.9,
+    "recencyScore": 6.89,
     "valueScore": 6.5,
     "totalScore": 6.68,
     "domain": "生活",
@@ -532,9 +520,9 @@
     "episodeTitle": "#555. FCC 主席谈无人机主导权、无线安全与卫星竞赛",
     "uniqueId": "6a151c9c8b5c94538eb7a35e",
     "publishedAt": "2026-05-26T12:22:48+08:00",
-    "recencyScore": 4.67,
+    "recencyScore": 4.66,
     "valueScore": 8.28,
-    "totalScore": 6.66,
+    "totalScore": 6.65,
     "domain": "商业",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
@@ -564,18 +552,6 @@
     "reason": "近2天更新，按总分排序"
   },
   {
-    "podcastName": "整点亮话",
-    "episodeTitle": "66 裁掉你的，到底是老板还是AI？",
-    "uniqueId": "6a25a0d7b30e1571aea23ce1",
-    "publishedAt": "2026-06-08T09:00:00+08:00",
-    "recencyScore": 8.88,
-    "valueScore": 4.33,
-    "totalScore": 6.38,
-    "domain": "职场",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "十分吸引",
     "episodeTitle": "Vol.67 美股新高：泡沫中场，还是牛市序章？",
     "uniqueId": "6a09c00e1b7bd5029550a4ac",
@@ -592,9 +568,9 @@
     "episodeTitle": "#553. Google CEO谈谷歌在人工智能领域是否落后",
     "uniqueId": "6a13ca2b8b5c94538ea93932",
     "publishedAt": "2026-05-25T12:08:36+08:00",
-    "recencyScore": 4.44,
+    "recencyScore": 4.43,
     "valueScore": 7.87,
-    "totalScore": 6.33,
+    "totalScore": 6.32,
     "domain": "AI",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
@@ -616,7 +592,7 @@
     "episodeTitle": "不上班后反而收入翻好几倍？这些搞钱真相早知道就好了 | 杭州听友会",
     "uniqueId": "6a270c057444b57222359f83",
     "publishedAt": "2026-06-09T07:30:00+08:00",
-    "recencyScore": 9.3,
+    "recencyScore": 9.29,
     "valueScore": 3.74,
     "totalScore": 6.24,
     "domain": "职场",
@@ -664,9 +640,9 @@
     "episodeTitle": "一人公司的另一种可能：AI 负责经营，人类负责热爱 | 英文访谈 S10E14",
     "uniqueId": "33e95bf5-9dd2-45d7-9b5f-6e05a078f2d7",
     "publishedAt": "2026-06-03T19:30:00+08:00",
-    "recencyScore": 7.07,
+    "recencyScore": 7.06,
     "valueScore": 4.81,
-    "totalScore": 5.83,
+    "totalScore": 5.82,
     "domain": "AI",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
@@ -696,25 +672,25 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "What's Next｜科技早知道",
-    "episodeTitle": "存储三巨头破万亿市值，存储超级周期何时能见顶？| S10E13",
-    "uniqueId": "c47ff830-8cb5-4e58-b7d7-1a04e4e5a4c1",
-    "publishedAt": "2026-05-29T14:00:00+08:00",
-    "recencyScore": 5.44,
-    "valueScore": 5.96,
+    "podcastName": "搞钱女孩",
+    "episodeTitle": "Fish：程序员转型开拼豆店爆火，10万入局半年50家店",
+    "uniqueId": "6a208175b30e1571aea03da5",
+    "publishedAt": "2026-06-04T08:00:00+08:00",
+    "recencyScore": 7.24,
+    "valueScore": 4.49,
     "totalScore": 5.73,
     "domain": "AI",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "搞钱女孩",
-    "episodeTitle": "Fish：程序员转型开拼豆店爆火，10万入局半年50家店",
-    "uniqueId": "6a208175b30e1571aea03da5",
-    "publishedAt": "2026-06-04T08:00:00+08:00",
-    "recencyScore": 7.25,
-    "valueScore": 4.49,
-    "totalScore": 5.73,
+    "podcastName": "What's Next｜科技早知道",
+    "episodeTitle": "存储三巨头破万亿市值，存储超级周期何时能见顶？| S10E13",
+    "uniqueId": "c47ff830-8cb5-4e58-b7d7-1a04e4e5a4c1",
+    "publishedAt": "2026-05-29T14:00:00+08:00",
+    "recencyScore": 5.43,
+    "valueScore": 5.96,
+    "totalScore": 5.72,
     "domain": "AI",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
@@ -724,9 +700,9 @@
     "episodeTitle": "达霏欣｜想让你一年逛两次的海澜之家，正在如何帮大牌卖尾货？",
     "uniqueId": "6a280d0134bdac55b506e27e",
     "publishedAt": "2026-06-10T07:00:00+08:00",
-    "recencyScore": 9.77,
+    "recencyScore": 9.76,
     "valueScore": 2.4,
-    "totalScore": 5.72,
+    "totalScore": 5.71,
     "domain": "商业",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
@@ -748,7 +724,7 @@
     "episodeTitle": "E238｜聊聊Harness时代AI-First的组织架构：从信任人到信任AI",
     "uniqueId": "51260de8-60ef-4b76-b3e5-2e559c4a0923",
     "publishedAt": "2026-05-25T08:00:00+08:00",
-    "recencyScore": 4.4,
+    "recencyScore": 4.39,
     "valueScore": 6.46,
     "totalScore": 5.53,
     "domain": "AI",
@@ -784,7 +760,7 @@
     "episodeTitle": "2026 AI 游戏全景扫描：四层图景、三大误区、一个共识缺口｜对谈 405 游局筱宁",
     "uniqueId": "6a11a57c8b5c94538e98794d",
     "publishedAt": "2026-05-28T00:00:00+08:00",
-    "recencyScore": 5.03,
+    "recencyScore": 5.02,
     "valueScore": 5.92,
     "totalScore": 5.52,
     "domain": "AI",
@@ -808,7 +784,7 @@
     "episodeTitle": "达霏欣｜名义上自愿的美国小费，如何成为难以拒绝的「隐形税」？",
     "uniqueId": "6a252b1c7444b5722234bb8b",
     "publishedAt": "2026-06-08T07:00:00+08:00",
-    "recencyScore": 8.84,
+    "recencyScore": 8.83,
     "valueScore": 2.75,
     "totalScore": 5.49,
     "domain": "商业",
@@ -820,34 +796,10 @@
     "episodeTitle": "#547. 纳瓦尔：销售的本质不是说服，而是把真相讲清楚",
     "uniqueId": "6a0f38cee1eb34a939db1939",
     "publishedAt": "2026-05-22T01:31:26+08:00",
-    "recencyScore": 3.74,
+    "recencyScore": 3.73,
     "valueScore": 6.91,
     "totalScore": 5.48,
     "domain": "商业",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "颜如玉|医美 A to Z",
-    "episodeTitle": "EP21｜黄金微针你真的了解吗？扒一扒求美者对它的“10大误区”",
-    "uniqueId": "6a0ec1cae1eb34a939d449c6",
-    "publishedAt": "2026-05-24T00:00:00+08:00",
-    "recencyScore": 4.12,
-    "valueScore": 6.57,
-    "totalScore": 5.47,
-    "domain": "健康",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "颜如玉|医美 A to Z",
-    "episodeTitle": "EP20｜从饱满到轻盈，从明显到自然：面颈一体化抗衰的“高级感”",
-    "uniqueId": "6a06cc4fe1eb34a9397485c8",
-    "publishedAt": "2026-05-17T00:00:00+08:00",
-    "recencyScore": 2.9,
-    "valueScore": 7.56,
-    "totalScore": 5.46,
-    "domain": "健康",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -868,7 +820,7 @@
     "episodeTitle": "重新爱上这个世界的方法是什么？｜博物04",
     "uniqueId": "6a21d200b30e1571aea0d3be",
     "publishedAt": "2026-06-05T09:00:00+08:00",
-    "recencyScore": 7.64,
+    "recencyScore": 7.63,
     "valueScore": 3.59,
     "totalScore": 5.41,
     "domain": "生活",
@@ -928,9 +880,9 @@
     "episodeTitle": "华为的「韬定律」，是创新还是噱头？| Bonus",
     "uniqueId": "e471f937-616b-4f49-a7ae-49137d32dbe5",
     "publishedAt": "2026-05-27T22:00:00+08:00",
-    "recencyScore": 5.01,
+    "recencyScore": 5.0,
     "valueScore": 5.62,
-    "totalScore": 5.35,
+    "totalScore": 5.34,
     "domain": "科技",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
@@ -960,18 +912,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "张小珺Jùn｜商业访谈录",
-    "episodeTitle": "144. 对阳萌的4小时访谈：消费电子死与生、第三类公司、端侧模型、产品方法、游戏模式",
-    "uniqueId": "6a2543dcb30e1571aea20d0b",
-    "publishedAt": "2026-06-08T08:00:00+08:00",
-    "recencyScore": 8.86,
-    "valueScore": 2.4,
-    "totalScore": 5.31,
-    "domain": "商业",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "入木一分",
     "episodeTitle": "谁定的演唱会价格？我们的门票钱去哪了？",
     "uniqueId": "6a2a4a1ddbccffcfa9c735af",
@@ -984,23 +924,11 @@
     "reason": "近2天更新，按总分排序"
   },
   {
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "达霏欣｜赛百味中国加速开店，鸡蛋价格逆势上涨",
-    "uniqueId": "6a26cb699832a45619b90fd2",
-    "publishedAt": "2026-06-09T07:00:00+08:00",
-    "recencyScore": 9.29,
-    "valueScore": 2.05,
-    "totalScore": 5.31,
-    "domain": "商业",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "纵横四海",
     "episodeTitle": "EP83《少有人走的路》：每个人都有自己的奥德赛",
     "uniqueId": "6a1e7a9f7460cabdeb59d161",
     "publishedAt": "2026-06-03T00:00:00+08:00",
-    "recencyScore": 6.79,
+    "recencyScore": 6.78,
     "valueScore": 4.1,
     "totalScore": 5.31,
     "domain": "职场",
@@ -1016,6 +944,30 @@
     "valueScore": 8.82,
     "totalScore": 5.3,
     "domain": "财经",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "张小珺Jùn｜商业访谈录",
+    "episodeTitle": "144. 对阳萌的4小时访谈：消费电子死与生、第三类公司、端侧模型、产品方法、游戏模式",
+    "uniqueId": "6a2543dcb30e1571aea20d0b",
+    "publishedAt": "2026-06-08T08:00:00+08:00",
+    "recencyScore": 8.85,
+    "valueScore": 2.4,
+    "totalScore": 5.3,
+    "domain": "商业",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "达霏欣｜赛百味中国加速开店，鸡蛋价格逆势上涨",
+    "uniqueId": "6a26cb699832a45619b90fd2",
+    "publishedAt": "2026-06-09T07:00:00+08:00",
+    "recencyScore": 9.28,
+    "valueScore": 2.05,
+    "totalScore": 5.3,
+    "domain": "商业",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -1044,6 +996,18 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
+    "podcastName": "整点亮话",
+    "episodeTitle": "66 裁掉你的，到底是老板还是AI？",
+    "uniqueId": "6a25a0d7b30e1571aea23ce1",
+    "publishedAt": "2026-06-08T09:00:00+08:00",
+    "recencyScore": 8.87,
+    "valueScore": 2.3,
+    "totalScore": 5.26,
+    "domain": "AI",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#264. 乔·罗根 x 纳瓦尔：财富、幸福与人生意义的颠覆性思考",
     "uniqueId": "68f3ec70226547302022894f",
@@ -1060,7 +1024,7 @@
     "episodeTitle": "#539. 手搓AlphaGo：前DeepMind科学家拆解AI围棋核心原理，以及对LLM强化学习的深远启示",
     "uniqueId": "6a092b5b1b7bd50295493b6c",
     "publishedAt": "2026-05-17T10:58:06+08:00",
-    "recencyScore": 2.97,
+    "recencyScore": 2.96,
     "valueScore": 7.03,
     "totalScore": 5.2,
     "domain": "AI",
@@ -1108,9 +1072,9 @@
     "episodeTitle": "E235｜20年内CAR-T治愈癌症？与刘诚博士聊聊癌症治疗的底层哲学",
     "uniqueId": "90f96f60-25be-45ac-b832-56776a23d534",
     "publishedAt": "2026-05-09T08:00:00+08:00",
-    "recencyScore": 1.98,
+    "recencyScore": 1.97,
     "valueScore": 7.65,
-    "totalScore": 5.1,
+    "totalScore": 5.09,
     "domain": "商业",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
@@ -1188,26 +1152,26 @@
     "reason": "近2天更新，按总分排序"
   },
   {
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#526. Airbnb创始人Brian Chesky：AI时代的创始人模式、想象力与公司重塑",
-    "uniqueId": "69fcd16e1b7bd50295af967f",
-    "publishedAt": "2026-05-08T02:01:35+08:00",
-    "recencyScore": 1.86,
-    "valueScore": 7.58,
-    "totalScore": 5.01,
-    "domain": "AI",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "乱翻书",
     "episodeTitle": "头腾大战八年后，再把字节和腾讯在各个战场上的竞争逐一拆开｜字节跳动 第6集",
     "uniqueId": "6a02f59ce1eb34a9393fb269",
     "publishedAt": "2026-05-12T18:16:41+08:00",
-    "recencyScore": 2.35,
+    "recencyScore": 2.34,
     "valueScore": 7.19,
     "totalScore": 5.01,
     "domain": "商业",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#526. Airbnb创始人Brian Chesky：AI时代的创始人模式、想象力与公司重塑",
+    "uniqueId": "69fcd16e1b7bd50295af967f",
+    "publishedAt": "2026-05-08T02:01:35+08:00",
+    "recencyScore": 1.85,
+    "valueScore": 7.58,
+    "totalScore": 5.0,
+    "domain": "AI",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -1216,21 +1180,9 @@
     "episodeTitle": "24. 找出路丨从KPF、隈研吾事务所到青天制作所，一个建筑师决定不再走“标准答案”",
     "uniqueId": "6a0eb5201b7bd5029592bfa0",
     "publishedAt": "2026-05-22T08:00:00+08:00",
-    "recencyScore": 3.79,
+    "recencyScore": 3.78,
     "valueScore": 6.0,
-    "totalScore": 5.01,
-    "domain": "商业",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#523. 伯克希尔新CEO：十年安全边际、高效综合集团与百年企业的韧性",
-    "uniqueId": "69fc1695e1eb34a939e39507",
-    "publishedAt": "2026-05-07T12:44:49+08:00",
-    "recencyScore": 1.81,
-    "valueScore": 7.59,
-    "totalScore": 4.99,
+    "totalScore": 5.0,
     "domain": "商业",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
@@ -1254,6 +1206,18 @@
     "publishedAt": "2026-03-24T07:00:00+08:00",
     "recencyScore": 1.0,
     "valueScore": 8.23,
+    "totalScore": 4.98,
+    "domain": "商业",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#523. 伯克希尔新CEO：十年安全边际、高效综合集团与百年企业的韧性",
+    "uniqueId": "69fc1695e1eb34a939e39507",
+    "publishedAt": "2026-05-07T12:44:49+08:00",
+    "recencyScore": 1.8,
+    "valueScore": 7.59,
     "totalScore": 4.98,
     "domain": "商业",
     "selected": false,
@@ -1296,38 +1260,14 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "颜如玉|医美 A to Z",
-    "episodeTitle": "EP15｜祛斑：很多人不是没效果，而是一开始就打错了",
-    "uniqueId": "69e1a024b977fb2c472a0fc0",
-    "publishedAt": "2026-04-18T00:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 8.16,
-    "totalScore": 4.94,
-    "domain": "健康",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "贝望录",
     "episodeTitle": "223．Olga新书《开口就是机会》对谈：为什么有能力的人，更要学会开口？",
     "uniqueId": "6a0c08921b7bd502956dca28",
     "publishedAt": "2026-05-20T08:00:00+08:00",
-    "recencyScore": 3.43,
+    "recencyScore": 3.42,
     "valueScore": 6.18,
     "totalScore": 4.94,
     "domain": "职场",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#512.十亿月活背后的创新与焦虑：Snap CEO Evan Spiegel谈分发护城河、AR野心与组织革命",
-    "uniqueId": "69f04c8022e25091690a3f60",
-    "publishedAt": "2026-04-28T14:15:46+08:00",
-    "recencyScore": 1.16,
-    "valueScore": 8.01,
-    "totalScore": 4.93,
-    "domain": "商业",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -1357,12 +1297,24 @@
   },
   {
     "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#512.十亿月活背后的创新与焦虑：Snap CEO Evan Spiegel谈分发护城河、AR野心与组织革命",
+    "uniqueId": "69f04c8022e25091690a3f60",
+    "publishedAt": "2026-04-28T14:15:46+08:00",
+    "recencyScore": 1.15,
+    "valueScore": 8.01,
+    "totalScore": 4.92,
+    "domain": "商业",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "跨国串门儿计划",
     "episodeTitle": "#540.AI Agent 的达尔文时刻：技术重构、多模型博弈与未来软件三分天下",
     "uniqueId": "6a0a22e9e1eb34a9399587c0",
     "publishedAt": "2026-05-18T04:34:31+08:00",
-    "recencyScore": 3.08,
+    "recencyScore": 3.07,
     "valueScore": 6.4,
-    "totalScore": 4.91,
+    "totalScore": 4.9,
     "domain": "AI",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
@@ -1448,18 +1400,6 @@
     "valueScore": 7.93,
     "totalScore": 4.81,
     "domain": "商业",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "颜如玉|医美 A to Z",
-    "episodeTitle": "EP10-祛痘：严蕾×罗瑶佳：“雪顶咖啡”式点涂、10公里换一口甜与脱脂牛奶的迷思",
-    "uniqueId": "69b39396dfe027e304be025c",
-    "publishedAt": "2026-03-15T00:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 7.9,
-    "totalScore": 4.8,
-    "domain": "健康",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -1612,7 +1552,7 @@
     "episodeTitle": "咖啡豆｜从高端水果到超市日常，国产蓝莓为何在变多变甜？",
     "uniqueId": "6a218cf0b30e1571aea0c109",
     "publishedAt": "2026-06-05T07:00:00+08:00",
-    "recencyScore": 7.61,
+    "recencyScore": 7.6,
     "valueScore": 2.34,
     "totalScore": 4.71,
     "domain": "商业",
@@ -1872,18 +1812,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "硅谷101",
-    "episodeTitle": "E236｜99%的作业都是AI写的：当代名校生眼里，大学还剩下什么？",
-    "uniqueId": "b066c769-00d2-4341-bf61-a82bca4181e4",
-    "publishedAt": "2026-05-15T08:00:00+08:00",
-    "recencyScore": 2.67,
-    "valueScore": 6.14,
-    "totalScore": 4.58,
-    "domain": "AI",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#262. Huberman｜如何寻找、建立和维持健康的亲密关系",
     "uniqueId": "68f1ee92456ffec65e3aa831",
@@ -1896,14 +1824,14 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "整点亮话",
-    "episodeTitle": "64 不是这届学生难带，是老板你太水了",
-    "uniqueId": "6a12ca308b5c94538ea07074",
-    "publishedAt": "2026-05-25T09:00:00+08:00",
-    "recencyScore": 4.41,
-    "valueScore": 4.7,
+    "podcastName": "硅谷101",
+    "episodeTitle": "E236｜99%的作业都是AI写的：当代名校生眼里，大学还剩下什么？",
+    "uniqueId": "b066c769-00d2-4341-bf61-a82bca4181e4",
+    "publishedAt": "2026-05-15T08:00:00+08:00",
+    "recencyScore": 2.66,
+    "valueScore": 6.14,
     "totalScore": 4.57,
-    "domain": "职场",
+    "domain": "AI",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -1928,18 +1856,6 @@
     "valueScore": 7.45,
     "totalScore": 4.55,
     "domain": "财经",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "纵横四海",
-    "episodeTitle": "EP82《五次重置》：不想努力了怎么办？",
-    "uniqueId": "6a11c383e59ebca9362ce192",
-    "publishedAt": "2026-05-24T00:00:03+08:00",
-    "recencyScore": 4.12,
-    "valueScore": 4.9,
-    "totalScore": 4.55,
-    "domain": "健康",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -2000,6 +1916,18 @@
     "valueScore": 7.43,
     "totalScore": 4.54,
     "domain": "科技",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "纵横四海",
+    "episodeTitle": "EP82《五次重置》：不想努力了怎么办？",
+    "uniqueId": "6a11c383e59ebca9362ce192",
+    "publishedAt": "2026-05-24T00:00:03+08:00",
+    "recencyScore": 4.11,
+    "valueScore": 4.9,
+    "totalScore": 4.54,
+    "domain": "健康",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -2256,18 +2184,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "从 F1 大奖赛切换到世界杯赛场，北美体育场如何实现快速变身 ？",
-    "uniqueId": "6a1ef396b30e1571ae9f99da",
-    "publishedAt": "2026-06-03T07:00:00+08:00",
-    "recencyScore": 6.89,
-    "valueScore": 2.47,
-    "totalScore": 4.46,
-    "domain": "商业",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#463. 为什么 AI 应该拥有自己的计算机",
     "uniqueId": "69bbb17a3c625cc5ae1cf27a",
@@ -2276,6 +2192,18 @@
     "valueScore": 7.29,
     "totalScore": 4.46,
     "domain": "AI",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "从 F1 大奖赛切换到世界杯赛场，北美体育场如何实现快速变身 ？",
+    "uniqueId": "6a1ef396b30e1571ae9f99da",
+    "publishedAt": "2026-06-03T07:00:00+08:00",
+    "recencyScore": 6.88,
+    "valueScore": 2.47,
+    "totalScore": 4.45,
+    "domain": "商业",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -2372,18 +2300,6 @@
     "valueScore": 7.28,
     "totalScore": 4.45,
     "domain": "文化",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "颜如玉|医美 A to Z",
-    "episodeTitle": "EP17｜为什么信息越来越多，求美者的决策却反而更容易做错？",
-    "uniqueId": "69f0243322e2509169071fd0",
-    "publishedAt": "2026-04-29T00:00:00+08:00",
-    "recencyScore": 1.18,
-    "valueScore": 7.13,
-    "totalScore": 4.45,
-    "domain": "商业",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -2520,14 +2436,14 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "搞钱女孩",
-    "episodeTitle": "对话席瑞：AI 时代，会讲故事的人先享受世界！奇葩说辩手教你讲好故事、原地升值！",
-    "uniqueId": "6a173928ac7bdb080c31ca25",
-    "publishedAt": "2026-05-28T07:30:00+08:00",
-    "recencyScore": 5.11,
-    "valueScore": 3.83,
+    "podcastName": "颜如玉|医美 A to Z",
+    "episodeTitle": "EP22｜医美“全程抗衰”不是口号，护肤品浓度成分也不是爽文逻辑",
+    "uniqueId": "6a224aa97444b5722233b82d",
+    "publishedAt": "2026-06-07T00:00:00+08:00",
+    "recencyScore": 8.28,
+    "valueScore": 1.25,
     "totalScore": 4.41,
-    "domain": "AI",
+    "domain": "健康",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -2588,6 +2504,18 @@
     "valueScore": 7.18,
     "totalScore": 4.4,
     "domain": "科技",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "搞钱女孩",
+    "episodeTitle": "对话席瑞：AI 时代，会讲故事的人先享受世界！奇葩说辩手教你讲好故事、原地升值！",
+    "uniqueId": "6a173928ac7bdb080c31ca25",
+    "publishedAt": "2026-05-28T07:30:00+08:00",
+    "recencyScore": 5.1,
+    "valueScore": 3.83,
+    "totalScore": 4.4,
+    "domain": "AI",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -2704,7 +2632,7 @@
     "episodeTitle": "腾讯测试微信 AI 智能体，FIFA 大幅提高世界杯吸金能力",
     "uniqueId": "6a2018a2b30e1571aea018e9",
     "publishedAt": "2026-06-04T07:00:00+08:00",
-    "recencyScore": 7.24,
+    "recencyScore": 7.23,
     "valueScore": 2.03,
     "totalScore": 4.37,
     "domain": "AI",
@@ -2716,7 +2644,7 @@
     "episodeTitle": "#518. AI时代的超级个体：Notion产品负责人谈主动性、品味与可塑软件",
     "uniqueId": "69f8a606e05c0efcd6de1e9f",
     "publishedAt": "2026-05-04T22:13:52+08:00",
-    "recencyScore": 1.59,
+    "recencyScore": 1.58,
     "valueScore": 6.65,
     "totalScore": 4.37,
     "domain": "科技",
@@ -2844,18 +2772,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "韩叙的朋友们",
-    "episodeTitle": "67.小团队用AI做电商能赚到钱吗·对谈李解",
-    "uniqueId": "6a268d0f7444b572223561b1",
-    "publishedAt": "2026-06-08T17:41:38+08:00",
-    "recencyScore": 9.04,
-    "valueScore": 0.51,
-    "totalScore": 4.35,
-    "domain": "AI",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "十分吸引",
     "episodeTitle": "Vol.58 伊朗战争复盘：资本市场的博弈与定价",
     "uniqueId": "69ad9470c8cdeb38c2855903",
@@ -2898,18 +2814,6 @@
     "publishedAt": "2022-11-12T22:48:22+08:00",
     "recencyScore": 1.0,
     "valueScore": 7.07,
-    "totalScore": 4.34,
-    "domain": "商业",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "扣子 3.0｜少儿图书市场持续扩大，曾经热销的绘本为何不再好卖？",
-    "uniqueId": "6a1c135c7460cabdeb58b71c",
-    "publishedAt": "2026-06-01T07:00:00+08:00",
-    "recencyScore": 6.23,
-    "valueScore": 2.79,
     "totalScore": 4.34,
     "domain": "商业",
     "selected": false,
@@ -2988,14 +2892,14 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "颜如玉|医美 A to Z",
-    "episodeTitle": "EP18｜毛孔粗大：根本不是没洗干净，也别用撕拉面膜了",
-    "uniqueId": "69f9bfe7e05c0efcd6e7ca64",
-    "publishedAt": "2026-05-06T00:00:00+08:00",
-    "recencyScore": 1.67,
-    "valueScore": 6.53,
+    "podcastName": "韩叙的朋友们",
+    "episodeTitle": "67.小团队用AI做电商能赚到钱吗·对谈李解",
+    "uniqueId": "6a268d0f7444b572223561b1",
+    "publishedAt": "2026-06-08T17:41:38+08:00",
+    "recencyScore": 9.03,
+    "valueScore": 0.51,
     "totalScore": 4.34,
-    "domain": "健康",
+    "domain": "AI",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -3020,6 +2924,18 @@
     "valueScore": 7.05,
     "totalScore": 4.33,
     "domain": "财经",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "扣子 3.0｜少儿图书市场持续扩大，曾经热销的绘本为何不再好卖？",
+    "uniqueId": "6a1c135c7460cabdeb58b71c",
+    "publishedAt": "2026-06-01T07:00:00+08:00",
+    "recencyScore": 6.22,
+    "valueScore": 2.79,
+    "totalScore": 4.33,
+    "domain": "商业",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -3240,18 +3156,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "整点亮话",
-    "episodeTitle": "65 杨爸咖啡馆|与Jeff聊聊奥德赛时期，关于财富投资、伴侣关系以及职业选择那些事",
-    "uniqueId": "6a1c2998ac7bdb080c33a56e",
-    "publishedAt": "2026-06-01T09:00:00+08:00",
-    "recencyScore": 6.26,
-    "valueScore": 2.71,
-    "totalScore": 4.31,
-    "domain": "职场",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "硅谷101",
     "episodeTitle": "E133｜开源打法的秘诀与AI重塑的数据库行业",
     "uniqueId": "713f4305-9f6f-418c-a64c-5532e383eb27",
@@ -3320,18 +3224,6 @@
     "valueScore": 7.0,
     "totalScore": 4.3,
     "domain": "AI",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "颜如玉|医美 A to Z",
-    "episodeTitle": "EP13-【碧绽美】壬二酸：严蕾×罗瑶佳：脸上的盐碱地、皮肤里的砖墙和手推车上的鸡尾酒",
-    "uniqueId": "69d1359fb977fb2c471c32e1",
-    "publishedAt": "2026-04-05T00:49:48+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 7.0,
-    "totalScore": 4.3,
-    "domain": "健康",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -3864,18 +3756,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "颜如玉|医美 A to Z",
-    "episodeTitle": "EP19｜母亲节特辑：从“妈味”到松弛感-我们抱起了孩子，也别忘了抱回自己",
-    "uniqueId": "69fead2e1b7bd50295c68f92",
-    "publishedAt": "2026-05-10T00:00:00+08:00",
-    "recencyScore": 2.04,
-    "valueScore": 6.03,
-    "totalScore": 4.23,
-    "domain": "健康",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "啊！是猫咪呀",
     "episodeTitle": "S5.E4 成为「真男人」的代价",
     "uniqueId": "wavpub_rrfksnHKatzQQeSgMKzKYEbVzwGGpAQJmnXYDYBDBPjTtMjuGzhMGgqvL",
@@ -3912,18 +3792,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "颜如玉|医美 A to Z",
-    "episodeTitle": "EP14-医美医生的来时路：严蕾×罗瑶佳：17岁的大学生、冬夜补习班的奔跑和诊室里安静的1分钟",
-    "uniqueId": "69d88427e2c8be3155d73cd7",
-    "publishedAt": "2026-04-11T00:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 6.85,
-    "totalScore": 4.22,
-    "domain": "健康",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "乱翻书",
     "episodeTitle": "259.从互联网医疗到AI健康：一场新供给革命",
     "uniqueId": "6979b0c9fed1b9fd8d559165",
@@ -3931,18 +3799,6 @@
     "recencyScore": 1.0,
     "valueScore": 6.85,
     "totalScore": 4.22,
-    "domain": "AI",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "AI产品黄叔",
-    "episodeTitle": "Agent时代，微信会被替代么",
-    "uniqueId": "6a276c6a7444b5722235b17f",
-    "publishedAt": "2026-06-09T09:34:21+08:00",
-    "recencyScore": 9.34,
-    "valueScore": 0.01,
-    "totalScore": 4.21,
     "domain": "AI",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
@@ -4040,6 +3896,18 @@
     "valueScore": 6.83,
     "totalScore": 4.21,
     "domain": "商业",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "AI产品黄叔",
+    "episodeTitle": "Agent时代，微信会被替代么",
+    "uniqueId": "6a276c6a7444b5722235b17f",
+    "publishedAt": "2026-06-09T09:34:21+08:00",
+    "recencyScore": 9.33,
+    "valueScore": 0.01,
+    "totalScore": 4.2,
+    "domain": "AI",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -4284,18 +4152,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "Vibration 歪波音室",
-    "episodeTitle": "睡前安抚歌单：月光照进房间的时候",
-    "uniqueId": "wavpub_TKnCqwsSpuVgvQyEBfSgWSudeDYktuZzvNFGULQSxnavhgauSvWpwUZvr",
-    "publishedAt": "2026-06-04T21:00:00+08:00",
-    "recencyScore": 7.45,
-    "valueScore": 1.46,
-    "totalScore": 4.16,
-    "domain": "文化",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "十字路口Crossing",
     "episodeTitle": "大模型还是小学生，别着急让它去打工｜对谈真格基金戴雨森：当下AI发展到了哪个阶段？",
     "uniqueId": "665f398494977a26ef37deea",
@@ -4356,11 +4212,23 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
+    "podcastName": "Vibration 歪波音室",
+    "episodeTitle": "睡前安抚歌单：月光照进房间的时候",
+    "uniqueId": "wavpub_TKnCqwsSpuVgvQyEBfSgWSudeDYktuZzvNFGULQSxnavhgauSvWpwUZvr",
+    "publishedAt": "2026-06-04T21:00:00+08:00",
+    "recencyScore": 7.44,
+    "valueScore": 1.46,
+    "totalScore": 4.15,
+    "domain": "文化",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
     "podcastName": "about热水频道",
     "episodeTitle": "生活虐我千百次，怎么用 AI 和爱救自己？｜黑客松01",
     "uniqueId": "6a0e14831b7bd5029589f152",
     "publishedAt": "2026-05-21T09:00:00+08:00",
-    "recencyScore": 3.61,
+    "recencyScore": 3.6,
     "valueScore": 4.58,
     "totalScore": 4.14,
     "domain": "AI",
@@ -4372,7 +4240,7 @@
     "episodeTitle": "抓马时刻：人生处处是戏，谁还没点演技？",
     "uniqueId": "6a1ec0b07444b572223233b9",
     "publishedAt": "2026-06-03T00:00:00+08:00",
-    "recencyScore": 6.79,
+    "recencyScore": 6.78,
     "valueScore": 1.98,
     "totalScore": 4.14,
     "domain": "文化",
@@ -4420,7 +4288,7 @@
     "episodeTitle": "#519.普林斯顿Zhuang Liu谈架构、数据与记忆的真相",
     "uniqueId": "69f9f7cbf93890ea8145c959",
     "publishedAt": "2026-05-05T22:13:30+08:00",
-    "recencyScore": 1.67,
+    "recencyScore": 1.66,
     "valueScore": 6.15,
     "totalScore": 4.13,
     "domain": "AI",
@@ -4596,18 +4464,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "诗梳风",
-    "episodeTitle": "EP20 用 AI 生产内容的复盘之一：AI 知道你要什么吗？ · Case",
-    "uniqueId": "6a202be67444b5722232dd7a",
-    "publishedAt": "2026-06-04T09:00:00+08:00",
-    "recencyScore": 7.27,
-    "valueScore": 1.52,
-    "totalScore": 4.11,
-    "domain": "AI",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "张小珺Jùn｜商业访谈录",
     "episodeTitle": "89. 逐句讲解DeepSeek-R1、Kimi K1.5、OpenAI o1技术报告——“最优美的算法最干净”",
     "uniqueId": "67a1b697247d51713c868367",
@@ -4712,6 +4568,18 @@
     "valueScore": 6.65,
     "totalScore": 4.11,
     "domain": "科技",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "诗梳风",
+    "episodeTitle": "EP20 用 AI 生产内容的复盘之一：AI 知道你要什么吗？ · Case",
+    "uniqueId": "6a202be67444b5722232dd7a",
+    "publishedAt": "2026-06-04T09:00:00+08:00",
+    "recencyScore": 7.26,
+    "valueScore": 1.52,
+    "totalScore": 4.1,
+    "domain": "AI",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -5220,18 +5088,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "思文，败类",
-    "episodeTitle": "105. 特别加更｜对话乌兰图雅：辽阔的草原长不出内耗的歌者",
-    "uniqueId": "6a19747cac7bdb080c32cd58",
-    "publishedAt": "2026-05-30T00:00:00+08:00",
-    "recencyScore": 5.56,
-    "valueScore": 2.79,
-    "totalScore": 4.04,
-    "domain": "文化",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "十字路口Crossing",
     "episodeTitle": "和前《原神》主创恶少聊AI游戏创业｜“这一次，我要做个游戏圈的‘渣男’”",
     "uniqueId": "692c59adba2292550f84849d",
@@ -5328,6 +5184,18 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
+    "podcastName": "思文，败类",
+    "episodeTitle": "105. 特别加更｜对话乌兰图雅：辽阔的草原长不出内耗的歌者",
+    "uniqueId": "6a19747cac7bdb080c32cd58",
+    "publishedAt": "2026-05-30T00:00:00+08:00",
+    "recencyScore": 5.55,
+    "valueScore": 2.79,
+    "totalScore": 4.03,
+    "domain": "文化",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
     "podcastName": "十字路口Crossing",
     "episodeTitle": "“你有一把能够挖出金子的铲子，肯定不会先给别人用”｜对谈开物纪陆子恒：用AI发明新材料",
     "uniqueId": "69e0344eb977fb2c470e4136",
@@ -5380,7 +5248,7 @@
     "episodeTitle": "Chat is Dead",
     "uniqueId": "6a262509b30e1571aea25922",
     "publishedAt": "2026-06-08T10:16:54+08:00",
-    "recencyScore": 8.9,
+    "recencyScore": 8.89,
     "valueScore": 0.01,
     "totalScore": 4.01,
     "domain": "AI",
@@ -5428,7 +5296,7 @@
     "episodeTitle": "EP46: 我的AI Copilot是个1200岁的老和尚：四国遍路生存指南",
     "uniqueId": "https://perilcrosser.com/?p=231",
     "publishedAt": "2026-06-06T08:16:00+08:00",
-    "recencyScore": 8.02,
+    "recencyScore": 8.01,
     "valueScore": 0.72,
     "totalScore": 4.0,
     "domain": "AI",
@@ -5764,7 +5632,7 @@
     "episodeTitle": "104. Let’s显化，心想事成的魔法？",
     "uniqueId": "6a16bb417460cabdeb56a9f2",
     "publishedAt": "2026-05-27T22:00:00+08:00",
-    "recencyScore": 5.01,
+    "recencyScore": 5.0,
     "valueScore": 3.1,
     "totalScore": 3.96,
     "domain": "文化",
@@ -6016,7 +5884,7 @@
     "episodeTitle": "图拉斯｜国内燃油附加费将下调，宗馥莉的饮料品牌推出新品",
     "uniqueId": "6a1d970aac7bdb080c345a10",
     "publishedAt": "2026-06-02T07:00:00+08:00",
-    "recencyScore": 6.55,
+    "recencyScore": 6.54,
     "valueScore": 1.79,
     "totalScore": 3.93,
     "domain": "商业",
@@ -6264,18 +6132,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "颜如玉|医美 A to Z",
-    "episodeTitle": "EP11-996牛马护肤（上）: 严蕾×罗瑶佳：皮质醇“吃脸”、凌晨3点的面霜与早C晚A的真实边界",
-    "uniqueId": "69be57843c625cc5ae6c37c0",
-    "publishedAt": "2026-03-22T00:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 6.28,
-    "totalScore": 3.9,
-    "domain": "健康",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "乱翻书",
     "episodeTitle": "206.从科技追赶转入AI基建叙事，DeepSeek带来中国资产重估",
     "uniqueId": "67c6c043bf52a16cd172f0f3",
@@ -6340,7 +6196,7 @@
     "episodeTitle": "#527.写作的炼金术：普利策奖得主理查德·鲍尔斯深度对谈，揭秘人物、语言与故事的永恒法则",
     "uniqueId": "69fd6acde1eb34a939f605dc",
     "publishedAt": "2026-05-08T14:53:17+08:00",
-    "recencyScore": 1.91,
+    "recencyScore": 1.9,
     "valueScore": 5.51,
     "totalScore": 3.89,
     "domain": "文化",
@@ -6696,18 +6552,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "颜如玉|医美 A to Z",
-    "episodeTitle": "EP12-996牛马护肤（下）: 严蕾×罗瑶佳：鸡汤式锁水、打麻将晒黑与“第二张脸”的纹路",
-    "uniqueId": "69c789f7b977fb2c476fafba",
-    "publishedAt": "2026-03-29T00:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 6.2,
-    "totalScore": 3.86,
-    "domain": "健康",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "啊！是猫咪呀",
     "episodeTitle": "S1.E22《性爱自修室》Eric:  无论粉墨，都站在光明的角落",
     "uniqueId": "wavpub_vSJdTKjafRuYUtQFnntyYMCehVKLnvdahSYAYpMvgZaEbaGexSpGtYHnH",
@@ -6796,7 +6640,7 @@
     "episodeTitle": "妈宝男，指定是有点说法的",
     "uniqueId": "6a19425bac7bdb080c32ad72",
     "publishedAt": "2026-05-30T21:30:00+08:00",
-    "recencyScore": 5.81,
+    "recencyScore": 5.8,
     "valueScore": 2.23,
     "totalScore": 3.84,
     "domain": "生活",
@@ -6868,7 +6712,7 @@
     "episodeTitle": "一人公司搞钱：有人两月24条广告胖30斤，有人做四休三每天工作4小时｜成都听友会",
     "uniqueId": "6a09f0bde1eb34a93994daef",
     "publishedAt": "2026-05-18T07:30:00+08:00",
-    "recencyScore": 3.1,
+    "recencyScore": 3.09,
     "valueScore": 4.45,
     "totalScore": 3.84,
     "domain": "商业",
@@ -7140,18 +6984,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "颜如玉|医美 A to Z",
-    "episodeTitle": "EP08-玫瑰痤疮（下）：严蕾×罗瑶佳：拍照流泪的护士、战高温的重庆女生和园长的最后一站",
-    "uniqueId": "698eee55a22480add60718d8",
-    "publishedAt": "2026-02-24T00:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 6.11,
-    "totalScore": 3.81,
-    "domain": "健康",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "搞钱女孩",
     "episodeTitle": "OpenClaw能搞钱还能救命！上门部署10天变现2W，穿越战火抢票逃离迪拜",
     "uniqueId": "69baccdf690ca3160f3c3c11",
@@ -7159,30 +6991,6 @@
     "recencyScore": 1.0,
     "valueScore": 6.1,
     "totalScore": 3.81,
-    "domain": "AI",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "Peril Crosser 肚饿？渡厄！",
-    "episodeTitle": "EP45: 谁谋杀了大厂里的“马谡”们？从三国配角看现代职场的致命替罪羊",
-    "uniqueId": "https://perilcrosser.com/?p=229",
-    "publishedAt": "2026-05-31T10:13:46+08:00",
-    "recencyScore": 5.97,
-    "valueScore": 2.02,
-    "totalScore": 3.8,
-    "domain": "职场",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "蜉蝣天地 Meanders",
-    "episodeTitle": "向量模型工程师：AI 的隐藏瓶颈与新时代的信息迷宫",
-    "uniqueId": "6a1fa171b30e1571ae9fce67",
-    "publishedAt": "2026-06-03T17:00:00+08:00",
-    "recencyScore": 7.03,
-    "valueScore": 1.15,
-    "totalScore": 3.8,
     "domain": "AI",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
@@ -7256,6 +7064,30 @@
     "valueScore": 6.09,
     "totalScore": 3.8,
     "domain": "商业",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "Peril Crosser 肚饿？渡厄！",
+    "episodeTitle": "EP45: 谁谋杀了大厂里的“马谡”们？从三国配角看现代职场的致命替罪羊",
+    "uniqueId": "https://perilcrosser.com/?p=229",
+    "publishedAt": "2026-05-31T10:13:46+08:00",
+    "recencyScore": 5.96,
+    "valueScore": 2.02,
+    "totalScore": 3.79,
+    "domain": "职场",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "蜉蝣天地 Meanders",
+    "episodeTitle": "向量模型工程师：AI 的隐藏瓶颈与新时代的信息迷宫",
+    "uniqueId": "6a1fa171b30e1571ae9fce67",
+    "publishedAt": "2026-06-03T17:00:00+08:00",
+    "recencyScore": 7.02,
+    "valueScore": 1.15,
+    "totalScore": 3.79,
+    "domain": "AI",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -7464,18 +7296,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#519.巴菲特首次台下对话：恐慌时买入、黄金法则与美国的秘密配",
-    "uniqueId": "69f8a6a3f93890ea8138cf28",
-    "publishedAt": "2026-05-04T22:13:23+08:00",
-    "recencyScore": 1.59,
-    "valueScore": 5.57,
-    "totalScore": 3.78,
-    "domain": "财经",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "What's Next｜科技早知道",
     "episodeTitle": "续航、安全、成本，动力电池的「终极方案」是什么？| S10E07",
     "uniqueId": "5a649a5f-f3af-4fde-ab23-56b2a902e1b7",
@@ -7624,7 +7444,7 @@
     "episodeTitle": "Vol6.高考选择大于努力？全省前50的我最终成了“无业游民”",
     "uniqueId": "6a21d49eb30e1571aea0d439",
     "publishedAt": "2026-06-05T20:30:00+08:00",
-    "recencyScore": 7.83,
+    "recencyScore": 7.82,
     "valueScore": 0.45,
     "totalScore": 3.77,
     "domain": "科技",
@@ -7640,6 +7460,18 @@
     "valueScore": 5.35,
     "totalScore": 3.77,
     "domain": "科技",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#519.巴菲特首次台下对话：恐慌时买入、黄金法则与美国的秘密配",
+    "uniqueId": "69f8a6a3f93890ea8138cf28",
+    "publishedAt": "2026-05-04T22:13:23+08:00",
+    "recencyScore": 1.58,
+    "valueScore": 5.57,
+    "totalScore": 3.77,
+    "domain": "财经",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -8252,18 +8084,6 @@
     "valueScore": 5.94,
     "totalScore": 3.72,
     "domain": "科技",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "颜如玉|医美 A to Z",
-    "episodeTitle": "EP05-热玛吉：严蕾×罗瑶佳：两位热玛吉导师深度解读抗衰真相-不卷能量，让我们愉快的做一次热玛吉",
-    "uniqueId": "697da244073030367a8f1119",
-    "publishedAt": "2026-02-02T00:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 5.95,
-    "totalScore": 3.72,
-    "domain": "健康",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -8952,18 +8772,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "颜如玉|医美 A to Z",
-    "episodeTitle": "EP16｜做医美，应该去公立，还是民营？",
-    "uniqueId": "69e835261e94ae6921d9c390",
-    "publishedAt": "2026-04-23T00:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 5.83,
-    "totalScore": 3.66,
-    "domain": "健康",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "贝望录",
     "episodeTitle": "09. 找出路丨从国内卷到国外，跨境电商还值得做吗？",
     "uniqueId": "67a4edb3247d51713c0aec87",
@@ -9100,7 +8908,7 @@
     "episodeTitle": "【串台】感官觉醒：停止过度思考，让五感带你找回真实生活",
     "uniqueId": "6a1450ed8b5c94538eb1309c",
     "publishedAt": "2026-05-25T21:49:10+08:00",
-    "recencyScore": 4.53,
+    "recencyScore": 4.52,
     "valueScore": 2.93,
     "totalScore": 3.65,
     "domain": "生活",
@@ -9172,7 +8980,7 @@
     "episodeTitle": "Google 的 AI 策略：不赌模型，赌什么？| Google Cloud Next 现场 S10E09",
     "uniqueId": "073d7ee7-7bac-4958-b45a-083cc2f866e6",
     "publishedAt": "2026-04-29T15:00:00+08:00",
-    "recencyScore": 1.22,
+    "recencyScore": 1.21,
     "valueScore": 5.62,
     "totalScore": 3.64,
     "domain": "AI",
@@ -9348,18 +9156,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "Vibration 歪波音室",
-    "episodeTitle": "5月新歌推荐丨雷擎、汪川、LE SSERAFIM、BIBI…不容错过❤️！",
-    "uniqueId": "wavpub_JFzDyzkKdeMaVMdapjVqFDfXMLQEgfVjSjcvuwjmLTeAeZzcADbyKHevj",
-    "publishedAt": "2026-05-28T06:00:00+08:00",
-    "recencyScore": 5.09,
-    "valueScore": 2.43,
-    "totalScore": 3.63,
-    "domain": "文化",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "十字路口Crossing",
     "episodeTitle": "钱去哪了？谁在出手？与刘旌复盘 2025 VC 们的新共识与暗流",
     "uniqueId": "694f570e2db086f897318453",
@@ -9432,18 +9228,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "颜如玉|医美 A to Z",
-    "episodeTitle": "EP09-晒后修复：严蕾×罗瑶佳：皮肤的ATM机、晒伤的耳垂和奥利奥式合影",
-    "uniqueId": "69ab9c145b2d0ed069ba41eb",
-    "publishedAt": "2026-03-08T00:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 5.77,
-    "totalScore": 3.62,
-    "domain": "健康",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "乱翻书",
     "episodeTitle": "257.半佛怕爆款，三表拒AI，冰汝谢川普：我们为什么坚守图文？",
     "uniqueId": "695384792db086f897c8b5d3",
@@ -9488,6 +9272,18 @@
     "valueScore": 5.76,
     "totalScore": 3.62,
     "domain": "AI",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "Vibration 歪波音室",
+    "episodeTitle": "5月新歌推荐丨雷擎、汪川、LE SSERAFIM、BIBI…不容错过❤️！",
+    "uniqueId": "wavpub_JFzDyzkKdeMaVMdapjVqFDfXMLQEgfVjSjcvuwjmLTeAeZzcADbyKHevj",
+    "publishedAt": "2026-05-28T06:00:00+08:00",
+    "recencyScore": 5.08,
+    "valueScore": 2.43,
+    "totalScore": 3.62,
+    "domain": "文化",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -9744,18 +9540,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "42章经",
-    "episodeTitle": "当软件容易被创作，新时代的产品长什么样？ | 对谈 Albert",
-    "uniqueId": "6a059d321b7bd50295257a5e",
-    "publishedAt": "2026-05-16T21:30:00+08:00",
-    "recencyScore": 2.89,
-    "valueScore": 4.16,
-    "totalScore": 3.59,
-    "domain": "科技",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#413.多巴胺与血清素：决策、动机与学习的神经密码 | Dr. Read Montague",
     "uniqueId": "698321b670aae7e96792d82b",
@@ -9865,6 +9649,18 @@
   },
   {
     "podcastName": "42章经",
+    "episodeTitle": "当软件容易被创作，新时代的产品长什么样？ | 对谈 Albert",
+    "uniqueId": "6a059d321b7bd50295257a5e",
+    "publishedAt": "2026-05-16T21:30:00+08:00",
+    "recencyScore": 2.88,
+    "valueScore": 4.16,
+    "totalScore": 3.58,
+    "domain": "科技",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "42章经",
     "episodeTitle": "Agent 开发的上半场: 环境、Tools 和 Context 如何决定 Agent｜对谈 Sheet0 创始人王文锋",
     "uniqueId": "68032a401f1db84a563d5d83",
     "publishedAt": "2025-04-19T22:00:00+08:00",
@@ -9930,18 +9726,6 @@
     "publishedAt": "2025-10-22T08:00:00+08:00",
     "recencyScore": 1.0,
     "valueScore": 5.69,
-    "totalScore": 3.58,
-    "domain": "商业",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "搞钱女孩",
-    "episodeTitle": "成为OPC，不做NPC！搞钱让我主体性大觉醒 | 苏州听友会",
-    "uniqueId": "6a14b8678b5c94538eb3e8c2",
-    "publishedAt": "2026-05-26T09:30:00+08:00",
-    "recencyScore": 4.64,
-    "valueScore": 2.71,
     "totalScore": 3.58,
     "domain": "商业",
     "selected": false,
@@ -10062,6 +9846,18 @@
     "publishedAt": "2024-09-27T08:00:00+08:00",
     "recencyScore": 1.0,
     "valueScore": 5.67,
+    "totalScore": 3.57,
+    "domain": "商业",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "搞钱女孩",
+    "episodeTitle": "成为OPC，不做NPC！搞钱让我主体性大觉醒 | 苏州听友会",
+    "uniqueId": "6a14b8678b5c94538eb3e8c2",
+    "publishedAt": "2026-05-26T09:30:00+08:00",
+    "recencyScore": 4.63,
+    "valueScore": 2.71,
     "totalScore": 3.57,
     "domain": "商业",
     "selected": false,
@@ -10660,7 +10456,7 @@
     "episodeTitle": "从消费到消废，聊聊那些让生活低能耗、高丝滑的花钱智慧！",
     "uniqueId": "6a0dfb5d1b7bd5029589b185",
     "publishedAt": "2026-05-21T07:30:00+08:00",
-    "recencyScore": 3.6,
+    "recencyScore": 3.59,
     "valueScore": 3.44,
     "totalScore": 3.51,
     "domain": "生活",
@@ -11208,18 +11004,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "颜如玉|医美 A to Z",
-    "episodeTitle": "EP03-光子: 严蕾×罗瑶佳：第一次牵手的“过电感”、“打地鼠”游戏，与“神农尝百草”的实验：那些藏在光子背后的奥秘",
-    "uniqueId": "696c9302ef1cf272a703a185",
-    "publishedAt": "2026-01-20T00:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 5.47,
-    "totalScore": 3.46,
-    "domain": "健康",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "乱翻书",
     "episodeTitle": "74.蔚小理的2022，小米的2016",
     "uniqueId": "63076c820d43f7f6306c6766",
@@ -11320,7 +11104,7 @@
     "episodeTitle": "143. 对何小鹏的第二次访谈：更大赌注、人形机器人Iron诞生、那场意外、技术剧变下CEO、GX和缝合怪",
     "uniqueId": "6a170f747460cabdeb56dabb",
     "publishedAt": "2026-05-28T08:00:00+08:00",
-    "recencyScore": 5.11,
+    "recencyScore": 5.1,
     "valueScore": 2.1,
     "totalScore": 3.45,
     "domain": "AI",
@@ -11728,7 +11512,7 @@
     "episodeTitle": "参半｜外国旅客入境游走向平价化，古茗加码咖啡和早餐",
     "uniqueId": "6a16fe6a7460cabdeb56d0d7",
     "publishedAt": "2026-05-28T07:00:00+08:00",
-    "recencyScore": 5.1,
+    "recencyScore": 5.09,
     "valueScore": 2.05,
     "totalScore": 3.42,
     "domain": "商业",
@@ -11828,18 +11612,6 @@
     "valueScore": 5.38,
     "totalScore": 3.41,
     "domain": "AI",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "猫史cafe",
-    "episodeTitle": "03 明清夹缝中的生存法则：朝鲜王朝唯一的命运",
-    "uniqueId": "6a1f1129b30e1571ae9fa3dc",
-    "publishedAt": "2026-06-03T07:00:00+08:00",
-    "recencyScore": 6.89,
-    "valueScore": 0.56,
-    "totalScore": 3.41,
-    "domain": "文化",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -12016,10 +11788,22 @@
     "episodeTitle": "鲜芋仙新老板带来 DQ 经验，中式糖水的连锁化改造有哪些难题？",
     "uniqueId": "6a131ac68b5c94538ea45fdc",
     "publishedAt": "2026-05-25T07:00:00+08:00",
-    "recencyScore": 4.39,
+    "recencyScore": 4.38,
     "valueScore": 2.59,
     "totalScore": 3.4,
     "domain": "商业",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "猫史cafe",
+    "episodeTitle": "03 明清夹缝中的生存法则：朝鲜王朝唯一的命运",
+    "uniqueId": "6a1f1129b30e1571ae9fa3dc",
+    "publishedAt": "2026-06-03T07:00:00+08:00",
+    "recencyScore": 6.88,
+    "valueScore": 0.56,
+    "totalScore": 3.4,
+    "domain": "文化",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -12948,18 +12732,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "颜如玉|医美 A to Z",
-    "episodeTitle": "EP06-黄褐斑：严蕾×罗瑶佳：被冤枉的宝宝、工位的顶灯和褪黑素的秘密-黄褐斑到底能治吗？",
-    "uniqueId": "6988488866e2c303776ab3c5",
-    "publishedAt": "2026-02-09T00:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 5.23,
-    "totalScore": 3.33,
-    "domain": "健康",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "乱翻书",
     "episodeTitle": "212.AI应用三国杀：夸克主打超级框、元宝借力突围、豆包追求智能上限",
     "uniqueId": "67e3bdbeaf5840b3336de99a",
@@ -13086,18 +12858,6 @@
     "publishedAt": "2026-05-27T00:00:00+08:00",
     "recencyScore": 4.78,
     "valueScore": 2.12,
-    "totalScore": 3.32,
-    "domain": "文化",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "虚构立影",
-    "episodeTitle": "05 上海女作家的“身体写作”为什么后继无人？",
-    "uniqueId": "6a1cede77460cabdeb5901d0",
-    "publishedAt": "2026-06-02T07:00:00+08:00",
-    "recencyScore": 6.55,
-    "valueScore": 0.67,
     "totalScore": 3.32,
     "domain": "文化",
     "selected": false,
@@ -13268,6 +13028,18 @@
     "valueScore": 5.2,
     "totalScore": 3.31,
     "domain": "AI",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "虚构立影",
+    "episodeTitle": "05 上海女作家的“身体写作”为什么后继无人？",
+    "uniqueId": "6a1cede77460cabdeb5901d0",
+    "publishedAt": "2026-06-02T07:00:00+08:00",
+    "recencyScore": 6.54,
+    "valueScore": 0.67,
+    "totalScore": 3.31,
+    "domain": "文化",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -14592,18 +14364,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "颜如玉|医美 A to Z",
-    "episodeTitle": "EP07-玫瑰痤疮（上）:严蕾×罗瑶佳：圣诞老人的红鼻头、半夜谈恋爱的螨虫和脸上的热带雨林",
-    "uniqueId": "698edcf8a22480add60518e7",
-    "publishedAt": "2026-02-15T00:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 4.99,
-    "totalScore": 3.19,
-    "domain": "健康",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "乱翻书",
     "episodeTitle": "198.内容创作者的Timing，00后小红书博主、90后公众号作者和80后播客主播的自媒体对话",
     "uniqueId": "678611edf787119b3d1f4af3",
@@ -14692,7 +14452,7 @@
     "episodeTitle": "淘宝闪购｜咖啡豆：「一人食」 仍然当道，曾经的「宅家必备」自嗨锅为何走向破产？",
     "uniqueId": "6a0f216ae1eb34a939da0686",
     "publishedAt": "2026-05-22T07:00:00+08:00",
-    "recencyScore": 3.78,
+    "recencyScore": 3.77,
     "valueScore": 2.69,
     "totalScore": 3.18,
     "domain": "商业",
@@ -14708,6 +14468,18 @@
     "valueScore": 4.96,
     "totalScore": 3.18,
     "domain": "科技",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "65 杨爸咖啡馆|与Jeff聊聊奥德赛时期，关于财富投资、伴侣关系以及职业选择那些事",
+    "uniqueId": "6a1c2998ac7bdb080c33a56e",
+    "publishedAt": "2026-06-01T09:00:00+08:00",
+    "recencyScore": 6.25,
+    "valueScore": 0.67,
+    "totalScore": 3.18,
+    "domain": "财经",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -15012,18 +14784,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "入木一分",
-    "episodeTitle": "对话陈建骐：「歌手」音乐总监和「金曲奖」评审，哪个更烫手？",
-    "uniqueId": "6a132d2f8b5c94538ea50d39",
-    "publishedAt": "2026-05-25T18:30:00+08:00",
-    "recencyScore": 4.5,
-    "valueScore": 2.06,
-    "totalScore": 3.16,
-    "domain": "文化",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "What's Next｜科技早知道",
     "episodeTitle": "S7E25 | 一款意外发现的减肥「神药」，正在横扫全球",
     "uniqueId": "25eb4a24-314f-4004-a4bc-ffa145dc1238",
@@ -15056,18 +14816,6 @@
     "valueScore": 4.93,
     "totalScore": 3.16,
     "domain": "科技",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "颜如玉|医美 A to Z",
-    "episodeTitle": "EP04-保湿防晒：严蕾×罗瑶佳：洗羊肉式清洁、防晒霜的秤，与消失的50g面霜：护肤底层的医学逻辑",
-    "uniqueId": "6970a591109824f9e1c009c2",
-    "publishedAt": "2026-01-25T00:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 4.93,
-    "totalScore": 3.16,
-    "domain": "健康",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -15176,6 +14924,18 @@
     "valueScore": 4.9,
     "totalScore": 3.15,
     "domain": "AI",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "入木一分",
+    "episodeTitle": "对话陈建骐：「歌手」音乐总监和「金曲奖」评审，哪个更烫手？",
+    "uniqueId": "6a132d2f8b5c94538ea50d39",
+    "publishedAt": "2026-05-25T18:30:00+08:00",
+    "recencyScore": 4.49,
+    "valueScore": 2.06,
+    "totalScore": 3.15,
+    "domain": "文化",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -15768,18 +15528,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "淘宝闪购｜曾跑赢奢侈品行业大盘的 Miu Miu，为什么如今增速放缓？",
-    "uniqueId": "6a0c7467e1eb34a939b604ad",
-    "publishedAt": "2026-05-20T07:00:00+08:00",
-    "recencyScore": 3.42,
-    "valueScore": 2.83,
-    "totalScore": 3.1,
-    "domain": "商业",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#103:美国视角下关税冲击波：全球供应链重构的危与机",
     "uniqueId": "680a2ad97a449ae8587ab232",
@@ -15884,6 +15632,18 @@
     "valueScore": 4.8,
     "totalScore": 3.09,
     "domain": "文化",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "淘宝闪购｜曾跑赢奢侈品行业大盘的 Miu Miu，为什么如今增速放缓？",
+    "uniqueId": "6a0c7467e1eb34a939b604ad",
+    "publishedAt": "2026-05-20T07:00:00+08:00",
+    "recencyScore": 3.41,
+    "valueScore": 2.83,
+    "totalScore": 3.09,
+    "domain": "商业",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -16192,7 +15952,7 @@
     "episodeTitle": "#530. All-in: 埃隆联手 Anthropic，下一个 AI 垄断者？",
     "uniqueId": "6a01b7db1b7bd50295edc7bd",
     "publishedAt": "2026-05-11T19:15:39+08:00",
-    "recencyScore": 2.24,
+    "recencyScore": 2.23,
     "valueScore": 3.75,
     "totalScore": 3.07,
     "domain": "AI",
@@ -16328,18 +16088,6 @@
     "valueScore": 4.75,
     "totalScore": 3.06,
     "domain": "AI",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "IMAX 正在寻求出售，Costco 入驻京东平台",
-    "uniqueId": "6a1456d7e59ebca93644e4cc",
-    "publishedAt": "2026-05-26T07:00:00+08:00",
-    "recencyScore": 4.62,
-    "valueScore": 1.78,
-    "totalScore": 3.06,
-    "domain": "科技",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -16520,6 +16268,18 @@
     "valueScore": 4.72,
     "totalScore": 3.05,
     "domain": "AI",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "IMAX 正在寻求出售，Costco 入驻京东平台",
+    "uniqueId": "6a1456d7e59ebca93644e4cc",
+    "publishedAt": "2026-05-26T07:00:00+08:00",
+    "recencyScore": 4.61,
+    "valueScore": 1.78,
+    "totalScore": 3.05,
+    "domain": "科技",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -16852,7 +16612,7 @@
     "episodeTitle": "何一：我的野心，是去更大的世界看看！",
     "uniqueId": "6a04b860e1eb34a9395b1409",
     "publishedAt": "2026-05-14T07:30:00+08:00",
-    "recencyScore": 2.54,
+    "recencyScore": 2.53,
     "valueScore": 3.43,
     "totalScore": 3.03,
     "domain": "科技",
@@ -16928,18 +16688,6 @@
     "valueScore": 4.67,
     "totalScore": 3.02,
     "domain": "AI",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "整点亮话",
-    "episodeTitle": "63 杨爸咖啡馆|小咩学姐：从欧莱雅裸辞到年入百万，职场女性的搞钱心法",
-    "uniqueId": "6a0a95181b7bd5029559c5db",
-    "publishedAt": "2026-05-18T18:00:00+08:00",
-    "recencyScore": 3.17,
-    "valueScore": 2.9,
-    "totalScore": 3.02,
-    "domain": "职场",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -17245,18 +16993,6 @@
   },
   {
     "podcastName": "搞钱女孩",
-    "episodeTitle": "上班有多苦？发到小红薯！职场博主从起号到变现必听 | 香港听友会",
-    "uniqueId": "69fb1b07e1eb34a939d7f298",
-    "publishedAt": "2026-05-07T07:30:00+08:00",
-    "recencyScore": 1.79,
-    "valueScore": 4.0,
-    "totalScore": 3.01,
-    "domain": "职场",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "搞钱女孩",
     "episodeTitle": "开线下店vs做自媒体，哪个才是创业的最小单位？",
     "uniqueId": "656f3fc7d6e0ff5822c06e8f",
     "publishedAt": "2023-12-05T23:20:38+08:00",
@@ -17420,6 +17156,18 @@
     "valueScore": 4.63,
     "totalScore": 3.0,
     "domain": "财经",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "搞钱女孩",
+    "episodeTitle": "上班有多苦？发到小红薯！职场博主从起号到变现必听 | 香港听友会",
+    "uniqueId": "69fb1b07e1eb34a939d7f298",
+    "publishedAt": "2026-05-07T07:30:00+08:00",
+    "recencyScore": 1.78,
+    "valueScore": 4.0,
+    "totalScore": 3.0,
+    "domain": "职场",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -17692,7 +17440,7 @@
     "episodeTitle": "codex为何那么火",
     "uniqueId": "6a1e345aac7bdb080c348169",
     "publishedAt": "2026-06-02T09:42:33+08:00",
-    "recencyScore": 6.59,
+    "recencyScore": 6.58,
     "valueScore": 0.01,
     "totalScore": 2.97,
     "domain": "AI",
@@ -17764,7 +17512,7 @@
     "episodeTitle": "Vol5.普通人如何easy模式理财？99%人不知道的钱生钱公式",
     "uniqueId": "6a18955aac7bdb080c326467",
     "publishedAt": "2026-05-29T20:30:00+08:00",
-    "recencyScore": 5.52,
+    "recencyScore": 5.51,
     "valueScore": 0.89,
     "totalScore": 2.97,
     "domain": "财经",
@@ -18912,18 +18660,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "颜如玉|医美 A to Z",
-    "episodeTitle": "EP02-诊间故事：严蕾×罗瑶佳：7个月宝宝、80岁阿姨和被老婆骗来的男人的医美诊间故事",
-    "uniqueId": "6963665ff8b05f9f75f53d25",
-    "publishedAt": "2026-01-14T00:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 4.44,
-    "totalScore": 2.89,
-    "domain": "健康",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "乱翻书",
     "episodeTitle": "238.一个57岁外卖员的春天——与王计兵谈低处飞行、素人写作与城市骑士",
     "uniqueId": "68af438a97178f08eefe2ee3",
@@ -19980,18 +19716,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "颜如玉|医美 A to Z",
-    "episodeTitle": "EP01-开播简介: 严蕾 × 罗瑶佳：15年练就的“算命式”面诊与桌面的50瓶防晒霜",
-    "uniqueId": "6962121ce235ea65bc1911df",
-    "publishedAt": "2026-01-11T00:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 4.3,
-    "totalScore": 2.82,
-    "domain": "健康",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "乱翻书",
     "episodeTitle": "185.中国企业家的父权觉醒",
     "uniqueId": "6740c7a111045e78e52d4ec2",
@@ -20724,18 +20448,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "跨域请求",
-    "episodeTitle": "13.🪐SpaceX - 人类史上最大IPO：马斯克把火星写进招股书",
-    "uniqueId": "6a141440e59ebca936411396",
-    "publishedAt": "2026-05-25T17:25:35+08:00",
-    "recencyScore": 4.49,
-    "valueScore": 1.36,
-    "totalScore": 2.77,
-    "domain": "AI",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "What's Next｜科技早知道",
     "episodeTitle": "#42 股市为啥脱离经济疯长？我们来聊聊美国经济的背后",
     "uniqueId": "07ab1809-27aa-488b-865d-677ad73fc560",
@@ -20852,6 +20564,18 @@
     "valueScore": 4.2,
     "totalScore": 2.76,
     "domain": "财经",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "跨域请求",
+    "episodeTitle": "13.🪐SpaceX - 人类史上最大IPO：马斯克把火星写进招股书",
+    "uniqueId": "6a141440e59ebca936411396",
+    "publishedAt": "2026-05-25T17:25:35+08:00",
+    "recencyScore": 4.48,
+    "valueScore": 1.36,
+    "totalScore": 2.76,
+    "domain": "AI",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -23868,6 +23592,18 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
+    "podcastName": "整点亮话",
+    "episodeTitle": "64 不是这届学生难带，是老板你太水了",
+    "uniqueId": "6a12ca308b5c94538ea07074",
+    "publishedAt": "2026-05-25T09:00:00+08:00",
+    "recencyScore": 4.4,
+    "valueScore": 1.03,
+    "totalScore": 2.55,
+    "domain": "职场",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
     "podcastName": "乱翻书",
     "episodeTitle": "96.今日头条十年了，下面还能怎么做？",
     "uniqueId": "63b01e03e7ab859986035b22",
@@ -24144,18 +23880,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "诗梳风",
-    "episodeTitle": "EP18 与 AI 一起写非虚构之「我在远东种大豆、种完大豆写文章」· Case",
-    "uniqueId": "6a0c84c5e1eb34a939b7230e",
-    "publishedAt": "2026-05-21T09:00:00+08:00",
-    "recencyScore": 3.61,
-    "valueScore": 1.62,
-    "totalScore": 2.52,
-    "domain": "AI",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "其他垃圾",
     "episodeTitle": "Ep21. 越来越难进入的现代婚姻：男人要性，女人要爱",
     "uniqueId": "64e07c65e490c5dee5e08540",
@@ -24320,6 +24044,18 @@
     "valueScore": 3.76,
     "totalScore": 2.52,
     "domain": "商业",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "诗梳风",
+    "episodeTitle": "EP18 与 AI 一起写非虚构之「我在远东种大豆、种完大豆写文章」· Case",
+    "uniqueId": "6a0c84c5e1eb34a939b7230e",
+    "publishedAt": "2026-05-21T09:00:00+08:00",
+    "recencyScore": 3.6,
+    "valueScore": 1.62,
+    "totalScore": 2.51,
+    "domain": "AI",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -24696,6 +24432,18 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
+    "podcastName": "颜如玉|医美 A to Z",
+    "episodeTitle": "EP21｜黄金微针你真的了解吗？扒一扒求美者对它的“10大误区”",
+    "uniqueId": "6a0ec1cae1eb34a939d449c6",
+    "publishedAt": "2026-05-24T00:00:00+08:00",
+    "recencyScore": 4.11,
+    "valueScore": 1.16,
+    "totalScore": 2.49,
+    "domain": "健康",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
     "podcastName": "乱翻书",
     "episodeTitle": "141.中国特稿二十年，岂有豪情似旧时",
     "uniqueId": "654085073572ca833131030a",
@@ -24808,7 +24556,7 @@
     "episodeTitle": "12.⚖️马斯克输给OpenAI：烂尾的世纪官司",
     "uniqueId": "6a0f32281b7bd502959a3a0e",
     "publishedAt": "2026-05-22T01:54:56+08:00",
-    "recencyScore": 3.74,
+    "recencyScore": 3.73,
     "valueScore": 1.45,
     "totalScore": 2.48,
     "domain": "AI",
@@ -25488,18 +25236,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "其他垃圾",
-    "episodeTitle": "我们说了这么多前额叶，却说不出“我很痛苦”这四个字",
-    "uniqueId": "6a072ddce1eb34a9397a761c",
-    "publishedAt": "2026-05-16T21:30:00+08:00",
-    "recencyScore": 2.89,
-    "valueScore": 2.05,
-    "totalScore": 2.43,
-    "domain": "生活",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "about热水频道",
     "episodeTitle": "没有人不向往旷野，但它也许就在身边｜014行走",
     "uniqueId": "6658f3d594977a26ef1a0184",
@@ -25568,6 +25304,18 @@
     "valueScore": 3.6,
     "totalScore": 2.43,
     "domain": "商业",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "其他垃圾",
+    "episodeTitle": "我们说了这么多前额叶，却说不出“我很痛苦”这四个字",
+    "uniqueId": "6a072ddce1eb34a9397a761c",
+    "publishedAt": "2026-05-16T21:30:00+08:00",
+    "recencyScore": 2.88,
+    "valueScore": 2.05,
+    "totalScore": 2.42,
+    "domain": "生活",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -26340,6 +26088,18 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
+    "podcastName": "颜如玉|医美 A to Z",
+    "episodeTitle": "EP20｜从饱满到轻盈，从明显到自然：面颈一体化抗衰的“高级感”",
+    "uniqueId": "6a06cc4fe1eb34a9397485c8",
+    "publishedAt": "2026-05-17T00:00:00+08:00",
+    "recencyScore": 2.9,
+    "valueScore": 1.96,
+    "totalScore": 2.38,
+    "domain": "健康",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
     "podcastName": "乱翻书",
     "episodeTitle": "120.越南是小国吗？东南亚是统一大市场吗？",
     "uniqueId": "64705d8b53a5e5ea1421a367",
@@ -26604,18 +26364,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "Peril Crosser 肚饿？渡厄！",
-    "episodeTitle": "EP44: 大厂的坟墓里，埋的全是三好学生：聊聊巨头是怎么把自己作死的",
-    "uniqueId": "https://perilcrosser.com/?p=213",
-    "publishedAt": "2026-05-23T22:00:13+08:00",
-    "recencyScore": 4.1,
-    "valueScore": 0.91,
-    "totalScore": 2.35,
-    "domain": "商业",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "其他垃圾",
     "episodeTitle": "Ep22. 不再做长期计划的我们",
     "uniqueId": "64f18e1880c9ec4c5fe109f4",
@@ -26724,6 +26472,18 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
+    "podcastName": "Peril Crosser 肚饿？渡厄！",
+    "episodeTitle": "EP44: 大厂的坟墓里，埋的全是三好学生：聊聊巨头是怎么把自己作死的",
+    "uniqueId": "https://perilcrosser.com/?p=213",
+    "publishedAt": "2026-05-23T22:00:13+08:00",
+    "recencyScore": 4.09,
+    "valueScore": 0.91,
+    "totalScore": 2.34,
+    "domain": "商业",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
     "podcastName": "其他垃圾",
     "episodeTitle": "为什么我总做不了一个圆滑的人",
     "uniqueId": "6788c280f787119b3da386a1",
@@ -26776,7 +26536,7 @@
     "episodeTitle": "139. 【Agent的综述】和苏煜聊Agent技术史、OpenClaw Moment、边界的消弭和社会的辐射",
     "uniqueId": "69f3857a5c60a99573fea0c2",
     "publishedAt": "2026-05-01T08:00:00+08:00",
-    "recencyScore": 1.33,
+    "recencyScore": 1.32,
     "valueScore": 3.17,
     "totalScore": 2.34,
     "domain": "AI",
@@ -26989,18 +26749,6 @@
   },
   {
     "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#533. Anthropic如何运营一个 AI 原生工程组织",
-    "uniqueId": "6a02de0b1b7bd50295fd547a",
-    "publishedAt": "2026-05-12T16:06:18+08:00",
-    "recencyScore": 2.34,
-    "valueScore": 2.32,
-    "totalScore": 2.33,
-    "domain": "AI",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "跨国串门儿计划",
     "episodeTitle": "#238.谷歌帝国兴衰史（二）： 谷歌的黄金十年，从Gmail到安卓，八款十亿用户产品的诞生史诗",
     "uniqueId": "68ce5bac2c82c9dcca51b2ad",
     "publishedAt": "2025-09-20T16:14:31+08:00",
@@ -27109,6 +26857,18 @@
   },
   {
     "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#533. Anthropic如何运营一个 AI 原生工程组织",
+    "uniqueId": "6a02de0b1b7bd50295fd547a",
+    "publishedAt": "2026-05-12T16:06:18+08:00",
+    "recencyScore": 2.33,
+    "valueScore": 2.32,
+    "totalScore": 2.32,
+    "domain": "AI",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "跨国串门儿计划",
     "episodeTitle": "#121. 对话李飞飞：AI不仅是工具，更是塑造人类未来的力量",
     "uniqueId": "6826de211ced30a2319fb229",
     "publishedAt": "2025-05-16T14:42:46+08:00",
@@ -27208,7 +26968,7 @@
     "episodeTitle": "教职场人用AI提效是个伪命题",
     "uniqueId": "6a179f827460cabdeb56fb55",
     "publishedAt": "2026-05-28T09:52:37+08:00",
-    "recencyScore": 5.13,
+    "recencyScore": 5.12,
     "valueScore": 0.01,
     "totalScore": 2.31,
     "domain": "AI",
@@ -27661,18 +27421,6 @@
   },
   {
     "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#531.反脆弱公司治理：《精益创业》作者Eric Ries：如何防止公司腐化，打造基业长青的组织",
-    "uniqueId": "6a01d64d1b7bd50295efd647",
-    "publishedAt": "2026-05-11T21:28:05+08:00",
-    "recencyScore": 2.25,
-    "valueScore": 2.32,
-    "totalScore": 2.29,
-    "domain": "商业",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "跨国串门儿计划",
     "episodeTitle": "#195. 复盘Figma：四年磨一剑，它如何从一个“异类”想法变成设计师的必需品？",
     "uniqueId": "688f10af8e06fe8de70d530c",
     "publishedAt": "2025-08-03T15:34:27+08:00",
@@ -27836,6 +27584,18 @@
     "valueScore": 3.32,
     "totalScore": 2.28,
     "domain": "AI",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#531.反脆弱公司治理：《精益创业》作者Eric Ries：如何防止公司腐化，打造基业长青的组织",
+    "uniqueId": "6a01d64d1b7bd50295efd647",
+    "publishedAt": "2026-05-11T21:28:05+08:00",
+    "recencyScore": 2.24,
+    "valueScore": 2.32,
+    "totalScore": 2.28,
+    "domain": "商业",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -28536,18 +28296,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "整点亮话",
-    "episodeTitle": "62 追觅“全员出道”大戏：老板发钱、起诉、炮轰，谁才是真正的“戏精”？",
-    "uniqueId": "6a0053b6e1eb34a9391b0f07",
-    "publishedAt": "2026-05-11T09:00:00+08:00",
-    "recencyScore": 2.19,
-    "valueScore": 2.24,
-    "totalScore": 2.22,
-    "domain": "职场",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "乱翻书",
     "episodeTitle": "128.天下苦办卡久矣，美发和瑜伽行业如何纠偏？",
     "uniqueId": "64c37d1b99e1e7669e3e2e2e",
@@ -28900,7 +28648,7 @@
     "episodeTitle": "90天的合同，15年的余生：机遇号的火星长征",
     "uniqueId": "6a13cef5e59ebca9363c994d",
     "publishedAt": "2026-05-25T13:06:30+08:00",
-    "recencyScore": 4.45,
+    "recencyScore": 4.44,
     "valueScore": 0.34,
     "totalScore": 2.19,
     "domain": "商业",
@@ -29845,18 +29593,6 @@
   },
   {
     "podcastName": "声动早咖啡",
-    "episodeTitle": "咖啡豆｜瑞幸库迪麦当劳纷纷「摘得」IIAC 金奖，为何金奖咖啡豆在国内遍地开花？",
-    "uniqueId": "69fca445e1eb34a939ee00db",
-    "publishedAt": "2026-05-08T07:00:00+08:00",
-    "recencyScore": 1.88,
-    "valueScore": 2.31,
-    "totalScore": 2.12,
-    "domain": "商业",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "声动早咖啡",
     "episodeTitle": "目光从「天上」看向「地面」，大疆为何入局扫地机器人？",
     "uniqueId": "689b560e20a2906a4d39d23f",
     "publishedAt": "2025-08-13T07:00:00+08:00",
@@ -30025,6 +29761,18 @@
   },
   {
     "podcastName": "声动早咖啡",
+    "episodeTitle": "咖啡豆｜瑞幸库迪麦当劳纷纷「摘得」IIAC 金奖，为何金奖咖啡豆在国内遍地开花？",
+    "uniqueId": "69fca445e1eb34a939ee00db",
+    "publishedAt": "2026-05-08T07:00:00+08:00",
+    "recencyScore": 1.87,
+    "valueScore": 2.31,
+    "totalScore": 2.11,
+    "domain": "商业",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "声动早咖啡",
     "episodeTitle": "人工智能被频繁写进裁员理由，AI 真的在大规模取代人类工作吗？",
     "uniqueId": "6953dd352db086f897dc8f83",
     "publishedAt": "2025-12-31T07:00:00+08:00",
@@ -30068,18 +29816,6 @@
     "valueScore": 3.01,
     "totalScore": 2.11,
     "domain": "健康",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "整点亮话",
-    "episodeTitle": "07 温柔且坚定！女性在职场中面对糟糕时刻的终极解法",
-    "uniqueId": "67ee5955f9578163d6d06475",
-    "publishedAt": "2025-04-03T17:54:25+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 3.02,
-    "totalScore": 2.11,
-    "domain": "职场",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -30768,18 +30504,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "富女之友",
-    "episodeTitle": "Vol4.心理咨询乱象！警惕那些把你拉入深渊的“专业人士”",
-    "uniqueId": "6a100486e59ebca9361d36d5",
-    "publishedAt": "2026-05-22T20:30:00+08:00",
-    "recencyScore": 3.89,
-    "valueScore": 0.56,
-    "totalScore": 2.06,
-    "domain": "健康",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "What's Next｜科技早知道",
     "episodeTitle": "Episode 32: 中美科技公司丑闻扎堆背后，有共同的线索",
     "uniqueId": "http://audio.xmcdn.com/group46/M03/C6/3E/wKgKj1uTxcbDGfhDALTclzGXspA622.m4a",
@@ -30888,6 +30612,18 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
+    "podcastName": "富女之友",
+    "episodeTitle": "Vol4.心理咨询乱象！警惕那些把你拉入深渊的“专业人士”",
+    "uniqueId": "6a100486e59ebca9361d36d5",
+    "publishedAt": "2026-05-22T20:30:00+08:00",
+    "recencyScore": 3.88,
+    "valueScore": 0.56,
+    "totalScore": 2.05,
+    "domain": "健康",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#113.AI 的万亿美元机会：红杉 AI Ascent 2025 主题演讲",
     "uniqueId": "681dafd224f8559346ba0363",
@@ -30992,18 +30728,6 @@
     "valueScore": 2.89,
     "totalScore": 2.04,
     "domain": "科技",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "整点亮话",
-    "episodeTitle": "61 杨爸咖啡馆|Stella史呆拉：从资深打工人到出海新加坡，上海女孩的职场变形记",
-    "uniqueId": "69ee07191d989496e78d4da8",
-    "publishedAt": "2026-04-27T09:00:00+08:00",
-    "recencyScore": 1.09,
-    "valueScore": 2.82,
-    "totalScore": 2.04,
-    "domain": "职场",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -31368,18 +31092,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "整点亮话",
-    "episodeTitle": "56 从“新人替旧人”到“AI替人”：2026大厂年龄焦虑的终极升级",
-    "uniqueId": "69c01a782d318777c9314a3f",
-    "publishedAt": "2026-03-23T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 2.85,
-    "totalScore": 2.02,
-    "domain": "职场",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "乱翻书",
     "episodeTitle": "102.中国ChatGPT的船票，最可能由谁抢到？",
     "uniqueId": "63fc7d52f5293d97da235c14",
@@ -31732,7 +31444,7 @@
     "episodeTitle": "最近一个月青少年AI教育的成果",
     "uniqueId": "6a13ac23e59ebca9363a53b3",
     "publishedAt": "2026-05-25T09:57:31+08:00",
-    "recencyScore": 4.42,
+    "recencyScore": 4.41,
     "valueScore": 0.01,
     "totalScore": 1.99,
     "domain": "AI",
@@ -32268,30 +31980,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "整点亮话",
-    "episodeTitle": "51 年终特别企划｜你给自己的2025打几分？",
-    "uniqueId": "698850c066e2c303776bf553",
-    "publishedAt": "2026-02-09T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 2.76,
-    "totalScore": 1.97,
-    "domain": "职场",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "整点亮话",
-    "episodeTitle": "46 杨爸咖啡馆|对话陈思维：自由职业者真实的生活现状",
-    "uniqueId": "695a59a7b9fb626141fee3d4",
-    "publishedAt": "2026-01-05T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 2.77,
-    "totalScore": 1.97,
-    "domain": "职场",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "乱翻书",
     "episodeTitle": "14. 聊聊字节架构调整，在张一鸣退出董事会之后",
     "uniqueId": "61828787510bc77265779fe0",
@@ -32497,23 +32185,11 @@
   },
   {
     "podcastName": "整点亮话",
-    "episodeTitle": "55 杨爸咖啡馆｜薛绮一：三次大厂裸辞之后，我找到在上海的另一种生活方式",
-    "uniqueId": "69b613a2f8b8079bfa5e2fd4",
-    "publishedAt": "2026-03-16T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 2.74,
-    "totalScore": 1.96,
-    "domain": "职场",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "整点亮话",
-    "episodeTitle": "31 职场轻养生，告别脆皮打工人！",
-    "uniqueId": "68bd819197178f08eeb6f4d5",
-    "publishedAt": "2025-09-08T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 2.74,
+    "episodeTitle": "63 杨爸咖啡馆|小咩学姐：从欧莱雅裸辞到年入百万，职场女性的搞钱心法",
+    "uniqueId": "6a0a95181b7bd5029559c5db",
+    "publishedAt": "2026-05-18T18:00:00+08:00",
+    "recencyScore": 3.16,
+    "valueScore": 0.98,
     "totalScore": 1.96,
     "domain": "职场",
     "selected": false,
@@ -33092,18 +32768,6 @@
     "valueScore": 2.68,
     "totalScore": 1.92,
     "domain": "商业",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "整点亮话",
-    "episodeTitle": "59 杨爸咖啡馆|陈洪捷：与教培行业风雨同行",
-    "uniqueId": "69dba5afb977fb2c47be4c04",
-    "publishedAt": "2026-04-13T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 2.68,
-    "totalScore": 1.92,
-    "domain": "职场",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -33840,18 +33504,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "整点亮话",
-    "episodeTitle": "52 从巨亏600亿到机器人霸屏：2026职场，谁在退场？谁在进场？",
-    "uniqueId": "699c3656a22480add6cbfbe2",
-    "publishedAt": "2026-02-24T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 2.62,
-    "totalScore": 1.89,
-    "domain": "职场",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "乱翻书",
     "episodeTitle": "123.对话天涯创始人邢明：天涯重启之后，未来何去何从？",
     "uniqueId": "647a15f01672628240bfbd7e",
@@ -33992,18 +33644,6 @@
     "valueScore": 2.6,
     "totalScore": 1.88,
     "domain": "AI",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "整点亮话",
-    "episodeTitle": "30 加哥会客厅｜HR，是好人还是坏人",
-    "uniqueId": "68b455115faf36865951426d",
-    "publishedAt": "2025-09-01T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 2.6,
-    "totalScore": 1.88,
-    "domain": "职场",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -34392,18 +34032,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "整点亮话",
-    "episodeTitle": "28 杨爸咖啡馆｜对话孙振龙：人工智能博士涉足周易风水学，是命运的召唤还是人生计算的结果",
-    "uniqueId": "68a5c48c42cc2798e78e1a1b",
-    "publishedAt": "2025-08-21T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 2.56,
-    "totalScore": 1.86,
-    "domain": "职场",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "不被定义的职场",
     "episodeTitle": "EP11 从知识到行动：探究型人格的职场蜕变",
     "uniqueId": "685965d42a38b4d97923dfa1",
@@ -34616,18 +34244,6 @@
     "valueScore": 2.54,
     "totalScore": 1.85,
     "domain": "健康",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "整点亮话",
-    "episodeTitle": "14 加哥会客厅 | 职场乖乖女VS职场大女主 女性职场不止有AB面",
-    "uniqueId": "68319aa441ef875a12fdb29d",
-    "publishedAt": "2025-05-26T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 2.55,
-    "totalScore": 1.85,
-    "domain": "职场",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -35064,18 +34680,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "整点亮话",
-    "episodeTitle": "58 职场打工人怕的不是失业，而是失衡",
-    "uniqueId": "69d3cf70e2c8be3155827f7e",
-    "publishedAt": "2026-04-07T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 2.49,
-    "totalScore": 1.82,
-    "domain": "职场",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "韩叙的朋友们",
     "episodeTitle": "44.我想当一个不画饼的老板，可以吗？聊聊内容创业早期的经验感受·对谈姜Dora",
     "uniqueId": "6537f88b206650fc6b9219a7",
@@ -35260,7 +34864,7 @@
     "episodeTitle": "VOL.004你有没有想过，另一个平行世界里的自己",
     "uniqueId": "6a0b3d9c1b7bd50295655ce6",
     "publishedAt": "2026-05-19T10:30:00+08:00",
-    "recencyScore": 3.28,
+    "recencyScore": 3.27,
     "valueScore": 0.61,
     "totalScore": 1.81,
     "domain": "生活",
@@ -35509,18 +35113,6 @@
   },
   {
     "podcastName": "Vibration 歪波音室",
-    "episodeTitle": "✨慵懒节奏 Mixtape：你的愉悦好伙伴",
-    "uniqueId": "wavpub_LzRZZaYaAKmkUKRCyhTyxWWXswrLCaLcRvCPAvPzfJGgzyCFtJAemrEJh",
-    "publishedAt": "2026-05-21T06:00:00+08:00",
-    "recencyScore": 3.59,
-    "valueScore": 0.33,
-    "totalScore": 1.8,
-    "domain": "文化",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "Vibration 歪波音室",
     "episodeTitle": "神专系列丨伍佰《梦的河流》：反映时代的真实，给出勇气和力量",
     "uniqueId": "wavpub_CsHJyFLWyeHbHNChXYgMQbSPDYUwjYXtqnpQUduqJMUAdJwCHuVDayDBd",
     "publishedAt": "2026-04-14T06:00:00+08:00",
@@ -35761,6 +35353,18 @@
   },
   {
     "podcastName": "Vibration 歪波音室",
+    "episodeTitle": "✨慵懒节奏 Mixtape：你的愉悦好伙伴",
+    "uniqueId": "wavpub_LzRZZaYaAKmkUKRCyhTyxWWXswrLCaLcRvCPAvPzfJGgzyCFtJAemrEJh",
+    "publishedAt": "2026-05-21T06:00:00+08:00",
+    "recencyScore": 3.58,
+    "valueScore": 0.33,
+    "totalScore": 1.79,
+    "domain": "文化",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "Vibration 歪波音室",
     "episodeTitle": "10月新歌推荐丨杨丞琳、刘柏辛、Daniel Caesar……哪些宝藏值得听？",
     "uniqueId": "wavpub_yFLeaRkDgcexgsfeMXTRnUvzbzwdBArreVcxyhZXNwczMtLEUargnRcDa",
     "publishedAt": "2025-10-31T06:00:00+08:00",
@@ -35960,30 +35564,6 @@
     "valueScore": 2.42,
     "totalScore": 1.78,
     "domain": "商业",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "整点亮话",
-    "episodeTitle": "47 从茶水间到自媒体，公司如何“管理”你的声音？",
-    "uniqueId": "6963a64cf8b05f9f7500aceb",
-    "publishedAt": "2026-01-12T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 2.41,
-    "totalScore": 1.78,
-    "domain": "职场",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "整点亮话",
-    "episodeTitle": "38 杨爸咖啡馆｜对谈凯文老师：学霸在36岁主动失业成为自媒体人，中年男人的上坡路才刚刚开始",
-    "uniqueId": "69076dd143a4f4a9848f1a37",
-    "publishedAt": "2025-11-03T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 2.41,
-    "totalScore": 1.78,
-    "domain": "职场",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -36528,30 +36108,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "整点亮话",
-    "episodeTitle": "60 从米兰达到安迪：20年后，我们终于看懂职场真正的代价",
-    "uniqueId": "69e4df701d989496e7fe384a",
-    "publishedAt": "2026-04-20T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 2.36,
-    "totalScore": 1.75,
-    "domain": "职场",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "整点亮话",
-    "episodeTitle": "53 杨爸咖啡馆|Cloris：留学26届校招求职难度超越认知",
-    "uniqueId": "69a3e1c4a22480add685b193",
-    "publishedAt": "2026-03-02T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 2.37,
-    "totalScore": 1.75,
-    "domain": "职场",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "乱翻书",
     "episodeTitle": "112. 播客杂谈：视频和直播、亮屏和广告、创作者生态和不可能三角",
     "uniqueId": "64313e0566e4c00c6a88e3b8",
@@ -36628,7 +36184,7 @@
     "episodeTitle": "大厂纷纷立项对标大疆 Pocket，影石、OPPO 们为何都想复刻「旅游出片神器」？",
     "uniqueId": "69f0da15d97e02e4ca5bd1ab",
     "publishedAt": "2026-04-29T07:00:00+08:00",
-    "recencyScore": 1.2,
+    "recencyScore": 1.19,
     "valueScore": 2.19,
     "totalScore": 1.74,
     "domain": "商业",
@@ -36800,18 +36356,6 @@
     "valueScore": 2.35,
     "totalScore": 1.74,
     "domain": "财经",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "整点亮话",
-    "episodeTitle": "32 职场如情场，爱情三十六计，你会哪一计？",
-    "uniqueId": "68c6c3d52c82c9dcca4f80cb",
-    "publishedAt": "2025-09-15T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 2.34,
-    "totalScore": 1.74,
-    "domain": "职场",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -37140,18 +36684,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "跨域请求",
-    "episodeTitle": "11.🚀GameStop凭啥以小博大收购eBay？meme stock时代的商业奇观",
-    "uniqueId": "6a0a0652e1eb34a939954009",
-    "publishedAt": "2026-05-18T02:42:14+08:00",
-    "recencyScore": 3.07,
-    "valueScore": 0.61,
-    "totalScore": 1.72,
-    "domain": "商业",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "声动早咖啡",
     "episodeTitle": "DeepSeek 估值达 3000 亿元，默多克之子计划收购 Vox 播客等业务",
     "uniqueId": "69fb6bc71b7bd502959cebfe",
@@ -37254,6 +36786,18 @@
     "publishedAt": "2025-09-17T00:00:00+08:00",
     "recencyScore": 1.0,
     "valueScore": 2.29,
+    "totalScore": 1.71,
+    "domain": "商业",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "跨域请求",
+    "episodeTitle": "11.🚀GameStop凭啥以小博大收购eBay？meme stock时代的商业奇观",
+    "uniqueId": "6a0a0652e1eb34a939954009",
+    "publishedAt": "2026-05-18T02:42:14+08:00",
+    "recencyScore": 3.06,
+    "valueScore": 0.61,
     "totalScore": 1.71,
     "domain": "商业",
     "selected": false,
@@ -37412,18 +36956,6 @@
     "valueScore": 2.3,
     "totalScore": 1.71,
     "domain": "财经",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "整点亮话",
-    "episodeTitle": "57 杨爸咖啡馆|秦加一：复旦学霸的AB面，经历公司解散到创业十年的奇幻旅程",
-    "uniqueId": "69c8aa3db977fb2c477f2637",
-    "publishedAt": "2026-03-30T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 2.3,
-    "totalScore": 1.71,
-    "domain": "商业",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -37664,18 +37196,6 @@
     "valueScore": 2.28,
     "totalScore": 1.7,
     "domain": "生活",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "整点亮话",
-    "episodeTitle": "44 前HR实名开口：揭秘我们设计“逼你走”的完整流程",
-    "uniqueId": "6948a8490b60b7bf75bb39f2",
-    "publishedAt": "2025-12-22T10:23:58+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 2.28,
-    "totalScore": 1.7,
-    "domain": "职场",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -38004,18 +37524,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "整点亮话",
-    "episodeTitle": "33 你的职场「原生家庭」怎么样？",
-    "uniqueId": "68cff37aa56ca3e0c4860469",
-    "publishedAt": "2025-09-22T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 2.26,
-    "totalScore": 1.69,
-    "domain": "职场",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "思文，败类",
     "episodeTitle": "79.日常生活，让我又悟出了点啥？第四弹",
     "uniqueId": "680469a81f1db84a5661c7fa",
@@ -38204,18 +37712,6 @@
     "valueScore": 2.23,
     "totalScore": 1.68,
     "domain": "商业",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "整点亮话",
-    "episodeTitle": "50 互联网是“快”节奏还是“怪”节奏？",
-    "uniqueId": "697f13992fc7f49d093afdae",
-    "publishedAt": "2026-02-01T16:49:29+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 2.24,
-    "totalScore": 1.68,
-    "domain": "职场",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -39336,30 +38832,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "整点亮话",
-    "episodeTitle": "45 涨薪并不是“福利”，而是最精密的“标价”与“预期管理”",
-    "uniqueId": "6950fe612db086f8976148be",
-    "publishedAt": "2025-12-29T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 2.17,
-    "totalScore": 1.64,
-    "domain": "商业",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "整点亮话",
-    "episodeTitle": "34 世界是个草台班子，草越多，台子越大",
-    "uniqueId": "68d95649b4befcf7305cffcf",
-    "publishedAt": "2025-09-29T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 2.17,
-    "totalScore": 1.64,
-    "domain": "职场",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "韩叙的朋友们",
     "episodeTitle": "59.高客单成交的案例和方法，我们近半年只做了这一件事",
     "uniqueId": "6855a94e4abe6e29cb324341",
@@ -39560,30 +39032,6 @@
     "valueScore": 2.15,
     "totalScore": 1.63,
     "domain": "AI",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "整点亮话",
-    "episodeTitle": "43 你省的钱，以后不一定会让你开心，但是现在一定会让你难受！",
-    "uniqueId": "693f5d6137f52a644ef1536e",
-    "publishedAt": "2025-12-15T09:05:32+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 2.14,
-    "totalScore": 1.63,
-    "domain": "职场",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "整点亮话",
-    "episodeTitle": "35 疯癫的招聘市场：空有一身炸薯条的好手艺，却找不到一口干净的油锅",
-    "uniqueId": "68eb9620525f51df38eef6f4",
-    "publishedAt": "2025-10-13T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 2.15,
-    "totalScore": 1.63,
-    "domain": "职场",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -39888,30 +39336,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "整点亮话",
-    "episodeTitle": "11 加哥会客厅｜在职场要不要交朋友？先做好自己吧！",
-    "uniqueId": "680dd5a67a449ae858f1e086",
-    "publishedAt": "2025-05-05T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 2.12,
-    "totalScore": 1.62,
-    "domain": "职场",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "整点亮话",
-    "episodeTitle": "04 10w+份简历，大厂为何选择你？校招脱颖而出的秘密大公开！",
-    "uniqueId": "67d11f76e924d4525a0899a0",
-    "publishedAt": "2025-03-14T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 2.12,
-    "totalScore": 1.62,
-    "domain": "职场",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "韩叙的朋友们",
     "episodeTitle": "55.零售行业怎么做私域，从搭建私域体系的3个关键点聊起·对谈马凌玲",
     "uniqueId": "67329a38f373fe5d4d874b43",
@@ -40105,23 +39529,11 @@
   },
   {
     "podcastName": "整点亮话",
-    "episodeTitle": "48 杨爸咖啡馆|大旗：15年咖啡行业从业者的来时路，是否能劝退你想入局咖啡圈的梦",
-    "uniqueId": "696c9545ef1cf272a703ed4b",
-    "publishedAt": "2026-01-19T09:00:00+08:00",
+    "episodeTitle": "07 温柔且坚定！女性在职场中面对糟糕时刻的终极解法",
+    "uniqueId": "67ee5955f9578163d6d06475",
+    "publishedAt": "2025-04-03T17:54:25+08:00",
     "recencyScore": 1.0,
-    "valueScore": 2.11,
-    "totalScore": 1.61,
-    "domain": "职场",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "整点亮话",
-    "episodeTitle": "42 打工人的宿命就是当一个“好打工人”么？",
-    "uniqueId": "69355fb93fec3166cfb755ee",
-    "publishedAt": "2025-12-08T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 2.11,
+    "valueScore": 2.1,
     "totalScore": 1.61,
     "domain": "职场",
     "selected": false,
@@ -40800,30 +40212,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "整点亮话",
-    "episodeTitle": "49 你是职场“出头鸟”还是“鸵鸟”？",
-    "uniqueId": "69762ebd109824f9e17b94f6",
-    "publishedAt": "2026-01-26T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 2.06,
-    "totalScore": 1.58,
-    "domain": "职场",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "整点亮话",
-    "episodeTitle": "36 讨好型人格？这个“软柿子”谁爱当谁当！",
-    "uniqueId": "68f4edf5456ffec65e82ddc2",
-    "publishedAt": "2025-10-20T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 2.06,
-    "totalScore": 1.58,
-    "domain": "职场",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "韩叙的朋友们",
     "episodeTitle": "50.商业IP怎么做，用最接地气的方式聊聊·对谈Tiger",
     "uniqueId": "667318e0c26e396a36ff90bb",
@@ -41100,30 +40488,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "整点亮话",
-    "episodeTitle": "54 为什么我们的底线越来越低？",
-    "uniqueId": "69ad6dd45b2d0ed069f7a4dd",
-    "publishedAt": "2026-03-09T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 2.04,
-    "totalScore": 1.57,
-    "domain": "职场",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "整点亮话",
-    "episodeTitle": "27 告别职场的八字准则：“体面离开，不留后患”",
-    "uniqueId": "68a1d931293471fed40ef5b7",
-    "publishedAt": "2025-08-18T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 2.03,
-    "totalScore": 1.57,
-    "domain": "职场",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "韩叙的朋友们",
     "episodeTitle": "24.如何做出专业且有趣的内容·对谈丁香园vp初洋",
     "uniqueId": "6384f808f6753f4e9d4d5ac8",
@@ -41396,18 +40760,6 @@
     "valueScore": 2.01,
     "totalScore": 1.56,
     "domain": "健康",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "整点亮话",
-    "episodeTitle": "39 如果五月天的“总裁大人”是你的老板...",
-    "uniqueId": "6919f92d6018cc2c981e561a",
-    "publishedAt": "2025-11-17T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 2.02,
-    "totalScore": 1.56,
-    "domain": "职场",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -41844,14 +41196,14 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "整点亮话",
-    "episodeTitle": "29 成为高能量打工人，没你想的那么难",
-    "uniqueId": "68ab230842cc2798e72bb670",
-    "publishedAt": "2025-08-25T09:00:00+08:00",
+    "podcastName": "颜如玉|医美 A to Z",
+    "episodeTitle": "EP01-开播简介: 严蕾 × 罗瑶佳：15年练就的“算命式”面诊与桌面的50瓶防晒霜",
+    "uniqueId": "6962121ce235ea65bc1911df",
+    "publishedAt": "2026-01-11T00:00:00+08:00",
     "recencyScore": 1.0,
-    "valueScore": 1.99,
+    "valueScore": 1.98,
     "totalScore": 1.54,
-    "domain": "职场",
+    "domain": "健康",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -42204,18 +41556,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "时雨集",
-    "episodeTitle": "理性的自负：德国能源百年国运",
-    "uniqueId": "6a0064aae1eb34a9391bf513",
-    "publishedAt": "2026-05-10T19:20:45+08:00",
-    "recencyScore": 2.13,
-    "valueScore": 1.03,
-    "totalScore": 1.53,
-    "domain": "商业",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#83. 纳瓦尔的智慧分享：知足常乐与永不满足",
     "uniqueId": "67f252bbf9578163d64b4851",
@@ -42224,18 +41564,6 @@
     "valueScore": 1.96,
     "totalScore": 1.53,
     "domain": "财经",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "整点亮话",
-    "episodeTitle": "40 山姆的“自毁式”更新，加入“阿里味儿”的菜你还买么？",
-    "uniqueId": "6922ff2c6018cc2c98325fd7",
-    "publishedAt": "2025-11-24T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 1.96,
-    "totalScore": 1.53,
-    "domain": "职场",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -42416,6 +41744,18 @@
     "valueScore": 1.94,
     "totalScore": 1.52,
     "domain": "生活",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "时雨集",
+    "episodeTitle": "理性的自负：德国能源百年国运",
+    "uniqueId": "6a0064aae1eb34a9391bf513",
+    "publishedAt": "2026-05-10T19:20:45+08:00",
+    "recencyScore": 2.12,
+    "valueScore": 1.03,
+    "totalScore": 1.52,
+    "domain": "商业",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -42648,18 +41988,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "整点亮话",
-    "episodeTitle": "41 一场40天的“人生假期”：当旧日高管成为今日驾校学员",
-    "uniqueId": "692c26d6ba2292550f7bc1ae",
-    "publishedAt": "2025-12-01T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 1.93,
-    "totalScore": 1.51,
-    "domain": "职场",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "思文，败类",
     "episodeTitle": "31.我与手机周旋久，谁赢？",
     "uniqueId": "659e6b796d045a7f5ec78554",
@@ -42772,7 +42100,7 @@
     "episodeTitle": "19.东莞 I 别再乱贴标签！岭南文化底蕴，一半在这座“园子”里",
     "uniqueId": "69fcb6b11b7bd50295aeb4d7",
     "publishedAt": "2026-05-08T07:00:00+08:00",
-    "recencyScore": 1.88,
+    "recencyScore": 1.87,
     "valueScore": 1.19,
     "totalScore": 1.5,
     "domain": "文化",
@@ -43704,6 +43032,18 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
+    "podcastName": "颜如玉|医美 A to Z",
+    "episodeTitle": "EP02-诊间故事：严蕾×罗瑶佳：7个月宝宝、80岁阿姨和被老婆骗来的男人的医美诊间故事",
+    "uniqueId": "6963665ff8b05f9f75f53d25",
+    "publishedAt": "2026-01-14T00:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 1.85,
+    "totalScore": 1.47,
+    "domain": "健康",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
     "podcastName": "乱翻书",
     "episodeTitle": "15. 卿本佳人奈何做贼，吐槽一下知乎和微博",
     "uniqueId": "618a6547294df1fa843338d5",
@@ -43908,38 +43248,14 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "整点亮话",
-    "episodeTitle": "26 为什么你的领导爱上班？因为你们上的不是一个班",
-    "uniqueId": "68961ec720a2906a4d9ac574",
-    "publishedAt": "2025-08-11T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 1.83,
+    "podcastName": "颜如玉|医美 A to Z",
+    "episodeTitle": "EP18｜毛孔粗大：根本不是没洗干净，也别用撕拉面膜了",
+    "uniqueId": "69f9bfe7e05c0efcd6e7ca64",
+    "publishedAt": "2026-05-06T00:00:00+08:00",
+    "recencyScore": 1.67,
+    "valueScore": 1.29,
     "totalScore": 1.46,
-    "domain": "职场",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "整点亮话",
-    "episodeTitle": "06 从强制加班到强制不加班，打工人的人生要迎来曙光了？",
-    "uniqueId": "67e4fa26af5840b333ab2de8",
-    "publishedAt": "2025-03-28T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 1.84,
-    "totalScore": 1.46,
-    "domain": "职场",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "整点亮话",
-    "episodeTitle": "03 有Gap期，在职场就要被判“死刑“？！",
-    "uniqueId": "67c9462e0766616acdff0fb3",
-    "publishedAt": "2025-03-07T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 1.84,
-    "totalScore": 1.46,
-    "domain": "职场",
+    "domain": "健康",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -44204,18 +43520,6 @@
     "valueScore": 1.8,
     "totalScore": 1.44,
     "domain": "AI",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "整点亮话",
-    "episodeTitle": "25 AI时代，全方位解析数据分析师的来世今生",
-    "uniqueId": "688f67f2edf3fa32d5e5c6ad",
-    "publishedAt": "2025-08-03T21:49:27+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 1.8,
-    "totalScore": 1.44,
-    "domain": "职场",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -45096,18 +44400,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "整点亮话",
-    "episodeTitle": "20 职场不应是按部就班，而是无限可能的第二人生",
-    "uniqueId": "686a44fd60f8f77d4016970a",
-    "publishedAt": "2025-07-07T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 1.73,
-    "totalScore": 1.4,
-    "domain": "职场",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "韩叙的朋友们",
     "episodeTitle": "33.赚自己认知内的钱，对谈一位小而美的财经自媒体创业者",
     "uniqueId": "6437546e66e4c00c6af2db72",
@@ -45564,14 +44856,14 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "整点亮话",
-    "episodeTitle": "02 品牌一夜之间消失，裁员50%，新能源车企何去何从？",
-    "uniqueId": "67c04c65606e5c59403e16a7",
-    "publishedAt": "2025-02-28T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 1.68,
+    "podcastName": "颜如玉|医美 A to Z",
+    "episodeTitle": "EP19｜母亲节特辑：从“妈味”到松弛感-我们抱起了孩子，也别忘了抱回自己",
+    "uniqueId": "69fead2e1b7bd50295c68f92",
+    "publishedAt": "2026-05-10T00:00:00+08:00",
+    "recencyScore": 2.04,
+    "valueScore": 0.83,
     "totalScore": 1.37,
-    "domain": "商业",
+    "domain": "健康",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -45812,6 +45104,18 @@
     "valueScore": 1.65,
     "totalScore": 1.36,
     "domain": "科技",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "颜如玉|医美 A to Z",
+    "episodeTitle": "EP08-玫瑰痤疮（下）：严蕾×罗瑶佳：拍照流泪的护士、战高温的重庆女生和园长的最后一站",
+    "uniqueId": "698eee55a22480add60718d8",
+    "publishedAt": "2026-02-24T00:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 1.66,
+    "totalScore": 1.36,
+    "domain": "健康",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -46105,11 +45409,11 @@
   },
   {
     "podcastName": "整点亮话",
-    "episodeTitle": "09 职场角色演绎｜是什么让你成为现在的你？",
-    "uniqueId": "6804bc6dcdd692da157d4f76",
-    "publishedAt": "2025-04-21T09:00:00+08:00",
+    "episodeTitle": "52 从巨亏600亿到机器人霸屏：2026职场，谁在退场？谁在进场？",
+    "uniqueId": "699c3656a22480add6cbfbe2",
+    "publishedAt": "2026-02-24T09:00:00+08:00",
     "recencyScore": 1.0,
-    "valueScore": 1.64,
+    "valueScore": 1.63,
     "totalScore": 1.35,
     "domain": "职场",
     "selected": false,
@@ -46332,6 +45636,18 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
+    "podcastName": "整点亮话",
+    "episodeTitle": "62 追觅“全员出道”大戏：老板发钱、起诉、炮轰，谁才是真正的“戏精”？",
+    "uniqueId": "6a0053b6e1eb34a9391b0f07",
+    "publishedAt": "2026-05-11T09:00:00+08:00",
+    "recencyScore": 2.19,
+    "valueScore": 0.64,
+    "totalScore": 1.34,
+    "domain": "职场",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
     "podcastName": "贤者时间",
     "episodeTitle": "流许多眼泪，继而长出内心",
     "uniqueId": "xmly_track_601500025",
@@ -46416,6 +45732,42 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
+    "podcastName": "颜如玉|医美 A to Z",
+    "episodeTitle": "EP07-玫瑰痤疮（上）:严蕾×罗瑶佳：圣诞老人的红鼻头、半夜谈恋爱的螨虫和脸上的热带雨林",
+    "uniqueId": "698edcf8a22480add60518e7",
+    "publishedAt": "2026-02-15T00:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 1.6,
+    "totalScore": 1.33,
+    "domain": "情感",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "56 从“新人替旧人”到“AI替人”：2026大厂年龄焦虑的终极升级",
+    "uniqueId": "69c01a782d318777c9314a3f",
+    "publishedAt": "2026-03-23T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 1.6,
+    "totalScore": 1.33,
+    "domain": "AI",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "14 加哥会客厅 | 职场乖乖女VS职场大女主 女性职场不止有AB面",
+    "uniqueId": "68319aa441ef875a12fdb29d",
+    "publishedAt": "2025-05-26T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 1.6,
+    "totalScore": 1.33,
+    "domain": "职场",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
     "podcastName": "Vibration 歪波音室",
     "episodeTitle": "一起失眠",
     "uniqueId": "wavpub_XagULzYWrGWuqbhhKRtLRdpERMzxKtAzmzaHVrgwZuYhrwbCqMcDdMMBs",
@@ -46444,7 +45796,7 @@
     "episodeTitle": "EP42: 遁入富春山居图中的骑行",
     "uniqueId": "https://perilcrosser.com/?p=208",
     "publishedAt": "2026-05-10T11:56:49+08:00",
-    "recencyScore": 2.1,
+    "recencyScore": 2.09,
     "valueScore": 0.69,
     "totalScore": 1.32,
     "domain": "文化",
@@ -46652,18 +46004,6 @@
     "valueScore": 1.58,
     "totalScore": 1.32,
     "domain": "科技",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "整点亮话",
-    "episodeTitle": "21 搞定老板的武功秘籍，有了你就能学会么？",
-    "uniqueId": "68739f7893fd2d72b8f31c34",
-    "publishedAt": "2025-07-14T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 1.58,
-    "totalScore": 1.32,
-    "domain": "职场",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -47328,6 +46668,18 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
+    "podcastName": "整点亮话",
+    "episodeTitle": "02 品牌一夜之间消失，裁员50%，新能源车企何去何从？",
+    "uniqueId": "67c04c65606e5c59403e16a7",
+    "publishedAt": "2025-02-28T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 1.52,
+    "totalScore": 1.29,
+    "domain": "商业",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
     "podcastName": "不被定义的职场",
     "episodeTitle": "EP02 职场中的目标感：是推动力还是绊脚石？（上）",
     "uniqueId": "6819c49247ebeede7e05f6a2",
@@ -47444,18 +46796,6 @@
     "valueScore": 1.51,
     "totalScore": 1.28,
     "domain": "科技",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "整点亮话",
-    "episodeTitle": "23 杨爸咖啡馆｜对话欧姐：从大厂总监到AI公司创始人，中年沪漂的设计人生",
-    "uniqueId": "6880dc17a9dec92500cde2a4",
-    "publishedAt": "2025-07-24T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 1.51,
-    "totalScore": 1.28,
-    "domain": "商业",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -48456,6 +47796,18 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
+    "podcastName": "颜如玉|医美 A to Z",
+    "episodeTitle": "EP17｜为什么信息越来越多，求美者的决策却反而更容易做错？",
+    "uniqueId": "69f0243322e2509169071fd0",
+    "publishedAt": "2026-04-29T00:00:00+08:00",
+    "recencyScore": 1.18,
+    "valueScore": 1.27,
+    "totalScore": 1.23,
+    "domain": "健康",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
     "podcastName": "钱婧老师的会客厅",
     "episodeTitle": "Vol 16. 喊话本硕博｜所谓选择，不是选享哪种福，而是选受哪种苦",
     "uniqueId": "6434ad7966e4c00c6ac154c0",
@@ -48640,7 +47992,7 @@
     "episodeTitle": "讲一个AI教育的巨大红利",
     "uniqueId": "6a0678bc1b7bd502952ddabf",
     "publishedAt": "2026-05-15T09:39:34+08:00",
-    "recencyScore": 2.68,
+    "recencyScore": 2.67,
     "valueScore": 0.01,
     "totalScore": 1.21,
     "domain": "AI",
@@ -48840,18 +48192,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "整点亮话",
-    "episodeTitle": "05 再次踏入同一条河流，蔚来的未来靠裁员就能拯救么？",
-    "uniqueId": "67dc32cf78103db3bdd4b24c",
-    "publishedAt": "2025-03-21T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 1.39,
-    "totalScore": 1.21,
-    "domain": "商业",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "韩叙的朋友们",
     "episodeTitle": "65.不用龙虾和编程，普通人也可以用AI做一人公司 · 对谈班叔",
     "uniqueId": "69eedea81d989496e7997740",
@@ -49028,6 +48368,18 @@
     "valueScore": 1.37,
     "totalScore": 1.2,
     "domain": "科技",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "颜如玉|医美 A to Z",
+    "episodeTitle": "EP05-热玛吉：严蕾×罗瑶佳：两位热玛吉导师深度解读抗衰真相-不卷能量，让我们愉快的做一次热玛吉",
+    "uniqueId": "697da244073030367a8f1119",
+    "publishedAt": "2026-02-02T00:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 1.37,
+    "totalScore": 1.2,
+    "domain": "健康",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -49428,6 +48780,30 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
+    "podcastName": "颜如玉|医美 A to Z",
+    "episodeTitle": "EP11-996牛马护肤（上）: 严蕾×罗瑶佳：皮质醇“吃脸”、凌晨3点的面霜与早C晚A的真实边界",
+    "uniqueId": "69be57843c625cc5ae6c37c0",
+    "publishedAt": "2026-03-22T00:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 1.32,
+    "totalScore": 1.18,
+    "domain": "健康",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "50 互联网是“快”节奏还是“怪”节奏？",
+    "uniqueId": "697f13992fc7f49d093afdae",
+    "publishedAt": "2026-02-01T16:49:29+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 1.33,
+    "totalScore": 1.18,
+    "domain": "职场",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
     "podcastName": "钱婧老师的会客厅",
     "episodeTitle": "Vol 26 读博的真相：是逃避工作不顺，还是热爱？",
     "uniqueId": "649061f086eb9d7e47bcfded",
@@ -49644,6 +49020,18 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
+    "podcastName": "整点亮话",
+    "episodeTitle": "32 职场如情场，爱情三十六计，你会哪一计？",
+    "uniqueId": "68c6c3d52c82c9dcca4f80cb",
+    "publishedAt": "2025-09-15T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 1.31,
+    "totalScore": 1.17,
+    "domain": "职场",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
     "podcastName": "韩叙的朋友们",
     "episodeTitle": "36.丢掉7000万粉丝的账号也无所谓·对谈浪胃仙",
     "uniqueId": "6463abcd306513184c264a64",
@@ -49772,6 +49160,18 @@
     "valueScore": 1.29,
     "totalScore": 1.16,
     "domain": "情感",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "颜如玉|医美 A to Z",
+    "episodeTitle": "EP16｜做医美，应该去公立，还是民营？",
+    "uniqueId": "69e835261e94ae6921d9c390",
+    "publishedAt": "2026-04-23T00:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 1.29,
+    "totalScore": 1.16,
+    "domain": "健康",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -49952,6 +49352,30 @@
     "valueScore": 1.27,
     "totalScore": 1.15,
     "domain": "商业",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "颜如玉|医美 A to Z",
+    "episodeTitle": "EP03-光子: 严蕾×罗瑶佳：第一次牵手的“过电感”、“打地鼠”游戏，与“神农尝百草”的实验：那些藏在光子背后的奥秘",
+    "uniqueId": "696c9302ef1cf272a703a185",
+    "publishedAt": "2026-01-20T00:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 1.27,
+    "totalScore": 1.15,
+    "domain": "健康",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "28 杨爸咖啡馆｜对话孙振龙：人工智能博士涉足周易风水学，是命运的召唤还是人生计算的结果",
+    "uniqueId": "68a5c48c42cc2798e78e1a1b",
+    "publishedAt": "2025-08-21T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 1.27,
+    "totalScore": 1.15,
+    "domain": "AI",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -50172,18 +49596,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "整点亮话",
-    "episodeTitle": "24 内核稳定，才是当今职场人的核心竞争力",
-    "uniqueId": "688637a3a9dec925006f94ba",
-    "publishedAt": "2025-07-28T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 1.25,
-    "totalScore": 1.14,
-    "domain": "职场",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "不被定义的职场",
     "episodeTitle": "EP15 职场开挂指南-中：易经智慧化解职场危机/串台",
     "uniqueId": "689c9ab69fb6883bb370bb6a",
@@ -50372,18 +49784,6 @@
     "valueScore": 1.23,
     "totalScore": 1.13,
     "domain": "健康",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "整点亮话",
-    "episodeTitle": "18 加哥会客厅 | 灿烂在六月 打工牛马也曾是追梦的少年",
-    "uniqueId": "6858063f2a38b4d979eddc99",
-    "publishedAt": "2025-06-23T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 1.24,
-    "totalScore": 1.13,
-    "domain": "职场",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -50640,6 +50040,30 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
+    "podcastName": "颜如玉|医美 A to Z",
+    "episodeTitle": "EP10-祛痘：严蕾×罗瑶佳：“雪顶咖啡”式点涂、10公里换一口甜与脱脂牛奶的迷思",
+    "uniqueId": "69b39396dfe027e304be025c",
+    "publishedAt": "2026-03-15T00:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 1.21,
+    "totalScore": 1.12,
+    "domain": "健康",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "11 加哥会客厅｜在职场要不要交朋友？先做好自己吧！",
+    "uniqueId": "680dd5a67a449ae858f1e086",
+    "publishedAt": "2025-05-05T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 1.22,
+    "totalScore": 1.12,
+    "domain": "职场",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
     "podcastName": "钱婧老师的会客厅",
     "episodeTitle": "Vol 90. 无比烧脑的职场隐秘角落大问答 ｜对谈「Mandy职场说」",
     "uniqueId": "672956ca33c798676f760f99",
@@ -50796,6 +50220,18 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
+    "podcastName": "整点亮话",
+    "episodeTitle": "36 讨好型人格？这个“软柿子”谁爱当谁当！",
+    "uniqueId": "68f4edf5456ffec65e82ddc2",
+    "publishedAt": "2025-10-20T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 1.2,
+    "totalScore": 1.11,
+    "domain": "职场",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
     "podcastName": "韩叙的朋友们",
     "episodeTitle": "38.从旅行团导游，到抖音千万粉旅行主播·对谈厦门阿波",
     "uniqueId": "648f3d34e16019bcbc034911",
@@ -50948,6 +50384,18 @@
     "valueScore": 1.19,
     "totalScore": 1.1,
     "domain": "生活",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "颜如玉|医美 A to Z",
+    "episodeTitle": "EP14-医美医生的来时路：严蕾×罗瑶佳：17岁的大学生、冬夜补习班的奔跑和诊室里安静的1分钟",
+    "uniqueId": "69d88427e2c8be3155d73cd7",
+    "publishedAt": "2026-04-11T00:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 1.19,
+    "totalScore": 1.1,
+    "domain": "健康",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -51132,6 +50580,18 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
+    "podcastName": "整点亮话",
+    "episodeTitle": "09 职场角色演绎｜是什么让你成为现在的你？",
+    "uniqueId": "6804bc6dcdd692da157d4f76",
+    "publishedAt": "2025-04-21T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 1.16,
+    "totalScore": 1.09,
+    "domain": "职场",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
     "podcastName": "Vibration 歪波音室",
     "episodeTitle": "黄宣，就像是往一潭死水里注射的肾上腺素",
     "uniqueId": "wavpub_NYBCjSHzEuhynMxsdwQpMgcVhncRRHqNNLGGGpaPvSgkrKnhSymbBUbED",
@@ -51308,6 +50768,18 @@
     "valueScore": 1.15,
     "totalScore": 1.08,
     "domain": "商业",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "颜如玉|医美 A to Z",
+    "episodeTitle": "EP15｜祛斑：很多人不是没效果，而是一开始就打错了",
+    "uniqueId": "69e1a024b977fb2c472a0fc0",
+    "publishedAt": "2026-04-18T00:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 1.14,
+    "totalScore": 1.08,
+    "domain": "健康",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -51709,11 +51181,11 @@
   },
   {
     "podcastName": "整点亮话",
-    "episodeTitle": "22 抢占本地生活市场的外卖大战，其实就是雄竞而已",
-    "uniqueId": "687e5357a9dec92500735f3a",
-    "publishedAt": "2025-07-22T09:00:00+08:00",
+    "episodeTitle": "27 告别职场的八字准则：“体面离开，不留后患”",
+    "uniqueId": "68a1d931293471fed40ef5b7",
+    "publishedAt": "2025-08-18T09:00:00+08:00",
     "recencyScore": 1.0,
-    "valueScore": 1.1,
+    "valueScore": 1.11,
     "totalScore": 1.06,
     "domain": "职场",
     "selected": false,
@@ -51972,6 +51444,30 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
+    "podcastName": "颜如玉|医美 A to Z",
+    "episodeTitle": "EP13-【碧绽美】壬二酸：严蕾×罗瑶佳：脸上的盐碱地、皮肤里的砖墙和手推车上的鸡尾酒",
+    "uniqueId": "69d1359fb977fb2c471c32e1",
+    "publishedAt": "2026-04-05T00:49:48+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 1.08,
+    "totalScore": 1.04,
+    "domain": "健康",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "43 你省的钱，以后不一定会让你开心，但是现在一定会让你难受！",
+    "uniqueId": "693f5d6137f52a644ef1536e",
+    "publishedAt": "2025-12-15T09:05:32+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 1.07,
+    "totalScore": 1.04,
+    "domain": "职场",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
     "podcastName": "韩叙的朋友们",
     "episodeTitle": "1.写作是怎么改变我的工作和生活的",
     "uniqueId": "62553603e2d8fe44351a111c",
@@ -52200,6 +51696,30 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
+    "podcastName": "颜如玉|医美 A to Z",
+    "episodeTitle": "EP09-晒后修复：严蕾×罗瑶佳：皮肤的ATM机、晒伤的耳垂和奥利奥式合影",
+    "uniqueId": "69ab9c145b2d0ed069ba41eb",
+    "publishedAt": "2026-03-08T00:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 1.06,
+    "totalScore": 1.03,
+    "domain": "健康",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "颜如玉|医美 A to Z",
+    "episodeTitle": "EP06-黄褐斑：严蕾×罗瑶佳：被冤枉的宝宝、工位的顶灯和褪黑素的秘密-黄褐斑到底能治吗？",
+    "uniqueId": "6988488866e2c303776ab3c5",
+    "publishedAt": "2026-02-09T00:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 1.05,
+    "totalScore": 1.03,
+    "domain": "健康",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
     "podcastName": "韩叙的朋友们",
     "episodeTitle": "11.从互联网怎么转行到新消费·对谈刀姐doris",
     "uniqueId": "62e2ce4a64f141ad81501e41",
@@ -52320,6 +51840,18 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
+    "podcastName": "整点亮话",
+    "episodeTitle": "58 职场打工人怕的不是失业，而是失衡",
+    "uniqueId": "69d3cf70e2c8be3155827f7e",
+    "publishedAt": "2026-04-07T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 1.03,
+    "totalScore": 1.02,
+    "domain": "职场",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
     "podcastName": "钱婧老师的会客厅",
     "episodeTitle": "Vol.143 青年精神脱困三利器：信心高、姿态低、行动强｜职场本硕博Q&A",
     "uniqueId": "6937aa4c3fec3166cf08f78d",
@@ -52376,18 +51908,6 @@
     "valueScore": 1.03,
     "totalScore": 1.02,
     "domain": "生活",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "Peril Crosser 肚饿？渡厄！",
-    "episodeTitle": "EP40: 人类最后一份尊严，被一个卡戴珊翘臀的铁疙瘩撞碎了",
-    "uniqueId": "https://perilcrosser.com/?p=204",
-    "publishedAt": "2026-04-27T08:14:16+08:00",
-    "recencyScore": 1.09,
-    "valueScore": 0.94,
-    "totalScore": 1.01,
-    "domain": "文化",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -52464,18 +51984,6 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "整点亮话",
-    "episodeTitle": "13 被职场压垮的那些日子，如何才能在崩溃中找回自我？",
-    "uniqueId": "6829f13ffcbc2e206b87b723",
-    "publishedAt": "2025-05-19T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 1.01,
-    "totalScore": 1.01,
-    "domain": "职场",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "钱婧老师的会客厅",
     "episodeTitle": "Vol 75. 不要用陌生人的脑子，思考你的人生｜对谈百万粉丝博主可妈",
     "uniqueId": "66796482b6a8412729fc6850",
@@ -52495,6 +52003,18 @@
     "recencyScore": 1.0,
     "valueScore": 1.01,
     "totalScore": 1.01,
+    "domain": "文化",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "Peril Crosser 肚饿？渡厄！",
+    "episodeTitle": "EP40: 人类最后一份尊严，被一个卡戴珊翘臀的铁疙瘩撞碎了",
+    "uniqueId": "https://perilcrosser.com/?p=204",
+    "publishedAt": "2026-04-27T08:14:16+08:00",
+    "recencyScore": 1.08,
+    "valueScore": 0.94,
+    "totalScore": 1.0,
     "domain": "文化",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
@@ -52544,6 +52064,18 @@
     "valueScore": 1.0,
     "totalScore": 1.0,
     "domain": "商业",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "33 你的职场「原生家庭」怎么样？",
+    "uniqueId": "68cff37aa56ca3e0c4860469",
+    "publishedAt": "2025-09-22T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 1.0,
+    "totalScore": 1.0,
+    "domain": "职场",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -52728,14 +52260,14 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
-    "podcastName": "整点亮话",
-    "episodeTitle": "19 后裁员时代，我们如何享受生活的快乐",
-    "uniqueId": "68614901bef90978ec7cfda0",
-    "publishedAt": "2025-06-30T09:00:00+08:00",
+    "podcastName": "颜如玉|医美 A to Z",
+    "episodeTitle": "EP12-996牛马护肤（下）: 严蕾×罗瑶佳：鸡汤式锁水、打麻将晒黑与“第二张脸”的纹路",
+    "uniqueId": "69c789f7b977fb2c476fafba",
+    "publishedAt": "2026-03-29T00:00:00+08:00",
     "recencyScore": 1.0,
-    "valueScore": 0.99,
+    "valueScore": 0.98,
     "totalScore": 0.99,
-    "domain": "职场",
+    "domain": "健康",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -52880,6 +52412,30 @@
     "valueScore": 0.97,
     "totalScore": 0.98,
     "domain": "财经",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "29 成为高能量打工人，没你想的那么难",
+    "uniqueId": "68ab230842cc2798e72bb670",
+    "publishedAt": "2025-08-25T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.96,
+    "totalScore": 0.98,
+    "domain": "职场",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "03 有Gap期，在职场就要被判“死刑“？！",
+    "uniqueId": "67c9462e0766616acdff0fb3",
+    "publishedAt": "2025-03-07T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.97,
+    "totalScore": 0.98,
+    "domain": "职场",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -53076,10 +52632,34 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
+    "podcastName": "颜如玉|医美 A to Z",
+    "episodeTitle": "EP04-保湿防晒：严蕾×罗瑶佳：洗羊肉式清洁、防晒霜的秤，与消失的50g面霜：护肤底层的医学逻辑",
+    "uniqueId": "6970a591109824f9e1c009c2",
+    "publishedAt": "2026-01-25T00:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.95,
+    "totalScore": 0.97,
+    "domain": "健康",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
     "podcastName": "整点亮话",
-    "episodeTitle": "08 留！走！苟！打工人绩效开奖后的三个选择",
-    "uniqueId": "67f7402759699d74dcc18b31",
-    "publishedAt": "2025-04-14T09:00:00+08:00",
+    "episodeTitle": "49 你是职场“出头鸟”还是“鸵鸟”？",
+    "uniqueId": "69762ebd109824f9e17b94f6",
+    "publishedAt": "2026-01-26T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.94,
+    "totalScore": 0.97,
+    "domain": "职场",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "06 从强制加班到强制不加班，打工人的人生要迎来曙光了？",
+    "uniqueId": "67e4fa26af5840b333ab2de8",
+    "publishedAt": "2025-03-28T09:00:00+08:00",
     "recencyScore": 1.0,
     "valueScore": 0.95,
     "totalScore": 0.97,
@@ -53156,6 +52736,18 @@
     "valueScore": 0.93,
     "totalScore": 0.96,
     "domain": "科技",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "25 AI时代，全方位解析数据分析师的来世今生",
+    "uniqueId": "688f67f2edf3fa32d5e5c6ad",
+    "publishedAt": "2025-08-03T21:49:27+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.92,
+    "totalScore": 0.96,
+    "domain": "AI",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -53521,9 +53113,9 @@
   },
   {
     "podcastName": "整点亮话",
-    "episodeTitle": "01 大厂绩效是白盒还是黑盒？",
-    "uniqueId": "67b6cfdb606e5c5940ae877d",
-    "publishedAt": "2025-02-21T09:00:00+08:00",
+    "episodeTitle": "04 10w+份简历，大厂为何选择你？校招脱颖而出的秘密大公开！",
+    "uniqueId": "67d11f76e924d4525a0899a0",
+    "publishedAt": "2025-03-14T09:00:00+08:00",
     "recencyScore": 1.0,
     "valueScore": 0.9,
     "totalScore": 0.95,
@@ -53608,18 +53200,6 @@
     "episodeTitle": "2021 年世界 500 强，这些变化最让人意外",
     "uniqueId": "e758f7f5-6491-492c-a581-6b4d9faa747a",
     "publishedAt": "2021-08-04T06:45:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 0.89,
-    "totalScore": 0.94,
-    "domain": "商业",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "整点亮话",
-    "episodeTitle": "16 大厂高管频频折戟小厂，到底是水土不服还是水货露陷？",
-    "uniqueId": "68454a6a79e285b9b8ce67a8",
-    "publishedAt": "2025-06-09T09:00:00+08:00",
     "recencyScore": 1.0,
     "valueScore": 0.89,
     "totalScore": 0.94,
@@ -53761,9 +53341,9 @@
   },
   {
     "podcastName": "整点亮话",
-    "episodeTitle": "17 职场白嫖？你妈没告诉你，自己的事情自己做？",
-    "uniqueId": "68454aef6dbe9284e759ffed",
-    "publishedAt": "2025-06-16T09:00:00+08:00",
+    "episodeTitle": "31 职场轻养生，告别脆皮打工人！",
+    "uniqueId": "68bd819197178f08eeb6f4d5",
+    "publishedAt": "2025-09-08T09:00:00+08:00",
     "recencyScore": 1.0,
     "valueScore": 0.87,
     "totalScore": 0.93,
@@ -53916,6 +53496,78 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
+    "podcastName": "整点亮话",
+    "episodeTitle": "44 前HR实名开口：揭秘我们设计“逼你走”的完整流程",
+    "uniqueId": "6948a8490b60b7bf75bb39f2",
+    "publishedAt": "2025-12-22T10:23:58+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.85,
+    "totalScore": 0.92,
+    "domain": "职场",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "42 打工人的宿命就是当一个“好打工人”么？",
+    "uniqueId": "69355fb93fec3166cfb755ee",
+    "publishedAt": "2025-12-08T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.85,
+    "totalScore": 0.92,
+    "domain": "职场",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "30 加哥会客厅｜HR，是好人还是坏人",
+    "uniqueId": "68b455115faf36865951426d",
+    "publishedAt": "2025-09-01T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.86,
+    "totalScore": 0.92,
+    "domain": "职场",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "21 搞定老板的武功秘籍，有了你就能学会么？",
+    "uniqueId": "68739f7893fd2d72b8f31c34",
+    "publishedAt": "2025-07-14T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.85,
+    "totalScore": 0.92,
+    "domain": "职场",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "16 大厂高管频频折戟小厂，到底是水土不服还是水货露陷？",
+    "uniqueId": "68454a6a79e285b9b8ce67a8",
+    "publishedAt": "2025-06-09T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.85,
+    "totalScore": 0.92,
+    "domain": "商业",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "01 大厂绩效是白盒还是黑盒？",
+    "uniqueId": "67b6cfdb606e5c5940ae877d",
+    "publishedAt": "2025-02-21T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.85,
+    "totalScore": 0.92,
+    "domain": "职场",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
     "podcastName": "钱婧老师的会客厅",
     "episodeTitle": "Vol 59. 开学就是在举目无亲的地方，真诚而热烈地做自己的亲人｜本硕博职场Q&A",
     "uniqueId": "65d1ca72cace72dff8eb328f",
@@ -54049,13 +53701,37 @@
   },
   {
     "podcastName": "整点亮话",
-    "episodeTitle": "37 杨爸咖啡馆｜对谈欧若拉：离开笑果后的黄金时代，她用一年时间把书店从年亏500万到盈利",
-    "uniqueId": "68fe02e1015672032117f489",
-    "publishedAt": "2025-10-27T09:00:00+08:00",
+    "episodeTitle": "59 杨爸咖啡馆|陈洪捷：与教培行业风雨同行",
+    "uniqueId": "69dba5afb977fb2c47be4c04",
+    "publishedAt": "2026-04-13T09:00:00+08:00",
     "recencyScore": 1.0,
     "valueScore": 0.84,
     "totalScore": 0.91,
-    "domain": "文化",
+    "domain": "生活",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "38 杨爸咖啡馆｜对谈凯文老师：学霸在36岁主动失业成为自媒体人，中年男人的上坡路才刚刚开始",
+    "uniqueId": "69076dd143a4f4a9848f1a37",
+    "publishedAt": "2025-11-03T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.84,
+    "totalScore": 0.91,
+    "domain": "职场",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "13 被职场压垮的那些日子，如何才能在崩溃中找回自我？",
+    "uniqueId": "6829f13ffcbc2e206b87b723",
+    "publishedAt": "2025-05-19T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.83,
+    "totalScore": 0.91,
+    "domain": "职场",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -54228,6 +53904,18 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
+    "podcastName": "整点亮话",
+    "episodeTitle": "17 职场白嫖？你妈没告诉你，自己的事情自己做？",
+    "uniqueId": "68454aef6dbe9284e759ffed",
+    "publishedAt": "2025-06-16T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.81,
+    "totalScore": 0.9,
+    "domain": "职场",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
     "podcastName": "韩叙的朋友们",
     "episodeTitle": "30.赛道选择、需求洞察、机遇把握，成就了这个千万粉主播，对谈·操盘手边皓楠",
     "uniqueId": "63ebc76de99bdef7d3b996a3",
@@ -54324,6 +54012,30 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
+    "podcastName": "整点亮话",
+    "episodeTitle": "51 年终特别企划｜你给自己的2025打几分？",
+    "uniqueId": "698850c066e2c303776bf553",
+    "publishedAt": "2026-02-09T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.8,
+    "totalScore": 0.89,
+    "domain": "生活",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "05 再次踏入同一条河流，蔚来的未来靠裁员就能拯救么？",
+    "uniqueId": "67dc32cf78103db3bdd4b24c",
+    "publishedAt": "2025-03-21T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.8,
+    "totalScore": 0.89,
+    "domain": "商业",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
     "podcastName": "外部性",
     "episodeTitle": "84.信息、金钱、心态，30+职场人如何突围｜对话沈帅波",
     "uniqueId": "683d858731215eb506e9ddff",
@@ -54397,21 +54109,9 @@
   },
   {
     "podcastName": "整点亮话",
-    "episodeTitle": "15 内卷还没停，老板找你谈话的新主题是：你的工作投入度不够",
-    "uniqueId": "683c566738dcc57c6409d0d2",
-    "publishedAt": "2025-06-03T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 0.79,
-    "totalScore": 0.88,
-    "domain": "职场",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "整点亮话",
-    "episodeTitle": "12 上班是搞钱，你却在倒贴上班？",
-    "uniqueId": "68205e8d24f8559346002456",
-    "publishedAt": "2025-05-12T09:00:00+08:00",
+    "episodeTitle": "20 职场不应是按部就班，而是无限可能的第二人生",
+    "uniqueId": "686a44fd60f8f77d4016970a",
+    "publishedAt": "2025-07-07T09:00:00+08:00",
     "recencyScore": 1.0,
     "valueScore": 0.79,
     "totalScore": 0.88,
@@ -54540,6 +54240,30 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
+    "podcastName": "整点亮话",
+    "episodeTitle": "61 杨爸咖啡馆|Stella史呆拉：从资深打工人到出海新加坡，上海女孩的职场变形记",
+    "uniqueId": "69ee07191d989496e78d4da8",
+    "publishedAt": "2026-04-27T09:00:00+08:00",
+    "recencyScore": 1.09,
+    "valueScore": 0.69,
+    "totalScore": 0.87,
+    "domain": "职场",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "47 从茶水间到自媒体，公司如何“管理”你的声音？",
+    "uniqueId": "6963a64cf8b05f9f7500aceb",
+    "publishedAt": "2026-01-12T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.77,
+    "totalScore": 0.87,
+    "domain": "商业",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
     "podcastName": "贝望录",
     "episodeTitle": "见面会 | 北京的听友们，下周末见！",
     "uniqueId": "6563294cb95673db21532227",
@@ -54620,18 +54344,6 @@
     "valueScore": 0.75,
     "totalScore": 0.86,
     "domain": "职场",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "AI产品黄叔",
-    "episodeTitle": "Skill越来越有流量",
-    "uniqueId": "69fd3ae4e1eb34a939f24809",
-    "publishedAt": "2026-05-08T09:25:49+08:00",
-    "recencyScore": 1.89,
-    "valueScore": 0.01,
-    "totalScore": 0.86,
-    "domain": "AI",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -54756,6 +54468,18 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
+    "podcastName": "AI产品黄叔",
+    "episodeTitle": "Skill越来越有流量",
+    "uniqueId": "69fd3ae4e1eb34a939f24809",
+    "publishedAt": "2026-05-08T09:25:49+08:00",
+    "recencyScore": 1.88,
+    "valueScore": 0.01,
+    "totalScore": 0.85,
+    "domain": "AI",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
     "podcastName": "声动早咖啡",
     "episodeTitle": "线上巨头亚马逊，为何要开线下百货？",
     "uniqueId": "428667c8-8f97-4cd2-9816-c7e0aa075120",
@@ -54776,6 +54500,30 @@
     "valueScore": 0.72,
     "totalScore": 0.85,
     "domain": "科技",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "60 从米兰达到安迪：20年后，我们终于看懂职场真正的代价",
+    "uniqueId": "69e4df701d989496e7fe384a",
+    "publishedAt": "2026-04-20T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.73,
+    "totalScore": 0.85,
+    "domain": "职场",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "53 杨爸咖啡馆|Cloris：留学26届校招求职难度超越认知",
+    "uniqueId": "69a3e1c4a22480add685b193",
+    "publishedAt": "2026-03-02T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.72,
+    "totalScore": 0.85,
+    "domain": "职场",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -54936,6 +54684,18 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
+    "podcastName": "整点亮话",
+    "episodeTitle": "55 杨爸咖啡馆｜薛绮一：三次大厂裸辞之后，我找到在上海的另一种生活方式",
+    "uniqueId": "69b613a2f8b8079bfa5e2fd4",
+    "publishedAt": "2026-03-16T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.69,
+    "totalScore": 0.83,
+    "domain": "生活",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
     "podcastName": "钱婧老师的会客厅",
     "episodeTitle": "Vol 81. 吃得苦中苦，伺候人上人：赛博避坑能指引真实生活吗？｜串台《蜜獾吃书》",
     "uniqueId": "66c209e7db5e6d6bf92f876e",
@@ -54992,6 +54752,42 @@
     "valueScore": 0.67,
     "totalScore": 0.82,
     "domain": "科技",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "57 杨爸咖啡馆|秦加一：复旦学霸的AB面，经历公司解散到创业十年的奇幻旅程",
+    "uniqueId": "69c8aa3db977fb2c477f2637",
+    "publishedAt": "2026-03-30T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.67,
+    "totalScore": 0.82,
+    "domain": "商业",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "46 杨爸咖啡馆|对话陈思维：自由职业者真实的生活现状",
+    "uniqueId": "695a59a7b9fb626141fee3d4",
+    "publishedAt": "2026-01-05T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.67,
+    "totalScore": 0.82,
+    "domain": "生活",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "23 杨爸咖啡馆｜对话欧姐：从大厂总监到AI公司创始人，中年沪漂的设计人生",
+    "uniqueId": "6880dc17a9dec92500cde2a4",
+    "publishedAt": "2025-07-24T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.67,
+    "totalScore": 0.82,
+    "domain": "商业",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -55184,6 +54980,30 @@
     "valueScore": 0.64,
     "totalScore": 0.8,
     "domain": "情感",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "34 世界是个草台班子，草越多，台子越大",
+    "uniqueId": "68d95649b4befcf7305cffcf",
+    "publishedAt": "2025-09-29T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.64,
+    "totalScore": 0.8,
+    "domain": "商业",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "24 内核稳定，才是当今职场人的核心竞争力",
+    "uniqueId": "688637a3a9dec925006f94ba",
+    "publishedAt": "2025-07-28T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.64,
+    "totalScore": 0.8,
+    "domain": "职场",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -55476,6 +55296,18 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
+    "podcastName": "整点亮话",
+    "episodeTitle": "08 留！走！苟！打工人绩效开奖后的三个选择",
+    "uniqueId": "67f7402759699d74dcc18b31",
+    "publishedAt": "2025-04-14T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.58,
+    "totalScore": 0.77,
+    "domain": "职场",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
     "podcastName": "Vibration 歪波音室",
     "episodeTitle": "私藏专辑推荐分享 Vol.2",
     "uniqueId": "wavpub_MgSXJtSWLspqCgvMvZGUHKSvsEpHhkZuexWUQWGgpgWRjAQKLaTaFxFbJ",
@@ -55652,18 +55484,6 @@
     "valueScore": 0.57,
     "totalScore": 0.76,
     "domain": "商业",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "整点亮话",
-    "episodeTitle": "10 告别请假羞耻，踏踏实实过个假期行不行？",
-    "uniqueId": "680dce747a449ae858f0881a",
-    "publishedAt": "2025-04-28T09:00:00+08:00",
-    "recencyScore": 1.0,
-    "valueScore": 0.57,
-    "totalScore": 0.76,
-    "domain": "职场",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -55920,6 +55740,18 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
+    "podcastName": "整点亮话",
+    "episodeTitle": "45 涨薪并不是“福利”，而是最精密的“标价”与“预期管理”",
+    "uniqueId": "6950fe612db086f8976148be",
+    "publishedAt": "2025-12-29T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.55,
+    "totalScore": 0.75,
+    "domain": "商业",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
     "podcastName": "钱婧老师的会客厅",
     "episodeTitle": "Vol.151 过年社交保姆级指南：从应对亲戚到链接贵人，春节是关系的终极测验|职场本硕博Q&A",
     "uniqueId": "698a87c366e2c30377b959d0",
@@ -55976,6 +55808,54 @@
     "valueScore": 0.53,
     "totalScore": 0.74,
     "domain": "AI",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "41 一场40天的“人生假期”：当旧日高管成为今日驾校学员",
+    "uniqueId": "692c26d6ba2292550f7bc1ae",
+    "publishedAt": "2025-12-01T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.53,
+    "totalScore": 0.74,
+    "domain": "职场",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "40 山姆的“自毁式”更新，加入“阿里味儿”的菜你还买么？",
+    "uniqueId": "6922ff2c6018cc2c98325fd7",
+    "publishedAt": "2025-11-24T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.53,
+    "totalScore": 0.74,
+    "domain": "职场",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "35 疯癫的招聘市场：空有一身炸薯条的好手艺，却找不到一口干净的油锅",
+    "uniqueId": "68eb9620525f51df38eef6f4",
+    "publishedAt": "2025-10-13T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.53,
+    "totalScore": 0.74,
+    "domain": "商业",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "10 告别请假羞耻，踏踏实实过个假期行不行？",
+    "uniqueId": "680dce747a449ae858f0881a",
+    "publishedAt": "2025-04-28T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.53,
+    "totalScore": 0.74,
+    "domain": "职场",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -56196,6 +56076,30 @@
     "reason": "存货池保留，按价值与时效排序"
   },
   {
+    "podcastName": "整点亮话",
+    "episodeTitle": "48 杨爸咖啡馆|大旗：15年咖啡行业从业者的来时路，是否能劝退你想入局咖啡圈的梦",
+    "uniqueId": "696c9545ef1cf272a703ed4b",
+    "publishedAt": "2026-01-19T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.47,
+    "totalScore": 0.71,
+    "domain": "商业",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "37 杨爸咖啡馆｜对谈欧若拉：离开笑果后的黄金时代，她用一年时间把书店从年亏500万到盈利",
+    "uniqueId": "68fe02e1015672032117f489",
+    "publishedAt": "2025-10-27T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.47,
+    "totalScore": 0.71,
+    "domain": "文化",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
     "podcastName": "不被定义的职场",
     "episodeTitle": "EP05：如何利用个税利好，最大化为自己节税?",
     "uniqueId": "683467b531215eb506d34e56",
@@ -56276,6 +56180,30 @@
     "valueScore": 0.46,
     "totalScore": 0.7,
     "domain": "职场",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "54 为什么我们的底线越来越低？",
+    "uniqueId": "69ad6dd45b2d0ed069f7a4dd",
+    "publishedAt": "2026-03-09T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.45,
+    "totalScore": 0.7,
+    "domain": "职场",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "19 后裁员时代，我们如何享受生活的快乐",
+    "uniqueId": "68614901bef90978ec7cfda0",
+    "publishedAt": "2025-06-30T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.45,
+    "totalScore": 0.7,
+    "domain": "生活",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -56384,6 +56312,42 @@
     "valueScore": 0.43,
     "totalScore": 0.69,
     "domain": "AI",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "26 为什么你的领导爱上班？因为你们上的不是一个班",
+    "uniqueId": "68961ec720a2906a4d9ac574",
+    "publishedAt": "2025-08-11T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.44,
+    "totalScore": 0.69,
+    "domain": "职场",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "18 加哥会客厅 | 灿烂在六月 打工牛马也曾是追梦的少年",
+    "uniqueId": "6858063f2a38b4d979eddc99",
+    "publishedAt": "2025-06-23T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.44,
+    "totalScore": 0.69,
+    "domain": "职场",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "15 内卷还没停，老板找你谈话的新主题是：你的工作投入度不够",
+    "uniqueId": "683c566738dcc57c6409d0d2",
+    "publishedAt": "2025-06-03T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.44,
+    "totalScore": 0.69,
+    "domain": "职场",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
@@ -56636,6 +56600,42 @@
     "valueScore": 0.34,
     "totalScore": 0.64,
     "domain": "科技",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "39 如果五月天的“总裁大人”是你的老板...",
+    "uniqueId": "6919f92d6018cc2c981e561a",
+    "publishedAt": "2025-11-17T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.34,
+    "totalScore": 0.64,
+    "domain": "职场",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "22 抢占本地生活市场的外卖大战，其实就是雄竞而已",
+    "uniqueId": "687e5357a9dec92500735f3a",
+    "publishedAt": "2025-07-22T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.34,
+    "totalScore": 0.64,
+    "domain": "生活",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "12 上班是搞钱，你却在倒贴上班？",
+    "uniqueId": "68205e8d24f8559346002456",
+    "publishedAt": "2025-05-12T09:00:00+08:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.34,
+    "totalScore": 0.64,
+    "domain": "职场",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
   },
