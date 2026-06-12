@@ -303,7 +303,7 @@ function EpisodeDeck({
 
   return (
     <>
-      <div className="relative mt-[42px] flex w-full flex-none flex-col items-center justify-start overflow-visible">
+      <div className="relative mt-2 flex w-full flex-none flex-col items-center justify-start overflow-visible">
         <div className="relative h-fit w-full max-w-[344px] overflow-visible min-h-0">
           {episodes.map((episode, index) => {
             let diff = 0;
@@ -869,8 +869,8 @@ export default function App() {
 
         <div className="relative flex flex-1 flex-col overflow-hidden pb-[calc(96px+env(safe-area-inset-bottom,0px))]">
           {activeTab === 'curated' ? (
-            <div className="flex h-full flex-1 flex-col justify-center overflow-hidden px-4 pb-2 pt-0 md:px-5">
-              <div className="mt-4 flex items-center justify-between border-b border-black/10 pb-2 select-none">
+            <div className="flex h-full flex-1 flex-col justify-start overflow-hidden px-4 pb-2 pt-0 md:px-5">
+              <div className="mt-8 flex items-center justify-between border-b border-black/10 pb-8 select-none">
                 <div className="flex items-baseline gap-1">
                   <span className="font-serif font-black text-xl tracking-tight text-[#1A1A1A]">听荐</span>
                   <span
@@ -886,7 +886,7 @@ export default function App() {
                 </div>
               </div>
 
-              <div className="flex flex-1 min-h-0 flex-col justify-center">
+              <div className="flex min-h-0 flex-col items-center justify-start overflow-visible">
                 <EpisodeDeck
                   episodes={curatedEpisodes}
                   activeIndex={activeIndex}
@@ -899,18 +899,14 @@ export default function App() {
                   isCompactViewport={isCompactViewport}
                 />
 
-                <div className="relative z-40 mt-2 flex w-full shrink-0 justify-center">
-                  {exploreTopics.length > 0 ? (
-                    <button
-                      onClick={openExplore}
-                      className="inline-flex h-7 w-[60%] items-center justify-center gap-1.5 rounded-full border border-[#D14A28]/20 bg-[#FFF7F2] px-3 text-[11px] font-semibold text-[#B8502F] hover:bg-[#FFF1E8]"
-                    >
-                      <span className="inline-flex h-4 w-4 items-center justify-center rounded-full bg-[#D14A28]/10">
-                        <Sparkles className="h-2.5 w-2.5" strokeWidth={2.2} />
-                      </span>
-                      <span>议题广场</span>
-                    </button>
-                  ) : null}
+                <div className="relative z-40 mt-5 flex w-full max-w-[344px] shrink-0 justify-center">
+                  <button
+                    onClick={openExplore}
+                    className="inline-flex h-11 w-full items-center justify-center gap-2 rounded-full border border-[#D14A28]/20 bg-[#FFF7F2] px-5 text-[14px] font-semibold text-[#B8502F] hover:bg-[#FFF1E8]"
+                  >
+                    <Sparkles className="h-4 w-4 fill-[#D14A28]/15" strokeWidth={2.2} />
+                    <span>议题广场</span>
+                  </button>
                 </div>
               </div>
             </div>
