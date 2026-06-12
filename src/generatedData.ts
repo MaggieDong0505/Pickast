@@ -22,11 +22,11 @@ export const initialData: BriefingCardData = {
     "coverText": "跨国",
     "coverBg": "bg-[#18181B]",
     "coverTextColor": "text-amber-50",
-    "whyRecommended": "适合对AI、技术停滞、文明风险有深度兴趣的听众，一场跨越科技、政治与历史的思维马拉松。",
+    "whyRecommended": "适合想理解AI、技术停滞与文明风险的听众，PeterThiel的批判性视角能帮你跳出硅谷叙事，看清时代焦虑的。",
     "viewpoints": [
       "ChatGPT通过图灵测试可能比AGI更重要",
-      "比特世界进步，原子世界严重停滞",
-      "低生育率可能形成自我强化的衰减循环"
+      "比特世界进步，原子世界停滞的长期批判",
+      "低生育率可能比想象中更难逆转"
     ],
     "goldenQuotes": [
       {
@@ -38,9 +38,14 @@ export const initialData: BriefingCardData = {
         "quote": "如果历史一直是单调进步，那我们就没什么需要担心的。",
         "source": "来自本期 shownote",
         "source_note": "来自本期 shownote"
+      },
+      {
+        "quote": "战略常常是拖延的委婉说法。",
+        "source": "来自本期 shownote",
+        "source_note": "来自本期 shownote"
       }
     ],
-    "triageTag": "📖值得精听｜信息密度极高，需专注思考",
+    "triageTag": "📖值得精听｜内容密度极高，需专注思考",
     "href": "cosmos://page.cos/episode/6a2abd770a34cf8ce5a78266?utm_source=rss"
   },
   "backupEpisodes": [
@@ -54,7 +59,7 @@ export const initialData: BriefingCardData = {
       "coverText": "搞钱",
       "coverBg": "bg-[#18181B]",
       "coverTextColor": "text-amber-50",
-      "whyRecommended": "职场沟通实战宝典，适合想提升汇报、加薪、跨部门协作效率的职场人，有方法有故事。",
+      "whyRecommended": "职场沟通实战宝典，适合想提升汇报、加薪、跨部门协作能力的职场人，有故事有方法。",
       "viewpoints": [
         "提不同意不讨人厌法：表达要干脆，先yes再and",
         "EARS高效能沟通法则：Explore→Analyze→Response→Stick",
@@ -72,7 +77,7 @@ export const initialData: BriefingCardData = {
           "source_note": "来自本期 shownote"
         }
       ],
-      "triageTag": "🚶边走边听｜案例多，方法具体，适合通",
+      "triageTag": "🚶边走边听｜情景案例多，轻松吸收",
       "href": "cosmos://page.cos/episode/6a29bb33dbccffcfa9c6fdda?utm_source=rss",
       "scenario": ""
     },
@@ -86,11 +91,11 @@ export const initialData: BriefingCardData = {
       "coverText": "十分",
       "coverBg": "bg-[#18181B]",
       "coverTextColor": "text-amber-50",
-      "whyRecommended": "适合想理解韩国股市暴涨背后逻辑、Kpop产业本质及社会分化的听众，用3K主线串联经济、文化与历史。",
+      "whyRecommended": "用3K主线拆解韩国股市暴涨、Kpop产业与K型社会，适合想理解韩国经济逻辑而非单纯听投资建议的听众。",
       "viewpoints": [
-        "韩国股市2026年指数翻倍，SK海力士股价涨超10倍。",
+        "韩国股市年内翻倍，SK海力士涨超10倍，散户接盘外资。",
         "Kpop与半导体共享出口导向、标准化生产的韩国经济逻辑。",
-        "韩国家庭债务高企，散户接盘外资，社会K型分化加剧。"
+        "韩国家庭债务高企，赌性文化下生育率低迷。"
       ],
       "goldenQuotes": [],
       "triageTag": "📖值得精听｜信息密度高，需专注理解",
