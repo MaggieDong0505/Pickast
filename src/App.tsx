@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { motion } from 'motion/react';
 import {
   ArrowLeft,
@@ -104,6 +104,8 @@ function getEpisodeIdValue(episode: PodcastEpisode) {
 }
 
 const RECOMMENDATION_REASON_MAX_LENGTH = 50;
+const QUOTE_FONT_SIZE_MAX = 15;
+const QUOTE_FONT_SIZE_MIN = 12;
 
 function getSafeRecommendationReason(reason?: string) {
   const normalizedReason = reason?.trim() ?? '';
@@ -206,6 +208,69 @@ type EpisodeDeckProps = {
   isCompactViewport: boolean;
 };
 
+function AdaptiveQuoteText({ quote }: { quote: string }) {
+  const containerRef = useRef<HTMLDivElement | null>(null);
+  const textRef = useRef<HTMLParagraphElement | null>(null);
+  const [fontSize, setFontSize] = useState(QUOTE_FONT_SIZE_MAX);
+
+  useLayoutEffect(() => {
+    const container = containerRef.current;
+    const text = textRef.current;
+
+    if (!container || !text) {
+      return undefined;
+    }
+
+    const fitQuote = () => {
+      let low = QUOTE_FONT_SIZE_MIN;
+      let high = QUOTE_FONT_SIZE_MAX;
+      let best = QUOTE_FONT_SIZE_MIN;
+
+      while (low <= high) {
+        const mid = Math.floor((low + high) / 2);
+        text.style.fontSize = `${mid}px`;
+
+        const fits =
+          text.scrollHeight <= container.clientHeight &&
+          text.scrollWidth <= container.clientWidth;
+
+        if (fits) {
+          best = mid;
+          low = mid + 1;
+        } else {
+          high = mid - 1;
+        }
+      }
+
+      text.style.fontSize = `${best}px`;
+      setFontSize(best);
+    };
+
+    fitQuote();
+
+    const resizeObserver = new ResizeObserver(fitQuote);
+    resizeObserver.observe(container);
+    window.addEventListener('resize', fitQuote);
+
+    return () => {
+      resizeObserver.disconnect();
+      window.removeEventListener('resize', fitQuote);
+    };
+  }, [quote]);
+
+  return (
+    <div ref={containerRef} className="card-quote-text-box">
+      <p
+        ref={textRef}
+        className="card-quote-text font-serif font-medium text-[#555555]"
+        style={{ fontSize }}
+      >
+        {quote}
+      </p>
+    </div>
+  );
+}
+
 function EpisodeDeck({
   episodes,
   activeIndex,
@@ -252,6 +317,7 @@ function EpisodeDeck({
             else diff = 2;
 
             const recommendationReason = getSafeRecommendationReason(episode.whyRecommended);
+            const goldenQuote = episode.goldenQuotes?.[0]?.quote?.trim() ?? '';
 
             return (
               <motion.div
@@ -284,7 +350,9 @@ function EpisodeDeck({
                   if (diff === -1) handlePrev();
                   if (diff === 1) handleNext();
                 }}
-                className="relative overflow-hidden rounded-[20px] border border-black/10 bg-white px-5 pt-3 pb-10 flex flex-col paper-texture cursor-grab active:cursor-grabbing select-none"
+                className={`relative overflow-hidden rounded-[20px] border border-black/10 bg-white px-5 pt-3 pb-3 flex flex-col paper-texture cursor-grab active:cursor-grabbing select-none ${
+                  goldenQuote ? 'card-has-quote' : 'card-no-quote'
+                }`}
                 style={{
                   position: 'absolute',
                   left: '24px',
@@ -326,7 +394,7 @@ function EpisodeDeck({
                   />
                 </div>
 
-                <div className="card-body-layout relative z-10 flex min-h-0 flex-1 flex-col pt-2.5" style={{ gap: '12px' }}>
+                <div className="card-body-layout relative z-10 flex min-h-0 flex-1 flex-col pt-2.5">
                   <div className="card-copy-block pr-0.5 text-justify" style={{ gap: '12px' }}>
                     <h2 className="card-title-text font-serif font-black text-[14px] text-[#1A1A1A] hover:text-[#D14A28] transition-colors">
                       {episode.episodeTitle}
@@ -366,13 +434,10 @@ function EpisodeDeck({
                     <div className="absolute inset-x-0 bottom-0 h-8 bg-gradient-to-t from-white to-transparent pointer-events-none" />
                   </div>
 
-                  {episode.goldenQuotes && episode.goldenQuotes.length > 0 ? (
+                  {goldenQuote ? (
                     <div
                       className="card-quote-block relative z-10"
                       style={{
-                        marginTop: '2px',
-                        paddingTop: '10px',
-                        paddingBottom: '8px',
                         paddingLeft: '14px',
                       }}
                     >
@@ -388,33 +453,16 @@ function EpisodeDeck({
                       >
                         "
                       </span>
-                      <div className="space-y-2">
-                        <p
-                          className="card-quote-text font-serif text-[15px] font-medium text-[#555555]"
-                          style={{
-                            lineHeight: 1.6,
-                            minHeight: 'calc(1.6em * 2)',
-                            maxHeight: 'calc(1.6em * 2)',
-                            WebkitLineClamp: 2,
-                          }}
-                        >
-                          {episode.goldenQuotes[0].quote}
-                        </p>
-                        <p className="card-quote-source text-[10.5px] text-[#888888] font-medium text-right">
-                          —— {episode.goldenQuotes[0].source}
-                        </p>
-                      </div>
+                      <AdaptiveQuoteText quote={goldenQuote} />
                     </div>
                   ) : null}
                 </div>
 
-                <XiaoyuzhouListenLink
-                  episodeId={getEpisodeIdValue(episode)}
-                  isCompactViewport={isCompactViewport}
-                  className="absolute bottom-3 left-4 z-10"
-                />
-
-                <div className="absolute bottom-3 right-4 z-10">
+                <div className="card-footer-bar relative z-10 flex items-center justify-between gap-3">
+                  <XiaoyuzhouListenLink
+                    episodeId={getEpisodeIdValue(episode)}
+                    isCompactViewport={isCompactViewport}
+                  />
                   <span className="font-mono text-[8px] text-zinc-400">
                     第 {index + 1} 集 / 共 {episodeCount} 集
                   </span>
