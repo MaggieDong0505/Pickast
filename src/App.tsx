@@ -11,20 +11,30 @@ import {
   Check,
   Compass,
   ExternalLink,
-  Heart,
   User,
   X,
 } from 'lucide-react';
 import exploreDataRaw from './explore.json';
 import favoritesDataRaw from './favorites.json';
+import rankingDataRaw from './ranking.json';
 import { initialData } from './generatedData';
-import { ExploreData, PodcastEpisode, PodcastSynthesis, TopicPoint } from './types';
+import { FavoriteHeartButton } from './components/FavoriteHeartButton';
+import { useFavorites } from './hooks/useFavorites';
+import {
+  ExploreData,
+  FavoriteRecord,
+  PodcastEpisode,
+  PodcastSynthesis,
+  RankingEpisode,
+  Topic,
+  TopicPoint,
+} from './types';
 
 type AppTab = 'curated' | 'favorites' | 'my';
 
 const exploreData = exploreDataRaw as ExploreData;
 const favoritesSeed = favoritesDataRaw as PodcastEpisode[];
-const FAVORITES_STORAGE_KEY = 'pickast_favorites';
+const rankingData = rankingDataRaw as RankingEpisode[];
 
 function getEpisodeKey(episode: PodcastEpisode) {
   return `${episode.podcastName}::${episode.episodeTitle}`;
@@ -76,35 +86,31 @@ function getEpisodeId(episode: PodcastEpisode) {
 }
 
 function getEpisodeIdValue(episode: PodcastEpisode) {
-  return (episode as PodcastEpisode & { episodeId?: string }).episodeId ?? getEpisodeId(episode);
+  return episode.episodeId ?? getEpisodeId(episode);
 }
 
-function getSeedFavoriteEpisodeIds(seed: PodcastEpisode[]) {
-  return seed.map(getEpisodeId).filter((id): id is string => Boolean(id));
-}
-
-function parseFavoriteEpisodeIds(rawValue: string | null) {
-  if (!rawValue) {
-    return [];
+function toBriefingFavoriteRecord(episode: PodcastEpisode): FavoriteRecord | null {
+  const episodeId = getEpisodeIdValue(episode);
+  if (!episodeId) {
+    return null;
   }
 
-  try {
-    const parsed = JSON.parse(rawValue);
-    if (!Array.isArray(parsed)) {
-      return [];
-    }
-
-    return parsed.filter((value): value is string => typeof value === 'string' && Boolean(value));
-  } catch {
-    return [];
-  }
+  return {
+    id: episodeId,
+    type: 'briefing',
+    title: episode.episodeTitle,
+    podcastName: episode.podcastName,
+    coverUrl: episode.coverImageUrl ?? '',
+    topicTag: episode.topicTag ?? episode.triageTag,
+    addedAt: Date.now(),
+  };
 }
 
 type EpisodeDeckProps = {
   episodes: PodcastEpisode[];
   activeIndex: number;
   onActiveIndexChange: (index: number) => void;
-  favorites: PodcastEpisode[];
+  isFavorited: (episode: PodcastEpisode) => boolean;
   onToggleFavorite: (episode: PodcastEpisode, event?: React.MouseEvent) => void;
   isCompactViewport: boolean;
 };
@@ -113,14 +119,11 @@ function EpisodeDeck({
   episodes,
   activeIndex,
   onActiveIndexChange,
-  favorites,
+  isFavorited,
   onToggleFavorite,
   isCompactViewport,
 }: EpisodeDeckProps) {
   const episodeCount = episodes.length;
-
-  const isFavorited = (episode: PodcastEpisode) =>
-    favorites.some((item) => getEpisodeKey(item) === getEpisodeKey(episode));
 
   const handleNext = () => {
     onActiveIndexChange((activeIndex + 1) % episodeCount);
@@ -223,19 +226,11 @@ function EpisodeDeck({
                     </span>
                   </div>
 
-                  <button
+                  <FavoriteHeartButton
+                    isFavorited={isFavorited(episode)}
                     onClick={(event) => onToggleFavorite(episode, event)}
-                    className="p-1 px-1.5 rounded-full hover:bg-neutral-50 active:scale-110 transition-transform focus:outline-none"
-                    title="收藏单集"
-                    aria-label={`收藏 ${episode.episodeTitle}`}
-                  >
-                    <Heart
-                      className="w-5.5 h-5.5 transition-transform"
-                      color={isFavorited(episode) ? '#D14A28' : '#1A1A1A'}
-                      fill={isFavorited(episode) ? '#D14A28' : 'none'}
-                      strokeWidth={1.8}
-                    />
-                  </button>
+                    ariaLabel={`收藏 ${episode.episodeTitle}`}
+                  />
                 </div>
 
                 <div className="card-body-layout relative z-10 flex min-h-0 flex-1 flex-col pt-2.5" style={{ gap: '12px' }}>
@@ -410,12 +405,18 @@ function XiaoyuzhouListenLink({
 }
 
 function TopicSection({
+  topic,
   title,
   points,
+  isFavorited,
+  onToggleFavorite,
   isCompactViewport,
 }: {
+  topic: Topic;
   title: string;
   points: TopicPoint[];
+  isFavorited: (episodeId: string) => boolean;
+  onToggleFavorite: (point: TopicPoint, topic: Topic, event?: React.MouseEvent) => void;
   isCompactViewport: boolean;
 }) {
   if (!points.length) {
@@ -431,6 +432,12 @@ function TopicSection({
             key={`${point.episodeId}-${index}`}
             className="relative rounded-xl bg-[#F1EEE8] px-3 py-3 pb-10"
           >
+            <FavoriteHeartButton
+              isFavorited={isFavorited(point.episodeId)}
+              onClick={(event) => onToggleFavorite(point, topic, event)}
+              ariaLabel={`收藏 ${point.podcast} 的单集`}
+              className="absolute right-2.5 top-2.5 z-10"
+            />
             <p className="text-[14px] font-semibold text-[#666666]">{point.podcast}</p>
             <p className="mt-1 text-[15px] leading-[1.6] text-[#1A1A1A]">{point.point}</p>
             <XiaoyuzhouListenLink
@@ -458,49 +465,98 @@ export default function App() {
 
     return window.innerWidth <= 768;
   });
-  const [favoriteEpisodeIds, setFavoriteEpisodeIds] = useState<string[]>(() => {
-    if (typeof window === 'undefined') {
-      return getSeedFavoriteEpisodeIds(favoritesSeed);
-    }
-
-    const storedIds = parseFavoriteEpisodeIds(window.localStorage.getItem(FAVORITES_STORAGE_KEY));
-    if (storedIds.length > 0) {
-      return storedIds;
-    }
-
-    const seedIds = getSeedFavoriteEpisodeIds(favoritesSeed);
-    window.localStorage.setItem(FAVORITES_STORAGE_KEY, JSON.stringify(seedIds));
-    return seedIds;
-  });
-
   const curatedEpisodes = useMemo(
     () => [initialData.mainEpisode, ...initialData.backupEpisodes],
     []
   );
+  const briefingSeedEpisodes = useMemo(
+    () => [...curatedEpisodes, ...favoritesSeed],
+    [curatedEpisodes]
+  );
   const curatedSynthesis = toSynthesis(initialData.synthesis);
   const exploreTopics = useMemo(() => (Array.isArray(exploreData) ? exploreData : []), []);
   const selectedTopic = selectedTopicIndex !== null ? exploreTopics[selectedTopicIndex] ?? null : null;
+  const podcastCoverLookup = useMemo(() => {
+    const map = new Map<string, string>();
+
+    briefingSeedEpisodes.forEach((episode) => {
+      if (episode.coverImageUrl && !map.has(episode.podcastName)) {
+        map.set(episode.podcastName, episode.coverImageUrl);
+      }
+    });
+
+    return map;
+  }, [briefingSeedEpisodes]);
   const episodeLookup = useMemo(() => {
     const map = new Map<string, PodcastEpisode>();
-    [...curatedEpisodes, ...favoritesSeed].forEach((episode) => {
-      const episodeId = getEpisodeId(episode);
+    briefingSeedEpisodes.forEach((episode) => {
+      const episodeId = getEpisodeIdValue(episode);
       if (episodeId && !map.has(episodeId)) {
         map.set(episodeId, episode);
       }
     });
     return map;
-  }, [curatedEpisodes]);
-  const favoriteEpisodes = useMemo(
+  }, [briefingSeedEpisodes]);
+  const briefingFavoriteSeed = useMemo(
     () =>
-      favoriteEpisodeIds
-        .map((episodeId) => episodeLookup.get(episodeId))
-        .filter((episode): episode is PodcastEpisode => Boolean(episode)),
-    [favoriteEpisodeIds, episodeLookup]
+      favoritesSeed
+        .map(toBriefingFavoriteRecord)
+        .filter((favorite): favorite is FavoriteRecord => Boolean(favorite)),
+    []
   );
+  const legacyBriefingFavoriteLookup = useMemo(() => {
+    const map = new Map<string, FavoriteRecord>();
 
-  useEffect(() => {
-    window.localStorage.setItem(FAVORITES_STORAGE_KEY, JSON.stringify(favoriteEpisodeIds));
-  }, [favoriteEpisodeIds]);
+    briefingSeedEpisodes.forEach((episode) => {
+      const favorite = toBriefingFavoriteRecord(episode);
+      if (favorite && !map.has(favorite.id)) {
+        map.set(favorite.id, favorite);
+      }
+    });
+
+    return map;
+  }, [briefingSeedEpisodes]);
+  const { favorites, isFavorited, toggleFavorite } = useFavorites({
+    legacyLookup: legacyBriefingFavoriteLookup,
+    seedFavorites: briefingFavoriteSeed,
+  });
+  const topicEpisodeMetaLookup = useMemo(() => {
+    const map = new Map<
+      string,
+      {
+        title: string;
+        podcastName: string;
+        coverUrl: string;
+      }
+    >();
+
+    rankingData.forEach((episode) => {
+      map.set(episode.uniqueId, {
+        title: episode.episodeTitle,
+        podcastName: episode.podcastName,
+        coverUrl: podcastCoverLookup.get(episode.podcastName) ?? '',
+      });
+    });
+
+    briefingSeedEpisodes.forEach((episode) => {
+      const episodeId = getEpisodeIdValue(episode);
+      if (!episodeId) {
+        return;
+      }
+
+      map.set(episodeId, {
+        title: episode.episodeTitle,
+        podcastName: episode.podcastName,
+        coverUrl: episode.coverImageUrl ?? podcastCoverLookup.get(episode.podcastName) ?? '',
+      });
+    });
+
+    return map;
+  }, [briefingSeedEpisodes, podcastCoverLookup]);
+  const favoriteItems = useMemo(
+    () => [...favorites].sort((a, b) => b.addedAt - a.addedAt),
+    [favorites]
+  );
 
   useEffect(() => {
     const updateViewport = () => {
@@ -512,20 +568,40 @@ export default function App() {
     return () => window.removeEventListener('resize', updateViewport);
   }, []);
 
-  const toggleFavorite = (episode: PodcastEpisode, event?: React.MouseEvent) => {
+  const toggleBriefingFavorite = (episode: PodcastEpisode, event?: React.MouseEvent) => {
     if (event) {
       event.preventDefault();
       event.stopPropagation();
     }
 
-    const episodeId = getEpisodeId(episode);
-    if (!episodeId) {
+    const favorite = toBriefingFavoriteRecord(episode);
+    if (!favorite) {
       return;
     }
 
-    setFavoriteEpisodeIds((prev) =>
-      prev.includes(episodeId) ? prev.filter((item) => item !== episodeId) : [...prev, episodeId]
-    );
+    toggleFavorite(favorite);
+  };
+
+  const toggleTopicEpisodeFavorite = (
+    point: TopicPoint,
+    topic: Topic,
+    event?: React.MouseEvent
+  ) => {
+    if (event) {
+      event.preventDefault();
+      event.stopPropagation();
+    }
+
+    const meta = topicEpisodeMetaLookup.get(point.episodeId);
+    toggleFavorite({
+      id: point.episodeId,
+      type: 'topic_episode',
+      title: meta?.title ?? point.point,
+      podcastName: meta?.podcastName ?? point.podcast,
+      coverUrl: meta?.coverUrl ?? '',
+      topicTag: topic.title,
+      addedAt: Date.now(),
+    });
   };
 
   const switchTab = (tab: AppTab) => {
@@ -544,7 +620,7 @@ export default function App() {
     setSelectedTopicIndex(null);
   };
 
-  const importedFavoritesCount = favoriteEpisodes.length;
+  const importedFavoritesCount = favorites.length;
   const shortWeekday = getShortWeekday(initialData.chinaDateStr);
 
   useEffect(() => {
@@ -617,8 +693,11 @@ export default function App() {
                   episodes={curatedEpisodes}
                   activeIndex={activeIndex}
                   onActiveIndexChange={setActiveIndex}
-                  favorites={favoriteEpisodes}
-                  onToggleFavorite={toggleFavorite}
+                  isFavorited={(episode) => {
+                    const episodeId = getEpisodeIdValue(episode);
+                    return episodeId ? isFavorited(episodeId, 'briefing') : false;
+                  }}
+                  onToggleFavorite={toggleBriefingFavorite}
                   isCompactViewport={isCompactViewport}
                 />
 
@@ -646,7 +725,7 @@ export default function App() {
                 <h1 className="font-serif font-black text-xl tracking-tight text-[#1A1A1A] flex items-center gap-1.5">
                   <span>我的播客收藏</span>
                   <span className="text-[10px] bg-[#1A1A1A] text-[#FAF9F5] px-1.5 py-0.5 rounded font-mono font-bold">
-                    {favoriteEpisodes.length}
+                    {favoriteItems.length}
                   </span>
                 </h1>
                 <p className="text-[11px] text-[#888888] mt-0.5 font-medium">收藏你想反复听的单集。</p>
@@ -656,61 +735,137 @@ export default function App() {
               </div>
 
               <div className="flex-1 overflow-y-auto space-y-3.5 pr-0.5 scrollbar-thin scrollbar-thumb-zinc-300 min-h-0">
-                {favoriteEpisodes.length === 0 ? (
+                {favoriteItems.length === 0 ? (
                   <div className="flex flex-col items-center justify-center text-center py-16 bg-[#FAF9F5] border border-[#1A1A1A]/20 rounded-2xl p-6 paper-texture shadow-sm">
                     <Bookmark className="w-8 h-8 stroke-1 text-[#888888] mb-3" />
                     <h3 className="font-serif font-bold text-xs text-[#1A1A1A] mb-1">还没有收藏，去今日精选看看</h3>
                     <p className="text-[10px] text-[#666666] leading-relaxed">在卡片上点爱心即可收藏</p>
                   </div>
                 ) : (
-                  favoriteEpisodes.map((episode) => (
-                    <div
-                      key={getEpisodeKey(episode)}
-                      className="bg-[#FAF9F5] border border-[#1A1A1A] rounded-xl p-3.5 shadow-sm relative overflow-hidden flex flex-col justify-between paper-texture"
-                    >
-                      <div className="flex justify-between items-start gap-4 mb-2">
-                        <div className="flex items-center gap-1.5">
-                          <span className="font-serif font-black text-[9.5px] border border-current px-1.5 py-0.5 rounded leading-none">
-                            {episode.podcastName}
-                          </span>
-                          <span className="text-[9px] text-[#666666] bg-black/5 px-1 py-0.5 rounded font-medium">
-                            {episode.triageTag}
-                          </span>
+                  favoriteItems.map((favorite) => {
+                    const briefingEpisode = episodeLookup.get(favorite.id);
+                    const href = favorite.type === 'topic_episode'
+                      ? buildEpisodeWebHref(favorite.id)
+                      : briefingEpisode?.href ?? buildEpisodeWebHref(favorite.id);
+
+                    if (favorite.type === 'topic_episode') {
+                      return (
+                        <div
+                          key={`${favorite.type}-${favorite.id}`}
+                          className="bg-[#FAF9F5] border border-[#1A1A1A]/15 rounded-xl p-3.5 shadow-sm relative overflow-hidden flex flex-col justify-between paper-texture"
+                        >
+                          <div className="absolute inset-x-0 top-0 h-[5px]" style={{ backgroundColor: '#D14A28' }} />
+
+                          <div className="flex justify-between items-start gap-4 mb-2 pt-1">
+                            <div className="flex flex-wrap items-center gap-1.5 min-w-0 pr-1">
+                              <span className="font-serif font-black text-[9.5px] border border-current px-1.5 py-0.5 rounded leading-none">
+                                {favorite.podcastName}
+                              </span>
+                              <span className="text-[9px] text-[#666666] bg-black/5 px-1 py-0.5 rounded font-medium">
+                                {favorite.topicTag}
+                              </span>
+                            </div>
+
+                            <FavoriteHeartButton
+                              isFavorited
+                              onClick={(event) => {
+                                event.preventDefault();
+                                event.stopPropagation();
+                                toggleFavorite(favorite);
+                              }}
+                              title="取消收藏"
+                              ariaLabel={`取消收藏 ${favorite.title}`}
+                              className="shrink-0"
+                            />
+                          </div>
+
+                          <h3 className="font-serif font-bold text-[11.5px] text-[#1A1A1A] leading-relaxed mb-1.5">
+                            {favorite.title}
+                          </h3>
+
+                          <p className="text-[9px] text-[#666666] leading-relaxed mb-2.5">
+                            所属议题：{favorite.topicTag}
+                          </p>
+
+                          <div className="flex justify-between items-center text-[9px] border-t border-black/5 pt-2 mt-0.5">
+                            <a
+                              href={href}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-flex items-center gap-0.5 hover:underline font-bold text-[#D14A28]"
+                            >
+                              <span>去小宇宙听</span>
+                              <ExternalLink className="w-2.5 h-2.5" />
+                            </a>
+
+                            <button
+                              onClick={(event) => {
+                                event.preventDefault();
+                                event.stopPropagation();
+                                toggleFavorite(favorite);
+                              }}
+                              className="text-[9.5px] text-[#666666] hover:text-[#D14A28] font-bold"
+                            >
+                              取消收藏
+                            </button>
+                          </div>
+                        </div>
+                      );
+                    }
+
+                    if (!briefingEpisode) {
+                      return null;
+                    }
+
+                    return (
+                      <div
+                        key={`${favorite.type}-${favorite.id}`}
+                        className="bg-[#FAF9F5] border border-[#1A1A1A] rounded-xl p-3.5 shadow-sm relative overflow-hidden flex flex-col justify-between paper-texture"
+                      >
+                        <div className="flex justify-between items-start gap-4 mb-2">
+                          <div className="flex items-center gap-1.5">
+                            <span className="font-serif font-black text-[9.5px] border border-current px-1.5 py-0.5 rounded leading-none">
+                              {briefingEpisode.podcastName}
+                            </span>
+                            <span className="text-[9px] text-[#666666] bg-black/5 px-1 py-0.5 rounded font-medium">
+                              {briefingEpisode.triageTag}
+                            </span>
+                          </div>
+
+                          <button
+                            onClick={(event) => toggleBriefingFavorite(briefingEpisode, event)}
+                            className="hover:scale-105 transition-transform"
+                            title="移出收藏"
+                          >
+                            <Check className="w-4 h-4 text-emerald-700 bg-emerald-50 rounded-full border border-emerald-600 p-0.5" />
+                          </button>
                         </div>
 
-                        <button
-                          onClick={(event) => toggleFavorite(episode, event)}
-                          className="hover:scale-105 transition-transform"
-                          title="移出收藏"
-                        >
-                          <Check className="w-4 h-4 text-emerald-700 bg-emerald-50 rounded-full border border-emerald-600 p-0.5" />
-                        </button>
+                        <h3 className="font-serif font-bold text-[11.5px] text-[#1A1A1A] leading-relaxed mb-2.5">
+                          {briefingEpisode.episodeTitle}
+                        </h3>
+
+                        <div className="flex justify-between items-center text-[9px] border-t border-black/5 pt-2 mt-0.5">
+                          <a
+                            href={briefingEpisode.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-0.5 hover:underline font-bold"
+                          >
+                            <span>播放该单集</span>
+                            <ExternalLink className="w-2.5 h-2.5" />
+                          </a>
+
+                          <button
+                            onClick={(event) => toggleBriefingFavorite(briefingEpisode, event)}
+                            className="text-[9.5px] text-[#666666] hover:text-[#D14A28] font-bold"
+                          >
+                            移出归档
+                          </button>
+                        </div>
                       </div>
-
-                      <h3 className="font-serif font-bold text-[11.5px] text-[#1A1A1A] leading-relaxed mb-2.5">
-                        {episode.episodeTitle}
-                      </h3>
-
-                      <div className="flex justify-between items-center text-[9px] border-t border-black/5 pt-2 mt-0.5">
-                        <a
-                          href={episode.href}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center gap-0.5 hover:underline font-bold"
-                        >
-                          <span>播放该单集</span>
-                          <ExternalLink className="w-2.5 h-2.5" />
-                        </a>
-
-                        <button
-                          onClick={(event) => toggleFavorite(episode, event)}
-                          className="text-[9.5px] text-[#666666] hover:text-[#D14A28] font-bold"
-                        >
-                          移出归档
-                        </button>
-                      </div>
-                    </div>
-                  ))
+                    );
+                  })
                 )}
               </div>
             </div>
@@ -884,13 +1039,19 @@ export default function App() {
                 <div className="flex-1 overflow-y-auto pt-4">
                   <div className="space-y-5 pb-4">
                     <TopicSection
+                      topic={selectedTopic}
                       title="🤝 播客观点共识"
                       points={selectedTopic.consensus}
+                      isFavorited={(episodeId) => isFavorited(episodeId, 'topic_episode')}
+                      onToggleFavorite={toggleTopicEpisodeFavorite}
                       isCompactViewport={isCompactViewport}
                     />
                     <TopicSection
+                      topic={selectedTopic}
                       title="⚡ 播客观点分歧"
                       points={selectedTopic.divergence}
+                      isFavorited={(episodeId) => isFavorited(episodeId, 'topic_episode')}
+                      onToggleFavorite={toggleTopicEpisodeFavorite}
                       isCompactViewport={isCompactViewport}
                     />
                   </div>

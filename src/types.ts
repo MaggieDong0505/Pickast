@@ -4,6 +4,7 @@
  */
 
 export interface PodcastEpisode {
+  episodeId?: string;
   podcastName: string;
   episodeTitle: string;
   description?: string;
@@ -16,13 +17,16 @@ export interface PodcastEpisode {
   guestName?: string;
   guestBackground?: string;
   whyRecommended?: string;
+  whyRecommend?: string;
   viewpoints?: string[];
   goldenQuotes?: {
     quote: string;
     source: string;
     source_note?: string;
   }[];
+  goldenQuote?: string;
   triageTag: string; // e.g., '🎧值得细听', '🚶挂着听', '⏭️可跳过'
+  topicTag?: string;
   scenario?: string; // Scenario for backup card
   href: string;
 }
@@ -63,3 +67,23 @@ export interface Topic {
 }
 
 export type ExploreData = Topic[];
+
+export type FavoriteItemType = 'briefing' | 'topic_episode';
+
+export interface FavoriteRecord {
+  id: string;
+  type: FavoriteItemType;
+  title: string;
+  podcastName: string;
+  coverUrl: string;
+  topicTag: string;
+  addedAt: number;
+}
+
+export interface RankingEpisode {
+  podcastName: string;
+  episodeTitle: string;
+  uniqueId: string;
+  publishedAt: string;
+  domain: string;
+}
