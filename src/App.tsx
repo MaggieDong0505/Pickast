@@ -1015,121 +1015,121 @@ export default function App() {
 
               <div className="mt-2 flex-1 min-h-0 overflow-hidden pb-1">
                 <div className="flex h-full min-h-0 flex-col justify-between gap-2">
-                <section className="relative overflow-hidden rounded-[24px] border border-black/10 bg-white px-4 pb-3.5 pt-3.5 paper-texture shadow-sm">
-                  <div className="absolute inset-x-0 top-0 h-[5.5px]" style={{ backgroundColor: '#D14A28' }} />
-                  <div className="flex items-start justify-between gap-4">
-                    <div className="max-w-[230px]">
-                      <p className="text-[10px] font-medium uppercase tracking-[0.18em] text-[#888888]">
-                        陪伴统计
-                      </p>
-                      <p className="mt-2 font-serif text-[20px] font-black leading-[1.35] text-[#1A1A1A]">
-                        认识听荐的第{' '}
-                        <span className="rounded bg-[#FFF1E8] px-1.5 py-0.5 text-[#D14A28]">
-                          {daysSinceFirstVisit || 1}
-                        </span>
-                        天
-                      </p>
-                      <p className="mt-2 text-[12px] leading-relaxed text-[#666666]">
-                        把筛选交给 AI,把聆听留给你
-                      </p>
-                    </div>
-                  </div>
-                </section>
-
-                <section className="relative flex h-[292px] flex-col overflow-hidden rounded-[24px] border border-black/10 bg-white px-4 pb-3 pt-3.5 paper-texture shadow-sm">
-                  <div className="absolute inset-x-0 top-0 h-[5.5px]" style={{ backgroundColor: '#D14A28' }} />
-                  <div className="flex items-center justify-between gap-3">
-                    <div>
-                      <p className="font-serif font-black text-[17px] text-[#1A1A1A]">我的订阅源</p>
-                    </div>
-
-                    <button
-                      type="button"
-                      onClick={() => setToastMessage('V2 将支持真实 RSS 导入,敬请期待')}
-                      className="inline-flex h-9 items-center justify-center rounded-full border border-[#D14A28]/20 bg-[#FFF7F2] px-3.5 text-[11px] font-semibold text-[#B8502F] transition hover:bg-[#FFF1E8] active:scale-[0.98]"
-                    >
-                      + 导入 OPML 文件
-                    </button>
-                  </div>
-
-                  <div className="mt-3 flex-1 space-y-2 overflow-y-auto pr-0.5 scrollbar-thin scrollbar-thumb-zinc-300">
-                    {subscriptionItems.map((item) => (
-                      <button
-                        key={item.podcastName}
-                        type="button"
-                        onClick={() => {
-                          const webUrl = buildPodcastWebHref(item.podcastName, item.podcastId);
-                          const deepLinkUrl = buildPodcastDeepLink(item.podcastId);
-                          openAdaptiveXiaoyuzhouLink({
-                            webUrl,
-                            deepLinkUrl,
-                            isCompactViewport,
-                          });
-                        }}
-                        className="flex w-full items-center gap-3 rounded-[18px] border border-black/5 bg-[#FAF9F5] px-2.5 py-2.5 text-left transition hover:bg-[#FFF7F2] active:scale-[0.99] cursor-pointer"
-                      >
-                        <div className="flex h-11 w-11 shrink-0 items-center justify-center overflow-hidden rounded-[14px] border border-black/10 bg-[#EFECE6]">
-                          {item.coverUrl ? (
-                            <img
-                              src={item.coverUrl}
-                              alt=""
-                              aria-hidden="true"
-                              loading="lazy"
-                              className="h-full w-full object-cover"
-                            />
-                          ) : (
-                            <span className="px-1 text-center font-serif text-[11px] font-black leading-tight text-[#1A1A1A]">
-                            {item.podcastName.slice(0, 2)}
-                            </span>
-                          )}
-                        </div>
-
-                        <div className="min-w-0 flex-1">
-                          <p className="truncate font-serif font-black text-[12px] text-[#1A1A1A]">
-                            {item.podcastName}
-                          </p>
-                          <p className="mt-0.5 text-[9px] text-[#888888]">
-                            {item.podcastId ? '已绑定播客主页' : '将通过搜索打开主页'}
-                          </p>
-                        </div>
-
-                        <span className="shrink-0 rounded-full border border-[#D14A28]/20 bg-[#FFF7F2] px-2.5 py-1 text-[9px] font-bold text-[#B8502F]">
-                          已订阅
-                        </span>
-                      </button>
-                    ))}
-                  </div>
-
-                  <p className="mt-3 text-[10px] leading-relaxed text-[#888888]">
-                    V2 将支持真实 RSS 导入
-                  </p>
-                </section>
-
-                <section className="space-y-2">
-                  <div className="relative overflow-hidden rounded-[24px] border border-black/10 bg-white px-4 py-3 paper-texture shadow-sm">
+                  <section className="relative overflow-hidden rounded-[24px] border border-black/10 bg-white px-4 pb-3.5 pt-3.5 paper-texture shadow-sm">
                     <div className="absolute inset-x-0 top-0 h-[5.5px]" style={{ backgroundColor: '#D14A28' }} />
-                    <button
-                      type="button"
-                      onClick={() => setAboutExpanded((value) => !value)}
-                      className="flex w-full items-center justify-between gap-4 text-left"
-                    >
-                      <span className="font-serif font-black text-[15px] text-[#1A1A1A]">关于听荐</span>
-                      <ChevronDown
-                        className={`h-4 w-4 transition-transform duration-300 ${
-                          aboutExpanded ? 'rotate-180' : ''
-                        }`}
-                      />
-                    </button>
-
-                    {aboutExpanded ? (
-                      <div className="mt-2 h-[200px] overflow-y-auto pr-0.5 whitespace-pre-line text-[12px] leading-relaxed text-[#666666] scrollbar-thin scrollbar-thumb-zinc-300">
-                        {ABOUT_PICKAST_TEXT}
+                    <div className="flex items-start justify-between gap-4">
+                      <div className="max-w-[230px]">
+                        <p className="text-[10px] font-medium uppercase tracking-[0.18em] text-[#888888]">
+                          陪伴统计
+                        </p>
+                        <p className="mt-2 font-serif text-[20px] font-black leading-[1.35] text-[#1A1A1A]">
+                          认识听荐的第{' '}
+                          <span className="rounded bg-[#FFF1E8] px-1.5 py-0.5 text-[#D14A28]">
+                            {daysSinceFirstVisit || 1}
+                          </span>
+                          天
+                        </p>
+                        <p className="mt-2 text-[12px] leading-relaxed text-[#666666]">
+                          把筛选交给 AI,把聆听留给你
+                        </p>
                       </div>
-                    ) : null}
-                  </div>
+                    </div>
+                  </section>
 
-                </section>
-                <p className="pb-0.5 text-center text-[10px] leading-none text-[#A1A1AA]">v0.1</p>
+                  <section className="relative flex h-[280px] flex-col overflow-hidden rounded-[24px] border border-black/10 bg-white px-4 pb-3 pt-3.5 paper-texture shadow-sm">
+                    <div className="absolute inset-x-0 top-0 h-[5.5px]" style={{ backgroundColor: '#D14A28' }} />
+                    <div className="flex items-center justify-between gap-3">
+                      <div>
+                        <p className="font-serif font-black text-[17px] text-[#1A1A1A]">我的订阅源</p>
+                      </div>
+
+                      <button
+                        type="button"
+                        onClick={() => setToastMessage('V2 将支持真实 RSS 导入,敬请期待')}
+                        className="inline-flex h-9 items-center justify-center rounded-full border border-[#D14A28]/20 bg-[#FFF7F2] px-3.5 text-[11px] font-semibold text-[#B8502F] transition hover:bg-[#FFF1E8] active:scale-[0.98]"
+                      >
+                        + 导入 OPML 文件
+                      </button>
+                    </div>
+
+                    <div className="mt-3 flex-1 space-y-2 overflow-y-auto pr-0.5 scrollbar-thin scrollbar-thumb-zinc-300">
+                      {subscriptionItems.map((item) => (
+                        <button
+                          key={item.podcastName}
+                          type="button"
+                          onClick={() => {
+                            const webUrl = buildPodcastWebHref(item.podcastName, item.podcastId);
+                            const deepLinkUrl = buildPodcastDeepLink(item.podcastId);
+                            openAdaptiveXiaoyuzhouLink({
+                              webUrl,
+                              deepLinkUrl,
+                              isCompactViewport,
+                            });
+                          }}
+                          className="flex w-full items-center gap-3 rounded-[18px] border border-black/5 bg-[#FAF9F5] px-2.5 py-2.5 text-left transition hover:bg-[#FFF7F2] active:scale-[0.99] cursor-pointer"
+                        >
+                          <div className="flex h-11 w-11 shrink-0 items-center justify-center overflow-hidden rounded-[14px] border border-black/10 bg-[#EFECE6]">
+                            {item.coverUrl ? (
+                              <img
+                                src={item.coverUrl}
+                                alt=""
+                                aria-hidden="true"
+                                loading="lazy"
+                                className="h-full w-full object-cover"
+                              />
+                            ) : (
+                              <span className="px-1 text-center font-serif text-[11px] font-black leading-tight text-[#1A1A1A]">
+                                {item.podcastName.slice(0, 2)}
+                              </span>
+                            )}
+                          </div>
+
+                          <div className="min-w-0 flex-1">
+                            <p className="truncate font-serif font-black text-[12px] text-[#1A1A1A]">
+                              {item.podcastName}
+                            </p>
+                            <p className="mt-0.5 text-[9px] text-[#888888]">
+                              {item.podcastId ? '已绑定播客主页' : '将通过搜索打开主页'}
+                            </p>
+                          </div>
+
+                          <span className="shrink-0 rounded-full border border-[#D14A28]/20 bg-[#FFF7F2] px-2.5 py-1 text-[9px] font-bold text-[#B8502F]">
+                            已订阅
+                          </span>
+                        </button>
+                      ))}
+                    </div>
+
+                    <p className="mt-3 text-[10px] leading-relaxed text-[#888888]">
+                      V2 将支持真实 RSS 导入
+                    </p>
+                  </section>
+
+                  <section className="min-h-0 space-y-2">
+                    <div className="relative overflow-hidden rounded-[24px] border border-black/10 bg-white px-4 py-3 paper-texture shadow-sm">
+                      <div className="absolute inset-x-0 top-0 h-[5.5px]" style={{ backgroundColor: '#D14A28' }} />
+                      <button
+                        type="button"
+                        onClick={() => setAboutExpanded((value) => !value)}
+                        className="flex w-full items-center justify-between gap-4 text-left"
+                      >
+                        <span className="font-serif font-black text-[15px] text-[#1A1A1A]">关于听荐</span>
+                        <ChevronDown
+                          className={`h-4 w-4 transition-transform duration-300 ${
+                            aboutExpanded ? 'rotate-180' : ''
+                          }`}
+                        />
+                      </button>
+
+                      {aboutExpanded ? (
+                        <div className="mt-2 max-h-[200px] overflow-y-auto pr-0.5 whitespace-pre-line text-[12px] leading-relaxed text-[#666666] scrollbar-thin scrollbar-thumb-zinc-300">
+                          {ABOUT_PICKAST_TEXT}
+                        </div>
+                      ) : null}
+                    </div>
+
+                  </section>
+                  <p className="pb-0.5 text-center text-[10px] leading-none text-[#A1A1AA]">v0.1</p>
                 </div>
               </div>
             </div>
