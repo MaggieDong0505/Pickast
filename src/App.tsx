@@ -302,8 +302,8 @@ function EpisodeDeck({
 
   return (
     <>
-      <div className="relative flex w-full flex-1 flex-col items-center justify-center overflow-visible">
-        <div className="relative w-full max-w-[344px] overflow-visible min-h-0">
+      <div className="relative mt-4 flex w-full flex-none flex-col items-center justify-start overflow-visible">
+        <div className="relative h-fit w-full max-w-[344px] overflow-visible min-h-0">
           {episodes.map((episode, index) => {
             let diff = 0;
             const nextIndex = (activeIndex + 1) % episodeCount;
@@ -444,7 +444,7 @@ function EpisodeDeck({
         </div>
       </div>
 
-      <div className="flex justify-center items-center gap-2 my-1">
+      <div className="mt-2 flex items-center justify-center gap-2">
         {episodes.map((episode, index) => (
           <button
             key={getEpisodeKey(episode)}
