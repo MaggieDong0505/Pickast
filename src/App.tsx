@@ -11,6 +11,7 @@ import {
   Check,
   ChevronDown,
   Compass,
+  Sparkles,
   User,
   X,
 } from 'lucide-react';
@@ -302,7 +303,7 @@ function EpisodeDeck({
 
   return (
     <>
-      <div className="relative mt-[112px] flex w-full flex-none flex-col items-center justify-start overflow-visible">
+      <div className="relative mt-16 flex w-full flex-none flex-col items-center justify-start overflow-visible">
         <div className="relative h-fit w-full max-w-[344px] overflow-visible min-h-0">
           {episodes.map((episode, index) => {
             let diff = 0;
@@ -898,13 +899,16 @@ export default function App() {
                   isCompactViewport={isCompactViewport}
                 />
 
-                <div className="mt-2 flex w-full shrink-0">
+                <div className="mt-3 flex w-full shrink-0">
                   {exploreTopics.length > 0 ? (
                     <button
                       onClick={openExplore}
-                      className="inline-flex h-10 w-full items-center justify-center rounded-[20px] border border-[#D14A28]/20 bg-[#FFF7F2] px-5 text-[14px] font-semibold text-[#B8502F] hover:bg-[#FFF1E8]"
+                      className="inline-flex h-11 w-full items-center justify-center gap-2 rounded-[22px] border border-[#D14A28]/20 bg-[#FFF7F2] px-5 text-[14px] font-semibold text-[#B8502F] hover:bg-[#FFF1E8]"
                     >
-                      ✦ 议题广场
+                      <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-[#D14A28]/10">
+                        <Sparkles className="h-3.5 w-3.5" strokeWidth={2.2} />
+                      </span>
+                      <span>议题广场</span>
                     </button>
                   ) : null}
                 </div>
