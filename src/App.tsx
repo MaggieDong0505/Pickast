@@ -143,10 +143,10 @@ function EpisodeDeck({
 
   return (
     <>
-      <div className="relative flex w-full items-center justify-center overflow-visible py-1">
+      <div className="relative flex w-full flex-col items-center justify-center overflow-visible">
         <div
           className="relative w-full max-w-[344px] overflow-visible"
-          style={{ aspectRatio: '29 / 50' }}
+          style={{ height: 'clamp(420px, calc(100vh - 360px), 480px)' }}
         >
           {episodes.map((episode, index) => {
             let diff = 0;
@@ -189,7 +189,7 @@ function EpisodeDeck({
                   if (diff === -1) handlePrev();
                   if (diff === 1) handleNext();
                 }}
-                className="relative overflow-hidden rounded-[20px] border border-black/10 bg-white px-5 pt-5 pb-10 flex flex-col paper-texture cursor-grab active:cursor-grabbing select-none"
+                className="relative overflow-hidden rounded-[20px] border border-black/10 bg-white px-5 pt-3 pb-10 flex flex-col paper-texture cursor-grab active:cursor-grabbing select-none"
                 style={{
                   position: 'absolute',
                   left: '24px',
@@ -206,7 +206,7 @@ function EpisodeDeck({
                   style={{ backgroundColor: '#D14A28' }}
                 />
 
-                <div className="relative z-10 flex justify-between items-start gap-2 pb-3 border-b border-black/5 mt-1">
+                <div className="relative z-10 flex justify-between items-start gap-2 pb-3 border-b border-black/5 mt-0.5">
                   <div className="flex flex-wrap items-center gap-1.5 min-w-0 pr-1">
                     <span className="font-serif font-black text-[12px] leading-tight border border-zinc-300 px-2.5 py-1 rounded text-zinc-900 bg-[#FAF9F5] select-none break-words max-w-[185px]">
                       {episode.podcastName}
@@ -239,8 +239,8 @@ function EpisodeDeck({
                   </button>
                 </div>
 
-                <div className="card-body-layout relative z-10 flex min-h-0 flex-1 flex-col pt-3.5">
-                  <div className="card-copy-block pr-0.5 text-justify">
+                <div className="card-body-layout relative z-10 flex min-h-0 flex-1 flex-col pt-2.5" style={{ gap: '12px' }}>
+                  <div className="card-copy-block pr-0.5 text-justify" style={{ gap: '12px' }}>
                     <h2 className="card-title-text font-serif font-black text-[14px] text-[#1A1A1A] hover:text-[#D14A28] transition-colors">
                       {episode.episodeTitle}
                     </h2>
@@ -260,7 +260,10 @@ function EpisodeDeck({
                     ) : null}
                   </div>
 
-                  <div className="card-cover-frame relative z-10 -mx-5 overflow-hidden bg-white">
+                  <div
+                    className="card-cover-frame relative z-10 -mx-5 overflow-hidden bg-white"
+                    style={{ minHeight: '100px', maxHeight: '140px' }}
+                  >
                     {episode.coverImageUrl ? (
                       <img
                         src={episode.coverImageUrl}
@@ -278,9 +281,16 @@ function EpisodeDeck({
                   </div>
 
                   {episode.goldenQuotes && episode.goldenQuotes.length > 0 ? (
-                    <div className="card-quote-block">
+                    <div className="card-quote-block" style={{ paddingTop: '12px', paddingBottom: '12px' }}>
                       <div className="space-y-2">
-                        <p className="card-quote-text font-serif text-[18px] text-zinc-800 font-medium">
+                        <p
+                          className="card-quote-text font-serif text-[18px] text-zinc-800 font-medium"
+                          style={{
+                            minHeight: 'calc(1.6em * 2)',
+                            maxHeight: 'calc(1.6em * 2)',
+                            WebkitLineClamp: 2,
+                          }}
+                        >
                           {episode.goldenQuotes[0].quote}
                         </p>
                         <p className="card-quote-source text-[12px] text-[#888888] font-medium text-right">
@@ -535,7 +545,7 @@ export default function App() {
   return (
     <div
       id="briefing-app"
-      className="h-[100dvh] min-h-screen w-full bg-[#EFECE6] font-sans antialiased text-[#1A1A1A] overflow-x-hidden"
+      className="h-[100vh] w-full overflow-hidden bg-[#EFECE6] font-sans antialiased text-[#1A1A1A]"
     >
       <div
         className="relative mx-auto flex h-full w-full max-w-[480px] flex-col overflow-hidden bg-[#F7F4EC] select-none"
@@ -568,7 +578,7 @@ export default function App() {
           style={{ paddingBottom: 'calc(64px + env(safe-area-inset-bottom, 0px))' }}
         >
           {activeTab === 'curated' ? (
-            <div className="flex h-full flex-1 flex-col overflow-y-auto px-4 pt-4 md:px-5">
+            <div className="flex h-full flex-1 flex-col overflow-hidden px-4 pt-4 pb-2 md:px-5">
               <div className="flex justify-between items-center border-b border-black/10 pb-2 select-none">
                 <div className="flex items-baseline gap-1">
                   <span className="font-serif font-black text-xl tracking-tight text-[#1A1A1A]">听荐</span>
@@ -585,7 +595,7 @@ export default function App() {
                 </div>
               </div>
 
-              <div className="flex flex-1 flex-col pb-20">
+              <div className="flex flex-1 min-h-0 flex-col pb-0">
                 <EpisodeDeck
                   episodes={curatedEpisodes}
                   activeIndex={activeIndex}
@@ -606,7 +616,9 @@ export default function App() {
                   ) : null}
                 </div>
 
-                <SynthesisCard synthesis={curatedSynthesis} />
+                <div className="pt-0.5">
+                  <SynthesisCard synthesis={curatedSynthesis} />
+                </div>
               </div>
             </div>
           ) : null}
