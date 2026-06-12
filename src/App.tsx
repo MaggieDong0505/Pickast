@@ -143,10 +143,9 @@ function EpisodeDeck({
 
   return (
     <>
-      <div className="relative flex w-full flex-col items-center justify-center overflow-visible">
+      <div className="relative flex w-full flex-1 flex-col items-center justify-center overflow-visible">
         <div
-          className="relative w-full max-w-[344px] overflow-visible"
-          style={{ height: 'clamp(420px, calc(100vh - 360px), 480px)' }}
+          className="relative h-full w-full max-w-[344px] overflow-visible min-h-[420px] max-h-[480px]"
         >
           {episodes.map((episode, index) => {
             let diff = 0;
@@ -545,10 +544,10 @@ export default function App() {
   return (
     <div
       id="briefing-app"
-      className="h-[100vh] w-full overflow-hidden bg-[#EFECE6] font-sans antialiased text-[#1A1A1A]"
+      className="min-h-[100dvh] flex flex-col w-full overflow-hidden bg-[#EFECE6] pt-[env(safe-area-inset-top)] font-sans antialiased text-[#1A1A1A]"
     >
       <div
-        className="relative mx-auto flex h-full w-full max-w-[480px] flex-col overflow-hidden bg-[#F7F4EC] select-none"
+        className="relative mx-auto flex w-full max-w-[480px] flex-1 flex-col overflow-hidden bg-[#F7F4EC] select-none"
         style={{ contentVisibility: 'auto' }}
       >
         <style>{`
@@ -573,13 +572,10 @@ export default function App() {
           }
         `}</style>
 
-        <div
-          className="relative flex h-full flex-grow flex-col overflow-hidden"
-          style={{ paddingBottom: 'calc(64px + env(safe-area-inset-bottom, 0px))' }}
-        >
+        <div className="relative flex flex-1 flex-col overflow-hidden pb-[calc(96px+env(safe-area-inset-bottom,0px))]">
           {activeTab === 'curated' ? (
-            <div className="flex h-full flex-1 flex-col overflow-hidden px-4 pt-4 pb-2 md:px-5">
-              <div className="flex justify-between items-center border-b border-black/10 pb-2 select-none">
+            <div className="flex h-full flex-1 flex-col justify-center overflow-hidden px-4 pb-2 pt-0 md:px-5">
+              <div className="mt-4 flex items-center justify-between border-b border-black/10 pb-2 select-none">
                 <div className="flex items-baseline gap-1">
                   <span className="font-serif font-black text-xl tracking-tight text-[#1A1A1A]">听荐</span>
                   <span
@@ -595,7 +591,7 @@ export default function App() {
                 </div>
               </div>
 
-              <div className="flex flex-1 min-h-0 flex-col pb-0">
+              <div className="flex flex-1 min-h-0 flex-col justify-center">
                 <EpisodeDeck
                   episodes={curatedEpisodes}
                   activeIndex={activeIndex}
@@ -735,7 +731,7 @@ export default function App() {
         </div>
 
         <div
-          className="absolute bottom-0 left-0 right-0 z-[90] flex items-center justify-between border-t-2 border-[#1A1A1A] bg-[#FAF9F5] px-4 pt-2 md:px-5 paper-texture"
+          className="fixed bottom-0 left-1/2 z-[90] flex w-full max-w-[480px] -translate-x-1/2 items-center justify-between border-t-2 border-[#1A1A1A] bg-[#FAF9F5] px-4 pt-2 md:px-5 paper-texture"
           style={{
             minHeight: 'calc(64px + env(safe-area-inset-bottom, 0px))',
             paddingBottom: 'calc(8px + env(safe-area-inset-bottom, 0px))',
