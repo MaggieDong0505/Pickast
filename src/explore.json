@@ -1,0 +1,53 @@
+[
+  {
+    "title": "AI会让大多数人失业吗？",
+    "domainTag": "AI与就业",
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI会替代低弹性岗位，但也会创造新工作",
+        "episodeId": "6a1ebbd5b30e1571ae9f78ee"
+      },
+      {
+        "podcast": "十字路口Crossing",
+        "point": "AI会大量取代智力劳动，95%企业可能消失",
+        "episodeId": "6a1e4022ac7bdb080c348b41"
+      }
+    ]
+  },
+  {
+    "title": "AI热潮是泡沫还是刚开始？",
+    "domainTag": "AI投资",
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI热潮才刚开始，是最大S曲线",
+        "episodeId": "6a286aa1dbccffcfa9c661ec"
+      },
+      {
+        "podcast": "十字路口Crossing",
+        "point": "AI商业价值90%被模型公司吞掉，应用层像捡钢镚",
+        "episodeId": "6a275ed57444b5722235a897"
+      }
+    ]
+  },
+  {
+    "title": "AIAgent会取代工程师吗？",
+    "domainTag": "AI与编程",
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI Agent让工程师生产力指数增长，但不会取代人",
+        "episodeId": "6a26a3e4b30e1571aea2b45c"
+      },
+      {
+        "podcast": "整点亮话",
+        "point": "公司拿AI当裁员借口，实际是老板在裁人",
+        "episodeId": "6a25a0d7b30e1571aea23ce1"
+      }
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "name": "播客选题简报",
+  "description": "一页精美的‘播客选题简报卡’，参考‘瑞幸 x 单向历’视觉气质，展现节目核心观点与金句共识。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

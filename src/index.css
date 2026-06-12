@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Noto+Serif+SC:wght@400;500;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Noto Serif SC", "Playfair Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --font-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Subtle physical paper texture effect */
+.paper-texture {
+  position: relative;
+}
+
+.paper-texture::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.055;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  z-index: 10;
+}
+
+.card-body-layout {
+  gap: 16px;
+  overflow: hidden;
+}
+
+.card-copy-block {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  overflow: visible;
+}
+
+.card-title-text {
+  display: -webkit-box;
+  min-height: calc(1.45em * 2);
+  max-height: calc(1.45em * 2);
+  overflow: hidden;
+  line-height: 1.45;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.card-reason-text {
+  display: -webkit-box;
+  min-height: calc(1.5em * 3);
+  max-height: calc(1.5em * 3);
+  overflow: hidden;
+  line-height: 1.5;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.card-cover-frame {
+  min-height: 120px;
+  max-height: 180px;
+  flex: 1 1 0;
+}
+
+.card-cover-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-quote-block {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  flex: 0 0 auto;
+  overflow: visible;
+}
+
+.card-quote-text {
+  display: -webkit-box;
+  min-height: calc(1.6em * 3);
+  max-height: calc(1.6em * 3);
+  overflow: hidden;
+  line-height: 1.6;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.card-quote-source {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.card-footer-bar {
+  margin-top: 16px;
+  flex: 0 0 auto;
+}
