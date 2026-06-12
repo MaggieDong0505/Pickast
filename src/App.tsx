@@ -303,7 +303,7 @@ function EpisodeDeck({
 
   return (
     <>
-      <div className="relative mt-8 flex w-full flex-none flex-col items-center justify-start overflow-visible">
+      <div className="relative mt-[42px] flex w-full flex-none flex-col items-center justify-start overflow-visible">
         <div className="relative h-fit w-full max-w-[344px] overflow-visible min-h-0">
           {episodes.map((episode, index) => {
             let diff = 0;
@@ -899,22 +899,18 @@ export default function App() {
                   isCompactViewport={isCompactViewport}
                 />
 
-                <div className="mt-2 flex w-full shrink-0">
+                <div className="relative z-40 mt-2 flex w-full shrink-0 justify-center">
                   {exploreTopics.length > 0 ? (
                     <button
                       onClick={openExplore}
-                      className="inline-flex h-11 w-full items-center justify-center gap-2 rounded-[22px] border border-[#D14A28]/20 bg-[#FFF7F2] px-5 text-[14px] font-semibold text-[#B8502F] hover:bg-[#FFF1E8]"
+                      className="inline-flex h-7 w-[60%] items-center justify-center gap-1.5 rounded-full border border-[#D14A28]/20 bg-[#FFF7F2] px-3 text-[11px] font-semibold text-[#B8502F] hover:bg-[#FFF1E8]"
                     >
-                      <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-[#D14A28]/10">
-                        <Sparkles className="h-3.5 w-3.5" strokeWidth={2.2} />
+                      <span className="inline-flex h-4 w-4 items-center justify-center rounded-full bg-[#D14A28]/10">
+                        <Sparkles className="h-2.5 w-2.5" strokeWidth={2.2} />
                       </span>
                       <span>议题广场</span>
                     </button>
                   ) : null}
-                </div>
-
-                <div className="pt-0.5">
-                  <SynthesisCard synthesis={curatedSynthesis} />
                 </div>
               </div>
             </div>
