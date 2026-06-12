@@ -103,6 +103,25 @@ function getEpisodeIdValue(episode: PodcastEpisode) {
   return episode.episodeId ?? getEpisodeId(episode);
 }
 
+const RECOMMENDATION_REASON_MAX_LENGTH = 50;
+
+function getSafeRecommendationReason(reason?: string) {
+  const normalizedReason = reason?.trim() ?? '';
+  if (!normalizedReason || normalizedReason.length <= RECOMMENDATION_REASON_MAX_LENGTH) {
+    return normalizedReason;
+  }
+
+  console.warn('[Pickast] Briefing recommendation reason is too long, trimming at sentence boundary:', normalizedReason);
+
+  const lastPeriodBeforeLimit = normalizedReason.lastIndexOf('。', RECOMMENDATION_REASON_MAX_LENGTH);
+  if (lastPeriodBeforeLimit >= 0) {
+    return normalizedReason.slice(0, lastPeriodBeforeLimit + 1);
+  }
+
+  const lastPeriod = normalizedReason.lastIndexOf('。');
+  return lastPeriod >= 0 ? normalizedReason.slice(0, lastPeriod + 1) : normalizedReason;
+}
+
 function toBriefingFavoriteRecord(episode: PodcastEpisode): FavoriteRecord | null {
   const episodeId = getEpisodeIdValue(episode);
   if (!episodeId) {
@@ -232,6 +251,8 @@ function EpisodeDeck({
             else if (episodeCount > 2 && index === prevIndex) diff = -1;
             else diff = 2;
 
+            const recommendationReason = getSafeRecommendationReason(episode.whyRecommended);
+
             return (
               <motion.div
                 key={getEpisodeKey(episode)}
@@ -318,17 +339,16 @@ function EpisodeDeck({
                       </div>
                     ) : null}
 
-                    {episode.whyRecommended ? (
+                    {recommendationReason ? (
                       <p className="card-reason-text text-[12px] text-zinc-600">
                         <span className="font-serif font-bold text-[#1A1A1A]">【推荐语】</span>
-                        {episode.whyRecommended}
+                        {recommendationReason}
                       </p>
                     ) : null}
                   </div>
 
                   <div
-                    className="card-cover-frame relative z-10 -mx-5 overflow-hidden bg-white"
-                    style={{ minHeight: '100px', maxHeight: '140px' }}
+                    className="card-cover-frame relative z-0 -mx-5 shrink-0 overflow-hidden bg-white"
                   >
                     {episode.coverImageUrl ? (
                       <img
@@ -339,7 +359,7 @@ function EpisodeDeck({
                         onError={(event) => {
                           event.currentTarget.style.display = 'none';
                         }}
-                        className="w-full h-full object-cover scale-110 opacity-[0.65] blur-[1.4px] saturate-[0.9]"
+                        className="h-full w-full object-cover opacity-[0.65] blur-[1.4px] saturate-[0.9]"
                       />
                     ) : null}
                     <div className="absolute inset-x-0 top-0 h-8 bg-gradient-to-b from-white to-transparent pointer-events-none" />
@@ -348,10 +368,11 @@ function EpisodeDeck({
 
                   {episode.goldenQuotes && episode.goldenQuotes.length > 0 ? (
                     <div
-                      className="card-quote-block relative"
+                      className="card-quote-block relative z-10"
                       style={{
-                        paddingTop: '12px',
-                        paddingBottom: '12px',
+                        marginTop: '2px',
+                        paddingTop: '10px',
+                        paddingBottom: '8px',
                         paddingLeft: '14px',
                       }}
                     >
@@ -379,7 +400,7 @@ function EpisodeDeck({
                         >
                           {episode.goldenQuotes[0].quote}
                         </p>
-                        <p className="card-quote-source text-[12px] text-[#888888] font-medium text-right">
+                        <p className="card-quote-source text-[10.5px] text-[#888888] font-medium text-right">
                           —— {episode.goldenQuotes[0].source}
                         </p>
                       </div>

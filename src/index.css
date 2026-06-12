@@ -26,7 +26,7 @@
 }
 
 .card-body-layout {
-  gap: 16px;
+  gap: 12px;
   overflow: hidden;
 }
 
@@ -59,9 +59,10 @@
 }
 
 .card-cover-frame {
-  min-height: 120px;
-  max-height: 180px;
-  flex: 1 1 0;
+  height: clamp(96px, 22dvh, 132px);
+  max-height: 132px;
+  flex: 0 0 auto;
+  contain: paint;
 }
 
 .card-cover-frame img {
@@ -71,8 +72,8 @@
 }
 
 .card-quote-block {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 12px;
+  padding-bottom: 8px;
   flex: 0 0 auto;
   overflow: visible;
 }
@@ -91,6 +92,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  line-height: 1.3;
 }
 
 .card-footer-bar {

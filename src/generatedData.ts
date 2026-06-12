@@ -23,7 +23,7 @@ export const initialData: BriefingCardData = {
     "coverText": "跨国",
     "coverBg": "bg-[#18181B]",
     "coverTextColor": "text-amber-50",
-    "whyRecommended": "PeterThiel与JoeRogan的深度对谈，涵盖AI、技术停滞、文明风险等宏大议题，适合对科技与社会未。",
+    "whyRecommended": "适合关注AI、技术停滞与文明风险的听众，用一场长谈梳理科技与社会焦虑。",
     "viewpoints": [
       "ChatGPT 通过图灵测试可能比 AGI 更重要",
       "比特世界进步，原子世界停滞",
@@ -43,7 +43,7 @@ export const initialData: BriefingCardData = {
     ],
     "triageTag": "📖值得精听｜Thiel 论 AI",
     "href": "cosmos://page.cos/episode/6a2abd770a34cf8ce5a78266?utm_source=rss",
-    "whyRecommend": "PeterThiel与JoeRogan的深度对谈，涵盖AI、技术停滞、文明风险等宏大议题，适合对科技与社会未。",
+    "whyRecommend": "适合关注AI、技术停滞与文明风险的听众，用一场长谈梳理科技与社会焦虑。",
     "goldenQuote": "你实际生活的环境，一百年来并没有改变。",
     "topicTag": "📖值得精听｜Thiel 论 AI"
   },

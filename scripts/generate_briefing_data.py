@@ -790,11 +790,17 @@ def episode_ai_prompt(item: ScoredEpisode, suggested_triage: str) -> str:
         "请只返回 JSON,不要 Markdown,不要解释。\n\n"
         "JSON schema:\n"
         "{\n"
-        '  "whyRecommended": "1句中文,30~55字,具体说明这一集的独特价值/适合谁听,必须一句话说完",\n'
+        '  "whyRecommended": "1句中文,30~50字,具体说明这一集的独特价值/适合谁听,必须完整成句并以句号结尾",\n'
         '  "key_points": ["固定3条,每条15~25字,必须来自 shownote", "...", "..."],\n'
         '  "golden_quotes": [{"quote": "逐字摘自 shownote 原文,不许改写,优先选择 ≤40字 的完整句子"}],\n'
         '  "triage": {"label": "<三选一>", "reason": "<≤14字内容钩子>"}\n'
         "}\n\n"
+        "【whyRecommended 字段硬约束】\n"
+        "1. 必须是 30~50 个中文字符左右的一句完整中文推荐语。\n"
+        "2. 必须以中文句号“。”结尾,严禁用逗号、顿号、冒号或半句话收尾。\n"
+        "3. 严禁半句戛然而止,宁可缩短表达,也必须把最后一个意思说完整。\n"
+        '4. 错误示例:"适合对科技与社会未"（在"未"字后戛然而止,不合格）。\n'
+        '5. 正确示例:"适合关注科技与社会风险的听众,用一场长谈串起 AI 与文明焦虑。"\n\n'
         "【triage 字段硬约束】\n"
         "1. label 必须严格三选一,从以下三个值中精确选一个,emoji 不能丢:\n"
         '   - "📖值得精听"\n'
@@ -943,7 +949,7 @@ def normalize_episode_ai(card: dict, episode: FeedEpisode, ai_data: dict | None,
 
     if not why or not isinstance(key_points, list) or len(key_points) != 3:
         return fallback_card_without_ai(card)
-    why = complete_sentence_within_limit(why, limit=55)
+    why = complete_sentence_within_limit(why, limit=50)
 
     normalized_points = [str(point).strip() for point in key_points if str(point).strip()]
     if len(normalized_points) != 3:
@@ -1284,11 +1290,20 @@ def is_non_empty(value: object) -> bool:
     return True
 
 
+def is_valid_recommendation_reason(value: object) -> bool:
+    if not isinstance(value, str):
+        return False
+
+    reason = re.sub(r"\s+", "", value).strip()
+    return bool(reason) and len(reason) <= 50 and reason.endswith("。")
+
+
 def validate_briefing(data: dict) -> bool:
     cards = [data.get("mainEpisode"), *data.get("backupEpisodes", [])]
     required_fields = ["whyRecommend", "goldenQuote", "topicTag", "episodeId", "episodeTitle"]
     return all(
         isinstance(card, dict) and all(is_non_empty(card.get(field)) for field in required_fields)
+        and is_valid_recommendation_reason(card.get("whyRecommend"))
         for card in cards
     )
 
