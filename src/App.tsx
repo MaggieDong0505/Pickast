@@ -9,6 +9,7 @@ import {
   ArrowLeft,
   Bookmark,
   Check,
+  ChevronDown,
   Compass,
   ExternalLink,
   User,
@@ -35,6 +36,8 @@ type AppTab = 'curated' | 'favorites' | 'my';
 const exploreData = exploreDataRaw as ExploreData;
 const favoritesSeed = favoritesDataRaw as PodcastEpisode[];
 const rankingData = rankingDataRaw as RankingEpisode[];
+const FIRST_VISIT_DATE_STORAGE_KEY = 'firstVisitDate';
+const LEGACY_FIRST_VISIT_DATE_STORAGE_KEY = 'pickast-first-visit-date';
 
 function getEpisodeKey(episode: PodcastEpisode) {
   return `${episode.podcastName}::${episode.episodeTitle}`;
@@ -104,6 +107,64 @@ function toBriefingFavoriteRecord(episode: PodcastEpisode): FavoriteRecord | nul
     topicTag: episode.topicTag ?? episode.triageTag,
     addedAt: Date.now(),
   };
+}
+
+type SubscriptionMockItem = {
+  podcastName: string;
+  coverUrl: string;
+  podcastId: string | null;
+};
+
+type PodcastSourceWithOptionalId = {
+  podcastName: string;
+  coverImageUrl?: string | null;
+  podcastId?: string | null;
+  podcast_id?: string | null;
+};
+
+function getPodcastId(source: PodcastSourceWithOptionalId) {
+  return source.podcastId ?? source.podcast_id ?? null;
+}
+
+function buildPodcastWebHref(podcastName: string, podcastId: string | null) {
+  if (podcastId) {
+    return `https://www.xiaoyuzhoufm.com/podcast/${podcastId}`;
+  }
+
+  return `https://www.xiaoyuzhoufm.com/search?q=${encodeURIComponent(podcastName)}`;
+}
+
+function buildPodcastDeepLink(podcastId: string | null) {
+  return podcastId ? `cosmos://page.cos/podcast/${podcastId}` : null;
+}
+
+function openAdaptiveXiaoyuzhouLink({
+  webUrl,
+  deepLinkUrl,
+  isCompactViewport,
+}: {
+  webUrl: string;
+  deepLinkUrl: string | null;
+  isCompactViewport: boolean;
+}) {
+  if (isCompactViewport && deepLinkUrl) {
+    const fallbackTimer = window.setTimeout(() => {
+      window.location.href = webUrl;
+    }, 1500);
+
+    const handleVisibilityChange = () => {
+      if (document.hidden) {
+        window.clearTimeout(fallbackTimer);
+        document.removeEventListener('visibilitychange', handleVisibilityChange);
+      }
+    };
+
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+    window.location.href = deepLinkUrl;
+    return;
+  }
+
+  window.open(webUrl, '_blank', 'noopener');
 }
 
 type EpisodeDeckProps = {
@@ -275,11 +336,31 @@ function EpisodeDeck({
                   </div>
 
                   {episode.goldenQuotes && episode.goldenQuotes.length > 0 ? (
-                    <div className="card-quote-block" style={{ paddingTop: '12px', paddingBottom: '12px' }}>
+                    <div
+                      className="card-quote-block relative"
+                      style={{
+                        paddingTop: '12px',
+                        paddingBottom: '12px',
+                        paddingLeft: '14px',
+                      }}
+                    >
+                      <span
+                        aria-hidden="true"
+                        className="pointer-events-none absolute left-0 top-0 font-serif font-black leading-none"
+                        style={{
+                          fontSize: '36px',
+                          color: '#D14A28',
+                          opacity: 0.3,
+                          transform: 'translateY(-2px)',
+                        }}
+                      >
+                        "
+                      </span>
                       <div className="space-y-2">
                         <p
-                          className="card-quote-text font-serif text-[18px] text-zinc-800 font-medium"
+                          className="card-quote-text font-serif text-[15px] font-medium text-[#555555]"
                           style={{
+                            lineHeight: 1.6,
                             minHeight: 'calc(1.6em * 2)',
                             maxHeight: 'calc(1.6em * 2)',
                             WebkitLineClamp: 2,
@@ -371,26 +452,12 @@ function XiaoyuzhouListenLink({
 
   const handleClick = () => {
     const webUrl = buildEpisodeWebHref(episodeId);
-
-    if (isCompactViewport) {
-      const deepLink = buildEpisodeHref(episodeId);
-      const fallbackTimer = window.setTimeout(() => {
-        window.location.href = webUrl;
-      }, 1500);
-
-      const handleVisibilityChange = () => {
-        if (document.hidden) {
-          window.clearTimeout(fallbackTimer);
-          document.removeEventListener('visibilitychange', handleVisibilityChange);
-        }
-      };
-
-      document.addEventListener('visibilitychange', handleVisibilityChange);
-      window.location.href = deepLink;
-      return;
-    }
-
-    window.open(webUrl, '_blank', 'noopener');
+    const deepLink = buildEpisodeHref(episodeId);
+    openAdaptiveXiaoyuzhouLink({
+      webUrl,
+      deepLinkUrl: deepLink,
+      isCompactViewport,
+    });
   };
 
   return (
@@ -458,6 +525,8 @@ export default function App() {
   const [showExplore, setShowExplore] = useState(false);
   const [selectedTopicIndex, setSelectedTopicIndex] = useState<number | null>(null);
   const [daysSinceFirstVisit, setDaysSinceFirstVisit] = useState(0);
+  const [aboutExpanded, setAboutExpanded] = useState(false);
+  const [toastMessage, setToastMessage] = useState<string | null>(null);
   const [isCompactViewport, setIsCompactViewport] = useState(() => {
     if (typeof window === 'undefined') {
       return true;
@@ -553,6 +622,67 @@ export default function App() {
 
     return map;
   }, [briefingSeedEpisodes, podcastCoverLookup]);
+  const topicEpisodeDetailLookup = useMemo(() => {
+    const map = new Map<
+      string,
+      {
+        point: string;
+        topicTitle: string;
+        podcastName: string;
+      }
+    >();
+
+    exploreTopics.forEach((topic) => {
+      [...topic.consensus, ...topic.divergence].forEach((point) => {
+        if (!map.has(point.episodeId)) {
+          map.set(point.episodeId, {
+            point: point.point,
+            topicTitle: topic.title,
+            podcastName: point.podcast,
+          });
+        }
+      });
+    });
+
+    return map;
+  }, [exploreTopics]);
+  const subscriptionItems = useMemo<SubscriptionMockItem[]>(() => {
+    const map = new Map<string, SubscriptionMockItem>();
+
+    const registerSource = (source: PodcastSourceWithOptionalId) => {
+      if (!map.has(source.podcastName)) {
+        map.set(source.podcastName, {
+          podcastName: source.podcastName,
+          coverUrl: source.coverImageUrl ?? '',
+          podcastId: getPodcastId(source),
+        });
+        return;
+      }
+
+      const existing = map.get(source.podcastName);
+      if (!existing) {
+        return;
+      }
+
+      if (!existing.coverUrl && source.coverImageUrl) {
+        existing.coverUrl = source.coverImageUrl;
+      }
+
+      if (!existing.podcastId) {
+        existing.podcastId = getPodcastId(source);
+      }
+    };
+
+    curatedEpisodes.forEach((episode) => registerSource(episode as PodcastSourceWithOptionalId));
+    exploreTopics.forEach((topic) => {
+      [...topic.consensus, ...topic.divergence].forEach((point) => {
+        registerSource({ podcastName: point.podcast });
+      });
+    });
+    rankingData.forEach((episode) => registerSource(episode as PodcastSourceWithOptionalId));
+
+    return [...map.values()];
+  }, [curatedEpisodes, exploreTopics]);
   const favoriteItems = useMemo(
     () => [...favorites].sort((a, b) => b.addedAt - a.addedAt),
     [favorites]
@@ -620,23 +750,39 @@ export default function App() {
     setSelectedTopicIndex(null);
   };
 
-  const importedFavoritesCount = favorites.length;
   const shortWeekday = getShortWeekday(initialData.chinaDateStr);
 
   useEffect(() => {
-    const storageKey = 'pickast-first-visit-date';
+    if (activeTab !== 'my') {
+      return;
+    }
+
     const today = new Date();
     const todayStr = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(
       today.getDate()
     ).padStart(2, '0')}`;
-    const stored = window.localStorage.getItem(storageKey) ?? todayStr;
+    const currentFirstVisit = window.localStorage.getItem(FIRST_VISIT_DATE_STORAGE_KEY);
+    const legacyFirstVisit = window.localStorage.getItem(LEGACY_FIRST_VISIT_DATE_STORAGE_KEY);
+    const firstVisitDate = currentFirstVisit ?? legacyFirstVisit ?? todayStr;
 
-    if (!window.localStorage.getItem(storageKey)) {
-      window.localStorage.setItem(storageKey, todayStr);
+    if (!currentFirstVisit) {
+      window.localStorage.setItem(FIRST_VISIT_DATE_STORAGE_KEY, firstVisitDate);
     }
 
-    setDaysSinceFirstVisit(getCalendarDayDiff(stored, today));
-  }, []);
+    setDaysSinceFirstVisit(getCalendarDayDiff(firstVisitDate, today) + 1);
+  }, [activeTab]);
+
+  useEffect(() => {
+    if (!toastMessage) {
+      return;
+    }
+
+    const timer = window.setTimeout(() => {
+      setToastMessage(null);
+    }, 3200);
+
+    return () => window.clearTimeout(timer);
+  }, [toastMessage]);
 
   return (
     <div
@@ -744,6 +890,7 @@ export default function App() {
                 ) : (
                   favoriteItems.map((favorite) => {
                     const briefingEpisode = episodeLookup.get(favorite.id);
+                    const topicEpisodeDetail = topicEpisodeDetailLookup.get(favorite.id);
                     const href = favorite.type === 'topic_episode'
                       ? buildEpisodeWebHref(favorite.id)
                       : briefingEpisode?.href ?? buildEpisodeWebHref(favorite.id);
@@ -780,11 +927,11 @@ export default function App() {
                           </div>
 
                           <h3 className="font-serif font-bold text-[11.5px] text-[#1A1A1A] leading-relaxed mb-1.5">
-                            {favorite.title}
+                            {topicEpisodeDetail?.point ?? favorite.title}
                           </h3>
 
                           <p className="text-[9px] text-[#666666] leading-relaxed mb-2.5">
-                            所属议题：{favorite.topicTag}
+                            所属议题：{topicEpisodeDetail?.topicTitle ?? favorite.topicTag}
                           </p>
 
                           <div className="flex justify-between items-center text-[9px] border-t border-black/5 pt-2 mt-0.5">
@@ -797,17 +944,6 @@ export default function App() {
                               <span>去小宇宙听</span>
                               <ExternalLink className="w-2.5 h-2.5" />
                             </a>
-
-                            <button
-                              onClick={(event) => {
-                                event.preventDefault();
-                                event.stopPropagation();
-                                toggleFavorite(favorite);
-                              }}
-                              className="text-[9.5px] text-[#666666] hover:text-[#D14A28] font-bold"
-                            >
-                              取消收藏
-                            </button>
                           </div>
                         </div>
                       );
@@ -877,32 +1013,173 @@ export default function App() {
                 <h1 className="font-serif font-black text-xl tracking-tight text-[#1A1A1A]">我的听荐</h1>
               </div>
 
-              <div className="mt-5 space-y-3">
-                <div className="relative overflow-hidden rounded-[24px] border border-black/10 bg-white px-4 pb-5 pt-5 paper-texture">
+              <div className="mt-5 flex-1 overflow-y-auto space-y-3.5 pb-4 min-h-0 scrollbar-thin scrollbar-thumb-zinc-300">
+                <section className="relative overflow-hidden rounded-[24px] border border-black/10 bg-white px-4 pb-5 pt-5 paper-texture shadow-sm">
                   <div className="absolute inset-x-0 top-0 h-[5.5px]" style={{ backgroundColor: '#D14A28' }} />
-                  <p className="text-[28px] font-serif font-black leading-none text-[#1A1A1A]">
-                    {daysSinceFirstVisit}
-                  </p>
-                  <p className="mt-3 text-[13px] leading-relaxed text-[#888888]">陪伴你 {daysSinceFirstVisit} 天</p>
-                </div>
+                  <div className="flex items-start justify-between gap-4">
+                    <div className="max-w-[230px]">
+                      <p className="text-[10px] font-medium uppercase tracking-[0.18em] text-[#888888]">
+                        陪伴统计
+                      </p>
+                      <p className="mt-3 font-serif text-[20px] font-black leading-[1.45] text-[#1A1A1A]">
+                        认识听荐的第{' '}
+                        <span className="rounded bg-[#FFF1E8] px-1.5 py-0.5 text-[#D14A28]">
+                          {daysSinceFirstVisit || 1}
+                        </span>
+                        天
+                      </p>
+                      <p className="mt-3 text-[13px] leading-relaxed text-[#666666]">
+                        把筛选交给 AI,把聆听留给你
+                      </p>
+                    </div>
+                  </div>
+                </section>
 
-                <div className="relative overflow-hidden rounded-[24px] border border-black/10 bg-white px-4 pb-5 pt-5 paper-texture">
+                <section className="relative flex max-h-[400px] flex-col overflow-hidden rounded-[24px] border border-black/10 bg-white px-4 pb-4 pt-5 paper-texture shadow-sm">
                   <div className="absolute inset-x-0 top-0 h-[5.5px]" style={{ backgroundColor: '#D14A28' }} />
-                  <p className="text-[28px] font-serif font-black leading-none text-[#1A1A1A]">
-                    {importedFavoritesCount}
-                  </p>
-                  <p className="mt-3 text-[13px] leading-relaxed text-[#888888]">
-                    收藏了 {importedFavoritesCount} 期
-                  </p>
-                </div>
+                  <div className="flex items-center justify-between gap-3">
+                    <div>
+                      <p className="font-serif font-black text-[18px] text-[#1A1A1A]">我的订阅源</p>
+                    </div>
 
-                <div className="relative overflow-hidden rounded-[24px] border border-black/10 bg-white px-4 pb-5 pt-5 paper-texture">
-                  <div className="absolute inset-x-0 top-0 h-[5.5px]" style={{ backgroundColor: '#D14A28' }} />
-                  <p className="text-[28px] font-serif font-black leading-none text-[#1A1A1A]">38</p>
-                  <p className="mt-3 text-[13px] leading-relaxed text-[#888888]">订阅了 38 档播客</p>
-                </div>
+                    <button
+                      type="button"
+                      onClick={() => setToastMessage('V2 将支持真实 RSS 导入,敬请期待')}
+                      className="inline-flex h-9 items-center justify-center rounded-full border border-[#D14A28]/20 bg-[#FFF7F2] px-3.5 text-[11px] font-semibold text-[#B8502F] transition hover:bg-[#FFF1E8] active:scale-[0.98]"
+                    >
+                      + 导入 OPML 文件
+                    </button>
+                  </div>
+
+                  <div className="mt-4 flex-1 space-y-2.5 overflow-y-auto pr-0.5 scrollbar-thin scrollbar-thumb-zinc-300">
+                    {subscriptionItems.map((item) => (
+                      <button
+                        key={item.podcastName}
+                        type="button"
+                        onClick={() => {
+                          const webUrl = buildPodcastWebHref(item.podcastName, item.podcastId);
+                          const deepLinkUrl = buildPodcastDeepLink(item.podcastId);
+                          openAdaptiveXiaoyuzhouLink({
+                            webUrl,
+                            deepLinkUrl,
+                            isCompactViewport,
+                          });
+                        }}
+                        className="flex w-full items-center gap-3 rounded-[18px] border border-black/5 bg-[#FAF9F5] px-2.5 py-2.5 text-left transition hover:bg-[#FFF7F2] active:scale-[0.99] cursor-pointer"
+                      >
+                        <div className="flex h-11 w-11 shrink-0 items-center justify-center overflow-hidden rounded-[14px] border border-black/10 bg-[#EFECE6]">
+                          {item.coverUrl ? (
+                            <img
+                              src={item.coverUrl}
+                              alt=""
+                              aria-hidden="true"
+                              loading="lazy"
+                              className="h-full w-full object-cover"
+                            />
+                          ) : (
+                            <span className="px-1 text-center font-serif text-[11px] font-black leading-tight text-[#1A1A1A]">
+                              {item.podcastName.slice(0, 2)}
+                            </span>
+                          )}
+                        </div>
+
+                        <div className="min-w-0 flex-1">
+                          <p className="truncate font-serif font-black text-[13px] text-[#1A1A1A]">
+                            {item.podcastName}
+                          </p>
+                          <p className="mt-0.5 text-[10px] text-[#888888]">
+                            {item.podcastId ? '已绑定播客主页' : '将通过搜索打开主页'}
+                          </p>
+                        </div>
+
+                        <span className="shrink-0 rounded-full border border-[#D14A28]/20 bg-[#FFF7F2] px-2.5 py-1 text-[9px] font-bold text-[#B8502F]">
+                          已订阅
+                        </span>
+                      </button>
+                    ))}
+                  </div>
+
+                  <p className="mt-3 text-[10px] leading-relaxed text-[#888888]">
+                    V2 将支持真实 RSS 导入
+                  </p>
+                </section>
+
+                <section className="space-y-3">
+                  <div className="relative overflow-hidden rounded-[24px] border border-black/10 bg-white px-4 py-4 paper-texture shadow-sm">
+                    <div className="absolute inset-x-0 top-0 h-[5.5px]" style={{ backgroundColor: '#D14A28' }} />
+                    <button
+                      type="button"
+                      onClick={() => setAboutExpanded((value) => !value)}
+                      className="flex w-full items-center justify-between gap-4 text-left"
+                    >
+                      <span className="font-serif font-black text-[15px] text-[#1A1A1A]">关于听荐</span>
+                      <ChevronDown
+                        className={`h-4 w-4 transition-transform duration-300 ${
+                          aboutExpanded ? 'rotate-180' : ''
+                        }`}
+                      />
+                    </button>
+
+                    <div
+                      className={`overflow-hidden transition-all duration-300 ${
+                        aboutExpanded ? 'mt-3 max-h-40 opacity-100' : 'max-h-0 opacity-0'
+                      }`}
+                    >
+                      <div className="space-y-3 text-[13px] leading-relaxed text-[#666666]">
+                        <p>
+                          听荐是一款 AI 驱动的播客筛选工具,帮你从信息洪流里捞出真正值得听的内容。
+                        </p>
+
+                        <div className="space-y-3">
+                          <div className="rounded-[18px] bg-[#FAF9F5] px-3.5 py-3">
+                            <p className="font-serif font-black text-[14px] text-[#1A1A1A]">① 今日精选</p>
+                            <p className="mt-1.5">
+                              AI 每天替你听完上百集播客,只挑出 3 期最值得听的,附上一段推荐理由和一句节目中的原话金句,让你 30 秒就能判断&quot;要不要点开&quot;。如果某一期没有合适的金句,我们宁可空着,也不编一句假的。
+                            </p>
+                          </div>
+
+                          <div className="rounded-[18px] bg-[#FAF9F5] px-3.5 py-3">
+                            <p className="font-serif font-black text-[14px] text-[#1A1A1A]">② 议题广场</p>
+                            <p className="mt-1.5">
+                              当多档播客同时讨论同一件事,AI 会自动聚合它们的共识与分歧,让你一眼看清&quot;大家怎么看&quot;。
+                            </p>
+                          </div>
+
+                          <div className="rounded-[18px] bg-[#FAF9F5] px-3.5 py-3">
+                            <p className="font-serif font-black text-[14px] text-[#1A1A1A]">③ 收藏夹</p>
+                            <p className="mt-1.5">
+                              想反复听的单集、击中你的播客观点,一键收藏。已收藏的不再重复推荐,避免推荐疲劳。
+                            </p>
+                          </div>
+                        </div>
+
+                        <p>把筛选交给 AI,把聆听留给你。</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="relative overflow-hidden rounded-[24px] border border-black/10 bg-white px-4 py-4 paper-texture shadow-sm">
+                    <div className="absolute inset-x-0 top-0 h-[5.5px]" style={{ backgroundColor: '#D14A28' }} />
+                    <p className="text-[10px] font-medium uppercase tracking-[0.18em] text-[#888888]">版本号</p>
+                    <p className="mt-2 font-serif font-black text-[16px] text-[#1A1A1A]">v0.1</p>
+                  </div>
+                </section>
               </div>
             </div>
+          ) : null}
+
+          {toastMessage ? (
+            <motion.div
+              key={toastMessage}
+              initial={{ opacity: 0, y: -8, scale: 0.98 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              transition={{ type: 'spring', stiffness: 340, damping: 26 }}
+              className="pointer-events-none fixed left-1/2 top-4 z-[120] -translate-x-1/2 px-4"
+            >
+              <div className="rounded-full border border-black/10 bg-[#1A1A1A] px-4 py-2 text-[12px] font-medium text-[#FAF9F5] shadow-lg shadow-black/10">
+                {toastMessage}
+              </div>
+            </motion.div>
           ) : null}
         </div>
 
