@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '0 21 * * *'
   workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths:
+      - 'scripts/generate_briefing_data.py'
+      - 'data/subscriptions.opml'
 
 jobs:
   update:
