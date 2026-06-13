@@ -29,6 +29,9 @@
   display: flex;
   height: auto;
   min-height: 0;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
   max-height: min(560px, calc(100svh - 280px));
   flex-direction: column;
   gap: clamp(5px, 1dvh, 8px);

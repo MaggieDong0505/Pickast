@@ -355,7 +355,7 @@ function EpisodeDeck({
                   right: diff === 0 ? 'auto' : '24px',
                   top: diff === 0 ? 'auto' : 0,
                   bottom: 'auto',
-                  width: 'auto',
+                  width: diff === 0 ? '100%' : 'auto',
                   filter: diff === 0
                     ? 'drop-shadow(0 12px 40px rgba(0, 0, 0, 0.06))'
                     : 'drop-shadow(0 12px 40px rgba(0, 0, 0, 0.04))',
@@ -900,7 +900,7 @@ export default function App() {
                   />
                 </div>
 
-                <div className="relative z-40 mt-2 flex w-full max-w-[344px] shrink-0 justify-center self-center">
+                <div className="relative z-40 mt-1 flex w-full max-w-[344px] shrink-0 justify-center self-center">
                   <button
                     onClick={openExplore}
                     className="inline-flex h-11 w-full items-center justify-center gap-2 rounded-full border border-[#D14A28]/20 bg-[#FFF7F2] px-5 text-[14px] font-semibold text-[#B8502F] hover:bg-[#FFF1E8]"
