@@ -30,8 +30,8 @@
   height: auto;
   min-height: 0;
   flex-direction: column;
-  gap: 8px;
-  padding: 0 20px 12px;
+  gap: clamp(5px, 1dvh, 8px);
+  padding: 0 20px clamp(8px, 1.4dvh, 12px);
 }
 
 .card-accent-strip {
@@ -52,8 +52,8 @@
 
 .card-tag-row {
   display: flex;
-  height: 20px;
-  flex: 0 0 20px;
+  height: clamp(16px, 2.4dvh, 20px);
+  flex: 0 0 clamp(16px, 2.4dvh, 20px);
   align-items: center;
 }
 
@@ -76,16 +76,15 @@
 }
 
 .card-reason-slot {
-  height: 58px;
-  flex: 0 0 58px;
+  height: clamp(42px, 7.4dvh, 58px);
+  flex: 0 0 clamp(42px, 7.4dvh, 58px);
   overflow: hidden;
 }
 
 .card-cover-frame {
   flex: 0 0 auto;
-  aspect-ratio: 1 / 1;
   width: 100%;
-  max-height: 38vh;
+  height: clamp(104px, 24dvh, 220px);
   contain: paint;
   isolation: isolate;
 }
@@ -98,16 +97,16 @@
 
 .card-quote-block {
   position: relative;
-  height: 64px;
-  flex: 0 0 64px;
+  height: clamp(46px, 8dvh, 64px);
+  flex: 0 0 clamp(46px, 8dvh, 64px);
   overflow: hidden;
   padding-left: 14px;
 }
 
 .card-quote-text-box {
   display: flex;
-  height: 64px;
-  min-height: 64px;
+  height: 100%;
+  min-height: 0;
   align-items: center;
   overflow: hidden;
 }
@@ -132,7 +131,44 @@
 }
 
 .card-footer-bar {
-  min-height: 32px;
+  min-height: clamp(28px, 4.2dvh, 32px);
   margin-top: auto;
-  flex: 0 0 32px;
+  flex: 0 0 clamp(28px, 4.2dvh, 32px);
+}
+
+@media (max-height: 720px) {
+  .episode-card {
+    gap: 5px;
+    padding-bottom: 8px;
+  }
+
+  .card-top-row {
+    min-height: 32px;
+    flex-basis: 32px;
+  }
+
+  .card-title-text {
+    min-height: calc(1.35em * 2);
+    max-height: calc(1.35em * 2);
+    line-height: 1.35;
+  }
+
+  .card-reason-text {
+    line-height: 1.4;
+    -webkit-line-clamp: 2;
+  }
+
+  .card-reason-slot {
+    height: 40px;
+    flex-basis: 40px;
+  }
+
+  .card-cover-frame {
+    height: clamp(88px, 16dvh, 116px);
+  }
+
+  .card-quote-block {
+    height: 44px;
+    flex-basis: 44px;
+  }
 }
