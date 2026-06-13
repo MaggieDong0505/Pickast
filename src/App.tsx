@@ -173,13 +173,21 @@ function buildPodcastDeepLink(podcastId: string | null) {
 function openAdaptiveXiaoyuzhouLink({
   webUrl,
   deepLinkUrl,
+  mobileUrl,
   isCompactViewport,
 }: {
   webUrl: string;
   deepLinkUrl: string | null;
+  mobileUrl?: string | null;
   isCompactViewport: boolean;
 }) {
-  if (isCompactViewport && deepLinkUrl) {
+  if (isCompactViewport && (deepLinkUrl || mobileUrl)) {
+    const targetUrl = mobileUrl ?? deepLinkUrl;
+
+    if (!targetUrl) {
+      return;
+    }
+
     const fallbackTimer = window.setTimeout(() => {
       window.location.href = webUrl;
     }, 1500);
@@ -192,7 +200,7 @@ function openAdaptiveXiaoyuzhouLink({
     };
 
     document.addEventListener('visibilitychange', handleVisibilityChange);
-    window.location.href = deepLinkUrl;
+    window.location.href = targetUrl;
     return;
   }
 
@@ -507,6 +515,7 @@ function XiaoyuzhouListenLink({
     openAdaptiveXiaoyuzhouLink({
       webUrl,
       deepLinkUrl: deepLink,
+      mobileUrl: webUrl,
       isCompactViewport,
     });
   };
