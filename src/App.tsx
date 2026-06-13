@@ -303,7 +303,7 @@ function EpisodeDeck({
 
   return (
     <>
-      <div className="relative mt-2 flex w-full flex-none flex-col items-center justify-start overflow-visible">
+      <div className="relative mt-2 flex w-full flex-none flex-col items-center justify-start overflow-x-visible overflow-y-clip">
         <div className="relative h-fit w-full max-w-[344px] overflow-visible min-h-0">
           {episodes.map((episode, index) => {
             let diff = 0;
