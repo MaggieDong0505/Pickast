@@ -869,7 +869,7 @@ export default function App() {
         <div className="relative flex flex-1 flex-col overflow-hidden pb-[calc(96px+env(safe-area-inset-bottom,0px))]">
           {activeTab === 'curated' ? (
             <div className="flex h-full min-h-0 flex-1 flex-col overflow-x-visible overflow-y-hidden px-4 pb-2 pt-0 md:px-5">
-              <div className="mt-3 flex items-center justify-between border-b border-black/10 pb-4 select-none">
+              <div className="mt-3 flex items-end justify-between border-b border-black/10 pb-4 select-none">
                 <div className="flex items-baseline gap-1">
                   <span className="font-serif font-black text-xl tracking-tight text-[#1A1A1A]">听荐</span>
                   <span
@@ -885,8 +885,8 @@ export default function App() {
                 </div>
               </div>
 
-              <div className="flex min-h-0 flex-1 flex-col justify-center overflow-x-visible overflow-y-hidden py-2">
-                <div className="flex min-h-0 w-full flex-1 flex-col items-center justify-center overflow-x-visible overflow-y-hidden">
+              <div className="flex min-h-0 flex-1 flex-col justify-center gap-3 overflow-visible py-4">
+                <div className="flex w-full flex-col items-center justify-center overflow-visible">
                   <EpisodeDeck
                     episodes={curatedEpisodes}
                     activeIndex={activeIndex}
@@ -922,9 +922,8 @@ export default function App() {
                     {favoriteItems.length}
                   </span>
                 </h1>
-                <p className="text-[11px] text-[#888888] mt-0.5 font-medium">收藏你想反复听的单集。</p>
-                <p className="mt-2 text-center text-[8.5px] text-[#888888] leading-none">
-                  已收藏的节目不再进入今日精选
+                <p className="text-[11px] text-[#888888] mt-0.5 font-medium">
+                  收藏你想反复听的单集｜已收藏的节目不再进入今日精选
                 </p>
               </div>
 
