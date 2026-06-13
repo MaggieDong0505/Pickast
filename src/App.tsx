@@ -8,7 +8,6 @@ import { motion } from 'motion/react';
 import {
   ArrowLeft,
   Bookmark,
-  Check,
   ChevronDown,
   Compass,
   Sparkles,
@@ -870,7 +869,7 @@ export default function App() {
         <div className="relative flex flex-1 flex-col overflow-hidden pb-[calc(96px+env(safe-area-inset-bottom,0px))]">
           {activeTab === 'curated' ? (
             <div className="flex h-full flex-1 flex-col justify-center overflow-hidden px-4 pb-2 pt-0 md:px-5">
-              <div className="mt-8 flex items-center justify-between border-b border-black/10 pb-8 select-none">
+              <div className="mt-3 flex items-center justify-between border-b border-black/10 pb-4 select-none">
                 <div className="flex items-baseline gap-1">
                   <span className="font-serif font-black text-xl tracking-tight text-[#1A1A1A]">听荐</span>
                   <span
@@ -1008,13 +1007,13 @@ export default function App() {
                             </span>
                           </div>
 
-                          <button
+                          <FavoriteHeartButton
+                            isFavorited
                             onClick={(event) => toggleBriefingFavorite(briefingEpisode, event)}
-                            className="hover:scale-105 transition-transform"
-                            title="移出收藏"
-                          >
-                            <Check className="w-4 h-4 text-emerald-700 bg-emerald-50 rounded-full border border-emerald-600 p-0.5" />
-                          </button>
+                            title="取消收藏"
+                            ariaLabel={`取消收藏 ${briefingEpisode.episodeTitle}`}
+                            className="shrink-0"
+                          />
                         </div>
 
                         <h3 className="font-serif font-bold text-[11.5px] text-[#1A1A1A] leading-relaxed mb-2.5">
@@ -1027,13 +1026,6 @@ export default function App() {
                             isCompactViewport={isCompactViewport}
                             className="font-bold"
                           />
-
-                          <button
-                            onClick={(event) => toggleBriefingFavorite(briefingEpisode, event)}
-                            className="text-[9.5px] text-[#666666] hover:text-[#D14A28] font-bold"
-                          >
-                            移出归档
-                          </button>
                         </div>
                       </div>
                     );
