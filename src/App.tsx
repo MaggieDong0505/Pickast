@@ -302,8 +302,8 @@ function EpisodeDeck({
 
   return (
     <>
-      <div className="relative mt-2 flex w-full flex-none flex-col items-center justify-start overflow-x-visible overflow-y-clip">
-        <div className="relative h-fit w-full max-w-[344px] overflow-visible min-h-0">
+      <div className="relative mx-auto mt-2 flex w-[min(344px,calc(100vw-32px))] flex-none flex-col items-center justify-start overflow-visible">
+        <div className="relative h-fit w-full overflow-visible min-h-0">
           {episodes.map((episode, index) => {
             let diff = 0;
             const nextIndex = (activeIndex + 1) % episodeCount;
@@ -351,8 +351,8 @@ function EpisodeDeck({
                 className="episode-card relative overflow-hidden rounded-[20px] border border-black/10 bg-white paper-texture cursor-grab active:cursor-grabbing select-none"
                 style={{
                   position: diff === 0 ? 'relative' : 'absolute',
-                  left: diff === 0 ? '0' : '24px',
-                  right: diff === 0 ? '0' : '24px',
+                  left: diff === 0 ? 'auto' : '24px',
+                  right: diff === 0 ? 'auto' : '24px',
                   top: diff === 0 ? 'auto' : 0,
                   bottom: 'auto',
                   width: 'auto',
