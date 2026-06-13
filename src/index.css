@@ -29,6 +29,7 @@
   display: flex;
   height: auto;
   min-height: 0;
+  max-height: min(560px, calc(100svh - 280px));
   flex-direction: column;
   gap: clamp(5px, 1dvh, 8px);
   padding: 0 20px clamp(8px, 1.4dvh, 12px);
@@ -84,7 +85,7 @@
 .card-cover-frame {
   flex: 0 0 auto;
   width: 100%;
-  height: clamp(104px, 24dvh, 220px);
+  height: clamp(92px, 18svh, 180px);
   contain: paint;
   isolation: isolate;
 }
@@ -139,6 +140,7 @@
 @media (max-height: 720px) {
   .episode-card {
     gap: 5px;
+    max-height: calc(100svh - 268px);
     padding-bottom: 8px;
   }
 
@@ -159,16 +161,26 @@
   }
 
   .card-reason-slot {
-    height: 40px;
-    flex-basis: 40px;
+    height: 36px;
+    flex-basis: 36px;
   }
 
   .card-cover-frame {
-    height: clamp(88px, 16dvh, 116px);
+    height: clamp(72px, 14svh, 104px);
   }
 
   .card-quote-block {
-    height: 44px;
-    flex-basis: 44px;
+    height: 40px;
+    flex-basis: 40px;
+  }
+}
+
+@supports not (height: 100svh) {
+  .episode-card {
+    max-height: min(560px, calc(100vh - 280px));
+  }
+
+  .card-cover-frame {
+    height: clamp(92px, 18vh, 180px);
   }
 }

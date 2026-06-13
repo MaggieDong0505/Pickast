@@ -885,8 +885,8 @@ export default function App() {
                 </div>
               </div>
 
-              <div className="flex min-h-0 flex-1 flex-col justify-center">
-                <div className="flex min-h-0 flex-1 flex-col items-center justify-center gap-3 overflow-x-visible overflow-y-hidden">
+              <div className="flex min-h-0 flex-1 flex-col justify-center overflow-x-visible overflow-y-hidden py-2">
+                <div className="flex min-h-0 w-full flex-1 items-center justify-center overflow-x-visible overflow-y-hidden">
                   <EpisodeDeck
                     episodes={curatedEpisodes}
                     activeIndex={activeIndex}
@@ -898,16 +898,16 @@ export default function App() {
                     onToggleFavorite={toggleBriefingFavorite}
                     isCompactViewport={isCompactViewport}
                   />
+                </div>
 
-                  <div className="relative z-40 mt-0 flex w-full max-w-[344px] shrink-0 justify-center">
-                    <button
-                      onClick={openExplore}
-                      className="inline-flex h-11 w-full items-center justify-center gap-2 rounded-full border border-[#D14A28]/20 bg-[#FFF7F2] px-5 text-[14px] font-semibold text-[#B8502F] hover:bg-[#FFF1E8]"
-                    >
-                      <Sparkles className="h-4 w-4 fill-[#D14A28]/15" strokeWidth={2.2} />
-                      <span>议题广场</span>
-                    </button>
-                  </div>
+                <div className="relative z-40 mt-2 flex w-full max-w-[344px] shrink-0 justify-center self-center">
+                  <button
+                    onClick={openExplore}
+                    className="inline-flex h-11 w-full items-center justify-center gap-2 rounded-full border border-[#D14A28]/20 bg-[#FFF7F2] px-5 text-[14px] font-semibold text-[#B8502F] hover:bg-[#FFF1E8]"
+                  >
+                    <Sparkles className="h-4 w-4 fill-[#D14A28]/15" strokeWidth={2.2} />
+                    <span>议题广场</span>
+                  </button>
                 </div>
               </div>
             </div>
