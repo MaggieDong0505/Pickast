@@ -885,7 +885,7 @@ export default function App() {
                 </div>
               </div>
 
-              <div className="flex min-h-0 flex-1 flex-col justify-center gap-3 overflow-visible py-4">
+              <div className="flex min-h-0 flex-1 flex-col justify-center gap-3 overflow-visible py-4 translate-y-[4px]">
                 <div className="flex w-full flex-col items-center justify-center overflow-visible">
                   <EpisodeDeck
                     episodes={curatedEpisodes}
