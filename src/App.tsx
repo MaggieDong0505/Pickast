@@ -444,7 +444,7 @@ function EpisodeDeck({
         </div>
       </div>
 
-      <div className="mt-2 flex items-center justify-center gap-2">
+      <div className="mt-3 flex w-full items-center justify-center gap-2">
         {episodes.map((episode, index) => (
           <button
             key={getEpisodeKey(episode)}
@@ -886,7 +886,7 @@ export default function App() {
               </div>
 
               <div className="flex min-h-0 flex-1 flex-col justify-center overflow-x-visible overflow-y-hidden py-2">
-                <div className="flex min-h-0 w-full flex-1 items-center justify-center overflow-x-visible overflow-y-hidden">
+                <div className="flex min-h-0 w-full flex-1 flex-col items-center justify-center overflow-x-visible overflow-y-hidden">
                   <EpisodeDeck
                     episodes={curatedEpisodes}
                     activeIndex={activeIndex}
