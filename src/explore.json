@@ -1,35 +1,35 @@
 [
   {
-    "title": "AI投资热潮是否过热",
+    "title": "太空数据中心比地面更划算吗",
+    "domainTag": "AI基础设施",
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "太空算力经济账成立，是AI时代新答案",
+        "episodeId": "6a2a3cb8dbccffcfa9c72e9f"
+      },
+      {
+        "podcast": "硅谷101",
+        "point": "理论可行，但经济账还算不过来",
+        "episodeId": "259291f5-2715-4dde-bcfe-b5beb4df5793"
+      }
+    ]
+  },
+  {
+    "title": "AI热潮是泡沫吗",
     "domainTag": "AI投资",
     "consensus": [],
     "divergence": [
       {
         "podcast": "跨国串门儿计划",
-        "point": "AI热潮才刚刚开始，不是泡沫",
+        "point": "AI热潮才刚开始，不是泡沫",
         "episodeId": "6a286aa1dbccffcfa9c661ec"
       },
       {
-        "podcast": "十字路口Crossing",
-        "point": "AI投资存在泡沫，商业价值高度集中",
-        "episodeId": "6a275ed57444b5722235a897"
-      }
-    ]
-  },
-  {
-    "title": "AI会让软件公司消失吗",
-    "domainTag": "AI与商业",
-    "consensus": [],
-    "divergence": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "软件公司不会被消灭，反而迎来更大工具需求",
-        "episodeId": "6a1e8760122ade5348e85027"
-      },
-      {
-        "podcast": "十字路口Crossing",
-        "point": "传统软件老路径变得更难，创业机会在两极化",
-        "episodeId": "6a275ed57444b5722235a897"
+        "podcast": "42章经",
+        "point": "AI已集齐泡沫的所有条件",
+        "episodeId": "6a2a808262c3d8534722ac02"
       }
     ]
   }
