@@ -573,11 +573,14 @@ function TopicSection({
 export default function App() {
   const [activeTab, setActiveTab] = useState<AppTab>('curated');
   const [activeIndex, setActiveIndex] = useState(0);
+  const [curatedScale, setCuratedScale] = useState(1);
   const [showExplore, setShowExplore] = useState(false);
   const [selectedTopicIndex, setSelectedTopicIndex] = useState<number | null>(null);
   const [daysSinceFirstVisit, setDaysSinceFirstVisit] = useState(0);
   const [aboutExpanded, setAboutExpanded] = useState(false);
   const [toastMessage, setToastMessage] = useState<string | null>(null);
+  const curatedHeaderRef = useRef<HTMLDivElement | null>(null);
+  const curatedContentRef = useRef<HTMLDivElement | null>(null);
   const [isCompactViewport, setIsCompactViewport] = useState(() => {
     if (typeof window === 'undefined') {
       return true;
@@ -749,6 +752,34 @@ export default function App() {
     return () => window.removeEventListener('resize', updateViewport);
   }, []);
 
+  useLayoutEffect(() => {
+    const content = curatedContentRef.current;
+    const header = curatedHeaderRef.current;
+    if (!content || !header) {
+      return undefined;
+    }
+
+    const updateCuratedScale = () => {
+      const contentHeight = content.scrollHeight;
+      const headerHeight = header.offsetHeight;
+      const viewportHeight = window.innerHeight;
+      const availableHeight = viewportHeight - headerHeight - 96 - 24;
+
+      if (!contentHeight || !availableHeight) {
+        setCuratedScale(1);
+        return;
+      }
+
+      const nextScale = Math.max(0.7, Math.min(1, availableHeight / contentHeight));
+      setCuratedScale(nextScale);
+    };
+
+    updateCuratedScale();
+    window.addEventListener('resize', updateCuratedScale);
+
+    return () => window.removeEventListener('resize', updateCuratedScale);
+  }, [activeIndex, activeTab, curatedEpisodes.length, isCompactViewport]);
+
   const toggleBriefingFavorite = (episode: PodcastEpisode, event?: React.MouseEvent) => {
     if (event) {
       event.preventDefault();
@@ -868,8 +899,11 @@ export default function App() {
 
         <div className="relative flex flex-1 flex-col overflow-hidden pb-[calc(96px+env(safe-area-inset-bottom,0px))]">
           {activeTab === 'curated' ? (
-            <div className="flex h-full flex-1 flex-col justify-start overflow-hidden px-4 pb-2 pt-0 md:px-5">
-              <div className="mt-3 flex items-center justify-between border-b border-black/10 pb-4 select-none">
+            <div className="flex h-full flex-1 flex-col overflow-hidden px-4 pb-2 pt-0 md:px-5">
+              <div
+                ref={curatedHeaderRef}
+                className="mt-3 flex items-center justify-between border-b border-black/10 pb-4 select-none"
+              >
                 <div className="flex items-baseline gap-1">
                   <span className="font-serif font-black text-xl tracking-tight text-[#1A1A1A]">听荐</span>
                   <span
@@ -885,27 +919,33 @@ export default function App() {
                 </div>
               </div>
 
-              <div className="flex min-h-0 flex-col items-center justify-start overflow-visible">
-                <EpisodeDeck
-                  episodes={curatedEpisodes}
-                  activeIndex={activeIndex}
-                  onActiveIndexChange={setActiveIndex}
-                  isFavorited={(episode) => {
-                    const episodeId = getEpisodeIdValue(episode);
-                    return episodeId ? isFavorited(episodeId, 'briefing') : false;
-                  }}
-                  onToggleFavorite={toggleBriefingFavorite}
-                  isCompactViewport={isCompactViewport}
-                />
+              <div className="flex min-h-0 flex-1 flex-col justify-center">
+                <div
+                  ref={curatedContentRef}
+                  className="flex flex-col items-center justify-start overflow-visible"
+                  style={{ transform: `scale(${curatedScale})`, transformOrigin: 'center center' }}
+                >
+                  <EpisodeDeck
+                    episodes={curatedEpisodes}
+                    activeIndex={activeIndex}
+                    onActiveIndexChange={setActiveIndex}
+                    isFavorited={(episode) => {
+                      const episodeId = getEpisodeIdValue(episode);
+                      return episodeId ? isFavorited(episodeId, 'briefing') : false;
+                    }}
+                    onToggleFavorite={toggleBriefingFavorite}
+                    isCompactViewport={isCompactViewport}
+                  />
 
-                <div className="relative z-40 mt-5 flex w-full max-w-[344px] shrink-0 justify-center">
-                  <button
-                    onClick={openExplore}
-                    className="inline-flex h-11 w-full items-center justify-center gap-2 rounded-full border border-[#D14A28]/20 bg-[#FFF7F2] px-5 text-[14px] font-semibold text-[#B8502F] hover:bg-[#FFF1E8]"
-                  >
-                    <Sparkles className="h-4 w-4 fill-[#D14A28]/15" strokeWidth={2.2} />
-                    <span>议题广场</span>
-                  </button>
+                  <div className="relative z-40 mt-5 flex w-full max-w-[344px] shrink-0 justify-center">
+                    <button
+                      onClick={openExplore}
+                      className="inline-flex h-11 w-full items-center justify-center gap-2 rounded-full border border-[#D14A28]/20 bg-[#FFF7F2] px-5 text-[14px] font-semibold text-[#B8502F] hover:bg-[#FFF1E8]"
+                    >
+                      <Sparkles className="h-4 w-4 fill-[#D14A28]/15" strokeWidth={2.2} />
+                      <span>议题广场</span>
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
