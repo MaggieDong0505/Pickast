@@ -23,11 +23,11 @@ export const initialData: BriefingCardData = {
     "coverText": "跨国",
     "coverBg": "bg-[#18181B]",
     "coverTextColor": "text-amber-50",
-    "whyRecommended": "适合想提升判断力、理解AI泡沫与资本周期的听众，一场关于系统思维与认知突围的深度对话。",
+    "whyRecommended": "适合想提升判断力、理解AI泡沫与资本周期的听众，从系统思维到投资实战，一场认知升级课。",
     "viewpoints": [
-      "系统思维：多变量、非线性与二阶影响。",
-      "研究行业历史是被低估的职业护城河。",
-      "AI投资狂热与循环交易放大短期增长。"
+      "系统思维：多变量、非线性，避免单一指标误导。",
+      "研究行业历史是职业护城河，能形成差异化优势。",
+      "AI投资存在循环交易和资本狂热，需警惕泡沫。"
     ],
     "goldenQuotes": [
       {
@@ -46,11 +46,11 @@ export const initialData: BriefingCardData = {
         "source_note": "来自本期 shownote"
       }
     ],
-    "triageTag": "📖值得精听｜系统思维与AI资本周期",
+    "triageTag": "📖值得精听｜系统思维与AI投资认知",
     "href": "cosmos://page.cos/episode/6a2d01304233e62bc54917e4?utm_source=rss",
-    "whyRecommend": "适合想提升判断力、理解AI泡沫与资本周期的听众，一场关于系统思维与认知突围的深度对话。",
+    "whyRecommend": "适合想提升判断力、理解AI泡沫与资本周期的听众，从系统思维到投资实战，一场认知升级课。",
     "goldenQuote": "你不能只用线性模型来想，也不能只盯着一个变量。",
-    "topicTag": "📖值得精听｜系统思维与AI资本周期"
+    "topicTag": "📖值得精听｜系统思维与AI投资认知"
   },
   "backupEpisodes": [
     {
@@ -67,8 +67,8 @@ export const initialData: BriefingCardData = {
       "whyRecommended": "适合对太空经济与AI算力交叉领域感兴趣的听众，从成本、技术到战略价值全面拆解SpaceX的太空数据。",
       "viewpoints": [
         "SpaceX招股书解读与1GW太空算力计划",
-        "太空数据中心成本拆解与回本周期估算",
-        "太空散热、辐射与芯片技术挑战分析"
+        "太空数据中心成本拆解与回本周期分析",
+        "太空散热、辐射与芯片技术挑战详解"
       ],
       "goldenQuotes": [
         {
@@ -103,8 +103,8 @@ export const initialData: BriefingCardData = {
       "whyRecommended": "适合关注韩国经济与科技产业的听众，从AI芯片到K型社会，拼出一个真实的韩国图景。",
       "viewpoints": [
         "韩国股市2026年涨幅超100%，散户接盘外资。",
-        "SK海力士HBM深度绑定英伟达，股价涨超10倍。",
-        "Kpop与半导体共享出口导向、标准化生产逻辑。"
+        "SK海力士HBM深度绑定英伟达，股价暴涨10倍。",
+        "K型分化加剧，高债务低储蓄率社会脆弱。"
       ],
       "goldenQuotes": [],
       "triageTag": "📖值得精听｜韩国股市与K型社会深度分析",
