@@ -868,7 +868,7 @@ export default function App() {
 
         <div className="relative flex flex-1 flex-col overflow-hidden pb-[calc(96px+env(safe-area-inset-bottom,0px))]">
           {activeTab === 'curated' ? (
-            <div className="flex h-full min-h-0 flex-1 flex-col overflow-x-visible overflow-y-hidden px-4 pb-2 pt-0 md:px-5">
+            <div className="flex h-full min-h-0 flex-1 flex-col overflow-x-visible overflow-y-visible px-4 pb-2 pt-0 md:px-5">
               <div className="mt-3 flex items-end justify-between border-b border-black/10 pb-4 select-none">
                 <div className="flex items-baseline gap-1">
                   <span className="font-serif font-black text-xl tracking-tight text-[#1A1A1A]">听荐</span>
