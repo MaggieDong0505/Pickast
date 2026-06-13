@@ -1309,9 +1309,14 @@ def validate_briefing(data: dict) -> bool:
 
 
 def validate_explore(explore_data: list[dict]) -> bool:
-    if not explore_data:
+    if not isinstance(explore_data, list):
         return False
-    return all(is_non_empty(item.get("title")) and is_non_empty(item.get("divergence")) for item in explore_data)
+    for item in explore_data:
+        if not is_non_empty(item.get("title")):
+            return False
+        if not is_non_empty(item.get("consensus")) and not is_non_empty(item.get("divergence")):
+            return False
+    return True
 
 
 def validate_ranking(ranking_rows: list[dict]) -> bool:
