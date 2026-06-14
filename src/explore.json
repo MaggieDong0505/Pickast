@@ -1,34 +1,51 @@
 [
   {
     "title": "太空算力比地面更划算吗？",
-    "domainTag": "AI基础设施",
+    "domainTag": "科技",
     "consensus": [],
     "divergence": [
       {
         "podcast": "跨国串门儿计划",
-        "point": "乐观，认为经济账可能成立，是AI时代基础设施",
-        "episodeId": "6a2bbf224233e62bc548aa81"
+        "point": "理论可行，但经济账还算不过来",
+        "episodeId": "6a2abd770a34cf8ce5a78266"
       },
       {
         "podcast": "硅谷101",
-        "point": "谨慎，理论可行但经济账还算不过来",
+        "point": "极度乐观估算下两年回本，但现实成本更高",
         "episodeId": "259291f5-2715-4dde-bcfe-b5beb4df5793"
       }
     ]
   },
   {
-    "title": "AI热潮是泡沫吗？",
-    "domainTag": "AI投资",
+    "title": "AI会让白领大规模失业吗？",
+    "domainTag": "科技",
     "consensus": [],
     "divergence": [
       {
         "podcast": "跨国串门儿计划",
-        "point": "不是，AI热潮才刚刚开始",
+        "point": "目前证据并不明显，AI也可能增加岗位需求",
+        "episodeId": "6a226610b30e1571aea10f57"
+      },
+      {
+        "podcast": "整点亮话",
+        "point": "裁员年年有，今年AI转型是裁员新借口",
+        "episodeId": "6a25a0d7b30e1571aea23ce1"
+      }
+    ]
+  },
+  {
+    "title": "AI热潮是泡沫还是刚开始？",
+    "domainTag": "投资",
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI是最大S曲线，热潮才刚刚开始",
         "episodeId": "6a286aa1dbccffcfa9c661ec"
       },
       {
         "podcast": "42章经",
-        "point": "是，AI已集齐泡沫的所有条件",
+        "point": "AI已集齐泡沫的所有条件",
         "episodeId": "6a2a808262c3d8534722ac02"
       }
     ]
