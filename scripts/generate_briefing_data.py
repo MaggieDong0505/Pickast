@@ -34,6 +34,7 @@ TRIAGE_LABELS = ["📖值得精听", "🚶边走边听", "☕有空再听"]
 RECENCY_WEIGHT = 0.45
 VALUE_WEIGHT = 0.55
 DEFAULT_DOMAIN = "生活"
+SELECTION_NOW: datetime | None = None
 DOMAIN_KEYWORDS = {
     "AI": [
         "ai",
@@ -193,6 +194,40 @@ TOPIC_SYSTEM_PROMPT = """你是播客议题分析师。给你最近两周多档�
 {title(问句≤20字), domainTag(领域标签), consensus[{podcast,point≤30字,episodeId}], divergence[同结构]}。
 consensus和divergence至少一个非空，否则丢弃该议题。只输出JSON，不要解释。
 """
+AI_SELECTION_SYSTEM_PROMPT = """你是一位专业的播客内容质检员，为高要求的听众从一批候选单集里精选出当天最值得听的 3 期。
+
+【输入】我会给你最多 20 期候选播客单集，每期包含：序号、播客名、单集标题、shownote（节目简介全文）、发布日期。
+
+【你的任务】从中选出最值得收听的 3 期，并给出排序（第1名最值得听）。
+
+【判断"值得听"的标准，按重要性排序】
+1. 信息密度与思想性：是否有真正的观点、洞察、深度分析，而非寒暄、流水账、纯资讯播报。
+2. 话题价值：是否触及重要、有讨论度或对听众有启发的议题。
+3. 嘉宾与对谈质量：是否有专业嘉宾、有交锋、有干货。
+4. 内容完整性：是正片且内容充实，而非预告片、花絮、会员彩蛋、纯广告。
+
+【硬性排除】以下一律不选：
+- 预告片、先导、花絮、加更彩蛋、会员专属片段、纯活动通知。
+- shownote 几乎全是赞助鸣谢、广告植入、带货链接而无实质内容介绍的。
+- 判断 shownote 内容时，自动忽略其中的赞助商鸣谢、广告口播、推广链接，只依据真正介绍节目内容的部分来评估。
+
+【多样性约束】
+- 同一档播客最多只选 1 期（避免同一个播客霸屏）。
+- 尽量让 3 期来自不同领域/话题，给听众多样的一天。
+
+【诚实原则——非常重要】
+- 如果候选里实在凑不出 3 期足够好的，宁可少选，给 2 期甚至 1 期，也不要为了凑数把平庸的选进来。
+- 不要编造 shownote 里没有的信息。
+
+【输出格式】严格输出 JSON，不要任何多余文字：
+{
+  "selected": [
+    {"rank": 1, "index": 候选序号, "reason": "一句话说明为什么选它（30字内，基于shownote真实内容）"},
+    {"rank": 2, "index": 候选序号, "reason": "..."},
+    {"rank": 3, "index": 候选序号, "reason": "..."}
+  ]
+}
+若不足3期，selected 数组就只放实际选中的条数。"""
 
 
 @dataclass
@@ -658,6 +693,131 @@ def select_candidates(scored: list[ScoredEpisode], now: datetime, limit: int = 3
                 item.reason = "存货池保留，按价值与时效排序"
 
     return selected[:limit]
+
+
+def prefilter_candidates(
+    scored: list[ScoredEpisode], now: datetime, window_days: int = 7, pool_size: int = 20
+) -> list[ScoredEpisode]:
+    recent_items: list[ScoredEpisode] = []
+    undated_items: list[ScoredEpisode] = []
+
+    for item in scored:
+        published_at = item.episode.published_at
+        if not published_at:
+            undated_items.append(item)
+            continue
+        age_days = max((now - published_at).total_seconds() / 86400, 0)
+        if age_days <= window_days:
+            recent_items.append(item)
+
+    recent_items.sort(key=lambda item: item.recency_score, reverse=True)
+    undated_items.sort(key=lambda item: item.recency_score, reverse=True)
+    pool = recent_items + undated_items
+    return pool[:pool_size]
+
+
+def ai_select(pool: list[ScoredEpisode], deepseek_key: str) -> list[ScoredEpisode]:
+    fallback_now = SELECTION_NOW or local_now()
+    fallback_selected = select_candidates(pool, fallback_now, limit=3)
+    if not pool:
+        print("[FALLBACK] selected 0 items from empty pool", flush=True)
+        return fallback_selected
+    if not deepseek_key:
+        print("[FALLBACK] selected via select_candidates (missing key)", flush=True)
+        return fallback_selected
+
+    user_lines = []
+    for index, item in enumerate(pool, start=1):
+        published_at = item.episode.published_at.isoformat() if item.episode.published_at else ""
+        user_lines.append(
+            "\n".join(
+                [
+                    f"序号：{index}",
+                    f"播客名：{item.episode.podcast_name}",
+                    f"标题：{item.episode.episode_title}",
+                    f"shownote：{item.episode.description}",
+                    f"发布日期：{published_at}",
+                ]
+            )
+        )
+
+    request_body = {
+        "model": "deepseek-chat",
+        "messages": [
+            {"role": "system", "content": AI_SELECTION_SYSTEM_PROMPT},
+            {"role": "user", "content": "\n\n".join(user_lines)},
+        ],
+        "temperature": 0.3,
+        "max_tokens": 2048,
+        "response_format": {"type": "json_object"},
+    }
+    payload = json.dumps(request_body, ensure_ascii=False).encode("utf-8")
+    request = urllib.request.Request(
+        "https://api.deepseek.com/chat/completions",
+        data=payload,
+        headers={
+            "Authorization": f"Bearer {deepseek_key}",
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+        },
+        method="POST",
+    )
+
+    try:
+        with urllib.request.urlopen(request, timeout=90) as response:
+            response_data = json.loads(response.read().decode("utf-8"))
+    except (urllib.error.URLError, TimeoutError, OSError, ValueError, json.JSONDecodeError) as error:
+        print(f"[FALLBACK] selected via select_candidates (request failed: {error})", flush=True)
+        return fallback_selected
+
+    content = response_data.get("choices", [{}])[0].get("message", {}).get("content", "")
+    parsed = parse_json_payload(content)
+    if not isinstance(parsed, dict):
+        print("[FALLBACK] selected via select_candidates (invalid json)", flush=True)
+        return fallback_selected
+
+    selected_rows = parsed.get("selected")
+    if not isinstance(selected_rows, list) or not selected_rows:
+        print("[FALLBACK] selected via select_candidates (empty selected)", flush=True)
+        return fallback_selected
+
+    picks: list[tuple[int, int, str, ScoredEpisode]] = []
+    seen_indexes: set[int] = set()
+    seen_podcasts: set[str] = set()
+    for row in selected_rows:
+        if not isinstance(row, dict):
+            continue
+        try:
+            rank = int(row.get("rank"))
+            index = int(row.get("index"))
+        except (TypeError, ValueError):
+            continue
+        if index < 1 or index > len(pool) or index in seen_indexes:
+            continue
+
+        item = pool[index - 1]
+        podcast_name = item.episode.podcast_name
+        if podcast_name in seen_podcasts:
+            continue
+
+        reason = str(row.get("reason") or "").strip() or "AI 精选"
+        picks.append((rank, index, reason, item))
+        seen_indexes.add(index)
+        seen_podcasts.add(podcast_name)
+
+    if not picks:
+        print("[FALLBACK] selected via select_candidates (no valid picks)", flush=True)
+        return fallback_selected
+
+    picks.sort(key=lambda item: (item[0], item[1]))
+    selected: list[ScoredEpisode] = []
+    for rank, _, reason, item in picks[:3]:
+        item.selected = True
+        item.reason = reason or f"AI 精选第{rank}名"
+        selected.append(item)
+
+    print(f"[AI] selected {len(selected)} items", flush=True)
+    return selected
 
 
 def base_triage_label(item: ScoredEpisode) -> str:
@@ -1394,8 +1554,12 @@ def main() -> int:
 
     now = local_now()
     scored = score_candidates(episodes, now)
-    selected = select_candidates(scored, now, limit=3)
+    global SELECTION_NOW
+    SELECTION_NOW = now
     env = apply_runtime_env(load_env(ROOT / ".env"))
+    deepseek_key = env.get("DEEPSEEK_API_KEY", "")
+    pool = prefilter_candidates(scored, now, window_days=7, pool_size=20)
+    selected = ai_select(pool, deepseek_key)
     card_cache = build_card_cache(selected, env, args.ai_timeout)
     data = to_frontend_briefing(build_briefing(selected, now, card_cache, env, args.ai_timeout))
     explore_data = build_topics(scored, now, env, args.ai_timeout)
