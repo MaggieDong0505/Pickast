@@ -8,8 +8,8 @@
 import { BriefingCardData } from './types';
 
 export const initialData: BriefingCardData = {
-  "dateStr": "2026.06.14",
-  "chinaDateStr": "星期日 / SUNDAY",
+  "dateStr": "2026.06.15",
+  "chinaDateStr": "星期一 / MONDAY",
   "title": "今天最值得听 • TODAY'S VOICE",
   "issueNo": "精选 3 条",
   "mainEpisode": {
@@ -25,9 +25,9 @@ export const initialData: BriefingCardData = {
     "coverTextColor": "text-amber-50",
     "whyRecommended": "适合想提升判断力、理解AI泡沫与资本周期的听众，从系统思维到投资实战，一场认知升级课。",
     "viewpoints": [
-      "系统思维：多变量、非线性，避免单一指标误导。",
-      "研究行业历史是职业护城河，能形成差异化优势。",
-      "AI投资存在循环交易和资本狂热，需警惕泡沫。"
+      "系统思维：多变量非线性系统，单一指标会误导决策。",
+      "研究行业历史是被低估的职业护城河。",
+      "AI投资存在循环交易，可能放大资本狂热。"
     ],
     "goldenQuotes": [
       {
@@ -46,11 +46,11 @@ export const initialData: BriefingCardData = {
         "source_note": "来自本期 shownote"
       }
     ],
-    "triageTag": "📖值得精听｜系统思维与AI投资认知",
+    "triageTag": "📖值得精听｜系统思维与AI资本狂热",
     "href": "cosmos://page.cos/episode/6a2d01304233e62bc54917e4?utm_source=rss",
     "whyRecommend": "适合想提升判断力、理解AI泡沫与资本周期的听众，从系统思维到投资实战，一场认知升级课。",
     "goldenQuote": "你不能只用线性模型来想，也不能只盯着一个变量。",
-    "topicTag": "📖值得精听｜系统思维与AI投资认知"
+    "topicTag": "📖值得精听｜系统思维与AI资本狂热"
   },
   "backupEpisodes": [
     {
@@ -64,25 +64,30 @@ export const initialData: BriefingCardData = {
       "coverText": "42",
       "coverBg": "bg-[#18181B]",
       "coverTextColor": "text-amber-50",
-      "whyRecommended": "适合对AI投资与泡沫话题感兴趣的听众，从行为经济学视角拆解泡沫本质，提供反直觉的决策框架。",
+      "whyRecommended": "适合对AI投资与市场泡沫感兴趣的听众，用行为经济学视角拆解泡沫的共性规律与应对策略。",
       "viewpoints": [
-        "泡沫永远无法被事先证明",
-        "泡沫出现伴随四个必要不充分条件",
-        "AI股票能不能买是错误的问题"
+        "每次泡沫都源于人类行为的三个弱点",
+        "泡沫无法被事先证明但伴随四个条件",
+        "AI股票能否买是错误问题，应关注对人生的影响"
       ],
       "goldenQuotes": [
         {
           "quote": "泡沫可能永远无法被事先证明。",
           "source": "来自本期 shownote",
           "source_note": "来自本期 shownote"
+        },
+        {
+          "quote": "「AI 股票还能不能买」本身就是一个错误的问题。",
+          "source": "来自本期 shownote",
+          "source_note": "来自本期 shownote"
         }
       ],
-      "triageTag": "☕有空再听｜朱宁教授拆解泡沫本质",
+      "triageTag": "☕有空再听｜朱宁教授拆解泡沫规律",
       "href": "cosmos://page.cos/episode/6a2a808262c3d8534722ac02?utm_source=rss",
       "scenario": "",
-      "whyRecommend": "适合对AI投资与泡沫话题感兴趣的听众，从行为经济学视角拆解泡沫本质，提供反直觉的决策框架。",
+      "whyRecommend": "适合对AI投资与市场泡沫感兴趣的听众，用行为经济学视角拆解泡沫的共性规律与应对策略。",
       "goldenQuote": "泡沫可能永远无法被事先证明。",
-      "topicTag": "☕有空再听｜朱宁教授拆解泡沫本质"
+      "topicTag": "☕有空再听｜朱宁教授拆解泡沫规律"
     },
     {
       "episodeId": "259291f5-2715-4dde-bcfe-b5beb4df5793",
@@ -103,7 +108,7 @@ export const initialData: BriefingCardData = {
       ],
       "goldenQuotes": [
         {
-          "quote": "太空真空环境，散热为什么这么难？",
+          "quote": "马斯克预估SpaceX将在2027年底前实现每年1GW的太空AI算力的年化部署率",
           "source": "来自本期 shownote",
           "source_note": "来自本期 shownote"
         },
@@ -117,7 +122,7 @@ export const initialData: BriefingCardData = {
       "href": "https://sv101.fireside.fm/252",
       "scenario": "",
       "whyRecommend": "适合对太空经济与AI算力交叉领域感兴趣的听众，从成本、技术到战略价值全面拆解SpaceX的太空数据。",
-      "goldenQuote": "太空真空环境，散热为什么这么难？",
+      "goldenQuote": "马斯克预估SpaceX将在2027年底前实现每年1GW的太空AI算力的年化部署率",
       "topicTag": "📖值得精听｜SpaceX太空算力经济账"
     }
   ],
