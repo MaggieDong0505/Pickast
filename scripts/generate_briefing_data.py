@@ -15,7 +15,7 @@ import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from typing import Iterable
@@ -220,7 +220,7 @@ class ScoredEpisode:
 
 
 def local_now() -> datetime:
-    return datetime.now().astimezone()
+    return datetime.now(timezone.utc).astimezone(timezone(timedelta(hours=8)))
 
 
 def load_env(env_path: Path) -> dict[str, str]:
