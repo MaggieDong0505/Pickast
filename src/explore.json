@@ -1,34 +1,34 @@
 [
   {
     "title": "太空算力比地面更划算吗？",
-    "domainTag": "科技",
+    "domainTag": "AI基础设施",
     "consensus": [],
     "divergence": [
       {
         "podcast": "跨国串门儿计划",
-        "point": "乐观，认为经济账在Starship复用下可成立",
+        "point": "乐观，认为经济账可算，是AI时代基础设施",
         "episodeId": "6a2bbf224233e62bc548aa81"
       },
       {
         "podcast": "硅谷101",
-        "point": "谨慎，认为理论可行但经济账还算不过来",
+        "point": "谨慎，理论可行但经济账还算不过来",
         "episodeId": "259291f5-2715-4dde-bcfe-b5beb4df5793"
       }
     ]
   },
   {
-    "title": "AI热潮是泡沫吗？",
-    "domainTag": "金融",
+    "title": "AI热潮是泡沫还是刚开始？",
+    "domainTag": "AI投资",
     "consensus": [],
     "divergence": [
       {
         "podcast": "跨国串门儿计划",
-        "point": "不是，AI热潮才刚刚开始，是最大S曲线",
+        "point": "是最大S曲线，热潮才刚开始",
         "episodeId": "6a286aa1dbccffcfa9c661ec"
       },
       {
         "podcast": "42章经",
-        "point": "是，AI已集齐泡沫的所有条件",
+        "point": "已集齐泡沫所有条件，可能见顶",
         "episodeId": "6a2a808262c3d8534722ac02"
       }
     ]
