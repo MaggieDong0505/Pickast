@@ -1,5 +1,32 @@
 [
   {
+    "generatedAt": "2026-06-15T17:15:11.884244+08:00",
+    "title": "AI会取代工程师吗？",
+    "domainTag": "AI与就业",
+    "podcasts": [
+      "十字路口Crossing",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a26a3e4b30e1571aea2b45c",
+      "6a275ed57444b5722235a897"
+    ],
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI编程工具让工程师生产力指数增长，角色从写代码转向管理Ag",
+        "episodeId": "6a26a3e4b30e1571aea2b45c"
+      },
+      {
+        "podcast": "十字路口Crossing",
+        "point": "AI时代工程师角色融合，通才的黄金时代到来",
+        "episodeId": "6a275ed57444b5722235a897"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:d13e4c4c9ee7ff84258da29ef2d766243c22ebcebf75b83ec04e316792523bd5"
+  },
+  {
     "generatedAt": "2026-06-15T15:24:19.322499+08:00",
     "title": "AI会让白领大规模失业吗？",
     "domainTag": "AI与就业",

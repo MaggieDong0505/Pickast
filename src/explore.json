@@ -1,19 +1,19 @@
 [
   {
-    "title": "AI会让白领大规模失业吗？",
+    "title": "AI会取代工程师吗？",
     "domainTag": "AI与就业",
-    "consensus": [],
-    "divergence": [
+    "consensus": [
       {
         "podcast": "跨国串门儿计划",
-        "point": "AI替代低弹性岗位，但会创造新需求",
-        "episodeId": "6a226610b30e1571aea10f57"
+        "point": "AI编程工具让工程师生产力指数增长，角色从写代码转向管理Ag",
+        "episodeId": "6a26a3e4b30e1571aea2b45c"
       },
       {
-        "podcast": "整点亮话",
-        "point": "公司拿AI当裁员借口，实际是降本",
-        "episodeId": "6a25a0d7b30e1571aea23ce1"
+        "podcast": "十字路口Crossing",
+        "point": "AI时代工程师角色融合，通才的黄金时代到来",
+        "episodeId": "6a275ed57444b5722235a897"
       }
-    ]
+    ],
+    "divergence": []
   }
 ]
