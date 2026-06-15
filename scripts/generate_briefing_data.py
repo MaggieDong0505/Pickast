@@ -40,6 +40,8 @@ DEFAULT_DOMAIN = "生活"
 TOPIC_HISTORY_LOOKBACK_DAYS = 7
 TOPIC_HISTORY_MAX_ENTRIES = 30
 TOPIC_TITLE_SIMILARITY_THRESHOLD = 0.78
+BRIEFING_SELECTION_LIMIT = 3
+BRIEFING_AI_DOMAIN_LIMIT = 2
 SELECTION_NOW: datetime | None = None
 DOMAIN_KEYWORDS = {
     "AI": [
@@ -221,6 +223,7 @@ AI_SELECTION_SYSTEM_PROMPT = """你是一位专业的播客内容质检员，为
 【多样性约束】
 - 同一档播客最多只选 1 期（避免同一个播客霸屏）。
 - 尽量让 3 期来自不同领域/话题，给听众多样的一天。
+- AI 相关单集最多只选 2 期，且尽量不要把 3 期都放在同一领域。
 
 【诚实原则——非常重要】
 - 如果候选里实在凑不出 3 期足够好的，宁可少选，给 2 期甚至 1 期，也不要为了凑数把平庸的选进来。
@@ -983,7 +986,59 @@ def select_candidates(scored: list[ScoredEpisode], now: datetime, limit: int = 3
             else:
                 item.reason = "存货池保留，按价值与时效排序"
 
-    return selected[:limit]
+    return rebalance_selection(selected[:limit], scored, now, limit=limit)
+
+
+def rebalance_selection(
+    seed: list[ScoredEpisode],
+    candidates: list[ScoredEpisode],
+    now: datetime,
+    *,
+    limit: int = BRIEFING_SELECTION_LIMIT,
+    ai_domain_limit: int = BRIEFING_AI_DOMAIN_LIMIT,
+) -> list[ScoredEpisode]:
+    ordered: list[ScoredEpisode] = []
+    seen_ids: set[str] = set()
+    for item in [*seed, *candidates]:
+        episode_id = item.episode.unique_id
+        if episode_id in seen_ids:
+            continue
+        seen_ids.add(episode_id)
+        ordered.append(item)
+
+    selected: list[ScoredEpisode] = []
+    selected_ids: set[str] = set()
+    selected_domains: set[str] = set()
+    domain_counts: dict[str, int] = {}
+
+    while len(selected) < limit:
+        viable = [
+            item
+            for item in ordered
+            if item.episode.unique_id not in selected_ids
+            and (item.domain != "AI" or domain_counts.get("AI", 0) < ai_domain_limit)
+        ]
+        if not viable:
+            break
+
+        diversified = [item for item in viable if item.domain not in selected_domains]
+        pool = diversified if diversified else viable
+        item = pool[0]
+
+        selected.append(item)
+        selected_ids.add(item.episode.unique_id)
+        selected_domains.add(item.domain)
+        domain_counts[item.domain] = domain_counts.get(item.domain, 0) + 1
+
+    for item in selected:
+        item.selected = True
+        if not item.reason:
+            if is_recent(item.episode, now):
+                item.reason = "近2天更新，按总分排序"
+            else:
+                item.reason = "存货池保留，按价值与时效排序"
+
+    return selected
 
 
 def prefilter_candidates(
@@ -1101,11 +1156,12 @@ def ai_select(pool: list[ScoredEpisode], deepseek_key: str) -> list[ScoredEpisod
         return fallback_selected
 
     picks.sort(key=lambda item: (item[0], item[1]))
-    selected: list[ScoredEpisode] = []
-    for rank, _, reason, item in picks[:3]:
-        item.selected = True
+    seed: list[ScoredEpisode] = []
+    for rank, _, reason, item in picks:
         item.reason = reason or f"AI 精选第{rank}名"
-        selected.append(item)
+        seed.append(item)
+
+    selected = rebalance_selection(seed, pool, fallback_now, limit=BRIEFING_SELECTION_LIMIT, ai_domain_limit=BRIEFING_AI_DOMAIN_LIMIT)
 
     print(f"[AI] selected {len(selected)} items", flush=True)
     return selected
