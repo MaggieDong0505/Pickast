@@ -1,5 +1,59 @@
 [
   {
+    "generatedAt": "2026-06-15T19:30:25.286534+08:00",
+    "title": "AI时代需要学编程吗？",
+    "domainTag": "AI与教育",
+    "podcasts": [
+      "十字路口Crossing",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a26a3e4b30e1571aea2b45c",
+      "6a275ed57444b5722235a897"
+    ],
+    "consensus": [
+      {
+        "podcast": "十字路口Crossing",
+        "point": "AI时代应停止用ChatGPT聊天，改用Agent工具",
+        "episodeId": "6a275ed57444b5722235a897"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI时代进入通才黄金时代，角色边界在合并",
+        "episodeId": "6a26a3e4b30e1571aea2b45c"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:d13e4c4c9ee7ff84258da29ef2d766243c22ebcebf75b83ec04e316792523bd5"
+  },
+  {
+    "generatedAt": "2026-06-15T19:30:25.286534+08:00",
+    "title": "AI时代一人公司如何生存？",
+    "domainTag": "AI与创业",
+    "podcasts": [
+      "What's Next｜科技早知道",
+      "十字路口Crossing"
+    ],
+    "episodeIds": [
+      "33e95bf5-9dd2-45d7-9b5f-6e05a078f2d7",
+      "6a275ed57444b5722235a897"
+    ],
+    "consensus": [
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "Gumroad创始人认为AI让一人公司成为可能，但稀缺的是销",
+        "episodeId": "33e95bf5-9dd2-45d7-9b5f-6e05a078f2d7"
+      },
+      {
+        "podcast": "十字路口Crossing",
+        "point": "AI时代创业机会两极化：往天上跳或往地里钻",
+        "episodeId": "6a275ed57444b5722235a897"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:f0608e905a7fb91a1af72d6126c28f4f14673d93e919cac328e5d92eddf02099"
+  },
+  {
     "generatedAt": "2026-06-15T18:00:31.178885+08:00",
     "title": "AI能替代律师和会计吗？",
     "domainTag": "AI与专业服务",
