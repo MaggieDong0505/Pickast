@@ -1,24 +1,24 @@
 [
   {
-    "title": "太空算力经济账划算吗？",
-    "domainTag": "AI基础设施",
+    "title": "太空数据中心划算吗？",
+    "domainTag": "科技",
     "consensus": [],
     "divergence": [
       {
         "podcast": "硅谷101",
-        "point": "理论可行，但经济账还算不过来",
+        "point": "理论可行，经济账还算不过来",
         "episodeId": "259291f5-2715-4dde-bcfe-b5beb4df5793"
       },
       {
         "podcast": "跨国串门儿计划",
-        "point": "SpaceX认为太空算力是巨大上行，经济账可算",
+        "point": "SpaceX认为太空算力是巨大上行",
         "episodeId": "6a2bbf224233e62bc548aa81"
       }
     ]
   },
   {
-    "title": "AI投资是泡沫吗？",
-    "domainTag": "AI投资",
+    "title": "AI热潮是泡沫还是刚开始？",
+    "domainTag": "科技投资",
     "consensus": [],
     "divergence": [
       {
@@ -28,7 +28,7 @@
       },
       {
         "podcast": "跨国串门儿计划",
-        "point": "AI热潮才刚开始，不是泡沫",
+        "point": "AI热潮才刚开始，是最大S曲线",
         "episodeId": "6a286aa1dbccffcfa9c661ec"
       }
     ]
