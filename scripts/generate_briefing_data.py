@@ -255,7 +255,7 @@ class ScoredEpisode:
 
 
 def local_now() -> datetime:
-    return datetime.now(timezone.utc).astimezone(timezone(timedelta(hours=8)))
+    return datetime.now(timezone(timedelta(hours=8)))
 
 
 def load_env(env_path: Path) -> dict[str, str]:

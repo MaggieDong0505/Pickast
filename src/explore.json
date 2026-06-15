@@ -1,35 +1,35 @@
 [
   {
-    "title": "太空算力比地面更划算吗？",
+    "title": "太空算力经济账划算吗？",
     "domainTag": "AI基础设施",
     "consensus": [],
     "divergence": [
       {
-        "podcast": "跨国串门儿计划",
-        "point": "乐观，认为经济账可能成立，是AI时代基础设施",
-        "episodeId": "6a2bbf224233e62bc548aa81"
+        "podcast": "硅谷101",
+        "point": "理论可行，但经济账还算不过来",
+        "episodeId": "259291f5-2715-4dde-bcfe-b5beb4df5793"
       },
       {
-        "podcast": "硅谷101",
-        "point": "谨慎，理论可行但经济账还算不过来",
-        "episodeId": "259291f5-2715-4dde-bcfe-b5beb4df5793"
+        "podcast": "跨国串门儿计划",
+        "point": "SpaceX认为太空算力是巨大上行，经济账可算",
+        "episodeId": "6a2bbf224233e62bc548aa81"
       }
     ]
   },
   {
-    "title": "AI热潮是泡沫吗？",
+    "title": "AI投资是泡沫吗？",
     "domainTag": "AI投资",
     "consensus": [],
     "divergence": [
       {
-        "podcast": "跨国串门儿计划",
-        "point": "不是，AI热潮才刚刚开始",
-        "episodeId": "6a286aa1dbccffcfa9c661ec"
+        "podcast": "42章经",
+        "point": "AI已集齐泡沫的所有条件",
+        "episodeId": "6a2a808262c3d8534722ac02"
       },
       {
-        "podcast": "42章经",
-        "point": "是，AI已集齐泡沫的所有条件",
-        "episodeId": "6a2a808262c3d8534722ac02"
+        "podcast": "跨国串门儿计划",
+        "point": "AI热潮才刚开始，不是泡沫",
+        "episodeId": "6a286aa1dbccffcfa9c661ec"
       }
     ]
   }
