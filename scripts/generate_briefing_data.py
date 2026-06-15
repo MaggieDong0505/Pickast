@@ -28,6 +28,7 @@ DEFAULT_OUTPUT = ROOT / "src" / "generatedData.ts"
 DEFAULT_RANKING = ROOT / "src" / "ranking.json"
 DEFAULT_FAVORITES = ROOT / "src" / "favorites.json"
 DEFAULT_EXPLORE = ROOT / "src" / "explore.json"
+DEFAULT_EXPLORE_PUBLIC = ROOT / "public" / "explore.json"
 DEFAULT_TOPIC_HISTORY = ROOT / "src" / "exploreHistory.json"
 
 WEEKDAYS_CN = ["星期一", "星期二", "星期三", "星期四", "星期五", "星期六", "星期日"]
@@ -1819,6 +1820,11 @@ def write_explore(explore_data: list[dict], output_path: Path) -> None:
     output_path.write_text(json.dumps(explore_data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def write_explore_public(explore_data: list[dict], output_path: Path) -> None:
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(json.dumps(explore_data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Generate Pickast data from an OPML file.")
     parser.add_argument("--opml", type=Path, default=DEFAULT_OPML, help="Path to the OPML file.")
@@ -1879,6 +1885,7 @@ def main() -> int:
     write_generated_ts(data, args.output)
     write_ranking(ranking_rows, args.ranking)
     write_explore(explore_data, args.explore)
+    write_explore_public(explore_data, DEFAULT_EXPLORE_PUBLIC)
 
     print(f"[OK] write {args.output}")
     print(f"[OK] write {args.ranking}")

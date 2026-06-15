@@ -32,7 +32,6 @@ import {
 
 type AppTab = 'curated' | 'favorites' | 'my';
 
-const exploreData = exploreDataRaw as ExploreData;
 const favoritesSeed = favoritesDataRaw as PodcastEpisode[];
 const rankingData = rankingDataRaw as RankingEpisode[];
 const FIRST_VISIT_DATE_STORAGE_KEY = 'firstVisitDate';
@@ -587,6 +586,9 @@ export default function App() {
   const [daysSinceFirstVisit, setDaysSinceFirstVisit] = useState(0);
   const [aboutExpanded, setAboutExpanded] = useState(false);
   const [toastMessage, setToastMessage] = useState<string | null>(null);
+  const [exploreTopics, setExploreTopics] = useState<ExploreData>(() =>
+    Array.isArray(exploreDataRaw) ? exploreDataRaw : []
+  );
   const [isCompactViewport, setIsCompactViewport] = useState(() => {
     if (typeof window === 'undefined') {
       return true;
@@ -603,7 +605,6 @@ export default function App() {
     [curatedEpisodes]
   );
   const curatedSynthesis = toSynthesis(initialData.synthesis);
-  const exploreTopics = useMemo(() => (Array.isArray(exploreData) ? exploreData : []), []);
   const selectedTopic = selectedTopicIndex !== null ? exploreTopics[selectedTopicIndex] ?? null : null;
   const podcastCoverLookup = useMemo(() => {
     const map = new Map<string, string>();
@@ -756,6 +757,31 @@ export default function App() {
     updateViewport();
     window.addEventListener('resize', updateViewport);
     return () => window.removeEventListener('resize', updateViewport);
+  }, []);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    const loadExploreTopics = async () => {
+      try {
+        const response = await fetch('/explore.json', { cache: 'no-store' });
+        if (!response.ok) {
+          return;
+        }
+
+        const data = (await response.json()) as unknown;
+        if (!cancelled && Array.isArray(data) && data.length > 0) {
+          setExploreTopics(data as ExploreData);
+        }
+      } catch {
+        // Keep the bundled fallback when runtime loading is unavailable.
+      }
+    };
+
+    void loadExploreTopics();
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   const toggleBriefingFavorite = (episode: PodcastEpisode, event?: React.MouseEvent) => {
