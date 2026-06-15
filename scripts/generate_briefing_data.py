@@ -42,6 +42,7 @@ TOPIC_HISTORY_MAX_ENTRIES = 30
 TOPIC_TITLE_SIMILARITY_THRESHOLD = 0.78
 BRIEFING_SELECTION_LIMIT = 3
 BRIEFING_AI_DOMAIN_LIMIT = 2
+TOPIC_TARGET_COUNT = 5
 SELECTION_NOW: datetime | None = None
 DOMAIN_KEYWORDS = {
     "AI": [
@@ -203,6 +204,21 @@ TOPIC_SYSTEM_PROMPT = """你是播客议题分析师。给你最近两周多档�
 {title(问句≤20字), domainTag(领域标签), consensus[{podcast,point≤30字,episodeId}], divergence[同结构]}。
 consensus和divergence至少一个非空，否则丢弃该议题。只输出JSON，不要解释。
 """
+RELATED_TOPIC_SYSTEM_PROMPT = """你是播客议题分析师。给你最近两周多档播客的单集（标题/简介/shownote）。
+找出"可以放在同一个议题广场里一起看的相关议题"。
+和严格同题不同，这里允许同领域但不同具体问题，只要它们共同指向一个清晰的讨论方向，就可以归纳成一个相关议题。
+先识别议题内容，再给它命名。不要先盯着标题格式，先判断这些单集在讨论什么问题、争论什么方向、共享什么背景，再把它压成一个问句标题。
+铁律：
+①不要重复最近已发布的议题，也不要只是换个说法重写同一议题。
+②仍然必须基于真实 shownote，不要编造。
+③每个议题至少来自2档不同播客。
+④consensus 和 divergence 至少一个非空。
+⑤标题必须是具体的问句钩子，尽量像用户会点开的题目。
+⑥标题要服务于内容，不要服务于风格；宁可朴素一点，也不要空泛抽象。
+⑦如果严格同题太少，优先补"同领域/同方向的相关议题"，帮助广场更丰满。
+输出JSON数组，每项：
+{title(问句≤20字), domainTag(领域标签), consensus[{podcast,point≤30字,episodeId}], divergence[同结构]}。
+只输出JSON，不要解释。"""
 AI_SELECTION_SYSTEM_PROMPT = """你是一位专业的播客内容质检员，为高要求的听众从一批候选单集里精选出当天最值得听的 3 期。
 
 【输入】我会给你最多 20 期候选播客单集，每期包含：序号、播客名、单集标题、shownote（节目简介全文）、发布日期。
@@ -1548,7 +1564,7 @@ def select_topic_source_episodes(scored: list[ScoredEpisode], now: datetime, day
     return [item for item in scored if is_recent_within_days(item.episode, now, days)]
 
 
-def topics_user_prompt(items: list[ScoredEpisode], recent_topics: list[dict]) -> str:
+def topics_user_prompt(items: list[ScoredEpisode], recent_topics: list[dict], *, mode: str = "strict") -> str:
     payload = [
         {
             "episodeId": item.episode.unique_id,
@@ -1563,6 +1579,11 @@ def topics_user_prompt(items: list[ScoredEpisode], recent_topics: list[dict]) ->
         sections.append(
             "最近已发布的议题（不要重复或仅换个说法重写这些主题）:\n"
             + recent_topic_prompt(recent_topics)
+        )
+    if mode == "related":
+        sections.append(
+            "补位要求：如果严格同题不够，请优先产出同领域、同方向但更宽一点的相关议题，"
+            "目标是让广场更丰满，而不是反复挤同一个问法。"
         )
     return "\n\n".join(sections)
 
@@ -1674,7 +1695,31 @@ def normalize_topics(ai_data: object, episode_map: dict[str, ScoredEpisode]) -> 
     return topics
 
 
-def build_topics(scored: list[ScoredEpisode], now: datetime, env: dict[str, str], timeout: int) -> list[dict]:
+def merge_topic_lists(*topic_lists: list[dict]) -> list[dict]:
+    merged: list[dict] = []
+    seen_fingerprints: set[str] = set()
+    seen_titles: set[str] = set()
+
+    for topic_list in topic_lists:
+        for topic in topic_list:
+            if not isinstance(topic, dict):
+                continue
+            fingerprint = topic_fingerprint(topic)
+            title = normalize_topic_text(str(topic.get("title") or "").strip())
+            if fingerprint in seen_fingerprints or title in seen_titles:
+                continue
+            seen_fingerprints.add(fingerprint)
+            seen_titles.add(title)
+            merged.append(topic)
+    return merged
+
+
+def build_topics(
+    scored: list[ScoredEpisode],
+    now: datetime,
+    env: dict[str, str],
+    timeout: int,
+) -> list[dict]:
     topic_items = select_topic_source_episodes(scored, now, days=14)
     if len(topic_items) < 2 or not env.get("DEEPSEEK_API_KEY"):
         return []
@@ -1684,23 +1729,47 @@ def build_topics(scored: list[ScoredEpisode], now: datetime, env: dict[str, str]
         topic_history = load_topic_seed_from_explore(DEFAULT_EXPLORE, now)
     episode_map = {item.episode.unique_id: item for item in topic_items}
     print(f"[Explore] Building topics from {len(topic_items)} episodes in the last 14 days", flush=True)
-    ai_data = deepseek_json(
+    strict_ai_data = deepseek_json(
         [
             {"role": "system", "content": TOPIC_SYSTEM_PROMPT},
-            {"role": "user", "content": topics_user_prompt(topic_items, topic_history)},
+            {"role": "user", "content": topics_user_prompt(topic_items, topic_history, mode="strict")},
         ],
         env,
         timeout,
         response_format=None,
     )
-    topics = normalize_topics(ai_data, episode_map)
-    filtered_topics = filter_topics_by_history(topics, topic_history)
-    if topic_history and len(filtered_topics) != len(topics):
+    strict_topics_raw = normalize_topics(strict_ai_data, episode_map)
+    strict_topics = filter_topics_by_history(strict_topics_raw, topic_history)
+    if topic_history and len(strict_topics) != len(strict_topics_raw):
         print(
-            f"[Explore] filtered {len(topics) - len(filtered_topics)} repeated topics against {len(topic_history)} recent records",
+            f"[Explore] filtered {len(strict_topics_raw) - len(strict_topics)} repeated topics against {len(topic_history)} recent records",
             flush=True,
         )
-    return filtered_topics
+    if len(strict_topics) >= TOPIC_TARGET_COUNT:
+        return strict_topics[:TOPIC_TARGET_COUNT]
+
+    related_recent_topics = merge_topic_lists(strict_topics, topic_history)
+    related_ai_data = deepseek_json(
+        [
+            {"role": "system", "content": RELATED_TOPIC_SYSTEM_PROMPT},
+            {"role": "user", "content": topics_user_prompt(topic_items, related_recent_topics, mode="related")},
+        ],
+        env,
+        timeout,
+        response_format=None,
+    )
+    related_topics = filter_topics_by_history(normalize_topics(related_ai_data, episode_map), related_recent_topics)
+    merged_topics = merge_topic_lists(strict_topics, related_topics)
+    if len(merged_topics) < len(strict_topics):
+        merged_topics = strict_topics
+    if len(merged_topics) > TOPIC_TARGET_COUNT:
+        merged_topics = merged_topics[:TOPIC_TARGET_COUNT]
+    if len(merged_topics) > len(strict_topics):
+        print(
+            f"[Explore] added {len(merged_topics) - len(strict_topics)} related topics for broader coverage",
+            flush=True,
+        )
+    return merged_topics
 
 
 def clone_card(card: dict, scenario_index: int | None = None) -> dict:

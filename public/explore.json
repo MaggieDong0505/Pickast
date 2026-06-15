@@ -1,19 +1,53 @@
 [
   {
-    "title": "AI会让白领大规模失业吗？",
-    "domainTag": "AI与就业",
-    "consensus": [],
-    "divergence": [
+    "title": "AI能替代律师和会计吗？",
+    "domainTag": "AI与专业服务",
+    "consensus": [
       {
         "podcast": "跨国串门儿计划",
-        "point": "AI替代低弹性岗位，但会创造新需求",
+        "point": "律师会计未被替代因可靠性责任监管摩擦",
         "episodeId": "6a226610b30e1571aea10f57"
       },
       {
-        "podcast": "整点亮话",
-        "point": "公司拿AI当裁员借口，实际是降本",
-        "episodeId": "6a25a0d7b30e1571aea23ce1"
+        "podcast": "贝望录",
+        "point": "AI不能代替律师和专业顾问",
+        "episodeId": "6a26ebaab30e1571aea2dfc5"
       }
-    ]
+    ],
+    "divergence": []
+  },
+  {
+    "title": "AIAgent如何重塑组织分工？",
+    "domainTag": "AI与组织",
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI让工程师、PM、设计师角色融合，进入通才黄金时代",
+        "episodeId": "6a26a3e4b30e1571aea2b45c"
+      },
+      {
+        "podcast": "十字路口Crossing",
+        "point": "FDE岗位出现，旧分工松动，AI落地需要业务融合",
+        "episodeId": "6a1e4022ac7bdb080c348b41"
+      }
+    ],
+    "divergence": []
+  },
+  {
+    "title": "AI时代财富会如何重新分配？",
+    "domainTag": "AI与经济",
+    "consensus": [
+      {
+        "podcast": "十分吸引",
+        "point": "技术革命是财富洗牌，AI正处基建阶段，应用形态不确定",
+        "episodeId": "6a2e69284233e62bc5499160"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI越强经济占比可能越小，关系型部门成稀缺价值",
+        "episodeId": "6a226610b30e1571aea10f57"
+      }
+    ],
+    "divergence": []
   }
 ]
