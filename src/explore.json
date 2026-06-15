@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "title": "AI会让白领大规模失业吗？",
+    "domainTag": "AI与就业",
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI替代低弹性岗位，但会创造新需求",
+        "episodeId": "6a1fe65e7444b5722232b5d9"
+      },
+      {
+        "podcast": "42章经",
+        "point": "AI会替代大量白领工作，就业结构剧变",
+        "episodeId": "6a2a808262c3d8534722ac02"
+      }
+    ]
+  }
+]

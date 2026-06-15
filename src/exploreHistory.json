@@ -1,5 +1,32 @@
 [
   {
+    "generatedAt": "2026-06-15T13:35:02.817583+08:00",
+    "title": "AI会让白领大规模失业吗？",
+    "domainTag": "AI与就业",
+    "podcasts": [
+      "42章经",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a1fe65e7444b5722232b5d9",
+      "6a2a808262c3d8534722ac02"
+    ],
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI替代低弹性岗位，但会创造新需求",
+        "episodeId": "6a1fe65e7444b5722232b5d9"
+      },
+      {
+        "podcast": "42章经",
+        "point": "AI会替代大量白领工作，就业结构剧变",
+        "episodeId": "6a2a808262c3d8534722ac02"
+      }
+    ],
+    "fingerprint": "v1:6311dae241f6890202527ad4d3f61b209265989fd985b37b006c99de8616796b"
+  },
+  {
     "generatedAt": "2026-06-15T12:15:34.048930+08:00",
     "title": "AIAgent会取代传统软件吗？",
     "domainTag": "AI与软件",

@@ -23,11 +23,11 @@ export const initialData: BriefingCardData = {
     "coverText": "跨国",
     "coverBg": "bg-[#18181B]",
     "coverTextColor": "text-amber-50",
-    "whyRecommended": "适合想提升判断力、理解AI泡沫与资本周期的听众，从系统思维到投资实战，一场认知升级的深度对话。",
+    "whyRecommended": "适合想提升判断力、理解AI泡沫与资本周期的听众，从系统思维到投资实战，一场认知升级课。",
     "viewpoints": [
-      "系统思维：多变量非线性系统，单一指标会误导决策。",
+      "系统思维：多变量、非线性，避免单一指标误导。",
       "研究行业历史是被低估的职业护城河。",
-      "AI投资狂热中存在循环交易，可能放大泡沫。"
+      "AI投资狂热与循环交易可能放大风险。"
     ],
     "goldenQuotes": [
       {
@@ -36,19 +36,19 @@ export const initialData: BriefingCardData = {
         "source_note": "来自本期 shownote"
       },
       {
-        "quote": "我觉得更多人应该去研究自己所在领域的历史，这会对他们有帮助。",
+        "quote": "支付为什么要收百分之二到百分之三？没有任何理由，真的没有。",
         "source": "来自本期 shownote",
         "source_note": "来自本期 shownote"
       },
       {
-        "quote": "支付为什么要收百分之二到百分之三？没有任何理由，真的没有。",
+        "quote": "这个人是不是无论如何都会做这件事？",
         "source": "来自本期 shownote",
         "source_note": "来自本期 shownote"
       }
     ],
     "triageTag": "📖值得精听｜系统思维与AI投资认知",
     "href": "cosmos://page.cos/episode/6a2d01304233e62bc54917e4?utm_source=rss",
-    "whyRecommend": "适合想提升判断力、理解AI泡沫与资本周期的听众，从系统思维到投资实战，一场认知升级的深度对话。",
+    "whyRecommend": "适合想提升判断力、理解AI泡沫与资本周期的听众，从系统思维到投资实战，一场认知升级课。",
     "goldenQuote": "你不能只用线性模型来想，也不能只盯着一个变量。",
     "topicTag": "📖值得精听｜系统思维与AI投资认知"
   },
@@ -64,11 +64,11 @@ export const initialData: BriefingCardData = {
       "coverText": "张小",
       "coverBg": "bg-[#18181B]",
       "coverTextColor": "text-amber-50",
-      "whyRecommended": "适合对太空探索与商业航天感兴趣的听众，通过SpaceX前高管亲述，揭秘马斯克用人观与IPO内幕。",
+      "whyRecommended": "适合对太空探索与商业航天感兴趣的听众，通过前SpaceX工程师的视角，揭秘马斯克用人观与Space。",
       "viewpoints": [
-        "SpaceX收购x.AI并完成史上最大IPO",
-        "马斯克极端内向性格与独特用人观",
-        "Falcon 9火箭开发成败与航天产业权力地图"
+        "SpaceX的IPO与对x.AI的收购",
+        "极端内向的马斯克和用人观",
+        "SpaceX开发史、Falcon 9成与败"
       ],
       "goldenQuotes": [
         {
@@ -77,12 +77,12 @@ export const initialData: BriefingCardData = {
           "source_note": "来自本期 shownote"
         }
       ],
-      "triageTag": "☕有空再听｜SpaceX前高管亲述开发史",
+      "triageTag": "☕有空再听｜SpaceX前工程师揭秘马斯",
       "href": "cosmos://page.cos/episode/6a2be5da43a22a695582ad20?utm_source=rss",
       "scenario": "",
-      "whyRecommend": "适合对太空探索与商业航天感兴趣的听众，通过SpaceX前高管亲述，揭秘马斯克用人观与IPO内幕。",
+      "whyRecommend": "适合对太空探索与商业航天感兴趣的听众，通过前SpaceX工程师的视角，揭秘马斯克用人观与Space。",
       "goldenQuote": "站在今天这个SpaceX IPO的历史性时刻，我们决定加更一集节目。",
-      "topicTag": "☕有空再听｜SpaceX前高管亲述开发史"
+      "topicTag": "☕有空再听｜SpaceX前工程师揭秘马斯"
     },
     {
       "episodeId": "6a2a808262c3d8534722ac02",
@@ -95,10 +95,10 @@ export const initialData: BriefingCardData = {
       "coverText": "42",
       "coverBg": "bg-[#18181B]",
       "coverTextColor": "text-amber-50",
-      "whyRecommended": "适合对AI投资与市场泡沫感兴趣的听众，用行为经济学视角拆解泡沫本质与应对策略。",
+      "whyRecommended": "适合想理解泡沫本质与投资心理的听众，用行为经济学拆解AI热潮，提供反直觉的决策框架。",
       "viewpoints": [
+        "泡沫无法被事先证明，但可识别四个必要条件",
         "每次泡沫都源于人类行为的三个弱点",
-        "泡沫无法被事先证明但伴随四个条件",
         "AI股票能否买是错误问题，应关注对人生的影响"
       ],
       "goldenQuotes": [
@@ -116,7 +116,7 @@ export const initialData: BriefingCardData = {
       "triageTag": "📖值得精听｜朱宁教授拆解泡沫条件",
       "href": "cosmos://page.cos/episode/6a2a808262c3d8534722ac02?utm_source=rss",
       "scenario": "",
-      "whyRecommend": "适合对AI投资与市场泡沫感兴趣的听众，用行为经济学视角拆解泡沫本质与应对策略。",
+      "whyRecommend": "适合想理解泡沫本质与投资心理的听众，用行为经济学拆解AI热潮，提供反直觉的决策框架。",
       "goldenQuote": "泡沫可能永远无法被事先证明。",
       "topicTag": "📖值得精听｜朱宁教授拆解泡沫条件"
     }
