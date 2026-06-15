@@ -23,11 +23,11 @@ export const initialData: BriefingCardData = {
     "coverText": "跨国",
     "coverBg": "bg-[#18181B]",
     "coverTextColor": "text-amber-50",
-    "whyRecommended": "适合想提升判断力的投资者与创业者，从系统思维到AI泡沫，一场认知突围的深度对话。",
+    "whyRecommended": "适合想提升判断力的投资者与创业者，从系统思维到AI泡沫，一场跨越投资、技术与金融的深度认知课。",
     "viewpoints": [
-      "系统思维：多变量、非线性，避免单一指标误导。",
+      "系统思维：多变量、非线性，单一指标会误导决策。",
       "研究行业历史是被低估的职业护城河。",
-      "AI投资狂热与循环交易可能放大风险。"
+      "AI投资狂热中存在循环交易，可能放大风险。"
     ],
     "goldenQuotes": [
       {
@@ -46,11 +46,11 @@ export const initialData: BriefingCardData = {
         "source_note": "来自本期 shownote"
       }
     ],
-    "triageTag": "📖值得精听｜Bill",
+    "triageTag": "📖值得精听｜系统思维与AI投资反共识",
     "href": "cosmos://page.cos/episode/6a2d01304233e62bc54917e4?utm_source=rss",
-    "whyRecommend": "适合想提升判断力的投资者与创业者，从系统思维到AI泡沫，一场认知突围的深度对话。",
+    "whyRecommend": "适合想提升判断力的投资者与创业者，从系统思维到AI泡沫，一场跨越投资、技术与金融的深度认知课。",
     "goldenQuote": "你不能只用线性模型来想，也不能只盯着一个变量。",
-    "topicTag": "📖值得精听｜Bill"
+    "topicTag": "📖值得精听｜系统思维与AI投资反共识"
   },
   "backupEpisodes": [
     {
@@ -100,11 +100,11 @@ export const initialData: BriefingCardData = {
       "coverText": "42",
       "coverBg": "bg-[#18181B]",
       "coverTextColor": "text-amber-50",
-      "whyRecommended": "适合想理解泡沫本质与投资心态的听众，用行为经济学拆解AI热潮，提供反常识的决策框架。",
+      "whyRecommended": "适合对AI投资与泡沫话题感兴趣的听众，从行为经济学视角拆解泡沫本质，提供反直觉的决策框架。",
       "viewpoints": [
-        "泡沫无法被事先证明，但可识别四个必要条件",
-        "AI股票能不能买是错误问题，应关注对人生的影响",
-        "每次泡沫都源于人类行为的三个弱点"
+        "泡沫永远无法被事先证明",
+        "泡沫出现伴随四个必要不充分条件",
+        "AI股票能不能买是错误的问题"
       ],
       "goldenQuotes": [
         {
@@ -116,7 +116,7 @@ export const initialData: BriefingCardData = {
       "triageTag": "☕有空再听｜朱宁教授拆解泡沫本质",
       "href": "cosmos://page.cos/episode/6a2a808262c3d8534722ac02?utm_source=rss",
       "scenario": "",
-      "whyRecommend": "适合想理解泡沫本质与投资心态的听众，用行为经济学拆解AI热潮，提供反常识的决策框架。",
+      "whyRecommend": "适合对AI投资与泡沫话题感兴趣的听众，从行为经济学视角拆解泡沫本质，提供反直觉的决策框架。",
       "goldenQuote": "泡沫可能永远无法被事先证明。",
       "topicTag": "☕有空再听｜朱宁教授拆解泡沫本质"
     }

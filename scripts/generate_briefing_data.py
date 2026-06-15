@@ -11,6 +11,7 @@ import math
 import os
 import re
 import sys
+from difflib import SequenceMatcher
 import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -27,6 +28,7 @@ DEFAULT_OUTPUT = ROOT / "src" / "generatedData.ts"
 DEFAULT_RANKING = ROOT / "src" / "ranking.json"
 DEFAULT_FAVORITES = ROOT / "src" / "favorites.json"
 DEFAULT_EXPLORE = ROOT / "src" / "explore.json"
+DEFAULT_TOPIC_HISTORY = ROOT / "src" / "exploreHistory.json"
 
 WEEKDAYS_CN = ["星期一", "星期二", "星期三", "星期四", "星期五", "星期六", "星期日"]
 WEEKDAYS_EN = ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"]
@@ -34,6 +36,9 @@ TRIAGE_LABELS = ["📖值得精听", "🚶边走边听", "☕有空再听"]
 RECENCY_WEIGHT = 0.45
 VALUE_WEIGHT = 0.55
 DEFAULT_DOMAIN = "生活"
+TOPIC_HISTORY_LOOKBACK_DAYS = 7
+TOPIC_HISTORY_MAX_ENTRIES = 30
+TOPIC_TITLE_SIMILARITY_THRESHOLD = 0.78
 SELECTION_NOW: datetime | None = None
 DOMAIN_KEYWORDS = {
     "AI": [
@@ -190,6 +195,7 @@ TOPIC_SYSTEM_PROMPT = """你是播客议题分析师。给你最近两周多档�
 ③分歧必须是真对立回答，一个说会/一个说不会、一个看多/一个看空；只是角度不同、补充说明不算分歧。
 ④诚实不硬编，共识/分歧有几条写几条，没表态别编，禁止凑对仗。
 ⑤宁可少给，凑不出真议题就返回[]，不要为了数量反复榨同样两档播客。
+⑥先避开【最近已发布的议题】，不要重复或只是换个说法重写同一议题。
 每个议题至少来自2档不同播客。consensus 至少2档不同播客才成立；divergence 也至少2档不同播客且必须互相对立才成立。输出JSON数组，每项：
 {title(问句≤20字), domainTag(领域标签), consensus[{podcast,point≤30字,episodeId}], divergence[同结构]}。
 consensus和divergence至少一个非空，否则丢弃该议题。只输出JSON，不要解释。
@@ -256,6 +262,290 @@ class ScoredEpisode:
 
 def local_now() -> datetime:
     return datetime.now(timezone(timedelta(hours=8)))
+
+
+def normalize_topic_text(value: str) -> str:
+    return re.sub(r"[\s\W_]+", "", value).lower()
+
+
+def topic_episode_ids(topic: dict) -> list[str]:
+    episode_ids: set[str] = set()
+    direct_episode_ids = topic.get("episodeIds")
+    if isinstance(direct_episode_ids, list):
+        for episode_id in direct_episode_ids:
+            episode_id = str(episode_id).strip()
+            if episode_id:
+                episode_ids.add(episode_id)
+
+    for key in ("consensus", "divergence"):
+        points = topic.get(key)
+        if not isinstance(points, list):
+            continue
+        for point in points:
+            if not isinstance(point, dict):
+                continue
+            episode_id = str(point.get("episodeId") or "").strip()
+            if episode_id:
+                episode_ids.add(episode_id)
+    return sorted(episode_ids)
+
+
+def topic_podcasts(topic: dict) -> list[str]:
+    podcasts: set[str] = set()
+    direct_podcasts = topic.get("podcasts")
+    if isinstance(direct_podcasts, list):
+        for podcast in direct_podcasts:
+            podcast = str(podcast).strip()
+            if podcast:
+                podcasts.add(podcast)
+
+    for key in ("consensus", "divergence"):
+        points = topic.get(key)
+        if not isinstance(points, list):
+            continue
+        for point in points:
+            if not isinstance(point, dict):
+                continue
+            podcast = str(point.get("podcast") or "").strip()
+            if podcast:
+                podcasts.add(podcast)
+    return sorted(podcasts)
+
+
+def topic_fingerprint(topic: dict) -> str:
+    payload = {
+        "podcasts": topic_podcasts(topic),
+        "episodeIds": topic_episode_ids(topic),
+    }
+    raw = json.dumps(payload, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+    return f"v1:{hashlib.sha256(raw.encode('utf-8')).hexdigest()}"
+
+
+def topic_history_fingerprint(entry: dict) -> str:
+    fingerprint = str(entry.get("fingerprint") or "").strip()
+    if fingerprint:
+        return fingerprint
+    return topic_fingerprint(entry)
+
+
+def topic_similarity(left: str, right: str) -> float:
+    if not left or not right:
+        return 0.0
+    return SequenceMatcher(None, left, right).ratio()
+
+
+def load_topic_history(path: Path) -> list[dict]:
+    if not path.exists():
+        return []
+
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return []
+
+    if not isinstance(data, list):
+        return []
+
+    return normalize_topic_history_entries([item for item in data if isinstance(item, dict)])
+
+
+def load_topic_seed_from_explore(path: Path, generated_at: datetime) -> list[dict]:
+    if not path.exists():
+        return []
+
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return []
+
+    if not isinstance(data, list):
+        return []
+
+    seed: list[dict] = []
+    for item in data:
+        if not isinstance(item, dict):
+            continue
+        title = str(item.get("title") or "").strip()
+        if not title:
+            continue
+        seed.append(
+            {
+                "generatedAt": generated_at.isoformat(),
+                "title": title,
+                "domainTag": str(item.get("domainTag") or DEFAULT_DOMAIN).strip() or DEFAULT_DOMAIN,
+                "podcasts": topic_podcasts(item),
+                "episodeIds": topic_episode_ids(item),
+                "consensus": item.get("consensus") if isinstance(item.get("consensus"), list) else [],
+                "divergence": item.get("divergence") if isinstance(item.get("divergence"), list) else [],
+            }
+        )
+    return seed
+
+
+def ensure_topic_history_seeded(history_path: Path, explore_path: Path, generated_at: datetime) -> None:
+    if load_topic_history(history_path):
+        return
+
+    seed = load_topic_seed_from_explore(explore_path, generated_at)
+    if seed:
+        write_topic_history(seed, history_path)
+
+
+def write_topic_history(history: list[dict], path: Path) -> None:
+    path.write_text(json.dumps(history, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def parse_history_datetime(value: object) -> datetime | None:
+    if not isinstance(value, str) or not value.strip():
+        return None
+
+    try:
+        parsed = datetime.fromisoformat(value)
+    except ValueError:
+        return None
+
+    if parsed.tzinfo is None:
+        return parsed.replace(tzinfo=timezone.utc)
+    return parsed
+
+
+def is_recent_history_entry(entry: dict, now: datetime, days: int) -> bool:
+    generated_at = parse_history_datetime(entry.get("generatedAt"))
+    if generated_at is None:
+        return True
+    age_days = max((now - generated_at).total_seconds() / 86400, 0)
+    return age_days <= days
+
+
+def recent_topic_history(history: list[dict], now: datetime, days: int = TOPIC_HISTORY_LOOKBACK_DAYS) -> list[dict]:
+    return [entry for entry in history if is_recent_history_entry(entry, now, days)]
+
+
+def normalize_topic_history_entries(history: list[dict]) -> list[dict]:
+    normalized: list[dict] = []
+    for entry in history:
+        if not isinstance(entry, dict):
+            continue
+
+        normalized_entry = dict(entry)
+        normalized_entry["title"] = str(entry.get("title") or "").strip()
+        normalized_entry["domainTag"] = str(entry.get("domainTag") or DEFAULT_DOMAIN).strip() or DEFAULT_DOMAIN
+        normalized_entry["podcasts"] = topic_podcasts(entry)
+        normalized_entry["episodeIds"] = topic_episode_ids(entry)
+        normalized_entry["consensus"] = entry.get("consensus") if isinstance(entry.get("consensus"), list) else []
+        normalized_entry["divergence"] = entry.get("divergence") if isinstance(entry.get("divergence"), list) else []
+        normalized_entry["fingerprint"] = topic_history_fingerprint(entry)
+        normalized.append(normalized_entry)
+    return normalized
+
+
+def topic_history_entry(topic: dict, generated_at: datetime) -> dict:
+    return {
+        "generatedAt": generated_at.isoformat(),
+        "title": str(topic.get("title") or "").strip(),
+        "domainTag": str(topic.get("domainTag") or DEFAULT_DOMAIN).strip() or DEFAULT_DOMAIN,
+        "podcasts": topic_podcasts(topic),
+        "episodeIds": topic_episode_ids(topic),
+        "consensus": topic.get("consensus") if isinstance(topic.get("consensus"), list) else [],
+        "divergence": topic.get("divergence") if isinstance(topic.get("divergence"), list) else [],
+        "fingerprint": topic_fingerprint(topic),
+    }
+
+
+def history_entry_signature(entry: dict) -> str:
+    return topic_history_fingerprint(entry)
+
+
+def topic_is_duplicate(topic: dict, history_entry: dict) -> bool:
+    candidate_fingerprint = topic_fingerprint(topic)
+    history_fingerprint = topic_history_fingerprint(history_entry)
+    if candidate_fingerprint == history_fingerprint:
+        return True
+
+    candidate_title = normalize_topic_text(str(topic.get("title") or "").strip())
+    history_title = normalize_topic_text(str(history_entry.get("title") or "").strip())
+    if candidate_title and history_title:
+        similarity = topic_similarity(candidate_title, history_title)
+        if candidate_title == history_title or similarity >= TOPIC_TITLE_SIMILARITY_THRESHOLD:
+            return True
+        if candidate_title in history_title or history_title in candidate_title:
+            return True
+
+    candidate_ids = set(topic_episode_ids(topic))
+    history_ids = {
+        str(episode_id).strip()
+        for episode_id in (history_entry.get("episodeIds") if isinstance(history_entry.get("episodeIds"), list) else [])
+        if str(episode_id).strip()
+    }
+    if candidate_ids and history_ids:
+        overlap = candidate_ids & history_ids
+        if candidate_ids == history_ids:
+            return True
+        if len(overlap) >= 2:
+            return True
+        if len(overlap) >= 1 and candidate_title and history_title and topic_similarity(candidate_title, history_title) >= 0.65:
+            return True
+
+    candidate_podcasts = set(topic_podcasts(topic))
+    history_podcasts = {
+        str(podcast).strip()
+        for podcast in (history_entry.get("podcasts") if isinstance(history_entry.get("podcasts"), list) else [])
+        if str(podcast).strip()
+    }
+    if candidate_podcasts and history_podcasts:
+        shared_podcasts = candidate_podcasts & history_podcasts
+        if len(shared_podcasts) >= 2 and candidate_title and history_title and topic_similarity(candidate_title, history_title) >= 0.55:
+            return True
+
+    return False
+
+
+def filter_topics_by_history(topics: list[dict], history: list[dict]) -> list[dict]:
+    if not history:
+        return topics
+
+    filtered: list[dict] = []
+    for topic in topics:
+        if any(topic_is_duplicate(topic, entry) for entry in history):
+            continue
+        filtered.append(topic)
+    return filtered
+
+
+def recent_topic_prompt(history: list[dict], limit: int = 10) -> str:
+    if not history:
+        return ""
+
+    payload = [
+        {
+            "title": str(entry.get("title") or "").strip(),
+            "domainTag": str(entry.get("domainTag") or DEFAULT_DOMAIN).strip() or DEFAULT_DOMAIN,
+            "podcasts": entry.get("podcasts") if isinstance(entry.get("podcasts"), list) else [],
+            "episodeIds": entry.get("episodeIds") if isinstance(entry.get("episodeIds"), list) else [],
+            "fingerprint": str(entry.get("fingerprint") or "").strip(),
+        }
+        for entry in history[:limit]
+    ]
+    return json.dumps(payload, ensure_ascii=False, indent=2)
+
+
+def append_topic_history(topics: list[dict], now: datetime, path: Path) -> None:
+    if not topics:
+        return
+
+    history = normalize_topic_history_entries(load_topic_history(path))
+    updated = [topic_history_entry(topic, now) for topic in topics] + history
+
+    deduped: list[dict] = []
+    seen: set[str] = set()
+    for entry in updated:
+        signature = history_entry_signature(entry)
+        if signature in seen:
+            continue
+        seen.add(signature)
+        deduped.append(entry)
+
+    write_topic_history(deduped[:TOPIC_HISTORY_MAX_ENTRIES], path)
 
 
 def load_env(env_path: Path) -> dict[str, str]:
@@ -1201,7 +1491,7 @@ def select_topic_source_episodes(scored: list[ScoredEpisode], now: datetime, day
     return [item for item in scored if is_recent_within_days(item.episode, now, days)]
 
 
-def topics_user_prompt(items: list[ScoredEpisode]) -> str:
+def topics_user_prompt(items: list[ScoredEpisode], recent_topics: list[dict]) -> str:
     payload = [
         {
             "episodeId": item.episode.unique_id,
@@ -1211,7 +1501,13 @@ def topics_user_prompt(items: list[ScoredEpisode]) -> str:
         }
         for item in items
     ]
-    return json.dumps(payload, ensure_ascii=False, indent=2)
+    sections = [json.dumps(payload, ensure_ascii=False, indent=2)]
+    if recent_topics:
+        sections.append(
+            "最近已发布的议题（不要重复或仅换个说法重写这些主题）:\n"
+            + recent_topic_prompt(recent_topics)
+        )
+    return "\n\n".join(sections)
 
 
 def clean_topic_point(value: object, episode_map: dict[str, ScoredEpisode]) -> dict | None:
@@ -1326,18 +1622,28 @@ def build_topics(scored: list[ScoredEpisode], now: datetime, env: dict[str, str]
     if len(topic_items) < 2 or not env.get("DEEPSEEK_API_KEY"):
         return []
 
+    topic_history = recent_topic_history(load_topic_history(DEFAULT_TOPIC_HISTORY), now)
+    if not topic_history:
+        topic_history = load_topic_seed_from_explore(DEFAULT_EXPLORE, now)
     episode_map = {item.episode.unique_id: item for item in topic_items}
     print(f"[Explore] Building topics from {len(topic_items)} episodes in the last 14 days", flush=True)
     ai_data = deepseek_json(
         [
             {"role": "system", "content": TOPIC_SYSTEM_PROMPT},
-            {"role": "user", "content": topics_user_prompt(topic_items)},
+            {"role": "user", "content": topics_user_prompt(topic_items, topic_history)},
         ],
         env,
         timeout,
         response_format=None,
     )
-    return normalize_topics(ai_data, episode_map)
+    topics = normalize_topics(ai_data, episode_map)
+    filtered_topics = filter_topics_by_history(topics, topic_history)
+    if topic_history and len(filtered_topics) != len(topics):
+        print(
+            f"[Explore] filtered {len(topics) - len(filtered_topics)} repeated topics against {len(topic_history)} recent records",
+            flush=True,
+        )
+    return filtered_topics
 
 
 def clone_card(card: dict, scenario_index: int | None = None) -> dict:
@@ -1557,6 +1863,7 @@ def main() -> int:
     global SELECTION_NOW
     SELECTION_NOW = now
     env = apply_runtime_env(load_env(ROOT / ".env"))
+    ensure_topic_history_seeded(DEFAULT_TOPIC_HISTORY, DEFAULT_EXPLORE, now)
     deepseek_key = env.get("DEEPSEEK_API_KEY", "")
     pool = prefilter_candidates(scored, now, window_days=7, pool_size=20)
     selected = ai_select(pool, deepseek_key)
@@ -1568,6 +1875,7 @@ def main() -> int:
     if not validate_briefing(data) or not validate_ranking(ranking_rows) or not validate_explore(explore_data):
         abort_schema_invalid()
 
+    append_topic_history(explore_data, now, DEFAULT_TOPIC_HISTORY)
     write_generated_ts(data, args.output)
     write_ranking(ranking_rows, args.ranking)
     write_explore(explore_data, args.explore)

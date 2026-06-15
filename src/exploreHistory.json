@@ -1,0 +1,110 @@
+[
+  {
+    "generatedAt": "2026-06-15T12:15:34.048930+08:00",
+    "title": "AIAgent会取代传统软件吗？",
+    "domainTag": "AI与软件",
+    "fingerprint": "v1:9cb47a159c6cbb17116e85f1f837593a06b7bd17ff5b272a86c63af92e97a4ec",
+    "podcasts": [
+      "十字路口Crossing",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a1e8760122ade5348e85027",
+      "6a275ed57444b5722235a897"
+    ],
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "软件公司不会被消灭，反而迎来更大需求",
+        "episodeId": "6a1e8760122ade5348e85027"
+      },
+      {
+        "podcast": "十字路口Crossing",
+        "point": "传统软件老路径变难，机会在两端",
+        "episodeId": "6a275ed57444b5722235a897"
+      }
+    ]
+  },
+  {
+    "generatedAt": "2026-06-15T12:15:34.048930+08:00",
+    "title": "AI时代普通人还有机会吗？",
+    "domainTag": "AI与个人",
+    "fingerprint": "v1:bd94bbda54f19a1fe889e176897493abb57969998048007a6e1b2b0d79dd5ab5",
+    "podcasts": [
+      "十分吸引",
+      "十字路口Crossing"
+    ],
+    "episodeIds": [
+      "6a275ed57444b5722235a897",
+      "6a2e69284233e62bc5499160"
+    ],
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "十分吸引",
+        "point": "普通人也能赶上技术红利",
+        "episodeId": "6a2e69284233e62bc5499160"
+      },
+      {
+        "podcast": "十字路口Crossing",
+        "point": "商业价值高度集中到基模，应用层像捡钢镚",
+        "episodeId": "6a275ed57444b5722235a897"
+      }
+    ]
+  },
+  {
+    "generatedAt": "2026-06-14T21:00:00+08:00",
+    "title": "太空算力经济账划算吗？",
+    "domainTag": "AI基础设施",
+    "fingerprint": "v1:3711de983305705e545cc39d0455bbe0a59ce0151c2fec5173169dd29df34754",
+    "podcasts": [
+      "硅谷101",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "259291f5-2715-4dde-bcfe-b5beb4df5793",
+      "6a2bbf224233e62bc548aa81"
+    ],
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "硅谷101",
+        "point": "理论可行，但经济账还算不过来",
+        "episodeId": "259291f5-2715-4dde-bcfe-b5beb4df5793"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "SpaceX认为太空算力是巨大上行，经济账可算",
+        "episodeId": "6a2bbf224233e62bc548aa81"
+      }
+    ]
+  },
+  {
+    "generatedAt": "2026-06-14T21:00:00+08:00",
+    "title": "AI投资是泡沫吗？",
+    "domainTag": "AI投资",
+    "fingerprint": "v1:c410b21b3292da94de8aa9fdfefba387440181116e4558dc9b7c1b5889fb3ad7",
+    "podcasts": [
+      "42章经",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a286aa1dbccffcfa9c661ec",
+      "6a2a808262c3d8534722ac02"
+    ],
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "42章经",
+        "point": "AI已集齐泡沫的所有条件",
+        "episodeId": "6a2a808262c3d8534722ac02"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI热潮才刚开始，不是泡沫",
+        "episodeId": "6a286aa1dbccffcfa9c661ec"
+      }
+    ]
+  }
+]
