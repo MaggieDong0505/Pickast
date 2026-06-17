@@ -1066,7 +1066,7 @@ export default function App() {
           }
         `}</style>
 
-        <div className="relative flex flex-1 flex-col overflow-hidden pb-[calc(96px+env(safe-area-inset-bottom,0px))]">
+        <div className="relative flex flex-1 flex-col overflow-hidden">
           {activeTab === 'curated' ? (
             <div className="flex h-full min-h-0 flex-1 flex-col overflow-x-visible overflow-y-visible px-4 pb-2 pt-0 md:px-5">
               <div className="mt-3 select-none">
