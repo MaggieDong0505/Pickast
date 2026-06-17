@@ -1118,7 +1118,7 @@ export default function App() {
           ) : null}
 
           {activeTab === 'favorites' ? (
-            <div className="flex h-full flex-1 flex-col justify-start overflow-hidden px-4 pb-2 pt-4 md:px-5">
+            <div className="flex h-full min-h-0 flex-1 flex-col justify-start overflow-hidden px-4 pb-2 pt-4 md:px-5">
               <div className="mb-4">
                 <h1 className="font-serif font-black text-xl tracking-tight text-[#1A1A1A] flex items-center gap-1.5">
                   <span>我的播客收藏</span>
@@ -1131,7 +1131,7 @@ export default function App() {
                 </p>
               </div>
 
-              <div className="flex-1 overflow-y-auto space-y-3.5 pr-0.5 scrollbar-thin scrollbar-thumb-zinc-300 min-h-0">
+              <div className="min-h-0 flex-1 overflow-y-auto space-y-3.5 pr-0.5 pb-[calc(24px+env(safe-area-inset-bottom,0px))] scrollbar-thin scrollbar-thumb-zinc-300">
                 {favoriteItems.length === 0 ? (
                   <div className="flex flex-col items-center justify-center text-center py-16 bg-[#FAF9F5] border border-[#1A1A1A]/20 rounded-2xl p-6 paper-texture shadow-sm">
                     <Bookmark className="w-8 h-8 stroke-1 text-[#888888] mb-3" />
