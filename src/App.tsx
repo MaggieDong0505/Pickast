@@ -916,10 +916,18 @@ export default function App() {
     };
   }, []);
 
-  const toggleBriefingFavorite = (episode: PodcastEpisode, event?: React.MouseEvent) => {
+  const toggleBriefingFavorite = (
+    episode: PodcastEpisode | FavoriteRecord,
+    event?: React.MouseEvent
+  ) => {
     if (event) {
       event.preventDefault();
       event.stopPropagation();
+    }
+
+    if (!('episodeTitle' in episode)) {
+      toggleFavorite(episode);
+      return;
     }
 
     const favorite = toBriefingFavoriteRecord(episode);
@@ -1193,10 +1201,6 @@ export default function App() {
                       );
                     }
 
-                    if (!briefingEpisode) {
-                      return null;
-                    }
-
                     return (
                       <div
                         key={`${favorite.type}-${favorite.id}`}
@@ -1205,24 +1209,26 @@ export default function App() {
                         <div className="flex justify-between items-start gap-4 mb-2">
                           <div className="flex items-center gap-1.5">
                             <span className="font-serif font-black text-[9.5px] border border-current px-1.5 py-0.5 rounded leading-none">
-                              {briefingEpisode.podcastName}
+                              {briefingEpisode?.podcastName ?? favorite.podcastName}
                             </span>
                             <span className="text-[9px] text-[#666666] bg-black/5 px-1 py-0.5 rounded font-medium">
-                              {briefingEpisode.triageTag}
+                              {briefingEpisode?.triageTag ?? favorite.topicTag}
                             </span>
                           </div>
 
                           <FavoriteHeartButton
                             isFavorited
-                            onClick={(event) => toggleBriefingFavorite(briefingEpisode, event)}
+                            onClick={(event) =>
+                              toggleBriefingFavorite(briefingEpisode ?? favorite, event)
+                            }
                             title="取消收藏"
-                            ariaLabel={`取消收藏 ${briefingEpisode.episodeTitle}`}
+                            ariaLabel={`取消收藏 ${briefingEpisode?.episodeTitle ?? favorite.title}`}
                             className="shrink-0"
                           />
                         </div>
 
                         <h3 className="font-serif font-bold text-[11.5px] text-[#1A1A1A] leading-relaxed mb-2.5">
-                          {briefingEpisode.episodeTitle}
+                          {briefingEpisode?.episodeTitle ?? favorite.title}
                         </h3>
 
                         <div className="flex justify-between items-center text-[9px] border-t border-black/5 pt-2 mt-0.5">
