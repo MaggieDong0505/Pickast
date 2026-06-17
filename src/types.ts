@@ -53,6 +53,20 @@ export interface BriefingCardData {
   synthesis: PodcastSynthesis | ConsensusDivergence | null;
 }
 
+export interface BriefingHistoryEntry {
+  episodeId: string;
+  podcastName: string;
+  episodeTitle: string;
+  generatedAt: string;
+  fingerprint?: string;
+  triageTag?: string;
+  whyRecommended?: string;
+  goldenQuote?: string;
+  coverImageUrl?: string;
+  topicTag?: string;
+  publishedAt?: string;
+}
+
 export interface TopicPoint {
   podcast: string;
   point: string;
@@ -64,6 +78,8 @@ export interface Topic {
   domainTag: string;
   consensus: TopicPoint[];
   divergence: TopicPoint[];
+  createdAt?: string;
+  updatedAt?: string;
 }
 
 export type ExploreData = Topic[];

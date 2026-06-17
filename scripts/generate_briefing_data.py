@@ -29,6 +29,7 @@ DEFAULT_RANKING = ROOT / "src" / "ranking.json"
 DEFAULT_FAVORITES = ROOT / "src" / "favorites.json"
 DEFAULT_EXPLORE = ROOT / "src" / "explore.json"
 DEFAULT_EXPLORE_PUBLIC = ROOT / "public" / "explore.json"
+DEFAULT_BRIEFING_HISTORY = ROOT / "src" / "briefingHistory.json"
 DEFAULT_TOPIC_HISTORY = ROOT / "src" / "exploreHistory.json"
 
 WEEKDAYS_CN = ["星期一", "星期二", "星期三", "星期四", "星期五", "星期六", "星期日"]
@@ -38,7 +39,9 @@ RECENCY_WEIGHT = 0.45
 VALUE_WEIGHT = 0.55
 DEFAULT_DOMAIN = "生活"
 TOPIC_HISTORY_LOOKBACK_DAYS = 7
+BRIEFING_HISTORY_LOOKBACK_DAYS = 3
 TOPIC_HISTORY_MAX_ENTRIES = 30
+BRIEFING_HISTORY_MAX_ENTRIES = 30
 TOPIC_TITLE_SIMILARITY_THRESHOLD = 0.78
 BRIEFING_SELECTION_LIMIT = 3
 BRIEFING_AI_DOMAIN_LIMIT = 2
@@ -332,6 +335,17 @@ def topic_podcasts(topic: dict) -> list[str]:
     return sorted(podcasts)
 
 
+def get_topic_podcast_count(topic: dict) -> int:
+    return len(set(topic_podcasts(topic)))
+
+
+def get_topic_divergence_strength(topic: dict) -> int:
+    divergence = topic.get("divergence")
+    if not isinstance(divergence, list):
+        return 0
+    return len({str(item.get("podcast") or "").strip() for item in divergence if isinstance(item, dict) and str(item.get("podcast") or "").strip()}) * 100 + len(divergence)
+
+
 def topic_fingerprint(topic: dict) -> str:
     payload = {
         "podcasts": topic_podcasts(topic),
@@ -459,8 +473,134 @@ def normalize_topic_history_entries(history: list[dict]) -> list[dict]:
     return normalized
 
 
-def topic_history_entry(topic: dict, generated_at: datetime) -> dict:
+def topic_generated_at(topic: dict, fallback: datetime | None = None) -> datetime:
+    created_at = parse_history_datetime(topic.get("createdAt"))
+    updated_at = parse_history_datetime(topic.get("updatedAt"))
+    generated_at = created_at or updated_at or parse_history_datetime(topic.get("generatedAt"))
+    if generated_at is not None:
+        return generated_at
+    return fallback or local_now()
+
+
+def topic_registry_topic(topic: dict, generated_at: datetime) -> dict:
     return {
+        "title": str(topic.get("title") or "").strip(),
+        "domainTag": str(topic.get("domainTag") or DEFAULT_DOMAIN).strip() or DEFAULT_DOMAIN,
+        "consensus": topic.get("consensus") if isinstance(topic.get("consensus"), list) else [],
+        "divergence": topic.get("divergence") if isinstance(topic.get("divergence"), list) else [],
+        "createdAt": str(topic.get("createdAt") or generated_at.isoformat()).strip() or generated_at.isoformat(),
+        "updatedAt": str(topic.get("updatedAt") or generated_at.isoformat()).strip() or generated_at.isoformat(),
+    }
+
+
+def topic_point_signature(point: dict) -> tuple[str, str, str]:
+    return (
+        str(point.get("podcast") or "").strip(),
+        str(point.get("episodeId") or "").strip(),
+        str(point.get("point") or "").strip(),
+    )
+
+
+def merge_topic_point_lists(existing: list[dict], incoming: list[dict]) -> tuple[list[dict], bool]:
+    merged = list(existing)
+    seen = {topic_point_signature(point) for point in merged if isinstance(point, dict)}
+    changed = False
+
+    for point in incoming:
+        if not isinstance(point, dict):
+            continue
+        signature = topic_point_signature(point)
+        if signature in seen:
+            continue
+        seen.add(signature)
+        merged.append(point)
+        changed = True
+
+    return merged, changed
+
+
+def merge_topic_records(existing: dict, incoming: dict, generated_at: datetime) -> tuple[dict, bool]:
+    merged = dict(existing)
+    changed = False
+
+    incoming_created_at = topic_generated_at(incoming, fallback=generated_at)
+    incoming_updated_at = parse_history_datetime(incoming.get("updatedAt")) or incoming_created_at
+
+    existing_created_at = parse_history_datetime(existing.get("createdAt")) or incoming_created_at
+    existing_updated_at = parse_history_datetime(existing.get("updatedAt")) or existing_created_at
+
+    if not merged.get("title") and incoming.get("title"):
+        merged["title"] = incoming["title"]
+        changed = True
+
+    if not merged.get("domainTag") and incoming.get("domainTag"):
+        merged["domainTag"] = incoming["domainTag"]
+        changed = True
+
+    consensus, consensus_changed = merge_topic_point_lists(
+        merged.get("consensus") if isinstance(merged.get("consensus"), list) else [],
+        incoming.get("consensus") if isinstance(incoming.get("consensus"), list) else [],
+    )
+    divergence, divergence_changed = merge_topic_point_lists(
+        merged.get("divergence") if isinstance(merged.get("divergence"), list) else [],
+        incoming.get("divergence") if isinstance(incoming.get("divergence"), list) else [],
+    )
+
+    if consensus_changed:
+        merged["consensus"] = consensus
+        changed = True
+    if divergence_changed:
+        merged["divergence"] = divergence
+        changed = True
+
+    if incoming_created_at < existing_created_at:
+        merged["createdAt"] = incoming_created_at.isoformat()
+        changed = True
+    else:
+        merged["createdAt"] = existing_created_at.isoformat()
+
+    if incoming_updated_at > existing_updated_at:
+        merged["updatedAt"] = incoming_updated_at.isoformat()
+        changed = True
+    else:
+        merged["updatedAt"] = existing_updated_at.isoformat()
+
+    return merged, changed
+
+
+def sort_topic_registry(topics: list[dict]) -> list[dict]:
+    def sort_key(topic: dict) -> tuple[float, int, int, str]:
+        updated_at = parse_history_datetime(topic.get("updatedAt")) or parse_history_datetime(topic.get("createdAt"))
+        updated_score = updated_at.timestamp() if updated_at else 0.0
+        podcast_count = get_topic_podcast_count(topic) if isinstance(topic, dict) else 0
+        divergence_strength = get_topic_divergence_strength(topic) if isinstance(topic, dict) else 0
+        title = normalize_topic_text(str(topic.get("title") or "").strip())
+        return (-updated_score, -podcast_count, -divergence_strength, title)
+
+    return sorted(topics, key=sort_key)
+
+
+def load_topic_registry(path: Path, fallback_now: datetime) -> list[dict]:
+    history = normalize_topic_history_entries(load_topic_history(path))
+    if not history:
+        return []
+
+    registry: list[dict] = []
+    for entry in sorted(history, key=lambda item: topic_generated_at(item, fallback_now)):
+        candidate = topic_registry_topic(entry, topic_generated_at(entry, fallback_now))
+        match_index = next((index for index, record in enumerate(registry) if topic_is_duplicate(candidate, record)), None)
+        if match_index is None:
+            registry.append(candidate)
+            continue
+
+        merged, _ = merge_topic_records(registry[match_index], candidate, topic_generated_at(entry, fallback_now))
+        registry[match_index] = merged
+
+    return sort_topic_registry(registry)
+
+
+def topic_history_entry(topic: dict, generated_at: datetime) -> dict:
+    entry = {
         "generatedAt": generated_at.isoformat(),
         "title": str(topic.get("title") or "").strip(),
         "domainTag": str(topic.get("domainTag") or DEFAULT_DOMAIN).strip() or DEFAULT_DOMAIN,
@@ -470,6 +610,13 @@ def topic_history_entry(topic: dict, generated_at: datetime) -> dict:
         "divergence": topic.get("divergence") if isinstance(topic.get("divergence"), list) else [],
         "fingerprint": topic_fingerprint(topic),
     }
+    created_at = str(topic.get("createdAt") or "").strip()
+    updated_at = str(topic.get("updatedAt") or "").strip()
+    if created_at:
+        entry["createdAt"] = created_at
+    if updated_at:
+        entry["updatedAt"] = updated_at
+    return entry
 
 
 def history_entry_signature(entry: dict) -> str:
@@ -522,6 +669,7 @@ def topic_is_duplicate(topic: dict, history_entry: dict) -> bool:
 
 def filter_topics_by_history(topics: list[dict], history: list[dict]) -> list[dict]:
     if not history:
+        log_explore(f"history filter skipped: input={len(topics)} kept={len(topics)}")
         return topics
 
     filtered: list[dict] = []
@@ -529,6 +677,7 @@ def filter_topics_by_history(topics: list[dict], history: list[dict]) -> list[di
         if any(topic_is_duplicate(topic, entry) for entry in history):
             continue
         filtered.append(topic)
+    log_explore(f"history filter: input={len(topics)} kept={len(filtered)} removed={len(topics) - len(filtered)}")
     return filtered
 
 
@@ -547,6 +696,20 @@ def recent_topic_prompt(history: list[dict], limit: int = 10) -> str:
         for entry in history[:limit]
     ]
     return json.dumps(payload, ensure_ascii=False, indent=2)
+
+
+def log_explore(message: str) -> None:
+    print(f"[Explore] {message}", flush=True)
+
+
+def describe_ai_payload(value: object) -> str:
+    if value is None:
+        return "none"
+    if isinstance(value, list):
+        return f"list(len={len(value)})"
+    if isinstance(value, dict):
+        return f"dict(keys={len(value)})"
+    return type(value).__name__
 
 
 def append_topic_history(topics: list[dict], now: datetime, path: Path) -> None:
@@ -947,6 +1110,144 @@ def score_candidates(episodes: list[FeedEpisode], now: datetime) -> list[ScoredE
     return sorted(scored, key=lambda item: item.total_score, reverse=True)
 
 
+def briefing_history_fingerprint(entry: dict) -> str:
+    episode_id = str(entry.get("episodeId") or "").strip()
+    if episode_id:
+        return episode_id
+    podcast_name = str(entry.get("podcastName") or "").strip()
+    episode_title = str(entry.get("episodeTitle") or "").strip()
+    return f"{podcast_name}::{episode_title}"
+
+
+def briefing_history_entry(item: ScoredEpisode | dict, generated_at: datetime) -> dict:
+    episode_id = ""
+    podcast_name = ""
+    episode_title = ""
+
+    if isinstance(item, ScoredEpisode):
+        episode_id = item.episode.unique_id
+        podcast_name = item.episode.podcast_name
+        episode_title = item.episode.episode_title
+    elif isinstance(item, dict):
+        episode_id = str(item.get("episodeId") or "").strip()
+        podcast_name = str(item.get("podcastName") or "").strip()
+        episode_title = str(item.get("episodeTitle") or "").strip()
+
+    entry = {
+        "episodeId": episode_id,
+        "podcastName": podcast_name,
+        "episodeTitle": episode_title,
+        "generatedAt": generated_at.isoformat(),
+    }
+    entry["fingerprint"] = briefing_history_fingerprint(entry)
+    return entry
+
+
+def normalize_briefing_history_entries(history: list[dict]) -> list[dict]:
+    normalized: list[dict] = []
+    for entry in history:
+        if not isinstance(entry, dict):
+            continue
+        normalized_entry = dict(entry)
+        normalized_entry["episodeId"] = str(normalized_entry.get("episodeId") or "").strip()
+        normalized_entry["podcastName"] = str(normalized_entry.get("podcastName") or "").strip()
+        normalized_entry["episodeTitle"] = str(normalized_entry.get("episodeTitle") or "").strip()
+        normalized_entry["generatedAt"] = str(normalized_entry.get("generatedAt") or "").strip()
+        normalized_entry["fingerprint"] = briefing_history_fingerprint(normalized_entry)
+        if not normalized_entry["episodeId"] and not normalized_entry["fingerprint"]:
+            continue
+        normalized.append(normalized_entry)
+    return normalized
+
+
+def load_briefing_history(path: Path) -> list[dict]:
+    if not path.exists():
+        return []
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return []
+    if not isinstance(data, list):
+        return []
+    return normalize_briefing_history_entries([item for item in data if isinstance(item, dict)])
+
+
+def write_briefing_history(history: list[dict], path: Path) -> None:
+    path.write_text(json.dumps(history, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def is_recent_briefing_entry(entry: dict, now: datetime, days: int = BRIEFING_HISTORY_LOOKBACK_DAYS) -> bool:
+    generated_at = parse_history_datetime(entry.get("generatedAt"))
+    if not generated_at:
+        return False
+    return max((now - generated_at).total_seconds() / 86400, 0) <= days
+
+
+def recent_briefing_history(history: list[dict], now: datetime, days: int = BRIEFING_HISTORY_LOOKBACK_DAYS) -> list[dict]:
+    return [entry for entry in history if is_recent_briefing_entry(entry, now, days)]
+
+
+def briefing_history_episode_ids(history: list[dict]) -> set[str]:
+    return {str(entry.get("episodeId") or "").strip() for entry in history if str(entry.get("episodeId") or "").strip()}
+
+
+def load_briefing_history_seed_from_output(path: Path, generated_at: datetime) -> list[dict]:
+    if not path.exists():
+        return []
+
+    try:
+        text = path.read_text(encoding="utf-8")
+    except (OSError, json.JSONDecodeError):
+        return []
+
+    match = re.search(r"export const initialData: BriefingCardData = (.*);\s*$", text, re.S)
+    if not match:
+        return []
+
+    try:
+        data = json.loads(match.group(1))
+    except json.JSONDecodeError:
+        return []
+
+    if not isinstance(data, dict):
+        return []
+
+    cards = [data.get("mainEpisode"), *data.get("backupEpisodes", [])]
+    return [
+        briefing_history_entry(card, generated_at)
+        for card in cards
+        if isinstance(card, dict)
+    ]
+
+
+def ensure_briefing_history_seeded(history_path: Path, output_path: Path, generated_at: datetime) -> None:
+    if load_briefing_history(history_path):
+        return
+
+    seed = load_briefing_history_seed_from_output(output_path, generated_at)
+    if seed:
+        write_briefing_history(seed, history_path)
+
+
+def append_briefing_history(selected: list[ScoredEpisode], now: datetime, path: Path) -> None:
+    if not selected:
+        return
+
+    history = normalize_briefing_history_entries(load_briefing_history(path))
+    updated = [briefing_history_entry(item, now) for item in selected] + history
+    deduped: list[dict] = []
+    seen: set[str] = set()
+
+    for entry in updated:
+        signature = briefing_history_fingerprint(entry)
+        if signature in seen:
+            continue
+        seen.add(signature)
+        deduped.append(entry)
+
+    write_briefing_history(deduped[:BRIEFING_HISTORY_MAX_ENTRIES], path)
+
+
 def is_recent(episode: FeedEpisode, now: datetime) -> bool:
     if not episode.published_at:
         return False
@@ -959,10 +1260,16 @@ def is_recent_within_days(episode: FeedEpisode, now: datetime, days: int) -> boo
     return max((now - episode.published_at).total_seconds() / 86400, 0) <= days
 
 
-def select_candidates(scored: list[ScoredEpisode], now: datetime, limit: int = 3) -> list[ScoredEpisode]:
+def select_candidates(
+    scored: list[ScoredEpisode],
+    now: datetime,
+    limit: int = 3,
+    blocked_episode_ids: set[str] | None = None,
+) -> list[ScoredEpisode]:
     selected: list[ScoredEpisode] = []
     used_podcasts: set[str] = set()
     used_domains: set[str] = set()
+    blocked_episode_ids = blocked_episode_ids or set()
 
     recent = [item for item in scored if is_recent(item.episode, now)]
     stock = [item for item in scored if not is_recent(item.episode, now)]
@@ -970,6 +1277,8 @@ def select_candidates(scored: list[ScoredEpisode], now: datetime, limit: int = 3
     def add_from(pool: list[ScoredEpisode], *, relaxed: bool = False) -> bool:
         for item in pool:
             if item in selected:
+                continue
+            if item.episode.unique_id in blocked_episode_ids:
                 continue
             domain = item.domain
             if not relaxed and item.episode.podcast_name in used_podcasts:
@@ -1078,9 +1387,14 @@ def prefilter_candidates(
     return pool[:pool_size]
 
 
-def ai_select(pool: list[ScoredEpisode], deepseek_key: str) -> list[ScoredEpisode]:
+def ai_select(
+    pool: list[ScoredEpisode],
+    deepseek_key: str,
+    blocked_episode_ids: set[str] | None = None,
+) -> list[ScoredEpisode]:
     fallback_now = SELECTION_NOW or local_now()
-    fallback_selected = select_candidates(pool, fallback_now, limit=3)
+    fallback_selected = select_candidates(pool, fallback_now, limit=3, blocked_episode_ids=blocked_episode_ids)
+    blocked_episode_ids = blocked_episode_ids or set()
     if not pool:
         print("[FALLBACK] selected 0 items from empty pool", flush=True)
         return fallback_selected
@@ -1158,6 +1472,8 @@ def ai_select(pool: list[ScoredEpisode], deepseek_key: str) -> list[ScoredEpisod
             continue
 
         item = pool[index - 1]
+        if item.episode.unique_id in blocked_episode_ids:
+            continue
         podcast_name = item.episode.podcast_name
         if podcast_name in seen_podcasts:
             continue
@@ -1617,21 +1933,34 @@ def clean_topic_point(value: object, episode_map: dict[str, ScoredEpisode]) -> d
 
 def normalize_topics(ai_data: object, episode_map: dict[str, ScoredEpisode]) -> list[dict]:
     if not isinstance(ai_data, list):
+        log_explore(f"normalize_topics: invalid payload={describe_ai_payload(ai_data)}")
         return []
 
     topics: list[dict] = []
     seen_titles: set[str] = set()
+    stats = {
+        "input": len(ai_data),
+        "non_dict": 0,
+        "empty_title": 0,
+        "duplicate_title": 0,
+        "no_valid_points": 0,
+        "too_few_podcasts": 0,
+        "kept": 0,
+    }
 
     for item in ai_data:
         if not isinstance(item, dict):
+            stats["non_dict"] += 1
             continue
 
         title = re.sub(r"\s+", "", str(item.get("title") or "").strip())
         domain_tag = str(item.get("domainTag") or "").strip() or DEFAULT_DOMAIN
         if not title:
+            stats["empty_title"] += 1
             continue
         title = title[:20]
         if title in seen_titles:
+            stats["duplicate_title"] += 1
             continue
 
         consensus_raw = item.get("consensus") if isinstance(item.get("consensus"), list) else []
@@ -1668,9 +1997,11 @@ def normalize_topics(ai_data: object, episode_map: dict[str, ScoredEpisode]) -> 
             divergence_podcasts = {row["podcast"] for row in divergence}
 
         if not consensus and not divergence:
+            stats["no_valid_points"] += 1
             continue
 
         if len(consensus_podcasts) < 2 and len(divergence_podcasts) < 2:
+            stats["too_few_podcasts"] += 1
             continue
 
         if consensus and len(consensus_podcasts) < 2:
@@ -1691,7 +2022,15 @@ def normalize_topics(ai_data: object, episode_map: dict[str, ScoredEpisode]) -> 
             }
         )
         seen_titles.add(title)
+        stats["kept"] += 1
 
+    log_explore(
+        "normalize_topics: "
+        f"input={stats['input']} kept={stats['kept']} "
+        f"non_dict={stats['non_dict']} empty_title={stats['empty_title']} "
+        f"duplicate_title={stats['duplicate_title']} no_valid_points={stats['no_valid_points']} "
+        f"too_few_podcasts={stats['too_few_podcasts']}"
+    )
     return topics
 
 
@@ -1719,16 +2058,25 @@ def build_topics(
     now: datetime,
     env: dict[str, str],
     timeout: int,
-) -> list[dict]:
+) -> tuple[list[dict], list[dict]]:
+    existing_registry = load_topic_registry(DEFAULT_TOPIC_HISTORY, now)
     topic_items = select_topic_source_episodes(scored, now, days=14)
+    log_explore(
+        f"start: source_episodes={len(topic_items)} "
+        f"deepseek_key={'yes' if env.get('DEEPSEEK_API_KEY') else 'no'}"
+    )
     if len(topic_items) < 2 or not env.get("DEEPSEEK_API_KEY"):
-        return []
+        log_explore("no new candidates; keep existing registry")
+        return existing_registry, []
 
     topic_history = recent_topic_history(load_topic_history(DEFAULT_TOPIC_HISTORY), now)
     if not topic_history:
         topic_history = load_topic_seed_from_explore(DEFAULT_EXPLORE, now)
     episode_map = {item.episode.unique_id: item for item in topic_items}
-    print(f"[Explore] Building topics from {len(topic_items)} episodes in the last 14 days", flush=True)
+    log_explore(
+        f"building: source_episodes={len(topic_items)} recent_history={len(topic_history)} "
+        f"target={TOPIC_TARGET_COUNT}"
+    )
     strict_ai_data = deepseek_json(
         [
             {"role": "system", "content": TOPIC_SYSTEM_PROMPT},
@@ -1738,38 +2086,63 @@ def build_topics(
         timeout,
         response_format=None,
     )
+    log_explore(f"strict model response={describe_ai_payload(strict_ai_data)}")
     strict_topics_raw = normalize_topics(strict_ai_data, episode_map)
     strict_topics = filter_topics_by_history(strict_topics_raw, topic_history)
-    if topic_history and len(strict_topics) != len(strict_topics_raw):
-        print(
-            f"[Explore] filtered {len(strict_topics_raw) - len(strict_topics)} repeated topics against {len(topic_history)} recent records",
-            flush=True,
-        )
-    if len(strict_topics) >= TOPIC_TARGET_COUNT:
-        return strict_topics[:TOPIC_TARGET_COUNT]
-
-    related_recent_topics = merge_topic_lists(strict_topics, topic_history)
-    related_ai_data = deepseek_json(
-        [
-            {"role": "system", "content": RELATED_TOPIC_SYSTEM_PROMPT},
-            {"role": "user", "content": topics_user_prompt(topic_items, related_recent_topics, mode="related")},
-        ],
-        env,
-        timeout,
-        response_format=None,
+    log_explore(
+        f"strict topics: raw={len(strict_topics_raw)} after_history={len(strict_topics)} "
+        f"history_size={len(topic_history)}"
     )
-    related_topics = filter_topics_by_history(normalize_topics(related_ai_data, episode_map), related_recent_topics)
-    merged_topics = merge_topic_lists(strict_topics, related_topics)
-    if len(merged_topics) < len(strict_topics):
-        merged_topics = strict_topics
-    if len(merged_topics) > TOPIC_TARGET_COUNT:
-        merged_topics = merged_topics[:TOPIC_TARGET_COUNT]
-    if len(merged_topics) > len(strict_topics):
-        print(
-            f"[Explore] added {len(merged_topics) - len(strict_topics)} related topics for broader coverage",
-            flush=True,
+    candidate_topics = strict_topics[:TOPIC_TARGET_COUNT]
+    if len(candidate_topics) >= TOPIC_TARGET_COUNT:
+        log_explore(f"done via strict topics: kept={len(candidate_topics)}")
+    else:
+        related_recent_topics = merge_topic_lists(strict_topics, topic_history)
+        related_ai_data = deepseek_json(
+            [
+                {"role": "system", "content": RELATED_TOPIC_SYSTEM_PROMPT},
+                {"role": "user", "content": topics_user_prompt(topic_items, related_recent_topics, mode="related")},
+            ],
+            env,
+            timeout,
+            response_format=None,
         )
-    return merged_topics
+        log_explore(f"related model response={describe_ai_payload(related_ai_data)}")
+        related_topics = filter_topics_by_history(normalize_topics(related_ai_data, episode_map), related_recent_topics)
+        candidate_topics = merge_topic_lists(strict_topics, related_topics)
+        if len(candidate_topics) < len(strict_topics):
+            candidate_topics = strict_topics
+        if len(candidate_topics) > TOPIC_TARGET_COUNT:
+            candidate_topics = candidate_topics[:TOPIC_TARGET_COUNT]
+        log_explore(
+            f"candidate topics: strict={len(strict_topics)} related={len(related_topics)} merged={len(candidate_topics)}"
+        )
+
+    merged_registry = list(existing_registry)
+    changed_topics: list[dict] = []
+
+    for candidate in candidate_topics:
+        candidate = topic_registry_topic(candidate, now)
+        match_index = next(
+            (index for index, record in enumerate(merged_registry) if topic_is_duplicate(candidate, record)),
+            None,
+        )
+        if match_index is None:
+            merged_registry.append(candidate)
+            changed_topics.append(candidate)
+            continue
+
+        merged_record, changed = merge_topic_records(merged_registry[match_index], candidate, now)
+        if changed:
+            merged_registry[match_index] = merged_record
+            changed_topics.append(merged_record)
+
+    merged_registry = sort_topic_registry(merged_registry)
+    log_explore(
+        f"final registry: existing={len(existing_registry)} candidates={len(candidate_topics)} "
+        f"merged={len(merged_registry)} changed={len(changed_topics)}"
+    )
+    return merged_registry, changed_topics
 
 
 def clone_card(card: dict, scenario_index: int | None = None) -> dict:
@@ -1995,26 +2368,43 @@ def main() -> int:
     SELECTION_NOW = now
     env = apply_runtime_env(load_env(ROOT / ".env"))
     ensure_topic_history_seeded(DEFAULT_TOPIC_HISTORY, DEFAULT_EXPLORE, now)
+    ensure_briefing_history_seeded(DEFAULT_BRIEFING_HISTORY, DEFAULT_OUTPUT, now)
     deepseek_key = env.get("DEEPSEEK_API_KEY", "")
     pool = prefilter_candidates(scored, now, window_days=7, pool_size=20)
-    selected = ai_select(pool, deepseek_key)
+    briefing_history = recent_briefing_history(load_briefing_history(DEFAULT_BRIEFING_HISTORY), now)
+    blocked_episode_ids = briefing_history_episode_ids(briefing_history)
+    briefing_pool = [item for item in pool if item.episode.unique_id not in blocked_episode_ids]
+    selected = ai_select(briefing_pool, deepseek_key, blocked_episode_ids=blocked_episode_ids)
     card_cache = build_card_cache(selected, env, args.ai_timeout)
     data = to_frontend_briefing(build_briefing(selected, now, card_cache, env, args.ai_timeout))
-    explore_data = build_topics(scored, now, env, args.ai_timeout)
+    explore_data, explore_updates = build_topics(scored, now, env, args.ai_timeout)
     ranking_rows = build_ranking_rows(scored)
 
-    if not validate_briefing(data) or not validate_ranking(ranking_rows) or not validate_explore(explore_data):
-        abort_schema_invalid()
+    briefing_valid = validate_briefing(data)
+    ranking_valid = validate_ranking(ranking_rows)
+    explore_valid = validate_explore(explore_data)
 
-    append_topic_history(explore_data, now, DEFAULT_TOPIC_HISTORY)
-    write_generated_ts(data, args.output)
-    write_ranking(ranking_rows, args.ranking)
-    write_explore(explore_data, args.explore)
-    write_explore_public(explore_data, DEFAULT_EXPLORE_PUBLIC)
+    if briefing_valid:
+        append_briefing_history(selected, now, DEFAULT_BRIEFING_HISTORY)
+        write_generated_ts(data, args.output)
+        print(f"[OK] write {args.output}")
+    else:
+        print("[ABORT] briefing schema invalid, keep previous data")
 
-    print(f"[OK] write {args.output}")
-    print(f"[OK] write {args.ranking}")
-    print(f"[OK] write {args.explore}")
+    if ranking_valid:
+        write_ranking(ranking_rows, args.ranking)
+        print(f"[OK] write {args.ranking}")
+    else:
+        print("[ABORT] ranking schema invalid, keep previous data")
+
+    if explore_valid:
+        append_topic_history(explore_updates, now, DEFAULT_TOPIC_HISTORY)
+        write_explore(explore_data, args.explore)
+        write_explore_public(explore_data, DEFAULT_EXPLORE_PUBLIC)
+        print(f"[OK] write {args.explore}")
+    else:
+        print("[ABORT] schema invalid, keep previous data")
+
     print(f"RSS feeds found: {len(rss_urls)}")
     print(f"Episodes parsed after favorite filtering: {len(episodes)}")
     print(f"Skipped feeds: {len(failures)}")

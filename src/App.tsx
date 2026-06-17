@@ -10,17 +10,20 @@ import {
   Bookmark,
   ChevronDown,
   Compass,
+  Clock3,
   Sparkles,
   User,
   X,
 } from 'lucide-react';
 import exploreDataRaw from './explore.json';
+import briefingHistoryRaw from './briefingHistory.json';
 import favoritesDataRaw from './favorites.json';
 import rankingDataRaw from './ranking.json';
 import { initialData } from './generatedData';
 import { FavoriteHeartButton } from './components/FavoriteHeartButton';
 import { useFavorites } from './hooks/useFavorites';
 import {
+  BriefingHistoryEntry,
   ExploreData,
   FavoriteRecord,
   PodcastEpisode,
@@ -34,6 +37,7 @@ type AppTab = 'curated' | 'favorites' | 'my';
 
 const favoritesSeed = favoritesDataRaw as PodcastEpisode[];
 const rankingData = rankingDataRaw as RankingEpisode[];
+const briefingHistorySeed = briefingHistoryRaw as BriefingHistoryEntry[];
 const FIRST_VISIT_DATE_STORAGE_KEY = 'firstVisitDate';
 const LEGACY_FIRST_VISIT_DATE_STORAGE_KEY = 'pickast-first-visit-date';
 const ABOUT_PICKAST_TEXT = `听荐是一款 AI 驱动的播客筛选工具,帮你从信息洪流里捞出真正值得听的内容。
@@ -42,7 +46,7 @@ const ABOUT_PICKAST_TEXT = `听荐是一款 AI 驱动的播客筛选工具,帮�
 AI 每天替你听完上百集播客,挑出 3 期最值得听的,附推荐理由和节目金句,让你 10 秒就能判断"要不要听这期"。
 
 ② 议题广场
-当多档播客同时讨论同一件事,AI 会自动聚合它们的共识与分歧,一眼看清"大家怎么看"。
+最近 14 天里，AI 把多档播客围着同一问题聊开的内容聚到一起，让你一眼看到最近大家都在吵什么。
 
 ③ 收藏夹
 想反复听的单集、击中你的播客观点,一键收藏。已收藏的不再重复推荐,避免推荐疲劳。
@@ -77,9 +81,75 @@ function getTopicPodcastCount(topic: ExploreData[number]) {
   return new Set([...topic.consensus, ...topic.divergence].map((item) => item.podcast)).size;
 }
 
+function getTopicDivergenceStrength(topic: ExploreData[number]) {
+  const divergencePodcasts = new Set(topic.divergence.map((item) => item.podcast)).size;
+  return divergencePodcasts * 100 + topic.divergence.length;
+}
+
+function getTopicDateValue(topic: ExploreData[number]) {
+  return topic.updatedAt ?? topic.createdAt ?? '';
+}
+
+function formatTopicDate(value?: string) {
+  if (!value) {
+    return '';
+  }
+
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) {
+    return value;
+  }
+
+  return new Intl.DateTimeFormat('zh-CN', {
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+  })
+    .format(date)
+    .replace(/\//g, '.');
+}
+
+function getTopicSortScore(topic: ExploreData[number]) {
+  return {
+    podcastCount: getTopicPodcastCount(topic),
+    divergenceStrength: getTopicDivergenceStrength(topic),
+    dateValue: getTopicDateValue(topic),
+  };
+}
+
 function getShortWeekday(chinaDateStr: string) {
   const chineseWeekday = chinaDateStr.split('/')[0]?.trim() ?? '';
   return chineseWeekday.replace('星期', '周');
+}
+
+function formatHistoryDate(value: string) {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) {
+    return value;
+  }
+
+  return new Intl.DateTimeFormat('zh-CN', {
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    weekday: 'short',
+  }).format(date);
+}
+
+function getHistoryGroupKey(entry: BriefingHistoryEntry) {
+  const date = new Date(entry.generatedAt);
+  if (Number.isNaN(date.getTime())) {
+    return entry.generatedAt || '未知日期';
+  }
+
+  return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(
+    date.getDate()
+  ).padStart(2, '0')}`;
+}
+
+function getHistorySortValue(entry: BriefingHistoryEntry) {
+  const date = new Date(entry.generatedAt);
+  return Number.isNaN(date.getTime()) ? 0 : date.getTime();
 }
 
 function getCalendarDayDiff(fromDate: string, toDate: Date) {
@@ -213,6 +283,12 @@ type EpisodeDeckProps = {
   isFavorited: (episode: PodcastEpisode) => boolean;
   onToggleFavorite: (episode: PodcastEpisode, event?: React.MouseEvent) => void;
   isCompactViewport: boolean;
+};
+
+type TopicEpisodeMeta = {
+  title: string;
+  podcastName: string;
+  coverUrl: string;
 };
 
 function AdaptiveQuoteText({ quote }: { quote: string }) {
@@ -534,6 +610,7 @@ function TopicSection({
   topic,
   title,
   points,
+  episodeMetaLookup,
   isFavorited,
   onToggleFavorite,
   isCompactViewport,
@@ -541,6 +618,7 @@ function TopicSection({
   topic: Topic;
   title: string;
   points: TopicPoint[];
+  episodeMetaLookup: Map<string, TopicEpisodeMeta>;
   isFavorited: (episodeId: string) => boolean;
   onToggleFavorite: (point: TopicPoint, topic: Topic, event?: React.MouseEvent) => void;
   isCompactViewport: boolean;
@@ -566,6 +644,11 @@ function TopicSection({
             />
             <p className="text-[14px] font-semibold text-[#666666]">{point.podcast}</p>
             <p className="mt-1 text-[15px] leading-[1.6] text-[#1A1A1A]">{point.point}</p>
+            <p className="mt-2 text-[10px] leading-relaxed text-[#888888]">
+              {episodeMetaLookup.get(point.episodeId)?.podcastName ?? point.podcast}
+              {' · '}
+              {episodeMetaLookup.get(point.episodeId)?.title ?? '来源单集'}
+            </p>
             <XiaoyuzhouListenLink
               episodeId={point.episodeId}
               isCompactViewport={isCompactViewport}
@@ -582,10 +665,15 @@ export default function App() {
   const [activeTab, setActiveTab] = useState<AppTab>('curated');
   const [activeIndex, setActiveIndex] = useState(0);
   const [showExplore, setShowExplore] = useState(false);
+  const [showHistory, setShowHistory] = useState(false);
   const [selectedTopicIndex, setSelectedTopicIndex] = useState<number | null>(null);
+  const [collapsedHistoryGroups, setCollapsedHistoryGroups] = useState<Set<string>>(() => new Set());
   const [daysSinceFirstVisit, setDaysSinceFirstVisit] = useState(0);
   const [aboutExpanded, setAboutExpanded] = useState(false);
   const [toastMessage, setToastMessage] = useState<string | null>(null);
+  const [briefingHistory, setBriefingHistory] = useState<BriefingHistoryEntry[]>(() =>
+    Array.isArray(briefingHistorySeed) ? briefingHistorySeed : []
+  );
   const [exploreTopics, setExploreTopics] = useState<ExploreData>(() =>
     Array.isArray(exploreDataRaw) ? exploreDataRaw : []
   );
@@ -605,7 +693,31 @@ export default function App() {
     [curatedEpisodes]
   );
   const curatedSynthesis = toSynthesis(initialData.synthesis);
-  const selectedTopic = selectedTopicIndex !== null ? exploreTopics[selectedTopicIndex] ?? null : null;
+  const sortedExploreTopics = useMemo(
+    () =>
+      [...exploreTopics].sort((left, right) => {
+        const leftScore = getTopicSortScore(left);
+        const rightScore = getTopicSortScore(right);
+
+        if (rightScore.podcastCount !== leftScore.podcastCount) {
+          return rightScore.podcastCount - leftScore.podcastCount;
+        }
+
+        if (rightScore.divergenceStrength !== leftScore.divergenceStrength) {
+          return rightScore.divergenceStrength - leftScore.divergenceStrength;
+        }
+
+        const leftDate = new Date(leftScore.dateValue).getTime();
+        const rightDate = new Date(rightScore.dateValue).getTime();
+        if (!Number.isNaN(rightDate) && !Number.isNaN(leftDate) && rightDate !== leftDate) {
+          return rightDate - leftDate;
+        }
+
+        return left.title.localeCompare(right.title, 'zh-Hans-CN');
+      }),
+    [exploreTopics]
+  );
+  const selectedTopic = selectedTopicIndex !== null ? sortedExploreTopics[selectedTopicIndex] ?? null : null;
   const podcastCoverLookup = useMemo(() => {
     const map = new Map<string, string>();
 
@@ -650,6 +762,26 @@ export default function App() {
     legacyLookup: legacyBriefingFavoriteLookup,
     seedFavorites: briefingFavoriteSeed,
   });
+  const historyEntries = useMemo(
+    () => [...briefingHistory].sort((a, b) => getHistorySortValue(b) - getHistorySortValue(a)),
+    [briefingHistory]
+  );
+  const historyGroups = useMemo(() => {
+    const groups = new Map<string, BriefingHistoryEntry[]>();
+
+    historyEntries.forEach((entry) => {
+      const key = getHistoryGroupKey(entry);
+      const list = groups.get(key) ?? [];
+      list.push(entry);
+      groups.set(key, list);
+    });
+
+    return [...groups.entries()].map(([dateKey, items]) => ({
+      dateKey,
+      label: formatHistoryDate(items[0]?.generatedAt ?? dateKey),
+      items,
+    }));
+  }, [historyEntries]);
   const topicEpisodeMetaLookup = useMemo(() => {
     const map = new Map<
       string,
@@ -693,7 +825,7 @@ export default function App() {
       }
     >();
 
-    exploreTopics.forEach((topic) => {
+    sortedExploreTopics.forEach((topic) => {
       [...topic.consensus, ...topic.divergence].forEach((point) => {
         if (!map.has(point.episodeId)) {
           map.set(point.episodeId, {
@@ -706,7 +838,7 @@ export default function App() {
     });
 
     return map;
-  }, [exploreTopics]);
+  }, [sortedExploreTopics]);
   const subscriptionItems = useMemo<SubscriptionMockItem[]>(() => {
     const map = new Map<string, SubscriptionMockItem>();
 
@@ -735,7 +867,7 @@ export default function App() {
     };
 
     curatedEpisodes.forEach((episode) => registerSource(episode as PodcastSourceWithOptionalId));
-    exploreTopics.forEach((topic) => {
+    sortedExploreTopics.forEach((topic) => {
       [...topic.consensus, ...topic.divergence].forEach((point) => {
         registerSource({ podcastName: point.podcast });
       });
@@ -743,7 +875,7 @@ export default function App() {
     rankingData.forEach((episode) => registerSource(episode as PodcastSourceWithOptionalId));
 
     return [...map.values()];
-  }, [curatedEpisodes, exploreTopics]);
+  }, [curatedEpisodes, sortedExploreTopics]);
   const favoriteItems = useMemo(
     () => [...favorites].sort((a, b) => b.addedAt - a.addedAt),
     [favorites]
@@ -823,17 +955,50 @@ export default function App() {
   const switchTab = (tab: AppTab) => {
     setActiveTab(tab);
     setShowExplore(false);
+    setShowHistory(false);
     setSelectedTopicIndex(null);
   };
 
   const openExplore = () => {
     setShowExplore(true);
+    setShowHistory(false);
+    setSelectedTopicIndex(null);
+  };
+
+  const openHistory = () => {
+    setCollapsedHistoryGroups(new Set(historyGroups.map((group) => group.dateKey)));
+    setShowHistory(true);
+    setShowExplore(false);
     setSelectedTopicIndex(null);
   };
 
   const closeExplore = () => {
     setShowExplore(false);
     setSelectedTopicIndex(null);
+  };
+
+  const closeHistory = () => {
+    setShowHistory(false);
+  };
+
+  const toggleHistoryGroup = (dateKey: string) => {
+    setCollapsedHistoryGroups((prev) => {
+      const next = new Set(prev);
+      if (next.has(dateKey)) {
+        next.delete(dateKey);
+      } else {
+        next.add(dateKey);
+      }
+      return next;
+    });
+  };
+
+  const returnToToday = () => {
+    setShowHistory(false);
+    setShowExplore(false);
+    setSelectedTopicIndex(null);
+    setActiveTab('curated');
+    setActiveIndex(0);
   };
 
   const shortWeekday = getShortWeekday(initialData.chinaDateStr);
@@ -904,20 +1069,24 @@ export default function App() {
         <div className="relative flex flex-1 flex-col overflow-hidden pb-[calc(96px+env(safe-area-inset-bottom,0px))]">
           {activeTab === 'curated' ? (
             <div className="flex h-full min-h-0 flex-1 flex-col overflow-x-visible overflow-y-visible px-4 pb-2 pt-0 md:px-5">
-              <div className="mt-3 flex items-end justify-between border-b border-black/10 pb-4 select-none">
-                <div className="flex items-baseline gap-1">
-                  <span className="font-serif font-black text-xl tracking-tight text-[#1A1A1A]">听荐</span>
-                  <span
-                    translate="no"
-                    className="notranslate font-mono text-[9px] text-[#888888] font-bold tracking-wider uppercase"
-                  >
-                    Pickast
-                  </span>
+              <div className="mt-3 select-none">
+                <div className="flex items-baseline justify-between gap-3">
+                  <div className="flex items-baseline gap-1">
+                    <span className="font-serif font-black text-xl tracking-tight text-[#1A1A1A]">听荐</span>
+                    <span
+                      translate="no"
+                      className="notranslate font-mono text-[9px] text-[#888888] font-bold tracking-wider uppercase"
+                    >
+                      Pickast
+                    </span>
+                  </div>
+
+                  <div className="text-[9.5px] font-serif font-bold text-[#666666]/90 text-right leading-tight">
+                    {initialData.dateStr} {shortWeekday}
+                  </div>
                 </div>
 
-                <div className="text-[9.5px] font-serif font-bold text-[#666666]/90 text-right leading-tight">
-                  {initialData.dateStr} {shortWeekday}
-                </div>
+                <div className="mt-3 border-b border-black/10 pb-3" />
               </div>
 
               <div className="flex min-h-[calc(100%+14px)] flex-1 flex-col justify-center gap-3 overflow-visible py-4 translate-y-[10px]">
@@ -1100,6 +1269,28 @@ export default function App() {
                     </div>
                   </section>
 
+                  <section className="relative overflow-hidden rounded-[24px] border border-black/10 bg-white px-4 py-3 paper-texture shadow-sm">
+                    <div className="absolute inset-x-0 top-0 h-[5.5px]" style={{ backgroundColor: '#D14A28' }} />
+                    <div className="flex items-center justify-between gap-4">
+                      <div>
+                        <p className="font-serif font-black text-[15px] text-[#1A1A1A]">历史播客</p>
+                        <p className="mt-1 text-[11px] leading-relaxed text-[#666666]">
+                          查看最近推送过的精选内容，默认折叠。
+                        </p>
+                      </div>
+
+                      <button
+                        type="button"
+                        onClick={openHistory}
+                        className="inline-flex h-8 items-center gap-1.5 rounded-full bg-transparent px-0 text-[11px] font-semibold text-[#1A1A1A] transition hover:opacity-70 active:scale-[0.98]"
+                        aria-label="打开历史播客"
+                      >
+                        <Clock3 className="h-3.5 w-3.5" />
+                        <span>查看</span>
+                      </button>
+                    </div>
+                  </section>
+
                   <section className="relative flex h-[280px] flex-col overflow-hidden rounded-[24px] border border-black/10 bg-white px-4 pb-3 pt-3.5 paper-texture shadow-sm">
                     <div className="absolute inset-x-0 top-0 h-[5.5px]" style={{ backgroundColor: '#D14A28' }} />
                     <div className="flex items-center justify-between gap-3">
@@ -1255,8 +1446,8 @@ export default function App() {
           </button>
         </div>
 
-        {showExplore ? (
-          <div className="absolute inset-0 z-[95] bg-[#F7F4EC]/95 backdrop-blur-[2px]">
+          {showExplore ? (
+            <div className="absolute inset-0 z-[95] bg-[#F7F4EC]/95 backdrop-blur-[2px]">
             <div
               className="flex h-full flex-col px-4 pt-5 md:px-5"
               style={{ paddingBottom: 'calc(80px + env(safe-area-inset-bottom, 0px))' }}
@@ -1278,15 +1469,21 @@ export default function App() {
                         <p className="font-serif font-black text-[18px] leading-snug text-[#1A1A1A]">
                           {selectedTopic.title}
                         </p>
-                        <div className="mt-2 inline-flex rounded-full bg-[#EFECE6] px-2.5 py-1 text-[9px] font-medium text-[#666666]">
-                          {selectedTopic.domainTag}
-                        </div>
+                        <p className="mt-2 text-[10px] leading-relaxed text-[#7B7468]">
+                          {getTopicPodcastCount(selectedTopic)} 档播客在聊，先看共识，再看分歧。
+                        </p>
+                        <p className="mt-1 text-[10px] leading-relaxed text-[#8C8579]">
+                          产生于 {formatTopicDate(selectedTopic.createdAt)}
+                          {selectedTopic.updatedAt && selectedTopic.updatedAt !== selectedTopic.createdAt
+                            ? ` · 最近更新 ${formatTopicDate(selectedTopic.updatedAt)}`
+                            : ''}
+                        </p>
                       </>
                     ) : (
                       <>
                         <p className="font-serif font-black text-lg text-[#1A1A1A]">议题广场</p>
                         <p className="text-[10px] leading-relaxed text-[#7B7468]">
-                          这是AI替你做的"播客圆桌"  它读完最近14天所有节目,把多档同时关心的话题摆到一起。诚实不编,凑不齐就不出。
+                          最近 14 天里，AI 把多档播客围着同一问题聊开的内容聚到一起，让你一眼看到大家最近在吵什么。
                         </p>
                       </>
                     )}
@@ -1306,40 +1503,49 @@ export default function App() {
 
               {!selectedTopic ? (
                 <div className="flex-1 overflow-y-auto pt-5">
-                  {exploreTopics.length === 0 ? (
-                    <div className="flex min-h-full items-center justify-center px-6 text-center">
-                      <p className="text-[11px] leading-relaxed text-[#888888]">
-                        最近两周,你关注的几档播客还没聊到一起的话题。明天再来看看吧~
-                      </p>
+                  {sortedExploreTopics.length === 0 ? (
+                    <div className="flex min-h-full items-start justify-center px-6 pt-8 text-center">
+                      <div className="max-w-[260px] rounded-[24px] border border-black/10 bg-white/70 px-5 py-5 shadow-sm">
+                        <p className="font-serif text-[18px] font-black leading-snug text-[#1A1A1A]">
+                          这几天大家各聊各的，还没撞到一块儿
+                        </p>
+                      </div>
                     </div>
                   ) : (
                     <div className="space-y-3">
-                      {exploreTopics.map((topic, index) => (
-                        <button
-                          key={`${topic.title}-${index}`}
-                          onClick={() => setSelectedTopicIndex(index)}
-                          className="relative w-full overflow-hidden rounded-[24px] border border-black/10 bg-white px-4 pb-4 pt-5 text-left paper-texture"
-                        >
-                          <div className="absolute inset-x-0 top-0 h-[5.5px]" style={{ backgroundColor: '#D14A28' }} />
-                          <h2
-                            className="font-serif font-black text-[15px] leading-snug text-[#1A1A1A]"
-                            style={{
-                              display: '-webkit-box',
-                              WebkitBoxOrient: 'vertical',
-                              WebkitLineClamp: 2,
-                              overflow: 'hidden',
-                            }}
+                      {sortedExploreTopics.map((topic, index) => {
+                        const score = getTopicSortScore(topic);
+
+                        return (
+                          <button
+                            key={`${topic.title}-${index}`}
+                            onClick={() => setSelectedTopicIndex(index)}
+                            className="relative w-full overflow-hidden rounded-[24px] border border-black/10 bg-white px-4 pb-4 pt-5 text-left paper-texture"
                           >
-                            {topic.title}
-                          </h2>
-                          <div className="mt-3 inline-flex rounded-full bg-[#EFECE6] px-2.5 py-1 text-[9px] font-medium text-[#666666]">
-                            {topic.domainTag}
-                          </div>
-                          <p className="mt-3 text-[10px] leading-none text-[#888888]">
-                            {getTopicPodcastCount(topic)}档播客聊到这件事
-                          </p>
-                        </button>
-                      ))}
+                            <div className="absolute inset-x-0 top-0 h-[5.5px]" style={{ backgroundColor: '#D14A28' }} />
+                            <p className="text-[10px] font-semibold tracking-[0.18em] text-[#7B7468] uppercase">
+                              {score.podcastCount} 档播客在聊
+                            </p>
+                            <h2
+                              className="mt-1 font-serif font-black text-[15px] leading-snug text-[#1A1A1A]"
+                              style={{
+                                display: '-webkit-box',
+                                WebkitBoxOrient: 'vertical',
+                                WebkitLineClamp: 2,
+                                overflow: 'hidden',
+                              }}
+                            >
+                              {topic.title}
+                            </h2>
+                            <p className="mt-3 text-[10px] leading-relaxed text-[#8C8579]">
+                              产生于 {formatTopicDate(topic.createdAt)}
+                              {topic.updatedAt && topic.updatedAt !== topic.createdAt
+                                ? ` · 最近更新 ${formatTopicDate(topic.updatedAt)}`
+                                : ''}
+                            </p>
+                          </button>
+                        );
+                      })}
                     </div>
                   )}
                 </div>
@@ -1348,16 +1554,18 @@ export default function App() {
                   <div className="space-y-5 pb-4">
                     <TopicSection
                       topic={selectedTopic}
-                      title="🤝 播客观点共识"
+                      title="共识"
                       points={selectedTopic.consensus}
+                      episodeMetaLookup={topicEpisodeMetaLookup}
                       isFavorited={(episodeId) => isFavorited(episodeId, 'topic_episode')}
                       onToggleFavorite={toggleTopicEpisodeFavorite}
                       isCompactViewport={isCompactViewport}
                     />
                     <TopicSection
                       topic={selectedTopic}
-                      title="⚡ 播客观点分歧"
+                      title="分歧"
                       points={selectedTopic.divergence}
+                      episodeMetaLookup={topicEpisodeMetaLookup}
                       isFavorited={(episodeId) => isFavorited(episodeId, 'topic_episode')}
                       onToggleFavorite={toggleTopicEpisodeFavorite}
                       isCompactViewport={isCompactViewport}
@@ -1366,9 +1574,154 @@ export default function App() {
                 </div>
               )}
             </div>
-          </div>
-        ) : null}
-      </div>
+            </div>
+          ) : null}
+
+          {showHistory ? (
+            <div className="absolute inset-0 z-[95] bg-[#F7F4EC]/95 backdrop-blur-[2px]">
+              <div
+                className="flex h-full flex-col px-4 pt-5 md:px-5"
+                style={{ paddingBottom: 'calc(80px + env(safe-area-inset-bottom, 0px))' }}
+              >
+                <div className="border-b border-black/10 pb-3">
+                  <div className="flex items-baseline justify-between gap-3">
+                    <div className="flex items-baseline gap-1">
+                      <span className="font-serif font-black text-xl tracking-tight text-[#1A1A1A]">历史播客</span>
+                      <span className="font-mono text-[9px] font-bold tracking-wider text-[#888888] uppercase">
+                        Pickast
+                      </span>
+                    </div>
+
+                    <div className="text-[9.5px] font-serif font-bold text-[#666666]/90 text-right leading-tight">
+                      {initialData.dateStr} {shortWeekday}
+                    </div>
+                  </div>
+                </div>
+
+                <div className="flex items-center justify-between py-3">
+                  <button
+                    type="button"
+                    onClick={returnToToday}
+                    className="inline-flex h-7 items-center gap-1.5 rounded-full bg-transparent px-0 text-[9.5px] font-semibold text-[#1A1A1A] transition hover:opacity-70 active:scale-[0.98]"
+                    aria-label="返回今日"
+                  >
+                    <ArrowLeft className="h-3.5 w-3.5" />
+                    <span>返回今日</span>
+                  </button>
+
+                  <button
+                    type="button"
+                    onClick={closeHistory}
+                    className="inline-flex h-7 items-center gap-1.5 rounded-full bg-transparent px-0 text-[9.5px] font-semibold text-[#666666] transition hover:opacity-70 active:scale-[0.98]"
+                    aria-label="关闭历史播客"
+                  >
+                    <X className="h-3.5 w-3.5" />
+                    <span>关闭</span>
+                  </button>
+                </div>
+
+                <div className="flex-1 overflow-y-auto pt-5">
+                  {historyEntries.length === 0 ? (
+                    <div className="flex min-h-full items-center justify-center px-6 text-center">
+                      <p className="text-[11px] leading-relaxed text-[#888888]">
+                        还没有历史推送记录，等下一次精选生成后这里会出现。
+                      </p>
+                    </div>
+                  ) : (
+                    <div className="space-y-4">
+                      {historyGroups.map((group) => (
+                        <section key={group.dateKey} className="space-y-2">
+                          <button
+                            type="button"
+                            onClick={() => toggleHistoryGroup(group.dateKey)}
+                            className="flex w-full items-center justify-between gap-3 rounded-[18px] border border-black/10 bg-transparent px-0.5 py-1 text-left transition hover:opacity-80"
+                            aria-expanded={!collapsedHistoryGroups.has(group.dateKey)}
+                          >
+                            <div className="flex items-center gap-2">
+                              <span className="font-serif font-black text-[13px] text-[#1A1A1A]">
+                                {group.label}
+                              </span>
+                              <span className="text-[9px] font-mono text-[#888888]">
+                                {group.items.length} 条
+                              </span>
+                            </div>
+
+                            <ChevronDown
+                              className={`h-4 w-4 text-[#666666] transition-transform ${
+                                collapsedHistoryGroups.has(group.dateKey) ? '-rotate-90' : ''
+                              }`}
+                            />
+                          </button>
+
+                          {collapsedHistoryGroups.has(group.dateKey) ? null : (
+                            <div className="space-y-2.5">
+                              {group.items.map((entry) => {
+                                const entryDate = new Date(entry.generatedAt);
+                                const timeLabel = Number.isNaN(entryDate.getTime())
+                                  ? entry.generatedAt
+                                  : new Intl.DateTimeFormat('zh-CN', {
+                                      hour: '2-digit',
+                                      minute: '2-digit',
+                                    }).format(entryDate);
+
+                                return (
+                                  <div
+                                    key={`${entry.fingerprint ?? entry.episodeId}-${entry.generatedAt}`}
+                                    className="relative overflow-hidden rounded-[22px] border border-black/10 bg-white px-4 pb-3 pt-3.5 paper-texture shadow-sm"
+                                  >
+                                    <div
+                                      className="absolute inset-x-0 top-0 h-[5px]"
+                                      style={{ backgroundColor: '#D14A28' }}
+                                    />
+
+                                    <div className="flex items-start justify-between gap-3">
+                                      <div className="min-w-0 flex-1">
+                                        <div className="flex items-center gap-1.5">
+                                          <span className="font-serif font-black text-[9.5px] border border-current px-1.5 py-0.5 rounded leading-none">
+                                            {entry.podcastName}
+                                          </span>
+                                          {entry.triageTag ? (
+                                            <span className="text-[9px] text-[#666666] bg-black/5 px-1 py-0.5 rounded font-medium">
+                                              {entry.triageTag}
+                                            </span>
+                                          ) : null}
+                                        </div>
+
+                                        <h3 className="mt-2 font-serif font-bold text-[13px] leading-relaxed text-[#1A1A1A]">
+                                          {entry.episodeTitle}
+                                        </h3>
+
+                                        <p className="mt-1 text-[10px] text-[#888888]">
+                                          推送时间：{timeLabel}
+                                        </p>
+                                      </div>
+
+                                      <XiaoyuzhouListenLink
+                                        episodeId={entry.episodeId}
+                                        isCompactViewport={isCompactViewport}
+                                        className="shrink-0"
+                                      />
+                                    </div>
+
+                                    {entry.whyRecommended ? (
+                                      <p className="mt-2 text-[10px] leading-relaxed text-[#666666]">
+                                        {entry.whyRecommended}
+                                      </p>
+                                    ) : null}
+                                  </div>
+                                );
+                              })}
+                            </div>
+                          )}
+                        </section>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              </div>
+            </div>
+          ) : null}
+        </div>
     </div>
   );
 }
