@@ -1241,7 +1241,10 @@ export default function App() {
           ) : null}
 
           {activeTab === 'my' ? (
-            <div className="flex h-full flex-1 flex-col justify-start overflow-y-auto px-4 pb-1 pt-3 md:px-5">
+            <div
+              className="flex h-full min-h-0 flex-1 flex-col justify-start overflow-y-auto px-4 pt-3 md:px-5"
+              style={{ paddingBottom: 'calc(112px + env(safe-area-inset-bottom, 0px))' }}
+            >
               <div>
                 <h1 className="font-serif font-black text-xl tracking-tight text-[#1A1A1A]">我的听荐</h1>
               </div>
