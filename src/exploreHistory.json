@@ -1,5 +1,34 @@
 [
   {
+    "generatedAt": "2026-06-18T06:49:46.273942+08:00",
+    "title": "AI时代如何学习新技能？",
+    "domainTag": "AI与教育",
+    "podcasts": [
+      "十字路口Crossing",
+      "韩叙的朋友们"
+    ],
+    "episodeIds": [
+      "6a275ed57444b5722235a897",
+      "6a3052464233e62bc54a7461"
+    ],
+    "consensus": [
+      {
+        "podcast": "十字路口Crossing",
+        "point": "停止用ChatGPT聊天，改用Agentic工具",
+        "episodeId": "6a275ed57444b5722235a897"
+      },
+      {
+        "podcast": "韩叙的朋友们",
+        "point": "普通人从被动重复转向主动提效",
+        "episodeId": "6a3052464233e62bc54a7461"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:4e3164faab3a87b0d88d29f257c386ca4af05d405c865c5dddd09d45511602ff",
+    "createdAt": "2026-06-18T06:49:46.273942+08:00",
+    "updatedAt": "2026-06-18T06:49:46.273942+08:00"
+  },
+  {
     "generatedAt": "2026-06-15T19:30:25.286534+08:00",
     "title": "AI时代需要学编程吗？",
     "domainTag": "AI与教育",
