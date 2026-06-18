@@ -1,5 +1,92 @@
 [
   {
+    "generatedAt": "2026-06-19T07:00:05.907679+08:00",
+    "title": "AI泡沫何时会破裂？",
+    "domainTag": "AI与投资",
+    "podcasts": [
+      "42章经",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a2a808262c3d8534722ac02",
+      "6a2bbf224233e62bc548aa81"
+    ],
+    "consensus": [
+      {
+        "podcast": "42章经",
+        "point": "泡沫无法被事先证明，但可识别四个必要不充分条件",
+        "episodeId": "6a2a808262c3d8534722ac02"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI投资看似疯狂，但经济账可能仍成立",
+        "episodeId": "6a2bbf224233e62bc548aa81"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:02f9b558bc1b9a8769cb75e8516e8382172e2472dd1ede1d50ce587c95431fcf",
+    "createdAt": "2026-06-19T07:00:05.907679+08:00",
+    "updatedAt": "2026-06-19T07:00:05.907679+08:00"
+  },
+  {
+    "generatedAt": "2026-06-19T07:00:05.907679+08:00",
+    "title": "AI如何改变企业部署和咨询？",
+    "domainTag": "AI与企业服务",
+    "podcasts": [
+      "十字路口Crossing",
+      "硅谷101"
+    ],
+    "episodeIds": [
+      "47b7778e-1ed6-4dab-b7c9-8b4a6555b867",
+      "6a275ed57444b5722235a897"
+    ],
+    "consensus": [
+      {
+        "podcast": "硅谷101",
+        "point": "模型公司开始提供部署服务，FDE岗位兴起",
+        "episodeId": "47b7778e-1ed6-4dab-b7c9-8b4a6555b867"
+      },
+      {
+        "podcast": "十字路口Crossing",
+        "point": "FDE是AI时代的新角色，连接模型与业务",
+        "episodeId": "6a275ed57444b5722235a897"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:10f1daedcd75352304a576552398ce624a969a413803569730bb3dc191309e04",
+    "createdAt": "2026-06-19T07:00:05.907679+08:00",
+    "updatedAt": "2026-06-19T07:00:05.907679+08:00"
+  },
+  {
+    "generatedAt": "2026-06-19T07:00:05.907679+08:00",
+    "title": "AI时代如何保持心理健康？",
+    "domainTag": "AI与生活",
+    "podcasts": [
+      "about热水频道",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a299d0bdbccffcfa9c6fb50",
+      "6a339d5143a22a695585d897"
+    ],
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "区分关注圈和影响圈，夺回能动性",
+        "episodeId": "6a339d5143a22a695585d897"
+      },
+      {
+        "podcast": "about热水频道",
+        "point": "讨好型人格背后是长期被忽略的委屈感",
+        "episodeId": "6a299d0bdbccffcfa9c6fb50"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:75651638df04181d88e18140454354d59ea33bb6951be57af198738b60fe74b9",
+    "createdAt": "2026-06-19T07:00:05.907679+08:00",
+    "updatedAt": "2026-06-19T07:00:05.907679+08:00"
+  },
+  {
     "generatedAt": "2026-06-18T06:49:46.273942+08:00",
     "title": "AI时代如何学习新技能？",
     "domainTag": "AI与教育",
