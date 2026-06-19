@@ -1,5 +1,43 @@
 [
   {
+    "title": "世界杯商业帝国为何越做越大？",
+    "domainTag": "体育商业",
+    "consensus": [
+      {
+        "podcast": "贝望录",
+        "point": "FIFA从非盈利组织变成超级商业平台",
+        "episodeId": "6a2faf024233e62bc54a23d0"
+      },
+      {
+        "podcast": "跨域请求",
+        "point": "技术误判推动足球科技持续进步",
+        "episodeId": "6a3442974233e62bc54c2b54"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-06-20T06:11:31.140441+08:00",
+    "updatedAt": "2026-06-20T06:11:31.140441+08:00"
+  },
+  {
+    "title": "太空算力真能解决AI能源瓶颈吗？",
+    "domainTag": "AI与太空经济",
+    "consensus": [
+      {
+        "podcast": "硅谷101",
+        "point": "太空数据中心理论可行但经济账尚不划算",
+        "episodeId": "259291f5-2715-4dde-bcfe-b5beb4df5793"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "SpaceX认为轨道算力是AI基础设施新答案",
+        "episodeId": "6a2a3cb8dbccffcfa9c72e9f"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-06-20T06:11:31.140441+08:00",
+    "updatedAt": "2026-06-20T06:11:31.140441+08:00"
+  },
+  {
     "title": "AI如何改变企业部署和咨询？",
     "domainTag": "AI与企业服务",
     "consensus": [
