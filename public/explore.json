@@ -1,5 +1,62 @@
 [
   {
+    "title": "AI会让价值投资失效吗？",
+    "domainTag": "AI与投资",
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "42章经",
+        "point": "AI会让价值投资失效，叙事更重要",
+        "episodeId": "6a2a808262c3d8534722ac02"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "价值投资可迁移到风险投资，底层逻辑不变",
+        "episodeId": "6a2d01304233e62bc54917e4"
+      }
+    ],
+    "createdAt": "2026-06-21T06:17:47.476272+08:00",
+    "updatedAt": "2026-06-21T06:17:47.476272+08:00"
+  },
+  {
+    "title": "AI时代如何做好内容营销？",
+    "domainTag": "AI与营销",
+    "consensus": [
+      {
+        "podcast": "搞钱女孩",
+        "point": "GEO让AI自动推荐你的内容，是新流量密码",
+        "episodeId": "6a32fd2b43a22a695585919e"
+      },
+      {
+        "podcast": "声动早咖啡",
+        "point": "电商女装退货率高，AI可优化产品匹配",
+        "episodeId": "6a2ea7064233e62bc549afed"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-06-21T06:17:47.476272+08:00",
+    "updatedAt": "2026-06-21T06:17:47.476272+08:00"
+  },
+  {
+    "title": "AI时代普通人如何投资赚钱？",
+    "domainTag": "AI与投资",
+    "consensus": [
+      {
+        "podcast": "十分吸引",
+        "point": "AI基础设施革命带来财富再分配机会",
+        "episodeId": "6a2e69284233e62bc5499160"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI是最大S曲线，企业渗透率不到1%",
+        "episodeId": "6a286aa1dbccffcfa9c661ec"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-06-21T06:17:47.476272+08:00",
+    "updatedAt": "2026-06-21T06:17:47.476272+08:00"
+  },
+  {
     "title": "世界杯商业帝国为何越做越大？",
     "domainTag": "体育商业",
     "consensus": [
