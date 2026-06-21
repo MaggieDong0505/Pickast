@@ -86,10 +86,6 @@ function getTopicDivergenceStrength(topic: ExploreData[number]) {
   return divergencePodcasts * 100 + topic.divergence.length;
 }
 
-function getTopicDateValue(topic: ExploreData[number]) {
-  return topic.updatedAt ?? topic.createdAt ?? '';
-}
-
 function formatTopicDate(value?: string) {
   if (!value) {
     return '';
@@ -113,7 +109,6 @@ function getTopicSortScore(topic: ExploreData[number]) {
   return {
     podcastCount: getTopicPodcastCount(topic),
     divergenceStrength: getTopicDivergenceStrength(topic),
-    dateValue: getTopicDateValue(topic),
   };
 }
 
@@ -696,19 +691,9 @@ export default function App() {
   const sortedExploreTopics = useMemo(
     () =>
       [...exploreTopics].sort((left, right) => {
-        const leftScore = getTopicSortScore(left);
-        const rightScore = getTopicSortScore(right);
+        const leftDate = new Date(left.createdAt ?? left.updatedAt ?? '').getTime();
+        const rightDate = new Date(right.createdAt ?? right.updatedAt ?? '').getTime();
 
-        if (rightScore.podcastCount !== leftScore.podcastCount) {
-          return rightScore.podcastCount - leftScore.podcastCount;
-        }
-
-        if (rightScore.divergenceStrength !== leftScore.divergenceStrength) {
-          return rightScore.divergenceStrength - leftScore.divergenceStrength;
-        }
-
-        const leftDate = new Date(leftScore.dateValue).getTime();
-        const rightDate = new Date(rightScore.dateValue).getTime();
         if (!Number.isNaN(rightDate) && !Number.isNaN(leftDate) && rightDate !== leftDate) {
           return rightDate - leftDate;
         }
