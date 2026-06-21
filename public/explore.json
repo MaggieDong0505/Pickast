@@ -1,5 +1,72 @@
 [
   {
+    "title": "AI投资是泡沫吗？",
+    "domainTag": "AI投资",
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "42章经",
+        "point": "AI已集齐泡沫的所有条件",
+        "episodeId": "6a2a808262c3d8534722ac02"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI热潮才刚开始，不是泡沫",
+        "episodeId": "6a286aa1dbccffcfa9c661ec"
+      },
+      {
+        "podcast": "42章经",
+        "point": "AI已集齐泡沫所有条件，需警惕",
+        "episodeId": "6a2a808262c3d8534722ac02"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI是最大S曲线，热潮才刚开始",
+        "episodeId": "6a286aa1dbccffcfa9c661ec"
+      }
+    ],
+    "createdAt": "2026-06-14T21:00:00+08:00",
+    "updatedAt": "2026-06-22T02:20:57.565788+08:00"
+  },
+  {
+    "title": "AI时代如何保持个人竞争力？",
+    "domainTag": "AI与职业发展",
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "开发者需从战术编程转向战略判断",
+        "episodeId": "6a353df14233e62bc54c7124"
+      },
+      {
+        "podcast": "十字路口Crossing",
+        "point": "高手用AI的关键是积累上下文和提炼技能",
+        "episodeId": "6a275ed57444b5722235a897"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-06-22T02:20:57.565788+08:00",
+    "updatedAt": "2026-06-22T02:20:57.565788+08:00"
+  },
+  {
+    "title": "AI时代如何管理个人财务？",
+    "domainTag": "AI与个人理财",
+    "consensus": [
+      {
+        "podcast": "富女之友",
+        "point": "提前退休不是有钱人专属，可规划实现",
+        "episodeId": "6a33b6e24233e62bc54bfaf6"
+      },
+      {
+        "podcast": "搞钱女孩",
+        "point": "不上班后收入翻倍，需多元收入组合",
+        "episodeId": "6a270c057444b57222359f83"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-06-22T02:20:57.565788+08:00",
+    "updatedAt": "2026-06-22T02:20:57.565788+08:00"
+  },
+  {
     "title": "AI会让价值投资失效吗？",
     "domainTag": "AI与投资",
     "consensus": [],
@@ -321,25 +388,6 @@
     ],
     "createdAt": "2026-06-15T12:15:34.048930+08:00",
     "updatedAt": "2026-06-15T12:15:34.048930+08:00"
-  },
-  {
-    "title": "AI投资是泡沫吗？",
-    "domainTag": "AI投资",
-    "consensus": [],
-    "divergence": [
-      {
-        "podcast": "42章经",
-        "point": "AI已集齐泡沫的所有条件",
-        "episodeId": "6a2a808262c3d8534722ac02"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI热潮才刚开始，不是泡沫",
-        "episodeId": "6a286aa1dbccffcfa9c661ec"
-      }
-    ],
-    "createdAt": "2026-06-14T21:00:00+08:00",
-    "updatedAt": "2026-06-14T21:00:00+08:00"
   },
   {
     "title": "太空算力经济账划算吗？",
