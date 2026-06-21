@@ -1235,17 +1235,7 @@ def append_briefing_history(selected: list[ScoredEpisode], now: datetime, path: 
 
     history = normalize_briefing_history_entries(load_briefing_history(path))
     updated = [briefing_history_entry(item, now) for item in selected] + history
-    deduped: list[dict] = []
-    seen: set[str] = set()
-
-    for entry in updated:
-        signature = briefing_history_fingerprint(entry)
-        if signature in seen:
-            continue
-        seen.add(signature)
-        deduped.append(entry)
-
-    write_briefing_history(deduped[:BRIEFING_HISTORY_MAX_ENTRIES], path)
+    write_briefing_history(updated[:BRIEFING_HISTORY_MAX_ENTRIES], path)
 
 
 def is_recent(episode: FeedEpisode, now: datetime) -> bool:
