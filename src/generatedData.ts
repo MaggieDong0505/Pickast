@@ -23,18 +23,18 @@ export const initialData: BriefingCardData = {
     "coverText": "十字",
     "coverBg": "bg-[#18181B]",
     "coverTextColor": "text-amber-50",
-    "whyRecommended": "适合关注AI前沿与产业落地的听众，从模型训练到Agent工程，一场对话看清2026年AI行业真实图。",
+    "whyRecommended": "适合关注AI前沿与模型竞争的听众，从MiniMaxCEO视角看中美差距、10T模型决心与Agent。",
     "viewpoints": [
-      "M3模型的关键突破与评价指标",
-      "训练10T大模型的决心与卡点",
-      "AI Coding拐点：工程体系vs次抛代码"
+      "M3的关键突破和评价，衡量模型行不行的客观指标。",
+      "中美模型差距10倍，相当于整整两代。",
+      "AI Coding拐点：工程体系vs次抛代码。"
     ],
     "goldenQuotes": [],
-    "triageTag": "📖值得精听｜闫俊杰谈M3与10T模型",
+    "triageTag": "📖值得精听｜闫俊杰谈AI差距与10T模型",
     "href": "cosmos://page.cos/episode/6a374ab075ba9e0c53368f7e?utm_source=rss",
-    "whyRecommend": "适合关注AI前沿与产业落地的听众，从模型训练到Agent工程，一场对话看清2026年AI行业真实图。",
-    "goldenQuote": "适合关注AI前沿与产业落地的听众，从模型训练到Agent工程，一场对话看清2026年AI行业真实图。",
-    "topicTag": "📖值得精听｜闫俊杰谈M3与10T模型"
+    "whyRecommend": "适合关注AI前沿与模型竞争的听众，从MiniMaxCEO视角看中美差距、10T模型决心与Agent。",
+    "goldenQuote": "适合关注AI前沿与模型竞争的听众，从MiniMaxCEO视角看中美差距、10T模型决心与Agent。",
+    "topicTag": "📖值得精听｜闫俊杰谈AI差距与10T模型"
   },
   "backupEpisodes": [
     {
@@ -48,11 +48,11 @@ export const initialData: BriefingCardData = {
       "coverText": "Pe",
       "coverBg": "bg-[#18181B]",
       "coverTextColor": "text-amber-50",
-      "whyRecommended": "适合喜欢骑行、旅行和深度体验的听众，跟随主播在暴雨中骑行四国，感受科技与自然的碰撞。",
+      "whyRecommended": "适合喜欢骑行、旅行和深度体验的听众，用一场暴雨中的四国骑行串联起科技、历史与美食的救赎之旅。",
       "viewpoints": [
-        "电助力单车在暴雨骑行中拯救双腿",
+        "电助力单车在暴雨中拯救双腿的体验",
         "探访大山祇神社与两千年古楠木",
-        "道后温泉与土佐鲣鱼的精神洗礼"
+        "高知市场稻草炙烤鲣鱼的美食救赎"
       ],
       "goldenQuotes": [
         {
@@ -61,12 +61,12 @@ export const initialData: BriefingCardData = {
           "source_note": "来自本期 shownote"
         }
       ],
-      "triageTag": "🚶边走边听｜暴雨骑行与温泉救赎",
+      "triageTag": "🚶边走边听｜四国暴雨骑行故事",
       "href": "https://perilcrosser.com/2026/06/21/ep49-%e6%97%a5%e6%9c%ac%e8%a5%bf%e5%8d%97%e6%8c%82%e9%80%bc%e6%b8%b83-%e6%9a%b4%e9%9b%a8%e9%aa%91%e8%a1%8c%ef%bc%8c%e5%8f%a4%e8%80%81%e5%90%8d%e6%b1%a4%e4%b8%8e%e9%b2%a3%e9%b1%bc/",
       "scenario": "",
-      "whyRecommend": "适合喜欢骑行、旅行和深度体验的听众，跟随主播在暴雨中骑行四国，感受科技与自然的碰撞。",
+      "whyRecommend": "适合喜欢骑行、旅行和深度体验的听众，用一场暴雨中的四国骑行串联起科技、历史与美食的救赎之旅。",
       "goldenQuote": "真实的世界没有最优解，偶尔脱轨，全当是给人生打个随性的补丁。",
-      "topicTag": "🚶边走边听｜暴雨骑行与温泉救赎"
+      "topicTag": "🚶边走边听｜四国暴雨骑行故事"
     },
     {
       "episodeId": "6a37b1bb75ba9e0c5336bc8a",
@@ -81,17 +81,17 @@ export const initialData: BriefingCardData = {
       "coverTextColor": "text-amber-50",
       "whyRecommended": "适合对跨国犯罪与金融暗网感兴趣的听众，用北大高材生的真实案例解构现代卡特尔运作逻辑。",
       "viewpoints": [
-        "北大高材生如何从外派翻译异化为卡特尔影子CFO",
-        "利用加密货币和实物贸易建立全球影子银行网络",
-        "开创零手续费两小时到账的镜像交易洗钱模式"
+        "北大高材生转型为拉美卡特尔影子CFO",
+        "利用加密货币和贸易建立全球洗钱网络",
+        "开创零手续费两小时到账的镜像交易模式"
       ],
       "goldenQuotes": [],
-      "triageTag": "📖值得精听｜北大高材生卡特尔洗钱内幕",
+      "triageTag": "📖值得精听｜北大毒枭的卡特尔洗钱内幕",
       "href": "cosmos://page.cos/episode/6a37b1bb75ba9e0c5336bc8a?utm_source=rss",
       "scenario": "",
       "whyRecommend": "适合对跨国犯罪与金融暗网感兴趣的听众，用北大高材生的真实案例解构现代卡特尔运作逻辑。",
       "goldenQuote": "适合对跨国犯罪与金融暗网感兴趣的听众，用北大高材生的真实案例解构现代卡特尔运作逻辑。",
-      "topicTag": "📖值得精听｜北大高材生卡特尔洗钱内幕"
+      "topicTag": "📖值得精听｜北大毒枭的卡特尔洗钱内幕"
     }
   ],
   "synthesis": null
