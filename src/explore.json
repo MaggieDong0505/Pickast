@@ -1,5 +1,176 @@
 [
   {
+    "title": "AI会让价值投资失效吗？",
+    "domainTag": "AI与投资",
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "42章经",
+        "point": "AI会让价值投资失效，叙事更重要",
+        "episodeId": "6a2a808262c3d8534722ac02"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "价值投资可迁移到风险投资，底层逻辑不变",
+        "episodeId": "6a2d01304233e62bc54917e4"
+      }
+    ],
+    "createdAt": "2026-06-21T06:17:47.476272+08:00",
+    "updatedAt": "2026-06-21T06:17:47.476272+08:00"
+  },
+  {
+    "title": "AI时代如何做好内容营销？",
+    "domainTag": "AI与营销",
+    "consensus": [
+      {
+        "podcast": "搞钱女孩",
+        "point": "GEO让AI自动推荐你的内容，是新流量密码",
+        "episodeId": "6a32fd2b43a22a695585919e"
+      },
+      {
+        "podcast": "声动早咖啡",
+        "point": "电商女装退货率高，AI可优化产品匹配",
+        "episodeId": "6a2ea7064233e62bc549afed"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-06-21T06:17:47.476272+08:00",
+    "updatedAt": "2026-06-21T06:17:47.476272+08:00"
+  },
+  {
+    "title": "AI时代普通人如何投资赚钱？",
+    "domainTag": "AI与投资",
+    "consensus": [
+      {
+        "podcast": "十分吸引",
+        "point": "AI基础设施革命带来财富再分配机会",
+        "episodeId": "6a2e69284233e62bc5499160"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI是最大S曲线，企业渗透率不到1%",
+        "episodeId": "6a286aa1dbccffcfa9c661ec"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-06-21T06:17:47.476272+08:00",
+    "updatedAt": "2026-06-21T06:17:47.476272+08:00"
+  },
+  {
+    "title": "世界杯商业帝国为何越做越大？",
+    "domainTag": "体育商业",
+    "consensus": [
+      {
+        "podcast": "贝望录",
+        "point": "FIFA从非盈利组织变成超级商业平台",
+        "episodeId": "6a2faf024233e62bc54a23d0"
+      },
+      {
+        "podcast": "跨域请求",
+        "point": "技术误判推动足球科技持续进步",
+        "episodeId": "6a3442974233e62bc54c2b54"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-06-20T06:11:31.140441+08:00",
+    "updatedAt": "2026-06-20T06:11:31.140441+08:00"
+  },
+  {
+    "title": "太空算力真能解决AI能源瓶颈吗？",
+    "domainTag": "AI与太空经济",
+    "consensus": [
+      {
+        "podcast": "硅谷101",
+        "point": "太空数据中心理论可行但经济账尚不划算",
+        "episodeId": "259291f5-2715-4dde-bcfe-b5beb4df5793"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "SpaceX认为轨道算力是AI基础设施新答案",
+        "episodeId": "6a2a3cb8dbccffcfa9c72e9f"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-06-20T06:11:31.140441+08:00",
+    "updatedAt": "2026-06-20T06:11:31.140441+08:00"
+  },
+  {
+    "title": "AI如何改变企业部署和咨询？",
+    "domainTag": "AI与企业服务",
+    "consensus": [
+      {
+        "podcast": "硅谷101",
+        "point": "模型公司开始提供部署服务，FDE岗位兴起",
+        "episodeId": "47b7778e-1ed6-4dab-b7c9-8b4a6555b867"
+      },
+      {
+        "podcast": "十字路口Crossing",
+        "point": "FDE是AI时代的新角色，连接模型与业务",
+        "episodeId": "6a275ed57444b5722235a897"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-06-19T07:00:05.907679+08:00",
+    "updatedAt": "2026-06-19T07:00:05.907679+08:00"
+  },
+  {
+    "title": "AI时代如何保持心理健康？",
+    "domainTag": "AI与生活",
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "区分关注圈和影响圈，夺回能动性",
+        "episodeId": "6a339d5143a22a695585d897"
+      },
+      {
+        "podcast": "about热水频道",
+        "point": "讨好型人格背后是长期被忽略的委屈感",
+        "episodeId": "6a299d0bdbccffcfa9c6fb50"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-06-19T07:00:05.907679+08:00",
+    "updatedAt": "2026-06-19T07:00:05.907679+08:00"
+  },
+  {
+    "title": "AI泡沫何时会破裂？",
+    "domainTag": "AI与投资",
+    "consensus": [
+      {
+        "podcast": "42章经",
+        "point": "泡沫无法被事先证明，但可识别四个必要不充分条件",
+        "episodeId": "6a2a808262c3d8534722ac02"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI投资看似疯狂，但经济账可能仍成立",
+        "episodeId": "6a2bbf224233e62bc548aa81"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-06-19T07:00:05.907679+08:00",
+    "updatedAt": "2026-06-19T07:00:05.907679+08:00"
+  },
+  {
+    "title": "AI时代如何学习新技能？",
+    "domainTag": "AI与教育",
+    "consensus": [
+      {
+        "podcast": "十字路口Crossing",
+        "point": "停止用ChatGPT聊天，改用Agentic工具",
+        "episodeId": "6a275ed57444b5722235a897"
+      },
+      {
+        "podcast": "韩叙的朋友们",
+        "point": "普通人从被动重复转向主动提效",
+        "episodeId": "6a3052464233e62bc54a7461"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-06-18T06:49:46.273942+08:00",
+    "updatedAt": "2026-06-18T06:49:46.273942+08:00"
+  },
+  {
     "title": "AI时代一人公司如何生存？",
     "domainTag": "AI与创业",
     "consensus": [
