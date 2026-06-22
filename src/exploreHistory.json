@@ -1,5 +1,131 @@
 [
   {
+    "generatedAt": "2026-06-23T06:51:48.549176+08:00",
+    "title": "AI会让程序员失业吗？",
+    "domainTag": "AI与职业",
+    "podcasts": [
+      "十字路口Crossing",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a353df14233e62bc54c7124",
+      "6a374ab075ba9e0c53368f7e"
+    ],
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI吃掉战术编程，程序员需转向战略",
+        "episodeId": "6a353df14233e62bc54c7124"
+      },
+      {
+        "podcast": "十字路口Crossing",
+        "point": "AI Coding拐点，工程体系比次抛代码重要",
+        "episodeId": "6a374ab075ba9e0c53368f7e"
+      }
+    ],
+    "fingerprint": "v1:8da5710acded4e27884beea1f8a0b31c9570bbafd6ebfa02ce03de11d1305b97",
+    "createdAt": "2026-06-23T06:51:48.549176+08:00",
+    "updatedAt": "2026-06-23T06:51:48.549176+08:00"
+  },
+  {
+    "generatedAt": "2026-06-23T06:51:48.549176+08:00",
+    "title": "AI时代需要学编程吗？",
+    "domainTag": "AI与教育",
+    "podcasts": [
+      "十字路口Crossing",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a26a3e4b30e1571aea2b45c",
+      "6a275ed57444b5722235a897"
+    ],
+    "consensus": [
+      {
+        "podcast": "十字路口Crossing",
+        "point": "AI时代应停止用ChatGPT聊天，改用Agent工具",
+        "episodeId": "6a275ed57444b5722235a897"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI时代进入通才黄金时代，角色边界在合并",
+        "episodeId": "6a26a3e4b30e1571aea2b45c"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "Claude Code让开发者卸载IDE",
+        "episodeId": "6a26a3e4b30e1571aea2b45c"
+      },
+      {
+        "podcast": "十字路口Crossing",
+        "point": "Agentic工具比聊天框强三个量级",
+        "episodeId": "6a275ed57444b5722235a897"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:d13e4c4c9ee7ff84258da29ef2d766243c22ebcebf75b83ec04e316792523bd5",
+    "createdAt": "2026-06-15T19:30:25.286534+08:00",
+    "updatedAt": "2026-06-23T06:51:48.549176+08:00"
+  },
+  {
+    "generatedAt": "2026-06-23T06:51:48.549176+08:00",
+    "title": "AI会让财富更集中吗？",
+    "domainTag": "AI与经济",
+    "podcasts": [
+      "42章经",
+      "十分吸引"
+    ],
+    "episodeIds": [
+      "6a2a808262c3d8534722ac02",
+      "6a2e69284233e62bc5499160"
+    ],
+    "consensus": [
+      {
+        "podcast": "十分吸引",
+        "point": "AI是基础设施革命，财富将重新分配",
+        "episodeId": "6a2e69284233e62bc5499160"
+      },
+      {
+        "podcast": "42章经",
+        "point": "AI集齐泡沫条件，市场用新泡沫买单旧泡沫",
+        "episodeId": "6a2a808262c3d8534722ac02"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:5d16ed499e984e9ebb5fb5dd9de05dc282c1468036e970bd9f747f90e54cc05a",
+    "createdAt": "2026-06-23T06:51:48.549176+08:00",
+    "updatedAt": "2026-06-23T06:51:48.549176+08:00"
+  },
+  {
+    "generatedAt": "2026-06-23T06:51:48.549176+08:00",
+    "title": "AI能解决气候变化吗？",
+    "domainTag": "AI与环境",
+    "podcasts": [
+      "碳基生物生存指南",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a2bbf224233e62bc548aa81",
+      "6a3419c243a22a6955861364"
+    ],
+    "consensus": [
+      {
+        "podcast": "碳基生物生存指南",
+        "point": "清洁能源已是全球最便宜能源",
+        "episodeId": "6a3419c243a22a6955861364"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI算力需求巨大，电力是瓶颈",
+        "episodeId": "6a2bbf224233e62bc548aa81"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:e72b3bcc37b72cdcc5b635bbd9d25124573d7e45cc9069703394f3ef1b7c5470",
+    "createdAt": "2026-06-23T06:51:48.549176+08:00",
+    "updatedAt": "2026-06-23T06:51:48.549176+08:00"
+  },
+  {
     "generatedAt": "2026-06-22T02:20:57.565788+08:00",
     "title": "AI投资是泡沫吗？",
     "domainTag": "AI投资",
@@ -356,33 +482,6 @@
     "fingerprint": "v1:4e3164faab3a87b0d88d29f257c386ca4af05d405c865c5dddd09d45511602ff",
     "createdAt": "2026-06-18T06:49:46.273942+08:00",
     "updatedAt": "2026-06-18T06:49:46.273942+08:00"
-  },
-  {
-    "generatedAt": "2026-06-15T19:30:25.286534+08:00",
-    "title": "AI时代需要学编程吗？",
-    "domainTag": "AI与教育",
-    "podcasts": [
-      "十字路口Crossing",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "6a26a3e4b30e1571aea2b45c",
-      "6a275ed57444b5722235a897"
-    ],
-    "consensus": [
-      {
-        "podcast": "十字路口Crossing",
-        "point": "AI时代应停止用ChatGPT聊天，改用Agent工具",
-        "episodeId": "6a275ed57444b5722235a897"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI时代进入通才黄金时代，角色边界在合并",
-        "episodeId": "6a26a3e4b30e1571aea2b45c"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:d13e4c4c9ee7ff84258da29ef2d766243c22ebcebf75b83ec04e316792523bd5"
   },
   {
     "generatedAt": "2026-06-15T19:30:25.286534+08:00",

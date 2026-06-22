@@ -8,90 +8,100 @@
 import { BriefingCardData } from './types';
 
 export const initialData: BriefingCardData = {
-  "dateStr": "2026.06.22",
-  "chinaDateStr": "星期一 / MONDAY",
+  "dateStr": "2026.06.23",
+  "chinaDateStr": "星期二 / TUESDAY",
   "title": "今天最值得听 • TODAY'S VOICE",
   "issueNo": "精选 3 条",
   "mainEpisode": {
-    "episodeId": "6a374ab075ba9e0c53368f7e",
-    "podcastName": "十字路口Crossing",
-    "episodeTitle": "对话 MiniMax 闫俊杰：M3、10X 计划、10T 模型、和智能的终局",
-    "description": "🚥 本周的「十字路口」在 MiniMax Dev Meetup 现场录制，Koji 对谈MiniMax CEO 闫俊杰（IO）、Multica 创始人张佳圆、DeerFlow 核心负责人何涛，以及上市公司金融行业 AI 负责人虞扬。\n我们围绕 AI Coding、Agent 与工程化落地的下一阶段展开。这期重点是闫俊杰 IO 的分享——也是他最近少有的公开露面：\nM3 的关键突破和评价\n对训练 10T 规模大模型的决心与路径\n中美模型差距的真实尺度\n模型的数据观转向，与推出 10X 专家合作项目的缘由\nAI Coding 迎来拐点：工程体系 vs 次抛代码\n“基模 vs Agent”到底是什么关系？\nMiniMax 下一阶段如何下注与取舍？\n其他三位嘉宾也从各自视角分享了很有趣的观点：张佳圆分享了多模型/多 Agent 的组合思路来平衡成本与质量；何涛强调工程的核心是长期维护与交付体系，而不是一次性把任务做完；虞扬补充了金融等垂直行业里 AI 的价值更多在“把信息变成可执行的决策路径”，以及在高频变化中降低门槛、提供辅助与陪伴。\n这期内容更像 2026 年中的一个时代切片：大模型公司、开发者、开源项目与垂直应用的一线代表同台，分享当下真实的观察、故事与认知——也因此更值得被反复回听。\n🎬 我们的视频播客已同步上线于 @Koji杨远骋 的视频号、抖音、小红书、哔哩哔哩、Youtube 等平台。\n📒 文字版已经发布于 @十字路口Crossing 公众号。\n🟢 01:41 M3 的关键突破和评价\n衡量一代模型到底行不行，IO 盯一个\"比较客观的指标\"——不是分数，那是什么？\n去年五一假期，团队第一次在 M1 跑通某件事——有点像\"瘫坐在椅子上、后背发凉\"的感觉\n本来 M2.5 一天烧 1 万亿 token 就满意了，结果一路冲到 10 万亿，超目标 10 倍\n🟢 12:09 基模 vs Agent，到底是什么关系？\n\"去年这个时候，我想不到现在的模型是什么样\"\n没有 Claude Code，某个模型可能也火不起来；没有 GPT-5.5，Codex 也起不来。\n模型越来越强，但 IO 坚持一个\"前提\"。\n🟢 14:12 训 10T 大模型的决心\n10T 大模型必须训成，最大的卡点是什么？\n\"AI 已经是个很大的产业了，就跟半导体一样。\"\n为什么这件事只能\"一代一代往上做\"，急不得？\n外推一旦失效，模型就成了开盲盒。\n🟢 15:54 中美差距：10 倍，就是整整两代\n美国模型\"基本上大 10 倍\"，而 10 倍意味着整整两代。\n国内每家都得先把 3T 做好、再做 10T——但一个 10T 模型需要 200T 数据，\"全世界都没有这么多\"。\n一边\"我们进步速度最快\"，一边又\"比较忐忑\"——为什么？\n🟢 17:53 AI Coding 拐点：是工程，还是\"次抛代码\"\n\"从来没人说 vibe engineering，但写代码从来都是 engineering。\"\n人人都能 vibe coding 之后，每个人都成了\"产品经理\"。\n何涛一句暴论：最讨厌别人说\"这是 agent 做的，别怪我\"——用你的账号提交，背后是谁的责任？\n一个人改十几个仓库、提个巨大 PR，\"看起来对，但没人敢上线\"——问题出在哪？\n🟢 27:12 数据观转向：他们开始招核物理学家\n一年前以为数据就是标注，现在 MiniMax 在找经济学家、哲学家，甚至核物理学家。\n做 coding 时他们就发现：开发工程师比算法同学更懂\"什么叫好代码\"——这推出了一个什么结论？\nAnthropic 为什么要养核物理学家？\nMiniMax 推出 10X 专家合作，想补上哪一环？\n🟢 30:30 MiniMax 下一阶段，下注什么？\nAI 是个黑盒，连做模型的人都不懂它\nIO 最关心的，是什么时候能\"用 AI 帮人类理解 AI\"。\n大脑里的海马体，居然和模型训练里的某个机制惊人地像。\n一年前我们还不理解\"对齐\"为什么重要，现在越来越确定——为什么？\n欢迎订阅「十字路口」：🚦 我们关注新一代 AI 技术浪潮带来的行业新变化和创业新机会。\n🚦 十字路口是乔布斯对苹果公司的一个比喻，形容它站在科技与人文的十字路口，伟大的产品往往诞生在这里。AI 正在给各行各业带来改变，我们寻找、访谈和凝聚新一代 AI 创业者和 AI 时代的积极行动者，和他们一起，探索和拥抱新变化，新的可能性。\n👦🏻  本期主播 Koji：我创办了十字路口，发起了 AI Hacker House 这个新一代 AI 创业者的社群空间，在真格基金担任 Venture Partner 投资合伙人。我相信科技尤其是 AI 是我们这一代人最大的价值创造机遇。Koji 的即刻，Koji 的网站",
-    "publishedAt": "2026-06-21T16:00:00+00:00",
-    "rssUrl": "https://feed.xyzfm.space/68fyjknth9hj",
-    "coverImageUrl": "https://image.xyzcdn.net/Fkgbt0KELg5KIKT3GB-Yb-_1Sw2S.png",
-    "coverText": "十字",
+    "episodeId": "6a3957589d2f5743683c11bf",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#593.文艺复兴科技公司：财富机器，AI 时代前夜的量化投资神话",
+    "description": "📝 本期播客简介\n本期我们克隆了：《Acquired》的 Renaissance Technologies\n这是一集关于金融史上最神秘、最成功，也最难复制的公司之一：Renaissance Technologies 的深度拆解。它的旗舰基金 Medallion Fund，在三十多年里实现了费前年化约 66%、费后年化约 40% 的惊人回报，几乎碾压了历史上所有著名投资人和基金。但这家公司既不研究企业 CEO，也不关心利润表，甚至在很多时候并不知道自己到底持有哪些股票。它靠的是数学、密码破译、信号处理、机器学习、数据工程和极致组织设计。\n两位主持人 Ben Gilbert 和 David Rosenthal 从创始人 Jim Simons 的数学人生讲起，追溯他如何从 MIT、Berkeley、冷战密码破译、Stony Brook 数学系，一步步走向量化投资；也讲清楚 Renaissance 如何从早期混乱的货币交易、风险投资、Axcom 拆分，到最终打造出 Medallion Fund 这台“印钞机”。这不只是一个投资传奇，更是关于 AI 前史、组织激励、人才密度、数据护城河和复杂系统预测的商业史。\n👥 本期主持\nBen Gilbert，Acquired 联合主持人，投资人，长期研究科技公司、商业模式与资本市场。\nDavid Rosenthal，Acquired 联合主持人，投资人，专注公司史、战略、风险投资与科技商业分析。\n⏱️ 时间戳\n00:00 开场 & 播客简介\n历史上最神秘的投资机器\n02:23 为什么“跑赢市场不可能”这句话在 RenTech 面前失效\n03:00 Renaissance Technologies：业绩超过巴菲特、索罗斯和所有传奇投资人\n04:02 Medallion Fund：费前年化 66%，但普通人完全投不了\n04:41 极端保密、终身 NDA，以及为什么这家公司几乎无人真正了解\nJim Simons 的早年与数学底色\n06:20 从波士顿郊区开始：Jim Simons 的家庭与童年\n09:09 “对做生意没兴趣，但对钱有兴趣”：一个数学家的财富意识\n09:59 四岁遇到 Zeno 悖论：数学直觉的早期显现\n10:20 MIT、Berkeley 与“我不是房间里最聪明的人”\n11:33 Jim 的关键能力：不是最强天才，而是有“好问题”的品味\n13:00 外向型理论数学家：酷、冒险、能吸引天才的人\n密码破译、信号处理与量化投资的种子\n18:36 进入 IDA：冷战时期为 NSA 做密码破译\n20:00 50% 破译密码，50% 自由研究：RenTech 文化的原型\n21:09 1964 年论文：把密码破译方法应用到股市预测\n22:58 噪声里找信号：为什么市场和密码破译本质相似\n24:15 隐马尔可夫模型：从黑箱状态预测未来状态\n26:00 从马尔可夫链到今天的大语言模型：早期机器学习的影子\n28:00 为什么六十年代的“算法投资”根本募不到钱\n29:50 反越战公开发声，被 IDA 开除，人生进入下一阶段\nStony Brook 与第一代天才团队\n30:50 加入 Stony Brook：从受挫学者到数学系建设者\n32:00 用高薪和自由度挖来世界级数学家\n33:20 Chern-Simons Theory：Jim 留在数学史上的印记\n34:05 离开学术界全职交易：被数学圈视为“出卖灵魂”\n35:13 Monometrics：在披萨店旁边开始的交易公司\n36:15 Baum、Ax、Simons：数学界重磅人物进入交易世界\n37:20 早期交易仍靠直觉：模型只是辅助，不是自动决策\nRenaissance 的诞生与混乱试错\n40:30 Howard Morgan 登场：First Round Capital 的隐秘前史\n41:32 Renaissance Technologies 名字的由来：量化交易 + 科技风投\n43:17 早期多策略：一半风险投资，一半货币交易\n43:45 债券押注失败，Lenny Baum 离开\n44:55 RenTech 曾经几乎只是一家风投公司\n45:30 Axcom 拆分：量化交易团队迁往加州\n46:50 Sandor Strauss 的数据执念：收集、清洗、结构化历史市场数据\n48:30 Elwyn Berlekamp 与 Kelly Criterion：下注规模开始系统化\n49:20 20%+ IRR：模型真正开始起作用\nMedallion Fund 的诞生\n51:13 Medallion Fund：以数学奖章命名的传奇基金\n52:00 数据、工程、信号、交易系统第一次真正合体\n52:53 Berlekamp 接手后推动更高频交易\n53:30 为什么交易频率越高，微小优势越有价值\n54:51 “我们 50.75% 的时间是对的”：靠微弱优势赚几十亿美元\n55:55 现实约束：交易成本、滑点、订单簿深度\n58:00 1990 年：Medallion 毛收益 77.8%，净收益 55%\n59:00 5% 管理费：不是贪心，而是为了支付昂贵基础设施\n01:00:23 Jim 买回 Berlekamp 份额：错过巨大财富的一次退出\n01:02:13 一切回到长岛：RenTech 成为理想化的 IDA + 数学系\n历史级连胜开始\n01:04:00 1991 年后再无亏损：Medallion 进入神话时期\n01:05:00 关闭新 LP：不再接受外部资金\n01:06:00 规模上限与滑点：为什么必须进入股票市场\n01:07:45 股票市场：更多数据、更深流动性、更复杂关系\n01:08:00 IBM 语音识别团队：Peter Brown 和 Bob Mercer 登场\n01:09:00 语音识别、隐马尔可夫模型与市场信号处理的同构\n01:10:00 为什么 Brown 和 Mercer 是 RenTech 最关键招聘\n01:13:00 统一模型：把股票、货币、商品全部放进一套系统\n01:14:30 单一模型带来的协作红利：所有人都在改进同一个大脑\n01:16:00 股票机器跑通：扩大规模仍保持惊人回报\n01:17:30 2000 年科技泡沫破裂，Medallion 却上涨 128%\n波动、风险与人性\n01:18:30 高波动是 Medallion 的黄金时间\n01:19:00 科技泡沫初期亏损：Jim 为什么主动降低风险\n01:19:30 Peter Brown 想辞职，Jim 说“你现在更有价值”\n01:20:00 量化地震与 CEO 交接：Jim 对人性的洞察\n01:21:20 夏普比率：为什么 Medallion 不只是高回报，而是低相关高质量回报\n01:23:30 夏普比率 6.3 甚至 7.5：让顶级量化基金都像替补球员\n01:24:15 业绩分成涨到 36%、44%：为什么投资人仍然接受\n01:26:30 2003 年清退外部投资人：Medallion 只属于内部人\n01:28:00 RIEF 机构基金：不是 Medallion，而是更像“增强版指数产品”\n01:31:40 13F 文件里的 4300 只股票：极度分散、快速轮动的机构基金\n金融危机、继任与政治影响\n01:34:30 2007、2008 年金融危机中爆炸式收益\n01:35:00 Medallion 的交易对手：恐慌中的人类与不信模型的基金\n01:37:00 Jim 退休，Peter Brown 与 Bob Mercer 接任\n01:38:00 后 Simons 时代业绩更强：费前年化 77.3%\n01:40:30 六百亿美元业绩分成：Medallion 史上最强投资载体\n01:40:50 RenTech 财富流向政治：Mercer、Brexit、Trump 与 Cambridge Analytica\n01:41:20 Jim Simons 与民主党捐赠：同一家公司里的政治光谱两端\n01:42:00 Mercer 卸任联席 CEO：极端分歧下仍能共事的独特文化\nRenTech 的组织织锦\n01:42:30 RenTech 的三块拼图：协作、小团队、基金结构\n01:43:30 单一模型让天才协作，而不是互相竞争\n01:45:30 员工中位任期十多年：为什么很少有人离开\n01:46:00 不到 400 人的公司：和 Citadel、Two Sigma 相比小一个数量级\n01:47:00 长岛偏僻小镇：封闭社区如何强化文化与保密\n01:49:00 小团队分钱：为什么外部公司很难挖走他们\n01:49:30 5% + 44% 的结构：不只是收费，而是内部价值转移机制\n01:51:00 新员工像 GP，老员工像 LP：一套金融版终身教职制度\n01:53:30 激励设计的天才之处：让新人和老人都愿意留在同一艘船上\n杠杆、税务与今天的 RenTech\n01:54:30 篮子期权：Medallion 如何放大杠杆\n01:56:00 每 1 美元现金控制 12.5 美元甚至 20 美元资产\n01:58:00 杠杆为何是量化收益的重要组成部分\n01:59:00 税务争议：篮子期权被 IRS 认定不成立\n01:59:50 Jim Simons 个人补缴 6.7 亿美元税款\n02:00:00 今天的规模：Medallion 100-150 亿美元，机构基金 600-700 亿美元\n02:00:50 一家年收入七八十亿美元的公司\n02:01:50 基础设施成本：五万个计算核心，每天新增 40TB 数据\nPower：RenTech 的护城河到底是什么？\n02:03:00 Seven Powers 框架：流程力、垄断资源、反定位等\n02:03:40 终身保密、竞业限制与真正的三层留人机制\n02:05:20 流程力：一千万行代码与三十多年复杂系统积累\n02:06:00 垄断资源：干净、深度、历史悠久的数据宝库\n02:07:00 模型是否每两年重构一次：没有永恒秘密，只有持续迭代\n02:09:20 规模不经济：AUM 太大会毁掉策略\n02:10:30 反定位：单一模型与基金规模优化，其他量化公司难以模仿\n02:12:00 执行与学习复利：为什么做得更久本身就是优势\n机器学习、复杂系统与“庄家”生意\n02:14:00 信号处理就是信号处理：为什么他们不需要懂资产负债表\n02:15:00 “教聪明人投资，比教投资人变聪明更容易”\n02:15:30 复杂适应系统：市场像一团火，难以解释但可以部分预测\n02:18:00 RenTech 是机器学习的发源地吗？\n02:19:00 Geoffrey Hinton、Peter Brown、Ilya Sutskever：同一锅 AI 汤\n02:20:15 基于别人不知道的秘密交易：数据产生想法，而不是人类编故事\n02:21:30 为什么人类直觉会误导投资判断\n02:22:40 RenTech 不是投资者，而更像有优势的赌场庄家\n02:24:00 量化金融创造了什么价值：流动性、价差压缩与市场效率\n02:28:30 金融行业高回报如何间接推动技术创新\n牛熊观点与最终 takeaway\n02:30:00 牛市观点：过去的表现、文化、人才和模型继续复利\n02:31:00 熊市观点：AI 追赶、人才流动、机构业务影响文化\n02:32:30 David 的 takeaway：激励设计的力量\n02:34:00 Ben 的 takeaway：他们用关系图在复杂系统中找到信号\n02:35:00 如果所有人都能搭出类似系统，回报会不会被套利掉？\n推荐与资料来源\n02:35:20 Carve Outs：Modern Treasury Transfer、Apple TV+《The New Look》\n02:38:00 Class of Palm Beach：奢侈品、风格与 Palm Beach 观察\n02:40:00 感谢 Greg Zuckerman 与《The Man Who Solved the Market》\n02:41:30 其他资料：Peter Brown 证词、GS Exchanges 访谈、《The Quants》、Bloomberg 文章\n02:42:00 感谢 Howard Morgan、Brett Harrison、Matthew Granade 等资料贡献者\n🌟 精彩内容\n💡 历史上最强投资载体：Medallion Fund\nMedallion Fund 从 1988 年到 2022 年，费前年化收益率约 68%，费后年化收益率约 40%。这意味着，即便扣除了 5% 管理费和最高 44% 的业绩分成，它仍然长期创造了远超所有传统投资传奇的回报。\n“从 Medallion 诞生至今，扣费之后是 40%。扣费之前是 68%。”\n🧠 从密码破译到量化投资：噪声里找信号\nJim Simons 和早期同事最关键的洞察，是把冷战密码破译和信号情报里的方法迁移到金融市场。市场价格看似随机，但就像加密电文一样，里面也可能隐藏着微弱、短暂、可统计利用的信号。\n“你是在噪声里找信号，试图用计算机和算法，从那些看起来近乎随机的东西里挖出信号。”\n🤖 AI 前史：隐马尔可夫模型、语音识别与机器学习\nRenTech 的方法和今天 AI 的底层思想高度相似：不一定理解世界，但能根据状态和概率预测下一个状态。IBM 语音识别团队的 Peter Brown 和 Bob Mercer 加入后，把大规模系统工程、自然语言处理和统一模型思维带进了 RenTech。\n“这些大型语言模型未必真的理解英语。它们只是非常擅长预测状态和下一个状态。”\n🏛️ 单一模型与协作文化\n大多数对冲基金是多团队、多策略、彼此竞争；RenTech 则让所有研究员和工程师围绕同一个模型工作。任何人的改进都会直接让所有人受益。这种结构让顶尖人才之间形成协作，而不是内部竞争。\n“所有人都在同一个投资策略、同一套投资基础设施上一起工作。”\n💰 5% + 44%：不只是收费，而是激励系统\nMedallion 的高管理费和高业绩分成，表面上像是离谱收费；但当外部 LP 被清退后，它更像是一套内部价值转移机制。年轻员工通过 GP 端获得当期贡献回报，老员工通过 LP 端分享长期复利，形成一种金融版“终身教职”结构。\n“随着你待得越来越久，你其实是在付钱给更年轻的同事，让他们为你工作。”\n🎲 RenTech 不是投资者，而是有优势的庄家\nBen 提出一个尖锐观点：RenTech 不像传统投资人，它并不关心企业价值，而是在市场这个复杂系统里，用微小概率优势反复下注。它更像赌场庄家，靠 50.01% 的胜率和海量交易长期赚钱。\n“他们就是庄家，而且有优势。这个优势建立在一张关系图上，图里是这些实体之间的所有关系。”\n📊 高波动是 Medallion 的黄金时间\n科技泡沫破裂、金融危机、疫情冲击，这些普通投资人最恐慌的时期，反而是 Medallion 表现最亮眼的时候。因为市场越情绪化，模型越能从他人的恐慌、错价和被迫交易中捕捉机会。\n“高波动的时候，正是 Medallion 最闪耀的时候。”\n🧩 真正的护城河：数据、流程、文化与激励叠加\n节目最后认为，RenTech 的护城河不是单一秘密，而是一张织锦：极端干净的数据、长期复利的流程、极小且稳定的团队、统一模型、封闭社区、高激励结构，以及几十年持续迭代形成的组织能力。\n“学习会复利。”\n🌐 播客信息补充\n本播客采用原有人声声线进行播客音频制作，也可能会有一些地方听起来怪怪的\n使用 AI 进行翻译，因此可能会有一些地方不通顺；\n如果有后续想要听中文版的其他外文播客，也欢迎联系微信：iEvenight\n\n在小宇宙查看该单集文稿",
+    "publishedAt": "2026-06-22T15:54:51+00:00",
+    "rssUrl": "https://feed.xyzfm.space/r8t44lmvu99m",
+    "coverImageUrl": "https://image.xyzcdn.net/FgPi3C76e0yvQlUYo8TDbk1GTgp8.png",
+    "coverText": "跨国",
     "coverBg": "bg-[#18181B]",
     "coverTextColor": "text-amber-50",
-    "whyRecommended": "适合关注AI前沿与模型竞争的听众，从MiniMaxCEO视角看中美差距、10T模型决心与Agent。",
+    "whyRecommended": "适合对量化投资、AI前史与组织设计感兴趣的听众，深度拆解文艺复兴科技公司的传奇与秘密。",
     "viewpoints": [
-      "M3的关键突破和评价，衡量模型行不行的客观指标。",
-      "中美模型差距10倍，相当于整整两代。",
-      "AI Coding拐点：工程体系vs次抛代码。"
+      "Medallion基金费前年化68%，费后40%，碾压所有传奇投资人。",
+      "从密码破译到量化投资，在噪声中寻找微弱信号。",
+      "单一模型与协作文化，让天才共同改进同一套系统。"
     ],
-    "goldenQuotes": [],
-    "triageTag": "📖值得精听｜闫俊杰谈AI差距与10T模型",
-    "href": "cosmos://page.cos/episode/6a374ab075ba9e0c53368f7e?utm_source=rss",
-    "whyRecommend": "适合关注AI前沿与模型竞争的听众，从MiniMaxCEO视角看中美差距、10T模型决心与Agent。",
-    "goldenQuote": "适合关注AI前沿与模型竞争的听众，从MiniMaxCEO视角看中美差距、10T模型决心与Agent。",
-    "topicTag": "📖值得精听｜闫俊杰谈AI差距与10T模型"
+    "goldenQuotes": [
+      {
+        "quote": "你是在噪声里找信号，试图用计算机和算法，从那些看起来近乎随机的东西里挖出信号。",
+        "source": "来自本期 shownote",
+        "source_note": "来自本期 shownote"
+      },
+      {
+        "quote": "所有人都在同一个投资策略、同一套投资基础设施上一起工作。",
+        "source": "来自本期 shownote",
+        "source_note": "来自本期 shownote"
+      },
+      {
+        "quote": "随着你待得越来越久，你其实是在付钱给更年轻的同事，让他们为你工作。",
+        "source": "来自本期 shownote",
+        "source_note": "来自本期 shownote"
+      }
+    ],
+    "triageTag": "📖值得精听｜文艺复兴科技深度拆解",
+    "href": "cosmos://page.cos/episode/6a3957589d2f5743683c11bf?utm_source=rss",
+    "whyRecommend": "适合对量化投资、AI前史与组织设计感兴趣的听众，深度拆解文艺复兴科技公司的传奇与秘密。",
+    "goldenQuote": "你是在噪声里找信号，试图用计算机和算法，从那些看起来近乎随机的东西里挖出信号。",
+    "topicTag": "📖值得精听｜文艺复兴科技深度拆解"
   },
   "backupEpisodes": [
     {
-      "episodeId": "https://perilcrosser.com/?p=237",
-      "podcastName": "Peril Crosser 肚饿？渡厄！",
-      "episodeTitle": "EP49: 日本西南挂逼游3: 暴雨骑行，古老名汤与鲣鱼",
-      "description": "当电助力单车的科技外挂拯救了脆弱的双腿，我们在瓢泼大雨里一头扎进了四国的山海迷雾。从大江大桥的现代工业奇迹，到两千年老树下的历史白噪音，人类在追求速度与寻找神迹之间反复折腾。本期我们用两轮硬扛太平洋的侧风，在暴雨，闭门羹与温泉的烟火气中完成精神洗礼，最后在高知古刹和料理店里，迎来肉体与灵魂的终极救赎。\n\n尾道 ➔ 岛波海道 ➔ 今治 ➔ 松山 ➔ 高知 ➔ 四万十 一场暴雨倾盆、灵肉超脱的硬核跳岛拉练。\n\n科技外挂与现代人的虚无： 体验尾道出发前在胶囊旅馆看大雨拉扯的沉没成本。多花一千日元升级电助力单车，最终在海峡引道斜坡前，靠电瓶找回了双腿的尊严。\n\n诸神的闭门羹与千年古树： 偏航10公里只为去探访历史深处的大山祇神社。在两千年古楠木下被倾盆大雨浇透，看着古人为了武运长久留下的冷兵器铠甲，就着雨水咽下便利店的碳水盲盒，那一刻的寂静比任何时候都令人心安。\n\n古老温泉的灵肉洗礼： 来到拥有三千年历史的道后温泉本馆。在圣德太子与夏目漱石都曾沐浴过的神之汤里，洗去一身的狼狈。\n\n土佐鲣鱼的猛火救赎： 在四国山脉的颠簸中扎进高知本地市场。一盘带着稻草焦香，大蒜片与盐巴的厚切炙烤鲣鱼，是把肉体强行拼凑回现实世界的珍馐。\n\n古刹的滑铁卢与隐居狂想： 在竹林寺的千年古刹里洗涤心灵，却在长满青苔的石阶上摔了个屁股墩。坐在连路灯都没有，漆黑一片的无人车站，看着旷野里散发温暖灯光的罗森便利店，突然看清了现代人既想逃离社会，又离不开现代便利的精神内耗。\n\n真实的世界没有最优解，偶尔脱轨，全当是给人生打个随性的补丁。\n\nBackground music from YouTube Audio Library.",
-      "publishedAt": "2026-06-21T05:57:23+00:00",
-      "rssUrl": "https://perilcrosser.com/feed/podcast/",
-      "coverImageUrl": "https://perilcrosser.com/wp-content/uploads/2025/09/SCR-20250916-nkpq-2-150x150.png",
-      "coverText": "Pe",
+      "episodeId": "6a3419c243a22a6955861364",
+      "podcastName": "碳基生物生存指南",
+      "episodeTitle": "E31 为了给地球降温，人类都在忙些什么?",
+      "description": "在一次又一次刷新“史上最热夏天”之后，你会不会感到困惑，明明全球升温才1-2度，但为什么这个夏天和记忆里的夏天，已经热出了质的区别。全球变暖，到底是个啥情况？\n这也是我的困惑，于是在夏日将至的6月，我翻开了地质学研究论文、能源报告、社会科学研究、电池技术概要...\n好消息是，清洁能源已经是地球上最便宜的能源获取方式，而也有很多很多的国家，开始以想象速度铺设太阳能板。但坏消息是，我们并不知道，一切是否已经晚了。\n而藏在这所有报告、数字和文献背后的，是一个非常精彩的、也正在进行的故事。关于气候，关于能源，关于博弈，也关于人性。\n我想邀请你一起了解，这个既与我们息息相关，但又因为太过宏大，而常常被忽视的命题。\n【时间轴】\n00:25 我们的臭氧层，还好吗？\n04:15 从地球出生以来，气候不是一直在变化吗？现在，哪有什么不同？\n07:48 升温2度而已，有那么可怕？\n19:58 节能减排：只有节能，才能减排？\n23:54 太阳能，来自自然的最便宜的能源\n27:20 2025年，清洁能源发电量已在百年来首次超越煤炭\n29:01 现在地球上，到底有多少太阳能？\n33:04 太阳能，对个体来说是便宜，对国家来说是新的权力结构\n40:26 可惜太阳能也有排放，也有污染，也有问题\n53:06 是全球变热不是变暖，是气候危机不是变化\n54:08 请查收你的个性化气候危机推送\n57:22 公开碳排放量排名，你会参与吗？\n59:20 个人减碳的边际效应 vs 高碳消费的不对等：那飞机，为什么不能电动呢？\n01:06:33 电池储能技术101\n01:11:06 我们能靠碳捕获减碳吗？\n01:12:25 人类啊，不是全能的神。但，我们也创造过奇迹\n本期节目是由巴斯夫发起的选择可持续的职场路企划系列之一（👈 点击收听更多相关单集）。在这些关于气候与能源的宏大议题背后，其实也有很多具体的人，正在通过材料创新、减碳技术与产业实践，把改变一点点落地。如果你也希望参与其中，寻找一条更有长期意义的职业路径，欢迎加入巴斯夫，在各自的岗位上参与这些变化，成为正在行动中的“变革新力量”。\n📃 本期播客提到的文献素材传送门：\n第一部分：从解决“臭氧层空洞”的成功，到正在演进的气候危机\n针对导致大灭绝的气温变化预估： https://www.nature.com/articles/s41467-021-25019-2，https://www.nature.com/articles/s41467-021-22298-7：“Major mass extinctions in the Phanerozoic can be linked to thresholds in climate change (warming or cooling) that equate to magnitudes >5.2 °C and rates >10 °C/Myr.”，“We show that pCO2 increased from 426 +133/−96 ppmv in the latest Permian to 2507 +4764/−1193 ppmv at the PTME within about 75 kyr”\n工业化之后二氧化碳浓度变化速率： https://pmc.ncbi.nlm.nih.gov/articles/PMC11648560/：“The global CO2 growth rate (CGR) in the decade of 2013–2022 averaged 2.42 ± 0.08 ppm yr−1.”\n第二部分：关于能源，我们已经有了新的叙事\n机构如何低估太阳能缓解气候变化的潜力： https://www.nature.com/articles/nenergy2017140： “Historically, annual growth of the cumulative installed capacity has varied between 20–72% between 1998 and 2015, corresponding to an average annual growth of 38%. Most scenarios underestimated historical growth by a wide margin…Scenario results often mismatch 2015 real capacity because they are calibrated to older historic data.”\n2025 全球用电统计 Ember 智库： https://ember-energy.org/latest-insights/global-electricity-review-2026/：1.2， 1.3， 1.4 章节： “Solar power increased from 2,143 TWh in 2024 to 2,778 TWh in 2025, a 30% increase and the highest growth rate in eight years despite a much higher base…Over the last ten years, solar grew at an average rate of 27% per year, with the annual growth rate never dropping below 21%.”， “China’s fossil generation falls for first time since 2015 as solar power booms”\n2025 全球可再生能源发电超越煤炭发电： https://ember-energy.org/latest-updates/solar-surge-halts-fossil-electricity-growth-worldwide-in-2025/： “The rise of clean electricity reached a new turning point in 2025 as clean power sources met all growth in global electricity demand, preventing an increase in fossil generation.”， “Renewables reached 34% of global electricity generation in 2025, overtaking coal’s 33% share for the first time in 100 years. Coal generation fell by 63 TWh globally, its first decline since 2020 and the first time coal dropped below a third of global generation.”\n巴基斯坦发电量统计 Ember 智库： https://ember-energy.org/app/uploads/2025/10/Global-Electricity-Mid-Year-Insights-2025-PDF.pdf 章节 1.2.1 “Among the top 20 largest solar generators in absolute terms, seven countries — Hungary, Greece, the Netherlands, Pakistan, Spain, Australia and Germany — generated 20% or more of their electricity from solar in the first six months of 2025.”， “Pakistan saw the largest increase in share, from 4.4% in H1-2021 to 21.9% in H1-2025.”\n印度靠太阳能发展 Ember 智库： https://ember-energy.org/latest-insights/indias-electrotech-fast-track-where-china-built-on-coal-india-is-building-on-sun/ 图1-5\n石油危机如何促进电力转型： https://ember-energy.org/latest-insights/the-new-twin-fossil-shock/， 图1\n太阳能发电碳足迹计算： https://onlinelibrary.wiley.com/doi/10.1111/j.1530-9290.2011.00439.x，https://docs.nlr.gov/docs/fy24osti/87372.pdf： “Prior to harmonization…an interquartile range (IQR) of 44 to 73.”， “GHG emissions per kWh range from 10-36 g CO2e, which are consistent with or lower than previous results published by NREL and IEA-PVPS”\n第三部分：减碳进度喜人，但也还远远不够，为什么行动起来这么难？\n11国关于气候危机多元无知现象研究： https://journals.sagepub.com/doi/10.1177/09567976251335585?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub 0pubmed， 图2， 及 “Contrary to expectations, the public-consensus intervention was largely ineffective, except for a slight increase in willingness to express one’s proclimate opinion (δ = 0.05, 90% CrI = [−0.02, 0.11]). ”\n社会行为学的减碳有效性研究： 智能电表： https://www.sciencedirect.com/science/article/abs/pii/S037877881300786X， 个性化信息推送： https://www.pnas.org/doi/10.1073/pnas.1401880112， 公开减排优绩： https://www.sciencedirect.com/science/article/abs/pii/S0095069614000072\n第四部分： 储能瓶颈，电池技术目前发展地如何了？\n飞机飞行造成污染的分类数据： https://ourworldindata.org/breakdown-co2-aviation， “When we break passenger flight emissions down by travel distance, we get a (surprisingly) equal three-way split in emissions between short-haul (less than 1,500 kilometers); medium-haul (1,500 to 4,000 km); and long-haul (greater than 4,000 km) journeys.”\n宁德时代 钠新电池+双核架构： https://www.catl.com/news/8400.html，https://www.news.cn/finance/20260423/bcf3c59c34a946b592345c9e4852dae2/c.html\n第五部分：碳捕捉\n碳捕捉成本预估： https://www.sciencedirect.com/science/article/pii/S2542435124000606， “Net removed costs projected at $226–$835/tCO2 for 1 Gt-CO2/year cumulative capacity”\n其他参考资料\n本期参考的学者访谈、科普频道包括：Simon Clark, Science Magazine, Bill McKibben, Hannah Ritchie, Dr Ben Miles, Cleo Abram, Howtown, Undecided with Matt Ferrell, Ted-Ed, Vox, DW Planet A, PBS Terra, StarTalk, vlogbrothers\n延伸阅读：Science 杂志2025年度科学突破颁发给 \"可再生能源势不可挡的增长\" https://www.science.org/toc/science/390/6779， 全球温室气体排放细分数据（除了能源电力交通，还有农业，建筑，生产等多个行业： https://ourworldindata.org/grapher/ghg-emissions-by-sector， 二氧化碳浓度升高导致的气候变化，在停止排放后的1000年内基本不可逆转：https://www.pnas.org/doi/10.1073/pnas.0812721106， 虽然人类不擅长预测，但其实人类对全球变暖幅度和温度的预测相当准确： https://www.youtube.com/watch?v=f4zul0BuO8A。\n本期音乐：Pixabay（免版权音乐库）\n小红书账号：梦妮爱读文献 （ID：4196506308）\n封面设计特别感谢：wow lab（2025 Science 的封面是本期播客封面灵感来源☀️）",
+      "publishedAt": "2026-06-19T02:00:00+00:00",
+      "rssUrl": "https://feed.xyzfm.space/wyedwp8eyy3q",
+      "coverImageUrl": "https://image.xyzcdn.net/FkA8RZ8_UBNPFO8vgBYsoPC5yHaR.PNG",
+      "coverText": "碳基",
       "coverBg": "bg-[#18181B]",
       "coverTextColor": "text-amber-50",
-      "whyRecommended": "适合喜欢骑行、旅行和深度体验的听众，用一场暴雨中的四国骑行串联起科技、历史与美食的救赎之旅。",
+      "whyRecommended": "适合关心气候与能源的听众，用数据和故事讲清全球变暖的真相与行动。",
       "viewpoints": [
-        "电助力单车在暴雨中拯救双腿的体验",
-        "探访大山祇神社与两千年古楠木",
-        "高知市场稻草炙烤鲣鱼的美食救赎"
-      ],
-      "goldenQuotes": [
-        {
-          "quote": "真实的世界没有最优解，偶尔脱轨，全当是给人生打个随性的补丁。",
-          "source": "来自本期 shownote",
-          "source_note": "来自本期 shownote"
-        }
-      ],
-      "triageTag": "🚶边走边听｜四国暴雨骑行故事",
-      "href": "https://perilcrosser.com/2026/06/21/ep49-%e6%97%a5%e6%9c%ac%e8%a5%bf%e5%8d%97%e6%8c%82%e9%80%bc%e6%b8%b83-%e6%9a%b4%e9%9b%a8%e9%aa%91%e8%a1%8c%ef%bc%8c%e5%8f%a4%e8%80%81%e5%90%8d%e6%b1%a4%e4%b8%8e%e9%b2%a3%e9%b1%bc/",
-      "scenario": "",
-      "whyRecommend": "适合喜欢骑行、旅行和深度体验的听众，用一场暴雨中的四国骑行串联起科技、历史与美食的救赎之旅。",
-      "goldenQuote": "真实的世界没有最优解，偶尔脱轨，全当是给人生打个随性的补丁。",
-      "topicTag": "🚶边走边听｜四国暴雨骑行故事"
-    },
-    {
-      "episodeId": "6a37b1bb75ba9e0c5336bc8a",
-      "podcastName": "时雨集",
-      "episodeTitle": "离上帝太远，离美国太近：北大毒枭的墨西哥淘金记",
-      "description": "一个北京普通家庭出身、一路杀进北大附中实验班和北京大学的顶尖做题家，本该拥有令人羡慕的精英白领起点，却在远赴拉丁美洲后选择走向暗面。在短短十年的时间里，他凭借过人的语言天赋与业务能力，从一家大型中资国企的外派翻译，一步步跨界异化为拉美两大死敌卡特尔集团共同的“影子CFO”，在北美地下黑产圈子里留下了“王哥（Brother Wang）”这个无人不知的神话背影。\n这绝对不是一个传统的街头古惑仔打打杀杀的故事，而是一场关于现代新型卡特尔如何伪装成跨国企业运作的深入解构。张智栋敏锐地捕捉到了跨国体制的盲区，利用跨境实物贸易和加密货币建立起一套全球影子银行网络，开创了“零手续费、两小时到账”的镜像交易和商品型洗钱模式，彻底解决了墨西哥卡特尔大宗毒资流转的痛点，将芬太尼黑产推向了追求极致资本效率的数字化时代。\n极其自负的智商和工具理性，让张智栋在内心为自己搭建了“一不拿枪、二不卖毒”的自我PUA，但他...去小宇宙查看完整单集简介\n在小宇宙查看该单集文稿",
-      "publishedAt": "2026-06-21T10:11:33+00:00",
-      "rssUrl": "https://feed.xyzfm.space/q88r8mmm6v8q",
-      "coverImageUrl": "https://image.xyzcdn.net/FteFooUS3HAqdVwEWVG_iQftDqmL.png",
-      "coverText": "时雨",
-      "coverBg": "bg-[#18181B]",
-      "coverTextColor": "text-amber-50",
-      "whyRecommended": "适合对跨国犯罪与金融暗网感兴趣的听众，用北大高材生的真实案例解构现代卡特尔运作逻辑。",
-      "viewpoints": [
-        "北大高材生转型为拉美卡特尔影子CFO",
-        "利用加密货币和贸易建立全球洗钱网络",
-        "开创零手续费两小时到账的镜像交易模式"
+        "臭氧层修复成功，但气候危机更严峻。",
+        "太阳能成本最低，清洁能源已超越煤炭。",
+        "个人减碳边际效应低，需系统性变革。"
       ],
       "goldenQuotes": [],
-      "triageTag": "📖值得精听｜北大毒枭的卡特尔洗钱内幕",
-      "href": "cosmos://page.cos/episode/6a37b1bb75ba9e0c5336bc8a?utm_source=rss",
+      "triageTag": "📖值得精听｜气候危机与能源转型全景",
+      "href": "cosmos://page.cos/episode/6a3419c243a22a6955861364?utm_source=rss",
       "scenario": "",
-      "whyRecommend": "适合对跨国犯罪与金融暗网感兴趣的听众，用北大高材生的真实案例解构现代卡特尔运作逻辑。",
-      "goldenQuote": "适合对跨国犯罪与金融暗网感兴趣的听众，用北大高材生的真实案例解构现代卡特尔运作逻辑。",
-      "topicTag": "📖值得精听｜北大毒枭的卡特尔洗钱内幕"
+      "whyRecommend": "适合关心气候与能源的听众，用数据和故事讲清全球变暖的真相与行动。",
+      "goldenQuote": "适合关心气候与能源的听众，用数据和故事讲清全球变暖的真相与行动。",
+      "topicTag": "📖值得精听｜气候危机与能源转型全景"
+    },
+    {
+      "episodeId": "6a37a560608f69578bd77b39",
+      "podcastName": "声动早咖啡",
+      "episodeTitle": "发卡量三年减少上亿张，为什么现在用信用卡的人越来越少？",
+      "description": "央行不久前发布的数据显示，截至今年一季度末，国内信用卡和借贷合一卡在用发卡量，已经从三年前超过 8 亿张，下降到 6 亿多张。同时，多家大中型银行去年的信用卡贷款余额和交易额也在下滑。曾经被银行大力推广、也很容易出现在日常消费里的信用卡，为什么这几年会开始持续减少？国内用信用卡的人越来越少，这背后到底发生了什么变化？本期轻解读就与之相关 [06:30]。你还记得自己第一张信用卡是在什么情况下办的吗？你现在还会使用或不再使用信用卡的原因又有哪些呢？在评论区和我们一起聊聊吧。\n\n本期还有关于端午假期、现代汽车、世界杯和 Anthropic 的新动态 [02:00]，欢迎收听！\n\n主播\nMengyi\n\n幕后制作\n监制：Zelin、Stella\n实习研究员：雷普利\n运营：George\n声音设计：沁茗\n封面设计：饭团\n营销内容策划：beibei\n商业内容策划：茹雪、幸倍\n声动活泼商业化小队：新新、秋杰、琳琳、迪卡\n商务合作：声动早咖啡等节目商业合作持续招募中，点击链接直达 声动商务会客厅，或者发送邮件至 business@shengfm.cn 联系我们；\n加入我们：声动活泼目前开放内容监制、商业发展等全职岗位，还在招聘内容实习生等，工作地点北京东城区，详细岗位信息与申请方式，请点击链接；\n听众投稿：如果你了解身边日常现象的背后原因，欢迎投稿，你的发现可能出现在节目中。\n\n「用声音碰撞世界」，声动活泼致力于为人们提供源源不断的思考养料。\n我们还有这些播客：声东击西、What's Next｜科技早知道、商业WHY酱、跳进兔子洞&跳进兔子洞第三季、吃喝玩乐了不起、不止金钱、泡腾 VC、反潮流俱乐部\n如果你喜欢我们的节目，欢迎打赏支持，或把我们的节目推荐给朋友\n本节目音频内容及文字版权归声动活泼所有，未经授权不得用于 AI 模型训练等用途",
+      "publishedAt": "2026-06-21T23:00:00+00:00",
+      "rssUrl": "https://feed.xyzfm.space/q88qwmydeuw8",
+      "coverImageUrl": "https://image.xyzcdn.net/FmH9eTO0HDhknAT6XajyN4yY0Naw.jpeg",
+      "coverText": "声动",
+      "coverBg": "bg-[#18181B]",
+      "coverTextColor": "text-amber-50",
+      "whyRecommended": "适合想了解信用卡行业变迁的听众，用数据与现象揭示消费习惯的深层变化。",
+      "viewpoints": [
+        "信用卡发卡量三年从8亿张降至6亿多张",
+        "多家银行信用卡贷款余额和交易额下滑",
+        "分析信用卡使用减少背后的消费变化"
+      ],
+      "goldenQuotes": [],
+      "triageTag": "☕有空再听｜信用卡发卡量下滑现象",
+      "href": "cosmos://page.cos/episode/6a37a560608f69578bd77b39?utm_source=rss",
+      "scenario": "",
+      "whyRecommend": "适合想了解信用卡行业变迁的听众，用数据与现象揭示消费习惯的深层变化。",
+      "goldenQuote": "适合想了解信用卡行业变迁的听众，用数据与现象揭示消费习惯的深层变化。",
+      "topicTag": "☕有空再听｜信用卡发卡量下滑现象"
     }
   ],
   "synthesis": null
