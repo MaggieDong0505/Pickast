@@ -1,5 +1,92 @@
 [
   {
+    "title": "AI会取代咨询行业吗？",
+    "domainTag": "AI与职业",
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "硅谷101",
+        "point": "AI会代替咨询，但技术专家之外的人仍有价值",
+        "episodeId": "47b7778e-1ed6-4dab-b7c9-8b4a6555b867"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI不会取代咨询，客户关系和行业知识更重要",
+        "episodeId": "6a33fa604233e62bc54c17fc"
+      }
+    ],
+    "createdAt": "2026-06-24T06:19:55.981347+08:00",
+    "updatedAt": "2026-06-24T06:19:55.981347+08:00"
+  },
+  {
+    "title": "太空算力经济账划算吗？",
+    "domainTag": "AI基础设施",
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "SpaceX将AI算力送入太空，解决电力瓶颈",
+        "episodeId": "6a2bbf224233e62bc548aa81"
+      },
+      {
+        "podcast": "硅谷101",
+        "point": "太空数据中心理论可行，经济账尚待验证",
+        "episodeId": "259291f5-2715-4dde-bcfe-b5beb4df5793"
+      }
+    ],
+    "divergence": [
+      {
+        "podcast": "硅谷101",
+        "point": "理论可行，但经济账还算不过来",
+        "episodeId": "259291f5-2715-4dde-bcfe-b5beb4df5793"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "SpaceX认为太空算力是巨大上行，经济账可算",
+        "episodeId": "6a2bbf224233e62bc548aa81"
+      }
+    ],
+    "createdAt": "2026-06-14T21:00:00+08:00",
+    "updatedAt": "2026-06-24T06:19:55.981347+08:00"
+  },
+  {
+    "title": "AI时代如何守住经济流动性？",
+    "domainTag": "AI与经济公平",
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI可能制造新寡头，财富集中度加剧",
+        "episodeId": "6a3a7f6d9d2f5743683ca27a"
+      },
+      {
+        "podcast": "十分吸引",
+        "point": "每次技术革命都是财富大洗牌，AI也不例外",
+        "episodeId": "6a2e69284233e62bc5499160"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-06-24T06:19:55.981347+08:00",
+    "updatedAt": "2026-06-24T06:19:55.981347+08:00"
+  },
+  {
+    "title": "AI编程工具会改变团队协作吗？",
+    "domainTag": "AI与软件开发",
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI让写代码不再是瓶颈，验证和质量成新核心",
+        "episodeId": "6a3a7f089d2f5743683ca24c"
+      },
+      {
+        "podcast": "十字路口Crossing",
+        "point": "AI Coding拐点：工程体系 vs 次抛代码",
+        "episodeId": "6a374ab075ba9e0c53368f7e"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-06-24T06:19:55.981347+08:00",
+    "updatedAt": "2026-06-24T06:19:55.981347+08:00"
+  },
+  {
     "title": "AI会让程序员失业吗？",
     "domainTag": "AI与职业",
     "consensus": [],
@@ -15,6 +102,25 @@
         "episodeId": "6a374ab075ba9e0c53368f7e"
       }
     ],
+    "createdAt": "2026-06-23T06:51:48.549176+08:00",
+    "updatedAt": "2026-06-23T06:51:48.549176+08:00"
+  },
+  {
+    "title": "AI会让财富更集中吗？",
+    "domainTag": "AI与经济",
+    "consensus": [
+      {
+        "podcast": "十分吸引",
+        "point": "AI是基础设施革命，财富将重新分配",
+        "episodeId": "6a2e69284233e62bc5499160"
+      },
+      {
+        "podcast": "42章经",
+        "point": "AI集齐泡沫条件，市场用新泡沫买单旧泡沫",
+        "episodeId": "6a2a808262c3d8534722ac02"
+      }
+    ],
+    "divergence": [],
     "createdAt": "2026-06-23T06:51:48.549176+08:00",
     "updatedAt": "2026-06-23T06:51:48.549176+08:00"
   },
@@ -43,38 +149,8 @@
         "episodeId": "6a275ed57444b5722235a897"
       }
     ],
-    "divergence": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "非工程师也能用Claude Code发布代码",
-        "episodeId": "6a26a3e4b30e1571aea2b45c"
-      },
-      {
-        "podcast": "十字路口Crossing",
-        "point": "普通人应停止用ChatGPT，改用Agent工具",
-        "episodeId": "6a275ed57444b5722235a897"
-      }
-    ],
-    "createdAt": "2026-06-15T19:30:25.286534+08:00",
-    "updatedAt": "2026-06-23T06:51:48.549176+08:00"
-  },
-  {
-    "title": "AI会让财富更集中吗？",
-    "domainTag": "AI与经济",
-    "consensus": [
-      {
-        "podcast": "十分吸引",
-        "point": "AI是基础设施革命，财富将重新分配",
-        "episodeId": "6a2e69284233e62bc5499160"
-      },
-      {
-        "podcast": "42章经",
-        "point": "AI集齐泡沫条件，市场用新泡沫买单旧泡沫",
-        "episodeId": "6a2a808262c3d8534722ac02"
-      }
-    ],
     "divergence": [],
-    "createdAt": "2026-06-23T06:51:48.549176+08:00",
+    "createdAt": "2026-06-15T19:30:25.286534+08:00",
     "updatedAt": "2026-06-23T06:51:48.549176+08:00"
   },
   {
@@ -466,24 +542,5 @@
     ],
     "createdAt": "2026-06-15T12:15:34.048930+08:00",
     "updatedAt": "2026-06-15T12:15:34.048930+08:00"
-  },
-  {
-    "title": "太空算力经济账划算吗？",
-    "domainTag": "AI基础设施",
-    "consensus": [],
-    "divergence": [
-      {
-        "podcast": "硅谷101",
-        "point": "理论可行，但经济账还算不过来",
-        "episodeId": "259291f5-2715-4dde-bcfe-b5beb4df5793"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "SpaceX认为太空算力是巨大上行，经济账可算",
-        "episodeId": "6a2bbf224233e62bc548aa81"
-      }
-    ],
-    "createdAt": "2026-06-14T21:00:00+08:00",
-    "updatedAt": "2026-06-14T21:00:00+08:00"
   }
 ]

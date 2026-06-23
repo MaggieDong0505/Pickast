@@ -1,5 +1,132 @@
 [
   {
+    "generatedAt": "2026-06-24T06:19:55.981347+08:00",
+    "title": "AI会取代咨询行业吗？",
+    "domainTag": "AI与职业",
+    "podcasts": [
+      "硅谷101",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "47b7778e-1ed6-4dab-b7c9-8b4a6555b867",
+      "6a33fa604233e62bc54c17fc"
+    ],
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "硅谷101",
+        "point": "AI会代替咨询，但技术专家之外的人仍有价值",
+        "episodeId": "47b7778e-1ed6-4dab-b7c9-8b4a6555b867"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI不会取代咨询，客户关系和行业知识更重要",
+        "episodeId": "6a33fa604233e62bc54c17fc"
+      }
+    ],
+    "fingerprint": "v1:2625686c63a0af2a8652412932d4de6110a85eba6a8a6426ac3db7629e4e5e20",
+    "createdAt": "2026-06-24T06:19:55.981347+08:00",
+    "updatedAt": "2026-06-24T06:19:55.981347+08:00"
+  },
+  {
+    "generatedAt": "2026-06-24T06:19:55.981347+08:00",
+    "title": "太空算力经济账划算吗？",
+    "domainTag": "AI基础设施",
+    "podcasts": [
+      "硅谷101",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "259291f5-2715-4dde-bcfe-b5beb4df5793",
+      "6a2bbf224233e62bc548aa81"
+    ],
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "SpaceX将AI算力送入太空，解决电力瓶颈",
+        "episodeId": "6a2bbf224233e62bc548aa81"
+      },
+      {
+        "podcast": "硅谷101",
+        "point": "太空数据中心理论可行，经济账尚待验证",
+        "episodeId": "259291f5-2715-4dde-bcfe-b5beb4df5793"
+      }
+    ],
+    "divergence": [
+      {
+        "podcast": "硅谷101",
+        "point": "理论可行，但经济账还算不过来",
+        "episodeId": "259291f5-2715-4dde-bcfe-b5beb4df5793"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "SpaceX认为太空算力是巨大上行，经济账可算",
+        "episodeId": "6a2bbf224233e62bc548aa81"
+      }
+    ],
+    "fingerprint": "v1:3711de983305705e545cc39d0455bbe0a59ce0151c2fec5173169dd29df34754",
+    "createdAt": "2026-06-14T21:00:00+08:00",
+    "updatedAt": "2026-06-24T06:19:55.981347+08:00"
+  },
+  {
+    "generatedAt": "2026-06-24T06:19:55.981347+08:00",
+    "title": "AI编程工具会改变团队协作吗？",
+    "domainTag": "AI与软件开发",
+    "podcasts": [
+      "十字路口Crossing",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a374ab075ba9e0c53368f7e",
+      "6a3a7f089d2f5743683ca24c"
+    ],
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI让写代码不再是瓶颈，验证和质量成新核心",
+        "episodeId": "6a3a7f089d2f5743683ca24c"
+      },
+      {
+        "podcast": "十字路口Crossing",
+        "point": "AI Coding拐点：工程体系 vs 次抛代码",
+        "episodeId": "6a374ab075ba9e0c53368f7e"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:9845843201b741922bb1292c795129ec9e580885628e46ded2ae5cbf6e22663f",
+    "createdAt": "2026-06-24T06:19:55.981347+08:00",
+    "updatedAt": "2026-06-24T06:19:55.981347+08:00"
+  },
+  {
+    "generatedAt": "2026-06-24T06:19:55.981347+08:00",
+    "title": "AI时代如何守住经济流动性？",
+    "domainTag": "AI与经济公平",
+    "podcasts": [
+      "十分吸引",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a2e69284233e62bc5499160",
+      "6a3a7f6d9d2f5743683ca27a"
+    ],
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI可能制造新寡头，财富集中度加剧",
+        "episodeId": "6a3a7f6d9d2f5743683ca27a"
+      },
+      {
+        "podcast": "十分吸引",
+        "point": "每次技术革命都是财富大洗牌，AI也不例外",
+        "episodeId": "6a2e69284233e62bc5499160"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:8b85eedae033941fcaf118d006ee7528224b420c7eee825b344bf4dbf9c44b4f",
+    "createdAt": "2026-06-24T06:19:55.981347+08:00",
+    "updatedAt": "2026-06-24T06:19:55.981347+08:00"
+  },
+  {
     "generatedAt": "2026-06-23T06:51:48.549176+08:00",
     "title": "AI会让程序员失业吗？",
     "domainTag": "AI与职业",
@@ -669,33 +796,6 @@
         "podcast": "十字路口Crossing",
         "point": "商业价值高度集中到基模，应用层像捡钢镚",
         "episodeId": "6a275ed57444b5722235a897"
-      }
-    ]
-  },
-  {
-    "generatedAt": "2026-06-14T21:00:00+08:00",
-    "title": "太空算力经济账划算吗？",
-    "domainTag": "AI基础设施",
-    "fingerprint": "v1:3711de983305705e545cc39d0455bbe0a59ce0151c2fec5173169dd29df34754",
-    "podcasts": [
-      "硅谷101",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "259291f5-2715-4dde-bcfe-b5beb4df5793",
-      "6a2bbf224233e62bc548aa81"
-    ],
-    "consensus": [],
-    "divergence": [
-      {
-        "podcast": "硅谷101",
-        "point": "理论可行，但经济账还算不过来",
-        "episodeId": "259291f5-2715-4dde-bcfe-b5beb4df5793"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "SpaceX认为太空算力是巨大上行，经济账可算",
-        "episodeId": "6a2bbf224233e62bc548aa81"
       }
     ]
   }

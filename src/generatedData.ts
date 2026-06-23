@@ -8,8 +8,8 @@
 import { BriefingCardData } from './types';
 
 export const initialData: BriefingCardData = {
-  "dateStr": "2026.06.23",
-  "chinaDateStr": "星期二 / TUESDAY",
+  "dateStr": "2026.06.24",
+  "chinaDateStr": "星期三 / WEDNESDAY",
   "title": "今天最值得听 • TODAY'S VOICE",
   "issueNo": "精选 3 条",
   "mainEpisode": {
@@ -23,11 +23,11 @@ export const initialData: BriefingCardData = {
     "coverText": "跨国",
     "coverBg": "bg-[#18181B]",
     "coverTextColor": "text-amber-50",
-    "whyRecommended": "适合对量化投资、AI前史与组织设计感兴趣的听众，深度拆解文艺复兴科技公司的传奇与秘密。",
+    "whyRecommended": "适合对量化投资、AI前史与组织设计感兴趣的听众，深度拆解文艺复兴科技公司的传奇历程。",
     "viewpoints": [
-      "Medallion基金费前年化68%，费后40%，碾压所有传奇投资人。",
-      "从密码破译到量化投资，在噪声中寻找微弱信号。",
-      "单一模型与协作文化，让天才共同改进同一套系统。"
+      "Medallion Fund 费前年化约68%，费后约40%。",
+      "从密码破译到量化投资：噪声里找信号。",
+      "单一模型与协作文化：所有研究员围绕同一模型工作。"
     ],
     "goldenQuotes": [
       {
@@ -36,19 +36,19 @@ export const initialData: BriefingCardData = {
         "source_note": "来自本期 shownote"
       },
       {
-        "quote": "所有人都在同一个投资策略、同一套投资基础设施上一起工作。",
+        "quote": "从 Medallion 诞生至今，扣费之后是 40%。扣费之前是 68%。",
         "source": "来自本期 shownote",
         "source_note": "来自本期 shownote"
       },
       {
-        "quote": "随着你待得越来越久，你其实是在付钱给更年轻的同事，让他们为你工作。",
+        "quote": "这些大型语言模型未必真的理解英语。它们只是非常擅长预测状态和下一个状态。",
         "source": "来自本期 shownote",
         "source_note": "来自本期 shownote"
       }
     ],
     "triageTag": "📖值得精听｜文艺复兴科技深度拆解",
     "href": "cosmos://page.cos/episode/6a3957589d2f5743683c11bf?utm_source=rss",
-    "whyRecommend": "适合对量化投资、AI前史与组织设计感兴趣的听众，深度拆解文艺复兴科技公司的传奇与秘密。",
+    "whyRecommend": "适合对量化投资、AI前史与组织设计感兴趣的听众，深度拆解文艺复兴科技公司的传奇历程。",
     "goldenQuote": "你是在噪声里找信号，试图用计算机和算法，从那些看起来近乎随机的东西里挖出信号。",
     "topicTag": "📖值得精听｜文艺复兴科技深度拆解"
   },
@@ -64,18 +64,18 @@ export const initialData: BriefingCardData = {
       "coverText": "碳基",
       "coverBg": "bg-[#18181B]",
       "coverTextColor": "text-amber-50",
-      "whyRecommended": "适合关心气候与能源的听众，用数据和故事讲清全球变暖的真相与行动。",
+      "whyRecommended": "适合关心气候与能源的听众，用数据和故事讲清全球变暖的真相与希望。",
       "viewpoints": [
-        "臭氧层修复成功，但气候危机更严峻。",
-        "太阳能成本最低，清洁能源已超越煤炭。",
-        "个人减碳边际效应低，需系统性变革。"
+        "臭氧层修复成功，气候危机仍在加剧。",
+        "太阳能已成最便宜能源，清洁能源发电超越煤炭。",
+        "个人减碳边际效应有限，需系统变革。"
       ],
       "goldenQuotes": [],
       "triageTag": "📖值得精听｜气候危机与能源转型全景",
       "href": "cosmos://page.cos/episode/6a3419c243a22a6955861364?utm_source=rss",
       "scenario": "",
-      "whyRecommend": "适合关心气候与能源的听众，用数据和故事讲清全球变暖的真相与行动。",
-      "goldenQuote": "适合关心气候与能源的听众，用数据和故事讲清全球变暖的真相与行动。",
+      "whyRecommend": "适合关心气候与能源的听众，用数据和故事讲清全球变暖的真相与希望。",
+      "goldenQuote": "适合关心气候与能源的听众，用数据和故事讲清全球变暖的真相与希望。",
       "topicTag": "📖值得精听｜气候危机与能源转型全景"
     },
     {
@@ -89,19 +89,19 @@ export const initialData: BriefingCardData = {
       "coverText": "声动",
       "coverBg": "bg-[#18181B]",
       "coverTextColor": "text-amber-50",
-      "whyRecommended": "适合想了解信用卡行业变迁的听众，用数据与现象揭示消费习惯的深层变化。",
+      "whyRecommended": "适合想了解信用卡行业变迁的听众，从数据到原因，一集讲清发卡量下滑背后的消费习惯变化。",
       "viewpoints": [
         "信用卡发卡量三年从8亿张降至6亿多张",
         "多家银行信用卡贷款余额和交易额下滑",
-        "分析信用卡使用减少背后的消费变化"
+        "消费习惯变化是信用卡减少的主要原因"
       ],
       "goldenQuotes": [],
-      "triageTag": "☕有空再听｜信用卡发卡量下滑现象",
+      "triageTag": "☕有空再听｜信用卡发卡量下滑原因",
       "href": "cosmos://page.cos/episode/6a37a560608f69578bd77b39?utm_source=rss",
       "scenario": "",
-      "whyRecommend": "适合想了解信用卡行业变迁的听众，用数据与现象揭示消费习惯的深层变化。",
-      "goldenQuote": "适合想了解信用卡行业变迁的听众，用数据与现象揭示消费习惯的深层变化。",
-      "topicTag": "☕有空再听｜信用卡发卡量下滑现象"
+      "whyRecommend": "适合想了解信用卡行业变迁的听众，从数据到原因，一集讲清发卡量下滑背后的消费习惯变化。",
+      "goldenQuote": "适合想了解信用卡行业变迁的听众，从数据到原因，一集讲清发卡量下滑背后的消费习惯变化。",
+      "topicTag": "☕有空再听｜信用卡发卡量下滑原因"
     }
   ],
   "synthesis": null
