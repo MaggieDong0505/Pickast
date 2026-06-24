@@ -1,5 +1,24 @@
 [
   {
+    "title": "AI时代如何重新理解财富？",
+    "domainTag": "AI与经济",
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "财富本质是创造持续制造价值的机器",
+        "episodeId": "6a3a7f6d9d2f5743683ca27a"
+      },
+      {
+        "podcast": "42章经",
+        "point": "泡沫无法被事先证明，但可识别信号",
+        "episodeId": "6a2a808262c3d8534722ac02"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-06-25T06:24:05.044558+08:00",
+    "updatedAt": "2026-06-25T06:24:05.044558+08:00"
+  },
+  {
     "title": "AI会取代咨询行业吗？",
     "domainTag": "AI与职业",
     "consensus": [],
