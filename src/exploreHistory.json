@@ -1,5 +1,34 @@
 [
   {
+    "generatedAt": "2026-06-26T06:26:54.610827+08:00",
+    "title": "手机是AI时代最佳入口吗？",
+    "domainTag": "AI硬件",
+    "podcasts": [
+      "What's Next｜科技早知道",
+      "乱翻书"
+    ],
+    "episodeIds": [
+      "523a0d42-4c16-4dd6-a2ab-9277fec1a731",
+      "6a3bdd319d2f5743683d4841"
+    ],
+    "consensus": [
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "手机是天然AI载体，端侧AI价值巨大",
+        "episodeId": "523a0d42-4c16-4dd6-a2ab-9277fec1a731"
+      },
+      {
+        "podcast": "乱翻书",
+        "point": "AI硬件绕了一圈，最后又回到手机",
+        "episodeId": "6a3bdd319d2f5743683d4841"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:f39b2016b08ceb13234ecdb9a578c4a8bc967a5251132f491fc694f45c71c34e",
+    "createdAt": "2026-06-26T06:26:54.610827+08:00",
+    "updatedAt": "2026-06-26T06:26:54.610827+08:00"
+  },
+  {
     "generatedAt": "2026-06-25T06:24:05.044558+08:00",
     "title": "AI时代如何重新理解财富？",
     "domainTag": "AI与经济",
