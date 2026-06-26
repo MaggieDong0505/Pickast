@@ -1129,7 +1129,7 @@ export default function App() {
                   <div className="flex flex-col items-center justify-center text-center py-16 bg-[#FAF9F5] border border-[#1A1A1A]/20 rounded-2xl p-6 paper-texture shadow-sm">
                     <Bookmark className="w-8 h-8 stroke-1 text-[#888888] mb-3" />
                     <h3 className="font-serif font-bold text-xs text-[#1A1A1A] mb-1">还没有收藏，去今日精选看看</h3>
-                    <p className="text-[10px] text-[#666666] leading-relaxed">在卡片上点爱心即可收藏</p>
+                    <p className="text-[10px] text-[#666666] leading-relaxed">在卡片上点爱心即可收藏单集节目</p>
                   </div>
                 ) : (
                   favoriteItems.map((favorite) => {
