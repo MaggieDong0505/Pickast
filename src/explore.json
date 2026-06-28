@@ -1,5 +1,43 @@
 [
   {
+    "title": "AIAgent是员工还是工具？",
+    "domainTag": "AI与工作流",
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "Agent是工具，不是员工",
+        "episodeId": "e3a21dde-0bba-4ec2-bf12-5043500ae5c6"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "Agent是能独立决策的合伙人",
+        "episodeId": "6a3c2c239d2f5743683d644a"
+      }
+    ],
+    "createdAt": "2026-06-29T06:09:09.193638+08:00",
+    "updatedAt": "2026-06-29T06:09:09.193638+08:00"
+  },
+  {
+    "title": "AI时代半导体供应链如何重建？",
+    "domainTag": "半导体与地缘",
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "Intel CEO谈美国制造芯片的可行性与供应链韧性",
+        "episodeId": "6a3549dd4233e62bc54c7664"
+      },
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "芯片简史揭示破坏性创新常被大公司忽视",
+        "episodeId": "8c95b3dc-d75a-4bdd-84d4-2c06fd2d85b1"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-06-29T06:09:09.193638+08:00",
+    "updatedAt": "2026-06-29T06:09:09.193638+08:00"
+  },
+  {
     "title": "AI会让个人能力超越组织吗？",
     "domainTag": "AI与社会",
     "consensus": [

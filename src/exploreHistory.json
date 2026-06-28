@@ -1,5 +1,63 @@
 [
   {
+    "generatedAt": "2026-06-29T06:09:09.193638+08:00",
+    "title": "AIAgent是员工还是工具？",
+    "domainTag": "AI与工作流",
+    "podcasts": [
+      "What's Next｜科技早知道",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a3c2c239d2f5743683d644a",
+      "e3a21dde-0bba-4ec2-bf12-5043500ae5c6"
+    ],
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "Agent是工具，不是员工",
+        "episodeId": "e3a21dde-0bba-4ec2-bf12-5043500ae5c6"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "Agent是能独立决策的合伙人",
+        "episodeId": "6a3c2c239d2f5743683d644a"
+      }
+    ],
+    "fingerprint": "v1:f5e5e44d9107784b1c8dd49f6a9a478a3df6eb12a551ec54c8d9083182d3fbeb",
+    "createdAt": "2026-06-29T06:09:09.193638+08:00",
+    "updatedAt": "2026-06-29T06:09:09.193638+08:00"
+  },
+  {
+    "generatedAt": "2026-06-29T06:09:09.193638+08:00",
+    "title": "AI时代半导体供应链如何重建？",
+    "domainTag": "半导体与地缘",
+    "podcasts": [
+      "What's Next｜科技早知道",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a3549dd4233e62bc54c7664",
+      "8c95b3dc-d75a-4bdd-84d4-2c06fd2d85b1"
+    ],
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "Intel CEO谈美国制造芯片的可行性与供应链韧性",
+        "episodeId": "6a3549dd4233e62bc54c7664"
+      },
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "芯片简史揭示破坏性创新常被大公司忽视",
+        "episodeId": "8c95b3dc-d75a-4bdd-84d4-2c06fd2d85b1"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:6ed8f461aba4a412447ae3e6d9f1208adfae345f98417897553cfd87a2f532e5",
+    "createdAt": "2026-06-29T06:09:09.193638+08:00",
+    "updatedAt": "2026-06-29T06:09:09.193638+08:00"
+  },
+  {
     "generatedAt": "2026-06-27T06:20:29.264566+08:00",
     "title": "AI会让个人能力超越组织吗？",
     "domainTag": "AI与社会",
@@ -831,59 +889,5 @@
       }
     ],
     "fingerprint": "v1:949eeb7b86a542214e4b0d62fe58eb1be62a130b5594970a5989c8910e93c098"
-  },
-  {
-    "generatedAt": "2026-06-15T12:15:34.048930+08:00",
-    "title": "AIAgent会取代传统软件吗？",
-    "domainTag": "AI与软件",
-    "fingerprint": "v1:9cb47a159c6cbb17116e85f1f837593a06b7bd17ff5b272a86c63af92e97a4ec",
-    "podcasts": [
-      "十字路口Crossing",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "6a1e8760122ade5348e85027",
-      "6a275ed57444b5722235a897"
-    ],
-    "consensus": [],
-    "divergence": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "软件公司不会被消灭，反而迎来更大需求",
-        "episodeId": "6a1e8760122ade5348e85027"
-      },
-      {
-        "podcast": "十字路口Crossing",
-        "point": "传统软件老路径变难，机会在两端",
-        "episodeId": "6a275ed57444b5722235a897"
-      }
-    ]
-  },
-  {
-    "generatedAt": "2026-06-15T12:15:34.048930+08:00",
-    "title": "AI时代普通人还有机会吗？",
-    "domainTag": "AI与个人",
-    "fingerprint": "v1:bd94bbda54f19a1fe889e176897493abb57969998048007a6e1b2b0d79dd5ab5",
-    "podcasts": [
-      "十分吸引",
-      "十字路口Crossing"
-    ],
-    "episodeIds": [
-      "6a275ed57444b5722235a897",
-      "6a2e69284233e62bc5499160"
-    ],
-    "consensus": [],
-    "divergence": [
-      {
-        "podcast": "十分吸引",
-        "point": "普通人也能赶上技术红利",
-        "episodeId": "6a2e69284233e62bc5499160"
-      },
-      {
-        "podcast": "十字路口Crossing",
-        "point": "商业价值高度集中到基模，应用层像捡钢镚",
-        "episodeId": "6a275ed57444b5722235a897"
-      }
-    ]
   }
 ]
