@@ -1,5 +1,24 @@
 [
   {
+    "title": "中国走出通缩了吗？",
+    "domainTag": "宏观经济",
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "十分吸引",
+        "point": "高端制造走出通缩，消费还在里面",
+        "episodeId": "6a3be3c22e335a35a808d1a6"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI产业链钱多货紧，消费钱少货缺",
+        "episodeId": "6a3a7f6d9d2f5743683ca27a"
+      }
+    ],
+    "createdAt": "2026-06-30T06:16:09.612309+08:00",
+    "updatedAt": "2026-06-30T06:16:09.612309+08:00"
+  },
+  {
     "title": "AIAgent是员工还是工具？",
     "domainTag": "AI与工作流",
     "consensus": [],
@@ -599,43 +618,5 @@
     ],
     "createdAt": "2026-06-15T15:24:19.322499+08:00",
     "updatedAt": "2026-06-15T15:24:19.322499+08:00"
-  },
-  {
-    "title": "AIAgent会取代传统软件吗？",
-    "domainTag": "AI与软件",
-    "consensus": [],
-    "divergence": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "软件公司不会被消灭，反而迎来更大需求",
-        "episodeId": "6a1e8760122ade5348e85027"
-      },
-      {
-        "podcast": "十字路口Crossing",
-        "point": "传统软件老路径变难，机会在两端",
-        "episodeId": "6a275ed57444b5722235a897"
-      }
-    ],
-    "createdAt": "2026-06-15T12:15:34.048930+08:00",
-    "updatedAt": "2026-06-15T12:15:34.048930+08:00"
-  },
-  {
-    "title": "AI时代普通人还有机会吗？",
-    "domainTag": "AI与个人",
-    "consensus": [],
-    "divergence": [
-      {
-        "podcast": "十分吸引",
-        "point": "普通人也能赶上技术红利",
-        "episodeId": "6a2e69284233e62bc5499160"
-      },
-      {
-        "podcast": "十字路口Crossing",
-        "point": "商业价值高度集中到基模，应用层像捡钢镚",
-        "episodeId": "6a275ed57444b5722235a897"
-      }
-    ],
-    "createdAt": "2026-06-15T12:15:34.048930+08:00",
-    "updatedAt": "2026-06-15T12:15:34.048930+08:00"
   }
 ]

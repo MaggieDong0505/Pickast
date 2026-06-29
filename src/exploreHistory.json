@@ -1,5 +1,34 @@
 [
   {
+    "generatedAt": "2026-06-30T06:16:09.612309+08:00",
+    "title": "中国走出通缩了吗？",
+    "domainTag": "宏观经济",
+    "podcasts": [
+      "十分吸引",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a3a7f6d9d2f5743683ca27a",
+      "6a3be3c22e335a35a808d1a6"
+    ],
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "十分吸引",
+        "point": "高端制造走出通缩，消费还在里面",
+        "episodeId": "6a3be3c22e335a35a808d1a6"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI产业链钱多货紧，消费钱少货缺",
+        "episodeId": "6a3a7f6d9d2f5743683ca27a"
+      }
+    ],
+    "fingerprint": "v1:76bc21285ffcb6d8a4ce750adc302ec2cd332f3b7aa23d7f1c44b94b72d5f49f",
+    "createdAt": "2026-06-30T06:16:09.612309+08:00",
+    "updatedAt": "2026-06-30T06:16:09.612309+08:00"
+  },
+  {
     "generatedAt": "2026-06-29T06:09:09.193638+08:00",
     "title": "AIAgent是员工还是工具？",
     "domainTag": "AI与工作流",
@@ -862,32 +891,5 @@
     ],
     "divergence": [],
     "fingerprint": "v1:dab28ef36c99212dd66a5a7bc3ad18cea22510242bef0bc4ba68a09104688a04"
-  },
-  {
-    "generatedAt": "2026-06-15T15:24:19.322499+08:00",
-    "title": "AI会让白领大规模失业吗？",
-    "domainTag": "AI与就业",
-    "podcasts": [
-      "整点亮话",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "6a226610b30e1571aea10f57",
-      "6a25a0d7b30e1571aea23ce1"
-    ],
-    "consensus": [],
-    "divergence": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI替代低弹性岗位，但会创造新需求",
-        "episodeId": "6a226610b30e1571aea10f57"
-      },
-      {
-        "podcast": "整点亮话",
-        "point": "公司拿AI当裁员借口，实际是降本",
-        "episodeId": "6a25a0d7b30e1571aea23ce1"
-      }
-    ],
-    "fingerprint": "v1:949eeb7b86a542214e4b0d62fe58eb1be62a130b5594970a5989c8910e93c098"
   }
 ]
