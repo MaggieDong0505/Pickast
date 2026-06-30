@@ -1,5 +1,34 @@
 [
   {
+    "generatedAt": "2026-07-01T06:20:03.898510+08:00",
+    "title": "AI时代需要什么样的组织？",
+    "domainTag": "组织管理",
+    "podcasts": [
+      "42章经",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a3e50142e335a35a809d5b4",
+      "6a43a9699d2f574368405276"
+    ],
+    "consensus": [
+      {
+        "podcast": "42章经",
+        "point": "创业公司80-90%时间应花在招聘上",
+        "episodeId": "6a3e50142e335a35a809d5b4"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "角色边界消融，产品经理和工程师界限模糊",
+        "episodeId": "6a43a9699d2f574368405276"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:5910c8f088fddd616176ee60b3f78ab786c191ffb869592eba07978df5dae1db",
+    "createdAt": "2026-07-01T06:20:03.898510+08:00",
+    "updatedAt": "2026-07-01T06:20:03.898510+08:00"
+  },
+  {
     "generatedAt": "2026-06-30T06:16:09.612309+08:00",
     "title": "中国走出通缩了吗？",
     "domainTag": "宏观经济",
@@ -864,32 +893,5 @@
     ],
     "divergence": [],
     "fingerprint": "v1:16a5c267c7464e313a059e89bec3b4608841d914770b5b7d28a60bb7317d9773"
-  },
-  {
-    "generatedAt": "2026-06-15T18:00:31.178885+08:00",
-    "title": "AI时代财富会如何重新分配？",
-    "domainTag": "AI与经济",
-    "podcasts": [
-      "十分吸引",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "6a226610b30e1571aea10f57",
-      "6a2e69284233e62bc5499160"
-    ],
-    "consensus": [
-      {
-        "podcast": "十分吸引",
-        "point": "技术革命是财富洗牌，AI正处基建阶段，应用形态不确定",
-        "episodeId": "6a2e69284233e62bc5499160"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI越强经济占比可能越小，关系型部门成稀缺价值",
-        "episodeId": "6a226610b30e1571aea10f57"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:dab28ef36c99212dd66a5a7bc3ad18cea22510242bef0bc4ba68a09104688a04"
   }
 ]

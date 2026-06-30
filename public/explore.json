@@ -1,5 +1,24 @@
 [
   {
+    "title": "AI时代需要什么样的组织？",
+    "domainTag": "组织管理",
+    "consensus": [
+      {
+        "podcast": "42章经",
+        "point": "创业公司80-90%时间应花在招聘上",
+        "episodeId": "6a3e50142e335a35a809d5b4"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "角色边界消融，产品经理和工程师界限模糊",
+        "episodeId": "6a43a9699d2f574368405276"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-07-01T06:20:03.898510+08:00",
+    "updatedAt": "2026-07-01T06:20:03.898510+08:00"
+  },
+  {
     "title": "中国走出通缩了吗？",
     "domainTag": "宏观经济",
     "consensus": [],
@@ -599,24 +618,5 @@
     "divergence": [],
     "createdAt": "2026-06-15T18:00:31.178885+08:00",
     "updatedAt": "2026-06-15T18:00:31.178885+08:00"
-  },
-  {
-    "title": "AI会让白领大规模失业吗？",
-    "domainTag": "AI与就业",
-    "consensus": [],
-    "divergence": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI替代低弹性岗位，但会创造新需求",
-        "episodeId": "6a226610b30e1571aea10f57"
-      },
-      {
-        "podcast": "整点亮话",
-        "point": "公司拿AI当裁员借口，实际是降本",
-        "episodeId": "6a25a0d7b30e1571aea23ce1"
-      }
-    ],
-    "createdAt": "2026-06-15T15:24:19.322499+08:00",
-    "updatedAt": "2026-06-15T15:24:19.322499+08:00"
   }
 ]
