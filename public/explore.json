@@ -1,5 +1,24 @@
 [
   {
+    "title": "触觉是机器人智能的关键吗？",
+    "domainTag": "具身智能",
+    "consensus": [
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "触觉是具身智能最后一块拼图",
+        "episodeId": "f448a656-3004-430b-a853-79d1e77dcb53"
+      },
+      {
+        "podcast": "十字路口Crossing",
+        "point": "陪伴机器人需要触觉和情感交互",
+        "episodeId": "6a3f281f9d2f5743683e81b2"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-07-02T06:23:50.286023+08:00",
+    "updatedAt": "2026-07-02T06:23:50.286023+08:00"
+  },
+  {
     "title": "AI时代需要什么样的组织？",
     "domainTag": "组织管理",
     "consensus": [
@@ -575,25 +594,6 @@
         "podcast": "十字路口Crossing",
         "point": "FDE岗位出现，旧分工松动，AI落地需要业务融合",
         "episodeId": "6a1e4022ac7bdb080c348b41"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-06-15T18:00:31.178885+08:00",
-    "updatedAt": "2026-06-15T18:00:31.178885+08:00"
-  },
-  {
-    "title": "AI时代财富会如何重新分配？",
-    "domainTag": "AI与经济",
-    "consensus": [
-      {
-        "podcast": "十分吸引",
-        "point": "技术革命是财富洗牌，AI正处基建阶段，应用形态不确定",
-        "episodeId": "6a2e69284233e62bc5499160"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI越强经济占比可能越小，关系型部门成稀缺价值",
-        "episodeId": "6a226610b30e1571aea10f57"
       }
     ],
     "divergence": [],
