@@ -1,5 +1,24 @@
 [
   {
+    "title": "AI时代需要投资GUI软件吗？",
+    "domainTag": "AI产品",
+    "consensus": [
+      {
+        "podcast": "十字路口Crossing",
+        "point": "不该再投资GUI思维的软件",
+        "episodeId": "6a4511d92e335a35a80c8431"
+      },
+      {
+        "podcast": "乱翻书",
+        "point": "APP会退居幕后，Agent上位",
+        "episodeId": "6a3bdd319d2f5743683d4841"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-07-03T06:14:43.382114+08:00",
+    "updatedAt": "2026-07-03T06:14:43.382114+08:00"
+  },
+  {
     "title": "触觉是机器人智能的关键吗？",
     "domainTag": "具身智能",
     "consensus": [
@@ -580,25 +599,6 @@
     "divergence": [],
     "createdAt": "2026-06-15T19:30:25.286534+08:00",
     "updatedAt": "2026-06-15T19:30:25.286534+08:00"
-  },
-  {
-    "title": "AIAgent如何重塑组织分工？",
-    "domainTag": "AI与组织",
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI让工程师、PM、设计师角色融合，进入通才黄金时代",
-        "episodeId": "6a26a3e4b30e1571aea2b45c"
-      },
-      {
-        "podcast": "十字路口Crossing",
-        "point": "FDE岗位出现，旧分工松动，AI落地需要业务融合",
-        "episodeId": "6a1e4022ac7bdb080c348b41"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-06-15T18:00:31.178885+08:00",
-    "updatedAt": "2026-06-15T18:00:31.178885+08:00"
   },
   {
     "title": "AI能替代律师和会计吗？",

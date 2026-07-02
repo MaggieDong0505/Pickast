@@ -1,5 +1,34 @@
 [
   {
+    "generatedAt": "2026-07-03T06:14:43.382114+08:00",
+    "title": "AI时代需要投资GUI软件吗？",
+    "domainTag": "AI产品",
+    "podcasts": [
+      "乱翻书",
+      "十字路口Crossing"
+    ],
+    "episodeIds": [
+      "6a3bdd319d2f5743683d4841",
+      "6a4511d92e335a35a80c8431"
+    ],
+    "consensus": [
+      {
+        "podcast": "十字路口Crossing",
+        "point": "不该再投资GUI思维的软件",
+        "episodeId": "6a4511d92e335a35a80c8431"
+      },
+      {
+        "podcast": "乱翻书",
+        "point": "APP会退居幕后，Agent上位",
+        "episodeId": "6a3bdd319d2f5743683d4841"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:2fd51fcfc2534066be798ff588ce1f69d55e95922d97c0a195629685771dd61f",
+    "createdAt": "2026-07-03T06:14:43.382114+08:00",
+    "updatedAt": "2026-07-03T06:14:43.382114+08:00"
+  },
+  {
     "generatedAt": "2026-07-02T06:23:50.286023+08:00",
     "title": "触觉是机器人智能的关键吗？",
     "domainTag": "具身智能",
@@ -868,32 +897,5 @@
     ],
     "divergence": [],
     "fingerprint": "v1:f0608e905a7fb91a1af72d6126c28f4f14673d93e919cac328e5d92eddf02099"
-  },
-  {
-    "generatedAt": "2026-06-15T18:00:31.178885+08:00",
-    "title": "AI能替代律师和会计吗？",
-    "domainTag": "AI与专业服务",
-    "podcasts": [
-      "贝望录",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "6a226610b30e1571aea10f57",
-      "6a26ebaab30e1571aea2dfc5"
-    ],
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "律师会计未被替代因可靠性责任监管摩擦",
-        "episodeId": "6a226610b30e1571aea10f57"
-      },
-      {
-        "podcast": "贝望录",
-        "point": "AI不能代替律师和专业顾问",
-        "episodeId": "6a26ebaab30e1571aea2dfc5"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:efa1a2458cf16d58a5aec63ca2244d315924cd11b58e1687da04a3a11496a1c3"
   }
 ]
