@@ -1,5 +1,70 @@
 [
   {
+    "generatedAt": "2026-07-04T06:12:06.604570+08:00",
+    "title": "AI时代如何建立个人品牌？",
+    "domainTag": "个人成长",
+    "podcasts": [
+      "搞钱女孩",
+      "贝望录",
+      "韩叙的朋友们"
+    ],
+    "episodeIds": [
+      "6a4520019d2f574368410349",
+      "6a454a912e335a35a80c9f11",
+      "6a4565062e335a35a80ca215"
+    ],
+    "consensus": [
+      {
+        "podcast": "搞钱女孩",
+        "point": "突破搞钱卡点最快方式是换圈子，靠近高能量人群",
+        "episodeId": "6a4565062e335a35a80ca215"
+      },
+      {
+        "podcast": "贝望录",
+        "point": "先走出来再决定往哪里去，方向在行动中浮现",
+        "episodeId": "6a4520019d2f574368410349"
+      },
+      {
+        "podcast": "韩叙的朋友们",
+        "point": "一人公司要切反漏斗，商业模式走在AI前面",
+        "episodeId": "6a454a912e335a35a80c9f11"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:fb1524280437d2b1856bf5dbcfd036954eb45950a38235ab17ddc6fe1ccc7b04",
+    "createdAt": "2026-07-04T06:12:06.604570+08:00",
+    "updatedAt": "2026-07-04T06:12:06.604570+08:00"
+  },
+  {
+    "generatedAt": "2026-07-04T06:12:06.604570+08:00",
+    "title": "世界杯营销中小企业怎么玩？",
+    "domainTag": "品牌营销",
+    "podcasts": [
+      "声动早咖啡",
+      "贝望录"
+    ],
+    "episodeIds": [
+      "6a3a557c9d2f5743683c8c0e",
+      "6a3bb9319d2f5743683d34b5"
+    ],
+    "consensus": [
+      {
+        "podcast": "贝望录",
+        "point": "世界杯不只是大品牌游戏，中小企业也能讲好故事",
+        "episodeId": "6a3a557c9d2f5743683c8c0e"
+      },
+      {
+        "podcast": "声动早咖啡",
+        "point": "足球球衣成为时尚单品，品牌可借势文化时刻",
+        "episodeId": "6a3bb9319d2f5743683d34b5"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:a921b3d231c1a5bb490c7cd957a89ecb08c38a1f99a7e7da535d8dd07c8d6ca2",
+    "createdAt": "2026-07-04T06:12:06.604570+08:00",
+    "updatedAt": "2026-07-04T06:12:06.604570+08:00"
+  },
+  {
     "generatedAt": "2026-07-03T06:14:43.382114+08:00",
     "title": "AI时代需要投资GUI软件吗？",
     "domainTag": "AI产品",
@@ -841,61 +906,5 @@
     "fingerprint": "v1:75651638df04181d88e18140454354d59ea33bb6951be57af198738b60fe74b9",
     "createdAt": "2026-06-19T07:00:05.907679+08:00",
     "updatedAt": "2026-06-19T07:00:05.907679+08:00"
-  },
-  {
-    "generatedAt": "2026-06-18T06:49:46.273942+08:00",
-    "title": "AI时代如何学习新技能？",
-    "domainTag": "AI与教育",
-    "podcasts": [
-      "十字路口Crossing",
-      "韩叙的朋友们"
-    ],
-    "episodeIds": [
-      "6a275ed57444b5722235a897",
-      "6a3052464233e62bc54a7461"
-    ],
-    "consensus": [
-      {
-        "podcast": "十字路口Crossing",
-        "point": "停止用ChatGPT聊天，改用Agentic工具",
-        "episodeId": "6a275ed57444b5722235a897"
-      },
-      {
-        "podcast": "韩叙的朋友们",
-        "point": "普通人从被动重复转向主动提效",
-        "episodeId": "6a3052464233e62bc54a7461"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:4e3164faab3a87b0d88d29f257c386ca4af05d405c865c5dddd09d45511602ff",
-    "createdAt": "2026-06-18T06:49:46.273942+08:00",
-    "updatedAt": "2026-06-18T06:49:46.273942+08:00"
-  },
-  {
-    "generatedAt": "2026-06-15T19:30:25.286534+08:00",
-    "title": "AI时代一人公司如何生存？",
-    "domainTag": "AI与创业",
-    "podcasts": [
-      "What's Next｜科技早知道",
-      "十字路口Crossing"
-    ],
-    "episodeIds": [
-      "33e95bf5-9dd2-45d7-9b5f-6e05a078f2d7",
-      "6a275ed57444b5722235a897"
-    ],
-    "consensus": [
-      {
-        "podcast": "What's Next｜科技早知道",
-        "point": "Gumroad创始人认为AI让一人公司成为可能，但稀缺的是销",
-        "episodeId": "33e95bf5-9dd2-45d7-9b5f-6e05a078f2d7"
-      },
-      {
-        "podcast": "十字路口Crossing",
-        "point": "AI时代创业机会两极化：往天上跳或往地里钻",
-        "episodeId": "6a275ed57444b5722235a897"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:f0608e905a7fb91a1af72d6126c28f4f14673d93e919cac328e5d92eddf02099"
   }
 ]
