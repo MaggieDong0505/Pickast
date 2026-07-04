@@ -1,5 +1,72 @@
 [
   {
+    "title": "AI时代如何保持独立思考？",
+    "domainTag": "认知与创造力",
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "成为二手思考者代价高昂，需警惕算法同化",
+        "episodeId": "6a4034262e335a35a80a5f75"
+      },
+      {
+        "podcast": "跨域请求",
+        "point": "AI同化让人用AI术语理解自己，需反向输出",
+        "episodeId": "6a42ca2b2e335a35a80b6f42"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-07-05T06:05:08.060576+08:00",
+    "updatedAt": "2026-07-05T06:05:08.060576+08:00"
+  },
+  {
+    "title": "AI时代如何管理注意力？",
+    "domainTag": "个人成长",
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "把世界静音，专注建造自己的世界",
+        "episodeId": "6a3d274f9d2f5743683dd631"
+      },
+      {
+        "podcast": "跨域请求",
+        "point": "新工具过载让人更焦虑，需主动抽离",
+        "episodeId": "6a42ca2b2e335a35a80b6f42"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-07-05T06:05:08.060576+08:00",
+    "updatedAt": "2026-07-05T06:05:08.060576+08:00"
+  },
+  {
+    "title": "手机是AI时代最佳入口吗？",
+    "domainTag": "AI硬件",
+    "consensus": [
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "手机是天然AI载体，端侧AI价值巨大",
+        "episodeId": "523a0d42-4c16-4dd6-a2ab-9277fec1a731"
+      },
+      {
+        "podcast": "乱翻书",
+        "point": "AI硬件绕了一圈，最后又回到手机",
+        "episodeId": "6a3bdd319d2f5743683d4841"
+      },
+      {
+        "podcast": "乱翻书",
+        "point": "手机是AI时代最特殊的智能设备，工作台会回到手机",
+        "episodeId": "6a3bdd319d2f5743683d4841"
+      },
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "手机是天然AI载体，端侧AI价值在于实时感知不可替代",
+        "episodeId": "523a0d42-4c16-4dd6-a2ab-9277fec1a731"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-06-26T06:26:54.610827+08:00",
+    "updatedAt": "2026-07-05T06:05:08.060576+08:00"
+  },
+  {
     "title": "AI时代如何建立个人品牌？",
     "domainTag": "个人成长",
     "consensus": [
@@ -174,25 +241,6 @@
     "divergence": [],
     "createdAt": "2026-06-27T06:20:29.264566+08:00",
     "updatedAt": "2026-06-27T06:20:29.264566+08:00"
-  },
-  {
-    "title": "手机是AI时代最佳入口吗？",
-    "domainTag": "AI硬件",
-    "consensus": [
-      {
-        "podcast": "What's Next｜科技早知道",
-        "point": "手机是天然AI载体，端侧AI价值巨大",
-        "episodeId": "523a0d42-4c16-4dd6-a2ab-9277fec1a731"
-      },
-      {
-        "podcast": "乱翻书",
-        "point": "AI硬件绕了一圈，最后又回到手机",
-        "episodeId": "6a3bdd319d2f5743683d4841"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-06-26T06:26:54.610827+08:00",
-    "updatedAt": "2026-06-26T06:26:54.610827+08:00"
   },
   {
     "title": "AI时代如何重新理解财富？",
@@ -604,43 +652,5 @@
     "divergence": [],
     "createdAt": "2026-06-19T07:00:05.907679+08:00",
     "updatedAt": "2026-06-19T07:00:05.907679+08:00"
-  },
-  {
-    "title": "AI时代如何学习新技能？",
-    "domainTag": "AI与教育",
-    "consensus": [
-      {
-        "podcast": "十字路口Crossing",
-        "point": "停止用ChatGPT聊天，改用Agentic工具",
-        "episodeId": "6a275ed57444b5722235a897"
-      },
-      {
-        "podcast": "韩叙的朋友们",
-        "point": "普通人从被动重复转向主动提效",
-        "episodeId": "6a3052464233e62bc54a7461"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-06-18T06:49:46.273942+08:00",
-    "updatedAt": "2026-06-18T06:49:46.273942+08:00"
-  },
-  {
-    "title": "AI时代一人公司如何生存？",
-    "domainTag": "AI与创业",
-    "consensus": [
-      {
-        "podcast": "What's Next｜科技早知道",
-        "point": "Gumroad创始人认为AI让一人公司成为可能，但稀缺的是销",
-        "episodeId": "33e95bf5-9dd2-45d7-9b5f-6e05a078f2d7"
-      },
-      {
-        "podcast": "十字路口Crossing",
-        "point": "AI时代创业机会两极化：往天上跳或往地里钻",
-        "episodeId": "6a275ed57444b5722235a897"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-06-15T19:30:25.286534+08:00",
-    "updatedAt": "2026-06-15T19:30:25.286534+08:00"
   }
 ]

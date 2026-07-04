@@ -1,5 +1,102 @@
 [
   {
+    "generatedAt": "2026-07-05T06:05:08.060576+08:00",
+    "title": "手机是AI时代最佳入口吗？",
+    "domainTag": "AI硬件",
+    "podcasts": [
+      "What's Next｜科技早知道",
+      "乱翻书"
+    ],
+    "episodeIds": [
+      "523a0d42-4c16-4dd6-a2ab-9277fec1a731",
+      "6a3bdd319d2f5743683d4841"
+    ],
+    "consensus": [
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "手机是天然AI载体，端侧AI价值巨大",
+        "episodeId": "523a0d42-4c16-4dd6-a2ab-9277fec1a731"
+      },
+      {
+        "podcast": "乱翻书",
+        "point": "AI硬件绕了一圈，最后又回到手机",
+        "episodeId": "6a3bdd319d2f5743683d4841"
+      },
+      {
+        "podcast": "乱翻书",
+        "point": "手机是AI时代最特殊的智能设备，工作台会回到手机",
+        "episodeId": "6a3bdd319d2f5743683d4841"
+      },
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "手机是天然AI载体，端侧AI价值在于实时感知不可替代",
+        "episodeId": "523a0d42-4c16-4dd6-a2ab-9277fec1a731"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:f39b2016b08ceb13234ecdb9a578c4a8bc967a5251132f491fc694f45c71c34e",
+    "createdAt": "2026-06-26T06:26:54.610827+08:00",
+    "updatedAt": "2026-07-05T06:05:08.060576+08:00"
+  },
+  {
+    "generatedAt": "2026-07-05T06:05:08.060576+08:00",
+    "title": "AI时代如何保持独立思考？",
+    "domainTag": "认知与创造力",
+    "podcasts": [
+      "跨国串门儿计划",
+      "跨域请求"
+    ],
+    "episodeIds": [
+      "6a4034262e335a35a80a5f75",
+      "6a42ca2b2e335a35a80b6f42"
+    ],
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "成为二手思考者代价高昂，需警惕算法同化",
+        "episodeId": "6a4034262e335a35a80a5f75"
+      },
+      {
+        "podcast": "跨域请求",
+        "point": "AI同化让人用AI术语理解自己，需反向输出",
+        "episodeId": "6a42ca2b2e335a35a80b6f42"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:e1ef40e49e3bbb7c87c85528f2b13a58b9399ae862bbd74925228b05d3b4cebb",
+    "createdAt": "2026-07-05T06:05:08.060576+08:00",
+    "updatedAt": "2026-07-05T06:05:08.060576+08:00"
+  },
+  {
+    "generatedAt": "2026-07-05T06:05:08.060576+08:00",
+    "title": "AI时代如何管理注意力？",
+    "domainTag": "个人成长",
+    "podcasts": [
+      "跨国串门儿计划",
+      "跨域请求"
+    ],
+    "episodeIds": [
+      "6a3d274f9d2f5743683dd631",
+      "6a42ca2b2e335a35a80b6f42"
+    ],
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "把世界静音，专注建造自己的世界",
+        "episodeId": "6a3d274f9d2f5743683dd631"
+      },
+      {
+        "podcast": "跨域请求",
+        "point": "新工具过载让人更焦虑，需主动抽离",
+        "episodeId": "6a42ca2b2e335a35a80b6f42"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:7a39418fea1361e9e99b33e788c6dfb4c53901b2d06140cd90349eb32877e037",
+    "createdAt": "2026-07-05T06:05:08.060576+08:00",
+    "updatedAt": "2026-07-05T06:05:08.060576+08:00"
+  },
+  {
     "generatedAt": "2026-07-04T06:12:06.604570+08:00",
     "title": "AI时代如何建立个人品牌？",
     "domainTag": "个人成长",
@@ -266,35 +363,6 @@
     "fingerprint": "v1:842cdec1dbe24324634a653974f0286c1fbef08c17d4e365f14b86c1652a32c5",
     "createdAt": "2026-06-27T06:20:29.264566+08:00",
     "updatedAt": "2026-06-27T06:20:29.264566+08:00"
-  },
-  {
-    "generatedAt": "2026-06-26T06:26:54.610827+08:00",
-    "title": "手机是AI时代最佳入口吗？",
-    "domainTag": "AI硬件",
-    "podcasts": [
-      "What's Next｜科技早知道",
-      "乱翻书"
-    ],
-    "episodeIds": [
-      "523a0d42-4c16-4dd6-a2ab-9277fec1a731",
-      "6a3bdd319d2f5743683d4841"
-    ],
-    "consensus": [
-      {
-        "podcast": "What's Next｜科技早知道",
-        "point": "手机是天然AI载体，端侧AI价值巨大",
-        "episodeId": "523a0d42-4c16-4dd6-a2ab-9277fec1a731"
-      },
-      {
-        "podcast": "乱翻书",
-        "point": "AI硬件绕了一圈，最后又回到手机",
-        "episodeId": "6a3bdd319d2f5743683d4841"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:f39b2016b08ceb13234ecdb9a578c4a8bc967a5251132f491fc694f45c71c34e",
-    "createdAt": "2026-06-26T06:26:54.610827+08:00",
-    "updatedAt": "2026-06-26T06:26:54.610827+08:00"
   },
   {
     "generatedAt": "2026-06-25T06:24:05.044558+08:00",
@@ -846,64 +914,6 @@
     ],
     "divergence": [],
     "fingerprint": "v1:02f9b558bc1b9a8769cb75e8516e8382172e2472dd1ede1d50ce587c95431fcf",
-    "createdAt": "2026-06-19T07:00:05.907679+08:00",
-    "updatedAt": "2026-06-19T07:00:05.907679+08:00"
-  },
-  {
-    "generatedAt": "2026-06-19T07:00:05.907679+08:00",
-    "title": "AI如何改变企业部署和咨询？",
-    "domainTag": "AI与企业服务",
-    "podcasts": [
-      "十字路口Crossing",
-      "硅谷101"
-    ],
-    "episodeIds": [
-      "47b7778e-1ed6-4dab-b7c9-8b4a6555b867",
-      "6a275ed57444b5722235a897"
-    ],
-    "consensus": [
-      {
-        "podcast": "硅谷101",
-        "point": "模型公司开始提供部署服务，FDE岗位兴起",
-        "episodeId": "47b7778e-1ed6-4dab-b7c9-8b4a6555b867"
-      },
-      {
-        "podcast": "十字路口Crossing",
-        "point": "FDE是AI时代的新角色，连接模型与业务",
-        "episodeId": "6a275ed57444b5722235a897"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:10f1daedcd75352304a576552398ce624a969a413803569730bb3dc191309e04",
-    "createdAt": "2026-06-19T07:00:05.907679+08:00",
-    "updatedAt": "2026-06-19T07:00:05.907679+08:00"
-  },
-  {
-    "generatedAt": "2026-06-19T07:00:05.907679+08:00",
-    "title": "AI时代如何保持心理健康？",
-    "domainTag": "AI与生活",
-    "podcasts": [
-      "about热水频道",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "6a299d0bdbccffcfa9c6fb50",
-      "6a339d5143a22a695585d897"
-    ],
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "区分关注圈和影响圈，夺回能动性",
-        "episodeId": "6a339d5143a22a695585d897"
-      },
-      {
-        "podcast": "about热水频道",
-        "point": "讨好型人格背后是长期被忽略的委屈感",
-        "episodeId": "6a299d0bdbccffcfa9c6fb50"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:75651638df04181d88e18140454354d59ea33bb6951be57af198738b60fe74b9",
     "createdAt": "2026-06-19T07:00:05.907679+08:00",
     "updatedAt": "2026-06-19T07:00:05.907679+08:00"
   }
