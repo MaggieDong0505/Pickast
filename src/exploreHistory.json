@@ -1,5 +1,92 @@
 [
   {
+    "generatedAt": "2026-07-06T06:08:57.030309+08:00",
+    "title": "AIAgent技能如何标准化？",
+    "domainTag": "AI工程",
+    "podcasts": [
+      "十字路口Crossing",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a4511d92e335a35a80c8431",
+      "6a49649f3fb7233cbf43c439"
+    ],
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "开发者陷入技能地狱，缺乏评判好坏的共享标准",
+        "episodeId": "6a49649f3fb7233cbf43c439"
+      },
+      {
+        "podcast": "十字路口Crossing",
+        "point": "Skills封装成为Agent经济的关键组件",
+        "episodeId": "6a4511d92e335a35a80c8431"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:23bf43ff2f0e840689209e225d3885389bdcfc50907277cef5993cf0ea90ebab",
+    "createdAt": "2026-07-06T06:08:57.030309+08:00",
+    "updatedAt": "2026-07-06T06:08:57.030309+08:00"
+  },
+  {
+    "generatedAt": "2026-07-06T06:08:57.030309+08:00",
+    "title": "AI时代一人公司如何生存？",
+    "domainTag": "创业",
+    "podcasts": [
+      "What's Next｜科技早知道",
+      "韩叙的朋友们"
+    ],
+    "episodeIds": [
+      "6a454a912e335a35a80c9f11",
+      "e3a21dde-0bba-4ec2-bf12-5043500ae5c6"
+    ],
+    "consensus": [
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "一人公司用AI跑通产品开发和内容生产全流程",
+        "episodeId": "e3a21dde-0bba-4ec2-bf12-5043500ae5c6"
+      },
+      {
+        "podcast": "韩叙的朋友们",
+        "point": "AI深度融入后打开想象空间，商业模式需走在AI前面",
+        "episodeId": "6a454a912e335a35a80c9f11"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:5bc31875953ee91b55c4b0cf3e051a5437e0542ccdffacb20864ec9dec5fb227",
+    "createdAt": "2026-07-06T06:08:57.030309+08:00",
+    "updatedAt": "2026-07-06T06:08:57.030309+08:00"
+  },
+  {
+    "generatedAt": "2026-07-06T06:08:57.030309+08:00",
+    "title": "女性身体为何被运动营养忽视？",
+    "domainTag": "健康",
+    "podcasts": [
+      "about热水频道",
+      "纵横四海"
+    ],
+    "episodeIds": [
+      "6a3fd0302e335a35a80a47d3",
+      "6a4528689d2f57436841085b"
+    ],
+    "consensus": [
+      {
+        "podcast": "纵横四海",
+        "point": "女性不是缩小版男性，生理机制完全不同",
+        "episodeId": "6a3fd0302e335a35a80a47d3"
+      },
+      {
+        "podcast": "about热水频道",
+        "point": "月经异常常被忽视，子宫内膜异位症发病率高",
+        "episodeId": "6a4528689d2f57436841085b"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:b134b82cee5061edeae60d3aabfde94ba1c52ca5dc2bb56475069e88e41468e2",
+    "createdAt": "2026-07-06T06:08:57.030309+08:00",
+    "updatedAt": "2026-07-06T06:08:57.030309+08:00"
+  },
+  {
     "generatedAt": "2026-07-05T06:05:08.060576+08:00",
     "title": "手机是AI时代最佳入口吗？",
     "domainTag": "AI硬件",
@@ -829,92 +916,5 @@
     "fingerprint": "v1:d984f2979809d84d2300a975f3be37da5632ca57bb6bb37794b81e5a1365ad17",
     "createdAt": "2026-06-21T06:17:47.476272+08:00",
     "updatedAt": "2026-06-21T06:17:47.476272+08:00"
-  },
-  {
-    "generatedAt": "2026-06-20T06:11:31.140441+08:00",
-    "title": "太空算力真能解决AI能源瓶颈吗？",
-    "domainTag": "AI与太空经济",
-    "podcasts": [
-      "硅谷101",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "259291f5-2715-4dde-bcfe-b5beb4df5793",
-      "6a2a3cb8dbccffcfa9c72e9f"
-    ],
-    "consensus": [
-      {
-        "podcast": "硅谷101",
-        "point": "太空数据中心理论可行但经济账尚不划算",
-        "episodeId": "259291f5-2715-4dde-bcfe-b5beb4df5793"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "SpaceX认为轨道算力是AI基础设施新答案",
-        "episodeId": "6a2a3cb8dbccffcfa9c72e9f"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:da57822e8933dd650e2f5934216752e7be905fb7bd285cb249517313c14e638b",
-    "createdAt": "2026-06-20T06:11:31.140441+08:00",
-    "updatedAt": "2026-06-20T06:11:31.140441+08:00"
-  },
-  {
-    "generatedAt": "2026-06-20T06:11:31.140441+08:00",
-    "title": "世界杯商业帝国为何越做越大？",
-    "domainTag": "体育商业",
-    "podcasts": [
-      "贝望录",
-      "跨域请求"
-    ],
-    "episodeIds": [
-      "6a2faf024233e62bc54a23d0",
-      "6a3442974233e62bc54c2b54"
-    ],
-    "consensus": [
-      {
-        "podcast": "贝望录",
-        "point": "FIFA从非盈利组织变成超级商业平台",
-        "episodeId": "6a2faf024233e62bc54a23d0"
-      },
-      {
-        "podcast": "跨域请求",
-        "point": "技术误判推动足球科技持续进步",
-        "episodeId": "6a3442974233e62bc54c2b54"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:550a4dd7f9bbb471667f877875b717817d47cae80dd420e4ccae5671e8b9ac8c",
-    "createdAt": "2026-06-20T06:11:31.140441+08:00",
-    "updatedAt": "2026-06-20T06:11:31.140441+08:00"
-  },
-  {
-    "generatedAt": "2026-06-19T07:00:05.907679+08:00",
-    "title": "AI泡沫何时会破裂？",
-    "domainTag": "AI与投资",
-    "podcasts": [
-      "42章经",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "6a2a808262c3d8534722ac02",
-      "6a2bbf224233e62bc548aa81"
-    ],
-    "consensus": [
-      {
-        "podcast": "42章经",
-        "point": "泡沫无法被事先证明，但可识别四个必要不充分条件",
-        "episodeId": "6a2a808262c3d8534722ac02"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI投资看似疯狂，但经济账可能仍成立",
-        "episodeId": "6a2bbf224233e62bc548aa81"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:02f9b558bc1b9a8769cb75e8516e8382172e2472dd1ede1d50ce587c95431fcf",
-    "createdAt": "2026-06-19T07:00:05.907679+08:00",
-    "updatedAt": "2026-06-19T07:00:05.907679+08:00"
   }
 ]

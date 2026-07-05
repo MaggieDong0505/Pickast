@@ -1,5 +1,62 @@
 [
   {
+    "title": "AIAgent技能如何标准化？",
+    "domainTag": "AI工程",
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "开发者陷入技能地狱，缺乏评判好坏的共享标准",
+        "episodeId": "6a49649f3fb7233cbf43c439"
+      },
+      {
+        "podcast": "十字路口Crossing",
+        "point": "Skills封装成为Agent经济的关键组件",
+        "episodeId": "6a4511d92e335a35a80c8431"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-07-06T06:08:57.030309+08:00",
+    "updatedAt": "2026-07-06T06:08:57.030309+08:00"
+  },
+  {
+    "title": "AI时代一人公司如何生存？",
+    "domainTag": "创业",
+    "consensus": [
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "一人公司用AI跑通产品开发和内容生产全流程",
+        "episodeId": "e3a21dde-0bba-4ec2-bf12-5043500ae5c6"
+      },
+      {
+        "podcast": "韩叙的朋友们",
+        "point": "AI深度融入后打开想象空间，商业模式需走在AI前面",
+        "episodeId": "6a454a912e335a35a80c9f11"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-07-06T06:08:57.030309+08:00",
+    "updatedAt": "2026-07-06T06:08:57.030309+08:00"
+  },
+  {
+    "title": "女性身体为何被运动营养忽视？",
+    "domainTag": "健康",
+    "consensus": [
+      {
+        "podcast": "纵横四海",
+        "point": "女性不是缩小版男性，生理机制完全不同",
+        "episodeId": "6a3fd0302e335a35a80a47d3"
+      },
+      {
+        "podcast": "about热水频道",
+        "point": "月经异常常被忽视，子宫内膜异位症发病率高",
+        "episodeId": "6a4528689d2f57436841085b"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-07-06T06:08:57.030309+08:00",
+    "updatedAt": "2026-07-06T06:08:57.030309+08:00"
+  },
+  {
     "title": "AI时代如何保持独立思考？",
     "domainTag": "认知与创造力",
     "consensus": [
@@ -595,44 +652,6 @@
     "divergence": [],
     "createdAt": "2026-06-20T06:11:31.140441+08:00",
     "updatedAt": "2026-06-20T06:11:31.140441+08:00"
-  },
-  {
-    "title": "AI如何改变企业部署和咨询？",
-    "domainTag": "AI与企业服务",
-    "consensus": [
-      {
-        "podcast": "硅谷101",
-        "point": "模型公司开始提供部署服务，FDE岗位兴起",
-        "episodeId": "47b7778e-1ed6-4dab-b7c9-8b4a6555b867"
-      },
-      {
-        "podcast": "十字路口Crossing",
-        "point": "FDE是AI时代的新角色，连接模型与业务",
-        "episodeId": "6a275ed57444b5722235a897"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-06-19T07:00:05.907679+08:00",
-    "updatedAt": "2026-06-19T07:00:05.907679+08:00"
-  },
-  {
-    "title": "AI时代如何保持心理健康？",
-    "domainTag": "AI与生活",
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "区分关注圈和影响圈，夺回能动性",
-        "episodeId": "6a339d5143a22a695585d897"
-      },
-      {
-        "podcast": "about热水频道",
-        "point": "讨好型人格背后是长期被忽略的委屈感",
-        "episodeId": "6a299d0bdbccffcfa9c6fb50"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-06-19T07:00:05.907679+08:00",
-    "updatedAt": "2026-06-19T07:00:05.907679+08:00"
   },
   {
     "title": "AI泡沫何时会破裂？",
