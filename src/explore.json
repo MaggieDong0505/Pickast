@@ -1,5 +1,62 @@
 [
   {
+    "title": "AI时代企业落地为何回报低？",
+    "domainTag": "企业AI",
+    "consensus": [
+      {
+        "podcast": "Peril Crosser 肚饿？渡厄！",
+        "point": "95%企业AI投资获得零财务回报",
+        "episodeId": "https://perilcrosser.com/?p=243"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI普及程度才刚开始在1%业务量里应用",
+        "episodeId": "6a3e415d9d2f5743683e45ea"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-07-07T06:20:30.112665+08:00",
+    "updatedAt": "2026-07-07T06:20:30.112665+08:00"
+  },
+  {
+    "title": "AI时代如何培养研究品味？",
+    "domainTag": "AI人才",
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "研究品味是预判方法成功率的直觉",
+        "episodeId": "6a3e491a2e335a35a809d1ea"
+      },
+      {
+        "podcast": "硅谷101",
+        "point": "让AI像科学家一样提问，需要模型有更好的品味",
+        "episodeId": "308f9278-dd48-44d3-a4ce-ee436968fc28"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-07-07T06:20:30.112665+08:00",
+    "updatedAt": "2026-07-07T06:20:30.112665+08:00"
+  },
+  {
+    "title": "AI自我进化最快多久能实现？",
+    "domainTag": "AI前沿",
+    "consensus": [
+      {
+        "podcast": "硅谷101",
+        "point": "最快半年能跑通一次完整的自我进化闭环",
+        "episodeId": "308f9278-dd48-44d3-a4ce-ee436968fc28"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "递归自我改进正在发生，但解决递归漂移还需2-3年",
+        "episodeId": "6a4931143fb7233cbf43be47"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-07-07T06:20:30.112665+08:00",
+    "updatedAt": "2026-07-07T06:20:30.112665+08:00"
+  },
+  {
     "title": "AIAgent技能如何标准化？",
     "domainTag": "AI工程",
     "consensus": [
@@ -614,62 +671,5 @@
     "divergence": [],
     "createdAt": "2026-06-21T06:17:47.476272+08:00",
     "updatedAt": "2026-06-21T06:17:47.476272+08:00"
-  },
-  {
-    "title": "世界杯商业帝国为何越做越大？",
-    "domainTag": "体育商业",
-    "consensus": [
-      {
-        "podcast": "贝望录",
-        "point": "FIFA从非盈利组织变成超级商业平台",
-        "episodeId": "6a2faf024233e62bc54a23d0"
-      },
-      {
-        "podcast": "跨域请求",
-        "point": "技术误判推动足球科技持续进步",
-        "episodeId": "6a3442974233e62bc54c2b54"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-06-20T06:11:31.140441+08:00",
-    "updatedAt": "2026-06-20T06:11:31.140441+08:00"
-  },
-  {
-    "title": "太空算力真能解决AI能源瓶颈吗？",
-    "domainTag": "AI与太空经济",
-    "consensus": [
-      {
-        "podcast": "硅谷101",
-        "point": "太空数据中心理论可行但经济账尚不划算",
-        "episodeId": "259291f5-2715-4dde-bcfe-b5beb4df5793"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "SpaceX认为轨道算力是AI基础设施新答案",
-        "episodeId": "6a2a3cb8dbccffcfa9c72e9f"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-06-20T06:11:31.140441+08:00",
-    "updatedAt": "2026-06-20T06:11:31.140441+08:00"
-  },
-  {
-    "title": "AI泡沫何时会破裂？",
-    "domainTag": "AI与投资",
-    "consensus": [
-      {
-        "podcast": "42章经",
-        "point": "泡沫无法被事先证明，但可识别四个必要不充分条件",
-        "episodeId": "6a2a808262c3d8534722ac02"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI投资看似疯狂，但经济账可能仍成立",
-        "episodeId": "6a2bbf224233e62bc548aa81"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-06-19T07:00:05.907679+08:00",
-    "updatedAt": "2026-06-19T07:00:05.907679+08:00"
   }
 ]
