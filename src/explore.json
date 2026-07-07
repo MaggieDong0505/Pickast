@@ -1,5 +1,72 @@
 [
   {
+    "title": "AI时代如何重新理解财富？",
+    "domainTag": "AI与经济",
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "财富本质是创造持续制造价值的机器",
+        "episodeId": "6a3a7f6d9d2f5743683ca27a"
+      },
+      {
+        "podcast": "42章经",
+        "point": "泡沫无法被事先证明，但可识别信号",
+        "episodeId": "6a2a808262c3d8534722ac02"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "提出好问题比证明定理更重要",
+        "episodeId": "6a44b3d22e335a35a80c491b"
+      },
+      {
+        "podcast": "硅谷101",
+        "point": "让AI像科学家一样提问需要更好的品味",
+        "episodeId": "308f9278-dd48-44d3-a4ce-ee436968fc28"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-06-25T06:24:05.044558+08:00",
+    "updatedAt": "2026-07-08T06:18:25.029570+08:00"
+  },
+  {
+    "title": "AI时代如何做投资决策？",
+    "domainTag": "投资",
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "不看估值，寻找市场尚未定价的信息差",
+        "episodeId": "6a45d5d72e335a35a80cc2ee"
+      },
+      {
+        "podcast": "十分吸引",
+        "point": "按产业链位置配置而非按国别",
+        "episodeId": "6a4a188e2e335a35a80e4c2b"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-07-08T06:18:25.029570+08:00",
+    "updatedAt": "2026-07-08T06:18:25.029570+08:00"
+  },
+  {
+    "title": "AI时代组织如何变革？",
+    "domainTag": "管理与组织",
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "创始人模式需要极度专注和直觉决策",
+        "episodeId": "6a3d274f9d2f5743683dd631"
+      },
+      {
+        "podcast": "42章经",
+        "point": "创业公司80%时间应花在招聘上",
+        "episodeId": "6a3e50142e335a35a809d5b4"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-07-08T06:18:25.029570+08:00",
+    "updatedAt": "2026-07-08T06:18:25.029570+08:00"
+  },
+  {
     "title": "AI时代企业落地为何回报低？",
     "domainTag": "企业AI",
     "consensus": [
@@ -357,25 +424,6 @@
     "updatedAt": "2026-06-27T06:20:29.264566+08:00"
   },
   {
-    "title": "AI时代如何重新理解财富？",
-    "domainTag": "AI与经济",
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "财富本质是创造持续制造价值的机器",
-        "episodeId": "6a3a7f6d9d2f5743683ca27a"
-      },
-      {
-        "podcast": "42章经",
-        "point": "泡沫无法被事先证明，但可识别信号",
-        "episodeId": "6a2a808262c3d8534722ac02"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-06-25T06:24:05.044558+08:00",
-    "updatedAt": "2026-06-25T06:24:05.044558+08:00"
-  },
-  {
     "title": "AI会取代咨询行业吗？",
     "domainTag": "AI与职业",
     "consensus": [],
@@ -614,62 +662,5 @@
     "divergence": [],
     "createdAt": "2026-06-22T02:20:57.565788+08:00",
     "updatedAt": "2026-06-22T02:20:57.565788+08:00"
-  },
-  {
-    "title": "AI会让价值投资失效吗？",
-    "domainTag": "AI与投资",
-    "consensus": [],
-    "divergence": [
-      {
-        "podcast": "42章经",
-        "point": "AI会让价值投资失效，叙事更重要",
-        "episodeId": "6a2a808262c3d8534722ac02"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "价值投资可迁移到风险投资，底层逻辑不变",
-        "episodeId": "6a2d01304233e62bc54917e4"
-      }
-    ],
-    "createdAt": "2026-06-21T06:17:47.476272+08:00",
-    "updatedAt": "2026-06-21T06:17:47.476272+08:00"
-  },
-  {
-    "title": "AI时代如何做好内容营销？",
-    "domainTag": "AI与营销",
-    "consensus": [
-      {
-        "podcast": "搞钱女孩",
-        "point": "GEO让AI自动推荐你的内容，是新流量密码",
-        "episodeId": "6a32fd2b43a22a695585919e"
-      },
-      {
-        "podcast": "声动早咖啡",
-        "point": "电商女装退货率高，AI可优化产品匹配",
-        "episodeId": "6a2ea7064233e62bc549afed"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-06-21T06:17:47.476272+08:00",
-    "updatedAt": "2026-06-21T06:17:47.476272+08:00"
-  },
-  {
-    "title": "AI时代普通人如何投资赚钱？",
-    "domainTag": "AI与投资",
-    "consensus": [
-      {
-        "podcast": "十分吸引",
-        "point": "AI基础设施革命带来财富再分配机会",
-        "episodeId": "6a2e69284233e62bc5499160"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI是最大S曲线，企业渗透率不到1%",
-        "episodeId": "6a286aa1dbccffcfa9c661ec"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-06-21T06:17:47.476272+08:00",
-    "updatedAt": "2026-06-21T06:17:47.476272+08:00"
   }
 ]
