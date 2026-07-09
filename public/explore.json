@@ -1,5 +1,24 @@
 [
   {
+    "title": "AI时代品味比技术更重要吗？",
+    "domainTag": "AI产品",
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "品味和判断力是AI时代最稀缺的资源",
+        "episodeId": "6a43a9699d2f574368405276"
+      },
+      {
+        "podcast": "硅谷101",
+        "point": "模型需要像科学家一样有品味和判断力",
+        "episodeId": "308f9278-dd48-44d3-a4ce-ee436968fc28"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-07-10T06:38:32.888043+08:00",
+    "updatedAt": "2026-07-10T06:38:32.888043+08:00"
+  },
+  {
     "title": "AI时代如何重新定义产品？",
     "domainTag": "产品设计",
     "consensus": [
@@ -568,25 +587,6 @@
     "updatedAt": "2026-06-23T06:51:48.549176+08:00"
   },
   {
-    "title": "AI会让财富更集中吗？",
-    "domainTag": "AI与经济",
-    "consensus": [
-      {
-        "podcast": "十分吸引",
-        "point": "AI是基础设施革命，财富将重新分配",
-        "episodeId": "6a2e69284233e62bc5499160"
-      },
-      {
-        "podcast": "42章经",
-        "point": "AI集齐泡沫条件，市场用新泡沫买单旧泡沫",
-        "episodeId": "6a2a808262c3d8534722ac02"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-06-23T06:51:48.549176+08:00",
-    "updatedAt": "2026-06-23T06:51:48.549176+08:00"
-  },
-  {
     "title": "AI时代需要学编程吗？",
     "domainTag": "AI与教育",
     "consensus": [
@@ -613,25 +613,6 @@
     ],
     "divergence": [],
     "createdAt": "2026-06-15T19:30:25.286534+08:00",
-    "updatedAt": "2026-06-23T06:51:48.549176+08:00"
-  },
-  {
-    "title": "AI能解决气候变化吗？",
-    "domainTag": "AI与环境",
-    "consensus": [
-      {
-        "podcast": "碳基生物生存指南",
-        "point": "清洁能源已是全球最便宜能源",
-        "episodeId": "6a3419c243a22a6955861364"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI算力需求巨大，电力是瓶颈",
-        "episodeId": "6a2bbf224233e62bc548aa81"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-06-23T06:51:48.549176+08:00",
     "updatedAt": "2026-06-23T06:51:48.549176+08:00"
   }
 ]
