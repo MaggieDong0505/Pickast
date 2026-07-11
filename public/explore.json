@@ -1,5 +1,24 @@
 [
   {
+    "title": "AI应用层现在是创业好时机吗？",
+    "domainTag": "AI创业",
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "基础设施已就位，应用层爆发时机成熟",
+        "episodeId": "6a50a4fb1e32575f5eb4424d"
+      },
+      {
+        "podcast": "十字路口Crossing",
+        "point": "Agent元年500天，GUI退场，应用层机会涌现",
+        "episodeId": "6a4511d92e335a35a80c8431"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-07-12T05:57:44.294747+08:00",
+    "updatedAt": "2026-07-12T05:57:44.294747+08:00"
+  },
+  {
     "title": "世界杯背后的经济版图是什么？",
     "domainTag": "体育经济",
     "consensus": [
@@ -579,25 +598,6 @@
     "updatedAt": "2026-06-24T06:19:55.981347+08:00"
   },
   {
-    "title": "AI时代如何守住经济流动性？",
-    "domainTag": "AI与经济公平",
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI可能制造新寡头，财富集中度加剧",
-        "episodeId": "6a3a7f6d9d2f5743683ca27a"
-      },
-      {
-        "podcast": "十分吸引",
-        "point": "每次技术革命都是财富大洗牌，AI也不例外",
-        "episodeId": "6a2e69284233e62bc5499160"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-06-24T06:19:55.981347+08:00",
-    "updatedAt": "2026-06-24T06:19:55.981347+08:00"
-  },
-  {
     "title": "AI编程工具会改变团队协作吗？",
     "domainTag": "AI与软件开发",
     "consensus": [
@@ -615,24 +615,5 @@
     "divergence": [],
     "createdAt": "2026-06-24T06:19:55.981347+08:00",
     "updatedAt": "2026-06-24T06:19:55.981347+08:00"
-  },
-  {
-    "title": "AI会让程序员失业吗？",
-    "domainTag": "AI与职业",
-    "consensus": [],
-    "divergence": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI吃掉战术编程，程序员需转向战略",
-        "episodeId": "6a353df14233e62bc54c7124"
-      },
-      {
-        "podcast": "十字路口Crossing",
-        "point": "AI Coding拐点，工程体系比次抛代码重要",
-        "episodeId": "6a374ab075ba9e0c53368f7e"
-      }
-    ],
-    "createdAt": "2026-06-23T06:51:48.549176+08:00",
-    "updatedAt": "2026-06-23T06:51:48.549176+08:00"
   }
 ]

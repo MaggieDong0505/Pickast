@@ -1,5 +1,34 @@
 [
   {
+    "generatedAt": "2026-07-12T05:57:44.294747+08:00",
+    "title": "AI应用层现在是创业好时机吗？",
+    "domainTag": "AI创业",
+    "podcasts": [
+      "十字路口Crossing",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a4511d92e335a35a80c8431",
+      "6a50a4fb1e32575f5eb4424d"
+    ],
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "基础设施已就位，应用层爆发时机成熟",
+        "episodeId": "6a50a4fb1e32575f5eb4424d"
+      },
+      {
+        "podcast": "十字路口Crossing",
+        "point": "Agent元年500天，GUI退场，应用层机会涌现",
+        "episodeId": "6a4511d92e335a35a80c8431"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:484e4b095bf5ef89ed9bf9f08bc2e4705189857f229899cd5ba5ebfbbfee3f8e",
+    "createdAt": "2026-07-12T05:57:44.294747+08:00",
+    "updatedAt": "2026-07-12T05:57:44.294747+08:00"
+  },
+  {
     "generatedAt": "2026-07-11T06:12:04.672344+08:00",
     "title": "AI基础设施是泡沫吗？",
     "domainTag": "AI投资",
@@ -894,35 +923,6 @@
     ],
     "fingerprint": "v1:3711de983305705e545cc39d0455bbe0a59ce0151c2fec5173169dd29df34754",
     "createdAt": "2026-06-14T21:00:00+08:00",
-    "updatedAt": "2026-06-24T06:19:55.981347+08:00"
-  },
-  {
-    "generatedAt": "2026-06-24T06:19:55.981347+08:00",
-    "title": "AI编程工具会改变团队协作吗？",
-    "domainTag": "AI与软件开发",
-    "podcasts": [
-      "十字路口Crossing",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "6a374ab075ba9e0c53368f7e",
-      "6a3a7f089d2f5743683ca24c"
-    ],
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI让写代码不再是瓶颈，验证和质量成新核心",
-        "episodeId": "6a3a7f089d2f5743683ca24c"
-      },
-      {
-        "podcast": "十字路口Crossing",
-        "point": "AI Coding拐点：工程体系 vs 次抛代码",
-        "episodeId": "6a374ab075ba9e0c53368f7e"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:9845843201b741922bb1292c795129ec9e580885628e46ded2ae5cbf6e22663f",
-    "createdAt": "2026-06-24T06:19:55.981347+08:00",
     "updatedAt": "2026-06-24T06:19:55.981347+08:00"
   }
 ]

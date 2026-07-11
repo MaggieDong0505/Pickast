@@ -8,8 +8,8 @@
 import { BriefingCardData } from './types';
 
 export const initialData: BriefingCardData = {
-  "dateStr": "2026.07.11",
-  "chinaDateStr": "星期六 / SATURDAY",
+  "dateStr": "2026.07.12",
+  "chinaDateStr": "星期日 / SUNDAY",
   "title": "今天最值得听 • TODAY'S VOICE",
   "issueNo": "精选 3 条",
   "mainEpisode": {
@@ -23,7 +23,7 @@ export const initialData: BriefingCardData = {
     "coverText": "硅谷",
     "coverBg": "bg-[#18181B]",
     "coverTextColor": "text-amber-50",
-    "whyRecommended": "适合对体育商业与资本运作感兴趣的听众，深入剖析美国资本如何重塑全球足坛格局。",
+    "whyRecommended": "适合对体育商业与资本运作感兴趣的听众，深度解析美国资本如何重塑全球足坛格局。",
     "viewpoints": [
       "20支英超球队11支被美资控股",
       "美国老板为何永远被球迷Diss",
@@ -31,53 +31,63 @@ export const initialData: BriefingCardData = {
     ],
     "goldenQuotes": [
       {
-        "quote": "美国资本，如何在切尔西身上玩脱了",
+        "quote": "没有英式足球积淀的美国人，为什么会那么喜欢投资英式足球？",
         "source": "来自本期 shownote",
         "source_note": "来自本期 shownote"
       },
       {
-        "quote": "球迷文化抵制足球资本，但商业化的进程一直在所难免",
+        "quote": "美国资本，如何在切尔西身上玩脱了",
         "source": "来自本期 shownote",
         "source_note": "来自本期 shownote"
       }
     ],
-    "triageTag": "📖值得精听｜美资如何控制全球足坛",
+    "triageTag": "📖值得精听｜美资控制英超与欧洲足坛",
     "href": "https://sv101.fireside.fm/256",
-    "whyRecommend": "适合对体育商业与资本运作感兴趣的听众，深入剖析美国资本如何重塑全球足坛格局。",
-    "goldenQuote": "美国资本，如何在切尔西身上玩脱了",
-    "topicTag": "📖值得精听｜美资如何控制全球足坛"
+    "whyRecommend": "适合对体育商业与资本运作感兴趣的听众，深度解析美国资本如何重塑全球足坛格局。",
+    "goldenQuote": "没有英式足球积淀的美国人，为什么会那么喜欢投资英式足球？",
+    "topicTag": "📖值得精听｜美资控制英超与欧洲足坛"
   },
   "backupEpisodes": [
     {
-      "episodeId": "6a4e482a2e335a35a8102bc7",
-      "podcastName": "碳基生物生存指南",
-      "episodeTitle": "E32 月经：不只“麻烦”的血流，而是横跨运动，免疫，饮食的女性生命体征",
-      "description": "“那个”，大姨妈，生理期，例假。月经，她有过很多名字，但，却好像一直没有被好好地正视过。\n如果不是做这期播客，我不会知道原来职业女性运动员，月经紊乱和闭经比例能达到60%，而且，这不是正常训练的结果，也不应被视为努力冲刺的勋章。我也不会知道，原来经期的子宫，在完成着人类世界里唯一的大规模无疤痕修复，而曾被污名化的经血，现在也是再生医学的研究热点之一。我更不会知道，整个代谢研究领域，至今都还没有高质量的研究，能回答这个很简单的问题：对于有月经的女性来说，断食，到底意味着什么？\n长久以来，现代医学研究都系统性地忽视了女性、避开了月经。因为月经，她太复杂又太难标准化。但这也意味着，月经，是足够敏感的，她是一个信号，所能反应的远不止是生殖，还有你身体的整体健康状态。\n今天，我们就一起来看看这第五项生命体征 - 月经。她到底是什么，又能如何指导我们的生活。\n🩸注：正常月经周期 24-38天，以28天为例：1-5天 经期；1-13天 卵泡期（包括经期，本期节目里为简化经期和卵泡期分开叙述）；14-28天 黄体期。\n【时间轴】\n01:05 Enhanced Games 嗑睾酮的女运动员们，还好吗？\n04:13 想当职业运动员，就逃不开闭经？\n07:41 月经，不止生育，还是女性的生命体征\n13:24 从细胞层面看经期，子宫到底在发生什么？\n18:15 成人后唯一的无疤痕修复：子宫内膜\n23:56 月经的炎症反应，从局部到全身\n35:35 卵泡期 vs 黄体期：能量需求和代谢差异\n43:41 免疫骨骼心血管，结论待定\n45:13 不同月经周期，两种压力反应模式\n48:58 卵泡期更适合高强度运动？\n54:10 断食，适合女性吗\n55:46 代谢研究里月经周期的盲点\n63:38 经前综合征，如何应对？\n68:14 更敏感，是雌性的生存优势\n69:10 女性是活得更久，但也病得更久\n70:02 女性在现代医学研究中，长期被系统性忽视\n76:34 希望下一代女性，能看到的世界\n感谢 专研高品质舒适感的她研社对本节目的支持。她研社，舒适刚刚好。【她研社均衡力】卫生巾，弱酸面层和人体健康肌肤pH值相近，有效抑制有害菌，干爽不漏不敏痒。复制下方淘口令 上天猫/淘宝获取节目专属优惠券 获取更多产品信息~\n97💲kzBCgl6lYsl🔐 https://s.tb.cn/h.RwcqfRu MF937 小宇宙专属她研社79元任选3组2\n📃 本期播客提到的文献素材传送门：\n第一部分：运动员月经稀发/闭经\n运动员月经稀发/闭经比例： https://pubmed.ncbi.nlm.nih.gov/30644600/ ：“Forty-four percent of premenopausal females had oligomenorrhea/amenorrhea.”\n舞蹈员和长跑运动员闭经比例： https://www.ccjm.org/content/85/4/313 ：“In small studies, the prevalence of secondary amenorrhea was as high as 69% in dancers and 65% in long-distance runners.”\n职业运动员闭经常态化： https://pmc.ncbi.nlm.nih.gov/articles/PMC8609260/ ：“According to the participants, the five main reasons for not reporting the amenorrhea were: (1) normalizing of the subject, (2) the absence of menstruation is not perceived as a problem by the athletes themselves, (3) experienced shame and taboo, (4) prioritisation of sports performance, and (5) denial.”\nIOC 声明能量摄入与消耗失衡会导致包括闭经在内的生殖失调： https://stillmed.olympics.com/media/Documents/Athletes/Medical-Scientific/Consensus-Statements/REDs/BJSM-IOC-consensus-statement-on-Relative-Energy-Deficiency-in-Sport-REDs.pdf ：“A syndrome of impaired physiological and/or psychological functioning experienced by female and male athletes that is caused by exposure to problematic (prolonged and/or severe) low energy availability. The detrimental outcomes include, but are not limited to, decreases in energy metabolism, reproductive function, musculoskeletal health…”\n月经应作为重要生命体征： https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2015/12/menstruation-in-girls-and-adolescents-using-the-menstrual-cycle-as-a-vital-sign，https://pubmed.ncbi.nlm.nih.gov/39906529/ ：“The menstrual cycle is a vital sign from menarche through menopause, an underutilized but powerful tool for understanding gynecological and general health.”\n月经不规律与疾病的关联性： https://academic.oup.com/jcem/article-abstract/87/5/2013/2846638?redirectedFrom=fulltext ：“Compared with women reporting a history of very regular menstrual cycles, women reporting usually irregular or very irregular cycles had an increased risk for nonfatal or fatal CHD [age-adjusted relative risks (RR), 1.25 and 1.67, respectively; 95% confidence intervals (CI), 1.07–1.47 and 1.35–2.06, respectively].”， https://pmc.ncbi.nlm.nih.gov/articles/PMC12671990/ （超多疾病，不一一详细列出了）\n古代神话和传说里对月经的态度： https://www.sciencedirect.com/science/article/abs/pii/S1521693416301250（有正面和负面）\n第二部分 经期\n经期子宫内免疫细胞的逐步参与： https://journals.physiology.org/doi/full/10.1152/physrev.00031.2019 ：Section VIII 及 Figure 5 记录了细胞凋亡先于内膜脱落发生的时序：\"endometrial apoptosis was extensive before the onset of breakdown, shedding, and bleeding\"；Section VIII 下半段、Section IX 及 Figure 6 描述了中性粒细胞的大规模招募及其通过MMPs推动组织分解的机制：\"Neutrophils contain high levels of MMPs, and endometrial neutrophils may activate MMPs in situ, thereby contributing to endometrial breakdown\"；巨噬细胞吞噬凋亡细胞后发生表型转变并释放IL-10、TGF-β等抗炎因子（即胞葬触发的促炎→抗炎转换）见于Section VIII，巨噬细胞的来源与定位动态见于Section IX；无疤痕修复的机制分布在 Introduction、Section X 和Section XI-C中 。\n经期巨噬细胞功能转化： https://pmc.ncbi.nlm.nih.gov/articles/PMC10691302/ ：“After the acute endometrial shedding, exudated inflammatory cells can upregulate cytokine levels, mainly in elevated levels of TNF-α and IL-1. Following this, M1 macrophages accumulate in the wound, releasing TNF-α, IL-1, and IL-6. Cytokines involved in wound healing activate the NF-κB signaling pathway.”\n在经期的免疫细胞修复功能： **https://www.frontiersin.org/journals/reproductive-health/articles/10.3389/frph.2021.779979/full ：\"analysis of this fluid is likely to be of value not only for treating endometrial bleeding problems but also in providing potential new therapies for poorly repairing wounds\"\n经血内物质可以帮助组织修复： https://faseb.onlinelibrary.wiley.com/doi/10.1096/fj.201800086R ：“Functionally, they promote repair of endometrial and keratinocyte wounds by promoting migration.”， “MF (4%) brought about complete repair/100% healing of the wounded HaCaT keratinocyte cell line monolayer within 24 h of addition, compared with only 40% repair in the presence of 4% PB plasma”\n经血内干细胞可帮助疾病治疗： https://pmc.ncbi.nlm.nih.gov/articles/PMC7656201/ ：“Human menstrual blood-derived mesenchymal stem cells (MenSCs) have shown great potential in regenerative medicine.”，相关临床实验： https://clinicaltrials.gov/study/NCT01483248#study-plan ， https://clinicaltrials.gov/study/NCT07131150\n经期外周血炎症水平增高： https://mednexus.org/doi/10.4103/2096-2924.232878 ：“The expression of inflammatory indexes, such as platelets (PLT), lymphocytes (Lym), the percentage of Lym (Lym%), neutrophils (Neu), the percantage of Neu (Neu%), neutrophil-to-lymphocyte ratio (NLR), interleukin-6 (IL-6), and cancer antigen 125 (CA125), reached the highest level during the menstrual period.”, ”The expression levels of IL-8, IL-1β, and IL-6 during the menstrual period and luteal phase were significantly higher than those in follicular phase.”\n痛经患者外周血炎症水平更高： https://pmc.ncbi.nlm.nih.gov/articles/PMC3563666/ ：“Functional annotation revealed an excessive inflammatory response and insufficient TGF-β superfamily member signals with anti-inflammatory consequences, which may directly contribute to menstrual pain.”\nomega3 和健康饮食能缓解痛经： https://onlinelibrary.wiley.com/doi/full/10.1111/1747-0080.12835 ：“Findings suggest that daily supplementation of 300–1800 mg omega-3 long chain polyunsaturated fatty acids over 2–3 months are generally well tolerated and reduces pain and analgesic use in women with dysmenorrhoea.”， https://link.springer.com/article/10.1007/s00228-021-03263-1 ：“the highest effectiveness of treatment was seen at low doses of n-3 PUFAs, and with increasing daily intake, the effectiveness of treatment with n-3 PUFAs decreased.“ https://karger.com/goi/article-abstract/84/3/209/153726/Nutrition-as-a-Potential-Factor-of-Primary?redirectedFrom=fulltext ：“The increased consumption of fruits and vegetables as the sources of vitamins and minerals, as well as fish and milk and dairy products have positive associations with less menstrual pain.”， https://pmc.ncbi.nlm.nih.gov/articles/PMC5963185/ ：“subjects in the second and third tertiles of “snacks” pattern had a 4.23 (95% CI = 1.32–13.58, P = 0.01) and 3.41 (95% CI = 1.10–10.50, P = 0.03) times, respectively, higher chance to experience moderate to severe dysmenorrhea in comparison with subjects in the first tertile.”\n运动特别是力量训练可以缓解痛经： https://pmc.ncbi.nlm.nih.gov/articles/PMC11896821/ ：“The majority of the studies on strength training interventions concentrated on the uterine region, emphasizing core training and isometric training. These uterine-specific exercise interventions facilitate the delivery of essential oxygen and nutrients to the uterine muscles and tissues, enhance blood circulation, and support repair processes. These also lower congestion and inflammation while optimizing the uterine microenvironment. This may provide a higher advantage than other therapies.”\n热敷缓解痛经： https://pmc.ncbi.nlm.nih.gov/articles/PMC12876241/ ：“applied heat increases pelvic blood flow, which may help to dissipate and reduce the concentration of prostaglandins, thereby relieving ischemia and muscle cramps”\n全球贫血和缺铁数据： https://ourworldindata.org/billions-people-suffer-anemia-cheap-ways-reduce\n第三部分 卵泡期\n卵泡期能量需求较少： https://pmc.ncbi.nlm.nih.gov/articles/PMC7357764/ ：“Overall, there was a small but significant effect favoring increased RMR in the luteal phase (ES = 0.33; 95% CI = 0.17, 0.49, p https://academic.oup.com/nutritionreviews/article/81/7/869/6823870 ：“ Overall, energy intake appears to be lower in the follicular phase compared with the luteal phase, with a particular decrease in the days leading up to and including ovulation.”\n卵泡期血糖调节能力更强： https://pmc.ncbi.nlm.nih.gov/articles/PMC10513929/ ：“Our study therefore highlights that brain insulin action improves peripheral insulin sensitivity also in women but only during the follicular phase.”\n多囊患者胰岛素抵抗概率增高，妊娠风险，心血管疾病概率也增高： https://pmc.ncbi.nlm.nih.gov/articles/PMC9832677/ ：”IR and compensatory hyperinsulinaemia (HI) are present in 65–95% of women with PCOS, including the vast majority of overweight and obese women and more than half of women of normal weight.“， “Women with PCOS and IR have a significantly increased risk of adverse pregnancy outcomes and chronic diseases, such as type 2 diabetes mellitus (T2DM), cardiovascular disease, and metabolic syndrome, which seriously affect the physical and mental health of women of childbearing age, increasing their social burden”\n柳叶刀建议更名多囊卵巢综合征为多内分泌代谢性卵巢综合征： https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00717-8/fulltext\n卵泡期免疫功能变化，骨代谢变化，心血管功能变化证据不强： https://pubmed.ncbi.nlm.nih.gov/37309068/， https://link.springer.com/article/10.1007/s00223-026-01482-1， https://journals.physiology.org/doi/full/10.1152/ajpheart.00341.2020\n卵泡期皮质醇基础量更高，对急性刺激反应相对更温和 https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2020.00311/full ： “In line with our hypothesis, our meta-analysis found that women in the follicular phase had higher cortisol levels than women in the luteal phase, with an overall Hedges' g of 0.13 (p https://www.sciencedirect.com/science/article/abs/pii/S0149763423001811 ：“Three studies provided sufficient data for the meta-analysis and showed a significant, small-sized effect, indicating higher cortisol reactivity in the luteal than in the follicular cycle phase.”\n卵泡期更倾向消耗碳水化合物，黄体期更常用脂肪和蛋白质： https://academic.oup.com/nutritionreviews/article/81/7/869/6823870 ：“Rates of carbohydrate and fat oxidation vary across the cycle, with greater glycogen storage at rest, and a stronger preference for fat utilization during exercise, in the luteal phase compared with the follicular phase.”， https://journals.physiology.org/doi/abs/10.1152/ajpendo.1994.267.3.E422 ：“This study shows small changes in protein metabolism during the menstrual cycle in women, with an increase in oxidative leucine metabolism during the luteal phase…fluctuations in protein metabolism and thyroid hormones throughout the menstrual cycle are causally related.”\n特里尔社会压力测试流程： https://pmc.ncbi.nlm.nih.gov/articles/PMC3227197/\n高强度训练在卵泡期效果更好： https://pmc.ncbi.nlm.nih.gov/articles/PMC12538072/#abs0025 ：“High-frequency SIT during the follicular phase preserved mitochondrial function and enhanced tissue remodeling, while luteal phase-based training suppressed mitochondrial pathways and reduced cardiorespiratory fitness.”\n120人的根据月经不同周期调整训练的 IMPACT 研究： https://pmc.ncbi.nlm.nih.gov/articles/PMC10823667/\n第四部分 黄体期\n黄体期能量摄入及饮食推荐： https://www.mdpi.com/2072-6643/16/12/1911 ：“Researchers at the Mayo Clinic emphasize the importance of not only the composition of the diet but also eating smaller and more frequent meals to alleviate PMS symptoms such as bloating and feelings of fullness. Similarly, the ACOG stressed the importance of meal frequency, suggesting the consumption of six small meals instead of three larger meals. This dietary pattern may help to maintain stable blood glucose levels and potentially reduce PMS symptoms.” https://pmc.ncbi.nlm.nih.gov/articles/PMC8566643/ ：“Consuming a high carbohydrate snack 3–4 h before exercise can mitigate these effects during the luteal phase”， “Carbohydrate loading in the mid-luteal phase, however, has shown no change or small (13%) increase in muscle glycogen with a potential for improved performance”, “Because of increased progesterone levels in the luteal phase, the protein requirement may be higher due to higher rates of protein catabolism” https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2023.1079417/full ：“It has been suggested that caloric intake, as well as preferential carbohydrate selection, during the premenstrual period is more significant in women with PMS, who are considered to be more sensitive to cyclical hormonal or neurotransmitter fluctuations.”\n肥胖女性和肥胖成人断食好处对比： https://pmc.ncbi.nlm.nih.gov/articles/PMC12479299/ ， https://pmc.ncbi.nlm.nih.gov/articles/PMC12309044/\n断食研究者女性更难坚持： https://pmc.ncbi.nlm.nih.gov/articles/PMC6816332/ ：“It remains to be established why we experienced a gender difference (82% of dropouts were female).”\n断食的优势与月经周期波动幅度相当： HOMA-IR（胰岛素抵抗指数）**断食改善：**−0.31（Miao et al., PMC8970877）至 −0.60（Lu et al., PMC12363089）**月经周期波动：**卵泡中期1.35 → 黄体早期1.59，差值+0.24（Yeung et al., BioCycle Study, PMC2999972） LDL胆固醇 断食改善：−5.44 mg/dL（Wang et al., PMC12309044）**月经周期波动：**综合多项研究范围为4–10%（Mumford et al., PMID 14764796）总胆固醇 断食改善：−6.31 mg/dL（Wang et al., PMC12309044）**月经周期波动：**综合多项研究的范围为4–10%（Mumford et al., PMID 14764796）还有炎症 CRP（C反应蛋白，炎症标志物）**断食改善：**−0.024 mg/dL，即−0.24 mg/L（Wang X et al., PMID 32947129）**月经周期波动：**卵泡早期（月经期第2–5天）1.8 mg/L vs 黄体期0.7 mg/L，差值1.1 mg/L，p断食时间推荐在卵泡期： https://pmc.ncbi.nlm.nih.gov/articles/PMC13210042/ ：“These cyclical changes provide a physiological basis for the observation that women may tolerate longer fasting windows more easily during the early-to-mid-follicular phase, whereas the luteal phase may be associated with greater difficulty adhering to restrictive eating schedules.”\n针对 PMS 和 PMDD 疗法简介： https://pmc.ncbi.nlm.nih.gov/articles/PMC9790166/#s0003 ， https://pubmed.ncbi.nlm.nih.gov/18852497/ ：“cognitive behavioural therapy may have important beneficial effects in managing symptoms associated with premenstrual syndrome.”， https://pmc.ncbi.nlm.nih.gov/articles/PMC5313351/#sec6 ：“the results of the present study suggest that treatment with calcium supplements is an effective method for reducing mood disorders during PMS.” https://www.ncbi.nlm.nih.gov/books/NBK72353/ （钙，镁，维生素B6，圣洁莓，月见草油） ， https://pubmed.ncbi.nlm.nih.gov/31928364/ （维生素B6）， https://www.sciencedirect.com/science/article/abs/pii/S0965229919306053 （圣洁莓）， https://mayoclinic.elsevierpure.com/en/publications/vitamin-e-and-evening-primrose-oil-for-management-of-cyclical-mas/ ， https://pubmed.ncbi.nlm.nih.gov/38752050/ （维生素E和月见草油）\n第五部分 女性激素与月经是一项“超能力”\n动物实验证明女性对热量限制更敏感： https://pmc.ncbi.nlm.nih.gov/articles/PMC2622430/ ：”Heightened cognition and motor activity, combined with reproductive shutdown, in females may maximize the probability of their survival during periods of energy scarcity and may be an evolutionary basis for the vulnerability of women to anorexia nervosa.“\n动物实验中，高脂饮食下男性比女性更早出现炎症和胰岛素抵抗：https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2026.1814026/full ：“As early as 4 weeks of HFD, serum inflammatory proteins - IL6 and IL17f were higher in males than females.”\n在绝经前，男性代谢性疾病比例高于女性： https://pmc.ncbi.nlm.nih.gov/articles/PMC12112597/ ：“males predominantly develop visceral adiposity, insulin resistance, and dyslipidemia, accompanied by a significantly elevated risk of cardiovascular and metabolic syndromes. Premenopausal females maintain metabolic homeostasis through the estrogen-mediated optimization of glucose and lipid metabolism and oxidative stress buffering mechanisms”\n麦肯锡女性健康报告： https://www.mckinsey.com/mhi/our-insights/closing-the-womens-health-gap-a-1-trillion-dollar-opportunity-to-improve-lives-and-economies （包含女性活得更久但病得更久，医疗系统系统性地对女性研究不足、诊断更晚、药物效果更差、不良反应更多，解决这个差距投资回报比约为1比3等。）\n男性与女性面对的健康风险差异： https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667(24)00053-7/fulltext ：“Globally, females had a higher burden of morbidity-driven conditions with the largest differences in DALYs for low back pain, depressive disorders, and headache disorders, whereas males had higher DALY rates for mortality-driven conditions. ”\n其他参考资料\nDr. Mary Claire Haver，Dr Vonda Wright，Dr Natalie Crawford，Dr Stacy Sims 的采访视频和圆桌讨论 @ The Diary of a CEO\n剪辑素材引用： 12:15 处混剪，取自 邵艺辉 电影好东西映后见面会；文淇 想飞的女孩采访；文淇 x 杜素娟 x 游晓颖 女性这一生，都在反复学习许可自己；电影 好东西；鲁豫 脱口秀和ta的朋友们 菜菜点评；傅园慧 2016年里约奥运会女子400米混合泳接力赛后采访；小帕 x 不辣 脱口秀和ta的朋友们\n本期音乐：Pixabay（免版权音乐库）\n封面设计特别感谢：wow lab\n小红书账号：梦妮爱读文献 （ID：4196506308）",
-      "publishedAt": "2026-07-08T12:57:26+00:00",
-      "rssUrl": "https://feed.xyzfm.space/wyedwp8eyy3q",
-      "coverImageUrl": "https://image.xyzcdn.net/FuPtTpnOYcU4Swr3l07r0SUJU-bw.PNG",
-      "coverText": "碳基",
+      "episodeId": "6a52a93b1e32575f5eb4eb08",
+      "podcastName": "跨国串门儿计划",
+      "episodeTitle": "#623.Dylan Patel 谈驱动 AI 革命的基础设施",
+      "description": "📝 本期播客简介\n本期我们克隆了：知名播客 WisdomTree in Europe ｜ Dylan Patel on the infrastructure powering the AI revolution | The Next Big Thing\n原内容更新时间：2026-07-09\n本期嘉宾是半导体与AI供应链研究机构SemiAnalysis的创始人Dylan Patel，主持人是WisdomTree的同事。Dylan带领着一个近百人的团队，为全球顶尖机构提供从芯片到数据中心的全面分析，他以对技术细节和供应链拐点的精准预判闻名业内。\n这期节目是一场关于支撑AI革命的基础设施全景式深度对谈。话题从模型、芯片、存储、网络，一路延伸到数据中心背后的电力供应，几乎覆盖了整个技术栈的关键环节。Dylan不仅拆解了每个细分市场的供需错配和技术演变，还分享了他从论坛发帖少年到创办一家90人研究机构的独特历程。\n如果你正在关注AI投资、半导体周期、数据中心能源，或者想理解NVIDIA、Anthropic、存储芯片、CPU、光通信这些关键词背后的真实逻辑，这期节目会提供极高密度的一手信息和独特框架。\n👨‍⚕️ 本期嘉宾\nDylan Patel，SemiAnalysis研究机构创始人。SemiAnalysis是全球最具影响力的半导体与AI基础设施独立研究机构之一，客户涵盖顶级对冲基金、云厂商和AI公司。Dylan从十几岁起就在网上发表芯片和硬件分析，2020年创办SemiAnalysis，从一个人的Substack发展为拥有90人、覆盖芯片、网络、数据中心、能源全链条的研究平台。他的团队曾因对NVIDIA Blackwell性能的基准测试被黄仁勋在GTC大会上公开引用而备受瞩目。\n⏱️ 时间戳\n从论坛发帖到创办SemiAnalysis\n01:18 播客开场：梳理AI基础设施现状\n01:53 SemiAnalysis的起源：从十几岁在网上发帖开始\n03:27 2020年创办公司：把技术、商业、金融、供应链揉在一起\n06:51 从Substack到信息服务：2022年开始招人，雪球滚下山\nAI模型的ROI与token经济学\n14:22 核心问题：AI的ROI到底能不能持续？\n15:58 Claude Code爆发：年度经常性支出从10万飙到400万美元\n18:09 模型选择的两种逻辑：锁定质量等降价 vs 用最新模型反而更便宜\n20:51 为什么Anthropic能打败OpenAI：token效率是关键\n存储：正在发生的超级短缺\n22:17 存储周期规律被打破：所有东西都缺货\n23:18 存储价格已涨4倍，还会再涨两三倍\n24:11 O1推理模型如何让内存成为最大赢家\n25:56 未来三年内存产能只增20-30%，需求却在翻倍\nCPU：被低估的补涨故事\n30:11 为什么CPU突然到处都在被讨论\n30:39 强化学习和Agent工作流如何引爆CPU需求\n35:07 CPU架构取舍：要更多核心还是更快的核心？\n38:22 CPU需求是“拨正”而非永久性超越：历史欠账正在集中回补\n网络与光通信：CPO会来，但比想象中晚\n40:08 从铜到光的过渡：共封装光学（CPO）的时间表\n41:36 CPO不会在2027年到来，真正上量要到2028年底\n42:55 中期反而看好铜和非CPO光通信，对CPO偏空\n数据中心电力：从卡车发动机到太空太阳能\n44:15 电力是数据中心最大的制约因素\n46:18 表后发电模式正在飙升：一半新增电力将就地解决\n47:59 把柴油卡车发动机改成燃气机来发电，有人已经在做了\n51:49 变电侧同样关键：从脏电到芯片想要的超干净电\n🌟 精彩内容\n💡 \"我们年度经常性支出从10万飙到400万美元，就是因为Claude Code\"\nDylan用SemiAnalysis自身的数据证明了AI的ROI是真实的。公司员工支出中超过三分之一花在AI上，但回报巨大——每个人效率都提高了，能做出更多产品、卖出更多东西。那些砍AI预算的公司，在生产力上会被远远甩在后面。\n\"我们的员工支出里，有超过三分之一是花在AI上……回报巨大，因为我们能做出产品，能卖出更多东西。\"\n💡 \"用最新模型反而更便宜\"\n很多人以为省钱的方法是换用更便宜的模型，但Dylan指出，当AI作为助手时，token效率才是关键。新模型可能用四分之一的token、一个来回就完成任务，而旧模型需要十万个token和反复拉扯。成本降低的路径不是用便宜模型，而是用越来越新的模型。\n\"Claude 4.8 Opus可能只需要四分之一的token，两万五千个，而且可能只需要一个来回就搞定了。所以，成本其实更低。\"\n💡 \"内存处于短缺状态，不是短期短缺，是会持续好几年的短缺\"\nDylan在2024年12月就提出，O1推理模型的KV cache会让内存需求爆炸式增长。未来三年内存产能每年只增长20-30%，但需求在翻倍。价格会持续飙升，直到智能手机、笔记本电脑这些对价格敏感的需求被挤出市场，把产能让给AI。\n\"内存价格会持续飙升。那些对价格弹性承受力较弱的内存用户，会被挤出市场。\"\n💡 \"CPU需求是一次'拨正'，不是永久性超越\"\nCPU需求确实在暴涨，但Dylan提醒，这很大程度上是在补历史欠账——过去几年卖了大量GPU却没配够CPU。一旦欠账补完，需求就会回落到稳态。大部分钱还是会流向AI算力和内存，CPU不会一直涨到超过AI ASIC。\n\"我现在经历的正是这种巨大的补涨，同时配比也上移了，再加上历史欠账在集中回补。它会慢慢消化，然后进入一个稳态。\"\n💡 \"CPO肯定会来，但时间点要往后推了\"\n市场对共封装光学（CPO）过于兴奋，但Dylan指出制造产能不够、良率不行、芯片还没设计好。NVIDIA的Rubin和Feynman两代GPU都还是铜方案。中期反而看好铜和非CPO光通信，因为铜缆行业正在发生很多创新，在把CPO往后推。\n\"集成光学比用电传输贵太多了。除非我用电传输时，不加中继器或光模块就传不了多远。\"\n💡 \"你可以直接把卡车发动机拿来改装，雇一群机械师，就这么把场站跑起来\"\n数据中心电力短缺有各种解法，从最\"脏\"的——把柴油卡车发动机改成烧天然气来发电——到最极端的——把芯片送到太空用太阳能。Dylan认为电力不会是永久瓶颈，因为解法光谱非常宽，而供应链其他环节就没这么多选择了。\n\"数据中心这个问题是有解的，不管你是走最脏的路子，还是直接上太空。而供应链的其他环节就没这么多解法了。\"\n💡 \"供应链里全是这种不起眼的小环节，而且都会出现供需错配\"\n除了内存、CPU这些大块头，Dylan提醒投资者关注PCB钻头、铜箔等极偏门环节。这些做小部件的公司遍布全球，在台湾、日本、韩国上市，对大多数投资者来说并不容易接触到，但正是这些局部瓶颈蕴含着巨大的错位机会。\n\"供应链里全是这种不起眼的小环节，而且都会出现供需错配。\"\n🌐 播客信息补充\n本播客采用原有人声声线进行播客音频制作，也可能会有一些地方听起来怪怪的\n使用 AI 进行翻译，因此可能会有一些地方不通顺；\n如果有后续想要听中文版的其他外文播客，也欢迎联系微信：iEvenight\n\n在小宇宙查看该单集文稿",
+      "publishedAt": "2026-07-11T20:51:30+00:00",
+      "rssUrl": "https://feed.xyzfm.space/r8t44lmvu99m",
+      "coverImageUrl": "https://image.xyzcdn.net/FgPi3C76e0yvQlUYo8TDbk1GTgp8.png",
+      "coverText": "跨国",
       "coverBg": "bg-[#18181B]",
       "coverTextColor": "text-amber-50",
-      "whyRecommended": "适合想了解月经作为生命体征的听众，从运动、免疫到饮食，全面刷新对月经的认知。",
+      "whyRecommended": "适合关注AI投资与半导体周期的听众，从芯片到电力全景拆解AI基础设施的供需逻辑。",
       "viewpoints": [
-        "职业女运动员月经紊乱比例高达60%。",
-        "经血含干细胞，是再生医学研究热点。",
-        "代谢研究系统性忽视月经周期影响。"
+        "AI模型ROI真实，Claude Code让SemiAnalysis支出从10万飙到400万美元。",
+        "存储价格已涨4倍，未来三年产能仅增20-30%，需求翻倍。",
+        "CPU需求是补历史欠账，非永久性超越，稳态后回落。"
       ],
       "goldenQuotes": [
         {
-          "quote": "月经，她有过很多名字，但，却好像一直没有被好好地正视过。",
+          "quote": "我们年度经常性支出从10万飙到400万美元，就是因为Claude Code",
+          "source": "来自本期 shownote",
+          "source_note": "来自本期 shownote"
+        },
+        {
+          "quote": "用最新模型反而更便宜",
+          "source": "来自本期 shownote",
+          "source_note": "来自本期 shownote"
+        },
+        {
+          "quote": "内存处于短缺状态，不是短期短缺，是会持续好几年的短缺",
           "source": "来自本期 shownote",
           "source_note": "来自本期 shownote"
         }
       ],
-      "triageTag": "📖值得精听｜月经作为生命体征的全面科普",
-      "href": "cosmos://page.cos/episode/6a4e482a2e335a35a8102bc7?utm_source=rss",
+      "triageTag": "📖值得精听｜Dylan",
+      "href": "cosmos://page.cos/episode/6a52a93b1e32575f5eb4eb08?utm_source=rss",
       "scenario": "",
-      "whyRecommend": "适合想了解月经作为生命体征的听众，从运动、免疫到饮食，全面刷新对月经的认知。",
-      "goldenQuote": "月经，她有过很多名字，但，却好像一直没有被好好地正视过。",
-      "topicTag": "📖值得精听｜月经作为生命体征的全面科普"
+      "whyRecommend": "适合关注AI投资与半导体周期的听众，从芯片到电力全景拆解AI基础设施的供需逻辑。",
+      "goldenQuote": "我们年度经常性支出从10万飙到400万美元，就是因为Claude Code",
+      "topicTag": "📖值得精听｜Dylan"
     },
     {
       "episodeId": "6a4f1c1f2e335a35a8106dea",
@@ -90,11 +100,11 @@ export const initialData: BriefingCardData = {
       "coverText": "时雨",
       "coverBg": "bg-[#18181B]",
       "coverTextColor": "text-amber-50",
-      "whyRecommended": "适合想理解阿根廷从富庶到衰败深层原因的人，用历史脉络串联起经济、政治与社会的百年困局。",
+      "whyRecommended": "适合想理解阿根廷从富庶到衰败深层原因的听众，用历史脉络串联起百年国运的跌宕起伏。",
       "viewpoints": [
         "阿根廷因冷冻船技术成为牛肉出口大国",
         "大庄园制导致财富无法转化为工业升级",
-        "庇隆主义兴起与阿根廷国运的转折"
+        "庇隆主义与乌斯怀亚象征的国运转折"
       ],
       "goldenQuotes": [
         {
@@ -106,7 +116,7 @@ export const initialData: BriefingCardData = {
       "triageTag": "☕有空再听｜阿根廷百年国运兴衰史",
       "href": "cosmos://page.cos/episode/6a4f1c1f2e335a35a8106dea?utm_source=rss",
       "scenario": "",
-      "whyRecommend": "适合想理解阿根廷从富庶到衰败深层原因的人，用历史脉络串联起经济、政治与社会的百年困局。",
+      "whyRecommend": "适合想理解阿根廷从富庶到衰败深层原因的听众，用历史脉络串联起百年国运的跌宕起伏。",
       "goldenQuote": "一个祖上比西欧还阔的“南美巴黎”，是如何一步步败光家底",
       "topicTag": "☕有空再听｜阿根廷百年国运兴衰史"
     }
