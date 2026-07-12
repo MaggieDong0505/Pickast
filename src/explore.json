@@ -1,5 +1,91 @@
 [
   {
+    "title": "AI时代如何保护个人记忆？",
+    "domainTag": "AI与隐私",
+    "consensus": [
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "大模型做记忆有天花板，无法精确定位事实记忆",
+        "episodeId": "a70c41aa-41ae-488d-a6e2-63c3de5b9ec3"
+      },
+      {
+        "podcast": "Peril Crosser 渡厄",
+        "point": "Claude Code在本地埋下时区嗅探和隐写术，用户数据被",
+        "episodeId": "https://perilcrosser.com/?p=264"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-07-13T05:58:34.381241+08:00",
+    "updatedAt": "2026-07-13T05:58:34.381241+08:00"
+  },
+  {
+    "title": "AI时代如何保持独立思考？",
+    "domainTag": "认知与创造力",
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "成为二手思考者代价高昂，需警惕算法同化",
+        "episodeId": "6a4034262e335a35a80a5f75"
+      },
+      {
+        "podcast": "跨域请求",
+        "point": "AI同化让人用AI术语理解自己，需反向输出",
+        "episodeId": "6a42ca2b2e335a35a80b6f42"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI写作可能摧毁思考能力，好的写作是好的思考产物",
+        "episodeId": "6a4f1b653fb7233cbf461824"
+      },
+      {
+        "podcast": "跨域请求",
+        "point": "人开始用AI的词和结构理解自己，可能被同化而不自知",
+        "episodeId": "6a42ca2b2e335a35a80b6f42"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-07-05T06:05:08.060576+08:00",
+    "updatedAt": "2026-07-13T05:58:34.381241+08:00"
+  },
+  {
+    "title": "AI时代如何重新定义个人IP？",
+    "domainTag": "个人品牌",
+    "consensus": [
+      {
+        "podcast": "不被定义的职场",
+        "point": "个人IP关键不在技术，而在找到源源不断获得灵感的'内核'",
+        "episodeId": "6a5102881e32575f5eb47339"
+      },
+      {
+        "podcast": "搞钱女孩",
+        "point": "突破搞钱卡点最快的方式是换圈子，在同频圈子里获取一手信息",
+        "episodeId": "6a4565062e335a35a80ca215"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-07-13T05:58:34.381241+08:00",
+    "updatedAt": "2026-07-13T05:58:34.381241+08:00"
+  },
+  {
+    "title": "AI时代如何重新理解月经健康？",
+    "domainTag": "女性健康",
+    "consensus": [
+      {
+        "podcast": "碳基生物生存指南",
+        "point": "月经是第五项生命体征，能反映整体健康状态",
+        "episodeId": "6a4e482a2e335a35a8102bc7"
+      },
+      {
+        "podcast": "about热水频道",
+        "point": "子宫内膜异位症发病率10-15%，但了解不多，需警惕六大症状",
+        "episodeId": "6a4528689d2f57436841085b"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-07-13T05:58:34.381241+08:00",
+    "updatedAt": "2026-07-13T05:58:34.381241+08:00"
+  },
+  {
     "title": "AI应用层现在是创业好时机吗？",
     "domainTag": "AI创业",
     "consensus": [
@@ -306,25 +392,6 @@
     "updatedAt": "2026-07-06T06:08:57.030309+08:00"
   },
   {
-    "title": "AI时代如何保持独立思考？",
-    "domainTag": "认知与创造力",
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "成为二手思考者代价高昂，需警惕算法同化",
-        "episodeId": "6a4034262e335a35a80a5f75"
-      },
-      {
-        "podcast": "跨域请求",
-        "point": "AI同化让人用AI术语理解自己，需反向输出",
-        "episodeId": "6a42ca2b2e335a35a80b6f42"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-07-05T06:05:08.060576+08:00",
-    "updatedAt": "2026-07-05T06:05:08.060576+08:00"
-  },
-  {
     "title": "AI时代如何管理注意力？",
     "domainTag": "个人成长",
     "consensus": [
@@ -595,25 +662,6 @@
       }
     ],
     "createdAt": "2026-06-14T21:00:00+08:00",
-    "updatedAt": "2026-06-24T06:19:55.981347+08:00"
-  },
-  {
-    "title": "AI编程工具会改变团队协作吗？",
-    "domainTag": "AI与软件开发",
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI让写代码不再是瓶颈，验证和质量成新核心",
-        "episodeId": "6a3a7f089d2f5743683ca24c"
-      },
-      {
-        "podcast": "十字路口Crossing",
-        "point": "AI Coding拐点：工程体系 vs 次抛代码",
-        "episodeId": "6a374ab075ba9e0c53368f7e"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-06-24T06:19:55.981347+08:00",
     "updatedAt": "2026-06-24T06:19:55.981347+08:00"
   }
 ]
