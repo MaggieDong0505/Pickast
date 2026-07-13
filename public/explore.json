@@ -1,5 +1,24 @@
 [
   {
+    "title": "AI时代如何培养品味和判断力？",
+    "domainTag": "认知与创造力",
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI让做东西变容易，品味成为最稀缺资源",
+        "episodeId": "6a43a9699d2f574368405276"
+      },
+      {
+        "podcast": "十分吸引",
+        "point": "AI生成内容越廉价，审美力和判断力越稀缺",
+        "episodeId": "6a50bf8a1e32575f5eb453cd"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-07-14T06:02:52.854822+08:00",
+    "updatedAt": "2026-07-14T06:02:52.854822+08:00"
+  },
+  {
     "title": "AI时代如何保护个人记忆？",
     "domainTag": "AI与隐私",
     "consensus": [
@@ -595,73 +614,5 @@
     "divergence": [],
     "createdAt": "2026-06-29T06:09:09.193638+08:00",
     "updatedAt": "2026-06-29T06:09:09.193638+08:00"
-  },
-  {
-    "title": "AI会让个人能力超越组织吗？",
-    "domainTag": "AI与社会",
-    "consensus": [
-      {
-        "podcast": "What's Next｜科技早知道",
-        "point": "一人公司可借助AI扛5人活，但天花板存在",
-        "episodeId": "e3a21dde-0bba-4ec2-bf12-5043500ae5c6"
-      },
-      {
-        "podcast": "十分吸引",
-        "point": "AI本质改变是个体能力圈扩张，社会可能趋于离散",
-        "episodeId": "6a2e69284233e62bc5499160"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-06-27T06:20:29.264566+08:00",
-    "updatedAt": "2026-06-27T06:20:29.264566+08:00"
-  },
-  {
-    "title": "AI会取代咨询行业吗？",
-    "domainTag": "AI与职业",
-    "consensus": [],
-    "divergence": [
-      {
-        "podcast": "硅谷101",
-        "point": "AI会代替咨询，但技术专家之外的人仍有价值",
-        "episodeId": "47b7778e-1ed6-4dab-b7c9-8b4a6555b867"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI不会取代咨询，客户关系和行业知识更重要",
-        "episodeId": "6a33fa604233e62bc54c17fc"
-      }
-    ],
-    "createdAt": "2026-06-24T06:19:55.981347+08:00",
-    "updatedAt": "2026-06-24T06:19:55.981347+08:00"
-  },
-  {
-    "title": "太空算力经济账划算吗？",
-    "domainTag": "AI基础设施",
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "SpaceX将AI算力送入太空，解决电力瓶颈",
-        "episodeId": "6a2bbf224233e62bc548aa81"
-      },
-      {
-        "podcast": "硅谷101",
-        "point": "太空数据中心理论可行，经济账尚待验证",
-        "episodeId": "259291f5-2715-4dde-bcfe-b5beb4df5793"
-      }
-    ],
-    "divergence": [
-      {
-        "podcast": "硅谷101",
-        "point": "理论可行，但经济账还算不过来",
-        "episodeId": "259291f5-2715-4dde-bcfe-b5beb4df5793"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "SpaceX认为太空算力是巨大上行，经济账可算",
-        "episodeId": "6a2bbf224233e62bc548aa81"
-      }
-    ],
-    "createdAt": "2026-06-14T21:00:00+08:00",
-    "updatedAt": "2026-06-24T06:19:55.981347+08:00"
   }
 ]

@@ -1,5 +1,34 @@
 [
   {
+    "generatedAt": "2026-07-14T06:02:52.854822+08:00",
+    "title": "AI时代如何培养品味和判断力？",
+    "domainTag": "认知与创造力",
+    "podcasts": [
+      "十分吸引",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a43a9699d2f574368405276",
+      "6a50bf8a1e32575f5eb453cd"
+    ],
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI让做东西变容易，品味成为最稀缺资源",
+        "episodeId": "6a43a9699d2f574368405276"
+      },
+      {
+        "podcast": "十分吸引",
+        "point": "AI生成内容越廉价，审美力和判断力越稀缺",
+        "episodeId": "6a50bf8a1e32575f5eb453cd"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:4bba9af6ecdf300981750a7b3c284a95da0cbd80c017891bafcaaa417c1f752b",
+    "createdAt": "2026-07-14T06:02:52.854822+08:00",
+    "updatedAt": "2026-07-14T06:02:52.854822+08:00"
+  },
+  {
     "generatedAt": "2026-07-13T05:58:34.381241+08:00",
     "title": "AI时代如何保持独立思考？",
     "domainTag": "认知与创造力",
@@ -893,35 +922,6 @@
       }
     ],
     "fingerprint": "v1:f5e5e44d9107784b1c8dd49f6a9a478a3df6eb12a551ec54c8d9083182d3fbeb",
-    "createdAt": "2026-06-29T06:09:09.193638+08:00",
-    "updatedAt": "2026-06-29T06:09:09.193638+08:00"
-  },
-  {
-    "generatedAt": "2026-06-29T06:09:09.193638+08:00",
-    "title": "AI时代半导体供应链如何重建？",
-    "domainTag": "半导体与地缘",
-    "podcasts": [
-      "What's Next｜科技早知道",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "6a3549dd4233e62bc54c7664",
-      "8c95b3dc-d75a-4bdd-84d4-2c06fd2d85b1"
-    ],
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "Intel CEO谈美国制造芯片的可行性与供应链韧性",
-        "episodeId": "6a3549dd4233e62bc54c7664"
-      },
-      {
-        "podcast": "What's Next｜科技早知道",
-        "point": "芯片简史揭示破坏性创新常被大公司忽视",
-        "episodeId": "8c95b3dc-d75a-4bdd-84d4-2c06fd2d85b1"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:6ed8f461aba4a412447ae3e6d9f1208adfae345f98417897553cfd87a2f532e5",
     "createdAt": "2026-06-29T06:09:09.193638+08:00",
     "updatedAt": "2026-06-29T06:09:09.193638+08:00"
   }
