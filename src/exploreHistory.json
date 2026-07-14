@@ -1,5 +1,92 @@
 [
   {
+    "generatedAt": "2026-07-15T06:06:00.379218+08:00",
+    "title": "AI自我进化会很快失控吗？",
+    "domainTag": "AI安全",
+    "podcasts": [
+      "硅谷101",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "308f9278-dd48-44d3-a4ce-ee436968fc28",
+      "6a4f1b653fb7233cbf461824"
+    ],
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "硅谷101",
+        "point": "最快半年能跑通第一个闭环，但解决漂移需2-3年",
+        "episodeId": "308f9278-dd48-44d3-a4ce-ee436968fc28"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "实验室里的人相信AI会不断变聪明直到比人类聪明",
+        "episodeId": "6a4f1b653fb7233cbf461824"
+      }
+    ],
+    "fingerprint": "v1:d977a5e4791856b90ccdc9f0caf523eb59f78cab6408a22cb6104c39d6e07d73",
+    "createdAt": "2026-07-15T06:06:00.379218+08:00",
+    "updatedAt": "2026-07-15T06:06:00.379218+08:00"
+  },
+  {
+    "generatedAt": "2026-07-15T06:06:00.379218+08:00",
+    "title": "AI时代企业如何获得投资回报？",
+    "domainTag": "AI商业化",
+    "podcasts": [
+      "Peril Crosser 渡厄",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a551c05ca0de6c44ae69557",
+      "https://perilcrosser.com/?p=243"
+    ],
+    "consensus": [
+      {
+        "podcast": "Peril Crosser 渡厄",
+        "point": "95%的企业AI投资零回报，做减法行不通",
+        "episodeId": "https://perilcrosser.com/?p=243"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "企业客户对AI模型公司的信任已崩塌",
+        "episodeId": "6a551c05ca0de6c44ae69557"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:05d0725bf96c1cad8736cd2eaf4eb2c9ad50ec6854bb2f2609c73657a4424385",
+    "createdAt": "2026-07-15T06:06:00.379218+08:00",
+    "updatedAt": "2026-07-15T06:06:00.379218+08:00"
+  },
+  {
+    "generatedAt": "2026-07-15T06:06:00.379218+08:00",
+    "title": "AI时代如何保持创作的真实感？",
+    "domainTag": "创造力与表达",
+    "podcasts": [
+      "十分吸引",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a50bf8a1e32575f5eb453cd",
+      "6a5473931e32575f5eb58f0a"
+    ],
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI生成内容泛滥，真实感和真人视角更稀缺",
+        "episodeId": "6a5473931e32575f5eb58f0a"
+      },
+      {
+        "podcast": "十分吸引",
+        "point": "AI腔不美，因为每个起承转合都套着模板",
+        "episodeId": "6a50bf8a1e32575f5eb453cd"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:d826071258ce9eb306828c88c889d7ce6b5dcfae1a5036318219405b50e83408",
+    "createdAt": "2026-07-15T06:06:00.379218+08:00",
+    "updatedAt": "2026-07-15T06:06:00.379218+08:00"
+  },
+  {
     "generatedAt": "2026-07-14T06:02:52.854822+08:00",
     "title": "AI时代如何培养品味和判断力？",
     "domainTag": "认知与创造力",
@@ -837,92 +924,5 @@
     "fingerprint": "v1:883245916ca0d1108d6ab734cbcfd60b5b6832461ca977f8c9a5b8fb0ac0b2d6",
     "createdAt": "2026-07-02T06:23:50.286023+08:00",
     "updatedAt": "2026-07-02T06:23:50.286023+08:00"
-  },
-  {
-    "generatedAt": "2026-07-01T06:20:03.898510+08:00",
-    "title": "AI时代需要什么样的组织？",
-    "domainTag": "组织管理",
-    "podcasts": [
-      "42章经",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "6a3e50142e335a35a809d5b4",
-      "6a43a9699d2f574368405276"
-    ],
-    "consensus": [
-      {
-        "podcast": "42章经",
-        "point": "创业公司80-90%时间应花在招聘上",
-        "episodeId": "6a3e50142e335a35a809d5b4"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "角色边界消融，产品经理和工程师界限模糊",
-        "episodeId": "6a43a9699d2f574368405276"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:5910c8f088fddd616176ee60b3f78ab786c191ffb869592eba07978df5dae1db",
-    "createdAt": "2026-07-01T06:20:03.898510+08:00",
-    "updatedAt": "2026-07-01T06:20:03.898510+08:00"
-  },
-  {
-    "generatedAt": "2026-06-30T06:16:09.612309+08:00",
-    "title": "中国走出通缩了吗？",
-    "domainTag": "宏观经济",
-    "podcasts": [
-      "十分吸引",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "6a3a7f6d9d2f5743683ca27a",
-      "6a3be3c22e335a35a808d1a6"
-    ],
-    "consensus": [],
-    "divergence": [
-      {
-        "podcast": "十分吸引",
-        "point": "高端制造走出通缩，消费还在里面",
-        "episodeId": "6a3be3c22e335a35a808d1a6"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI产业链钱多货紧，消费钱少货缺",
-        "episodeId": "6a3a7f6d9d2f5743683ca27a"
-      }
-    ],
-    "fingerprint": "v1:76bc21285ffcb6d8a4ce750adc302ec2cd332f3b7aa23d7f1c44b94b72d5f49f",
-    "createdAt": "2026-06-30T06:16:09.612309+08:00",
-    "updatedAt": "2026-06-30T06:16:09.612309+08:00"
-  },
-  {
-    "generatedAt": "2026-06-29T06:09:09.193638+08:00",
-    "title": "AIAgent是员工还是工具？",
-    "domainTag": "AI与工作流",
-    "podcasts": [
-      "What's Next｜科技早知道",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "6a3c2c239d2f5743683d644a",
-      "e3a21dde-0bba-4ec2-bf12-5043500ae5c6"
-    ],
-    "consensus": [],
-    "divergence": [
-      {
-        "podcast": "What's Next｜科技早知道",
-        "point": "Agent是工具，不是员工",
-        "episodeId": "e3a21dde-0bba-4ec2-bf12-5043500ae5c6"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "Agent是能独立决策的合伙人",
-        "episodeId": "6a3c2c239d2f5743683d644a"
-      }
-    ],
-    "fingerprint": "v1:f5e5e44d9107784b1c8dd49f6a9a478a3df6eb12a551ec54c8d9083182d3fbeb",
-    "createdAt": "2026-06-29T06:09:09.193638+08:00",
-    "updatedAt": "2026-06-29T06:09:09.193638+08:00"
   }
 ]

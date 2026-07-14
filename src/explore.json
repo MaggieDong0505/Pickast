@@ -1,5 +1,62 @@
 [
   {
+    "title": "AI自我进化会很快失控吗？",
+    "domainTag": "AI安全",
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "硅谷101",
+        "point": "最快半年能跑通第一个闭环，但解决漂移需2-3年",
+        "episodeId": "308f9278-dd48-44d3-a4ce-ee436968fc28"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "实验室里的人相信AI会不断变聪明直到比人类聪明",
+        "episodeId": "6a4f1b653fb7233cbf461824"
+      }
+    ],
+    "createdAt": "2026-07-15T06:06:00.379218+08:00",
+    "updatedAt": "2026-07-15T06:06:00.379218+08:00"
+  },
+  {
+    "title": "AI时代企业如何获得投资回报？",
+    "domainTag": "AI商业化",
+    "consensus": [
+      {
+        "podcast": "Peril Crosser 渡厄",
+        "point": "95%的企业AI投资零回报，做减法行不通",
+        "episodeId": "https://perilcrosser.com/?p=243"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "企业客户对AI模型公司的信任已崩塌",
+        "episodeId": "6a551c05ca0de6c44ae69557"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-07-15T06:06:00.379218+08:00",
+    "updatedAt": "2026-07-15T06:06:00.379218+08:00"
+  },
+  {
+    "title": "AI时代如何保持创作的真实感？",
+    "domainTag": "创造力与表达",
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI生成内容泛滥，真实感和真人视角更稀缺",
+        "episodeId": "6a5473931e32575f5eb58f0a"
+      },
+      {
+        "podcast": "十分吸引",
+        "point": "AI腔不美，因为每个起承转合都套着模板",
+        "episodeId": "6a50bf8a1e32575f5eb453cd"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-07-15T06:06:00.379218+08:00",
+    "updatedAt": "2026-07-15T06:06:00.379218+08:00"
+  },
+  {
     "title": "AI时代如何培养品味和判断力？",
     "domainTag": "认知与创造力",
     "consensus": [
@@ -593,25 +650,6 @@
         "episodeId": "6a3c2c239d2f5743683d644a"
       }
     ],
-    "createdAt": "2026-06-29T06:09:09.193638+08:00",
-    "updatedAt": "2026-06-29T06:09:09.193638+08:00"
-  },
-  {
-    "title": "AI时代半导体供应链如何重建？",
-    "domainTag": "半导体与地缘",
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "Intel CEO谈美国制造芯片的可行性与供应链韧性",
-        "episodeId": "6a3549dd4233e62bc54c7664"
-      },
-      {
-        "podcast": "What's Next｜科技早知道",
-        "point": "芯片简史揭示破坏性创新常被大公司忽视",
-        "episodeId": "8c95b3dc-d75a-4bdd-84d4-2c06fd2d85b1"
-      }
-    ],
-    "divergence": [],
     "createdAt": "2026-06-29T06:09:09.193638+08:00",
     "updatedAt": "2026-06-29T06:09:09.193638+08:00"
   }
