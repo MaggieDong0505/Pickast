@@ -1,5 +1,34 @@
 [
   {
+    "generatedAt": "2026-07-17T06:10:20.455343+08:00",
+    "title": "企业AI投资回报是零吗？",
+    "domainTag": "AI商业化",
+    "podcasts": [
+      "Peril Crosser 渡厄",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a52a93b1e32575f5eb4eb08",
+      "https://perilcrosser.com/?p=243"
+    ],
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "Peril Crosser 渡厄",
+        "point": "95%企业AI投资获得零财务回报",
+        "episodeId": "https://perilcrosser.com/?p=243"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI ROI真实，公司支出1/3在AI但回报巨大",
+        "episodeId": "6a52a93b1e32575f5eb4eb08"
+      }
+    ],
+    "fingerprint": "v1:c013f0ed3acecebcec95e44c6a7a05cac8d49dd51c1368739ae2ea6428bc6398",
+    "createdAt": "2026-07-17T06:10:20.455343+08:00",
+    "updatedAt": "2026-07-17T06:10:20.455343+08:00"
+  },
+  {
     "generatedAt": "2026-07-15T06:06:00.379218+08:00",
     "title": "AI自我进化会很快失控吗？",
     "domainTag": "AI安全",
@@ -895,34 +924,5 @@
     "fingerprint": "v1:2fd51fcfc2534066be798ff588ce1f69d55e95922d97c0a195629685771dd61f",
     "createdAt": "2026-07-03T06:14:43.382114+08:00",
     "updatedAt": "2026-07-03T06:14:43.382114+08:00"
-  },
-  {
-    "generatedAt": "2026-07-02T06:23:50.286023+08:00",
-    "title": "触觉是机器人智能的关键吗？",
-    "domainTag": "具身智能",
-    "podcasts": [
-      "What's Next｜科技早知道",
-      "十字路口Crossing"
-    ],
-    "episodeIds": [
-      "6a3f281f9d2f5743683e81b2",
-      "f448a656-3004-430b-a853-79d1e77dcb53"
-    ],
-    "consensus": [
-      {
-        "podcast": "What's Next｜科技早知道",
-        "point": "触觉是具身智能最后一块拼图",
-        "episodeId": "f448a656-3004-430b-a853-79d1e77dcb53"
-      },
-      {
-        "podcast": "十字路口Crossing",
-        "point": "陪伴机器人需要触觉和情感交互",
-        "episodeId": "6a3f281f9d2f5743683e81b2"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:883245916ca0d1108d6ab734cbcfd60b5b6832461ca977f8c9a5b8fb0ac0b2d6",
-    "createdAt": "2026-07-02T06:23:50.286023+08:00",
-    "updatedAt": "2026-07-02T06:23:50.286023+08:00"
   }
 ]

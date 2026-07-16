@@ -1,5 +1,24 @@
 [
   {
+    "title": "企业AI投资回报是零吗？",
+    "domainTag": "AI商业化",
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "Peril Crosser 渡厄",
+        "point": "95%企业AI投资获得零财务回报",
+        "episodeId": "https://perilcrosser.com/?p=243"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI ROI真实，公司支出1/3在AI但回报巨大",
+        "episodeId": "6a52a93b1e32575f5eb4eb08"
+      }
+    ],
+    "createdAt": "2026-07-17T06:10:20.455343+08:00",
+    "updatedAt": "2026-07-17T06:10:20.455343+08:00"
+  },
+  {
     "title": "AI自我进化会很快失控吗？",
     "domainTag": "AI安全",
     "consensus": [],
