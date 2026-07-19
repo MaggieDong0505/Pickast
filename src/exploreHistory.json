@@ -1,5 +1,134 @@
 [
   {
+    "generatedAt": "2026-07-20T05:59:47.803499+08:00",
+    "title": "AI会让科技从业者更倦怠吗？",
+    "domainTag": "AI与职场",
+    "podcasts": [
+      "42章经",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a567bd927a4eec16c40bae2",
+      "6a5b98a66356eb2d9be4ad2c"
+    ],
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI蜜月期结束，倦怠飙升，交付更快但质量没更好",
+        "episodeId": "6a567bd927a4eec16c40bae2"
+      },
+      {
+        "podcast": "42章经",
+        "point": "AI四年，应用市场冷到谷底，从业者面临'应用已死'论断",
+        "episodeId": "6a5b98a66356eb2d9be4ad2c"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:231a03ac20bf4f7d32ec2d277b1996b71d6c5ce46c2a87575ae3247c57a22363",
+    "createdAt": "2026-07-20T05:59:47.803499+08:00",
+    "updatedAt": "2026-07-20T05:59:47.803499+08:00"
+  },
+  {
+    "generatedAt": "2026-07-20T05:59:47.803499+08:00",
+    "title": "AI应用层现在是创业好时机吗？",
+    "domainTag": "AI创业",
+    "podcasts": [
+      "42章经",
+      "十字路口Crossing",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a4511d92e335a35a80c8431",
+      "6a50a4fb1e32575f5eb4424d",
+      "6a5b98a66356eb2d9be4ad2c"
+    ],
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "基础设施已就位，应用层爆发时机成熟",
+        "episodeId": "6a50a4fb1e32575f5eb4424d"
+      },
+      {
+        "podcast": "十字路口Crossing",
+        "point": "Agent元年500天，GUI退场，应用层机会涌现",
+        "episodeId": "6a4511d92e335a35a80c8431"
+      }
+    ],
+    "divergence": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "基础设施已建好，现在是应用层创业的黄金时代",
+        "episodeId": "6a50a4fb1e32575f5eb4424d"
+      },
+      {
+        "podcast": "42章经",
+        "point": "AI四年，应用市场冷到谷底，投资人几乎不投应用",
+        "episodeId": "6a5b98a66356eb2d9be4ad2c"
+      }
+    ],
+    "fingerprint": "v1:1ebde4ae330c8bbcd4dad36777a5dbbbb53dd1fda1aea240418a4f854973426e",
+    "createdAt": "2026-07-12T05:57:44.294747+08:00",
+    "updatedAt": "2026-07-20T05:59:47.803499+08:00"
+  },
+  {
+    "generatedAt": "2026-07-20T05:59:47.803499+08:00",
+    "title": "AI时代还需要深度阅读吗？",
+    "domainTag": "认知与学习",
+    "podcasts": [
+      "about热水频道",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a4f1b653fb7233cbf461824",
+      "6a57a863016dcc7e0542c7df"
+    ],
+    "consensus": [
+      {
+        "podcast": "about热水频道",
+        "point": "深度阅读是大脑的康复锻炼",
+        "episodeId": "6a57a863016dcc7e0542c7df"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "好的写作在于新颖和出人意料，AI做不到",
+        "episodeId": "6a4f1b653fb7233cbf461824"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:a661d74ec6d6f53e9df42cfb991d4e908ce47ae15eac8fad784aed6992f8dfba",
+    "createdAt": "2026-07-20T05:59:47.803499+08:00",
+    "updatedAt": "2026-07-20T05:59:47.803499+08:00"
+  },
+  {
+    "generatedAt": "2026-07-20T05:59:47.803499+08:00",
+    "title": "机器人通用操作何时能实现？",
+    "domainTag": "具身智能",
+    "podcasts": [
+      "张小珺Jùn｜商业访谈录",
+      "硅谷101"
+    ],
+    "episodeIds": [
+      "6a57a05da4972c496dfc67f1",
+      "fc9a3737-81a9-49cf-a7d6-530c77df836e"
+    ],
+    "consensus": [
+      {
+        "podcast": "硅谷101",
+        "point": "机器人操作物体比运动控制难2-3个数量级",
+        "episodeId": "fc9a3737-81a9-49cf-a7d6-530c77df836e"
+      },
+      {
+        "podcast": "张小珺Jùn｜商业访谈录",
+        "point": "Pi专注机器人大脑，目标是通用操作",
+        "episodeId": "6a57a05da4972c496dfc67f1"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:b052f1cd4dd2f97d08fef6117b0350f8ad9c5ac422957954a12649f2d2be9649",
+    "createdAt": "2026-07-20T05:59:47.803499+08:00",
+    "updatedAt": "2026-07-20T05:59:47.803499+08:00"
+  },
+  {
     "generatedAt": "2026-07-17T06:10:20.455343+08:00",
     "title": "企业AI投资回报是零吗？",
     "domainTag": "AI商业化",
@@ -801,128 +930,5 @@
     "fingerprint": "v1:e1ef40e49e3bbb7c87c85528f2b13a58b9399ae862bbd74925228b05d3b4cebb",
     "createdAt": "2026-07-05T06:05:08.060576+08:00",
     "updatedAt": "2026-07-05T06:05:08.060576+08:00"
-  },
-  {
-    "generatedAt": "2026-07-05T06:05:08.060576+08:00",
-    "title": "AI时代如何管理注意力？",
-    "domainTag": "个人成长",
-    "podcasts": [
-      "跨国串门儿计划",
-      "跨域请求"
-    ],
-    "episodeIds": [
-      "6a3d274f9d2f5743683dd631",
-      "6a42ca2b2e335a35a80b6f42"
-    ],
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "把世界静音，专注建造自己的世界",
-        "episodeId": "6a3d274f9d2f5743683dd631"
-      },
-      {
-        "podcast": "跨域请求",
-        "point": "新工具过载让人更焦虑，需主动抽离",
-        "episodeId": "6a42ca2b2e335a35a80b6f42"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:7a39418fea1361e9e99b33e788c6dfb4c53901b2d06140cd90349eb32877e037",
-    "createdAt": "2026-07-05T06:05:08.060576+08:00",
-    "updatedAt": "2026-07-05T06:05:08.060576+08:00"
-  },
-  {
-    "generatedAt": "2026-07-04T06:12:06.604570+08:00",
-    "title": "AI时代如何建立个人品牌？",
-    "domainTag": "个人成长",
-    "podcasts": [
-      "搞钱女孩",
-      "贝望录",
-      "韩叙的朋友们"
-    ],
-    "episodeIds": [
-      "6a4520019d2f574368410349",
-      "6a454a912e335a35a80c9f11",
-      "6a4565062e335a35a80ca215"
-    ],
-    "consensus": [
-      {
-        "podcast": "搞钱女孩",
-        "point": "突破搞钱卡点最快方式是换圈子，靠近高能量人群",
-        "episodeId": "6a4565062e335a35a80ca215"
-      },
-      {
-        "podcast": "贝望录",
-        "point": "先走出来再决定往哪里去，方向在行动中浮现",
-        "episodeId": "6a4520019d2f574368410349"
-      },
-      {
-        "podcast": "韩叙的朋友们",
-        "point": "一人公司要切反漏斗，商业模式走在AI前面",
-        "episodeId": "6a454a912e335a35a80c9f11"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:fb1524280437d2b1856bf5dbcfd036954eb45950a38235ab17ddc6fe1ccc7b04",
-    "createdAt": "2026-07-04T06:12:06.604570+08:00",
-    "updatedAt": "2026-07-04T06:12:06.604570+08:00"
-  },
-  {
-    "generatedAt": "2026-07-04T06:12:06.604570+08:00",
-    "title": "世界杯营销中小企业怎么玩？",
-    "domainTag": "品牌营销",
-    "podcasts": [
-      "声动早咖啡",
-      "贝望录"
-    ],
-    "episodeIds": [
-      "6a3a557c9d2f5743683c8c0e",
-      "6a3bb9319d2f5743683d34b5"
-    ],
-    "consensus": [
-      {
-        "podcast": "贝望录",
-        "point": "世界杯不只是大品牌游戏，中小企业也能讲好故事",
-        "episodeId": "6a3a557c9d2f5743683c8c0e"
-      },
-      {
-        "podcast": "声动早咖啡",
-        "point": "足球球衣成为时尚单品，品牌可借势文化时刻",
-        "episodeId": "6a3bb9319d2f5743683d34b5"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:a921b3d231c1a5bb490c7cd957a89ecb08c38a1f99a7e7da535d8dd07c8d6ca2",
-    "createdAt": "2026-07-04T06:12:06.604570+08:00",
-    "updatedAt": "2026-07-04T06:12:06.604570+08:00"
-  },
-  {
-    "generatedAt": "2026-07-03T06:14:43.382114+08:00",
-    "title": "AI时代需要投资GUI软件吗？",
-    "domainTag": "AI产品",
-    "podcasts": [
-      "乱翻书",
-      "十字路口Crossing"
-    ],
-    "episodeIds": [
-      "6a3bdd319d2f5743683d4841",
-      "6a4511d92e335a35a80c8431"
-    ],
-    "consensus": [
-      {
-        "podcast": "十字路口Crossing",
-        "point": "不该再投资GUI思维的软件",
-        "episodeId": "6a4511d92e335a35a80c8431"
-      },
-      {
-        "podcast": "乱翻书",
-        "point": "APP会退居幕后，Agent上位",
-        "episodeId": "6a3bdd319d2f5743683d4841"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:2fd51fcfc2534066be798ff588ce1f69d55e95922d97c0a195629685771dd61f",
-    "createdAt": "2026-07-03T06:14:43.382114+08:00",
-    "updatedAt": "2026-07-03T06:14:43.382114+08:00"
   }
 ]

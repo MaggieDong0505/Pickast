@@ -1,5 +1,92 @@
 [
   {
+    "title": "AI应用层现在是创业好时机吗？",
+    "domainTag": "AI创业",
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "基础设施已就位，应用层爆发时机成熟",
+        "episodeId": "6a50a4fb1e32575f5eb4424d"
+      },
+      {
+        "podcast": "十字路口Crossing",
+        "point": "Agent元年500天，GUI退场，应用层机会涌现",
+        "episodeId": "6a4511d92e335a35a80c8431"
+      }
+    ],
+    "divergence": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "基础设施已建好，现在是应用层创业的黄金时代",
+        "episodeId": "6a50a4fb1e32575f5eb4424d"
+      },
+      {
+        "podcast": "42章经",
+        "point": "AI四年，应用市场冷到谷底，投资人几乎不投应用",
+        "episodeId": "6a5b98a66356eb2d9be4ad2c"
+      }
+    ],
+    "createdAt": "2026-07-12T05:57:44.294747+08:00",
+    "updatedAt": "2026-07-20T05:59:47.803499+08:00"
+  },
+  {
+    "title": "AI会让科技从业者更倦怠吗？",
+    "domainTag": "AI与职场",
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI蜜月期结束，倦怠飙升，交付更快但质量没更好",
+        "episodeId": "6a567bd927a4eec16c40bae2"
+      },
+      {
+        "podcast": "42章经",
+        "point": "AI四年，应用市场冷到谷底，从业者面临'应用已死'论断",
+        "episodeId": "6a5b98a66356eb2d9be4ad2c"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-07-20T05:59:47.803499+08:00",
+    "updatedAt": "2026-07-20T05:59:47.803499+08:00"
+  },
+  {
+    "title": "AI时代还需要深度阅读吗？",
+    "domainTag": "认知与学习",
+    "consensus": [
+      {
+        "podcast": "about热水频道",
+        "point": "深度阅读是大脑的康复锻炼",
+        "episodeId": "6a57a863016dcc7e0542c7df"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "好的写作在于新颖和出人意料，AI做不到",
+        "episodeId": "6a4f1b653fb7233cbf461824"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-07-20T05:59:47.803499+08:00",
+    "updatedAt": "2026-07-20T05:59:47.803499+08:00"
+  },
+  {
+    "title": "机器人通用操作何时能实现？",
+    "domainTag": "具身智能",
+    "consensus": [
+      {
+        "podcast": "硅谷101",
+        "point": "机器人操作物体比运动控制难2-3个数量级",
+        "episodeId": "fc9a3737-81a9-49cf-a7d6-530c77df836e"
+      },
+      {
+        "podcast": "张小珺Jùn｜商业访谈录",
+        "point": "Pi专注机器人大脑，目标是通用操作",
+        "episodeId": "6a57a05da4972c496dfc67f1"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-07-20T05:59:47.803499+08:00",
+    "updatedAt": "2026-07-20T05:59:47.803499+08:00"
+  },
+  {
     "title": "企业AI投资回报是零吗？",
     "domainTag": "AI商业化",
     "consensus": [],
@@ -179,25 +266,6 @@
     "divergence": [],
     "createdAt": "2026-07-13T05:58:34.381241+08:00",
     "updatedAt": "2026-07-13T05:58:34.381241+08:00"
-  },
-  {
-    "title": "AI应用层现在是创业好时机吗？",
-    "domainTag": "AI创业",
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "基础设施已就位，应用层爆发时机成熟",
-        "episodeId": "6a50a4fb1e32575f5eb4424d"
-      },
-      {
-        "podcast": "十字路口Crossing",
-        "point": "Agent元年500天，GUI退场，应用层机会涌现",
-        "episodeId": "6a4511d92e335a35a80c8431"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-07-12T05:57:44.294747+08:00",
-    "updatedAt": "2026-07-12T05:57:44.294747+08:00"
   },
   {
     "title": "世界杯背后的经济版图是什么？",
