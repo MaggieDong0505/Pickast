@@ -555,25 +555,6 @@
     "updatedAt": "2026-07-06T06:08:57.030309+08:00"
   },
   {
-    "title": "AI时代如何管理注意力？",
-    "domainTag": "个人成长",
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "把世界静音，专注建造自己的世界",
-        "episodeId": "6a3d274f9d2f5743683dd631"
-      },
-      {
-        "podcast": "跨域请求",
-        "point": "新工具过载让人更焦虑，需主动抽离",
-        "episodeId": "6a42ca2b2e335a35a80b6f42"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-07-05T06:05:08.060576+08:00",
-    "updatedAt": "2026-07-05T06:05:08.060576+08:00"
-  },
-  {
     "title": "手机是AI时代最佳入口吗？",
     "domainTag": "AI硬件",
     "consensus": [
@@ -601,67 +582,5 @@
     "divergence": [],
     "createdAt": "2026-06-26T06:26:54.610827+08:00",
     "updatedAt": "2026-07-05T06:05:08.060576+08:00"
-  },
-  {
-    "title": "AI时代如何建立个人品牌？",
-    "domainTag": "个人成长",
-    "consensus": [
-      {
-        "podcast": "搞钱女孩",
-        "point": "突破搞钱卡点最快方式是换圈子，靠近高能量人群",
-        "episodeId": "6a4565062e335a35a80ca215"
-      },
-      {
-        "podcast": "贝望录",
-        "point": "先走出来再决定往哪里去，方向在行动中浮现",
-        "episodeId": "6a4520019d2f574368410349"
-      },
-      {
-        "podcast": "韩叙的朋友们",
-        "point": "一人公司要切反漏斗，商业模式走在AI前面",
-        "episodeId": "6a454a912e335a35a80c9f11"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-07-04T06:12:06.604570+08:00",
-    "updatedAt": "2026-07-04T06:12:06.604570+08:00"
-  },
-  {
-    "title": "世界杯营销中小企业怎么玩？",
-    "domainTag": "品牌营销",
-    "consensus": [
-      {
-        "podcast": "贝望录",
-        "point": "世界杯不只是大品牌游戏，中小企业也能讲好故事",
-        "episodeId": "6a3a557c9d2f5743683c8c0e"
-      },
-      {
-        "podcast": "声动早咖啡",
-        "point": "足球球衣成为时尚单品，品牌可借势文化时刻",
-        "episodeId": "6a3bb9319d2f5743683d34b5"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-07-04T06:12:06.604570+08:00",
-    "updatedAt": "2026-07-04T06:12:06.604570+08:00"
-  },
-  {
-    "title": "AI时代需要投资GUI软件吗？",
-    "domainTag": "AI产品",
-    "consensus": [
-      {
-        "podcast": "十字路口Crossing",
-        "point": "不该再投资GUI思维的软件",
-        "episodeId": "6a4511d92e335a35a80c8431"
-      },
-      {
-        "podcast": "乱翻书",
-        "point": "APP会退居幕后，Agent上位",
-        "episodeId": "6a3bdd319d2f5743683d4841"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-07-03T06:14:43.382114+08:00",
-    "updatedAt": "2026-07-03T06:14:43.382114+08:00"
   }
 ]
