@@ -1,5 +1,63 @@
 [
   {
+    "generatedAt": "2026-07-23T06:12:14.090380+08:00",
+    "title": "AIAgent支付安全吗？",
+    "domainTag": "AI与金融",
+    "podcasts": [
+      "What's Next｜科技早知道",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a5f445b6356eb2d9be61775",
+      "9a652c19-ceb3-46c2-87b4-bca36e684311"
+    ],
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "法币体系有成熟追责机制，更安全",
+        "episodeId": "9a652c19-ceb3-46c2-87b4-bca36e684311"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "Agent 自主消费不可逆，信任未建立",
+        "episodeId": "6a5f445b6356eb2d9be61775"
+      }
+    ],
+    "fingerprint": "v1:43db45316d0dc25688dcdc66e96d7935f71126ceaa5af5aa62654d5bce010c02",
+    "createdAt": "2026-07-23T06:12:14.090380+08:00",
+    "updatedAt": "2026-07-23T06:12:14.090380+08:00"
+  },
+  {
+    "generatedAt": "2026-07-23T06:12:14.090380+08:00",
+    "title": "AI基础设施瓶颈到底在哪？",
+    "domainTag": "AI基础设施",
+    "podcasts": [
+      "十字路口Crossing",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a52a93b1e32575f5eb4eb08",
+      "6a5c6a91a3fec224d59fd014"
+    ],
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "存储和电力是 AI 扩展的最大制约",
+        "episodeId": "6a52a93b1e32575f5eb4eb08"
+      },
+      {
+        "podcast": "十字路口Crossing",
+        "point": "推理加速需要从算子到部署全栈优化",
+        "episodeId": "6a5c6a91a3fec224d59fd014"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:d496b226a8a19246056530c0c954bab91168440464394efbf308dcce6b265196",
+    "createdAt": "2026-07-23T06:12:14.090380+08:00",
+    "updatedAt": "2026-07-23T06:12:14.090380+08:00"
+  },
+  {
     "generatedAt": "2026-07-20T05:59:47.803499+08:00",
     "title": "AI会让科技从业者更倦怠吗？",
     "domainTag": "AI与职场",
@@ -862,73 +920,5 @@
     "fingerprint": "v1:b134b82cee5061edeae60d3aabfde94ba1c52ca5dc2bb56475069e88e41468e2",
     "createdAt": "2026-07-06T06:08:57.030309+08:00",
     "updatedAt": "2026-07-06T06:08:57.030309+08:00"
-  },
-  {
-    "generatedAt": "2026-07-05T06:05:08.060576+08:00",
-    "title": "手机是AI时代最佳入口吗？",
-    "domainTag": "AI硬件",
-    "podcasts": [
-      "What's Next｜科技早知道",
-      "乱翻书"
-    ],
-    "episodeIds": [
-      "523a0d42-4c16-4dd6-a2ab-9277fec1a731",
-      "6a3bdd319d2f5743683d4841"
-    ],
-    "consensus": [
-      {
-        "podcast": "What's Next｜科技早知道",
-        "point": "手机是天然AI载体，端侧AI价值巨大",
-        "episodeId": "523a0d42-4c16-4dd6-a2ab-9277fec1a731"
-      },
-      {
-        "podcast": "乱翻书",
-        "point": "AI硬件绕了一圈，最后又回到手机",
-        "episodeId": "6a3bdd319d2f5743683d4841"
-      },
-      {
-        "podcast": "乱翻书",
-        "point": "手机是AI时代最特殊的智能设备，工作台会回到手机",
-        "episodeId": "6a3bdd319d2f5743683d4841"
-      },
-      {
-        "podcast": "What's Next｜科技早知道",
-        "point": "手机是天然AI载体，端侧AI价值在于实时感知不可替代",
-        "episodeId": "523a0d42-4c16-4dd6-a2ab-9277fec1a731"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:f39b2016b08ceb13234ecdb9a578c4a8bc967a5251132f491fc694f45c71c34e",
-    "createdAt": "2026-06-26T06:26:54.610827+08:00",
-    "updatedAt": "2026-07-05T06:05:08.060576+08:00"
-  },
-  {
-    "generatedAt": "2026-07-05T06:05:08.060576+08:00",
-    "title": "AI时代如何保持独立思考？",
-    "domainTag": "认知与创造力",
-    "podcasts": [
-      "跨国串门儿计划",
-      "跨域请求"
-    ],
-    "episodeIds": [
-      "6a4034262e335a35a80a5f75",
-      "6a42ca2b2e335a35a80b6f42"
-    ],
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "成为二手思考者代价高昂，需警惕算法同化",
-        "episodeId": "6a4034262e335a35a80a5f75"
-      },
-      {
-        "podcast": "跨域请求",
-        "point": "AI同化让人用AI术语理解自己，需反向输出",
-        "episodeId": "6a42ca2b2e335a35a80b6f42"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:e1ef40e49e3bbb7c87c85528f2b13a58b9399ae862bbd74925228b05d3b4cebb",
-    "createdAt": "2026-07-05T06:05:08.060576+08:00",
-    "updatedAt": "2026-07-05T06:05:08.060576+08:00"
   }
 ]

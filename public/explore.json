@@ -1,5 +1,43 @@
 [
   {
+    "title": "AIAgent支付安全吗？",
+    "domainTag": "AI与金融",
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "法币体系有成熟追责机制，更安全",
+        "episodeId": "9a652c19-ceb3-46c2-87b4-bca36e684311"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "Agent 自主消费不可逆，信任未建立",
+        "episodeId": "6a5f445b6356eb2d9be61775"
+      }
+    ],
+    "createdAt": "2026-07-23T06:12:14.090380+08:00",
+    "updatedAt": "2026-07-23T06:12:14.090380+08:00"
+  },
+  {
+    "title": "AI基础设施瓶颈到底在哪？",
+    "domainTag": "AI基础设施",
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "存储和电力是 AI 扩展的最大制约",
+        "episodeId": "6a52a93b1e32575f5eb4eb08"
+      },
+      {
+        "podcast": "十字路口Crossing",
+        "point": "推理加速需要从算子到部署全栈优化",
+        "episodeId": "6a5c6a91a3fec224d59fd014"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-07-23T06:12:14.090380+08:00",
+    "updatedAt": "2026-07-23T06:12:14.090380+08:00"
+  },
+  {
     "title": "AI应用层现在是创业好时机吗？",
     "domainTag": "AI创业",
     "consensus": [
