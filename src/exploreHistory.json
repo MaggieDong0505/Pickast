@@ -1,5 +1,34 @@
 [
   {
+    "generatedAt": "2026-07-24T06:10:32.362881+08:00",
+    "title": "AI教育能取代传统课堂吗？",
+    "domainTag": "AI与社会",
+    "podcasts": [
+      "about热水频道",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a57a863016dcc7e0542c7df",
+      "6a5a03e86356eb2d9be42c8e"
+    ],
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "Demis Hassabis提出翻转课堂，AI负责个性化学习",
+        "episodeId": "6a5a03e86356eb2d9be42c8e"
+      },
+      {
+        "podcast": "about热水频道",
+        "point": "AI应辅助而非替代深度阅读和思考",
+        "episodeId": "6a57a863016dcc7e0542c7df"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:83cc8d248b6c8dfc5954292c739671500c7468a9a4828b02fbcdd166d12ffe6c",
+    "createdAt": "2026-07-24T06:10:32.362881+08:00",
+    "updatedAt": "2026-07-24T06:10:32.362881+08:00"
+  },
+  {
     "generatedAt": "2026-07-23T06:12:14.090380+08:00",
     "title": "AIAgent支付安全吗？",
     "domainTag": "AI与金融",
@@ -889,35 +918,6 @@
     ],
     "divergence": [],
     "fingerprint": "v1:5bc31875953ee91b55c4b0cf3e051a5437e0542ccdffacb20864ec9dec5fb227",
-    "createdAt": "2026-07-06T06:08:57.030309+08:00",
-    "updatedAt": "2026-07-06T06:08:57.030309+08:00"
-  },
-  {
-    "generatedAt": "2026-07-06T06:08:57.030309+08:00",
-    "title": "女性身体为何被运动营养忽视？",
-    "domainTag": "健康",
-    "podcasts": [
-      "about热水频道",
-      "纵横四海"
-    ],
-    "episodeIds": [
-      "6a3fd0302e335a35a80a47d3",
-      "6a4528689d2f57436841085b"
-    ],
-    "consensus": [
-      {
-        "podcast": "纵横四海",
-        "point": "女性不是缩小版男性，生理机制完全不同",
-        "episodeId": "6a3fd0302e335a35a80a47d3"
-      },
-      {
-        "podcast": "about热水频道",
-        "point": "月经异常常被忽视，子宫内膜异位症发病率高",
-        "episodeId": "6a4528689d2f57436841085b"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:b134b82cee5061edeae60d3aabfde94ba1c52ca5dc2bb56475069e88e41468e2",
     "createdAt": "2026-07-06T06:08:57.030309+08:00",
     "updatedAt": "2026-07-06T06:08:57.030309+08:00"
   }
