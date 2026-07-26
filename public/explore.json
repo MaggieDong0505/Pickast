@@ -1,5 +1,91 @@
 [
   {
+    "title": "AI时代什么能力最值钱？",
+    "domainTag": "AI与人才",
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "硅谷101",
+        "point": "内容工程师将记者编辑的语感拆解成工程规则",
+        "episodeId": "5aeaeb64-9165-4271-9884-23329b511e11"
+      },
+      {
+        "podcast": "十分吸引",
+        "point": "审美力是AI时代最稀缺的能力，AI能识别但无法体验",
+        "episodeId": "6a50bf8a1e32575f5eb453cd"
+      }
+    ],
+    "createdAt": "2026-07-27T06:06:02.826140+08:00",
+    "updatedAt": "2026-07-27T06:06:02.826140+08:00"
+  },
+  {
+    "title": "AI会让科技从业者更倦怠吗？",
+    "domainTag": "AI与职场",
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI蜜月期结束，倦怠飙升，交付更快但质量没更好",
+        "episodeId": "6a567bd927a4eec16c40bae2"
+      },
+      {
+        "podcast": "42章经",
+        "point": "AI四年，应用市场冷到谷底，从业者面临'应用已死'论断",
+        "episodeId": "6a5b98a66356eb2d9be4ad2c"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI蜜月期结束，生产力提升但倦怠激增",
+        "episodeId": "6a567bd927a4eec16c40bae2"
+      },
+      {
+        "podcast": "42章经",
+        "point": "AI四年，应用市场冷，从业者面临困境",
+        "episodeId": "6a5b98a66356eb2d9be4ad2c"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-07-20T05:59:47.803499+08:00",
+    "updatedAt": "2026-07-27T06:06:02.826140+08:00"
+  },
+  {
+    "title": "AI安全监管该不该封禁开源？",
+    "domainTag": "AI治理",
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "美国可能封禁中国开源模型引发巨大争议",
+        "episodeId": "6a65e1856356eb2d9be899d5"
+      },
+      {
+        "podcast": "Peril Crosser 渡厄",
+        "point": "AI越狱事件暴露安全合规审查的漏洞",
+        "episodeId": "https://perilcrosser.com/?p=268"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-07-27T06:06:02.826140+08:00",
+    "updatedAt": "2026-07-27T06:06:02.826140+08:00"
+  },
+  {
+    "title": "AI推理加速能突破硬件瓶颈吗？",
+    "domainTag": "AI基础设施",
+    "consensus": [
+      {
+        "podcast": "十字路口Crossing",
+        "point": "Vidu S1实现实时交互视频，生成速度超过播放速度",
+        "episodeId": "6a5c6a91a3fec224d59fd014"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "Cerebras晶圆级芯片比GPU快58倍，解决推理瓶颈",
+        "episodeId": "6a644f126356eb2d9be8178f"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-07-27T06:06:02.826140+08:00",
+    "updatedAt": "2026-07-27T06:06:02.826140+08:00"
+  },
+  {
     "title": "AI教育能取代传统课堂吗？",
     "domainTag": "AI与社会",
     "consensus": [
@@ -84,25 +170,6 @@
       }
     ],
     "createdAt": "2026-07-12T05:57:44.294747+08:00",
-    "updatedAt": "2026-07-20T05:59:47.803499+08:00"
-  },
-  {
-    "title": "AI会让科技从业者更倦怠吗？",
-    "domainTag": "AI与职场",
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI蜜月期结束，倦怠飙升，交付更快但质量没更好",
-        "episodeId": "6a567bd927a4eec16c40bae2"
-      },
-      {
-        "podcast": "42章经",
-        "point": "AI四年，应用市场冷到谷底，从业者面临'应用已死'论断",
-        "episodeId": "6a5b98a66356eb2d9be4ad2c"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-07-20T05:59:47.803499+08:00",
     "updatedAt": "2026-07-20T05:59:47.803499+08:00"
   },
   {

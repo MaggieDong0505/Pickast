@@ -1,5 +1,131 @@
 [
   {
+    "generatedAt": "2026-07-27T06:06:02.826140+08:00",
+    "title": "AI会让科技从业者更倦怠吗？",
+    "domainTag": "AI与职场",
+    "podcasts": [
+      "42章经",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a567bd927a4eec16c40bae2",
+      "6a5b98a66356eb2d9be4ad2c"
+    ],
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI蜜月期结束，倦怠飙升，交付更快但质量没更好",
+        "episodeId": "6a567bd927a4eec16c40bae2"
+      },
+      {
+        "podcast": "42章经",
+        "point": "AI四年，应用市场冷到谷底，从业者面临'应用已死'论断",
+        "episodeId": "6a5b98a66356eb2d9be4ad2c"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI蜜月期结束，生产力提升但倦怠激增",
+        "episodeId": "6a567bd927a4eec16c40bae2"
+      },
+      {
+        "podcast": "42章经",
+        "point": "AI四年，应用市场冷，从业者面临困境",
+        "episodeId": "6a5b98a66356eb2d9be4ad2c"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:231a03ac20bf4f7d32ec2d277b1996b71d6c5ce46c2a87575ae3247c57a22363",
+    "createdAt": "2026-07-20T05:59:47.803499+08:00",
+    "updatedAt": "2026-07-27T06:06:02.826140+08:00"
+  },
+  {
+    "generatedAt": "2026-07-27T06:06:02.826140+08:00",
+    "title": "AI时代什么能力最值钱？",
+    "domainTag": "AI与人才",
+    "podcasts": [
+      "十分吸引",
+      "硅谷101"
+    ],
+    "episodeIds": [
+      "5aeaeb64-9165-4271-9884-23329b511e11",
+      "6a50bf8a1e32575f5eb453cd"
+    ],
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "硅谷101",
+        "point": "内容工程师将记者编辑的语感拆解成工程规则",
+        "episodeId": "5aeaeb64-9165-4271-9884-23329b511e11"
+      },
+      {
+        "podcast": "十分吸引",
+        "point": "审美力是AI时代最稀缺的能力，AI能识别但无法体验",
+        "episodeId": "6a50bf8a1e32575f5eb453cd"
+      }
+    ],
+    "fingerprint": "v1:481bfe768c6818dda88b642912796257cc04254a18155a8d6b292cc53c64c242",
+    "createdAt": "2026-07-27T06:06:02.826140+08:00",
+    "updatedAt": "2026-07-27T06:06:02.826140+08:00"
+  },
+  {
+    "generatedAt": "2026-07-27T06:06:02.826140+08:00",
+    "title": "AI安全监管该不该封禁开源？",
+    "domainTag": "AI治理",
+    "podcasts": [
+      "Peril Crosser 渡厄",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a65e1856356eb2d9be899d5",
+      "https://perilcrosser.com/?p=268"
+    ],
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "美国可能封禁中国开源模型引发巨大争议",
+        "episodeId": "6a65e1856356eb2d9be899d5"
+      },
+      {
+        "podcast": "Peril Crosser 渡厄",
+        "point": "AI越狱事件暴露安全合规审查的漏洞",
+        "episodeId": "https://perilcrosser.com/?p=268"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:bb654db6321f61023666dd7ff4ccf5de0df62bf03b8f162336b39c416c4c86bb",
+    "createdAt": "2026-07-27T06:06:02.826140+08:00",
+    "updatedAt": "2026-07-27T06:06:02.826140+08:00"
+  },
+  {
+    "generatedAt": "2026-07-27T06:06:02.826140+08:00",
+    "title": "AI推理加速能突破硬件瓶颈吗？",
+    "domainTag": "AI基础设施",
+    "podcasts": [
+      "十字路口Crossing",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a5c6a91a3fec224d59fd014",
+      "6a644f126356eb2d9be8178f"
+    ],
+    "consensus": [
+      {
+        "podcast": "十字路口Crossing",
+        "point": "Vidu S1实现实时交互视频，生成速度超过播放速度",
+        "episodeId": "6a5c6a91a3fec224d59fd014"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "Cerebras晶圆级芯片比GPU快58倍，解决推理瓶颈",
+        "episodeId": "6a644f126356eb2d9be8178f"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:0c33fe8bc11fed53ddaa380f100e4501f8a84eea0606a912a686fb67e58a4fc0",
+    "createdAt": "2026-07-27T06:06:02.826140+08:00",
+    "updatedAt": "2026-07-27T06:06:02.826140+08:00"
+  },
+  {
     "generatedAt": "2026-07-24T06:10:32.362881+08:00",
     "title": "AI教育能取代传统课堂吗？",
     "domainTag": "AI与社会",
@@ -85,35 +211,6 @@
     "fingerprint": "v1:d496b226a8a19246056530c0c954bab91168440464394efbf308dcce6b265196",
     "createdAt": "2026-07-23T06:12:14.090380+08:00",
     "updatedAt": "2026-07-23T06:12:14.090380+08:00"
-  },
-  {
-    "generatedAt": "2026-07-20T05:59:47.803499+08:00",
-    "title": "AI会让科技从业者更倦怠吗？",
-    "domainTag": "AI与职场",
-    "podcasts": [
-      "42章经",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "6a567bd927a4eec16c40bae2",
-      "6a5b98a66356eb2d9be4ad2c"
-    ],
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI蜜月期结束，倦怠飙升，交付更快但质量没更好",
-        "episodeId": "6a567bd927a4eec16c40bae2"
-      },
-      {
-        "podcast": "42章经",
-        "point": "AI四年，应用市场冷到谷底，从业者面临'应用已死'论断",
-        "episodeId": "6a5b98a66356eb2d9be4ad2c"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:231a03ac20bf4f7d32ec2d277b1996b71d6c5ce46c2a87575ae3247c57a22363",
-    "createdAt": "2026-07-20T05:59:47.803499+08:00",
-    "updatedAt": "2026-07-20T05:59:47.803499+08:00"
   },
   {
     "generatedAt": "2026-07-20T05:59:47.803499+08:00",
@@ -833,92 +930,5 @@
     "fingerprint": "v1:d32749877b67d5b54037dcf605ebbab245328db145312e83c36f5242032571c2",
     "createdAt": "2026-07-07T06:20:30.112665+08:00",
     "updatedAt": "2026-07-07T06:20:30.112665+08:00"
-  },
-  {
-    "generatedAt": "2026-07-07T06:20:30.112665+08:00",
-    "title": "AI时代企业落地为何回报低？",
-    "domainTag": "企业AI",
-    "podcasts": [
-      "Peril Crosser 肚饿？渡厄！",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "6a3e415d9d2f5743683e45ea",
-      "https://perilcrosser.com/?p=243"
-    ],
-    "consensus": [
-      {
-        "podcast": "Peril Crosser 肚饿？渡厄！",
-        "point": "95%企业AI投资获得零财务回报",
-        "episodeId": "https://perilcrosser.com/?p=243"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI普及程度才刚开始在1%业务量里应用",
-        "episodeId": "6a3e415d9d2f5743683e45ea"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:ff31cc3733edbfd69d2fde6ffa50a3a05a46534daf20b2e862fa962be433fbdb",
-    "createdAt": "2026-07-07T06:20:30.112665+08:00",
-    "updatedAt": "2026-07-07T06:20:30.112665+08:00"
-  },
-  {
-    "generatedAt": "2026-07-06T06:08:57.030309+08:00",
-    "title": "AIAgent技能如何标准化？",
-    "domainTag": "AI工程",
-    "podcasts": [
-      "十字路口Crossing",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "6a4511d92e335a35a80c8431",
-      "6a49649f3fb7233cbf43c439"
-    ],
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "开发者陷入技能地狱，缺乏评判好坏的共享标准",
-        "episodeId": "6a49649f3fb7233cbf43c439"
-      },
-      {
-        "podcast": "十字路口Crossing",
-        "point": "Skills封装成为Agent经济的关键组件",
-        "episodeId": "6a4511d92e335a35a80c8431"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:23bf43ff2f0e840689209e225d3885389bdcfc50907277cef5993cf0ea90ebab",
-    "createdAt": "2026-07-06T06:08:57.030309+08:00",
-    "updatedAt": "2026-07-06T06:08:57.030309+08:00"
-  },
-  {
-    "generatedAt": "2026-07-06T06:08:57.030309+08:00",
-    "title": "AI时代一人公司如何生存？",
-    "domainTag": "创业",
-    "podcasts": [
-      "What's Next｜科技早知道",
-      "韩叙的朋友们"
-    ],
-    "episodeIds": [
-      "6a454a912e335a35a80c9f11",
-      "e3a21dde-0bba-4ec2-bf12-5043500ae5c6"
-    ],
-    "consensus": [
-      {
-        "podcast": "What's Next｜科技早知道",
-        "point": "一人公司用AI跑通产品开发和内容生产全流程",
-        "episodeId": "e3a21dde-0bba-4ec2-bf12-5043500ae5c6"
-      },
-      {
-        "podcast": "韩叙的朋友们",
-        "point": "AI深度融入后打开想象空间，商业模式需走在AI前面",
-        "episodeId": "6a454a912e335a35a80c9f11"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:5bc31875953ee91b55c4b0cf3e051a5437e0542ccdffacb20864ec9dec5fb227",
-    "createdAt": "2026-07-06T06:08:57.030309+08:00",
-    "updatedAt": "2026-07-06T06:08:57.030309+08:00"
   }
 ]
