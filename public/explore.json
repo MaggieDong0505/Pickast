@@ -1,5 +1,43 @@
 [
   {
+    "title": "国产超节点能超越英伟达吗？",
+    "domainTag": "AI芯片",
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "系统参数超过NVL72，但CUDA生态未破",
+        "episodeId": "a6c6ab3e-72b2-470b-aefd-04b19679d37f"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "Kimi K3用极致工程翻过围墙，开源冲击波",
+        "episodeId": "6a5f8f00a3fec224d5a13421"
+      }
+    ],
+    "createdAt": "2026-07-28T06:13:35.200414+08:00",
+    "updatedAt": "2026-07-28T06:13:35.200414+08:00"
+  },
+  {
+    "title": "AI会让人类认知能力退化吗？",
+    "domainTag": "AI与社会",
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI蜜月期结束，过度依赖导致脑子退化",
+        "episodeId": "6a567bd927a4eec16c40bae2"
+      },
+      {
+        "podcast": "声动早咖啡",
+        "point": "AI偏爱否定再转折句式，暴露机器语言痕迹",
+        "episodeId": "6a65d2ff6356eb2d9be893fe"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-07-28T06:13:35.200414+08:00",
+    "updatedAt": "2026-07-28T06:13:35.200414+08:00"
+  },
+  {
     "title": "AI时代什么能力最值钱？",
     "domainTag": "AI与人才",
     "consensus": [],
@@ -565,25 +603,6 @@
     "updatedAt": "2026-07-08T06:18:25.029570+08:00"
   },
   {
-    "title": "AI时代企业落地为何回报低？",
-    "domainTag": "企业AI",
-    "consensus": [
-      {
-        "podcast": "Peril Crosser 肚饿？渡厄！",
-        "point": "95%企业AI投资获得零财务回报",
-        "episodeId": "https://perilcrosser.com/?p=243"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI普及程度才刚开始在1%业务量里应用",
-        "episodeId": "6a3e415d9d2f5743683e45ea"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-07-07T06:20:30.112665+08:00",
-    "updatedAt": "2026-07-07T06:20:30.112665+08:00"
-  },
-  {
     "title": "AI时代如何培养研究品味？",
     "domainTag": "AI人才",
     "consensus": [
@@ -620,43 +639,5 @@
     "divergence": [],
     "createdAt": "2026-07-07T06:20:30.112665+08:00",
     "updatedAt": "2026-07-07T06:20:30.112665+08:00"
-  },
-  {
-    "title": "AIAgent技能如何标准化？",
-    "domainTag": "AI工程",
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "开发者陷入技能地狱，缺乏评判好坏的共享标准",
-        "episodeId": "6a49649f3fb7233cbf43c439"
-      },
-      {
-        "podcast": "十字路口Crossing",
-        "point": "Skills封装成为Agent经济的关键组件",
-        "episodeId": "6a4511d92e335a35a80c8431"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-07-06T06:08:57.030309+08:00",
-    "updatedAt": "2026-07-06T06:08:57.030309+08:00"
-  },
-  {
-    "title": "AI时代一人公司如何生存？",
-    "domainTag": "创业",
-    "consensus": [
-      {
-        "podcast": "What's Next｜科技早知道",
-        "point": "一人公司用AI跑通产品开发和内容生产全流程",
-        "episodeId": "e3a21dde-0bba-4ec2-bf12-5043500ae5c6"
-      },
-      {
-        "podcast": "韩叙的朋友们",
-        "point": "AI深度融入后打开想象空间，商业模式需走在AI前面",
-        "episodeId": "6a454a912e335a35a80c9f11"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-07-06T06:08:57.030309+08:00",
-    "updatedAt": "2026-07-06T06:08:57.030309+08:00"
   }
 ]

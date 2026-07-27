@@ -1,5 +1,63 @@
 [
   {
+    "generatedAt": "2026-07-28T06:13:35.200414+08:00",
+    "title": "国产超节点能超越英伟达吗？",
+    "domainTag": "AI芯片",
+    "podcasts": [
+      "What's Next｜科技早知道",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a5f8f00a3fec224d5a13421",
+      "a6c6ab3e-72b2-470b-aefd-04b19679d37f"
+    ],
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "系统参数超过NVL72，但CUDA生态未破",
+        "episodeId": "a6c6ab3e-72b2-470b-aefd-04b19679d37f"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "Kimi K3用极致工程翻过围墙，开源冲击波",
+        "episodeId": "6a5f8f00a3fec224d5a13421"
+      }
+    ],
+    "fingerprint": "v1:d68f6c488d67b5f50ee2e04ca75baa4f731b169713af5ef6984d871791648140",
+    "createdAt": "2026-07-28T06:13:35.200414+08:00",
+    "updatedAt": "2026-07-28T06:13:35.200414+08:00"
+  },
+  {
+    "generatedAt": "2026-07-28T06:13:35.200414+08:00",
+    "title": "AI会让人类认知能力退化吗？",
+    "domainTag": "AI与社会",
+    "podcasts": [
+      "声动早咖啡",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a567bd927a4eec16c40bae2",
+      "6a65d2ff6356eb2d9be893fe"
+    ],
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI蜜月期结束，过度依赖导致脑子退化",
+        "episodeId": "6a567bd927a4eec16c40bae2"
+      },
+      {
+        "podcast": "声动早咖啡",
+        "point": "AI偏爱否定再转折句式，暴露机器语言痕迹",
+        "episodeId": "6a65d2ff6356eb2d9be893fe"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:46a34dfb9d2a15a162545b6d9a8de5c47b246e9a34cc0ac2c8e62452167fc32e",
+    "createdAt": "2026-07-28T06:13:35.200414+08:00",
+    "updatedAt": "2026-07-28T06:13:35.200414+08:00"
+  },
+  {
     "generatedAt": "2026-07-27T06:06:02.826140+08:00",
     "title": "AI会让科技从业者更倦怠吗？",
     "domainTag": "AI与职场",
@@ -872,63 +930,5 @@
     "fingerprint": "v1:2f56e037287117a452ba79594dd1ecf7a3d79e17b13d749c02949647c75df78f",
     "createdAt": "2026-07-08T06:18:25.029570+08:00",
     "updatedAt": "2026-07-08T06:18:25.029570+08:00"
-  },
-  {
-    "generatedAt": "2026-07-07T06:20:30.112665+08:00",
-    "title": "AI自我进化最快多久能实现？",
-    "domainTag": "AI前沿",
-    "podcasts": [
-      "硅谷101",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "308f9278-dd48-44d3-a4ce-ee436968fc28",
-      "6a4931143fb7233cbf43be47"
-    ],
-    "consensus": [
-      {
-        "podcast": "硅谷101",
-        "point": "最快半年能跑通一次完整的自我进化闭环",
-        "episodeId": "308f9278-dd48-44d3-a4ce-ee436968fc28"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "递归自我改进正在发生，但解决递归漂移还需2-3年",
-        "episodeId": "6a4931143fb7233cbf43be47"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:6b39b57c57c0e96db711ed14255042111d16c41a983e5d04a2a27fea792dd7a2",
-    "createdAt": "2026-07-07T06:20:30.112665+08:00",
-    "updatedAt": "2026-07-07T06:20:30.112665+08:00"
-  },
-  {
-    "generatedAt": "2026-07-07T06:20:30.112665+08:00",
-    "title": "AI时代如何培养研究品味？",
-    "domainTag": "AI人才",
-    "podcasts": [
-      "硅谷101",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "308f9278-dd48-44d3-a4ce-ee436968fc28",
-      "6a3e491a2e335a35a809d1ea"
-    ],
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "研究品味是预判方法成功率的直觉",
-        "episodeId": "6a3e491a2e335a35a809d1ea"
-      },
-      {
-        "podcast": "硅谷101",
-        "point": "让AI像科学家一样提问，需要模型有更好的品味",
-        "episodeId": "308f9278-dd48-44d3-a4ce-ee436968fc28"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:d32749877b67d5b54037dcf605ebbab245328db145312e83c36f5242032571c2",
-    "createdAt": "2026-07-07T06:20:30.112665+08:00",
-    "updatedAt": "2026-07-07T06:20:30.112665+08:00"
   }
 ]
