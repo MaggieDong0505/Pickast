@@ -601,43 +601,5 @@
     "divergence": [],
     "createdAt": "2026-07-08T06:18:25.029570+08:00",
     "updatedAt": "2026-07-08T06:18:25.029570+08:00"
-  },
-  {
-    "title": "AI时代如何培养研究品味？",
-    "domainTag": "AI人才",
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "研究品味是预判方法成功率的直觉",
-        "episodeId": "6a3e491a2e335a35a809d1ea"
-      },
-      {
-        "podcast": "硅谷101",
-        "point": "让AI像科学家一样提问，需要模型有更好的品味",
-        "episodeId": "308f9278-dd48-44d3-a4ce-ee436968fc28"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-07-07T06:20:30.112665+08:00",
-    "updatedAt": "2026-07-07T06:20:30.112665+08:00"
-  },
-  {
-    "title": "AI自我进化最快多久能实现？",
-    "domainTag": "AI前沿",
-    "consensus": [
-      {
-        "podcast": "硅谷101",
-        "point": "最快半年能跑通一次完整的自我进化闭环",
-        "episodeId": "308f9278-dd48-44d3-a4ce-ee436968fc28"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "递归自我改进正在发生，但解决递归漂移还需2-3年",
-        "episodeId": "6a4931143fb7233cbf43be47"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-07-07T06:20:30.112665+08:00",
-    "updatedAt": "2026-07-07T06:20:30.112665+08:00"
   }
 ]

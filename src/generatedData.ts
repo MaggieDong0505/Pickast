@@ -8,8 +8,8 @@
 import { BriefingCardData } from './types';
 
 export const initialData: BriefingCardData = {
-  "dateStr": "2026.07.28",
-  "chinaDateStr": "星期二 / TUESDAY",
+  "dateStr": "2026.07.29",
+  "chinaDateStr": "星期三 / WEDNESDAY",
   "title": "今天最值得听 • TODAY'S VOICE",
   "issueNo": "精选 3 条",
   "mainEpisode": {
@@ -23,11 +23,11 @@ export const initialData: BriefingCardData = {
     "coverText": "跨国",
     "coverBg": "bg-[#18181B]",
     "coverTextColor": "text-amber-50",
-    "whyRecommended": "适合创业者与独立开发者，DHH用25年经验证明，约束和独立才是打造持久事业的关键。",
+    "whyRecommended": "适合创业者与独立开发者，看DHH如何用反主流策略打造利润丰厚的软件公司。",
     "viewpoints": [
-      "约束激发创造力，无限资源导致糟糕产品。",
+      "约束如何激发创造力，无限资源导致糟糕产品。",
       "通过内容碾压对抗巨头营销预算。",
-      "软件不改反而是种好处，稳定胜过新功能。"
+      "将独立和掌控视为最高追求，拒绝投资人。"
     ],
     "goldenQuotes": [
       {
@@ -41,11 +41,11 @@ export const initialData: BriefingCardData = {
         "source_note": "来自本期 shownote"
       }
     ],
-    "triageTag": "📖值得精听｜DHH 谈独立与约束",
+    "triageTag": "📖值得精听｜DHH反主流商业哲学",
     "href": "cosmos://page.cos/episode/6a67261d56a3f3491ba5b3ce?utm_source=rss",
-    "whyRecommend": "适合创业者与独立开发者，DHH用25年经验证明，约束和独立才是打造持久事业的关键。",
+    "whyRecommend": "适合创业者与独立开发者，看DHH如何用反主流策略打造利润丰厚的软件公司。",
     "goldenQuote": "我们想做爵士乐队，不想做军乐队。",
-    "topicTag": "📖值得精听｜DHH 谈独立与约束"
+    "topicTag": "📖值得精听｜DHH反主流商业哲学"
   },
   "backupEpisodes": [
     {
@@ -59,7 +59,7 @@ export const initialData: BriefingCardData = {
       "coverText": "十分",
       "coverBg": "bg-[#18181B]",
       "coverTextColor": "text-amber-50",
-      "whyRecommended": "适合对光通信产业链和AI基础设施感兴趣的听众，用历史纵深和产业逻辑拆解光模块的爆发原因。",
+      "whyRecommended": "适合对光通信产业链和AI基础设施感兴趣的听众，用百年技术史视角拆解光模块的投资逻辑与产业格局。",
       "viewpoints": [
         "光替代电在短距场景只是时间问题",
         "光模块是AI淘金热中的卖铲子生意",
@@ -72,22 +72,22 @@ export const initialData: BriefingCardData = {
           "source_note": "来自本期 shownote"
         },
         {
-          "quote": "网络带宽本身就成了算力的一部分",
+          "quote": "铜按距离付费，光按端口付费",
           "source": "来自本期 shownote",
           "source_note": "来自本期 shownote"
         },
         {
-          "quote": "铜按距离付费，光按端口付费",
+          "quote": "通信史不是无线取代有线，而是两条路线的百年拉锯",
           "source": "来自本期 shownote",
           "source_note": "来自本期 shownote"
         }
       ],
-      "triageTag": "☕有空再听｜光模块产业链深度拆解",
+      "triageTag": "☕有空再听｜光通信百年史与AI基建",
       "href": "cosmos://page.cos/episode/6a6403f76356eb2d9be7fc38?utm_source=rss",
       "scenario": "",
-      "whyRecommend": "适合对光通信产业链和AI基础设施感兴趣的听众，用历史纵深和产业逻辑拆解光模块的爆发原因。",
+      "whyRecommend": "适合对光通信产业链和AI基础设施感兴趣的听众，用百年技术史视角拆解光模块的投资逻辑与产业格局。",
       "goldenQuote": "光正在替代电：一场底层替代的开始",
-      "topicTag": "☕有空再听｜光模块产业链深度拆解"
+      "topicTag": "☕有空再听｜光通信百年史与AI基建"
     },
     {
       "episodeId": "6a671405a3fec224d5a416be",
@@ -102,7 +102,7 @@ export const initialData: BriefingCardData = {
       "coverTextColor": "text-amber-50",
       "whyRecommended": "适合AI产品经理与创业者，揭秘Anthropic如何在模型未成熟时孵化ClaudeCode等前沿产。",
       "viewpoints": [
-        "Evals正在取代PRD成为AI产品开发的核心文档。",
+        "Evals正在取代PRD成为AI产品开发的核心工具。",
         "产品经理需像打磨像素一样深入理解token细节。",
         "模型与产品是共生关系，前沿产品释放模型魔力。"
       ],
