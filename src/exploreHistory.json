@@ -1,5 +1,63 @@
 [
   {
+    "generatedAt": "2026-07-30T06:06:30.954062+08:00",
+    "title": "AI会让工作消失还是创造更多？",
+    "domainTag": "AI与职场",
+    "podcasts": [
+      "42章经",
+      "整点亮话"
+    ],
+    "episodeIds": [
+      "6a5b98a66356eb2d9be4ad2c",
+      "6a6633eda3fec224d5a3b793"
+    ],
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "整点亮话",
+        "point": "企业招不到人，打工人找不到工作，供需错配",
+        "episodeId": "6a6633eda3fec224d5a3b793"
+      },
+      {
+        "podcast": "42章经",
+        "point": "AI 应用市场冷到谷底，应用创始人处境艰难",
+        "episodeId": "6a5b98a66356eb2d9be4ad2c"
+      }
+    ],
+    "fingerprint": "v1:24b51293921e84ef4183f74732fd27308a038da185d6086382b1097c8c8d3291",
+    "createdAt": "2026-07-30T06:06:30.954062+08:00",
+    "updatedAt": "2026-07-30T06:06:30.954062+08:00"
+  },
+  {
+    "generatedAt": "2026-07-30T06:06:30.954062+08:00",
+    "title": "机器人该先做大脑还是先做本体？",
+    "domainTag": "机器人",
+    "podcasts": [
+      "张小珺Jùn｜商业访谈录",
+      "硅谷101"
+    ],
+    "episodeIds": [
+      "6a5f79b3a3fec224d5a128cd",
+      "fc9a3737-81a9-49cf-a7d6-530c77df836e"
+    ],
+    "consensus": [
+      {
+        "podcast": "张小珺Jùn｜商业访谈录",
+        "point": "机器人大脑开发落后于本体，需要交替上升",
+        "episodeId": "6a5f79b3a3fec224d5a128cd"
+      },
+      {
+        "podcast": "硅谷101",
+        "point": "操作物体比运动控制难2到3个数量级",
+        "episodeId": "fc9a3737-81a9-49cf-a7d6-530c77df836e"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:383947dd8b759199ec9083c63b5a5efd8ca5223a7bbbe5b5fa00f042978e93a5",
+    "createdAt": "2026-07-30T06:06:30.954062+08:00",
+    "updatedAt": "2026-07-30T06:06:30.954062+08:00"
+  },
+  {
     "generatedAt": "2026-07-28T06:13:35.200414+08:00",
     "title": "国产超节点能超越英伟达吗？",
     "domainTag": "AI芯片",
@@ -857,77 +915,6 @@
     ],
     "divergence": [],
     "fingerprint": "v1:e33d493306344b0dd0bda6e9df775ead68dc9ecfe62d6f5492396dbb2dd935a6",
-    "createdAt": "2026-07-08T06:18:25.029570+08:00",
-    "updatedAt": "2026-07-08T06:18:25.029570+08:00"
-  },
-  {
-    "generatedAt": "2026-07-08T06:18:25.029570+08:00",
-    "title": "AI时代如何重新理解财富？",
-    "domainTag": "AI与经济",
-    "podcasts": [
-      "42章经",
-      "硅谷101",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "308f9278-dd48-44d3-a4ce-ee436968fc28",
-      "6a2a808262c3d8534722ac02",
-      "6a3a7f6d9d2f5743683ca27a",
-      "6a44b3d22e335a35a80c491b"
-    ],
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "财富本质是创造持续制造价值的机器",
-        "episodeId": "6a3a7f6d9d2f5743683ca27a"
-      },
-      {
-        "podcast": "42章经",
-        "point": "泡沫无法被事先证明，但可识别信号",
-        "episodeId": "6a2a808262c3d8534722ac02"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "提出好问题比证明定理更重要",
-        "episodeId": "6a44b3d22e335a35a80c491b"
-      },
-      {
-        "podcast": "硅谷101",
-        "point": "让AI像科学家一样提问需要更好的品味",
-        "episodeId": "308f9278-dd48-44d3-a4ce-ee436968fc28"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:4b647987c4d76af5604c200287a5edc4751bc3678810161b479eb4f7ffe842f7",
-    "createdAt": "2026-06-25T06:24:05.044558+08:00",
-    "updatedAt": "2026-07-08T06:18:25.029570+08:00"
-  },
-  {
-    "generatedAt": "2026-07-08T06:18:25.029570+08:00",
-    "title": "AI时代如何做投资决策？",
-    "domainTag": "投资",
-    "podcasts": [
-      "十分吸引",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "6a45d5d72e335a35a80cc2ee",
-      "6a4a188e2e335a35a80e4c2b"
-    ],
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "不看估值，寻找市场尚未定价的信息差",
-        "episodeId": "6a45d5d72e335a35a80cc2ee"
-      },
-      {
-        "podcast": "十分吸引",
-        "point": "按产业链位置配置而非按国别",
-        "episodeId": "6a4a188e2e335a35a80e4c2b"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:2f56e037287117a452ba79594dd1ecf7a3d79e17b13d749c02949647c75df78f",
     "createdAt": "2026-07-08T06:18:25.029570+08:00",
     "updatedAt": "2026-07-08T06:18:25.029570+08:00"
   }

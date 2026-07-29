@@ -8,46 +8,66 @@
 import { BriefingCardData } from './types';
 
 export const initialData: BriefingCardData = {
-  "dateStr": "2026.07.29",
-  "chinaDateStr": "星期三 / WEDNESDAY",
+  "dateStr": "2026.07.30",
+  "chinaDateStr": "星期四 / THURSDAY",
   "title": "今天最值得听 • TODAY'S VOICE",
   "issueNo": "精选 3 条",
   "mainEpisode": {
-    "episodeId": "6a67261d56a3f3491ba5b3ce",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#650. 在没有风投资金的情况下打造软件巨头 | DHH, 37signals",
-    "description": "📝 本期播客简介\n本期我们克隆了：知名播客 David Senra DHH: How to Build a Profitable Company Without Losing Control\n原内容更新时间：2026-07-26\n本期嘉宾是 Ruby on Rails 之父、37signals 联合创始人 David Heinemeier Hansson（DHH），主持人是《Founders》播客的主理人 David Senra。Senra 痴迷于研读历史上最伟大企业家的传记，而 DHH 则是他研究了十五年的一位\"活着的传奇\"。这期节目，是两位 David 之间一场长达两小时的深度对谈，充满了高密度的商业洞察和人生哲学。\nDHH 花了二十五年时间，围绕一个核心理念来构建自己的软件事业：那就是没人能对他指手画脚。从最初以 15 美元时薪、每周仅用 10 小时打造出 Basecamp 的第一版，到如今坐拥每年数千万美元的利润，他始终在对抗行业的主流叙事。在这期对话中，他毫无保留地分享了约束如何激发创造力、为什么他\"不信任\"拥有无限资源的自己、如何通过\"内容碾压\"来对抗巨头的营销预算，以及他为何将最终的自由定义为\"连客户都不需要拥有\"。\n👨‍⚕️ 本期嘉宾\nDavid Heinemeier Hansson（DHH），著名 Web 开发框架 Ruby on Rails 的创造者，37signals 的联合创始人兼 CTO。37signals 是一家极度注重利润和独立的软件公司，旗下拥有 Basecamp、HEY 等知名产品。DHH 是一位典型的\"建造者\"，他不仅是顶尖的程序员，还对商业策略、组织文化、产品美学有着极其独特且坚定的见解。他常年通过写作和博客分享其反主流的商业理念，影响了全球无数开发者和创业者。\n⏱️ 时间戳\n约束与简洁：为什么\"更少\"才是真正的力量\n01:23 对简洁的自我怀疑与《Getting Real》的写作哲学\n03:52 无情的删减：如何将\"更少的软件\"理念应用到产品上\n04:42 AI 时代坚持简洁为何更难：当构建成本趋近于零\n08:07 不信任自己：无限资源必然导致糟糕的产品\n独立与掌控：打造一个没人能指手画脚的事业\n08:52 为什么不担心微软：大公司的诅咒是无限的资源\n13:52 对风险投资的怀疑：巨额融资如何毁掉好软件\n14:50 软件不改反而是种好处：打印机哲学与 Basecamp 的版本策略\n20:40 对\"成品软件\"的欣赏：为什么不能先欣赏你手上已有的东西？\n建造者的孤独：内向、远程与深度工作\n22:48 独处的时间与内向者的能量来源\n24:56 对开放式办公室的根深蒂固的厌恶\n25:59 建造者模式 vs 管理者模式：心流需要大段不被打扰的时间\n27:32 极简的工作环境：连杂乱都会吸走你的注意力\nAI 时代的转型：从怀疑到拥抱\n30:58 托比亚斯·吕特克如何影响了他对 AI 的思考\n31:37 AI 自动补全是开放式办公室的超级加强版\n34:54 被托比\"引诱\"去深入钻研 AI 并改变看法\n36:10 Shopify 如何用 AI 领先世界：内部工具比商业产品更好\n痴迷与分享：从 Ruby on Rails 到 Omarchy\n38:31 从 Mac 死忠到全身心投入 Linux 的转变\n40:10 发现 r/UNIXporn：一个波兰小孩如何秒杀苹果\n44:14 Hyprland 的魔力：完全用键盘操控电脑的快感\n53:00 Omarchy 的含义：主厨精选、Arch Linux 与 Hyprland 的融合\n资本主义、利润与庆祝成功\n01:14:31 资本主义是有效的：赚钱的方式很重要\n01:15:47 展示成功的义务：为什么你应该买一辆法拉利\n01:19:50 生活方式企业：我既有企业，又有生活方式，你有什么？\n01:23:06 安德鲁·卡内基的信条：省下来的每一分钱都是永久的\n危机、文化与\"觉醒主义\"的对抗\n01:27:41 杰夫·贝佐斯如何给了他放手一搏的信心\n01:34:38 2021 年的公司文化大爆发与艰难决定\n01:37:58 马克·安德森在至暗时刻的慷慨相助\n01:40:46 理解\"觉醒文化\"的历史：一场跨越几十年的文明之战\n🌟 精彩内容\n💡 \"我们想做爵士乐队，不想做军乐队\"\nDHH 用\"爵士乐队\"形容理想的组织状态：不是没有结构，而是在结构中允许即兴、协作和个人发挥。AI 时代变化太快，传统计划与层级不足以应对每周都在变的技术环境。\n\"我们想做爵士乐队，不想做军乐队。\"\n💡 无限资源是一种诅咒\nDHH 坦言他不信任拥有无限资源的自己，因为那必然会造出\"四不像\"。他以乔治·卢卡斯为例，指出《星球大战》在技术受限时是杰作，而有了无限预算后却搞出了加·加·宾克斯。约束，才是创造力的真正源泉。\n\"如果你有无限的时间、无限的钱和无限的人，你肯定会造出一个四不像。\"\n💡 软件不改反而是种好处\n他分享了自己的\"打印机哲学\"：一台插上就能用、十年都不需要改变的黑白打印机，完美地解决了他的问题。Basecamp 的很多客户也正是这样使用产品的，他们不想要新功能，只希望自己已经学会的工具能一直稳定运行。\n\"我不想要不一样的东西，我就想要我现在用的这个破玩意儿，因为我知道它所有的问题在哪，而且我已经接受了。\"\n💡 最好的营销是在教育上超越你的竞争对手\n面对微软这样的巨头，37signals 的策略不是砸钱投广告，而是通过博客、书籍和开源软件，分享更有价值的见解，用内容建立信任和互惠关系。这个想法来自 Kathy Sierra，它成就了整个 37signals。\n\"我们不可能在营销活动上砸钱超过他们。那永远不可能发生。但我们可以在内容上碾压他们。\"\n💡 我拼命工作，就是为了没人能对我指手画脚\nDHH 将独立和掌控视为人生的最高追求。他不仅拒绝投资人，甚至将\"没有客户\"视为比\"财务自由\"更高一层的境界。在开源项目中，他与志同道合者协作，没有任何商业义务，这是一种纯粹的创造乐趣。\n\"那根神经就是，我拼命工作，不只是在生活中，在生意上也是，就是为了获得近乎完全的独立，这样没人能对我指手画脚。\"\n💡 你有义务去庆祝成功\nDHH 认为，通过提供好产品赚到钱的人，有道德义务去消费，去购买那些美好的东西，比如法拉利。这不仅是对自己努力的奖赏，也是让资金回流到系统里，支持那些制造美好事物的工匠。\n\"如果你做得非常好，你就有道德义务去买一辆法拉利，或者兰博基尼，或者帕加尼……我们就是这样才能拥有好东西的。\"\n💡 利润和价格是周期性的，但省下来的成本是永久的\n他极度痴迷于削减成本，并引用了安德鲁·卡内基的信条。对他而言，控制成本就像打磨产品一样，是一种审美上的追求。一家高效、精干的企业，本身就是一件值得欣赏的艺术品。\n\"利润和价格是周期性的，会受到市场上各种短暂因素的影响。然而，成本是可以被严格控制的，任何在商品成本上省下来的钱，都是永久的。\"\n🌐 播客信息补充\n本播客采用原有人声声线进行播客音频制作，也可能会有一些地方听起来怪怪的\n使用 AI 进行翻译，因此可能会有一些地方不通顺；\n如果有后续想要听中文版的其他外文播客，也欢迎联系微信：iEvenight\n\n在小宇宙查看该单集文稿",
-    "publishedAt": "2026-07-27T09:39:38+00:00",
-    "rssUrl": "https://feed.xyzfm.space/r8t44lmvu99m",
-    "coverImageUrl": "https://image.xyzcdn.net/FgPi3C76e0yvQlUYo8TDbk1GTgp8.png",
-    "coverText": "跨国",
+    "episodeId": "6a69b3d456a3f3491ba6d65d",
+    "podcastName": "碳基生物生存指南",
+    "episodeTitle": "E33 我们为什么总是如此疲惫",
+    "description": "我们好像总是很累。身体提不上劲，心理也没有动力，感觉活着本身，就已经很累了。\n这样低精力也总是跟没有目标、没有动力、倦怠、畏难绑在一起，好像谁都不想被贴上这个标签。但高精力就一定好吗？他们似乎从来感觉不到累，但会不会当真的垮下来的时候，才发现其实一直在透支。\n所以，精力到底是什么，为什么日常生活就让人如此疲惫？精力真的是天生的吗？低精力的人，真的可以获得世俗意义上的成功吗？如果想要提升精力，除了人人都知道的睡好吃好运动好，还有其他解法吗？\n本期节目就想在这个话题上，对疲惫和精力，做一次更底层的拆解。希望能帮你在信息繁杂的方法论之外，真正了解精力，了解疲惫。从原理和数据入手，我们也终于可以回答：那些看起来精力充沛的“高精力人群”和似乎总容易疲惫的“低精力人群”，到底有没有优劣之分。\n【时间轴】\n05:03 计算每日卡路里消耗时，你会忽视什么\n09:37 为啥我喝水都胖、哪怕吃了很多也懒得动 - 也许是因为你对能量的敏感性不够\n17:20 心理疲惫从何而来 - 人与人间的动机响应敏感性差异\n19:30 衡量疲惫时的主观感受和客观指标，到底哪个更可靠？\n22:42 该如何正确看待智能设备的数据焦虑\n23:49 关于疲惫的客观指标：运动表现，静息心率，心率变异性\n28:20 主观疲惫的不同分类测量\n31:36 恢复和休息本身，就是进步的一部分\n38:28 做自己感兴趣的事情还能拿到钱，怎么反而越做越没劲\n44:34 钱，怎么会没用呢..？\n48:11 你的动力来源 - 基本心理需求：胜任感，归属感，自主性\n49:35 为什么有些事儿你超有动力做，几乎让人上瘾？\n54:32 胜任感，归属感，自主性如何帮我们在生活中找回动力\n58:07 我们该谈钱，但不能只谈钱\n59:58 高精力 vs 低精力，到底谁好谁坏呢？\n62:07 低精力人群，也可以获得世俗意义上的成功；而高精力人群，也有需要注意的风险点\n本期节目特别感谢 Eight Sleep 赞助播出。 Eight Sleep 智能温控床套搭配 AI 睡眠系统，为你动态调温，优化睡眠质量，帮助你在理解疲惫之外，能更好地从疲惫中恢复过来。🎁 碳基生物生存指南的听众可领取1000元的专属优惠券～ 听友们在天猫/京东/Eight Sleep小程序商城，联系客服，报出【碳基生物生存指南】暗号，就可以领取～\n天猫优惠券点击这里领取 👈\n京东优惠券点击这里领取 👈\n📃 本期播客提到的文献素材传送门：\n第一部分 身体和心理的精力输出，比你想得要复杂得多\nNEAT 在每日能量消耗的占比： https://journals.physiology.org/doi/full/10.1152/ajpendo.00562.2003 ：“EAT is therefore the most variable component of energy expenditure, both within and between subjects, ranging from ∼15% of total daily energy expenditure in very sedentary individuals to 50% or more of total daily energy expenditure in highly active individuals”\n活动不足人群比例： https://pmc.ncbi.nlm.nih.gov/articles/PMC10351178/ ：“From 2010 to 2018, the age-adjusted prevalence of insufficient PA in China increased from 17.9% (95% confidence interval 16.3% to 19.5%) in 2010 to 22.3% (20.9% to 23.8%) in 2018 (P for trend https://www.ncbi.nlm.nih.gov/books/NBK279077/ ：“For the majority of subjects in industrialized countries, exercise is believed to be negligible.\n不同人每天1000大卡的能量摄入实验： https://pubmed.ncbi.nlm.nih.gov/9880251/\nNEAT 激活者与 NEAT 保存者： https://www.mayoclinicproceedings.org/article/S0025-6196(15)00123-8/fulltext：“NEAT activators are those animals with a copious and robust NEAT signal, and NEAT conservers have a blunted response to NEAT signals and expend lower levels of energy, resulting in obesity.”\nNEAT 遗传水平，测量的是体力活动水平，不是直接测量NEAT敏感度。但这两者方向上是一致的： https://journals.physiology.org/doi/full/10.1152/ajpendo.00562.2003 ：“On the basis of twin and family studies, the heritability for physical activity level is estimated to be between 29 and 62%.”\n影响 NEAT 敏感性的非基因因素： https://www.mayoclinicproceedings.org/article/S0025-6196(15)00123-8/fulltext ：“The genetic regulation of NEAT is possibly influenced by multiple neuromediators located in the hypothalamus, including orexin, neuromedin U, ghrelin, and the agouti gene–related protein. This, plus the conditioning of the environment to different levels of physical activity and the behavioral factors that we learned from our main educators, will determine an individual to be a NEAT activator or a NEAT conserver, predisposing us to spend more time either sitting or moving. ”\n所有人格特质的可遗传性元分析： https://pubmed.ncbi.nlm.nih.gov/25961374/\n生理 vs 心理，疲劳 vs 精力互相独立却也互相影响： https://www.tandfonline.com/doi/full/10.1080/21641846.2019.1573790 ：”Trait physical and mental fatigue were moderately correlated (r = .59, p 睡眠客观数据与主观感受并不匹配： https://pubmed.ncbi.nlm.nih.gov/27889439/ ：“Thirty-eight sleep, demographic and clinical correlates of sleep quality were considered. Together, these multivariable models explained only 11-17% of the variance in predicting subjective sleep quality.“ , “Overall, the commonly obtained measures of polysomnographically-defined sleep contributed little to subjective ratings of prior-night sleep quality.” 以及反例： https://academic.oup.com/sleep/article-abstract/26/2/117/2709164 ：“ Sleepiness ratings suggest that subjects were largely unaware of these increasing cognitive deficits, which may explain why the impact of chronic sleep restriction on waking cognitive functions is often assumed to be benign.”\n主观疲惫水平会影响运动表现，但不是通过客观指标： https://journals.physiology.org/doi/full/10.1152/japplphysiol.91324.2008 ：“This negative effect was not mediated by cardiorespiratory and musculoenergetic factors as physiological responses to intense exercise remained largely unaffected.”\n第二部分 疲惫，能被准确测量和预判吗\n职业运动员客观测量指标： https://www.thieme-connect.com/products/ejournals/html/10.1055/a-2433-3930\nHRV 高还是低好？该如何关注？（7 天均值测量） https://pmc.ncbi.nlm.nih.gov/articles/PMC11204851/：“A high HRV relative to baseline represents a healthy, flexible autonomic system and improved adaptability and recovery in response to a changing environment or stressor, such as travel or exercise.”，“valuating rolling 7-day averages of an individual’s HRV compared to daily values may provide a more meaningful context on HRV changes and overtraining compared to daily measurements or population norms.”\n长期训练导致静息心率降低的具体机制： https://pubmed.ncbi.nlm.nih.gov/24825544/ ：“Endurance athletes exhibit sinus bradycardia, that is a slow resting heart rate, associated with a higher incidence of sinus node (pacemaker) disease and electronic pacemaker implantation.”\n运动表现的客观变化是过度训练： https://pmc.ncbi.nlm.nih.gov/articles/PMC9460078/ ：“Functional overreaching is defined as a short-term decrease in performance (usually up to 2 weeks) followed by a supercompensation effect (adaptive improvement in performance). In cases where the performance decrement is of a slightly longer duration (usually up to 3-4 weeks) and not followed by supercompensation, the term nonfunctional overreaching is used. Finally, if reduced performance capacity lasts for more than 3 to 4 weeks and is followed by neither supercompensation nor improved athletic performance, the athlete is likely experiencing an overtraining syndrome (OTS).”\n运动员倦怠程度评估： https://pubmed.ncbi.nlm.nih.gov/28682196/ ， 在线问卷： https://psytests.org/sport/abqen.html\n通用的倦怠程度评估问卷： https://onlinelibrary.wiley.com/doi/pdf/10.1002/job.4030020205 ， 在线问卷： https://www.mindgarden.com/117-maslach-burnout-inventory-mbi\n第三部分 自我决定理论\n奖励，会削弱自主性： https://selfdeterminationtheory.org/SDT/documents/1983_RyanMimsKoestner.pdf：“Rewards in general appear to have a controlling significance to some extent and thus in general run the risk of undermining intrinsic motivation.“\n移除奖励后动力减弱（MRI 研究）： https://www.pnas.org/doi/full/10.1073/pnas.1013305107 ：“The strong incentive value of monetary reward pushed down the intrinsic value of task success. As a result, when the monetary reward was no longer promised, the intrinsic task value was underestimated, resulting in decreased motivation relative to the control group.”\n关于奖励削弱动力的系统性综述： https://psycnet.apa.org/doiLanding?doi=10.1037%2F0033-2909.125.6.627 ：“As predicted, engagement-contingent, completion-contingent, and performance-contingent rewards significantly undermined free-choice intrinsic motivation (d = –0.40, –0.36, and –0.28, respectively), as did all rewards, all tangible rewards, and all expected rewards.”\n自我决定论 - 胜任感，链接感，自主性决定动力： https://selfdeterminationtheory.org/SDT/documents/2000_RyanDeci_SDT.pdf\n胜任感，链接感，自主性能预测玩家是否持续玩游戏： https://selfdeterminationtheory.org/SDT/documents/2006_RyanRigbyPrzybylski_MandE.pdf ：“Results show that SDT’s theorized needs for autonomy, competence, and relatedness independently predict enjoyment and future game play.“\n需求密度假说 - 最容易沉迷于电子游戏的孩子，是在日常生活中得不到胜任感，链接感，自主性满足的孩子： https://www.sciencedirect.com/science/article/abs/pii/S074756321830092X ：“As expected, we found strong support for the need-density hypothesis in terms of need satisfaction.”\n生活幸福感直接影响线粒体效能： https://pubmed.ncbi.nlm.nih.gov/38889126/ ：“By combining longitudinal antemortem assessments of psychosocial factors with postmortem brain (dorsolateral prefrontal cortex) proteomics in older adults, we find that higher well-being is linked to greater abundance of the mitochondrial OxPhos machinery, whereas higher negative mood is linked to lower OxPhos protein content. Combined, positive and negative psychosocial factors explained 18 to 25% of the variance in the abundance of OxPhos complex I, the primary biochemical entry point that energizes brain mitochondria.”\n第四部分 低精力人 vs 高精力人？\n同一个人一天内疲劳感的变化大于人与人之间的区别： https://pmc.ncbi.nlm.nih.gov/articles/PMC9124457/ ：“The majority of the variance for relaxation, satisfaction, insecurity, anxiousness, irritation, feeling down, fatigue, dizziness, intention, and self-efficacy is explained by the within subjects and within days variance (42.9% to 65.8%).”\n外向型 vs 内向型领导优劣势对比： https://psycnet.apa.org/record/2011-15936-006 ：“Extraversion predicts leadership emergence and effectiveness, but do groups perform more effectively under extraverted leadership? Drawing on dominance complementarity theory, we propose that although extraverted leadership enhances group performance when employees are passive, this effect reverses when employees are proactive, because extraverted leaders are less receptive to proactivity.”\n尽责性最能预测职业成功： https://www.sciencedirect.com/science/article/pii/S2352250X25000673 ：“Conscientiousness is the strongest predictor across performance outcomes.” https://www.sciencedirect.com/science/article/abs/pii/S0092656619300753 ：“A general conclusion from this literature is that conscientiousness is the strongest predictor of job performance among FFM traits for most jobs.”\n拓展资料\n现在越来越多的研究指出，疲劳和精力的驱动来源并不一致，背后的生理机制也不尽相同。研究者Loy等人（2013、2018）发现，主观精力感与多巴胺水平相关，而主观疲惫感则与血清素升高、组胺下降和炎症细胞因子升高相关，是两条独立的神经化学通路。在身体层面，客观疲惫的核心机制是肌肉代谢产物的积累（糖原耗竭、乳酸、无机磷酸盐），而客观身体精力的生物学基础更接近线粒体的ATP产能效率。这意味着：不管是身体还是心理层面，你都可以在很累的同时，仍然很有精力，两者不是一根轴上的两端，而是可以独立变化的两个维度。这一点在Boolani & Manierre（2019）的研究数据里得到了验证。本期播客没有详细探讨这个区分，如果你感兴趣，可以参考以下研究：\nLoy, Bryan D., Patrick J. O'Connor, and Rodney K. Dishman. \"The effect of a single bout of exercise on energy and fatigue states: a systematic review and meta-analysis.\" Fatigue: Biomedicine, Health & Behavior1.4 (2013): 223-242. https://www.tandfonline.com/doi/full/10.1080/21641846.2013.843266\nLoy, Bryan D., Michelle H. Cameron, and Patrick J. O'Connor. \"Perceived fatigue and energy are independent unipolar states: Supporting evidence.\" Medical Hypotheses 113 (2018): 46-51. https://pmc.ncbi.nlm.nih.gov/articles/PMC5846196/\nBoolani, Ali, and Matt Manierre. \"An exploratory multivariate study examining correlates of trait mental and physical fatigue and energy.\" Fatigue: Biomedicine, Health & Behavior 7.1 (2019): 29-40. https://www.tandfonline.com/doi/full/10.1080/21641846.2019.1573790\n饮食方案会影响活力水平，与低血糖负荷饮食相比，高血糖负荷饮食与更高的抑郁症状、总体情绪紊乱和疲劳感相关，尤其是在超重/肥胖但其他方面健康的成年人中： https://pmc.ncbi.nlm.nih.gov/articles/PMC5154680/ ：“In conclusion, a high-glycemic load diet was associated with higher depression symptoms, total mood disturbance, and fatigue compared to a low-glycemic load diet especially in overweight/obese, but otherwise healthy, adults.”\n大脑耗能变化 - 虽然大脑仅占体重的2%，但它却消耗了人体20%的静息代谢。但同时，目标导向认知活动的代谢成本仅比静息神经活动和体内平衡的持续成本高出5%（每日能量总代谢变化量的1%。也就是说，你苦思冥想和躺着放松，脑部消耗的卡路里变化极小，但你却能感觉到真实的疲惫。因此，心理疲惫与卡路里消耗是相关，但独立的。”： https://www.sciencedirect.com/science/article/abs/pii/S136466132400319X ：“Although it accounts for only 2% of body weight, the human brain accounts for 20% of its resting metabolism, more than tenfold the amount expected based on its weight.”, “The metabolic costs of goal-directed cognition are only 5% greater than the ongoing costs of resting neural activity and homeostasis.”\n周末效应 - 用自我决定理论来解释为什么周末的人类，都会更开心： https://selfdeterminationtheory.org/SDT/documents/2010_RyanBernsteinBrown_Weekends_JSCP.pdf ：“Results supported these hypotheses, showing that for both male and female workers, weekend and nonwork activities were associated with several indicators of well-being, and these relations were partially or fully mediated by basic psychological need satisfaction.“\n本期音乐：Epidemic Sound，Pixabay（免版权音乐库）Tired by Mindme，Sunset Chill Nature by Finley chill\n封面设计特别感谢：wow lab\n小红书账号：梦妮爱读文献 （ID：4196506308）\n\n在小宇宙查看该单集文稿",
+    "publishedAt": "2026-07-29T12:30:00+00:00",
+    "rssUrl": "https://feed.xyzfm.space/wyedwp8eyy3q",
+    "coverImageUrl": "https://image.xyzcdn.net/FlBtHuFQUyCiPF2d2vyThwBwEZKA.PNG",
+    "coverText": "碳基",
     "coverBg": "bg-[#18181B]",
     "coverTextColor": "text-amber-50",
-    "whyRecommended": "适合创业者与独立开发者，看DHH如何用反主流策略打造利润丰厚的软件公司。",
+    "whyRecommended": "适合总感觉疲惫、想从底层理解精力机制的听众，用科学数据拆解疲惫真相，而非鸡汤方法论。",
     "viewpoints": [
-      "约束如何激发创造力，无限资源导致糟糕产品。",
-      "通过内容碾压对抗巨头营销预算。",
-      "将独立和掌控视为最高追求，拒绝投资人。"
+      "NEAT影响能量消耗，个体差异大且可遗传。",
+      "主观疲惫与客观指标常不匹配，需综合评估。",
+      "基本心理需求（胜任、归属、自主）是动力来源。"
     ],
-    "goldenQuotes": [
-      {
-        "quote": "我们想做爵士乐队，不想做军乐队。",
-        "source": "来自本期 shownote",
-        "source_note": "来自本期 shownote"
-      },
-      {
-        "quote": "如果你有无限的时间、无限的钱和无限的人，你肯定会造出一个四不像。",
-        "source": "来自本期 shownote",
-        "source_note": "来自本期 shownote"
-      }
-    ],
-    "triageTag": "📖值得精听｜DHH反主流商业哲学",
-    "href": "cosmos://page.cos/episode/6a67261d56a3f3491ba5b3ce?utm_source=rss",
-    "whyRecommend": "适合创业者与独立开发者，看DHH如何用反主流策略打造利润丰厚的软件公司。",
-    "goldenQuote": "我们想做爵士乐队，不想做军乐队。",
-    "topicTag": "📖值得精听｜DHH反主流商业哲学"
+    "goldenQuotes": [],
+    "triageTag": "📖值得精听｜精力底层拆解+科学数据",
+    "href": "cosmos://page.cos/episode/6a69b3d456a3f3491ba6d65d?utm_source=rss",
+    "whyRecommend": "适合总感觉疲惫、想从底层理解精力机制的听众，用科学数据拆解疲惫真相，而非鸡汤方法论。",
+    "goldenQuote": "适合总感觉疲惫、想从底层理解精力机制的听众，用科学数据拆解疲惫真相，而非鸡汤方法论。",
+    "topicTag": "📖值得精听｜精力底层拆解+科学数据"
   },
   "backupEpisodes": [
+    {
+      "episodeId": "6a68ca8b56a3f3491ba67f4b",
+      "podcastName": "贝望录",
+      "episodeTitle": "东观西望丨12. 从日本的长寿社会到英国的灰色英镑，聊聊银发经济如何成为下一个商业机会",
+      "description": "随着全球人口结构变化，“变老”正在成为21世纪最重要的社会议题之一。本期「东观西望」节目聚焦英国、日本两大老龄化社会，从退休制度、养老保障、独居生活，到银发消费与产业机会展开深度对照。两位主播结合自身在英国、日本生活的观察，聊到两个国家如何面对越来越多的老年人口：英国通过国家养老金、企业养老金和个人储蓄构建养老体系，日本则依靠年金制度、介护保险以及不断延长老年人的工作年限，应对超高龄社会带来的挑战。 老龄化不仅改变了家庭结构，也正在重新定义消费市场。退休之后的人们如何生活？英国老人可能选择旅行、园艺、志愿服务或继续工作；日本老人则更倾向于城市居住、兴趣学习、健康管理和社交活动。 从健康管理、旅游、财富规划，到居家改造、照护服务和生前规划，银发族正在成为不可忽视的消费力量。日本60岁以上人群掌握大量金融资产，英国也形成了围绕“灰色英镑”的成熟市场。当中国也逐渐进入老龄化社会，这些已经提前进入“银发时代”的国家经验，或许能帮我们理解，老龄人群也依然是商业社会重要的消费人群之一。\n【本节目由Withinlink碚曦投资协作体出品】\n【主播】\n李倩玲 Bessie Lee\n广告营销行业资深从业者，商业观察者\n蒋美兰 Milan\n前数字营销公司「费芮互动」创始人、前电通集团合伙人，现定居日本的零售科技观察者\n播客「商业茶泡饭」主播\n \n播客「商业茶泡饭」\n这是一档从日本日常出发的商业观察播客。不讲宏大的财经叙事，而是借一个个真实的品牌、消费与生活故事，看见商业背后的逻辑。\n主播：\nMilan蒋美兰：品牌&零售专家，曾打造4亿粉丝自媒体矩阵，长期关注品牌、零售与消费。现居日本，以商业视角观察日本社会与市场。\nJean羽生：35年+中日零售行业实践者，现任国际零售集团执行副总裁\nBessie李倩玲：广告营销行业资深从业者，商业观察者，播客「贝望录」主理人\n【本期内容提要】\n[05:10] 为什么聊银发经济？让我们从英国、日本两个老龄化社会来看看未来的生活方式\n[06:30] 英国、日本银发社会的冷知识分享\n[12:57] 退休制度比较：英国、日本如何面对“工作到老”？\n[16:32] 退休金够养老吗？国家保障之外，个人应该如何准备未来\n[22:27] 老年福利体系比较：医疗、交通、照护政策如何影响老人生活\n[29:40] 独居老人时代：日本“孤独死”与英国独立养老文化\n[35:14] 谁来照顾越来越多的老人？英日两国共同面对的照护人力危机\n[43:16] 退休之后的人生：旅行、兴趣、志愿服务与再就业\n[50:18] 银发消费正在崛起，尤其是旅游、健康、金融、住宅改造五大产业充满新的机会\n[56:52] 日本银发商业观察：如何设计“不像老人用品”的老人产品\n[01:05:15] 大龄网红现象的观察\n[01:10:55] 让我们从英日经验看看中国未来的银发经济机会\n【后期制作】\nJean\n【收听方式】\n推荐您使用Apple Podcast、小宇宙APP、喜马拉雅FM、网易云音乐、QQ音乐、荔枝播客、Spotify或任意泛用型播客客户端订阅收听「贝望录」。\n【互动方式】\n微博：@贝望录\n微信公众号：贝望录+\n商务合作：beiwanglu@withinlink.com",
+      "publishedAt": "2026-07-29T00:00:00+00:00",
+      "rssUrl": "https://feed.xyzfm.space/n67ujl39p8xq",
+      "coverImageUrl": "https://image.xyzcdn.net/FpiVgwCqhxGCiM9IY4DhEItbP1jR.jpg",
+      "coverText": "贝望",
+      "coverBg": "bg-[#18181B]",
+      "coverTextColor": "text-amber-50",
+      "whyRecommended": "适合关注老龄化与商业机会的听众，从英日经验看银发经济如何成为下一个风口。",
+      "viewpoints": [
+        "英国与日本退休制度与养老保障对比",
+        "银发消费在旅游、健康、金融等五大产业崛起",
+        "日本银发产品设计如何避免“老人味”"
+      ],
+      "goldenQuotes": [
+        {
+          "quote": "日本60岁以上人群掌握大量金融资产，英国也形成了围绕“灰色英镑”的成熟市场。",
+          "source": "来自本期 shownote",
+          "source_note": "来自本期 shownote"
+        }
+      ],
+      "triageTag": "☕有空再听｜英日银发经济深度对比",
+      "href": "cosmos://page.cos/episode/6a68ca8b56a3f3491ba67f4b?utm_source=rss",
+      "scenario": "",
+      "whyRecommend": "适合关注老龄化与商业机会的听众，从英日经验看银发经济如何成为下一个风口。",
+      "goldenQuote": "日本60岁以上人群掌握大量金融资产，英国也形成了围绕“灰色英镑”的成熟市场。",
+      "topicTag": "☕有空再听｜英日银发经济深度对比"
+    },
     {
       "episodeId": "6a6403f76356eb2d9be7fc38",
       "podcastName": "十分吸引",
@@ -59,11 +79,11 @@ export const initialData: BriefingCardData = {
       "coverText": "十分",
       "coverBg": "bg-[#18181B]",
       "coverTextColor": "text-amber-50",
-      "whyRecommended": "适合对光通信产业链和AI基础设施感兴趣的听众，用百年技术史视角拆解光模块的投资逻辑与产业格局。",
+      "whyRecommended": "硬核拆解光通信产业链，从资本、产业到战略全景，适合想理解AI基础设施逻辑的听众。",
       "viewpoints": [
-        "光替代电在短距场景只是时间问题",
-        "光模块是AI淘金热中的卖铲子生意",
-        "中国光通信从下游向上游逆向攀登"
+        "光替代电是底层趋势，AI需求加速迭代。",
+        "光模块是AI淘金热中的卖铲子生意。",
+        "中国光通信从下游向上游逆向攀登。"
       ],
       "goldenQuotes": [
         {
@@ -72,63 +92,17 @@ export const initialData: BriefingCardData = {
           "source_note": "来自本期 shownote"
         },
         {
-          "quote": "铜按距离付费，光按端口付费",
-          "source": "来自本期 shownote",
-          "source_note": "来自本期 shownote"
-        },
-        {
-          "quote": "通信史不是无线取代有线，而是两条路线的百年拉锯",
+          "quote": "光模块的本质是做光电转化，收发一体，站在电和光的每一个交界处。",
           "source": "来自本期 shownote",
           "source_note": "来自本期 shownote"
         }
       ],
-      "triageTag": "☕有空再听｜光通信百年史与AI基建",
+      "triageTag": "📖值得精听｜光通信产业链深度拆解",
       "href": "cosmos://page.cos/episode/6a6403f76356eb2d9be7fc38?utm_source=rss",
       "scenario": "",
-      "whyRecommend": "适合对光通信产业链和AI基础设施感兴趣的听众，用百年技术史视角拆解光模块的投资逻辑与产业格局。",
+      "whyRecommend": "硬核拆解光通信产业链，从资本、产业到战略全景，适合想理解AI基础设施逻辑的听众。",
       "goldenQuote": "光正在替代电：一场底层替代的开始",
-      "topicTag": "☕有空再听｜光通信百年史与AI基建"
-    },
-    {
-      "episodeId": "6a671405a3fec224d5a416be",
-      "podcastName": "跨国串门儿计划",
-      "episodeTitle": "#649. Anthropic 技术产品经理：为什么最优秀的产品领导者正在为 2028 年布局",
-      "description": "📝 本期播客简介\n本期我们克隆了：知名播客 Lenny's Podcast How Anthropic builds products like Claude Code before the AI models are ready | Dianne Penn\n原内容更新时间：2026-07-26\n本期嘉宾是Anthropic公司AI研究与实验室团队的产品负责人Dianne Penn。她三年多前作为公司第一位技术产品经理加入，当时整个产品团队只有五名工程师，如今她已深度参与了从Claude 2到Fable的每一款模型发布，并帮助孵化了Claude Code、MCP、Skills、computer use等核心产品。\n这期节目由知名产品人Lenny Rachitsky主持，两人围绕一个核心问题展开深度对谈：Anthropic如何在模型能力尚未完全成熟时，就提前孵化出前沿产品？Dianne分享了从早期只有一名API工程师的创业状态，到如今模型能力指数级爆发的全过程，以及产品经理这个角色在AI时代正在发生的深刻变化——评估（evals）正在取代产品需求文档（PRD），产品人得像打磨像素一样去琢磨token。\n如果你正在思考AI时代的产品策略、组织形态、产品经理角色的进化，或者好奇站在AI研究最前沿的人如何工作和思考，这期节目会提供大量一手经验和高密度判断。\n👨‍⚕️ 本期嘉宾\nDianne Penn，Anthropic公司AI研究与实验室团队的产品负责人。她于2023年加入Anthropic，是公司第一位技术产品经理，当时产品团队仅有五名工程师。从Claude 2到Fable，Anthropic的每一款模型发布都有她的深度参与，她还帮助孵化了Claude Code、MCP、Skills、Claude Design，以及computer use、tool use和reasoning等核心能力。在加入Anthropic之前，她曾在亚马逊参与构建Alexa的AI能力，更早之前则在摩根大通担任高收益债券交易员。她是一位深度的产品思考者，也是AI产品管理领域最具实践洞察力的人之一。\n⏱️ 时间戳\nAnthropic的早期岁月与关键转折点\n01:20 2023年刚加入时，没人把Anthropic和编程联系在一起\n04:00 早期Anthropic：只有五名工程师，一名API工程师\n05:53 隐藏的转折点：Golden Gate Claude的24小时实验\n09:46 Opus 3：在父母家里训练出的信任基础\n11:08 意识到编程是核心差异化\n模型与产品的共生关系\n12:28 Opus 4.5与Claude Code：模型和产品互相成就\n14:24 身处指数级增长曲线内部是什么体验\n16:47 缩放定律中的涌现能力：模型会突然学会新技能\n18:31 每年花10万美元在token上，你过的是2028年的生活\n实验室如何孵化非连续的大赌注\n21:26 实验室是什么？识别非连续的大赌注\n23:14 小团队文化：从零到一实验需要特定性格的人\n24:37 研究员的一天：宏大愿景与贴近细节并存\n30:19 假设Claude 8出来了，用户行为会怎么变？\n产品经理这个角色正在发生什么变化\n35:00 招PM时最看重什么？第一性原理思考\n36:28 evals就是新的产品需求文档\n37:43 像打磨像素一样去琢磨token\n44:19 管理者必须亲自动手，否则做不好决策\n如何与AI共存而不被吞噬\n46:38 怎么在AI中找到乐趣？实验不是一个人的运动\n50:59 用Claude成为更好的管理者和教练\n53:07 会担心“脑腐”和过度依赖AI吗？\n55:54 为什么重视对齐和安全反而让Claude更有趣？\n人类大脑的独特价值与未来\n01:02:11 人类大脑在哪些方面会持续最有价值？\n01:03:55 你会鼓励孩子学什么？培养内心的声音\n01:06:01 如何避免burnout？进入集体心流\n01:11:32 我们还需要产品经理吗？更需要了\n🌟 精彩内容\n💡 “evals就是新的产品需求文档”\n在AI产品开发中，传统的PRD正在被评估集取代。因为要交付用户价值，关键不在于写一份漂亮的文档，而在于找到正确的用户反馈，将其转化为可衡量、可复现的评估标准，让研究员能直接据此改进模型。\n“我们团队里其实有句话叫evals就是新的产品需求文档。”\n💡 “你得像打磨像素一样去琢磨token”\n过去做用户研究是看用户流程中的每一个像素，现在做AI产品则需要深入阅读对话记录，理解每一个失败的轨迹，判断是幻觉、过度自信还是工具调用失败。这种颗粒度的细节理解，是做出好产品的唯一路径。\n“你得像抠像素一样去抠token。”\n💡 模型和产品是共生关系，缺一不可\nOpus 4.5的成功不是因为模型本身有多强，而是因为有Claude Code这个出色的产品载体。反过来，没有Opus 4.5的智能水平，Claude Code也不会那么快被广泛采用。前沿模型需要前沿产品才能释放魔力。\n“没有Claude Code这样的产品，Opus 4.5就不会有那个高光时刻。而没有Opus 4.5，Claude Code也不会那么快被大家用起来。”\n💡 “假设Claude 8出来了，用户的行为会有什么变化？”\n在技术指数级进步的时代，做产品必须向前兼容。Dianne经常问团队这个问题，以此倒推今天的产品决策是否能在未来依然成立。野心不只是喊口号，而是要落到具体的推演和描述上。\n“假设Claude 8出来了，用户的行为会有什么变化？这对你今天做产品的方式意味着什么？”\n💡 为什么重视对齐和安全反而让Claude更有趣？\n为了让AI真正有用，它必须知道什么时候该提出质疑，而不是一味顺从。一个只会附和的AI无法帮你得出更好的结论。Anthropic的对齐研究恰恰赋予了Claude这种“敢于反驳”的特质，这让它成为更好的思考伙伴。\n“为了让Claude尽可能聪明、尽可能强大，它必须能在正确的节点提出质疑……思考伙伴不会只是附和你，它应该给你加分。”\n💡 管理者必须亲自动手，没有捷径\n在AI时代，无论你在公司层级里处于什么位置，如果你不自己动手构建、不真正去跟模型对话、不去交付产品，你就无法建立对“什么算好”的判断力。Dianne自己也会留出时间实际跟一两个工作流，以保持对模型能力的真实认知。\n“要想带好团队、做好PM，你自己必须非常亲自动手……你必须花一部分时间真正去交付产品。”\n💡 实验不是一个人的运动\n面对AI的快速变化，独自摸索容易感到疲惫和孤立。Dianne建议找一个对此兴奋的人搭档，针对一个你关心的用例一起合作。Anthropic内部的“公开实验”文化——全公司在Slack频道里一起测试早期模型——正是集体发现魔力的关键。\n“实验不一定总是一个人的事……乐趣的一部分，也来自于看到别人发现新的用例。”\n🌐 播客信息补充\n本播客采用原有人声声线进行播客音频制作，也可能会有一些地方听起来怪怪的\n使用 AI 进行翻译，因此可能会有一些地方不通顺；\n如果有后续想要听中文版的其他外文播客，也欢迎联系微信：iEvenight\n\n在小宇宙查看该单集文稿",
-      "publishedAt": "2026-07-27T08:24:12+00:00",
-      "rssUrl": "https://feed.xyzfm.space/r8t44lmvu99m",
-      "coverImageUrl": "https://image.xyzcdn.net/FgPi3C76e0yvQlUYo8TDbk1GTgp8.png",
-      "coverText": "跨国",
-      "coverBg": "bg-[#18181B]",
-      "coverTextColor": "text-amber-50",
-      "whyRecommended": "适合AI产品经理与创业者，揭秘Anthropic如何在模型未成熟时孵化ClaudeCode等前沿产。",
-      "viewpoints": [
-        "Evals正在取代PRD成为AI产品开发的核心工具。",
-        "产品经理需像打磨像素一样深入理解token细节。",
-        "模型与产品是共生关系，前沿产品释放模型魔力。"
-      ],
-      "goldenQuotes": [
-        {
-          "quote": "evals就是新的产品需求文档。",
-          "source": "来自本期 shownote",
-          "source_note": "来自本期 shownote"
-        },
-        {
-          "quote": "你得像抠像素一样去抠token。",
-          "source": "来自本期 shownote",
-          "source_note": "来自本期 shownote"
-        },
-        {
-          "quote": "没有Claude Code这样的产品，Opus 4.5就不会有那个高光时刻。",
-          "source": "来自本期 shownote",
-          "source_note": "来自本期 shownote"
-        }
-      ],
-      "triageTag": "📖值得精听｜Anthropic产品孵化实",
-      "href": "cosmos://page.cos/episode/6a671405a3fec224d5a416be?utm_source=rss",
-      "scenario": "",
-      "whyRecommend": "适合AI产品经理与创业者，揭秘Anthropic如何在模型未成熟时孵化ClaudeCode等前沿产。",
-      "goldenQuote": "evals就是新的产品需求文档。",
-      "topicTag": "📖值得精听｜Anthropic产品孵化实"
+      "topicTag": "📖值得精听｜光通信产业链深度拆解"
     }
   ],
   "synthesis": null

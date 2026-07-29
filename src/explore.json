@@ -1,5 +1,43 @@
 [
   {
+    "title": "AI会让工作消失还是创造更多？",
+    "domainTag": "AI与职场",
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "整点亮话",
+        "point": "企业招不到人，打工人找不到工作，供需错配",
+        "episodeId": "6a6633eda3fec224d5a3b793"
+      },
+      {
+        "podcast": "42章经",
+        "point": "AI 应用市场冷到谷底，应用创始人处境艰难",
+        "episodeId": "6a5b98a66356eb2d9be4ad2c"
+      }
+    ],
+    "createdAt": "2026-07-30T06:06:30.954062+08:00",
+    "updatedAt": "2026-07-30T06:06:30.954062+08:00"
+  },
+  {
+    "title": "机器人该先做大脑还是先做本体？",
+    "domainTag": "机器人",
+    "consensus": [
+      {
+        "podcast": "张小珺Jùn｜商业访谈录",
+        "point": "机器人大脑开发落后于本体，需要交替上升",
+        "episodeId": "6a5f79b3a3fec224d5a128cd"
+      },
+      {
+        "podcast": "硅谷101",
+        "point": "操作物体比运动控制难2到3个数量级",
+        "episodeId": "fc9a3737-81a9-49cf-a7d6-530c77df836e"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-07-30T06:06:30.954062+08:00",
+    "updatedAt": "2026-07-30T06:06:30.954062+08:00"
+  },
+  {
     "title": "国产超节点能超越英伟达吗？",
     "domainTag": "AI芯片",
     "consensus": [],
