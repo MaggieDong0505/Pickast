@@ -1,5 +1,92 @@
 [
   {
+    "generatedAt": "2026-07-31T06:14:22.960077+08:00",
+    "title": "AIAgent真的能替代人类工作吗？",
+    "domainTag": "AI与职场",
+    "podcasts": [
+      "Peril Crosser 渡厄",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a5a0fb36356eb2d9be431a5",
+      "https://perilcrosser.com/?p=266"
+    ],
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "Agent 全自动写代码导致代码库崩溃",
+        "episodeId": "6a5a0fb36356eb2d9be431a5"
+      },
+      {
+        "podcast": "Peril Crosser 渡厄",
+        "point": "AI Agent 泡沫，实际效果不如传统方案",
+        "episodeId": "https://perilcrosser.com/?p=266"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:94e804c86ac8f9d4845b0741195adf3322151ff99107f6e96b6a344791db5d6d",
+    "createdAt": "2026-07-31T06:14:22.960077+08:00",
+    "updatedAt": "2026-07-31T06:14:22.960077+08:00"
+  },
+  {
+    "generatedAt": "2026-07-31T06:14:22.960077+08:00",
+    "title": "AI算力瓶颈到底在哪？",
+    "domainTag": "AI基础设施",
+    "podcasts": [
+      "What's Next｜科技早知道",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a644f126356eb2d9be8178f",
+      "a6c6ab3e-72b2-470b-aefd-04b19679d37f"
+    ],
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "GPU 做快速推理存在根本性瓶颈",
+        "episodeId": "6a644f126356eb2d9be8178f"
+      },
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "国产超节点用系统方案弥补单芯片差距",
+        "episodeId": "a6c6ab3e-72b2-470b-aefd-04b19679d37f"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:6db8991643ec757c5458557bceb3531ee2ef175dc93c5855aee8741357ef63f2",
+    "createdAt": "2026-07-31T06:14:22.960077+08:00",
+    "updatedAt": "2026-07-31T06:14:22.960077+08:00"
+  },
+  {
+    "generatedAt": "2026-07-31T06:14:22.960077+08:00",
+    "title": "AI会让人类更疲惫还是更高效？",
+    "domainTag": "AI与社会",
+    "podcasts": [
+      "声动早咖啡",
+      "碳基生物生存指南"
+    ],
+    "episodeIds": [
+      "6a65d2ff6356eb2d9be893fe",
+      "6a69b3d456a3f3491ba6d65d"
+    ],
+    "consensus": [
+      {
+        "podcast": "碳基生物生存指南",
+        "point": "低精力人群与高精力人群各有优劣",
+        "episodeId": "6a69b3d456a3f3491ba6d65d"
+      },
+      {
+        "podcast": "声动早咖啡",
+        "point": "AI 工具增加但工作效率未提升",
+        "episodeId": "6a65d2ff6356eb2d9be893fe"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:f8800c36e9f2148ebb4a981e541f08b2ec60584c66be9787303e0ee8c67cd4b4",
+    "createdAt": "2026-07-31T06:14:22.960077+08:00",
+    "updatedAt": "2026-07-31T06:14:22.960077+08:00"
+  },
+  {
     "generatedAt": "2026-07-30T06:06:30.954062+08:00",
     "title": "AI会让工作消失还是创造更多？",
     "domainTag": "AI与职场",
@@ -830,92 +917,5 @@
     "fingerprint": "v1:e21b7833f24aef2289e9a5c7225bfdf1c909fb9044c376e14ed71eadf1b5f26a",
     "createdAt": "2026-07-10T06:38:32.888043+08:00",
     "updatedAt": "2026-07-10T06:38:32.888043+08:00"
-  },
-  {
-    "generatedAt": "2026-07-09T06:14:01.864425+08:00",
-    "title": "女性适合低碳轻断食吗？",
-    "domainTag": "健康",
-    "podcasts": [
-      "碳基生物生存指南",
-      "纵横四海"
-    ],
-    "episodeIds": [
-      "6a3fd0302e335a35a80a47d3",
-      "6a4e482a2e335a35a8102bc7"
-    ],
-    "consensus": [
-      {
-        "podcast": "纵横四海",
-        "point": "女性不适合低碳和轻断食，会触发饥荒方案伤害身体",
-        "episodeId": "6a3fd0302e335a35a80a47d3"
-      },
-      {
-        "podcast": "碳基生物生存指南",
-        "point": "代谢研究缺乏女性数据，断食对女性影响未知",
-        "episodeId": "6a4e482a2e335a35a8102bc7"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:8df380110ad1c0dfdd3873640be628e446fcc6b1ed9f46546988986c485a4751",
-    "createdAt": "2026-07-09T06:14:01.864425+08:00",
-    "updatedAt": "2026-07-09T06:14:01.864425+08:00"
-  },
-  {
-    "generatedAt": "2026-07-09T06:14:01.864425+08:00",
-    "title": "AI时代如何重新定义产品？",
-    "domainTag": "产品设计",
-    "podcasts": [
-      "十字路口Crossing",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "6a43a9699d2f574368405276",
-      "6a4511d92e335a35a80c8431"
-    ],
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "实现成本降低，品味和判断力成为稀缺资源",
-        "episodeId": "6a43a9699d2f574368405276"
-      },
-      {
-        "podcast": "十字路口Crossing",
-        "point": "GUI退场，Headless和CLI成为新交互范式",
-        "episodeId": "6a4511d92e335a35a80c8431"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:646fd24c5db4c69396b2e2cf4ca5726fc04ed899869069eeff3fedbe42c12b87",
-    "createdAt": "2026-07-09T06:14:01.864425+08:00",
-    "updatedAt": "2026-07-09T06:14:01.864425+08:00"
-  },
-  {
-    "generatedAt": "2026-07-08T06:18:25.029570+08:00",
-    "title": "AI时代组织如何变革？",
-    "domainTag": "管理与组织",
-    "podcasts": [
-      "42章经",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "6a3d274f9d2f5743683dd631",
-      "6a3e50142e335a35a809d5b4"
-    ],
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "创始人模式需要极度专注和直觉决策",
-        "episodeId": "6a3d274f9d2f5743683dd631"
-      },
-      {
-        "podcast": "42章经",
-        "point": "创业公司80%时间应花在招聘上",
-        "episodeId": "6a3e50142e335a35a809d5b4"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:e33d493306344b0dd0bda6e9df775ead68dc9ecfe62d6f5492396dbb2dd935a6",
-    "createdAt": "2026-07-08T06:18:25.029570+08:00",
-    "updatedAt": "2026-07-08T06:18:25.029570+08:00"
   }
 ]

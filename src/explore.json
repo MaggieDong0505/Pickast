@@ -1,5 +1,62 @@
 [
   {
+    "title": "AIAgent真的能替代人类工作吗？",
+    "domainTag": "AI与职场",
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "Agent 全自动写代码导致代码库崩溃",
+        "episodeId": "6a5a0fb36356eb2d9be431a5"
+      },
+      {
+        "podcast": "Peril Crosser 渡厄",
+        "point": "AI Agent 泡沫，实际效果不如传统方案",
+        "episodeId": "https://perilcrosser.com/?p=266"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-07-31T06:14:22.960077+08:00",
+    "updatedAt": "2026-07-31T06:14:22.960077+08:00"
+  },
+  {
+    "title": "AI会让人类更疲惫还是更高效？",
+    "domainTag": "AI与社会",
+    "consensus": [
+      {
+        "podcast": "碳基生物生存指南",
+        "point": "低精力人群与高精力人群各有优劣",
+        "episodeId": "6a69b3d456a3f3491ba6d65d"
+      },
+      {
+        "podcast": "声动早咖啡",
+        "point": "AI 工具增加但工作效率未提升",
+        "episodeId": "6a65d2ff6356eb2d9be893fe"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-07-31T06:14:22.960077+08:00",
+    "updatedAt": "2026-07-31T06:14:22.960077+08:00"
+  },
+  {
+    "title": "AI算力瓶颈到底在哪？",
+    "domainTag": "AI基础设施",
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "GPU 做快速推理存在根本性瓶颈",
+        "episodeId": "6a644f126356eb2d9be8178f"
+      },
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "国产超节点用系统方案弥补单芯片差距",
+        "episodeId": "a6c6ab3e-72b2-470b-aefd-04b19679d37f"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-07-31T06:14:22.960077+08:00",
+    "updatedAt": "2026-07-31T06:14:22.960077+08:00"
+  },
+  {
     "title": "AI会让工作消失还是创造更多？",
     "domainTag": "AI与职场",
     "consensus": [],
@@ -572,54 +629,6 @@
     "divergence": [],
     "createdAt": "2026-07-09T06:14:01.864425+08:00",
     "updatedAt": "2026-07-09T06:14:01.864425+08:00"
-  },
-  {
-    "title": "AI时代如何重新理解财富？",
-    "domainTag": "AI与经济",
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "财富本质是创造持续制造价值的机器",
-        "episodeId": "6a3a7f6d9d2f5743683ca27a"
-      },
-      {
-        "podcast": "42章经",
-        "point": "泡沫无法被事先证明，但可识别信号",
-        "episodeId": "6a2a808262c3d8534722ac02"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "提出好问题比证明定理更重要",
-        "episodeId": "6a44b3d22e335a35a80c491b"
-      },
-      {
-        "podcast": "硅谷101",
-        "point": "让AI像科学家一样提问需要更好的品味",
-        "episodeId": "308f9278-dd48-44d3-a4ce-ee436968fc28"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-06-25T06:24:05.044558+08:00",
-    "updatedAt": "2026-07-08T06:18:25.029570+08:00"
-  },
-  {
-    "title": "AI时代如何做投资决策？",
-    "domainTag": "投资",
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "不看估值，寻找市场尚未定价的信息差",
-        "episodeId": "6a45d5d72e335a35a80cc2ee"
-      },
-      {
-        "podcast": "十分吸引",
-        "point": "按产业链位置配置而非按国别",
-        "episodeId": "6a4a188e2e335a35a80e4c2b"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-07-08T06:18:25.029570+08:00",
-    "updatedAt": "2026-07-08T06:18:25.029570+08:00"
   },
   {
     "title": "AI时代组织如何变革？",
