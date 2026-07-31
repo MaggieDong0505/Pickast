@@ -8,8 +8,8 @@
 import { BriefingCardData } from './types';
 
 export const initialData: BriefingCardData = {
-  "dateStr": "2026.07.31",
-  "chinaDateStr": "星期五 / FRIDAY",
+  "dateStr": "2026.08.01",
+  "chinaDateStr": "星期六 / SATURDAY",
   "title": "今天最值得听 • TODAY'S VOICE",
   "issueNo": "精选 3 条",
   "mainEpisode": {
@@ -23,80 +23,92 @@ export const initialData: BriefingCardData = {
     "coverText": "时雨",
     "coverBg": "bg-[#18181B]",
     "coverTextColor": "text-amber-50",
-    "whyRecommended": "适合对新闻史与权力博弈感兴趣的听众，从五角大楼文件案看透第四权力的真实运作。",
+    "whyRecommended": "适合对新闻史与权力博弈感兴趣的听众，从五角大楼文件案切入，串联越战真相与媒体第四权力的反思。",
     "viewpoints": [
-      "五角大楼文件揭露越战真相，四任总统集体说谎近三十年。",
-      "华盛顿邮报赌上IPO前途，接力刊发绝密文件。",
-      "最高法院裁决：国家安全与新闻自由的宪法级辩论。"
+      "五角大楼文件揭露越战真相",
+      "华盛顿邮报接力刊发文件",
+      "最高法院裁决新闻自由"
     ],
-    "goldenQuotes": [],
+    "goldenQuotes": [
+      {
+        "quote": "新闻界是为被统治者服务，而不是为统治者服务",
+        "source": "来自本期 shownote",
+        "source_note": "来自本期 shownote"
+      }
+    ],
     "triageTag": "🚶边走边听｜五角大楼文件泄密始末",
     "href": "cosmos://page.cos/episode/6a6afbe9b581962ce2bddf68?utm_source=rss",
-    "whyRecommend": "适合对新闻史与权力博弈感兴趣的听众，从五角大楼文件案看透第四权力的真实运作。",
-    "goldenQuote": "适合对新闻史与权力博弈感兴趣的听众，从五角大楼文件案看透第四权力的真实运作。",
+    "whyRecommend": "适合对新闻史与权力博弈感兴趣的听众，从五角大楼文件案切入，串联越战真相与媒体第四权力的反思。",
+    "goldenQuote": "新闻界是为被统治者服务，而不是为统治者服务",
     "topicTag": "🚶边走边听｜五角大楼文件泄密始末"
   },
   "backupEpisodes": [
     {
-      "episodeId": "6a69b3d456a3f3491ba6d65d",
-      "podcastName": "碳基生物生存指南",
-      "episodeTitle": "E33 我们为什么总是如此疲惫",
-      "description": "我们好像总是很累。身体提不上劲，心理也没有动力，感觉活着本身，就已经很累了。\n这样低精力也总是跟没有目标、没有动力、倦怠、畏难绑在一起，好像谁都不想被贴上这个标签。但高精力就一定好吗？他们似乎从来感觉不到累，但会不会当真的垮下来的时候，才发现其实一直在透支。\n所以，精力到底是什么，为什么日常生活就让人如此疲惫？精力真的是天生的吗？低精力的人，真的可以获得世俗意义上的成功吗？如果想要提升精力，除了人人都知道的睡好吃好运动好，还有其他解法吗？\n本期节目就想在这个话题上，对疲惫和精力，做一次更底层的拆解。希望能帮你在信息繁杂的方法论之外，真正了解精力，了解疲惫。从原理和数据入手，我们也终于可以回答：那些看起来精力充沛的“高精力人群”和似乎总容易疲惫的“低精力人群”，到底有没有优劣之分。\n【时间轴】\n05:03 计算每日卡路里消耗时，你会忽视什么\n09:37 为啥我喝水都胖、哪怕吃了很多也懒得动 - 也许是因为你对能量的敏感性不够\n17:20 心理疲惫从何而来 - 人与人间的动机响应敏感性差异\n19:30 衡量疲惫时的主观感受和客观指标，到底哪个更可靠？\n22:42 该如何正确看待智能设备的数据焦虑\n23:49 关于疲惫的客观指标：运动表现，静息心率，心率变异性\n28:20 主观疲惫的不同分类测量\n31:36 恢复和休息本身，就是进步的一部分\n38:28 做自己感兴趣的事情还能拿到钱，怎么反而越做越没劲\n44:34 钱，怎么会没用呢..？\n48:11 你的动力来源 - 基本心理需求：胜任感，归属感，自主性\n49:35 为什么有些事儿你超有动力做，几乎让人上瘾？\n54:32 胜任感，归属感，自主性如何帮我们在生活中找回动力\n58:07 我们该谈钱，但不能只谈钱\n59:58 高精力 vs 低精力，到底谁好谁坏呢？\n62:07 低精力人群，也可以获得世俗意义上的成功；而高精力人群，也有需要注意的风险点\n本期节目特别感谢 Eight Sleep 赞助播出。 Eight Sleep 智能温控床套搭配 AI 睡眠系统，为你动态调温，优化睡眠质量，帮助你在理解疲惫之外，能更好地从疲惫中恢复过来。🎁 碳基生物生存指南的听众可领取1000元的专属优惠券～ 听友们在天猫/京东/Eight Sleep小程序商城，联系客服，报出【碳基生物生存指南】暗号，就可以领取～\n天猫优惠券点击这里领取 👈\n京东优惠券点击这里领取 👈\n📃 本期播客提到的文献素材传送门：\n第一部分 身体和心理的精力输出，比你想得要复杂得多\nNEAT 在每日能量消耗的占比： https://journals.physiology.org/doi/full/10.1152/ajpendo.00562.2003 ：“EAT is therefore the most variable component of energy expenditure, both within and between subjects, ranging from ∼15% of total daily energy expenditure in very sedentary individuals to 50% or more of total daily energy expenditure in highly active individuals”\n活动不足人群比例： https://pmc.ncbi.nlm.nih.gov/articles/PMC10351178/ ：“From 2010 to 2018, the age-adjusted prevalence of insufficient PA in China increased from 17.9% (95% confidence interval 16.3% to 19.5%) in 2010 to 22.3% (20.9% to 23.8%) in 2018 (P for trend https://www.ncbi.nlm.nih.gov/books/NBK279077/ ：“For the majority of subjects in industrialized countries, exercise is believed to be negligible.\n不同人每天1000大卡的能量摄入实验： https://pubmed.ncbi.nlm.nih.gov/9880251/\nNEAT 激活者与 NEAT 保存者： https://www.mayoclinicproceedings.org/article/S0025-6196(15)00123-8/fulltext：“NEAT activators are those animals with a copious and robust NEAT signal, and NEAT conservers have a blunted response to NEAT signals and expend lower levels of energy, resulting in obesity.”\nNEAT 遗传水平，测量的是体力活动水平，不是直接测量NEAT敏感度。但这两者方向上是一致的： https://journals.physiology.org/doi/full/10.1152/ajpendo.00562.2003 ：“On the basis of twin and family studies, the heritability for physical activity level is estimated to be between 29 and 62%.”\n影响 NEAT 敏感性的非基因因素： https://www.mayoclinicproceedings.org/article/S0025-6196(15)00123-8/fulltext ：“The genetic regulation of NEAT is possibly influenced by multiple neuromediators located in the hypothalamus, including orexin, neuromedin U, ghrelin, and the agouti gene–related protein. This, plus the conditioning of the environment to different levels of physical activity and the behavioral factors that we learned from our main educators, will determine an individual to be a NEAT activator or a NEAT conserver, predisposing us to spend more time either sitting or moving. ”\n所有人格特质的可遗传性元分析： https://pubmed.ncbi.nlm.nih.gov/25961374/\n生理 vs 心理，疲劳 vs 精力互相独立却也互相影响： https://www.tandfonline.com/doi/full/10.1080/21641846.2019.1573790 ：”Trait physical and mental fatigue were moderately correlated (r = .59, p 睡眠客观数据与主观感受并不匹配： https://pubmed.ncbi.nlm.nih.gov/27889439/ ：“Thirty-eight sleep, demographic and clinical correlates of sleep quality were considered. Together, these multivariable models explained only 11-17% of the variance in predicting subjective sleep quality.“ , “Overall, the commonly obtained measures of polysomnographically-defined sleep contributed little to subjective ratings of prior-night sleep quality.” 以及反例： https://academic.oup.com/sleep/article-abstract/26/2/117/2709164 ：“ Sleepiness ratings suggest that subjects were largely unaware of these increasing cognitive deficits, which may explain why the impact of chronic sleep restriction on waking cognitive functions is often assumed to be benign.”\n主观疲惫水平会影响运动表现，但不是通过客观指标： https://journals.physiology.org/doi/full/10.1152/japplphysiol.91324.2008 ：“This negative effect was not mediated by cardiorespiratory and musculoenergetic factors as physiological responses to intense exercise remained largely unaffected.”\n第二部分 疲惫，能被准确测量和预判吗\n职业运动员客观测量指标： https://www.thieme-connect.com/products/ejournals/html/10.1055/a-2433-3930\nHRV 高还是低好？该如何关注？（7 天均值测量） https://pmc.ncbi.nlm.nih.gov/articles/PMC11204851/：“A high HRV relative to baseline represents a healthy, flexible autonomic system and improved adaptability and recovery in response to a changing environment or stressor, such as travel or exercise.”，“valuating rolling 7-day averages of an individual’s HRV compared to daily values may provide a more meaningful context on HRV changes and overtraining compared to daily measurements or population norms.”\n长期训练导致静息心率降低的具体机制： https://pubmed.ncbi.nlm.nih.gov/24825544/ ：“Endurance athletes exhibit sinus bradycardia, that is a slow resting heart rate, associated with a higher incidence of sinus node (pacemaker) disease and electronic pacemaker implantation.”\n运动表现的客观变化是过度训练： https://pmc.ncbi.nlm.nih.gov/articles/PMC9460078/ ：“Functional overreaching is defined as a short-term decrease in performance (usually up to 2 weeks) followed by a supercompensation effect (adaptive improvement in performance). In cases where the performance decrement is of a slightly longer duration (usually up to 3-4 weeks) and not followed by supercompensation, the term nonfunctional overreaching is used. Finally, if reduced performance capacity lasts for more than 3 to 4 weeks and is followed by neither supercompensation nor improved athletic performance, the athlete is likely experiencing an overtraining syndrome (OTS).”\n运动员倦怠程度评估： https://pubmed.ncbi.nlm.nih.gov/28682196/ ， 在线问卷： https://psytests.org/sport/abqen.html\n通用的倦怠程度评估问卷： https://onlinelibrary.wiley.com/doi/pdf/10.1002/job.4030020205 ， 在线问卷： https://www.mindgarden.com/117-maslach-burnout-inventory-mbi\n第三部分 自我决定理论\n奖励，会削弱自主性： https://selfdeterminationtheory.org/SDT/documents/1983_RyanMimsKoestner.pdf：“Rewards in general appear to have a controlling significance to some extent and thus in general run the risk of undermining intrinsic motivation.“\n移除奖励后动力减弱（MRI 研究）： https://www.pnas.org/doi/full/10.1073/pnas.1013305107 ：“The strong incentive value of monetary reward pushed down the intrinsic value of task success. As a result, when the monetary reward was no longer promised, the intrinsic task value was underestimated, resulting in decreased motivation relative to the control group.”\n关于奖励削弱动力的系统性综述： https://psycnet.apa.org/doiLanding?doi=10.1037%2F0033-2909.125.6.627 ：“As predicted, engagement-contingent, completion-contingent, and performance-contingent rewards significantly undermined free-choice intrinsic motivation (d = –0.40, –0.36, and –0.28, respectively), as did all rewards, all tangible rewards, and all expected rewards.”\n自我决定论 - 胜任感，链接感，自主性决定动力： https://selfdeterminationtheory.org/SDT/documents/2000_RyanDeci_SDT.pdf\n胜任感，链接感，自主性能预测玩家是否持续玩游戏： https://selfdeterminationtheory.org/SDT/documents/2006_RyanRigbyPrzybylski_MandE.pdf ：“Results show that SDT’s theorized needs for autonomy, competence, and relatedness independently predict enjoyment and future game play.“\n需求密度假说 - 最容易沉迷于电子游戏的孩子，是在日常生活中得不到胜任感，链接感，自主性满足的孩子： https://www.sciencedirect.com/science/article/abs/pii/S074756321830092X ：“As expected, we found strong support for the need-density hypothesis in terms of need satisfaction.”\n生活幸福感直接影响线粒体效能： https://pubmed.ncbi.nlm.nih.gov/38889126/ ：“By combining longitudinal antemortem assessments of psychosocial factors with postmortem brain (dorsolateral prefrontal cortex) proteomics in older adults, we find that higher well-being is linked to greater abundance of the mitochondrial OxPhos machinery, whereas higher negative mood is linked to lower OxPhos protein content. Combined, positive and negative psychosocial factors explained 18 to 25% of the variance in the abundance of OxPhos complex I, the primary biochemical entry point that energizes brain mitochondria.”\n第四部分 低精力人 vs 高精力人？\n同一个人一天内疲劳感的变化大于人与人之间的区别： https://pmc.ncbi.nlm.nih.gov/articles/PMC9124457/ ：“The majority of the variance for relaxation, satisfaction, insecurity, anxiousness, irritation, feeling down, fatigue, dizziness, intention, and self-efficacy is explained by the within subjects and within days variance (42.9% to 65.8%).”\n外向型 vs 内向型领导优劣势对比： https://psycnet.apa.org/record/2011-15936-006 ：“Extraversion predicts leadership emergence and effectiveness, but do groups perform more effectively under extraverted leadership? Drawing on dominance complementarity theory, we propose that although extraverted leadership enhances group performance when employees are passive, this effect reverses when employees are proactive, because extraverted leaders are less receptive to proactivity.”\n尽责性最能预测职业成功： https://www.sciencedirect.com/science/article/pii/S2352250X25000673 ：“Conscientiousness is the strongest predictor across performance outcomes.” https://www.sciencedirect.com/science/article/abs/pii/S0092656619300753 ：“A general conclusion from this literature is that conscientiousness is the strongest predictor of job performance among FFM traits for most jobs.”\n拓展资料\n现在越来越多的研究指出，疲劳和精力的驱动来源并不一致，背后的生理机制也不尽相同。研究者Loy等人（2013、2018）发现，主观精力感与多巴胺水平相关，而主观疲惫感则与血清素升高、组胺下降和炎症细胞因子升高相关，是两条独立的神经化学通路。在身体层面，客观疲惫的核心机制是肌肉代谢产物的积累（糖原耗竭、乳酸、无机磷酸盐），而客观身体精力的生物学基础更接近线粒体的ATP产能效率。这意味着：不管是身体还是心理层面，你都可以在很累的同时，仍然很有精力，两者不是一根轴上的两端，而是可以独立变化的两个维度。这一点在Boolani & Manierre（2019）的研究数据里得到了验证。本期播客没有详细探讨这个区分，如果你感兴趣，可以参考以下研究：\nLoy, Bryan D., Patrick J. O'Connor, and Rodney K. Dishman. \"The effect of a single bout of exercise on energy and fatigue states: a systematic review and meta-analysis.\" Fatigue: Biomedicine, Health & Behavior1.4 (2013): 223-242. https://www.tandfonline.com/doi/full/10.1080/21641846.2013.843266\nLoy, Bryan D., Michelle H. Cameron, and Patrick J. O'Connor. \"Perceived fatigue and energy are independent unipolar states: Supporting evidence.\" Medical Hypotheses 113 (2018): 46-51. https://pmc.ncbi.nlm.nih.gov/articles/PMC5846196/\nBoolani, Ali, and Matt Manierre. \"An exploratory multivariate study examining correlates of trait mental and physical fatigue and energy.\" Fatigue: Biomedicine, Health & Behavior 7.1 (2019): 29-40. https://www.tandfonline.com/doi/full/10.1080/21641846.2019.1573790\n饮食方案会影响活力水平，与低血糖负荷饮食相比，高血糖负荷饮食与更高的抑郁症状、总体情绪紊乱和疲劳感相关，尤其是在超重/肥胖但其他方面健康的成年人中： https://pmc.ncbi.nlm.nih.gov/articles/PMC5154680/ ：“In conclusion, a high-glycemic load diet was associated with higher depression symptoms, total mood disturbance, and fatigue compared to a low-glycemic load diet especially in overweight/obese, but otherwise healthy, adults.”\n大脑耗能变化 - 虽然大脑仅占体重的2%，但它却消耗了人体20%的静息代谢。但同时，目标导向认知活动的代谢成本仅比静息神经活动和体内平衡的持续成本高出5%（每日能量总代谢变化量的1%。也就是说，你苦思冥想和躺着放松，脑部消耗的卡路里变化极小，但你却能感觉到真实的疲惫。因此，心理疲惫与卡路里消耗是相关，但独立的。”： https://www.sciencedirect.com/science/article/abs/pii/S136466132400319X ：“Although it accounts for only 2% of body weight, the human brain accounts for 20% of its resting metabolism, more than tenfold the amount expected based on its weight.”, “The metabolic costs of goal-directed cognition are only 5% greater than the ongoing costs of resting neural activity and homeostasis.”\n周末效应 - 用自我决定理论来解释为什么周末的人类，都会更开心： https://selfdeterminationtheory.org/SDT/documents/2010_RyanBernsteinBrown_Weekends_JSCP.pdf ：“Results supported these hypotheses, showing that for both male and female workers, weekend and nonwork activities were associated with several indicators of well-being, and these relations were partially or fully mediated by basic psychological need satisfaction.“\n本期音乐：Epidemic Sound，Pixabay（免版权音乐库）Tired by Mindme，Sunset Chill Nature by Finley chill\n封面设计特别感谢：wow lab\n小红书账号：梦妮爱读文献 （ID：4196506308）\n\n在小宇宙查看该单集文稿",
-      "publishedAt": "2026-07-29T12:30:00+00:00",
-      "rssUrl": "https://feed.xyzfm.space/wyedwp8eyy3q",
-      "coverImageUrl": "https://image.xyzcdn.net/FlBtHuFQUyCiPF2d2vyThwBwEZKA.PNG",
-      "coverText": "碳基",
-      "coverBg": "bg-[#18181B]",
-      "coverTextColor": "text-amber-50",
-      "whyRecommended": "适合被日常疲惫困扰的听众，从生理和心理底层拆解精力问题，提供超越“睡好吃好”的实用视角。",
-      "viewpoints": [
-        "NEAT影响能量消耗，个体差异可达50%以上。",
-        "心理疲惫源于动机响应敏感性差异。",
-        "基本心理需求（胜任、归属、自主）是动力来源。"
-      ],
-      "goldenQuotes": [],
-      "triageTag": "📖值得精听｜精力底层拆解+科学方法",
-      "href": "cosmos://page.cos/episode/6a69b3d456a3f3491ba6d65d?utm_source=rss",
-      "scenario": "",
-      "whyRecommend": "适合被日常疲惫困扰的听众，从生理和心理底层拆解精力问题，提供超越“睡好吃好”的实用视角。",
-      "goldenQuote": "适合被日常疲惫困扰的听众，从生理和心理底层拆解精力问题，提供超越“睡好吃好”的实用视角。",
-      "topicTag": "📖值得精听｜精力底层拆解+科学方法"
-    },
-    {
-      "episodeId": "6a69df93b581962ce2bd6935",
+      "episodeId": "6a6aa338b581962ce2bda1bf",
       "podcastName": "跨国串门儿计划",
-      "episodeTitle": "#651.OpenAI产品工程负责人：工作的未来、AI 通才、创意与品味",
-      "description": "📝 本期播客简介\n本期我们克隆了：知名 AI 工程播客 Latent Space OpenAI’s Plan to Make ChatGPT the Everything App — Akshay Nathan, OpenAI\n原内容更新时间：2026-07-28\n本期嘉宾是 OpenAI 核心产品工程负责人 Akshay Nathan，主持人是 swyx 和 Vibhu。Akshay 的职业生涯很有意思，从在 Airtable 做无代码产品，到现在领导团队打造 ChatGPT Work，他一直想把软件的能力带给那些不会写代码的人。这期节目围绕 ChatGPT Work 的发布，深入聊了聊他们是怎么把 AI 助手从开发者群体，一步步推向更广泛的知识工作者，以及这背后产品整合的思路和挑战。\n如果你正在思考 AI 时代的产品策略、组织形态、个人生产力，或者好奇 OpenAI 如何将 ChatGPT 打造成一个超级应用，这期对谈会提供大量一手经验和来自产品核心构建者的高密度判断。\n👨‍⚕️ 本期嘉宾\nAkshay Nathan，OpenAI 核心产品工程负责人，负责生产力团队，主导了 ChatGPT Work 的发布。他此前在 Airtable 从事无代码产品工作，职业生涯早期在消费金融科技领域。Akshay 长期关注如何将软件和代码的能力，以更低门槛的方式带给更广泛的非技术用户。\n⏱️ 时间戳\n开场与产品哲学\n00:00 节目与嘉宾介绍\n01:17 核心观点：瓶颈会变成想法和品味\n02:45 从无代码到 ChatGPT Work：把代码的魔力带给每个人\nChatGPT Work 的诞生与整合逻辑\n04:19 加入 OpenAI 的初心与公司文化\n08:01 发布 ChatGPT Work 的决策过程：Codex 在非开发者中的意外爆发\n09:51 产品定位：Codex、ChatGPT 与 Work 如何整合\n14:16 为什么没有把 Codex 和 Work 做成两个独立 App\n模型、运行框架与使用建议\n16:05 ChatGPT 经典模式与 Codex 运行框架的演变\n18:24 新模型的使用建议：默认设置就是最好的\n19:59 Soul Lite 搭配 Goal 模式的使用技巧\n21:07 推理强度滑块的设计哲学\nArtifacts、网站与新的工作产出物\n22:07 Artifacts 的体验：Agent 化的 Excel 与退休计算器\n26:06 网站作为知识工作的新产出物，取代 PPT 和 Excel\n27:42 实战案例：用 ChatGPT Work 构建可玩的 3D 游戏\n31:35 产品设计的元挑战：在设计一个能制造产品的产品\nAgent、记忆与个人生产力\n36:03 用户拓展路径：从开发者到知识工作者，再到每一个人\n37:38 给重度用户的建议：持续拓展想象的边界\n40:00 AI 写评审的边界与礼仪：用 Agent 收集上下文而非替代判断\n56:51 记忆系统 V3：让 ChatGPT 真正了解你\nAI 时代的团队与生产力衡量\n01:02:41 AI 前后构建方式的变化：想法到产品的循环极大加速\n01:03:57 未来每个人都是 T 型人才，角色界限正在模糊\n01:05:05 瓶颈回归到想法和品味\n01:06:22 如何定义和衡量生产力：区分“动作”与“进展”\n🌟 精彩内容\n💡 瓶颈会变成想法和品味\nAkshay 认为，当 AI 让“做东西”这件事变得人人可行，真正的限制不再是技术能力，而是你手头有多少好想法，以及你辨别好坏的能力。想法不是凭空产生的，它们来自与用户的交流、对摩擦的观察和对反馈的闭环。\n“瓶颈永远是你的想法数量和手头在做的事情。”\n💡 我们不想让用户困在某个标签页里\nOpenAI 刻意没有把 Codex 和 ChatGPT Work 做成两个独立 App，因为 AI 正在模糊写代码的人、写文档的人、做营销的人之间的界限。试图根据用户身份划一条硬边界会很难，应该让用户自己选择，但不把他们框死。\n“我们不想规定你什么时候该用哪种体验，但我们也不想限制任何人。”\n💡 默认设置就是最好的\n面对众多模型和配置选项，Akshay 的建议出人意料地简单：用默认的就好。团队花了很多精力让默认配置对绝大多数场景足够好，高级选项是给那些清楚自己在做什么的用户准备的。\n“默认设置应该能覆盖绝大多数使用场景。所以我对大多数人的建议就是，用默认的就好。”\n💡 网站正在取代 PPT 和 Excel，成为知识工作的新产出物\nOpenAI 内部财务团队已经把月度报告从幻灯片和电子表格全部迁移到了网站上。网站的信息承载能力更强，几乎什么都能做，你让它做什么，它就能给你做出来。一旦人们见识到这种魔力，价值就体现出来了。\n“以前那种标准产出物，比如一份演示文稿，现在正变成一个网站。”\n💡 你在设计一个能制造产品的产品\n当产品能创造出无限多种东西时，设计挑战变成了元设计：怎么在简洁和能力之间找到平衡。界面需要在用户表达需求时出现，然后就得退到一边去，用展示而非说教的方式让用户自己发现下一个用例。\n“我们一直在努力寻找的平衡点是：怎么给用户一个恰到好处的界面，让他们能表达自己的想法，然后界面就得退到一边去。”\n💡 区分“动作”和“进展”\n管理者最容易掉进的坑，是把“动作”和“进展”混为一谈。现在工具太强大了，做出“动作”比以前任何时候都容易，但“进展”需要你非常明确、有意识地去想清楚到底要达成什么。\n“这个坑可能是把‘动作’和‘进展’混为一谈了。因为现在工具很强大，做出‘动作’比以前任何时候都容易。”\n💡 尝试次数才是衡量团队的新标准\n当代码行数、PR 数量这些替代指标开始失效，Akshay 更看重“尝试次数”：团队能不能高效地走完从想法、构建、反馈、调整到验证假设的完整循环，并且在整个过程中保持动力和兴奋感。\n“我们团队有没有在培养一种能力，不只是追求尝试的数量，更是追求尝试的质量？”\n💡 持续拓展想象的边界\nAkshay 给重度用户最大的建议是：不断去尝试那些你以前觉得模型绝对做不到的事。他举例说，六个月前 AI 写评审还完全没用，现在却能抓取代码、Slack、评审记录等所有上下文，做得比人还好。\n“技术进步太快了，有些事哪怕三个月前，你还会觉得不可能，模型绝对做不到。但现在，你会惊叹，哇，居然真的可以。”\n🌐 播客信息补充\n本播客采用原有人声声线进行播客音频制作，也可能会有一些地方听起来怪怪的\n使用 AI 进行翻译，因此可能会有一些地方不通顺；\n如果有后续想要听中文版的其他外文播客，也欢迎联系微信：iEvenight\n\n在小宇宙查看该单集文稿",
-      "publishedAt": "2026-07-29T11:13:53+00:00",
+      "episodeTitle": "#653.Sam Altman 谈通用人工智能、算力与人类自主权",
+      "description": "📝 本期播客简介\n本期我们克隆了：知名播客 Invest Like The Best Sam Altman on AGI, Compute, and Human Agency\n原内容更新时间：2026-07-28\n本期嘉宾是 OpenAI 的 CEO Sam Altman，主持人是 Patrick O'Shaughnessy。这期对谈发生在 2026 年 7 月，正值 OpenAI 经历战略大调整之后。Sam 坦诚地回顾了过去一年 OpenAI 从\"摊子铺得太大\"到\"重新聚焦做最好、最充裕、最具成本效益的智能\"的艰难过程，并分享了他在算力竞赛、通用人工智能临近感、以及 AI 时代人类自主性等核心议题上的最新思考。\n这期节目不只是关于 OpenAI 的战略，更是一场关于 AI 时代权力、责任与人类未来的深度对话。Sam 罕见地谈到了他对 AI 权力集中的恐惧、对\"AI 霸主\"世界的拒绝，以及为什么在技术加速的时代，保住人类共同决定自己未来的能力比以往任何时候都重要。如果你关心 AI 将如何重塑经济、就业、竞争格局和人类自身的角色，这期会提供大量一手洞察和高密度判断。\n👨‍⚕️ 本期嘉宾\nSam Altman，OpenAI 联合创始人兼 CEO。他是当前人工智能领域最核心的领导者之一，带领 OpenAI 推动了 ChatGPT 等产品的诞生，深刻影响了全球对 AI 的认知。在创办 OpenAI 之前，他曾担任 Y Combinator 的总裁，是一位经验丰富的创业者和投资人。Sam 以对技术趋势的敏锐判断、对通用人工智能的坚定追求，以及在 AI 安全与治理上的直言不讳而闻名。\n⏱️ 时间戳\n开场 & 战略聚焦\n00:00 本期克隆节目介绍\n01:52 过去一年为什么艰难：摊子铺太大，不够聚焦\n02:59 2025 年初的转折点：算力需求远超预期\n04:05 OpenAI 的核心业务：销售 AI，让人们创造不可思议的东西\n算力竞赛与数据中心\n05:14 早期锁定算力的疯狂故事：所有人都觉得我们疯了\n07:21 从 GPT-4 开始真正坚定信念\n08:11 给云厂商、芯片厂、能源供应商打电话，大多数人拒绝\n08:58 吉瓦级数据中心的规模：一万名建筑工人干一年半\n竞争、蒸馏与开源\n11:56 Kimi 发布：如何看待蒸馏和开源模型的竞争\n13:03 对蒸馏问题的淡定：不在十大担忧清单上\n14:55 真正的担忧：Hugging Face 安全事件\n通用人工智能与人类自主性\n16:13 OpenAI 的使命：人类历史上最伟大的技术成就\n17:49 AI 带来的权力集中是件非常可怕的事\n19:08 精灵的比喻：我们即将创造出一个能实现任何愿望的精灵\n20:26 GPT 5.6 已经非常接近通用人工智能\n研究、就业与人类角色\n21:00 瓶颈一直在变：算力、研究思路、数据\n23:32 AI 对就业的影响：为什么经济没有被颠覆\n26:00 活在这个时代的感觉：人几乎什么都能适应\n29:12 这种新智能的本质：非常异类的智能\n机器人、产品与未来\n33:52 机器人的\"ChatGPT 时刻\"会在两三年内到来\n35:19 ChatGPT 诞生的故事：原本只是个研究预览版\n42:06 未来 6 到 36 个月会发生什么\n45:28 最有趣的开放问题：如何避免认知衰退\n🌟 精彩内容\n💡 \"我们即将创造出一个能实现任何愿望的精灵\"\nSam 用\"精灵\"比喻即将到来的通用人工智能，但强调第一批愿望应该让整个世界受益。他担心的是，人们用对 AI 的恐惧作为理由，将权力集中在一小部分人手中。\n\"我觉得没人会想活在一个被 AI 霸主统治的世界里，或者被一家差不多等同于 AI 霸主的公司所控制。\"\n💡 AI 产品不是造桥，而是酿啤酒\nSam 解释了为什么 AI 时代必须极度聚焦：你只能去做那少数几件真正伟大的事。OpenAI 砍掉了大量业务，重新聚焦到一件事上——做出最好、最充裕、最具成本效益的智能。\n\"我们正处在一个不可思议的历史时刻，你只能去做那少数几件真正伟大的事。\"\n💡 瓶颈永远都在，只是在不同地方转移\n从研究思路到算力到数据，OpenAI 的瓶颈一直在变。Sam 透露，现在为下一轮训练做风险对冲的规模，已经跟 18 个月前整轮训练的算力差不多大。\n\"算力越多，研究就能做得越好，你能尝试的东西也更多。\"\n💡 人类价值观之所以有价值，就因为它是人类的\nSam 观察到，尽管 AI 能力飞速提升，人们仍然更信任和享受与其他人一起工作。他举了艺术品的例子：签名占了大部分价值，因为你想了解作品背后的人。\n\"人们非常信任并且享受与其他人一起工作。我自己也绝对更愿意跟人打交道，而不是跟 AI。\"\n💡 最好的公司几乎从来都不是那些看起来很热门的\nSam 从彼得·蒂尔和保罗·格雷厄姆那里学到：要想做得极其出色，你几乎总是得做一些跟别人不一样的事。跟着趋势走只能做得还行。\n\"你不能只是跟着新浪潮走。\"\n💡 有孩子之后，更在乎人类自主性和充实人生的意义\nSam 罕见地谈到为人父如何改变了他对 AI 使命的思考。他不需要孩子来提醒他不想毁灭世界，但确实比以前更多地思考人类自主性的角色。\n\"这种同理心会延伸到所有孩子，然后可能是所有父母，再然后可能是所有人。\"\n💡 去做有意义的事，去做真正重要的事\nSam 最常给创业者的建议是：去做更难的事。如果这件事你不做，如果你的公司没做成，它可能就永远不会发生了。\n\"一个雄心勃勃、甚至有点大胆到离谱的愿景，本身就是非常强大的招聘工具。\"\n💡 人几乎什么都能适应，经历\"奇点\"并没有感觉更怪异\nSam 分享了一个深刻的观察：人类适应变化的能力超乎想象。从疫情封锁到通用人工智能临近，人们很快就调整过来了。\n\"看着模型不断变强，兴奋感一点没少。我每天早上起来第一件事，就是看模型训练的进展。\"\n🌐 播客信息补充\n本播客采用原有人声声线进行播客音频制作，也可能会有一些地方听起来怪怪的\n使用 AI 进行翻译，因此可能会有一些地方不通顺；\n如果有后续想要听中文版的其他外文播客，也欢迎联系微信：iEvenight\n\n在小宇宙查看该单集文稿",
+      "publishedAt": "2026-07-30T01:09:25+00:00",
       "rssUrl": "https://feed.xyzfm.space/r8t44lmvu99m",
       "coverImageUrl": "https://image.xyzcdn.net/FgPi3C76e0yvQlUYo8TDbk1GTgp8.png",
       "coverText": "跨国",
       "coverBg": "bg-[#18181B]",
       "coverTextColor": "text-amber-50",
-      "whyRecommended": "适合AI产品经理与知识工作者，从OpenAI产品负责人的一手经验中理解AI如何重塑工作流与生产力。",
+      "whyRecommended": "适合关注AI战略与人类未来的听众，SamAltman罕见分享对权力集中与自主性的深度思考。",
       "viewpoints": [
-        "瓶颈会变成想法和品味",
-        "网站正在取代PPT和Excel成为新产出物",
-        "区分动作与进展，尝试次数是衡量团队新标准"
+        "OpenAI从摊子铺太大到重新聚焦智能",
+        "吉瓦级数据中心规模与算力竞赛",
+        "AI时代人类自主性与权力集中担忧"
       ],
       "goldenQuotes": [
         {
-          "quote": "瓶颈永远是你的想法数量和手头在做的事情。",
+          "quote": "我们即将创造出一个能实现任何愿望的精灵",
           "source": "来自本期 shownote",
           "source_note": "来自本期 shownote"
         },
         {
-          "quote": "默认设置应该能覆盖绝大多数使用场景。所以我对大多数人的建议就是，用默认的就好。",
+          "quote": "人们非常信任并且享受与其他人一起工作",
           "source": "来自本期 shownote",
           "source_note": "来自本期 shownote"
         }
       ],
-      "triageTag": "📖值得精听｜OpenAI产品负责人谈AI",
-      "href": "cosmos://page.cos/episode/6a69df93b581962ce2bd6935?utm_source=rss",
+      "triageTag": "📖值得精听｜Sam",
+      "href": "cosmos://page.cos/episode/6a6aa338b581962ce2bda1bf?utm_source=rss",
       "scenario": "",
-      "whyRecommend": "适合AI产品经理与知识工作者，从OpenAI产品负责人的一手经验中理解AI如何重塑工作流与生产力。",
-      "goldenQuote": "瓶颈永远是你的想法数量和手头在做的事情。",
-      "topicTag": "📖值得精听｜OpenAI产品负责人谈AI"
+      "whyRecommend": "适合关注AI战略与人类未来的听众，SamAltman罕见分享对权力集中与自主性的深度思考。",
+      "goldenQuote": "我们即将创造出一个能实现任何愿望的精灵",
+      "topicTag": "📖值得精听｜Sam"
+    },
+    {
+      "episodeId": "6a6aaf0256a3f3491ba73198",
+      "podcastName": "跨国串门儿计划",
+      "episodeTitle": "#654.Huberman Lab: 关于您的顶级健康问题解答",
+      "description": "📝 本期播客简介\n本期我们克隆了：知名播客 Andrew Huberman Your Top Health Questions Answered\n原内容更新时间：2026-07-27\n本期是斯坦福大学神经生物学教授安德鲁·休伯曼的一期特别单口节目。他没有邀请嘉宾，而是首次在节目中实时回答听众通过语音留言提出的各种健康与科学问题。这些问题涵盖范围极广，从深夜训练后如何保证睡眠、有哪些不影响睡眠的训练前补剂，到神经科学支持的记忆力与嗅觉提升方法，再到男女生育营养、围绝经期与心理健康的关联，以及如何找到人生真正的热情。\n休伯曼教授以他一贯的深度与严谨，将复杂的神经科学机制拆解成普通人也能理解和应用的具体工具。他不仅给出了基于文献的答案，还反复强调“优化”不等于僵化，真正的健康方案必须适应每个人独特的生活阶段和限制。如果你正在寻找一套既有科学依据、又充满人性关怀的健康与生活指南，这期节目会给你带来巨大的收获。\n👨‍⚕️ 本期嘉宾\n安德鲁·休伯曼（Andrew Huberman），斯坦福大学医学院神经生物学与眼科学教授。他的播客《Huberman Lab》是全球最受欢迎的健康与科学节目之一，专注于将复杂的神经科学、生理学研究成果转化为普通人可以日常使用的工具。他长期研究大脑可塑性、视觉系统以及压力与睡眠的神经机制。\n⏱️ 时间戳\n开场 & 节目形式介绍\n00:00 节目开场：跨国串门计划介绍\n00:33 本期克隆节目介绍：Huberman Lab 特别问答节目\n01:10 休伯曼开场：这是一期实时回答听众语音问题的单口节目\n深夜训练与睡眠：如何两全其美\n02:36 听众问题：晚上训练后一个半小时就要睡觉，什么补剂能提升力量又不影响睡眠？\n04:19 咖啡因的禁忌：睡前8-10小时内摄入会扰乱睡眠\n04:47 核心推荐：Alpha GPC 既能提升训练专注度，又能增加REM睡眠\n07:03 关键风险：Alpha GPC 可能升高TMAO水平，需用大蒜提取物抵消\n09:42 训练后助眠：洗热水澡与长呼气呼吸法\n晨间光照与昼夜节律\n13:54 听众问题：早上看西边的天空，能重置昼夜节律吗？\n14:21 任何环境日光都有益：光子数量是关键，不必非得看到太阳\n16:35 清晨光照的核心机制：让促兴奋化学物质早上达峰，为夜晚睡眠铺路\n18:18 昼夜节律的灵活性：视交叉上核整合的是过去两三天的光照情况\n健康优化的边界：何时会弊大于利\n20:29 听众问题：当长寿方案本身变成压力来源，优化何时会适得其反？\n21:32 优化的本质：把每一天当作独立单元，适应现实限制\n25:27 过度优化的根源：觉得必须时时刻刻做所有事\n27:13 解决优化焦虑的三种方法：改变态度、评估可持续性、检查怨恨情绪\n神经科学支持的记忆力与嗅觉提升法\n30:40 听众问题：从神经科学角度看，改善记忆力和嗅觉的顶级技巧是什么？\n33:32 记忆编码的第一步：保持警觉与专注\n36:21 学习的核心机制：你必须犯错，把自己逼到能力极限之外\n38:18 最被忽视的强大方法：自我测试\n42:23 提升嗅觉：用不同气味进行多次嗅闻训练\n男女生育力：营养与补剂的科学建议\n47:21 听众问题：哪些特定食物能真正提升男性或女性的生育能力？\n47:48 热量平衡原则：需要足够热量保证生育，但又不能过剩\n51:01 外源性睾酮的警告：一定会降低精子数量\n53:24 低炎症饮食：高微量营养素、低糖发酵食品是关键\n57:27 共识补剂：左旋肉碱和辅酶Q10对精子与卵子质量有益\n围绝经期与心理健康\n01:00:12 听众问题：围绝经期对心理健康的实际影响是什么？惊恐发作与此有关吗？\n01:03:47 激素变化与焦虑的关联：绝对存在\n01:05:35 激素替代疗法的重新评估：早期研究结论有缺陷，时机和剂量至关重要\n手术恢复与肌肉保留\n01:11:12 听众问题：肾脏捐献手术后如何尽可能保留肌肉？\n01:11:59 术前准备：以最佳体能和休息状态进入手术\n01:14:49 术后恢复的关键：尽快建立正常的昼夜节律\n01:16:21 肌肉记忆的真相：重新获得力量和肌肉尺寸比第一次容易得多\n如何找到人生真正的热情\n01:18:59 听众问题：一个人怎样才能找到自己真正热爱的东西？\n01:20:29 找到热情的第一步：继续有结构地安排日常生活\n01:22:20 斯特拉默法则：没有输入，就没有输出\n01:23:31 两大禁忌：远离是非，别让自己麻木\n01:26:30 先当学徒：掌握核心基本功之前，别急着带入个人风格\n🌟 精彩内容\n💡 Alpha GPC：既能提神又能助眠的独特补剂\n休伯曼指出，大多数兴奋剂都会干扰睡眠，但Alpha GPC通过提高乙酰胆碱水平来提升专注力，同时还能适度增加REM睡眠。不过它可能升高TMAO水平，带来心血管风险，因此建议同时服用大蒜提取物来抵消。\n\"Alpha GPC也是我所知的少数几种能增加快速眼动睡眠，也就是REM睡眠的补充剂之一。\"\n💡 记忆力的核心秘密：自我测试与主动犯错\n神经可塑性发生的前提是，你的神经系统必须被逼到能力极限之外。最有效的学习方法不是反复阅读或划重点，而是进行自我测试，并在想不起来的时候允许自己犯错，那个\"卡住\"的瞬间正是大脑准备重塑的时刻。\n\"当你失败、当你搞砸的时候，这会通过一套非常有趣的回路发出信号……你大脑的其他部分就得重塑自己。\"\n💡 优化的本质是灵活，而非僵化\n面对\"方案过载\"带来的焦虑，休伯曼强调真正的优化是把每一天当作独立单元，根据当天的限制条件做出最好的选择。如果对某个方案感到怨恨，就需要重新评估。不要为做自己而道歉。\n\"优化不是要僵化，而是要灵活适应。……你是你自己的主人。你为自己负责。\"\n💡 找到热情的配方：没有输入，就没有输出\n休伯曼引用碰撞乐队乔·斯特拉默的法则，强调必须保持对世界积极的兴趣，去接触那些能触动你、唤醒你的事物。同时，在走上任何一条路之后，都必须先经历\"砍柴挑水\"的阶段，掌握核心基本功，然后才能在上面打上自己独特的印记。\n\"你得先当学徒。……你不能一上来就说，我就是我，我要改变游戏规则。不行，得先砍柴挑水。\"\n💡 晨间光照不必完美，但要坚持\n很多人纠结于必须看到东边的太阳，但休伯曼解释，任何环境日光都比室内强得多，关键是让足够的光子进入眼睛。你的生物钟整合的是过去两三天的光照情况，所以偶尔错过一天完全没关系。\n\"你对比一下，比如在隆冬时节，一个阴天的早上九点，你面朝西边，这时的亮度，和前一天半夜的亮度相比，要亮得多，光子数量要多得多。\"\n💡 低糖发酵食品：被严重忽视的抗炎利器\n在讨论生育营养时，休伯曼特别强调了低糖发酵食品的价值。斯坦福的研究表明，每天摄入几份低糖发酵食品（如保加利亚酸奶、酸菜、泡菜）能显著降低多项炎症指标，这对整体健康和生育能力都至关重要。\n\"低糖发酵食品组的好多项炎症指标都显著下降了。……低糖发酵食品这个建议，我自己肯定是已经采纳了。\"\n💡 日落婚礼比日出婚礼更科学\n当被问到婚礼该选日出还是日落时，休伯曼从睡眠类型学出发，指出大多数人属于中间型或夜猫子，让人提前打起精神比让人稍微熬晚一点困难得多。傍晚的活动对所有宾客的昼夜节律都更友好。\n\"让人提前打起精神，在比平时起床时间更早的时候保持清醒和警觉，就非常困难了。\"\n🌐 播客信息补充\n本播客采用原有人声声线进行播客音频制作，也可能会有一些地方听起来怪怪的\n使用 AI 进行翻译，因此可能会有一些地方不通顺；\n如果有后续想要听中文版的其他外文播客，也欢迎联系微信：iEvenight\n\n在小宇宙查看该单集文稿",
+      "publishedAt": "2026-07-30T02:02:04+00:00",
+      "rssUrl": "https://feed.xyzfm.space/r8t44lmvu99m",
+      "coverImageUrl": "https://image.xyzcdn.net/FgPi3C76e0yvQlUYo8TDbk1GTgp8.png",
+      "coverText": "跨国",
+      "coverBg": "bg-[#18181B]",
+      "coverTextColor": "text-amber-50",
+      "whyRecommended": "适合关注睡眠、记忆与生育健康的听众，用一场问答串起神经科学实用工具与生活智慧。",
+      "viewpoints": [
+        "Alpha GPC 提升专注且增加REM睡眠",
+        "自我测试是记忆编码的核心方法",
+        "低糖发酵食品显著降低炎症指标"
+      ],
+      "goldenQuotes": [
+        {
+          "quote": "优化不是要僵化，而是要灵活适应。……你是你自己的主人。你为自己负责。",
+          "source": "来自本期 shownote",
+          "source_note": "来自本期 shownote"
+        }
+      ],
+      "triageTag": "📖值得精听｜Huberman",
+      "href": "cosmos://page.cos/episode/6a6aaf0256a3f3491ba73198?utm_source=rss",
+      "scenario": "",
+      "whyRecommend": "适合关注睡眠、记忆与生育健康的听众，用一场问答串起神经科学实用工具与生活智慧。",
+      "goldenQuote": "优化不是要僵化，而是要灵活适应。……你是你自己的主人。你为自己负责。",
+      "topicTag": "📖值得精听｜Huberman"
     }
   ],
   "synthesis": null

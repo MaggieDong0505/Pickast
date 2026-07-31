@@ -1,5 +1,81 @@
 [
   {
+    "title": "AI时代如何保持人类判断力？",
+    "domainTag": "AI与社会",
+    "consensus": [
+      {
+        "podcast": "诗梳风",
+        "point": "认知偏见是人性一部分，不是待克服障碍",
+        "episodeId": "6a60efaaa3fec224d5a1cc07"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "人类价值观因是人类的才有价值",
+        "episodeId": "6a6aa338b581962ce2bda1bf"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-08-01T06:12:01.373290+08:00",
+    "updatedAt": "2026-08-01T06:12:01.373290+08:00"
+  },
+  {
+    "title": "AI时代如何保持创造力？",
+    "domainTag": "AI与创意",
+    "consensus": [
+      {
+        "podcast": "硅谷101",
+        "point": "内容工程师将新闻训练转化为AI对话能力",
+        "episodeId": "5aeaeb64-9165-4271-9884-23329b511e11"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI消除任务不消除工作，积压需求被释放",
+        "episodeId": "6a6a2a8c56a3f3491ba717f4"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-08-01T06:12:01.373290+08:00",
+    "updatedAt": "2026-08-01T06:12:01.373290+08:00"
+  },
+  {
+    "title": "AI时代如何找到职业新定位？",
+    "domainTag": "AI与职场",
+    "consensus": [
+      {
+        "podcast": "整点亮话",
+        "point": "AI岗位增长冲击普通岗位，招聘市场错位",
+        "episodeId": "6a6633eda3fec224d5a3b793"
+      },
+      {
+        "podcast": "不被定义的职场",
+        "point": "离开平台后需重新定义自己是谁",
+        "episodeId": "6a5cf508a3fec224d5a00e76"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-08-01T06:12:01.373290+08:00",
+    "updatedAt": "2026-08-01T06:12:01.373290+08:00"
+  },
+  {
+    "title": "情绪稳定是健康还是压抑？",
+    "domainTag": "心理健康",
+    "consensus": [
+      {
+        "podcast": "about热水频道",
+        "point": "情绪稳定不等于情绪健康，消极情绪需被允许",
+        "episodeId": "6a60ae3aa3fec224d5a1ac6e"
+      },
+      {
+        "podcast": "其他垃圾",
+        "point": "情绪稳定可能只是老了，不再自恋",
+        "episodeId": "6a5a1af26356eb2d9be4352a"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-08-01T06:12:01.373290+08:00",
+    "updatedAt": "2026-08-01T06:12:01.373290+08:00"
+  },
+  {
     "title": "AIAgent真的能替代人类工作吗？",
     "domainTag": "AI与职场",
     "consensus": [
@@ -591,62 +667,5 @@
     "divergence": [],
     "createdAt": "2026-07-10T06:38:32.888043+08:00",
     "updatedAt": "2026-07-10T06:38:32.888043+08:00"
-  },
-  {
-    "title": "AI时代如何重新定义产品？",
-    "domainTag": "产品设计",
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "实现成本降低，品味和判断力成为稀缺资源",
-        "episodeId": "6a43a9699d2f574368405276"
-      },
-      {
-        "podcast": "十字路口Crossing",
-        "point": "GUI退场，Headless和CLI成为新交互范式",
-        "episodeId": "6a4511d92e335a35a80c8431"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-07-09T06:14:01.864425+08:00",
-    "updatedAt": "2026-07-09T06:14:01.864425+08:00"
-  },
-  {
-    "title": "女性适合低碳轻断食吗？",
-    "domainTag": "健康",
-    "consensus": [
-      {
-        "podcast": "纵横四海",
-        "point": "女性不适合低碳和轻断食，会触发饥荒方案伤害身体",
-        "episodeId": "6a3fd0302e335a35a80a47d3"
-      },
-      {
-        "podcast": "碳基生物生存指南",
-        "point": "代谢研究缺乏女性数据，断食对女性影响未知",
-        "episodeId": "6a4e482a2e335a35a8102bc7"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-07-09T06:14:01.864425+08:00",
-    "updatedAt": "2026-07-09T06:14:01.864425+08:00"
-  },
-  {
-    "title": "AI时代组织如何变革？",
-    "domainTag": "管理与组织",
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "创始人模式需要极度专注和直觉决策",
-        "episodeId": "6a3d274f9d2f5743683dd631"
-      },
-      {
-        "podcast": "42章经",
-        "point": "创业公司80%时间应花在招聘上",
-        "episodeId": "6a3e50142e335a35a809d5b4"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-07-08T06:18:25.029570+08:00",
-    "updatedAt": "2026-07-08T06:18:25.029570+08:00"
   }
 ]

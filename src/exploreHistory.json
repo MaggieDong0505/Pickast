@@ -1,5 +1,121 @@
 [
   {
+    "generatedAt": "2026-08-01T06:12:01.373290+08:00",
+    "title": "情绪稳定是健康还是压抑？",
+    "domainTag": "心理健康",
+    "podcasts": [
+      "about热水频道",
+      "其他垃圾"
+    ],
+    "episodeIds": [
+      "6a5a1af26356eb2d9be4352a",
+      "6a60ae3aa3fec224d5a1ac6e"
+    ],
+    "consensus": [
+      {
+        "podcast": "about热水频道",
+        "point": "情绪稳定不等于情绪健康，消极情绪需被允许",
+        "episodeId": "6a60ae3aa3fec224d5a1ac6e"
+      },
+      {
+        "podcast": "其他垃圾",
+        "point": "情绪稳定可能只是老了，不再自恋",
+        "episodeId": "6a5a1af26356eb2d9be4352a"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:76873155d08d94806df86c6963c39e7c817973d3703b61b6b96f732302f3460f",
+    "createdAt": "2026-08-01T06:12:01.373290+08:00",
+    "updatedAt": "2026-08-01T06:12:01.373290+08:00"
+  },
+  {
+    "generatedAt": "2026-08-01T06:12:01.373290+08:00",
+    "title": "AI时代如何找到职业新定位？",
+    "domainTag": "AI与职场",
+    "podcasts": [
+      "不被定义的职场",
+      "整点亮话"
+    ],
+    "episodeIds": [
+      "6a5cf508a3fec224d5a00e76",
+      "6a6633eda3fec224d5a3b793"
+    ],
+    "consensus": [
+      {
+        "podcast": "整点亮话",
+        "point": "AI岗位增长冲击普通岗位，招聘市场错位",
+        "episodeId": "6a6633eda3fec224d5a3b793"
+      },
+      {
+        "podcast": "不被定义的职场",
+        "point": "离开平台后需重新定义自己是谁",
+        "episodeId": "6a5cf508a3fec224d5a00e76"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:65b7505398bfde3461494d612960cbee4a15c17f0413ace13ff7e013f5285692",
+    "createdAt": "2026-08-01T06:12:01.373290+08:00",
+    "updatedAt": "2026-08-01T06:12:01.373290+08:00"
+  },
+  {
+    "generatedAt": "2026-08-01T06:12:01.373290+08:00",
+    "title": "AI时代如何保持创造力？",
+    "domainTag": "AI与创意",
+    "podcasts": [
+      "硅谷101",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "5aeaeb64-9165-4271-9884-23329b511e11",
+      "6a6a2a8c56a3f3491ba717f4"
+    ],
+    "consensus": [
+      {
+        "podcast": "硅谷101",
+        "point": "内容工程师将新闻训练转化为AI对话能力",
+        "episodeId": "5aeaeb64-9165-4271-9884-23329b511e11"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI消除任务不消除工作，积压需求被释放",
+        "episodeId": "6a6a2a8c56a3f3491ba717f4"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:dd17f93a6edb81efbec6563055a95d6bfa00568f04c407a52051e34c78a567bf",
+    "createdAt": "2026-08-01T06:12:01.373290+08:00",
+    "updatedAt": "2026-08-01T06:12:01.373290+08:00"
+  },
+  {
+    "generatedAt": "2026-08-01T06:12:01.373290+08:00",
+    "title": "AI时代如何保持人类判断力？",
+    "domainTag": "AI与社会",
+    "podcasts": [
+      "诗梳风",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a60efaaa3fec224d5a1cc07",
+      "6a6aa338b581962ce2bda1bf"
+    ],
+    "consensus": [
+      {
+        "podcast": "诗梳风",
+        "point": "认知偏见是人性一部分，不是待克服障碍",
+        "episodeId": "6a60efaaa3fec224d5a1cc07"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "人类价值观因是人类的才有价值",
+        "episodeId": "6a6aa338b581962ce2bda1bf"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:d97d58f2b2267cd26ba0472e64f8cc8331b29a93986e2a8d6130f59b42dd6632",
+    "createdAt": "2026-08-01T06:12:01.373290+08:00",
+    "updatedAt": "2026-08-01T06:12:01.373290+08:00"
+  },
+  {
     "generatedAt": "2026-07-31T06:14:22.960077+08:00",
     "title": "AIAgent真的能替代人类工作吗？",
     "domainTag": "AI与职场",
@@ -786,136 +902,5 @@
     "fingerprint": "v1:027f8b40628d42315f1a72cc7f3330f31f76eb1ba203c9d0e9111ea1a7bfdf3f",
     "createdAt": "2026-07-13T05:58:34.381241+08:00",
     "updatedAt": "2026-07-13T05:58:34.381241+08:00"
-  },
-  {
-    "generatedAt": "2026-07-12T05:57:44.294747+08:00",
-    "title": "AI应用层现在是创业好时机吗？",
-    "domainTag": "AI创业",
-    "podcasts": [
-      "十字路口Crossing",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "6a4511d92e335a35a80c8431",
-      "6a50a4fb1e32575f5eb4424d"
-    ],
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "基础设施已就位，应用层爆发时机成熟",
-        "episodeId": "6a50a4fb1e32575f5eb4424d"
-      },
-      {
-        "podcast": "十字路口Crossing",
-        "point": "Agent元年500天，GUI退场，应用层机会涌现",
-        "episodeId": "6a4511d92e335a35a80c8431"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:484e4b095bf5ef89ed9bf9f08bc2e4705189857f229899cd5ba5ebfbbfee3f8e",
-    "createdAt": "2026-07-12T05:57:44.294747+08:00",
-    "updatedAt": "2026-07-12T05:57:44.294747+08:00"
-  },
-  {
-    "generatedAt": "2026-07-11T06:12:04.672344+08:00",
-    "title": "AI基础设施是泡沫吗？",
-    "domainTag": "AI投资",
-    "podcasts": [
-      "十分吸引",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "6a4a188e2e335a35a80e4c2b",
-      "6a4e056e3fb7233cbf45af42"
-    ],
-    "consensus": [],
-    "divergence": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "不是泡沫，是两条hockey stick叠加的革命",
-        "episodeId": "6a4e056e3fb7233cbf45af42"
-      },
-      {
-        "podcast": "十分吸引",
-        "point": "是理性泡沫期，需警惕算力租赁价格暴跌",
-        "episodeId": "6a4a188e2e335a35a80e4c2b"
-      }
-    ],
-    "fingerprint": "v1:d088d311e6c097a3b73a93b9de74106e40b315e6cb30ad37426b7b1f0726a0ba",
-    "createdAt": "2026-07-11T06:12:04.672344+08:00",
-    "updatedAt": "2026-07-11T06:12:04.672344+08:00"
-  },
-  {
-    "generatedAt": "2026-07-11T06:12:04.672344+08:00",
-    "title": "世界杯背后的经济版图是什么？",
-    "domainTag": "体育经济",
-    "podcasts": [
-      "十分吸引",
-      "声动早咖啡",
-      "硅谷101",
-      "贝望录"
-    ],
-    "episodeIds": [
-      "6a3fd78c2e335a35a80a4b21",
-      "6a4a188e2e335a35a80e4c2b",
-      "6a4cf04c3fb7233cbf453b07",
-      "d65f1b49-9e97-4892-bc64-55f5f0b39906"
-    ],
-    "consensus": [
-      {
-        "podcast": "硅谷101",
-        "point": "美国资本渗透全球足坛，英超11支球队被美资控股",
-        "episodeId": "d65f1b49-9e97-4892-bc64-55f5f0b39906"
-      },
-      {
-        "podcast": "十分吸引",
-        "point": "48支参赛国是浓缩的全球经济地图，GDP大国缺席",
-        "episodeId": "6a4a188e2e335a35a80e4c2b"
-      }
-    ],
-    "divergence": [
-      {
-        "podcast": "声动早咖啡",
-        "point": "事件预测平台Kalshi登上世界杯赞助商，挑战传统博彩",
-        "episodeId": "6a4cf04c3fb7233cbf453b07"
-      },
-      {
-        "podcast": "贝望录",
-        "point": "英国四支国家队反映联合不等于融合的国家认同",
-        "episodeId": "6a3fd78c2e335a35a80a4b21"
-      }
-    ],
-    "fingerprint": "v1:74f76cb37869184277eb39ab045bf48d98e90a47093c033f5e897167630b95b5",
-    "createdAt": "2026-07-11T06:12:04.672344+08:00",
-    "updatedAt": "2026-07-11T06:12:04.672344+08:00"
-  },
-  {
-    "generatedAt": "2026-07-10T06:38:32.888043+08:00",
-    "title": "AI时代品味比技术更重要吗？",
-    "domainTag": "AI产品",
-    "podcasts": [
-      "硅谷101",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "308f9278-dd48-44d3-a4ce-ee436968fc28",
-      "6a43a9699d2f574368405276"
-    ],
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "品味和判断力是AI时代最稀缺的资源",
-        "episodeId": "6a43a9699d2f574368405276"
-      },
-      {
-        "podcast": "硅谷101",
-        "point": "模型需要像科学家一样有品味和判断力",
-        "episodeId": "308f9278-dd48-44d3-a4ce-ee436968fc28"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:e21b7833f24aef2289e9a5c7225bfdf1c909fb9044c376e14ed71eadf1b5f26a",
-    "createdAt": "2026-07-10T06:38:32.888043+08:00",
-    "updatedAt": "2026-07-10T06:38:32.888043+08:00"
   }
 ]
