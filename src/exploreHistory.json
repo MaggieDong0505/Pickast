@@ -1,5 +1,63 @@
 [
   {
+    "generatedAt": "2026-08-02T06:02:57.675003+08:00",
+    "title": "开源模型会颠覆闭源巨头吗？",
+    "domainTag": "AI竞争格局",
+    "podcasts": [
+      "硅谷101",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "5fd236d7-9a72-4b15-9e84-e83ceadd1b41",
+      "6a5f8f00a3fec224d5a13421"
+    ],
+    "consensus": [
+      {
+        "podcast": "硅谷101",
+        "point": "中国开放模型逼近前沿，冲击闭源商业模式",
+        "episodeId": "5fd236d7-9a72-4b15-9e84-e83ceadd1b41"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "Kimi K3开源引发硅谷恐慌，模型商品化加速",
+        "episodeId": "6a5f8f00a3fec224d5a13421"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:981efb60218642f198692175ef945831196aa413583b7a658ebd19bd0b160df4",
+    "createdAt": "2026-08-02T06:02:57.675003+08:00",
+    "updatedAt": "2026-08-02T06:02:57.675003+08:00"
+  },
+  {
+    "generatedAt": "2026-08-02T06:02:57.675003+08:00",
+    "title": "AIAgent支付会成新基建吗？",
+    "domainTag": "AI与金融",
+    "podcasts": [
+      "What's Next｜科技早知道",
+      "十字路口Crossing"
+    ],
+    "episodeIds": [
+      "6a6320d16356eb2d9be7bd07",
+      "9a652c19-ceb3-46c2-87b4-bca36e684311"
+    ],
+    "consensus": [
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "Visa、Stripe、Google同时布局Agent支付",
+        "episodeId": "9a652c19-ceb3-46c2-87b4-bca36e684311"
+      },
+      {
+        "podcast": "十字路口Crossing",
+        "point": "AI正在把全球金融推向关键拐点",
+        "episodeId": "6a6320d16356eb2d9be7bd07"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:5537925292bade9bf2c4068366997ff05f76edb17f1f2388284b26b80758f27f",
+    "createdAt": "2026-08-02T06:02:57.675003+08:00",
+    "updatedAt": "2026-08-02T06:02:57.675003+08:00"
+  },
+  {
     "generatedAt": "2026-08-01T06:12:01.373290+08:00",
     "title": "情绪稳定是健康还是压抑？",
     "domainTag": "心理健康",
@@ -842,64 +900,6 @@
     ],
     "divergence": [],
     "fingerprint": "v1:dde1a11efca43e6d26678fed48871d097c12822a3c0042bad842f003fff06f13",
-    "createdAt": "2026-07-13T05:58:34.381241+08:00",
-    "updatedAt": "2026-07-13T05:58:34.381241+08:00"
-  },
-  {
-    "generatedAt": "2026-07-13T05:58:34.381241+08:00",
-    "title": "AI时代如何重新理解月经健康？",
-    "domainTag": "女性健康",
-    "podcasts": [
-      "about热水频道",
-      "碳基生物生存指南"
-    ],
-    "episodeIds": [
-      "6a4528689d2f57436841085b",
-      "6a4e482a2e335a35a8102bc7"
-    ],
-    "consensus": [
-      {
-        "podcast": "碳基生物生存指南",
-        "point": "月经是第五项生命体征，能反映整体健康状态",
-        "episodeId": "6a4e482a2e335a35a8102bc7"
-      },
-      {
-        "podcast": "about热水频道",
-        "point": "子宫内膜异位症发病率10-15%，但了解不多，需警惕六大症状",
-        "episodeId": "6a4528689d2f57436841085b"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:e268f27ff6fa2850e9bbd4d04d0f202bb3bfd092129498b7be4d356e6c2e9f83",
-    "createdAt": "2026-07-13T05:58:34.381241+08:00",
-    "updatedAt": "2026-07-13T05:58:34.381241+08:00"
-  },
-  {
-    "generatedAt": "2026-07-13T05:58:34.381241+08:00",
-    "title": "AI时代如何重新定义个人IP？",
-    "domainTag": "个人品牌",
-    "podcasts": [
-      "不被定义的职场",
-      "搞钱女孩"
-    ],
-    "episodeIds": [
-      "6a4565062e335a35a80ca215",
-      "6a5102881e32575f5eb47339"
-    ],
-    "consensus": [
-      {
-        "podcast": "不被定义的职场",
-        "point": "个人IP关键不在技术，而在找到源源不断获得灵感的'内核'",
-        "episodeId": "6a5102881e32575f5eb47339"
-      },
-      {
-        "podcast": "搞钱女孩",
-        "point": "突破搞钱卡点最快的方式是换圈子，在同频圈子里获取一手信息",
-        "episodeId": "6a4565062e335a35a80ca215"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:027f8b40628d42315f1a72cc7f3330f31f76eb1ba203c9d0e9111ea1a7bfdf3f",
     "createdAt": "2026-07-13T05:58:34.381241+08:00",
     "updatedAt": "2026-07-13T05:58:34.381241+08:00"
   }
