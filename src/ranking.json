@@ -1,15 +1,27 @@
 [
   {
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#659.xAI 联合创始人：Igor Babuschkin 解读模型开发的未来",
+    "uniqueId": "6a6ed539ab3a91c24a0e6790",
+    "publishedAt": "2026-08-02T06:49:37+00:00",
+    "recencyScore": 10.0,
+    "valueScore": 8.59,
+    "totalScore": 9.22,
+    "domain": "AI",
+    "selected": true,
+    "reason": "xAI联合创始人深度分享AI未来，信息密度高，思想性强。"
+  },
+  {
     "podcastName": "碳基生物生存指南",
     "episodeTitle": "E33 我们为什么总是如此疲惫",
     "uniqueId": "6a69b3d456a3f3491ba6d65d",
     "publishedAt": "2026-07-29T12:30:00+00:00",
-    "recencyScore": 9.32,
+    "recencyScore": 8.87,
     "valueScore": 8.69,
-    "totalScore": 8.97,
+    "totalScore": 8.77,
     "domain": "健康",
     "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
+    "reason": ""
   },
   {
     "podcastName": "硅谷101",
@@ -17,11 +29,23 @@
     "uniqueId": "5fd236d7-9a72-4b15-9e84-e83ceadd1b41",
     "publishedAt": "2026-08-01T00:00:00+00:00",
     "recencyScore": 10.0,
-    "valueScore": 7.56,
-    "totalScore": 8.66,
+    "valueScore": 7.67,
+    "totalScore": 8.72,
     "domain": "AI",
-    "selected": true,
-    "reason": "深度解析中国开源模型与蒸馏争议，嘉宾专业，信息密度高。"
+    "selected": false,
+    "reason": "近2天更新，按总分排序"
+  },
+  {
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#657.AWS 老兵：新的软件开发生命周期",
+    "uniqueId": "6a6eacc4ab3a91c24a0e5747",
+    "publishedAt": "2026-08-02T02:42:55+00:00",
+    "recencyScore": 10.0,
+    "valueScore": 7.51,
+    "totalScore": 8.63,
+    "domain": "AI",
+    "selected": false,
+    "reason": "近2天更新，按总分排序"
   },
   {
     "podcastName": "跨国串门儿计划",
@@ -37,27 +61,15 @@
   },
   {
     "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#653.Sam Altman 谈通用人工智能、算力与人类自主权",
-    "uniqueId": "6a6aa338b581962ce2bda1bf",
-    "publishedAt": "2026-07-30T01:09:25+00:00",
-    "recencyScore": 9.57,
-    "valueScore": 7.57,
-    "totalScore": 8.47,
+    "episodeTitle": "#658.Kimi杨植麟的博导预测 AI Agent的未来：为什么真正的护城河是数据、工程和基础设施",
+    "uniqueId": "6a6eb8a6ab3a91c24a0e5d40",
+    "publishedAt": "2026-08-02T04:13:17+00:00",
+    "recencyScore": 10.0,
+    "valueScore": 7.14,
+    "totalScore": 8.43,
     "domain": "AI",
     "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#651.OpenAI产品工程负责人：工作的未来、AI 通才、创意与品味",
-    "uniqueId": "6a69df93b581962ce2bd6935",
-    "publishedAt": "2026-07-29T11:13:53+00:00",
-    "recencyScore": 9.3,
-    "valueScore": 7.63,
-    "totalScore": 8.38,
-    "domain": "AI",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
+    "reason": "近2天更新，按总分排序"
   },
   {
     "podcastName": "颜如玉|医美 A to Z",
@@ -73,12 +85,36 @@
   },
   {
     "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#653.Sam Altman 谈通用人工智能、算力与人类自主权",
+    "uniqueId": "6a6aa338b581962ce2bda1bf",
+    "publishedAt": "2026-07-30T01:09:25+00:00",
+    "recencyScore": 9.11,
+    "valueScore": 7.57,
+    "totalScore": 8.26,
+    "domain": "AI",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#651.OpenAI产品工程负责人：工作的未来、AI 通才、创意与品味",
+    "uniqueId": "6a69df93b581962ce2bd6935",
+    "publishedAt": "2026-07-29T11:13:53+00:00",
+    "recencyScore": 8.85,
+    "valueScore": 7.63,
+    "totalScore": 8.18,
+    "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "跨国串门儿计划",
     "episodeTitle": "#650. 在没有风投资金的情况下打造软件巨头 | DHH, 37signals",
     "uniqueId": "6a67261d56a3f3491ba5b3ce",
     "publishedAt": "2026-07-27T09:39:38+00:00",
-    "recencyScore": 8.39,
+    "recencyScore": 7.98,
     "valueScore": 8.09,
-    "totalScore": 8.23,
+    "totalScore": 8.04,
     "domain": "商业",
     "selected": false,
     "reason": ""
@@ -88,9 +124,9 @@
     "episodeTitle": "#649. Anthropic 技术产品经理：为什么最优秀的产品领导者正在为 2028 年布局",
     "uniqueId": "6a671405a3fec224d5a416be",
     "publishedAt": "2026-07-27T08:24:12+00:00",
-    "recencyScore": 8.37,
+    "recencyScore": 7.96,
     "valueScore": 8.08,
-    "totalScore": 8.21,
+    "totalScore": 8.03,
     "domain": "AI",
     "selected": false,
     "reason": ""
@@ -100,9 +136,9 @@
     "episodeTitle": "17.苹果被塔塔\"开源\"：16年前报警抄家，这次为何一声不吭？",
     "uniqueId": "6a64f6ca6356eb2d9be85545",
     "publishedAt": "2026-07-25T18:02:26+00:00",
-    "recencyScore": 7.72,
+    "recencyScore": 7.35,
     "valueScore": 8.56,
-    "totalScore": 8.18,
+    "totalScore": 8.02,
     "domain": "商业",
     "selected": false,
     "reason": ""
@@ -112,36 +148,36 @@
     "episodeTitle": "#654.Huberman Lab: 关于您的顶级健康问题解答",
     "uniqueId": "6a6aaf0256a3f3491ba73198",
     "publishedAt": "2026-07-30T02:02:04+00:00",
-    "recencyScore": 9.59,
+    "recencyScore": 9.12,
     "valueScore": 6.99,
-    "totalScore": 8.16,
+    "totalScore": 7.95,
     "domain": "健康",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "十字路口Crossing",
+    "episodeTitle": "「热爱一个行业15年的理由是什么？」｜对谈汪天凡：我要投真正的快乐、投最纯的愿景、投人性的光辉【公路播客】",
+    "uniqueId": "6a6eb9e71b5e24969ce77ab5",
+    "publishedAt": "2026-08-02T16:00:00+00:00",
+    "recencyScore": 10.0,
+    "valueScore": 6.22,
+    "totalScore": 7.92,
+    "domain": "AI",
+    "selected": false,
+    "reason": "近2天更新，按总分排序"
   },
   {
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#655.比尔·阿克曼：如何识别能穿越周期的“持久复利机器”",
     "uniqueId": "6a6b7d9eb581962ce2be2850",
     "publishedAt": "2026-07-30T16:52:12+00:00",
-    "recencyScore": 9.89,
+    "recencyScore": 9.41,
     "valueScore": 6.66,
-    "totalScore": 8.11,
+    "totalScore": 7.9,
     "domain": "财经",
-    "selected": true,
-    "reason": "高价值存货补位"
-  },
-  {
-    "podcastName": "十分吸引",
-    "episodeTitle": "Vol.75 光与电的游戏：有线通讯史的百年之争",
-    "uniqueId": "6a6403f76356eb2d9be7fc38",
-    "publishedAt": "2026-07-26T23:00:00+00:00",
-    "recencyScore": 8.2,
-    "valueScore": 7.58,
-    "totalScore": 7.86,
-    "domain": "科技",
     "selected": false,
-    "reason": ""
+    "reason": "存货池保留，按价值与时效排序"
   },
   {
     "podcastName": "乱翻书",
@@ -156,49 +192,37 @@
     "reason": "近2天更新，按总分排序"
   },
   {
-    "podcastName": "时雨集",
-    "episodeTitle": "美国吹哨人、第四权力和越战真相：五角大楼文件泄密始末",
-    "uniqueId": "6a6afbe9b581962ce2bddf68",
-    "publishedAt": "2026-07-30T07:34:03+00:00",
-    "recencyScore": 9.7,
-    "valueScore": 6.11,
-    "totalScore": 7.73,
-    "domain": "文化",
-    "selected": true,
-    "reason": "五角大楼文件泄密案，历史与新闻自由深度剖析，思想性强。"
+    "podcastName": "十分吸引",
+    "episodeTitle": "Vol.75 光与电的游戏：有线通讯史的百年之争",
+    "uniqueId": "6a6403f76356eb2d9be7fc38",
+    "publishedAt": "2026-07-26T23:00:00+00:00",
+    "recencyScore": 7.8,
+    "valueScore": 7.58,
+    "totalScore": 7.68,
+    "domain": "科技",
+    "selected": false,
+    "reason": ""
   },
   {
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#642.Kun Chen：顶尖工程师如何把 AI Agent 用到极致",
     "uniqueId": "6a61c16c6356eb2d9be71f8e",
     "publishedAt": "2026-07-23T07:28:46+00:00",
-    "recencyScore": 6.84,
+    "recencyScore": 6.5,
     "valueScore": 8.42,
-    "totalScore": 7.71,
+    "totalScore": 7.56,
     "domain": "AI",
     "selected": false,
     "reason": ""
   },
   {
     "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#652.黄仁勋：打造英伟达的思维模式",
-    "uniqueId": "6a6a2a8c56a3f3491ba717f4",
-    "publishedAt": "2026-07-29T16:34:09+00:00",
-    "recencyScore": 9.4,
-    "valueScore": 6.31,
-    "totalScore": 7.7,
-    "domain": "商业",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "跨国串门儿计划",
     "episodeTitle": "#648.黄仁勋谈 AI 末日论者、就业担忧与中国开源模型",
     "uniqueId": "6a65e9fca3fec224d5a38f63",
     "publishedAt": "2026-07-26T11:17:17+00:00",
-    "recencyScore": 8.01,
+    "recencyScore": 7.62,
     "valueScore": 7.45,
-    "totalScore": 7.7,
+    "totalScore": 7.53,
     "domain": "AI",
     "selected": false,
     "reason": ""
@@ -208,33 +232,45 @@
     "episodeTitle": "EP85 Mini MBA｜营销管理：赚到你钱的人都做对了什么？",
     "uniqueId": "6a6303b36356eb2d9be7a859",
     "publishedAt": "2026-07-25T16:00:00+00:00",
-    "recencyScore": 7.69,
+    "recencyScore": 7.32,
     "valueScore": 7.7,
-    "totalScore": 7.7,
+    "totalScore": 7.53,
     "domain": "商业",
     "selected": false,
     "reason": ""
+  },
+  {
+    "podcastName": "时雨集",
+    "episodeTitle": "美国吹哨人、第四权力和越战真相：五角大楼文件泄密始末",
+    "uniqueId": "6a6afbe9b581962ce2bddf68",
+    "publishedAt": "2026-07-30T07:34:03+00:00",
+    "recencyScore": 9.23,
+    "valueScore": 6.11,
+    "totalScore": 7.51,
+    "domain": "文化",
+    "selected": true,
+    "reason": "五角大楼文件泄密案深度剖析，历史与新闻自由议题厚重。"
   },
   {
     "podcastName": "十字路口Crossing",
     "episodeTitle": "11 年，110 亿美金，然后呢？｜对话 Airwallex 吴恺：AI 时代，下一站 1000 亿",
     "uniqueId": "6a6320d16356eb2d9be7bd07",
     "publishedAt": "2026-07-26T16:00:00+00:00",
-    "recencyScore": 8.08,
+    "recencyScore": 7.69,
     "valueScore": 7.34,
-    "totalScore": 7.67,
+    "totalScore": 7.5,
     "domain": "AI",
     "selected": false,
     "reason": ""
   },
   {
-    "podcastName": "贝望录",
-    "episodeTitle": "东观西望丨12. 从日本的长寿社会到英国的灰色英镑，聊聊银发经济如何成为下一个商业机会",
-    "uniqueId": "6a68ca8b56a3f3491ba67f4b",
-    "publishedAt": "2026-07-29T00:00:00+00:00",
-    "recencyScore": 9.09,
-    "valueScore": 6.43,
-    "totalScore": 7.63,
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#652.黄仁勋：打造英伟达的思维模式",
+    "uniqueId": "6a6a2a8c56a3f3491ba717f4",
+    "publishedAt": "2026-07-29T16:34:09+00:00",
+    "recencyScore": 8.95,
+    "valueScore": 6.31,
+    "totalScore": 7.5,
     "domain": "商业",
     "selected": false,
     "reason": ""
@@ -244,9 +280,33 @@
     "episodeTitle": "#646.Cerebras CEO：CUDA绝非护城河",
     "uniqueId": "6a644f126356eb2d9be8178f",
     "publishedAt": "2026-07-25T05:58:30+00:00",
-    "recencyScore": 7.53,
+    "recencyScore": 7.16,
     "valueScore": 7.68,
-    "totalScore": 7.61,
+    "totalScore": 7.45,
+    "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "贝望录",
+    "episodeTitle": "东观西望丨12. 从日本的长寿社会到英国的灰色英镑，聊聊银发经济如何成为下一个商业机会",
+    "uniqueId": "6a68ca8b56a3f3491ba67f4b",
+    "publishedAt": "2026-07-29T00:00:00+00:00",
+    "recencyScore": 8.64,
+    "valueScore": 6.43,
+    "totalScore": 7.42,
+    "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#643. 内核、强化学习与智能体奖励黑客专题",
+    "uniqueId": "6a62f7236356eb2d9be7a09f",
+    "publishedAt": "2026-07-24T05:41:53+00:00",
+    "recencyScore": 6.81,
+    "valueScore": 7.74,
+    "totalScore": 7.32,
     "domain": "AI",
     "selected": false,
     "reason": ""
@@ -256,33 +316,21 @@
     "episodeTitle": "上半年美股复盘：存储芯片半导体，K线虐我如蝼蚁",
     "uniqueId": "6a6a433356a3f3491ba71cf4",
     "publishedAt": "2026-07-29T23:30:00+00:00",
-    "recencyScore": 9.54,
+    "recencyScore": 9.08,
     "valueScore": 5.85,
-    "totalScore": 7.51,
+    "totalScore": 7.3,
     "domain": "财经",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#643. 内核、强化学习与智能体奖励黑客专题",
-    "uniqueId": "6a62f7236356eb2d9be7a09f",
-    "publishedAt": "2026-07-24T05:41:53+00:00",
-    "recencyScore": 7.16,
-    "valueScore": 7.74,
-    "totalScore": 7.48,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
   },
   {
     "podcastName": "硅谷101",
     "episodeTitle": "E245｜藏在大模型背后的新闻人：GPT们的回复是这样写出来的",
     "uniqueId": "5aeaeb64-9165-4271-9884-23329b511e11",
     "publishedAt": "2026-07-24T00:00:00+00:00",
-    "recencyScore": 7.08,
+    "recencyScore": 6.73,
     "valueScore": 7.6,
-    "totalScore": 7.37,
+    "totalScore": 7.21,
     "domain": "AI",
     "selected": false,
     "reason": ""
@@ -292,9 +340,9 @@
     "episodeTitle": "#640. 美国视角下的 Kimi K3：一个 AI 斯普特尼克时刻的诞生",
     "uniqueId": "6a5f8f00a3fec224d5a13421",
     "publishedAt": "2026-07-21T16:51:00+00:00",
-    "recencyScore": 6.31,
+    "recencyScore": 6.0,
     "valueScore": 8.0,
-    "totalScore": 7.24,
+    "totalScore": 7.1,
     "domain": "AI",
     "selected": false,
     "reason": ""
@@ -304,33 +352,9 @@
     "episodeTitle": "#647.美国是否该封禁Kimi K3？开源 AI 之争、Anthropic 的 15 亿美元支出",
     "uniqueId": "6a65e1856356eb2d9be899d5",
     "publishedAt": "2026-07-26T10:40:16+00:00",
-    "recencyScore": 8.0,
+    "recencyScore": 7.61,
     "valueScore": 6.59,
-    "totalScore": 7.22,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "张小珺Jùn｜商业访谈录",
-    "episodeTitle": "149. 亲历中美neo labs资本狂潮，和清华刘子鸣聊：AI for AI、机制可解释性和Max Tegmark",
-    "uniqueId": "6a69b07eb581962ce2bd4d97",
-    "publishedAt": "2026-07-30T23:30:00+00:00",
-    "recencyScore": 10.0,
-    "valueScore": 4.7,
-    "totalScore": 7.09,
-    "domain": "AI",
-    "selected": false,
-    "reason": "近2天更新，按总分排序"
-  },
-  {
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#641. Sam Blond 谈人工智能原生世界中的销售未来",
-    "uniqueId": "6a61ac16a3fec224d5a207e9",
-    "publishedAt": "2026-07-23T05:58:16+00:00",
-    "recencyScore": 6.81,
-    "valueScore": 7.27,
-    "totalScore": 7.06,
+    "totalScore": 7.05,
     "domain": "AI",
     "selected": false,
     "reason": ""
@@ -340,9 +364,21 @@
     "episodeTitle": "#636.Netflix 为何在 AI 时代押注系统思考者，而非专才",
     "uniqueId": "6a5d4a46a3fec224d5a0184a",
     "publishedAt": "2026-07-19T22:48:51+00:00",
-    "recencyScore": 5.78,
+    "recencyScore": 5.5,
     "valueScore": 8.11,
-    "totalScore": 7.06,
+    "totalScore": 6.94,
+    "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#641. Sam Blond 谈人工智能原生世界中的销售未来",
+    "uniqueId": "6a61ac16a3fec224d5a207e9",
+    "publishedAt": "2026-07-23T05:58:16+00:00",
+    "recencyScore": 6.48,
+    "valueScore": 7.27,
+    "totalScore": 6.91,
     "domain": "AI",
     "selected": false,
     "reason": ""
@@ -352,21 +388,33 @@
     "episodeTitle": "#638.Agent Loop 大辩论：Loop究竟是炒作还是真有用",
     "uniqueId": "6a5ded246356eb2d9be579db",
     "publishedAt": "2026-07-20T09:45:20+00:00",
-    "recencyScore": 5.91,
+    "recencyScore": 5.62,
     "valueScore": 7.97,
-    "totalScore": 7.04,
+    "totalScore": 6.91,
     "domain": "AI",
     "selected": false,
     "reason": ""
+  },
+  {
+    "podcastName": "张小珺Jùn｜商业访谈录",
+    "episodeTitle": "149. 亲历中美neo labs资本狂潮，和清华刘子鸣聊：AI for AI、机制可解释性和Max Tegmark",
+    "uniqueId": "6a69b07eb581962ce2bd4d97",
+    "publishedAt": "2026-07-30T23:30:00+00:00",
+    "recencyScore": 9.54,
+    "valueScore": 4.7,
+    "totalScore": 6.88,
+    "domain": "AI",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
   },
   {
     "podcastName": "颜如玉|医美 A to Z",
     "episodeTitle": "EP28｜瑶佳×刘思祎~你不是突然“馒化”的：填充、审美与一张脸的长期账单",
     "uniqueId": "6a6580b5a3fec224d5a362ff",
     "publishedAt": "2026-07-26T16:00:00+00:00",
-    "recencyScore": 8.08,
+    "recencyScore": 7.69,
     "valueScore": 6.14,
-    "totalScore": 7.01,
+    "totalScore": 6.84,
     "domain": "健康",
     "selected": false,
     "reason": ""
@@ -376,9 +424,9 @@
     "episodeTitle": "#630.人工智能的未来：与哈萨比斯爵士和温迪·霍尔女爵士对话",
     "uniqueId": "6a5a03e86356eb2d9be42c8e",
     "publishedAt": "2026-07-17T10:34:06+00:00",
-    "recencyScore": 5.1,
+    "recencyScore": 4.85,
     "valueScore": 8.39,
-    "totalScore": 6.91,
+    "totalScore": 6.8,
     "domain": "AI",
     "selected": false,
     "reason": ""
@@ -388,9 +436,9 @@
     "episodeTitle": "#629.沃伦·巴菲特：我发起了伯克希尔公司对 Alphabet 的投资",
     "uniqueId": "6a58b6a4016dcc7e054332df",
     "publishedAt": "2026-07-16T10:48:07+00:00",
-    "recencyScore": 4.85,
+    "recencyScore": 4.61,
     "valueScore": 8.35,
-    "totalScore": 6.78,
+    "totalScore": 6.67,
     "domain": "财经",
     "selected": false,
     "reason": ""
@@ -400,21 +448,33 @@
     "episodeTitle": "Vol13.离婚律师教你做好当代婚姻风控！清醒入局“人性修罗场”",
     "uniqueId": "6a6b73bd56a3f3491ba7aa82",
     "publishedAt": "2026-07-31T12:30:00+00:00",
-    "recencyScore": 10.0,
+    "recencyScore": 9.8,
     "valueScore": 3.84,
-    "totalScore": 6.61,
+    "totalScore": 6.52,
     "domain": "情感",
     "selected": true,
-    "reason": "离婚律师谈婚姻风控，实用法律干货，话题贴近生活。"
+    "reason": "离婚律师提供婚姻财产风控实操干货，实用性强。"
+  },
+  {
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#613.Ido Portal：如何用“玩耍”重塑你的身心连接",
+    "uniqueId": "6a4749622e335a35a80d6676",
+    "publishedAt": "2026-07-03T06:03:04+00:00",
+    "recencyScore": 2.39,
+    "valueScore": 9.75,
+    "totalScore": 6.44,
+    "domain": "健康",
+    "selected": false,
+    "reason": ""
   },
   {
     "podcastName": "What's Next｜科技早知道",
     "episodeTitle": "国产 AI 算力能凭「超节点」弯道超车吗? | WAIC 深度观察 S10E23",
     "uniqueId": "a6c6ab3e-72b2-470b-aefd-04b19679d37f",
     "publishedAt": "2026-07-27T08:45:00+00:00",
-    "recencyScore": 8.37,
+    "recencyScore": 7.96,
     "valueScore": 5.12,
-    "totalScore": 6.58,
+    "totalScore": 6.4,
     "domain": "科技",
     "selected": false,
     "reason": ""
@@ -424,22 +484,10 @@
     "episodeTitle": "快一点！再快一点！快到世界能实时生成｜和生数科技张金涛聊：Vidu S1、推理加速、实时交互视频",
     "uniqueId": "6a5c6a91a3fec224d59fd014",
     "publishedAt": "2026-07-19T16:00:00+00:00",
-    "recencyScore": 5.7,
+    "recencyScore": 5.42,
     "valueScore": 7.19,
-    "totalScore": 6.52,
+    "totalScore": 6.39,
     "domain": "科技",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#613.Ido Portal：如何用“玩耍”重塑你的身心连接",
-    "uniqueId": "6a4749622e335a35a80d6676",
-    "publishedAt": "2026-07-03T06:03:04+00:00",
-    "recencyScore": 2.51,
-    "valueScore": 9.75,
-    "totalScore": 6.49,
-    "domain": "健康",
     "selected": false,
     "reason": ""
   },
@@ -448,9 +496,9 @@
     "episodeTitle": "#644.如何提升各年龄段的记忆力与认知功能",
     "uniqueId": "6a632b02a3fec224d5a2b9c5",
     "publishedAt": "2026-07-24T09:31:43+00:00",
-    "recencyScore": 7.22,
+    "recencyScore": 6.87,
     "valueScore": 5.77,
-    "totalScore": 6.42,
+    "totalScore": 6.27,
     "domain": "健康",
     "selected": false,
     "reason": ""
@@ -460,33 +508,9 @@
     "episodeTitle": "#615. Anthropic 联合创始人 Jack Clark：AI 正在让公司内部发生“相变”，你的工作还安全吗？",
     "uniqueId": "6a4931143fb7233cbf43be47",
     "publishedAt": "2026-07-04T16:23:52+00:00",
-    "recencyScore": 2.69,
+    "recencyScore": 2.56,
     "valueScore": 9.31,
-    "totalScore": 6.33,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#631.深入理解 Context engineering",
-    "uniqueId": "6a5a0fb36356eb2d9be431a5",
-    "publishedAt": "2026-07-17T11:23:09+00:00",
-    "recencyScore": 5.11,
-    "valueScore": 7.23,
-    "totalScore": 6.28,
-    "domain": "科技",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "What's Next｜科技早知道",
-    "episodeTitle": "可以给你的 Agent 发一点零花钱了 | S10E22",
-    "uniqueId": "9a652c19-ceb3-46c2-87b4-bca36e684311",
-    "publishedAt": "2026-07-22T09:15:00+00:00",
-    "recencyScore": 6.53,
-    "valueScore": 6.08,
-    "totalScore": 6.28,
+    "totalScore": 6.27,
     "domain": "AI",
     "selected": false,
     "reason": ""
@@ -496,9 +520,9 @@
     "episodeTitle": "#603.Cloudflare CEO：当机器人流量超过人类，互联网的商业模式将彻底崩塌",
     "uniqueId": "6a4156b39d2f5743683f43bc",
     "publishedAt": "2026-06-28T19:16:06+00:00",
-    "recencyScore": 2.01,
+    "recencyScore": 1.91,
     "valueScore": 9.75,
-    "totalScore": 6.27,
+    "totalScore": 6.22,
     "domain": "科技",
     "selected": false,
     "reason": ""
@@ -508,9 +532,45 @@
     "episodeTitle": "#607.SemiAnalysis创始人：AI的真正100倍杠杆，藏在软硬件协同设计里",
     "uniqueId": "6a4407889d2f574368407f00",
     "publishedAt": "2026-06-30T18:23:04+00:00",
-    "recencyScore": 2.21,
+    "recencyScore": 2.11,
     "valueScore": 9.52,
-    "totalScore": 6.23,
+    "totalScore": 6.19,
+    "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#631.深入理解 Context engineering",
+    "uniqueId": "6a5a0fb36356eb2d9be431a5",
+    "publishedAt": "2026-07-17T11:23:09+00:00",
+    "recencyScore": 4.86,
+    "valueScore": 7.23,
+    "totalScore": 6.16,
+    "domain": "科技",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#608.3Blue1Brown创始人：AI攻克数学前沿，人类创造力与科学发现将何去何从",
+    "uniqueId": "6a44b3d22e335a35a80c491b",
+    "publishedAt": "2026-07-01T06:49:10+00:00",
+    "recencyScore": 2.16,
+    "valueScore": 9.4,
+    "totalScore": 6.14,
+    "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "What's Next｜科技早知道",
+    "episodeTitle": "可以给你的 Agent 发一点零花钱了 | S10E22",
+    "uniqueId": "9a652c19-ceb3-46c2-87b4-bca36e684311",
+    "publishedAt": "2026-07-22T09:15:00+00:00",
+    "recencyScore": 6.21,
+    "valueScore": 6.08,
+    "totalScore": 6.14,
     "domain": "AI",
     "selected": false,
     "reason": ""
@@ -520,33 +580,9 @@
     "episodeTitle": "#624.Instagram负责人：品味、人类特有的真实感以及判断力的重要性日益凸显",
     "uniqueId": "6a5473931e32575f5eb58f0a",
     "publishedAt": "2026-07-13T05:21:51+00:00",
-    "recencyScore": 4.13,
+    "recencyScore": 3.93,
     "valueScore": 7.9,
-    "totalScore": 6.2,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#608.3Blue1Brown创始人：AI攻克数学前沿，人类创造力与科学发现将何去何从",
-    "uniqueId": "6a44b3d22e335a35a80c491b",
-    "publishedAt": "2026-07-01T06:49:10+00:00",
-    "recencyScore": 2.27,
-    "valueScore": 9.4,
-    "totalScore": 6.19,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#645.埃隆·马斯克：10年内钱将不再重要，AI时代的富足与颠簸之路",
-    "uniqueId": "6a639656a3fec224d5a2e7dd",
-    "publishedAt": "2026-07-24T16:55:43+00:00",
-    "recencyScore": 7.33,
-    "valueScore": 5.22,
-    "totalScore": 6.17,
+    "totalScore": 6.11,
     "domain": "AI",
     "selected": false,
     "reason": ""
@@ -556,9 +592,9 @@
     "episodeTitle": "#611.Chris Camillo：不靠估值不看财报，用“刷TikTok评论”把2万变成7000万",
     "uniqueId": "6a45d5d72e335a35a80cc2ee",
     "publishedAt": "2026-07-02T03:14:56+00:00",
-    "recencyScore": 2.37,
+    "recencyScore": 2.26,
     "valueScore": 9.26,
-    "totalScore": 6.16,
+    "totalScore": 6.11,
     "domain": "财经",
     "selected": false,
     "reason": ""
@@ -568,9 +604,9 @@
     "episodeTitle": "#599.Nebius创始人：AI基础设施不是泡沫，但世界过度集中才是最大威胁",
     "uniqueId": "6a3e415d9d2f5743683e45ea",
     "publishedAt": "2026-06-26T09:11:40+00:00",
-    "recencyScore": 1.78,
+    "recencyScore": 1.69,
     "valueScore": 9.69,
-    "totalScore": 6.13,
+    "totalScore": 6.09,
     "domain": "AI",
     "selected": false,
     "reason": ""
@@ -580,22 +616,10 @@
     "episodeTitle": "#597.Kristjan Kullamägi：普通交易者如何在低胜率市场里抓住指数级回报",
     "uniqueId": "6a3c2fa69d2f5743683d6483",
     "publishedAt": "2026-06-25T00:04:19+00:00",
-    "recencyScore": 1.66,
+    "recencyScore": 1.58,
     "valueScore": 9.75,
-    "totalScore": 6.11,
+    "totalScore": 6.07,
     "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#606.Codex 负责人：品味与判断力为何成为你最值钱的资产",
-    "uniqueId": "6a43a9699d2f574368405276",
-    "publishedAt": "2026-06-30T11:45:48+00:00",
-    "recencyScore": 2.18,
-    "valueScore": 9.3,
-    "totalScore": 6.1,
-    "domain": "AI",
     "selected": false,
     "reason": ""
   },
@@ -604,9 +628,21 @@
     "episodeTitle": "#596.AI 智能体：当百万个代理开始替你谈判、花钱与协作",
     "uniqueId": "6a3c2c239d2f5743683d644a",
     "publishedAt": "2026-06-24T19:16:34+00:00",
-    "recencyScore": 1.64,
+    "recencyScore": 1.56,
     "valueScore": 9.75,
-    "totalScore": 6.1,
+    "totalScore": 6.06,
+    "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#606.Codex 负责人：品味与判断力为何成为你最值钱的资产",
+    "uniqueId": "6a43a9699d2f574368405276",
+    "publishedAt": "2026-06-30T11:45:48+00:00",
+    "recencyScore": 2.08,
+    "valueScore": 9.3,
+    "totalScore": 6.05,
     "domain": "AI",
     "selected": false,
     "reason": ""
@@ -616,33 +652,21 @@
     "episodeTitle": "#595. Lambda CTO：GPU 神话破灭后，AI 时代最稀缺的到底是什么",
     "uniqueId": "6a3b8e239d2f5743683d16f4",
     "publishedAt": "2026-06-24T08:02:06+00:00",
-    "recencyScore": 1.61,
+    "recencyScore": 1.53,
     "valueScore": 9.75,
-    "totalScore": 6.09,
+    "totalScore": 6.05,
     "domain": "AI",
     "selected": false,
     "reason": ""
   },
   {
     "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#637.对话LVMH创始人：全球奢侈品大亨不为人知的告白",
-    "uniqueId": "6a5dd3026356eb2d9be566b9",
-    "publishedAt": "2026-07-20T07:55:32+00:00",
-    "recencyScore": 5.89,
-    "valueScore": 6.21,
-    "totalScore": 6.07,
-    "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#632.Joe Rogan对话美国现任副总统 JD Vance",
-    "uniqueId": "6a5a2101a3fec224d59f2edc",
-    "publishedAt": "2026-07-17T12:57:56+00:00",
-    "recencyScore": 5.12,
-    "valueScore": 6.84,
-    "totalScore": 6.07,
+    "episodeTitle": "#645.埃隆·马斯克：10年内钱将不再重要，AI时代的富足与颠簸之路",
+    "uniqueId": "6a639656a3fec224d5a2e7dd",
+    "publishedAt": "2026-07-24T16:55:43+00:00",
+    "recencyScore": 6.97,
+    "valueScore": 5.22,
+    "totalScore": 6.01,
     "domain": "AI",
     "selected": false,
     "reason": ""
@@ -652,10 +676,46 @@
     "episodeTitle": "#614.NVIDIA 核心科学家 Bryan Catanzaro：当算力堆到极限，开源模型如何靠“效率”继续变强",
     "uniqueId": "6a4874923fb7233cbf437556",
     "publishedAt": "2026-07-04T02:51:47+00:00",
-    "recencyScore": 2.62,
+    "recencyScore": 2.49,
     "valueScore": 8.85,
-    "totalScore": 6.05,
+    "totalScore": 5.99,
     "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#632.Joe Rogan对话美国现任副总统 JD Vance",
+    "uniqueId": "6a5a2101a3fec224d59f2edc",
+    "publishedAt": "2026-07-17T12:57:56+00:00",
+    "recencyScore": 4.87,
+    "valueScore": 6.84,
+    "totalScore": 5.95,
+    "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#637.对话LVMH创始人：全球奢侈品大亨不为人知的告白",
+    "uniqueId": "6a5dd3026356eb2d9be566b9",
+    "publishedAt": "2026-07-20T07:55:32+00:00",
+    "recencyScore": 5.6,
+    "valueScore": 6.21,
+    "totalScore": 5.94,
+    "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "碳基生物生存指南",
+    "episodeTitle": "E32 月经：不只“麻烦”的血流，而是横跨运动，免疫，饮食的女性生命体征",
+    "uniqueId": "6a4e482a2e335a35a8102bc7",
+    "publishedAt": "2026-07-08T12:57:26+00:00",
+    "recencyScore": 3.11,
+    "valueScore": 8.26,
+    "totalScore": 5.94,
+    "domain": "健康",
     "selected": false,
     "reason": ""
   },
@@ -664,9 +724,9 @@
     "episodeTitle": "EP27｜40岁生日这天，瑶佳与她的导师李远宏教授聊聊：医美里“精致的自然主义”",
     "uniqueId": "6a5b4ee9a3fec224d59f87ee",
     "publishedAt": "2026-07-19T16:00:00+00:00",
-    "recencyScore": 5.7,
+    "recencyScore": 5.42,
     "valueScore": 6.33,
-    "totalScore": 6.05,
+    "totalScore": 5.92,
     "domain": "健康",
     "selected": false,
     "reason": ""
@@ -676,45 +736,21 @@
     "episodeTitle": "#633.图灵奖得主：GPU 与 TPU、计算机体系结构、RISC 与 CISV",
     "uniqueId": "6a5a2925a3fec224d59f3240",
     "publishedAt": "2026-07-17T18:26:20+00:00",
-    "recencyScore": 5.18,
+    "recencyScore": 4.93,
     "valueScore": 6.71,
-    "totalScore": 6.02,
+    "totalScore": 5.91,
     "domain": "科技",
     "selected": false,
     "reason": ""
-  },
-  {
-    "podcastName": "碳基生物生存指南",
-    "episodeTitle": "E32 月经：不只“麻烦”的血流，而是横跨运动，免疫，饮食的女性生命体征",
-    "uniqueId": "6a4e482a2e335a35a8102bc7",
-    "publishedAt": "2026-07-08T12:57:26+00:00",
-    "recencyScore": 3.27,
-    "valueScore": 8.26,
-    "totalScore": 6.01,
-    "domain": "健康",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "Vibration 歪波音室",
-    "episodeTitle": "7月新歌推荐丨麦当娜、Steve Lacy、许钧、浅堤… 不要错过🎉",
-    "uniqueId": "wavpub_yfLNHBkFtQyDKAWXNXkBeBRNAUDNHpJzDUtKpVuBAPyAaNtmXZzcbHLaR",
-    "publishedAt": "2026-07-29T22:00:00+00:00",
-    "recencyScore": 9.51,
-    "valueScore": 3.14,
-    "totalScore": 6.01,
-    "domain": "文化",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
   },
   {
     "podcastName": "十字路口Crossing",
     "episodeTitle": "AI4S 需要狂人与野心家｜对话英灵殿 Odin：\"如果神存在，我怎能容忍自己不是神？\"【公路播客】",
     "uniqueId": "6a5199381e32575f5eb48ce4",
     "publishedAt": "2026-07-12T16:00:00+00:00",
-    "recencyScore": 4.01,
+    "recencyScore": 3.82,
     "valueScore": 7.59,
-    "totalScore": 5.98,
+    "totalScore": 5.89,
     "domain": "商业",
     "selected": false,
     "reason": ""
@@ -724,9 +760,9 @@
     "episodeTitle": "#625. Palantir CEO Alex Karp 访谈",
     "uniqueId": "6a551c05ca0de6c44ae69557",
     "publishedAt": "2026-07-13T17:20:44+00:00",
-    "recencyScore": 4.23,
+    "recencyScore": 4.03,
     "valueScore": 7.42,
-    "totalScore": 5.98,
+    "totalScore": 5.89,
     "domain": "商业",
     "selected": false,
     "reason": ""
@@ -736,118 +772,34 @@
     "episodeTitle": "AI 发展了 4 年，把应用发展没了？｜AI 年中复盘",
     "uniqueId": "6a5b98a66356eb2d9be4ad2c",
     "publishedAt": "2026-07-19T13:30:00+00:00",
-    "recencyScore": 5.67,
+    "recencyScore": 5.39,
     "valueScore": 6.2,
-    "totalScore": 5.96,
+    "totalScore": 5.84,
     "domain": "AI",
     "selected": false,
     "reason": ""
-  },
-  {
-    "podcastName": "蜉蝣天地 Meanders",
-    "episodeTitle": "100 年前东北女孩写给巴黎的信｜对谈历史学者李纪：普通人如何穿过大历史？",
-    "uniqueId": "6a689571b581962ce2bcdacb",
-    "publishedAt": "2026-07-30T09:00:00+00:00",
-    "recencyScore": 9.73,
-    "valueScore": 2.84,
-    "totalScore": 5.94,
-    "domain": "文化",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "十分吸引",
-    "episodeTitle": "Vol.74 满地都是AI，我们抬头看看康德",
-    "uniqueId": "6a50bf8a1e32575f5eb453cd",
-    "publishedAt": "2026-07-12T23:00:00+00:00",
-    "recencyScore": 4.07,
-    "valueScore": 7.43,
-    "totalScore": 5.92,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "虚构立影",
-    "episodeTitle": "08 深圳女孩写的“深二代”群像小说",
-    "uniqueId": "6a69821656a3f3491ba6b636",
-    "publishedAt": "2026-07-29T23:00:00+00:00",
-    "recencyScore": 9.53,
-    "valueScore": 2.97,
-    "totalScore": 5.92,
-    "domain": "文化",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#639.如何加速学习与提升认知能力",
-    "uniqueId": "6a5f445b6356eb2d9be61775",
-    "publishedAt": "2026-07-21T10:14:02+00:00",
-    "recencyScore": 6.22,
-    "valueScore": 5.65,
-    "totalScore": 5.91,
-    "domain": "健康",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "咖啡豆｜高达机甲模型店加速落地，古早 IP 如何撑起门店生意？",
-    "uniqueId": "6a6b3ab8b581962ce2be06d5",
-    "publishedAt": "2026-07-30T23:00:00+00:00",
-    "recencyScore": 10.0,
-    "valueScore": 2.55,
-    "totalScore": 5.9,
-    "domain": "商业",
-    "selected": false,
-    "reason": "近2天更新，按总分排序"
   },
   {
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#604.OpenAI Noam Brown：模型评估方式，正在错过 AI 真正的能力上限",
     "uniqueId": "6a421f6d2e335a35a80b22d9",
     "publishedAt": "2026-06-29T07:37:11+00:00",
-    "recencyScore": 2.06,
+    "recencyScore": 1.96,
     "valueScore": 9.02,
-    "totalScore": 5.89,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#610.迪士尼公司：最成功将人类怀旧情怀变现的企业",
-    "uniqueId": "6a4572619d2f5743684119b2",
-    "publishedAt": "2026-07-01T20:27:21+00:00",
-    "recencyScore": 2.34,
-    "valueScore": 8.75,
-    "totalScore": 5.87,
-    "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#594.Fiona Fung：AI 时代工程师如何不掉队，代码不再稀缺后的团队重构",
-    "uniqueId": "6a3a7f089d2f5743683ca24c",
-    "publishedAt": "2026-06-23T12:56:21+00:00",
-    "recencyScore": 1.54,
-    "valueScore": 9.38,
-    "totalScore": 5.85,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#609.挑战英伟达：Etched AI推理芯片如何让token成本暴跌",
-    "uniqueId": "6a44be152e335a35a80c5181",
-    "publishedAt": "2026-07-01T07:23:01+00:00",
-    "recencyScore": 2.28,
-    "valueScore": 8.76,
     "totalScore": 5.84,
-    "domain": "商业",
+    "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "十分吸引",
+    "episodeTitle": "Vol.74 满地都是AI，我们抬头看看康德",
+    "uniqueId": "6a50bf8a1e32575f5eb453cd",
+    "publishedAt": "2026-07-12T23:00:00+00:00",
+    "recencyScore": 3.88,
+    "valueScore": 7.43,
+    "totalScore": 5.83,
+    "domain": "AI",
     "selected": false,
     "reason": ""
   },
@@ -865,13 +817,61 @@
   },
   {
     "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#617.Groq创始人：从濒临破产到200亿美元NVIDIA交易，AI时代如何用提问取代回答",
-    "uniqueId": "6a4cb1043fb7233cbf451828",
-    "publishedAt": "2026-07-07T08:00:03+00:00",
-    "recencyScore": 3.08,
-    "valueScore": 8.03,
-    "totalScore": 5.8,
+    "episodeTitle": "#594.Fiona Fung：AI 时代工程师如何不掉队，代码不再稀缺后的团队重构",
+    "uniqueId": "6a3a7f089d2f5743683ca24c",
+    "publishedAt": "2026-06-23T12:56:21+00:00",
+    "recencyScore": 1.47,
+    "valueScore": 9.38,
+    "totalScore": 5.82,
     "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#610.迪士尼公司：最成功将人类怀旧情怀变现的企业",
+    "uniqueId": "6a4572619d2f5743684119b2",
+    "publishedAt": "2026-07-01T20:27:21+00:00",
+    "recencyScore": 2.22,
+    "valueScore": 8.75,
+    "totalScore": 5.81,
+    "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "Vibration 歪波音室",
+    "episodeTitle": "7月新歌推荐丨麦当娜、Steve Lacy、许钧、浅堤… 不要错过🎉",
+    "uniqueId": "wavpub_yfLNHBkFtQyDKAWXNXkBeBRNAUDNHpJzDUtKpVuBAPyAaNtmXZzcbHLaR",
+    "publishedAt": "2026-07-29T22:00:00+00:00",
+    "recencyScore": 9.05,
+    "valueScore": 3.14,
+    "totalScore": 5.8,
+    "domain": "文化",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#609.挑战英伟达：Etched AI推理芯片如何让token成本暴跌",
+    "uniqueId": "6a44be152e335a35a80c5181",
+    "publishedAt": "2026-07-01T07:23:01+00:00",
+    "recencyScore": 2.16,
+    "valueScore": 8.76,
+    "totalScore": 5.79,
+    "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#639.如何加速学习与提升认知能力",
+    "uniqueId": "6a5f445b6356eb2d9be61775",
+    "publishedAt": "2026-07-21T10:14:02+00:00",
+    "recencyScore": 5.92,
+    "valueScore": 5.65,
+    "totalScore": 5.77,
+    "domain": "健康",
     "selected": false,
     "reason": ""
   },
@@ -880,70 +880,22 @@
     "episodeTitle": "#593.文艺复兴科技公司：财富机器，AI 时代前夜的量化投资神话",
     "uniqueId": "6a3957589d2f5743683c11bf",
     "publishedAt": "2026-06-22T15:54:51+00:00",
-    "recencyScore": 1.48,
+    "recencyScore": 1.4,
     "valueScore": 9.31,
-    "totalScore": 5.79,
+    "totalScore": 5.75,
     "domain": "财经",
     "selected": false,
     "reason": ""
   },
   {
     "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#628. AI蜜月期结束：生产力提升，但质量与判断力在退化",
-    "uniqueId": "6a567bd927a4eec16c40bae2",
-    "publishedAt": "2026-07-14T23:00:00+00:00",
-    "recencyScore": 4.5,
-    "valueScore": 6.83,
-    "totalScore": 5.78,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#623.Dylan Patel 谈驱动 AI 革命的基础设施",
-    "uniqueId": "6a52a93b1e32575f5eb4eb08",
-    "publishedAt": "2026-07-11T20:51:30+00:00",
-    "recencyScore": 3.86,
-    "valueScore": 7.31,
-    "totalScore": 5.76,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#592.陈立武：66 岁接手 Intel，AI 算力战争下的半导体供应链重建",
-    "uniqueId": "6a3549dd4233e62bc54c7664",
-    "publishedAt": "2026-06-19T13:56:54+00:00",
-    "recencyScore": 1.27,
-    "valueScore": 9.44,
-    "totalScore": 5.76,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#591.Matt Pocock：开发者如何用 AI 放大十倍产出，模型狂热时代的软件基本功",
-    "uniqueId": "6a353df14233e62bc54c7124",
-    "publishedAt": "2026-06-19T13:10:25+00:00",
-    "recencyScore": 1.26,
-    "valueScore": 9.44,
-    "totalScore": 5.76,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "时雨集",
-    "episodeTitle": "从乌斯怀亚到庇隆主义：阿根廷百年国运",
-    "uniqueId": "6a4f1c1f2e335a35a8106dea",
-    "publishedAt": "2026-07-09T04:17:11+00:00",
-    "recencyScore": 3.37,
-    "valueScore": 7.67,
+    "episodeTitle": "#617.Groq创始人：从濒临破产到200亿美元NVIDIA交易，AI时代如何用提问取代回答",
+    "uniqueId": "6a4cb1043fb7233cbf451828",
+    "publishedAt": "2026-07-07T08:00:03+00:00",
+    "recencyScore": 2.93,
+    "valueScore": 8.03,
     "totalScore": 5.74,
-    "domain": "财经",
+    "domain": "AI",
     "selected": false,
     "reason": ""
   },
@@ -960,16 +912,52 @@
     "reason": ""
   },
   {
+    "podcastName": "蜉蝣天地 Meanders",
+    "episodeTitle": "100 年前东北女孩写给巴黎的信｜对谈历史学者李纪：普通人如何穿过大历史？",
+    "uniqueId": "6a689571b581962ce2bcdacb",
+    "publishedAt": "2026-07-30T09:00:00+00:00",
+    "recencyScore": 9.26,
+    "valueScore": 2.84,
+    "totalScore": 5.73,
+    "domain": "文化",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
+  },
+  {
     "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#620.Modal CTO：你的 AI 应用不该跑在K8s 上，Agent 时代的云应该长什么样",
-    "uniqueId": "6a4efcce2e335a35a8105ac0",
-    "publishedAt": "2026-07-09T01:46:11+00:00",
-    "recencyScore": 3.35,
-    "valueScore": 7.65,
-    "totalScore": 5.72,
+    "episodeTitle": "#592.陈立武：66 岁接手 Intel，AI 算力战争下的半导体供应链重建",
+    "uniqueId": "6a3549dd4233e62bc54c7664",
+    "publishedAt": "2026-06-19T13:56:54+00:00",
+    "recencyScore": 1.2,
+    "valueScore": 9.44,
+    "totalScore": 5.73,
     "domain": "AI",
     "selected": false,
     "reason": ""
+  },
+  {
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#591.Matt Pocock：开发者如何用 AI 放大十倍产出，模型狂热时代的软件基本功",
+    "uniqueId": "6a353df14233e62bc54c7124",
+    "publishedAt": "2026-06-19T13:10:25+00:00",
+    "recencyScore": 1.2,
+    "valueScore": 9.44,
+    "totalScore": 5.73,
+    "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "虚构立影",
+    "episodeTitle": "08 深圳女孩写的“深二代”群像小说",
+    "uniqueId": "6a69821656a3f3491ba6b636",
+    "publishedAt": "2026-07-29T23:00:00+00:00",
+    "recencyScore": 9.07,
+    "valueScore": 2.97,
+    "totalScore": 5.71,
+    "domain": "文化",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
   },
   {
     "podcastName": "跨国串门儿计划",
@@ -985,15 +973,27 @@
   },
   {
     "podcastName": "声动早咖啡",
-    "episodeTitle": "国际足联想出售「世界杯股权」，存储巨头 SK 海力士业绩不及预期",
-    "uniqueId": "6a6a0db656a3f3491ba70994",
-    "publishedAt": "2026-07-29T23:00:00+00:00",
+    "episodeTitle": "咖啡豆｜高达机甲模型店加速落地，古早 IP 如何撑起门店生意？",
+    "uniqueId": "6a6b3ab8b581962ce2be06d5",
+    "publishedAt": "2026-07-30T23:00:00+00:00",
     "recencyScore": 9.53,
-    "valueScore": 2.54,
+    "valueScore": 2.55,
     "totalScore": 5.69,
     "domain": "商业",
     "selected": false,
     "reason": "存货池保留，按价值与时效排序"
+  },
+  {
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#628. AI蜜月期结束：生产力提升，但质量与判断力在退化",
+    "uniqueId": "6a567bd927a4eec16c40bae2",
+    "publishedAt": "2026-07-14T23:00:00+00:00",
+    "recencyScore": 4.28,
+    "valueScore": 6.83,
+    "totalScore": 5.68,
+    "domain": "AI",
+    "selected": false,
+    "reason": ""
   },
   {
     "podcastName": "跨国串门儿计划",
@@ -1020,25 +1020,37 @@
     "reason": ""
   },
   {
-    "podcastName": "贝望录",
-    "episodeTitle": "230. 一场好市集不只是摆摊，过家家如何把线下活动做成品牌、社群与商业？",
-    "uniqueId": "6a55c331ca0de6c44ae6c9e6",
-    "publishedAt": "2026-07-15T00:00:00+00:00",
-    "recencyScore": 4.51,
-    "valueScore": 6.63,
-    "totalScore": 5.68,
-    "domain": "商业",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#623.Dylan Patel 谈驱动 AI 革命的基础设施",
+    "uniqueId": "6a52a93b1e32575f5eb4eb08",
+    "publishedAt": "2026-07-11T20:51:30+00:00",
+    "recencyScore": 3.67,
+    "valueScore": 7.31,
+    "totalScore": 5.67,
+    "domain": "AI",
     "selected": false,
     "reason": ""
   },
   {
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "「不是，而是」成了 AI 口头禅，AI 为何偏爱否定再转折？",
-    "uniqueId": "6a65d2ff6356eb2d9be893fe",
-    "publishedAt": "2026-07-26T23:00:00+00:00",
-    "recencyScore": 8.2,
-    "valueScore": 3.58,
+    "podcastName": "时雨集",
+    "episodeTitle": "从乌斯怀亚到庇隆主义：阿根廷百年国运",
+    "uniqueId": "6a4f1c1f2e335a35a8106dea",
+    "publishedAt": "2026-07-09T04:17:11+00:00",
+    "recencyScore": 3.21,
+    "valueScore": 7.67,
     "totalScore": 5.66,
+    "domain": "财经",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#620.Modal CTO：你的 AI 应用不该跑在K8s 上，Agent 时代的云应该长什么样",
+    "uniqueId": "6a4efcce2e335a35a8105ac0",
+    "publishedAt": "2026-07-09T01:46:11+00:00",
+    "recencyScore": 3.19,
+    "valueScore": 7.65,
+    "totalScore": 5.64,
     "domain": "AI",
     "selected": false,
     "reason": ""
@@ -1048,9 +1060,9 @@
     "episodeTitle": "#585.产品人如何烧掉简历，在 AI 时代打造真正有野心的消费产品",
     "uniqueId": "6a300cd043a22a6955844b53",
     "publishedAt": "2026-06-15T14:36:52+00:00",
-    "recencyScore": 1.04,
+    "recencyScore": 1.0,
     "valueScore": 9.44,
-    "totalScore": 5.66,
+    "totalScore": 5.64,
     "domain": "商业",
     "selected": false,
     "reason": ""
@@ -1189,18 +1201,6 @@
   },
   {
     "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#635. 表现心理学家：卓越表现与巅峰状态的秘诀",
-    "uniqueId": "6a5ce3efa3fec224d5a0055f",
-    "publishedAt": "2026-07-19T14:53:06+00:00",
-    "recencyScore": 5.68,
-    "valueScore": 5.54,
-    "totalScore": 5.6,
-    "domain": "健康",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "跨国串门儿计划",
     "episodeTitle": "#561.AI、信用与250亿美元投资版图：Third Point 创始人 Dan Loeb 的市场判断与人生信念",
     "uniqueId": "6a1b06bbac7bdb080c334ef1",
     "publishedAt": "2026-05-30T17:23:41+00:00",
@@ -1220,6 +1220,18 @@
     "valueScore": 9.34,
     "totalScore": 5.59,
     "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "贝望录",
+    "episodeTitle": "230. 一场好市集不只是摆摊，过家家如何把线下活动做成品牌、社群与商业？",
+    "uniqueId": "6a55c331ca0de6c44ae6c9e6",
+    "publishedAt": "2026-07-15T00:00:00+00:00",
+    "recencyScore": 4.29,
+    "valueScore": 6.63,
+    "totalScore": 5.58,
+    "domain": "商业",
     "selected": false,
     "reason": ""
   },
@@ -1255,54 +1267,6 @@
     "recencyScore": 1.0,
     "valueScore": 9.31,
     "totalScore": 5.57,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "十分吸引",
-    "episodeTitle": "Vol.73 世界杯背后的世界经济版图｜串台：厚雪长波",
-    "uniqueId": "6a4a188e2e335a35a80e4c2b",
-    "publishedAt": "2026-07-05T23:00:00+00:00",
-    "recencyScore": 2.87,
-    "valueScore": 7.76,
-    "totalScore": 5.56,
-    "domain": "财经",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#618.OpenCode 创始人：AI 编程狂潮下，如何保持清醒并找到你的不对称优势",
-    "uniqueId": "6a4d2b402e335a35a80fb2e3",
-    "publishedAt": "2026-07-07T17:01:12+00:00",
-    "recencyScore": 3.13,
-    "valueScore": 7.54,
-    "totalScore": 5.56,
-    "domain": "科技",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#627. 把生活写得有趣：大卫·塞达里斯的观察、幽默与写作之道",
-    "uniqueId": "6a5669e5ca0de6c44ae7268f",
-    "publishedAt": "2026-07-14T17:09:24+00:00",
-    "recencyScore": 4.45,
-    "valueScore": 6.45,
-    "totalScore": 5.55,
-    "domain": "文化",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#605.Dwarkesh：AI 训练的下一个范式，为什么你的模型永远毕不了业",
-    "uniqueId": "6a42806e9d2f5743683fd55f",
-    "publishedAt": "2026-06-29T23:00:00+00:00",
-    "recencyScore": 2.13,
-    "valueScore": 8.33,
-    "totalScore": 5.54,
     "domain": "AI",
     "selected": false,
     "reason": ""
@@ -1356,18 +1320,6 @@
     "reason": ""
   },
   {
-    "podcastName": "硅谷101",
-    "episodeTitle": "E243｜特朗普“缓刑”红牌之外，美国资本如何硬控全球足坛",
-    "uniqueId": "d65f1b49-9e97-4892-bc64-55f5f0b39906",
-    "publishedAt": "2026-07-10T00:00:00+00:00",
-    "recencyScore": 3.51,
-    "valueScore": 7.17,
-    "totalScore": 5.52,
-    "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#564. AI到底会走向哪里：平台迁移、就业焦虑与模型公司的真实价值",
     "uniqueId": "6a1c64c6ac7bdb080c33c6ee",
@@ -1380,26 +1332,14 @@
     "reason": ""
   },
   {
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#602.3Blue1Brown 创始人：成为二手思考者的高昂代价",
-    "uniqueId": "6a4034262e335a35a80a5f75",
-    "publishedAt": "2026-06-27T20:56:42+00:00",
-    "recencyScore": 1.92,
-    "valueScore": 8.45,
-    "totalScore": 5.51,
-    "domain": "文化",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#586.All-in：Anthropic 的Fable风波、AI 国有化、通胀升温与加州选举乱象",
-    "uniqueId": "6a311e554233e62bc54ad7c9",
-    "publishedAt": "2026-06-16T10:39:06+00:00",
-    "recencyScore": 1.08,
-    "valueScore": 9.11,
+    "podcastName": "十分吸引",
+    "episodeTitle": "Vol.73 世界杯背后的世界经济版图｜串台：厚雪长波",
+    "uniqueId": "6a4a188e2e335a35a80e4c2b",
+    "publishedAt": "2026-07-05T23:00:00+00:00",
+    "recencyScore": 2.73,
+    "valueScore": 7.76,
     "totalScore": 5.5,
-    "domain": "AI",
+    "domain": "财经",
     "selected": false,
     "reason": ""
   },
@@ -1417,6 +1357,66 @@
   },
   {
     "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#618.OpenCode 创始人：AI 编程狂潮下，如何保持清醒并找到你的不对称优势",
+    "uniqueId": "6a4d2b402e335a35a80fb2e3",
+    "publishedAt": "2026-07-07T17:01:12+00:00",
+    "recencyScore": 2.98,
+    "valueScore": 7.54,
+    "totalScore": 5.49,
+    "domain": "科技",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#605.Dwarkesh：AI 训练的下一个范式，为什么你的模型永远毕不了业",
+    "uniqueId": "6a42806e9d2f5743683fd55f",
+    "publishedAt": "2026-06-29T23:00:00+00:00",
+    "recencyScore": 2.02,
+    "valueScore": 8.33,
+    "totalScore": 5.49,
+    "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "国际足联想出售「世界杯股权」，存储巨头 SK 海力士业绩不及预期",
+    "uniqueId": "6a6a0db656a3f3491ba70994",
+    "publishedAt": "2026-07-29T23:00:00+00:00",
+    "recencyScore": 9.07,
+    "valueScore": 2.54,
+    "totalScore": 5.48,
+    "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "「不是，而是」成了 AI 口头禅，AI 为何偏爱否定再转折？",
+    "uniqueId": "6a65d2ff6356eb2d9be893fe",
+    "publishedAt": "2026-07-26T23:00:00+00:00",
+    "recencyScore": 7.8,
+    "valueScore": 3.58,
+    "totalScore": 5.48,
+    "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#635. 表现心理学家：卓越表现与巅峰状态的秘诀",
+    "uniqueId": "6a5ce3efa3fec224d5a0055f",
+    "publishedAt": "2026-07-19T14:53:06+00:00",
+    "recencyScore": 5.41,
+    "valueScore": 5.54,
+    "totalScore": 5.48,
+    "domain": "健康",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "跨国串门儿计划",
     "episodeTitle": "#567. 黄仁勋：Agent 时代普通人和企业的新生产力，AI 基础设施竞赛下的计算革命",
     "uniqueId": "6a1e8760122ade5348e85027",
     "publishedAt": "2026-06-02T07:45:00+00:00",
@@ -1428,24 +1428,24 @@
     "reason": ""
   },
   {
-    "podcastName": "about热水频道",
-    "episodeTitle": "简里里×王芳：给情绪留一点余地，风才能吹进来｜097情绪",
-    "uniqueId": "6a60ae3aa3fec224d5a1ac6e",
-    "publishedAt": "2026-07-23T01:00:00+00:00",
-    "recencyScore": 6.74,
-    "valueScore": 4.43,
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#602.3Blue1Brown 创始人：成为二手思考者的高昂代价",
+    "uniqueId": "6a4034262e335a35a80a5f75",
+    "publishedAt": "2026-06-27T20:56:42+00:00",
+    "recencyScore": 1.82,
+    "valueScore": 8.45,
     "totalScore": 5.47,
-    "domain": "健康",
+    "domain": "文化",
     "selected": false,
     "reason": ""
   },
   {
     "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#600.DeepMind预训练负责人：如何用“研究品味”敲开顶尖实验室大门",
-    "uniqueId": "6a3e491a2e335a35a809d1ea",
-    "publishedAt": "2026-06-26T09:45:24+00:00",
-    "recencyScore": 1.78,
-    "valueScore": 8.49,
+    "episodeTitle": "#586.All-in：Anthropic 的Fable风波、AI 国有化、通胀升温与加州选举乱象",
+    "uniqueId": "6a311e554233e62bc54ad7c9",
+    "publishedAt": "2026-06-16T10:39:06+00:00",
+    "recencyScore": 1.03,
+    "valueScore": 9.11,
     "totalScore": 5.47,
     "domain": "AI",
     "selected": false,
@@ -1464,28 +1464,40 @@
     "reason": ""
   },
   {
-    "podcastName": "颜如玉|医美 A to Z",
-    "episodeTitle": "EP26｜医美小白、攻略党、20+初抗衰：变美前，别把自己交给算法",
-    "uniqueId": "6a50af421e32575f5eb449c5",
-    "publishedAt": "2026-07-12T16:00:00+00:00",
-    "recencyScore": 4.01,
-    "valueScore": 6.64,
-    "totalScore": 5.46,
-    "domain": "健康",
+    "podcastName": "硅谷101",
+    "episodeTitle": "E243｜特朗普“缓刑”红牌之外，美国资本如何硬控全球足坛",
+    "uniqueId": "d65f1b49-9e97-4892-bc64-55f5f0b39906",
+    "publishedAt": "2026-07-10T00:00:00+00:00",
+    "recencyScore": 3.34,
+    "valueScore": 7.17,
+    "totalScore": 5.45,
+    "domain": "商业",
     "selected": false,
     "reason": ""
   },
   {
     "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#622.为什么现在是应用层的最佳时机",
-    "uniqueId": "6a50a4fb1e32575f5eb4424d",
-    "publishedAt": "2026-07-10T07:57:16+00:00",
-    "recencyScore": 3.57,
-    "valueScore": 6.99,
+    "episodeTitle": "#627. 把生活写得有趣：大卫·塞达里斯的观察、幽默与写作之道",
+    "uniqueId": "6a5669e5ca0de6c44ae7268f",
+    "publishedAt": "2026-07-14T17:09:24+00:00",
+    "recencyScore": 4.23,
+    "valueScore": 6.45,
     "totalScore": 5.45,
-    "domain": "商业",
+    "domain": "文化",
     "selected": false,
     "reason": ""
+  },
+  {
+    "podcastName": "Peril Crosser 渡厄",
+    "episodeTitle": "EP56: 悼念东野圭吾，狂暴输出40年，AI永远无法将之取代的人肉大模型",
+    "uniqueId": "https://perilcrosser.com/?p=271",
+    "publishedAt": "2026-08-02T03:56:43+00:00",
+    "recencyScore": 10.0,
+    "valueScore": 1.7,
+    "totalScore": 5.44,
+    "domain": "AI",
+    "selected": false,
+    "reason": "近2天更新，按总分排序"
   },
   {
     "podcastName": "跨国串门儿计划",
@@ -1536,6 +1548,18 @@
     "reason": ""
   },
   {
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#600.DeepMind预训练负责人：如何用“研究品味”敲开顶尖实验室大门",
+    "uniqueId": "6a3e491a2e335a35a809d1ea",
+    "publishedAt": "2026-06-26T09:45:24+00:00",
+    "recencyScore": 1.69,
+    "valueScore": 8.49,
+    "totalScore": 5.43,
+    "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "What's Next｜科技早知道",
     "episodeTitle": "S5E29｜重金押注抗衰老公司，硅谷真的可以做出长生不老药吗？",
     "uniqueId": "46b9691e-366e-499c-95f3-28f1b24a3df0",
@@ -1556,30 +1580,6 @@
     "valueScore": 9.01,
     "totalScore": 5.41,
     "domain": "财经",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "走大众路线的迪卡侬，为何要投资高端折叠自行车小布？",
-    "uniqueId": "6a68b6ab56a3f3491ba673bc",
-    "publishedAt": "2026-07-28T23:00:00+00:00",
-    "recencyScore": 9.07,
-    "valueScore": 2.41,
-    "totalScore": 5.41,
-    "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#612.Kent Beck：AI 时代，软件工程里“人的部分”为何比代码更难",
-    "uniqueId": "6a46c7c49d2f57436841aea9",
-    "publishedAt": "2026-07-02T22:09:24+00:00",
-    "recencyScore": 2.47,
-    "valueScore": 7.81,
-    "totalScore": 5.41,
-    "domain": "科技",
     "selected": false,
     "reason": ""
   },
@@ -1608,13 +1608,13 @@
     "reason": ""
   },
   {
-    "podcastName": "贝望录",
-    "episodeTitle": "231. 英伦奇葩说 | 英国为什么总爱给消费者\"制造麻烦\"？聊聊背后那套\"制造摩擦\"的治理哲学",
-    "uniqueId": "6a5dafac6356eb2d9be54f80",
-    "publishedAt": "2026-07-22T00:00:00+00:00",
-    "recencyScore": 6.4,
-    "valueScore": 4.54,
-    "totalScore": 5.38,
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#622.为什么现在是应用层的最佳时机",
+    "uniqueId": "6a50a4fb1e32575f5eb4424d",
+    "publishedAt": "2026-07-10T07:57:16+00:00",
+    "recencyScore": 3.4,
+    "valueScore": 6.99,
+    "totalScore": 5.37,
     "domain": "商业",
     "selected": false,
     "reason": ""
@@ -1632,6 +1632,18 @@
     "reason": ""
   },
   {
+    "podcastName": "颜如玉|医美 A to Z",
+    "episodeTitle": "EP26｜医美小白、攻略党、20+初抗衰：变美前，别把自己交给算法",
+    "uniqueId": "6a50af421e32575f5eb449c5",
+    "publishedAt": "2026-07-12T16:00:00+00:00",
+    "recencyScore": 3.82,
+    "valueScore": 6.64,
+    "totalScore": 5.37,
+    "domain": "健康",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "硅谷101",
     "episodeTitle": "E201｜OpenAI挑战通用型AI Agent，聊聊Agent的底层架构、AGI转折点与RL人才分布",
     "uniqueId": "aa07ca42-2e0c-4009-8e2f-9fca346bfaad",
@@ -1640,6 +1652,18 @@
     "valueScore": 8.9,
     "totalScore": 5.35,
     "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#612.Kent Beck：AI 时代，软件工程里“人的部分”为何比代码更难",
+    "uniqueId": "6a46c7c49d2f57436841aea9",
+    "publishedAt": "2026-07-02T22:09:24+00:00",
+    "recencyScore": 2.35,
+    "valueScore": 7.81,
+    "totalScore": 5.35,
+    "domain": "科技",
     "selected": false,
     "reason": ""
   },
@@ -1656,14 +1680,14 @@
     "reason": ""
   },
   {
-    "podcastName": "碳基生物生存指南",
-    "episodeTitle": "E31 为了给地球降温，人类都在忙些什么?",
-    "uniqueId": "6a3419c243a22a6955861364",
-    "publishedAt": "2026-06-19T02:00:00+00:00",
-    "recencyScore": 1.23,
-    "valueScore": 8.7,
-    "totalScore": 5.34,
-    "domain": "AI",
+    "podcastName": "about热水频道",
+    "episodeTitle": "简里里×王芳：给情绪留一点余地，风才能吹进来｜097情绪",
+    "uniqueId": "6a60ae3aa3fec224d5a1ac6e",
+    "publishedAt": "2026-07-23T01:00:00+00:00",
+    "recencyScore": 6.42,
+    "valueScore": 4.43,
+    "totalScore": 5.33,
+    "domain": "健康",
     "selected": false,
     "reason": ""
   },
@@ -1675,6 +1699,18 @@
     "recencyScore": 1.0,
     "valueScore": 8.85,
     "totalScore": 5.32,
+    "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "碳基生物生存指南",
+    "episodeTitle": "E31 为了给地球降温，人类都在忙些什么?",
+    "uniqueId": "6a3419c243a22a6955861364",
+    "publishedAt": "2026-06-19T02:00:00+00:00",
+    "recencyScore": 1.17,
+    "valueScore": 8.7,
+    "totalScore": 5.31,
     "domain": "AI",
     "selected": false,
     "reason": ""
@@ -1696,9 +1732,9 @@
     "episodeTitle": "#595.All-In：如何守住经济流动性，AI监管与新寡头冲突下的财富真相",
     "uniqueId": "6a3a7f6d9d2f5743683ca27a",
     "publishedAt": "2026-06-23T12:52:58+00:00",
-    "recencyScore": 1.54,
+    "recencyScore": 1.47,
     "valueScore": 8.38,
-    "totalScore": 5.3,
+    "totalScore": 5.27,
     "domain": "AI",
     "selected": false,
     "reason": ""
@@ -1729,30 +1765,6 @@
   },
   {
     "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#616.Matt Pocock：用一份检查清单，终结 AI Agent 的“技能地狱”",
-    "uniqueId": "6a49649f3fb7233cbf43c439",
-    "publishedAt": "2026-07-04T19:54:35+00:00",
-    "recencyScore": 2.71,
-    "valueScore": 7.35,
-    "totalScore": 5.26,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#619.为何我们并未处于 AI 资本支出泡沫中 | 能源主权与电力未来",
-    "uniqueId": "6a4e056e3fb7233cbf45af42",
-    "publishedAt": "2026-07-08T08:13:38+00:00",
-    "recencyScore": 3.23,
-    "valueScore": 6.9,
-    "totalScore": 5.25,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "跨国串门儿计划",
     "episodeTitle": "#264. 乔·罗根 x 纳瓦尔：财富、幸福与人生意义的颠覆性思考",
     "uniqueId": "68f3ec70226547302022894f",
     "publishedAt": "2025-10-18T19:49:55+00:00",
@@ -1764,14 +1776,14 @@
     "reason": ""
   },
   {
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#621.纳瓦尔：驾驭 AGI、AI 焦虑，以及加州帝国",
-    "uniqueId": "6a4f1b653fb7233cbf461824",
-    "publishedAt": "2026-07-09T03:58:27+00:00",
-    "recencyScore": 3.37,
-    "valueScore": 6.75,
-    "totalScore": 5.23,
-    "domain": "AI",
+    "podcastName": "贝望录",
+    "episodeTitle": "231. 英伦奇葩说 | 英国为什么总爱给消费者\"制造麻烦\"？聊聊背后那套\"制造摩擦\"的治理哲学",
+    "uniqueId": "6a5dafac6356eb2d9be54f80",
+    "publishedAt": "2026-07-22T00:00:00+00:00",
+    "recencyScore": 6.09,
+    "valueScore": 4.54,
+    "totalScore": 5.24,
+    "domain": "商业",
     "selected": false,
     "reason": ""
   },
@@ -1780,22 +1792,34 @@
     "episodeTitle": "#589.美联储主席凯文·沃什：首次利率决策会议后发表讲话",
     "uniqueId": "6a33a62843a22a695585dee9",
     "publishedAt": "2026-06-18T08:36:34+00:00",
-    "recencyScore": 1.19,
+    "recencyScore": 1.13,
     "valueScore": 8.54,
-    "totalScore": 5.23,
+    "totalScore": 5.21,
     "domain": "财经",
     "selected": false,
     "reason": ""
   },
   {
-    "podcastName": "张小珺Jùn｜商业访谈录",
-    "episodeTitle": "147. 和蚂蚁灵波沈宇军聊：机器人原生基础模型、大脑和本体的关系、预训练与数据scale up、老师汤晓鸥",
-    "uniqueId": "6a5f79b3a3fec224d5a128cd",
-    "publishedAt": "2026-07-22T00:00:00+00:00",
-    "recencyScore": 6.4,
-    "valueScore": 4.26,
-    "totalScore": 5.22,
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "走大众路线的迪卡侬，为何要投资高端折叠自行车小布？",
+    "uniqueId": "6a68b6ab56a3f3491ba673bc",
+    "publishedAt": "2026-07-28T23:00:00+00:00",
+    "recencyScore": 8.62,
+    "valueScore": 2.41,
+    "totalScore": 5.2,
     "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#616.Matt Pocock：用一份检查清单，终结 AI Agent 的“技能地狱”",
+    "uniqueId": "6a49649f3fb7233cbf43c439",
+    "publishedAt": "2026-07-04T19:54:35+00:00",
+    "recencyScore": 2.58,
+    "valueScore": 7.35,
+    "totalScore": 5.2,
+    "domain": "AI",
     "selected": false,
     "reason": ""
   },
@@ -1824,26 +1848,14 @@
     "reason": ""
   },
   {
-    "podcastName": "张小珺Jùn｜商业访谈录",
-    "episodeTitle": "148. 对游凯超3小时访谈：开源Infra、和模型Co-design 、“如果vLLM失败，我们会后悔一辈子”",
-    "uniqueId": "6a66ed17a3fec224d5a3f744",
-    "publishedAt": "2026-07-28T00:00:00+00:00",
-    "recencyScore": 8.64,
-    "valueScore": 2.37,
-    "totalScore": 5.19,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#587.Paul Graham：创业者如何少走弯路，在衰退与巨头噪音中活下来",
-    "uniqueId": "6a32d2b943a22a6955858ca1",
-    "publishedAt": "2026-06-17T17:15:09+00:00",
-    "recencyScore": 1.15,
-    "valueScore": 8.47,
+    "episodeTitle": "#619.为何我们并未处于 AI 资本支出泡沫中 | 能源主权与电力未来",
+    "uniqueId": "6a4e056e3fb7233cbf45af42",
+    "publishedAt": "2026-07-08T08:13:38+00:00",
+    "recencyScore": 3.08,
+    "valueScore": 6.9,
     "totalScore": 5.18,
-    "domain": "商业",
+    "domain": "AI",
     "selected": false,
     "reason": ""
   },
@@ -1860,14 +1872,26 @@
     "reason": ""
   },
   {
-    "podcastName": "about热水频道",
-    "episodeTitle": "超哥×晴总：AI应该帮我做家务，而不是替我读书｜096阅读",
-    "uniqueId": "6a57a863016dcc7e0542c7df",
-    "publishedAt": "2026-07-16T01:00:00+00:00",
-    "recencyScore": 4.75,
-    "valueScore": 5.49,
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#621.纳瓦尔：驾驭 AGI、AI 焦虑，以及加州帝国",
+    "uniqueId": "6a4f1b653fb7233cbf461824",
+    "publishedAt": "2026-07-09T03:58:27+00:00",
+    "recencyScore": 3.21,
+    "valueScore": 6.75,
     "totalScore": 5.16,
-    "domain": "文化",
+    "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#587.Paul Graham：创业者如何少走弯路，在衰退与巨头噪音中活下来",
+    "uniqueId": "6a32d2b943a22a6955858ca1",
+    "publishedAt": "2026-06-17T17:15:09+00:00",
+    "recencyScore": 1.1,
+    "valueScore": 8.47,
+    "totalScore": 5.15,
+    "domain": "商业",
     "selected": false,
     "reason": ""
   },
@@ -1896,18 +1920,6 @@
     "reason": ""
   },
   {
-    "podcastName": "颜如玉|医美 A to Z",
-    "episodeTitle": "EP24｜刷酸怕疼、怕脱皮、怕翻车？与Susie聊聊年轻人喜欢的momo酸",
-    "uniqueId": "6a40d28e2e335a35a80a8c48",
-    "publishedAt": "2026-06-28T16:00:00+00:00",
-    "recencyScore": 1.99,
-    "valueScore": 7.74,
-    "totalScore": 5.15,
-    "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#544. HTML 是新的 Markdown：用AI生成动态 Spec",
     "uniqueId": "6a0d679c1b7bd5029580b25f",
@@ -1920,38 +1932,38 @@
     "reason": ""
   },
   {
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#634. 一场金融灾难如何意外催生英国首相制度，并奠定现代资本主义的基石",
-    "uniqueId": "6a5b09856356eb2d9be47452",
-    "publishedAt": "2026-07-18T05:10:52+00:00",
-    "recencyScore": 5.3,
-    "valueScore": 4.97,
-    "totalScore": 5.12,
-    "domain": "财经",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "Vibration 歪波音室",
-    "episodeTitle": "消失的B面 The Vanishing B-Side",
-    "uniqueId": "wavpub_MLZjsntKktFvfftZpBnpkUqAvhpSzGgGZMvBXcrWBDfNLRfssTwySmBPm",
-    "publishedAt": "2026-07-22T21:45:00+00:00",
-    "recencyScore": 6.7,
-    "valueScore": 3.77,
-    "totalScore": 5.09,
-    "domain": "文化",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "硅谷101",
-    "episodeTitle": "E244｜机器人走错路了？与苏度韩铮聊聊具身智能的3D数据、路径分野与硅谷竞赛",
-    "uniqueId": "fc9a3737-81a9-49cf-a7d6-530c77df836e",
-    "publishedAt": "2026-07-16T00:00:00+00:00",
-    "recencyScore": 4.74,
-    "valueScore": 5.32,
-    "totalScore": 5.06,
+    "podcastName": "颜如玉|医美 A to Z",
+    "episodeTitle": "EP24｜刷酸怕疼、怕脱皮、怕翻车？与Susie聊聊年轻人喜欢的momo酸",
+    "uniqueId": "6a40d28e2e335a35a80a8c48",
+    "publishedAt": "2026-06-28T16:00:00+00:00",
+    "recencyScore": 1.9,
+    "valueScore": 7.74,
+    "totalScore": 5.11,
     "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "张小珺Jùn｜商业访谈录",
+    "episodeTitle": "147. 和蚂蚁灵波沈宇军聊：机器人原生基础模型、大脑和本体的关系、预训练与数据scale up、老师汤晓鸥",
+    "uniqueId": "6a5f79b3a3fec224d5a128cd",
+    "publishedAt": "2026-07-22T00:00:00+00:00",
+    "recencyScore": 6.09,
+    "valueScore": 4.26,
+    "totalScore": 5.08,
+    "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "about热水频道",
+    "episodeTitle": "超哥×晴总：AI应该帮我做家务，而不是替我读书｜096阅读",
+    "uniqueId": "6a57a863016dcc7e0542c7df",
+    "publishedAt": "2026-07-16T01:00:00+00:00",
+    "recencyScore": 4.52,
+    "valueScore": 5.49,
+    "totalScore": 5.05,
+    "domain": "文化",
     "selected": false,
     "reason": ""
   },
@@ -2016,14 +2028,26 @@
     "reason": ""
   },
   {
-    "podcastName": "贝望录",
-    "episodeTitle": "229. 奶茶里的“奶”，到底是什么？从奶精、鲜奶到高蛋白基底乳，一杯奶茶看懂中国乳业40年的升级之路",
-    "uniqueId": "6a4b55162e335a35a80ecbdf",
-    "publishedAt": "2026-07-08T00:00:00+00:00",
-    "recencyScore": 3.18,
-    "valueScore": 6.51,
-    "totalScore": 5.01,
-    "domain": "商业",
+    "podcastName": "张小珺Jùn｜商业访谈录",
+    "episodeTitle": "148. 对游凯超3小时访谈：开源Infra、和模型Co-design 、“如果vLLM失败，我们会后悔一辈子”",
+    "uniqueId": "6a66ed17a3fec224d5a3f744",
+    "publishedAt": "2026-07-28T00:00:00+00:00",
+    "recencyScore": 8.22,
+    "valueScore": 2.37,
+    "totalScore": 5.0,
+    "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#634. 一场金融灾难如何意外催生英国首相制度，并奠定现代资本主义的基石",
+    "uniqueId": "6a5b09856356eb2d9be47452",
+    "publishedAt": "2026-07-18T05:10:52+00:00",
+    "recencyScore": 5.04,
+    "valueScore": 4.97,
+    "totalScore": 5.0,
+    "domain": "财经",
     "selected": false,
     "reason": ""
   },
@@ -2040,60 +2064,12 @@
     "reason": ""
   },
   {
-    "podcastName": "整点亮话",
-    "episodeTitle": "73 加哥会客厅 | HR 说招不到人，打工人却找不到工作",
-    "uniqueId": "6a6633eda3fec224d5a3b793",
-    "publishedAt": "2026-07-27T01:00:00+00:00",
-    "recencyScore": 8.24,
-    "valueScore": 2.34,
-    "totalScore": 5.0,
-    "domain": "职场",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "入木一分",
-    "episodeTitle": "追星，最后到底在追什么？",
-    "uniqueId": "6a64d4e7a3fec224d5a340a9",
-    "publishedAt": "2026-07-26T16:00:00+00:00",
-    "recencyScore": 8.08,
-    "valueScore": 2.47,
-    "totalScore": 4.99,
-    "domain": "文化",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "Peril Crosser 渡厄",
-    "episodeTitle": "EP55: 安全合规和AI越狱背后，是一场放大版的人类职场PUA",
-    "uniqueId": "https://perilcrosser.com/?p=268",
-    "publishedAt": "2026-07-26T02:02:12+00:00",
-    "recencyScore": 7.85,
-    "valueScore": 2.64,
-    "totalScore": 4.98,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "十分吸引",
     "episodeTitle": "Vol.60 石油百年风云：战火下的能源博弈与世界秩序",
     "uniqueId": "69c141975058f5000cdeb478",
     "publishedAt": "2026-03-23T23:00:00+00:00",
     "recencyScore": 1.0,
     "valueScore": 8.23,
-    "totalScore": 4.98,
-    "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "厦门法院辟谣 LV 诉讼案，巴西进口牛肉可能加征关税",
-    "uniqueId": "6a672c59b581962ce2bc3253",
-    "publishedAt": "2026-07-27T23:00:00+00:00",
-    "recencyScore": 8.62,
-    "valueScore": 2.0,
     "totalScore": 4.98,
     "domain": "商业",
     "selected": false,
@@ -2125,13 +2101,13 @@
   },
   {
     "podcastName": "硅谷101",
-    "episodeTitle": "E242｜最快半年AI跑通自进化？与陈天桥首席科学家聊聊硅谷模型必争之地",
-    "uniqueId": "308f9278-dd48-44d3-a4ce-ee436968fc28",
-    "publishedAt": "2026-07-06T00:00:00+00:00",
-    "recencyScore": 2.88,
-    "valueScore": 6.67,
+    "episodeTitle": "E244｜机器人走错路了？与苏度韩铮聊聊具身智能的3D数据、路径分野与硅谷竞赛",
+    "uniqueId": "fc9a3737-81a9-49cf-a7d6-530c77df836e",
+    "publishedAt": "2026-07-16T00:00:00+00:00",
+    "recencyScore": 4.51,
+    "valueScore": 5.32,
     "totalScore": 4.96,
-    "domain": "AI",
+    "domain": "商业",
     "selected": false,
     "reason": ""
   },
@@ -2160,6 +2136,30 @@
     "reason": ""
   },
   {
+    "podcastName": "贝望录",
+    "episodeTitle": "229. 奶茶里的“奶”，到底是什么？从奶精、鲜奶到高蛋白基底乳，一杯奶茶看懂中国乳业40年的升级之路",
+    "uniqueId": "6a4b55162e335a35a80ecbdf",
+    "publishedAt": "2026-07-08T00:00:00+00:00",
+    "recencyScore": 3.02,
+    "valueScore": 6.51,
+    "totalScore": 4.94,
+    "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "Vibration 歪波音室",
+    "episodeTitle": "消失的B面 The Vanishing B-Side",
+    "uniqueId": "wavpub_MLZjsntKktFvfftZpBnpkUqAvhpSzGgGZMvBXcrWBDfNLRfssTwySmBPm",
+    "publishedAt": "2026-07-22T21:45:00+00:00",
+    "recencyScore": 6.37,
+    "valueScore": 3.77,
+    "totalScore": 4.94,
+    "domain": "文化",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#291.Sam Altman & Satya Nadella深度对话",
     "uniqueId": "6907121343a4f4a98482e181",
@@ -2184,6 +2184,18 @@
     "reason": ""
   },
   {
+    "podcastName": "硅谷101",
+    "episodeTitle": "E242｜最快半年AI跑通自进化？与陈天桥首席科学家聊聊硅谷模型必争之地",
+    "uniqueId": "308f9278-dd48-44d3-a4ce-ee436968fc28",
+    "publishedAt": "2026-07-06T00:00:00+00:00",
+    "recencyScore": 2.74,
+    "valueScore": 6.67,
+    "totalScore": 4.9,
+    "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#350.AI如何改变软件工程——Martin Fowler专访",
     "uniqueId": "693530743fec3166cfb06440",
@@ -2192,30 +2204,6 @@
     "valueScore": 8.09,
     "totalScore": 4.9,
     "domain": "科技",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "富女之友",
-    "episodeTitle": "Vol12. “九紫离火”关普通人什么事？这份接好运指南请收好",
-    "uniqueId": "6a58456b016dcc7e0542edc8",
-    "publishedAt": "2026-07-17T12:30:00+00:00",
-    "recencyScore": 5.12,
-    "valueScore": 4.7,
-    "totalScore": 4.89,
-    "domain": "财经",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "颜如玉|医美 A to Z",
-    "episodeTitle": "EP25｜关于“童颜针”的10个FAQ，为什么你的“童颜针”打了个寂寞？",
-    "uniqueId": "6a49dad62e335a35a80e33e6",
-    "publishedAt": "2026-07-06T07:00:00+00:00",
-    "recencyScore": 2.92,
-    "valueScore": 6.48,
-    "totalScore": 4.88,
-    "domain": "健康",
     "selected": false,
     "reason": ""
   },
@@ -2256,26 +2244,38 @@
     "reason": ""
   },
   {
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#601.杰夫·贝佐斯：亚马逊 1997-2020 致股东信",
-    "uniqueId": "6a3e999e9d2f5743683e6c4d",
-    "publishedAt": "2026-06-26T15:50:06+00:00",
-    "recencyScore": 1.8,
-    "valueScore": 7.31,
-    "totalScore": 4.83,
-    "domain": "商业",
+    "podcastName": "入木一分",
+    "episodeTitle": "追星，最后到底在追什么？",
+    "uniqueId": "6a64d4e7a3fec224d5a340a9",
+    "publishedAt": "2026-07-26T16:00:00+00:00",
+    "recencyScore": 7.69,
+    "valueScore": 2.47,
+    "totalScore": 4.82,
+    "domain": "文化",
     "selected": false,
     "reason": ""
   },
   {
-    "podcastName": "贝望录",
-    "episodeTitle": "25. 找出路丨从联想到创业，她用十年证明：先走出来，再决定往哪里去",
-    "uniqueId": "6a4520019d2f574368410349",
-    "publishedAt": "2026-07-03T00:00:00+00:00",
-    "recencyScore": 2.48,
-    "valueScore": 6.76,
-    "totalScore": 4.83,
-    "domain": "商业",
+    "podcastName": "颜如玉|医美 A to Z",
+    "episodeTitle": "EP25｜关于“童颜针”的10个FAQ，为什么你的“童颜针”打了个寂寞？",
+    "uniqueId": "6a49dad62e335a35a80e33e6",
+    "publishedAt": "2026-07-06T07:00:00+00:00",
+    "recencyScore": 2.78,
+    "valueScore": 6.48,
+    "totalScore": 4.82,
+    "domain": "健康",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "Peril Crosser 渡厄",
+    "episodeTitle": "EP55: 安全合规和AI越狱背后，是一场放大版的人类职场PUA",
+    "uniqueId": "https://perilcrosser.com/?p=268",
+    "publishedAt": "2026-07-26T02:02:12+00:00",
+    "recencyScore": 7.47,
+    "valueScore": 2.64,
+    "totalScore": 4.81,
+    "domain": "AI",
     "selected": false,
     "reason": ""
   },
@@ -2304,14 +2304,14 @@
     "reason": ""
   },
   {
-    "podcastName": "诗梳风",
-    "episodeTitle": "EP25 Bias 即人性（下） · Thoughts",
-    "uniqueId": "6a60efaaa3fec224d5a1cc07",
-    "publishedAt": "2026-07-23T01:00:00+00:00",
-    "recencyScore": 6.74,
-    "valueScore": 3.21,
-    "totalScore": 4.8,
-    "domain": "文化",
+    "podcastName": "整点亮话",
+    "episodeTitle": "73 加哥会客厅 | HR 说招不到人，打工人却找不到工作",
+    "uniqueId": "6a6633eda3fec224d5a3b793",
+    "publishedAt": "2026-07-27T01:00:00+00:00",
+    "recencyScore": 7.84,
+    "valueScore": 2.34,
+    "totalScore": 4.81,
+    "domain": "职场",
     "selected": false,
     "reason": ""
   },
@@ -2328,13 +2328,25 @@
     "reason": ""
   },
   {
-    "podcastName": "搞钱女孩",
-    "episodeTitle": "00后摆脱搞钱羞耻：做明星应援扇月入过万，摆摊穿戴甲日入五百",
-    "uniqueId": "6a61128aa3fec224d5a1d164",
-    "publishedAt": "2026-07-22T23:30:00+00:00",
-    "recencyScore": 6.72,
-    "valueScore": 3.23,
-    "totalScore": 4.8,
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "厦门法院辟谣 LV 诉讼案，巴西进口牛肉可能加征关税",
+    "uniqueId": "6a672c59b581962ce2bc3253",
+    "publishedAt": "2026-07-27T23:00:00+00:00",
+    "recencyScore": 8.2,
+    "valueScore": 2.0,
+    "totalScore": 4.79,
+    "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#601.杰夫·贝佐斯：亚马逊 1997-2020 致股东信",
+    "uniqueId": "6a3e999e9d2f5743683e6c4d",
+    "publishedAt": "2026-06-26T15:50:06+00:00",
+    "recencyScore": 1.72,
+    "valueScore": 7.31,
+    "totalScore": 4.79,
     "domain": "商业",
     "selected": false,
     "reason": ""
@@ -2376,6 +2388,18 @@
     "reason": ""
   },
   {
+    "podcastName": "富女之友",
+    "episodeTitle": "Vol12. “九紫离火”关普通人什么事？这份接好运指南请收好",
+    "uniqueId": "6a58456b016dcc7e0542edc8",
+    "publishedAt": "2026-07-17T12:30:00+00:00",
+    "recencyScore": 4.87,
+    "valueScore": 4.7,
+    "totalScore": 4.78,
+    "domain": "财经",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#553. Google CEO谈谷歌在人工智能领域是否落后",
     "uniqueId": "6a13ca2b8b5c94538ea93932",
@@ -2396,6 +2420,18 @@
     "valueScore": 7.88,
     "totalScore": 4.78,
     "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "贝望录",
+    "episodeTitle": "25. 找出路丨从联想到创业，她用十年证明：先走出来，再决定往哪里去",
+    "uniqueId": "6a4520019d2f574368410349",
+    "publishedAt": "2026-07-03T00:00:00+00:00",
+    "recencyScore": 2.36,
+    "valueScore": 6.76,
+    "totalScore": 4.78,
+    "domain": "商业",
     "selected": false,
     "reason": ""
   },
@@ -2472,18 +2508,6 @@
     "reason": ""
   },
   {
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#588.成功所需的心态框架与每日具体行动",
-    "uniqueId": "6a339d5143a22a695585d897",
-    "publishedAt": "2026-06-18T07:48:15+00:00",
-    "recencyScore": 1.19,
-    "valueScore": 7.66,
-    "totalScore": 4.75,
-    "domain": "健康",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "十字路口Crossing",
     "episodeTitle": "当我们在讨论 Harness 的时候，我们在讨论什么 | 深度对谈: Minimax × Hermes Agent",
     "uniqueId": "69e96b5b1e94ae6921ee3c2b",
@@ -2544,6 +2568,18 @@
     "reason": ""
   },
   {
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#588.成功所需的心态框架与每日具体行动",
+    "uniqueId": "6a339d5143a22a695585d897",
+    "publishedAt": "2026-06-18T07:48:15+00:00",
+    "recencyScore": 1.13,
+    "valueScore": 7.66,
+    "totalScore": 4.72,
+    "domain": "健康",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "十字路口Crossing",
     "episodeTitle": "为什么公司用不好AI？从焦虑到行动的 3 个关键动作｜对谈百融智能张韶峰",
     "uniqueId": "69eb5dfc1d989496e76d373c",
@@ -2574,18 +2610,6 @@
     "publishedAt": "2026-06-14T23:00:00+00:00",
     "recencyScore": 1.0,
     "valueScore": 7.72,
-    "totalScore": 4.7,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "跨域请求",
-    "episodeTitle": "15. 🍾串台朗姆：硅谷AI CEO的不正经人格图鉴大赏",
-    "uniqueId": "6a3d63689d2f5743683df2cb",
-    "publishedAt": "2026-06-26T00:33:13+00:00",
-    "recencyScore": 1.75,
-    "valueScore": 7.11,
     "totalScore": 4.7,
     "domain": "AI",
     "selected": false,
@@ -2624,18 +2648,6 @@
     "valueScore": 7.71,
     "totalScore": 4.69,
     "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#626.僭越、身体与虚拟之镜：Jordan Wolfson 的两场深度对话",
-    "uniqueId": "6a55315a27a4eec16c4028f3",
-    "publishedAt": "2026-07-13T23:00:00+00:00",
-    "recencyScore": 4.28,
-    "valueScore": 5.03,
-    "totalScore": 4.69,
-    "domain": "文化",
     "selected": false,
     "reason": ""
   },
@@ -2712,6 +2724,18 @@
     "reason": ""
   },
   {
+    "podcastName": "跨域请求",
+    "episodeTitle": "15. 🍾串台朗姆：硅谷AI CEO的不正经人格图鉴大赏",
+    "uniqueId": "6a3d63689d2f5743683df2cb",
+    "publishedAt": "2026-06-26T00:33:13+00:00",
+    "recencyScore": 1.66,
+    "valueScore": 7.11,
+    "totalScore": 4.66,
+    "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#522.对话塔勒布：极端斯坦生存指南——肥尾、预测与行为经济学的终极批判",
     "uniqueId": "69fa3180e05c0efcd6ee11f1",
@@ -2720,6 +2744,30 @@
     "valueScore": 7.65,
     "totalScore": 4.66,
     "domain": "财经",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "搞钱女孩",
+    "episodeTitle": "00后摆脱搞钱羞耻：做明星应援扇月入过万，摆摊穿戴甲日入五百",
+    "uniqueId": "6a61128aa3fec224d5a1d164",
+    "publishedAt": "2026-07-22T23:30:00+00:00",
+    "recencyScore": 6.4,
+    "valueScore": 3.23,
+    "totalScore": 4.66,
+    "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "诗梳风",
+    "episodeTitle": "EP25 Bias 即人性（下） · Thoughts",
+    "uniqueId": "6a60efaaa3fec224d5a1cc07",
+    "publishedAt": "2026-07-23T01:00:00+00:00",
+    "recencyScore": 6.42,
+    "valueScore": 3.21,
+    "totalScore": 4.65,
+    "domain": "文化",
     "selected": false,
     "reason": ""
   },
@@ -2796,18 +2844,6 @@
     "reason": ""
   },
   {
-    "podcastName": "整点亮话",
-    "episodeTitle": "71 职场最有效的合作方式，就是不合作",
-    "uniqueId": "6a532d431e32575f5eb50ce2",
-    "publishedAt": "2026-07-13T01:00:00+00:00",
-    "recencyScore": 4.09,
-    "valueScore": 5.06,
-    "totalScore": 4.62,
-    "domain": "职场",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "颜如玉|医美 A to Z",
     "episodeTitle": "EP20｜从饱满到轻盈，从明显到自然：面颈一体化抗衰的“高级感”",
     "uniqueId": "6a06cc4fe1eb34a9397485c8",
@@ -2816,6 +2852,18 @@
     "valueScore": 7.56,
     "totalScore": 4.61,
     "domain": "健康",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#626.僭越、身体与虚拟之镜：Jordan Wolfson 的两场深度对话",
+    "uniqueId": "6a55315a27a4eec16c4028f3",
+    "publishedAt": "2026-07-13T23:00:00+00:00",
+    "recencyScore": 4.07,
+    "valueScore": 5.03,
+    "totalScore": 4.6,
+    "domain": "文化",
     "selected": false,
     "reason": ""
   },
@@ -2840,30 +2888,6 @@
     "valueScore": 7.54,
     "totalScore": 4.6,
     "domain": "健康",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "What's Next｜科技早知道",
-    "episodeTitle": "如何「兜住」一颗火箭？| S10E21",
-    "uniqueId": "b66fdf0f-d428-4f0c-8412-b0c7581132d0",
-    "publishedAt": "2026-07-14T13:30:00+00:00",
-    "recencyScore": 4.41,
-    "valueScore": 4.75,
-    "totalScore": 4.6,
-    "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "思文，败类",
-    "episodeTitle": "108. 又湿又热？来一份夏日养生指南",
-    "uniqueId": "6a5f36e26356eb2d9be60d73",
-    "publishedAt": "2026-07-21T16:00:00+00:00",
-    "recencyScore": 6.3,
-    "valueScore": 3.21,
-    "totalScore": 4.6,
-    "domain": "文化",
     "selected": false,
     "reason": ""
   },
@@ -2940,18 +2964,6 @@
     "reason": ""
   },
   {
-    "podcastName": "What's Next｜科技早知道",
-    "episodeTitle": "为什么硅谷开始重新定义「AI 记忆」| S10E20",
-    "uniqueId": "a70c41aa-41ae-488d-a6e2-63c3de5b9ec3",
-    "publishedAt": "2026-07-08T09:45:00+00:00",
-    "recencyScore": 3.24,
-    "valueScore": 5.64,
-    "totalScore": 4.56,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "十字路口Crossing",
     "episodeTitle": "剑桥博士去挖矿：当 AI 遇上「一钻下去千万美金」的行业｜对话相子恒：DeepOptica 创始人/CEO",
     "uniqueId": "69a2a906a22480add66cf5aa",
@@ -2984,18 +2996,6 @@
     "valueScore": 7.45,
     "totalScore": 4.55,
     "domain": "财经",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "咖啡豆｜全球最畅销的玩具车风火轮，如何让越来越多成年人买单？",
-    "uniqueId": "6a6200286356eb2d9be74825",
-    "publishedAt": "2026-07-23T23:00:00+00:00",
-    "recencyScore": 7.06,
-    "valueScore": 2.49,
-    "totalScore": 4.55,
-    "domain": "商业",
     "selected": false,
     "reason": ""
   },
@@ -3068,6 +3068,18 @@
     "valueScore": 7.41,
     "totalScore": 4.53,
     "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "71 职场最有效的合作方式，就是不合作",
+    "uniqueId": "6a532d431e32575f5eb50ce2",
+    "publishedAt": "2026-07-13T01:00:00+00:00",
+    "recencyScore": 3.89,
+    "valueScore": 5.06,
+    "totalScore": 4.53,
+    "domain": "职场",
     "selected": false,
     "reason": ""
   },
@@ -3168,6 +3180,18 @@
     "reason": ""
   },
   {
+    "podcastName": "What's Next｜科技早知道",
+    "episodeTitle": "如何「兜住」一颗火箭？| S10E21",
+    "uniqueId": "b66fdf0f-d428-4f0c-8412-b0c7581132d0",
+    "publishedAt": "2026-07-14T13:30:00+00:00",
+    "recencyScore": 4.2,
+    "valueScore": 4.75,
+    "totalScore": 4.5,
+    "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "十字路口Crossing",
     "episodeTitle": "20个问题，搞懂DeepSeek和它带来的“AI下半场”",
     "uniqueId": "67b14fc6606e5c5940b6b7aa",
@@ -3176,18 +3200,6 @@
     "valueScore": 7.34,
     "totalScore": 4.49,
     "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#598.David Senra：AI时代最稀缺的能力是“把世界静音”",
-    "uniqueId": "6a3d274f9d2f5743683dd631",
-    "publishedAt": "2026-06-25T13:19:21+00:00",
-    "recencyScore": 1.71,
-    "valueScore": 6.77,
-    "totalScore": 4.49,
-    "domain": "商业",
     "selected": false,
     "reason": ""
   },
@@ -3224,6 +3236,18 @@
     "valueScore": 7.35,
     "totalScore": 4.49,
     "domain": "财经",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "What's Next｜科技早知道",
+    "episodeTitle": "为什么硅谷开始重新定义「AI 记忆」| S10E20",
+    "uniqueId": "a70c41aa-41ae-488d-a6e2-63c3de5b9ec3",
+    "publishedAt": "2026-07-08T09:45:00+00:00",
+    "recencyScore": 3.09,
+    "valueScore": 5.64,
+    "totalScore": 4.49,
+    "domain": "AI",
     "selected": false,
     "reason": ""
   },
@@ -3276,18 +3300,6 @@
     "reason": ""
   },
   {
-    "podcastName": "不被定义的职场",
-    "episodeTitle": "EP21 百万年薪外企高管创业，第一关居然是：不好意思张嘴收865",
-    "uniqueId": "6a5cf508a3fec224d5a00e76",
-    "publishedAt": "2026-07-19T18:16:30+00:00",
-    "recencyScore": 5.72,
-    "valueScore": 3.46,
-    "totalScore": 4.48,
-    "domain": "职场",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "硅谷101",
     "episodeTitle": "E145 | 对话Meta田渊栋：被Transformer改变的世界与人类AGI的野心",
     "uniqueId": "76ef1736-0cc5-4cd8-9076-24ea045eb6ac",
@@ -3332,6 +3344,30 @@
     "valueScore": 7.29,
     "totalScore": 4.46,
     "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "思文，败类",
+    "episodeTitle": "108. 又湿又热？来一份夏日养生指南",
+    "uniqueId": "6a5f36e26356eb2d9be60d73",
+    "publishedAt": "2026-07-21T16:00:00+00:00",
+    "recencyScore": 5.99,
+    "valueScore": 3.21,
+    "totalScore": 4.46,
+    "domain": "文化",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#598.David Senra：AI时代最稀缺的能力是“把世界静音”",
+    "uniqueId": "6a3d274f9d2f5743683dd631",
+    "publishedAt": "2026-06-25T13:19:21+00:00",
+    "recencyScore": 1.62,
+    "valueScore": 6.77,
+    "totalScore": 4.45,
+    "domain": "商业",
     "selected": false,
     "reason": ""
   },
@@ -3552,18 +3588,6 @@
     "reason": ""
   },
   {
-    "podcastName": "贝望录",
-    "episodeTitle": "227. 世界杯不只是大品牌的赌局，中小企业也能在全球赛事中讲好自己的品牌故事",
-    "uniqueId": "6a3a557c9d2f5743683c8c0e",
-    "publishedAt": "2026-06-24T00:00:00+00:00",
-    "recencyScore": 1.58,
-    "valueScore": 6.75,
-    "totalScore": 4.42,
-    "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "十分吸引",
     "episodeTitle": "Vol.34 红利策略：低利率时代的高息资产",
     "uniqueId": "68be75e1d644af9423050913",
@@ -3619,6 +3643,18 @@
     "recencyScore": 1.0,
     "valueScore": 7.19,
     "totalScore": 4.4,
+    "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "咖啡豆｜全球最畅销的玩具车风火轮，如何让越来越多成年人买单？",
+    "uniqueId": "6a6200286356eb2d9be74825",
+    "publishedAt": "2026-07-23T23:00:00+00:00",
+    "recencyScore": 6.72,
+    "valueScore": 2.49,
+    "totalScore": 4.39,
     "domain": "商业",
     "selected": false,
     "reason": ""
@@ -3684,6 +3720,18 @@
     "reason": ""
   },
   {
+    "podcastName": "贝望录",
+    "episodeTitle": "227. 世界杯不只是大品牌的赌局，中小企业也能在全球赛事中讲好自己的品牌故事",
+    "uniqueId": "6a3a557c9d2f5743683c8c0e",
+    "publishedAt": "2026-06-24T00:00:00+00:00",
+    "recencyScore": 1.5,
+    "valueScore": 6.75,
+    "totalScore": 4.39,
+    "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "十字路口Crossing",
     "episodeTitle": "当阿里入局全球 AI Coding，战场里的 60 天 | 对话叔同：Qoder 创始人",
     "uniqueId": "68f96441083a71a4ebd16696",
@@ -3702,18 +3750,6 @@
     "publishedAt": "2025-10-13T00:00:00+00:00",
     "recencyScore": 1.0,
     "valueScore": 7.15,
-    "totalScore": 4.38,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "跨域请求",
-    "episodeTitle": "16.🌠醒醒，别再被AI渗透了。去看流星雨！去过夏天！",
-    "uniqueId": "6a42ca2b2e335a35a80b6f42",
-    "publishedAt": "2026-06-29T19:46:19+00:00",
-    "recencyScore": 2.11,
-    "valueScore": 6.24,
     "totalScore": 4.38,
     "domain": "AI",
     "selected": false,
@@ -3876,6 +3912,18 @@
     "reason": ""
   },
   {
+    "podcastName": "不被定义的职场",
+    "episodeTitle": "EP21 百万年薪外企高管创业，第一关居然是：不好意思张嘴收865",
+    "uniqueId": "6a5cf508a3fec224d5a00e76",
+    "publishedAt": "2026-07-19T18:16:30+00:00",
+    "recencyScore": 5.45,
+    "valueScore": 3.46,
+    "totalScore": 4.36,
+    "domain": "职场",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "十分吸引",
     "episodeTitle": "Vol.58 伊朗战争复盘：资本市场的博弈与定价",
     "uniqueId": "69ad9470c8cdeb38c2855903",
@@ -3920,6 +3968,18 @@
     "valueScore": 7.07,
     "totalScore": 4.34,
     "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "跨域请求",
+    "episodeTitle": "16.🌠醒醒，别再被AI渗透了。去看流星雨！去过夏天！",
+    "uniqueId": "6a42ca2b2e335a35a80b6f42",
+    "publishedAt": "2026-06-29T19:46:19+00:00",
+    "recencyScore": 2.01,
+    "valueScore": 6.24,
+    "totalScore": 4.34,
+    "domain": "AI",
     "selected": false,
     "reason": ""
   },
@@ -3996,18 +4056,6 @@
     "reason": ""
   },
   {
-    "podcastName": "AI产品黄叔",
-    "episodeTitle": "说说陈冕",
-    "uniqueId": "6a6ab3e7b581962ce2bdad55",
-    "publishedAt": "2026-07-30T02:16:56+00:00",
-    "recencyScore": 9.6,
-    "valueScore": 0.01,
-    "totalScore": 4.33,
-    "domain": "AI",
-    "selected": false,
-    "reason": "存货池保留，按价值与时效排序"
-  },
-  {
     "podcastName": "十分吸引",
     "episodeTitle": "Vol.62 财富的本质｜串台：起朱楼宴宾客",
     "uniqueId": "69d26340b977fb2c47283226",
@@ -4028,18 +4076,6 @@
     "valueScore": 7.05,
     "totalScore": 4.33,
     "domain": "财经",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "M字闲聊",
-    "episodeTitle": "夏日续命片刻：老生常谈的能量秘方，怎么越用越香？",
-    "uniqueId": "6a686611b581962ce2bcbcd7",
-    "publishedAt": "2026-07-28T16:00:00+00:00",
-    "recencyScore": 8.94,
-    "valueScore": 0.56,
-    "totalScore": 4.33,
-    "domain": "生活",
     "selected": false,
     "reason": ""
   },
@@ -4100,18 +4136,6 @@
     "valueScore": 7.03,
     "totalScore": 4.32,
     "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "十分吸引",
-    "episodeTitle": "Vol.72 中国真的走出通缩了吗？",
-    "uniqueId": "6a3be3c22e335a35a808d1a6",
-    "publishedAt": "2026-06-28T23:00:00+00:00",
-    "recencyScore": 2.02,
-    "valueScore": 6.2,
-    "totalScore": 4.32,
-    "domain": "财经",
     "selected": false,
     "reason": ""
   },
@@ -4266,18 +4290,6 @@
     "publishedAt": "2025-07-07T03:23:03+00:00",
     "recencyScore": 1.0,
     "valueScore": 7.02,
-    "totalScore": 4.31,
-    "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "贝望录",
-    "episodeTitle": "226. 世界杯凭什么越办越贵？从一场球赛到千亿生意，是谁在掌控足球世界",
-    "uniqueId": "6a2faf024233e62bc54a23d0",
-    "publishedAt": "2026-06-17T00:00:00+00:00",
-    "recencyScore": 1.11,
-    "valueScore": 6.92,
     "totalScore": 4.31,
     "domain": "商业",
     "selected": false,
@@ -4453,18 +4465,6 @@
   },
   {
     "podcastName": "十字路口Crossing",
-    "episodeTitle": "Agent 元年第 500 天：什么在消失，什么在诞生——为什么我们不该再投资 GUI 思维的软件？",
-    "uniqueId": "6a4511d92e335a35a80c8431",
-    "publishedAt": "2026-07-01T17:30:00+00:00",
-    "recencyScore": 2.32,
-    "valueScore": 5.89,
-    "totalScore": 4.28,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "十字路口Crossing",
     "episodeTitle": "OpenClaw 之后，谁将定义主动式 AI 的新战场？｜对谈 AirJelly 黄柏特",
     "uniqueId": "69c1ed91fdc405fbf6f58092",
     "publishedAt": "2026-03-25T16:00:00+00:00",
@@ -4560,12 +4560,12 @@
     "reason": ""
   },
   {
-    "podcastName": "不被定义的职场",
-    "episodeTitle": "EP20 做了3个月IP就想放弃？也许你从一开始就卷错了赛道",
-    "uniqueId": "6a5102881e32575f5eb47339",
-    "publishedAt": "2026-07-10T14:49:33+00:00",
-    "recencyScore": 3.62,
-    "valueScore": 4.82,
+    "podcastName": "贝望录",
+    "episodeTitle": "226. 世界杯凭什么越办越贵？从一场球赛到千亿生意，是谁在掌控足球世界",
+    "uniqueId": "6a2faf024233e62bc54a23d0",
+    "publishedAt": "2026-06-17T00:00:00+00:00",
+    "recencyScore": 1.06,
+    "valueScore": 6.92,
     "totalScore": 4.28,
     "domain": "商业",
     "selected": false,
@@ -4596,6 +4596,18 @@
     "reason": ""
   },
   {
+    "podcastName": "十分吸引",
+    "episodeTitle": "Vol.72 中国真的走出通缩了吗？",
+    "uniqueId": "6a3be3c22e335a35a808d1a6",
+    "publishedAt": "2026-06-28T23:00:00+00:00",
+    "recencyScore": 1.92,
+    "valueScore": 6.2,
+    "totalScore": 4.27,
+    "domain": "财经",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "42章经",
     "episodeTitle": "硅谷 AI 大转弯与二级市场的牛市｜对谈莫傑麟",
     "uniqueId": "68a821c942cc2798e7dd1f4a",
@@ -4604,18 +4616,6 @@
     "valueScore": 6.95,
     "totalScore": 4.27,
     "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "安踏集团不断扩张，提供「弹药支持」的安踏主品牌为何增长掉队？",
-    "uniqueId": "6a5f77456356eb2d9be6312f",
-    "publishedAt": "2026-07-21T23:00:00+00:00",
-    "recencyScore": 6.39,
-    "valueScore": 2.53,
-    "totalScore": 4.27,
-    "domain": "商业",
     "selected": false,
     "reason": ""
   },
@@ -4652,18 +4652,6 @@
     "valueScore": 6.95,
     "totalScore": 4.27,
     "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "整点亮话",
-    "episodeTitle": "69 7.5万字“置身钉内”说透了：熬，分两种，一种熬出自由，一种熬没自己",
-    "uniqueId": "6a41d6249d2f5743683f61bc",
-    "publishedAt": "2026-06-29T02:24:04+00:00",
-    "recencyScore": 2.04,
-    "valueScore": 6.09,
-    "totalScore": 4.27,
-    "domain": "职场",
     "selected": false,
     "reason": ""
   },
@@ -4884,6 +4872,18 @@
     "reason": ""
   },
   {
+    "podcastName": "十字路口Crossing",
+    "episodeTitle": "Agent 元年第 500 天：什么在消失，什么在诞生——为什么我们不该再投资 GUI 思维的软件？",
+    "uniqueId": "6a4511d92e335a35a80c8431",
+    "publishedAt": "2026-07-01T17:30:00+00:00",
+    "recencyScore": 2.21,
+    "valueScore": 5.89,
+    "totalScore": 4.23,
+    "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#504. OpenAI | Sam Altman 与 Greg Brockman 谈创业、AI、产品与未来",
     "uniqueId": "69ea56d41e94ae6921021246",
@@ -5004,6 +5004,18 @@
     "reason": ""
   },
   {
+    "podcastName": "整点亮话",
+    "episodeTitle": "69 7.5万字“置身钉内”说透了：熬，分两种，一种熬出自由，一种熬没自己",
+    "uniqueId": "6a41d6249d2f5743683f61bc",
+    "publishedAt": "2026-06-29T02:24:04+00:00",
+    "recencyScore": 1.94,
+    "valueScore": 6.09,
+    "totalScore": 4.22,
+    "domain": "职场",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "乱翻书",
     "episodeTitle": "259.从互联网医疗到AI健康：一场新供给革命",
     "uniqueId": "6979b0c9fed1b9fd8d559165",
@@ -5024,18 +5036,6 @@
     "valueScore": 6.83,
     "totalScore": 4.21,
     "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "about热水频道",
-    "episodeTitle": "女性生理特别篇：月经、子宫、卵巢、激素……我的身体在忙些什么？｜094月经",
-    "uniqueId": "6a4528689d2f57436841085b",
-    "publishedAt": "2026-07-02T01:00:00+00:00",
-    "recencyScore": 2.36,
-    "valueScore": 5.73,
-    "totalScore": 4.21,
-    "domain": "健康",
     "selected": false,
     "reason": ""
   },
@@ -5196,6 +5196,18 @@
     "reason": ""
   },
   {
+    "podcastName": "不被定义的职场",
+    "episodeTitle": "EP20 做了3个月IP就想放弃？也许你从一开始就卷错了赛道",
+    "uniqueId": "6a5102881e32575f5eb47339",
+    "publishedAt": "2026-07-10T14:49:33+00:00",
+    "recencyScore": 3.45,
+    "valueScore": 4.82,
+    "totalScore": 4.2,
+    "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "搞钱女孩",
     "episodeTitle": "花钱=被资本做局？10 年投资人拆解 5 大消费趋势，帮你挖到搞钱新商机！",
     "uniqueId": "68e67f3b8bf86095c53b9b0a",
@@ -5312,6 +5324,18 @@
     "valueScore": 6.75,
     "totalScore": 4.16,
     "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "about热水频道",
+    "episodeTitle": "女性生理特别篇：月经、子宫、卵巢、激素……我的身体在忙些什么？｜094月经",
+    "uniqueId": "6a4528689d2f57436841085b",
+    "publishedAt": "2026-07-02T01:00:00+00:00",
+    "recencyScore": 2.25,
+    "valueScore": 5.73,
+    "totalScore": 4.16,
+    "domain": "健康",
     "selected": false,
     "reason": ""
   },
@@ -5496,6 +5520,30 @@
     "reason": ""
   },
   {
+    "podcastName": "M字闲聊",
+    "episodeTitle": "夏日续命片刻：老生常谈的能量秘方，怎么越用越香？",
+    "uniqueId": "6a686611b581962ce2bcbcd7",
+    "publishedAt": "2026-07-28T16:00:00+00:00",
+    "recencyScore": 8.5,
+    "valueScore": 0.56,
+    "totalScore": 4.13,
+    "domain": "生活",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "安踏集团不断扩张，提供「弹药支持」的安踏主品牌为何增长掉队？",
+    "uniqueId": "6a5f77456356eb2d9be6312f",
+    "publishedAt": "2026-07-21T23:00:00+00:00",
+    "recencyScore": 6.08,
+    "valueScore": 2.53,
+    "totalScore": 4.13,
+    "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#496.如何写出真正美丽的东西（阿兰·德波顿专访）",
     "uniqueId": "69de4e79b977fb2c47efb8b5",
@@ -5614,6 +5662,18 @@
     "domain": "生活",
     "selected": false,
     "reason": ""
+  },
+  {
+    "podcastName": "AI产品黄叔",
+    "episodeTitle": "说说陈冕",
+    "uniqueId": "6a6ab3e7b581962ce2bdad55",
+    "publishedAt": "2026-07-30T02:16:56+00:00",
+    "recencyScore": 9.13,
+    "valueScore": 0.01,
+    "totalScore": 4.11,
+    "domain": "AI",
+    "selected": false,
+    "reason": "存货池保留，按价值与时效排序"
   },
   {
     "podcastName": "十字路口Crossing",
@@ -5840,18 +5900,6 @@
     "valueScore": 6.63,
     "totalScore": 4.1,
     "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "Peril Crosser 渡厄",
-    "episodeTitle": "EP54: 戳破AI Agent泡沫：数字机械臂vs电风扇",
-    "uniqueId": "https://perilcrosser.com/?p=266",
-    "publishedAt": "2026-07-19T11:13:22+00:00",
-    "recencyScore": 5.64,
-    "valueScore": 2.82,
-    "totalScore": 4.09,
-    "domain": "AI",
     "selected": false,
     "reason": ""
   },
@@ -6216,18 +6264,6 @@
     "reason": ""
   },
   {
-    "podcastName": "搞钱女孩",
-    "episodeTitle": "对话梁永安：没有更好的人生，尽情去经历、去爱、去拥有那个过程",
-    "uniqueId": "6a57cae5a4972c496dfc74de",
-    "publishedAt": "2026-07-15T23:30:00+00:00",
-    "recencyScore": 4.74,
-    "valueScore": 3.49,
-    "totalScore": 4.05,
-    "domain": "文化",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "十字路口Crossing",
     "episodeTitle": "和前《原神》主创恶少聊AI游戏创业｜“这一次，我要做个游戏圈的‘渣男’”",
     "uniqueId": "692c59adba2292550f84849d",
@@ -6372,18 +6408,6 @@
     "reason": ""
   },
   {
-    "podcastName": "虚构立影",
-    "episodeTitle": "07 张悦然的中产阶级叙事能走多远？",
-    "uniqueId": "6a4b3f623fb7233cbf44652f",
-    "publishedAt": "2026-07-06T23:00:00+00:00",
-    "recencyScore": 3.02,
-    "valueScore": 4.85,
-    "totalScore": 4.03,
-    "domain": "文化",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#444. 无限的开端：纳瓦尔对话Brett Hall",
     "uniqueId": "69a58890a22480add6b28fda",
@@ -6468,18 +6492,6 @@
     "reason": ""
   },
   {
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "耐克中国收回线上运营权，国产香氛品牌押注线香",
-    "uniqueId": "6a60d6766356eb2d9be6cba7",
-    "publishedAt": "2026-07-22T23:00:00+00:00",
-    "recencyScore": 6.72,
-    "valueScore": 1.81,
-    "totalScore": 4.02,
-    "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#516. Andrej Karpathy 对谈：为什么程序员从未如此落后？",
     "uniqueId": "69f3714f5390b7cc9284bee2",
@@ -6548,18 +6560,6 @@
     "valueScore": 6.48,
     "totalScore": 4.01,
     "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "十字路口Crossing",
-    "episodeTitle": "我遇到了第一个真正想买的陪伴机器人！｜对话世博：越伴动力创始人【公路播客】",
-    "uniqueId": "6a3f281f9d2f5743683e81b2",
-    "publishedAt": "2026-06-28T16:00:00+00:00",
-    "recencyScore": 1.99,
-    "valueScore": 5.64,
-    "totalScore": 4.0,
-    "domain": "商业",
     "selected": false,
     "reason": ""
   },
@@ -6756,14 +6756,14 @@
     "reason": ""
   },
   {
-    "podcastName": "乱翻书",
-    "episodeTitle": "269. 卷规模 VS 卷创作：真人短剧的两种生存模式",
-    "uniqueId": "6a4f777d1e32575f5eb3cbc1",
-    "publishedAt": "2026-07-09T10:32:06+00:00",
-    "recencyScore": 3.42,
-    "valueScore": 4.44,
-    "totalScore": 3.98,
-    "domain": "文化",
+    "podcastName": "Peril Crosser 渡厄",
+    "episodeTitle": "EP54: 戳破AI Agent泡沫：数字机械臂vs电风扇",
+    "uniqueId": "https://perilcrosser.com/?p=266",
+    "publishedAt": "2026-07-19T11:13:22+00:00",
+    "recencyScore": 5.37,
+    "valueScore": 2.82,
+    "totalScore": 3.97,
+    "domain": "AI",
     "selected": false,
     "reason": ""
   },
@@ -6816,14 +6816,14 @@
     "reason": ""
   },
   {
-    "podcastName": "贝望录",
-    "episodeTitle": "228. 英伦奇葩说丨为什么英国只有一个国家，却有四支世界杯国家队？",
-    "uniqueId": "6a3fd78c2e335a35a80a4b21",
-    "publishedAt": "2026-07-01T00:00:00+00:00",
-    "recencyScore": 2.24,
-    "valueScore": 5.38,
-    "totalScore": 3.97,
-    "domain": "文化",
+    "podcastName": "十字路口Crossing",
+    "episodeTitle": "我遇到了第一个真正想买的陪伴机器人！｜对话世博：越伴动力创始人【公路播客】",
+    "uniqueId": "6a3f281f9d2f5743683e81b2",
+    "publishedAt": "2026-06-28T16:00:00+00:00",
+    "recencyScore": 1.9,
+    "valueScore": 5.64,
+    "totalScore": 3.96,
+    "domain": "商业",
     "selected": false,
     "reason": ""
   },
@@ -6884,6 +6884,18 @@
     "valueScore": 6.38,
     "totalScore": 3.96,
     "domain": "科技",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "虚构立影",
+    "episodeTitle": "07 张悦然的中产阶级叙事能走多远？",
+    "uniqueId": "6a4b3f623fb7233cbf44652f",
+    "publishedAt": "2026-07-06T23:00:00+00:00",
+    "recencyScore": 2.87,
+    "valueScore": 4.85,
+    "totalScore": 3.96,
+    "domain": "文化",
     "selected": false,
     "reason": ""
   },
@@ -6984,18 +6996,6 @@
     "reason": ""
   },
   {
-    "podcastName": "十字路口Crossing",
-    "episodeTitle": "哪条路线，才能通往「世界模型」的终局？｜对话黄碧薇：Aether AI 创始人",
-    "uniqueId": "6a333a614233e62bc54ba990",
-    "publishedAt": "2026-06-18T16:00:00+00:00",
-    "recencyScore": 1.21,
-    "valueScore": 6.2,
-    "totalScore": 3.95,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "硅谷101",
     "episodeTitle": "E138｜如何用大模型提升学习效率？来自1100小时的深度使用体验",
     "uniqueId": "978242d0-d1d0-4ccf-b101-86728070ce8d",
@@ -7076,6 +7076,18 @@
     "valueScore": 6.36,
     "totalScore": 3.95,
     "domain": "财经",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "搞钱女孩",
+    "episodeTitle": "对话梁永安：没有更好的人生，尽情去经历、去爱、去拥有那个过程",
+    "uniqueId": "6a57cae5a4972c496dfc74de",
+    "publishedAt": "2026-07-15T23:30:00+00:00",
+    "recencyScore": 4.51,
+    "valueScore": 3.49,
+    "totalScore": 3.95,
+    "domain": "文化",
     "selected": false,
     "reason": ""
   },
@@ -7200,6 +7212,18 @@
     "reason": ""
   },
   {
+    "podcastName": "十字路口Crossing",
+    "episodeTitle": "哪条路线，才能通往「世界模型」的终局？｜对话黄碧薇：Aether AI 创始人",
+    "uniqueId": "6a333a614233e62bc54ba990",
+    "publishedAt": "2026-06-18T16:00:00+00:00",
+    "recencyScore": 1.15,
+    "valueScore": 6.2,
+    "totalScore": 3.93,
+    "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "about热水频道",
     "episodeTitle": "沈媛：如何用古典乐打开放松的一年？｜072古典乐",
     "uniqueId": "695e97f921cd486af77f3cff",
@@ -7208,18 +7232,6 @@
     "valueScore": 6.33,
     "totalScore": 3.93,
     "domain": "文化",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "硅谷101",
-    "episodeTitle": "E240｜OpenAI联手PE砸下40亿美元，聊聊硅谷最火新职位FDE",
-    "uniqueId": "47b7778e-1ed6-4dab-b7c9-8b4a6555b867",
-    "publishedAt": "2026-06-18T00:00:00+00:00",
-    "recencyScore": 1.17,
-    "valueScore": 6.18,
-    "totalScore": 3.93,
-    "domain": "AI",
     "selected": false,
     "reason": ""
   },
@@ -7272,14 +7284,14 @@
     "reason": ""
   },
   {
-    "podcastName": "AI产品黄叔",
-    "episodeTitle": "分享做AI自媒体的几个关键",
-    "uniqueId": "6a6811eb56a3f3491ba605d0",
-    "publishedAt": "2026-07-28T02:21:30+00:00",
-    "recencyScore": 8.68,
-    "valueScore": 0.01,
-    "totalScore": 3.91,
-    "domain": "AI",
+    "podcastName": "贝望录",
+    "episodeTitle": "228. 英伦奇葩说丨为什么英国只有一个国家，却有四支世界杯国家队？",
+    "uniqueId": "6a3fd78c2e335a35a80a4b21",
+    "publishedAt": "2026-07-01T00:00:00+00:00",
+    "recencyScore": 2.13,
+    "valueScore": 5.38,
+    "totalScore": 3.92,
+    "domain": "文化",
     "selected": false,
     "reason": ""
   },
@@ -7417,6 +7429,18 @@
   },
   {
     "podcastName": "硅谷101",
+    "episodeTitle": "E240｜OpenAI联手PE砸下40亿美元，聊聊硅谷最火新职位FDE",
+    "uniqueId": "47b7778e-1ed6-4dab-b7c9-8b4a6555b867",
+    "publishedAt": "2026-06-18T00:00:00+00:00",
+    "recencyScore": 1.11,
+    "valueScore": 6.18,
+    "totalScore": 3.9,
+    "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "硅谷101",
     "episodeTitle": "E196｜稳定币之战：Circle崛起之路与传统金融入局的新势力角逐",
     "uniqueId": "da43f93f-521d-461e-b21e-f7a867ef2ccf",
     "publishedAt": "2025-06-13T00:00:00+00:00",
@@ -7513,6 +7537,18 @@
   },
   {
     "podcastName": "乱翻书",
+    "episodeTitle": "269. 卷规模 VS 卷创作：真人短剧的两种生存模式",
+    "uniqueId": "6a4f777d1e32575f5eb3cbc1",
+    "publishedAt": "2026-07-09T10:32:06+00:00",
+    "recencyScore": 3.25,
+    "valueScore": 4.44,
+    "totalScore": 3.9,
+    "domain": "文化",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "乱翻书",
     "episodeTitle": "206.从科技追赶转入AI基建叙事，DeepSeek带来中国资产重估",
     "uniqueId": "67c6c043bf52a16cd172f0f3",
     "publishedAt": "2025-03-04T09:15:15+00:00",
@@ -7544,18 +7580,6 @@
     "valueScore": 6.27,
     "totalScore": 3.9,
     "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "搞钱女孩",
-    "episodeTitle": "佟晨洁：炒股练心性，复利是底气！演艺圈“财女”入市22年的人间清醒",
-    "uniqueId": "6a4e74072e335a35a8104392",
-    "publishedAt": "2026-07-08T23:30:00+00:00",
-    "recencyScore": 3.34,
-    "valueScore": 4.35,
-    "totalScore": 3.9,
-    "domain": "财经",
     "selected": false,
     "reason": ""
   },
@@ -7812,6 +7836,18 @@
     "reason": ""
   },
   {
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "耐克中国收回线上运营权，国产香氛品牌押注线香",
+    "uniqueId": "6a60d6766356eb2d9be6cba7",
+    "publishedAt": "2026-07-22T23:00:00+00:00",
+    "recencyScore": 6.39,
+    "valueScore": 1.81,
+    "totalScore": 3.87,
+    "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#280.Dr.James Hollis：如何找到你真正的目标并创造你最好的生活",
     "uniqueId": "6900ce30558113deb7e30d13",
@@ -7992,18 +8028,6 @@
     "reason": ""
   },
   {
-    "podcastName": "What's Next｜科技早知道",
-    "episodeTitle": "从会跳舞到有感知，触觉是机器人通往智能的门票吗？| S10E19",
-    "uniqueId": "f448a656-3004-430b-a853-79d1e77dcb53",
-    "publishedAt": "2026-07-01T07:45:00+00:00",
-    "recencyScore": 2.28,
-    "valueScore": 5.13,
-    "totalScore": 3.85,
-    "domain": "科技",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "贝望录",
     "episodeTitle": "223．Olga新书《开口就是机会》对谈：为什么有能力的人，更要学会开口？",
     "uniqueId": "6a0c08921b7bd502956dca28",
@@ -8012,18 +8036,6 @@
     "valueScore": 6.18,
     "totalScore": 3.85,
     "domain": "职场",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "硅谷101",
-    "episodeTitle": "E241｜跑鞋技术迭代史：马拉松跑进2小时，靠人还是靠鞋？",
-    "uniqueId": "c38d5df5-2eb3-46d3-8437-892593599d29",
-    "publishedAt": "2026-06-26T00:00:00+00:00",
-    "recencyScore": 1.74,
-    "valueScore": 5.56,
-    "totalScore": 3.84,
-    "domain": "健康",
     "selected": false,
     "reason": ""
   },
@@ -8280,6 +8292,18 @@
     "reason": ""
   },
   {
+    "podcastName": "搞钱女孩",
+    "episodeTitle": "佟晨洁：炒股练心性，复利是底气！演艺圈“财女”入市22年的人间清醒",
+    "uniqueId": "6a4e74072e335a35a8104392",
+    "publishedAt": "2026-07-08T23:30:00+00:00",
+    "recencyScore": 3.18,
+    "valueScore": 4.35,
+    "totalScore": 3.82,
+    "domain": "财经",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "十分吸引",
     "episodeTitle": "Vol.19 哈佛耶鲁抛售私募股权，次贷危机会重演吗？",
     "uniqueId": "68143cc66970cc7b4d54203c",
@@ -8401,6 +8425,18 @@
   },
   {
     "podcastName": "硅谷101",
+    "episodeTitle": "E241｜跑鞋技术迭代史：马拉松跑进2小时，靠人还是靠鞋？",
+    "uniqueId": "c38d5df5-2eb3-46d3-8437-892593599d29",
+    "publishedAt": "2026-06-26T00:00:00+00:00",
+    "recencyScore": 1.66,
+    "valueScore": 5.56,
+    "totalScore": 3.8,
+    "domain": "健康",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "硅谷101",
     "episodeTitle": "E172｜大选影响下的硅谷：比特币总统、逆行者与反觉醒文化",
     "uniqueId": "27e3797b-fed8-4ff8-bfae-3824d9a36471",
     "publishedAt": "2024-11-14T00:00:00+00:00",
@@ -8420,6 +8456,18 @@
     "valueScore": 6.09,
     "totalScore": 3.8,
     "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "What's Next｜科技早知道",
+    "episodeTitle": "从会跳舞到有感知，触觉是机器人通往智能的门票吗？| S10E19",
+    "uniqueId": "f448a656-3004-430b-a853-79d1e77dcb53",
+    "publishedAt": "2026-07-01T07:45:00+00:00",
+    "recencyScore": 2.17,
+    "valueScore": 5.13,
+    "totalScore": 3.8,
+    "domain": "科技",
     "selected": false,
     "reason": ""
   },
@@ -8736,30 +8784,6 @@
     "reason": ""
   },
   {
-    "podcastName": "搞钱女孩",
-    "episodeTitle": "大专生逆袭！突破搞钱卡点最快的方式就是换圈子 | 天财女友计划",
-    "uniqueId": "6a4565062e335a35a80ca215",
-    "publishedAt": "2026-07-01T23:30:00+00:00",
-    "recencyScore": 2.35,
-    "valueScore": 4.95,
-    "totalScore": 3.78,
-    "domain": "生活",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "诗梳风",
-    "episodeTitle": "EP25 Bias 即人性（上） · Thoughts",
-    "uniqueId": "6a5a28b7a3fec224d59f3200",
-    "publishedAt": "2026-07-18T01:00:00+00:00",
-    "recencyScore": 5.25,
-    "valueScore": 2.55,
-    "totalScore": 3.77,
-    "domain": "生活",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "十字路口Crossing",
     "episodeTitle": "拿下 a16z 投资，他们要用 AI 重构广告系统｜对谈 00 后 CEO Jason Hu",
     "uniqueId": "684edbd04abe6e29cb41d43a",
@@ -8924,18 +8948,6 @@
     "valueScore": 6.01,
     "totalScore": 3.76,
     "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "从乐园设施到「城市之眼」，为何各地城市都要拥有一座摩天轮？",
-    "uniqueId": "6a5cd6a8a3fec224d59ffd5f",
-    "publishedAt": "2026-07-19T23:00:00+00:00",
-    "recencyScore": 5.78,
-    "valueScore": 2.11,
-    "totalScore": 3.76,
-    "domain": "生活",
     "selected": false,
     "reason": ""
   },
@@ -9140,18 +9152,6 @@
     "valueScore": 6.0,
     "totalScore": 3.75,
     "domain": "财经",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "张小珺Jùn｜商业访谈录",
-    "episodeTitle": "146. 对Physical Intelligence柯丽一鸣4小时访谈：Pi的开源模型研究，机器人的江湖、族谱与主角",
-    "uniqueId": "6a57a05da4972c496dfc67f1",
-    "publishedAt": "2026-07-16T00:30:00+00:00",
-    "recencyScore": 4.75,
-    "valueScore": 2.91,
-    "totalScore": 3.74,
-    "domain": "商业",
     "selected": false,
     "reason": ""
   },
@@ -9408,22 +9408,22 @@
     "reason": ""
   },
   {
-    "podcastName": "纵横四海",
-    "episodeTitle": "EP84《Roar》：生酮、轻断食、168、空腹训练…通通达咩🙅‍♂️",
-    "uniqueId": "6a3fd0302e335a35a80a47d3",
-    "publishedAt": "2026-06-27T16:00:00+00:00",
-    "recencyScore": 1.9,
-    "valueScore": 5.22,
+    "podcastName": "搞钱女孩",
+    "episodeTitle": "大专生逆袭！突破搞钱卡点最快的方式就是换圈子 | 天财女友计划",
+    "uniqueId": "6a4565062e335a35a80ca215",
+    "publishedAt": "2026-07-01T23:30:00+00:00",
+    "recencyScore": 2.24,
+    "valueScore": 4.95,
     "totalScore": 3.73,
-    "domain": "健康",
+    "domain": "生活",
     "selected": false,
     "reason": ""
   },
   {
     "podcastName": "AI产品黄叔",
-    "episodeTitle": "为什么蹬Codex很累呢？其实完全可以很轻松",
-    "uniqueId": "6a66bdd56356eb2d9be8e357",
-    "publishedAt": "2026-07-27T02:10:15+00:00",
+    "episodeTitle": "分享做AI自媒体的几个关键",
+    "uniqueId": "6a6811eb56a3f3491ba605d0",
+    "publishedAt": "2026-07-28T02:21:30+00:00",
     "recencyScore": 8.26,
     "valueScore": 0.01,
     "totalScore": 3.72,
@@ -10020,14 +10020,14 @@
     "reason": ""
   },
   {
-    "podcastName": "十字路口Crossing",
-    "episodeTitle": "对话 MiniMax 闫俊杰：M3、10X 计划、10T 模型、和智能的终局",
-    "uniqueId": "6a374ab075ba9e0c53368f7e",
-    "publishedAt": "2026-06-21T16:00:00+00:00",
-    "recencyScore": 1.4,
-    "valueScore": 5.52,
-    "totalScore": 3.67,
-    "domain": "AI",
+    "podcastName": "纵横四海",
+    "episodeTitle": "EP84《Roar》：生酮、轻断食、168、空腹训练…通通达咩🙅‍♂️",
+    "uniqueId": "6a3fd0302e335a35a80a47d3",
+    "publishedAt": "2026-06-27T16:00:00+00:00",
+    "recencyScore": 1.8,
+    "valueScore": 5.22,
+    "totalScore": 3.68,
+    "domain": "健康",
     "selected": false,
     "reason": ""
   },
@@ -10040,18 +10040,6 @@
     "valueScore": 5.85,
     "totalScore": 3.67,
     "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "42章经",
-    "episodeTitle": "少有的深度参与过字节、美团组织建设的人｜对谈 AI 创业者魏小康",
-    "uniqueId": "6a3e50142e335a35a809d5b4",
-    "publishedAt": "2026-06-27T13:30:00+00:00",
-    "recencyScore": 1.89,
-    "valueScore": 5.13,
-    "totalScore": 3.67,
-    "domain": "商业",
     "selected": false,
     "reason": ""
   },
@@ -10320,6 +10308,18 @@
     "reason": ""
   },
   {
+    "podcastName": "诗梳风",
+    "episodeTitle": "EP25 Bias 即人性（上） · Thoughts",
+    "uniqueId": "6a5a28b7a3fec224d59f3200",
+    "publishedAt": "2026-07-18T01:00:00+00:00",
+    "recencyScore": 5.0,
+    "valueScore": 2.55,
+    "totalScore": 3.65,
+    "domain": "生活",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "十字路口Crossing",
     "episodeTitle": "他飘了、碎了、开悟了，然后做出了付费榜第 3 的 AI 应用｜对谈赵纯想：「胃之书」创始人",
     "uniqueId": "66812f94cdd230b23b362e43",
@@ -10464,6 +10464,18 @@
     "reason": ""
   },
   {
+    "podcastName": "十字路口Crossing",
+    "episodeTitle": "对话 MiniMax 闫俊杰：M3、10X 计划、10T 模型、和智能的终局",
+    "uniqueId": "6a374ab075ba9e0c53368f7e",
+    "publishedAt": "2026-06-21T16:00:00+00:00",
+    "recencyScore": 1.34,
+    "valueScore": 5.52,
+    "totalScore": 3.64,
+    "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "42章经",
     "episodeTitle": "优化胜率而非赔率，把一件事做到理论上该有的样子｜对谈连续创业者 Albert",
     "uniqueId": "69abf2cec8cdeb38c24b2038",
@@ -10477,13 +10489,13 @@
   },
   {
     "podcastName": "声动早咖啡",
-    "episodeTitle": "世界杯商业收入创新高，12306 试点预约购票",
-    "uniqueId": "6a5de7616356eb2d9be5764d",
-    "publishedAt": "2026-07-20T23:00:00+00:00",
-    "recencyScore": 6.08,
-    "valueScore": 1.65,
+    "episodeTitle": "从乐园设施到「城市之眼」，为何各地城市都要拥有一座摩天轮？",
+    "uniqueId": "6a5cd6a8a3fec224d59ffd5f",
+    "publishedAt": "2026-07-19T23:00:00+00:00",
+    "recencyScore": 5.5,
+    "valueScore": 2.11,
     "totalScore": 3.64,
-    "domain": "商业",
+    "domain": "生活",
     "selected": false,
     "reason": ""
   },
@@ -10548,14 +10560,26 @@
     "reason": ""
   },
   {
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "咖啡豆｜溯溪运动还留在山野，溯溪鞋为什么已经走进日常生活？",
-    "uniqueId": "6a58b58ba4972c496dfcd76d",
-    "publishedAt": "2026-07-16T23:00:00+00:00",
-    "recencyScore": 4.98,
-    "valueScore": 2.53,
+    "podcastName": "42章经",
+    "episodeTitle": "少有的深度参与过字节、美团组织建设的人｜对谈 AI 创业者魏小康",
+    "uniqueId": "6a3e50142e335a35a809d5b4",
+    "publishedAt": "2026-06-27T13:30:00+00:00",
+    "recencyScore": 1.79,
+    "valueScore": 5.13,
     "totalScore": 3.63,
-    "domain": "生活",
+    "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "张小珺Jùn｜商业访谈录",
+    "episodeTitle": "146. 对Physical Intelligence柯丽一鸣4小时访谈：Pi的开源模型研究，机器人的江湖、族谱与主角",
+    "uniqueId": "6a57a05da4972c496dfc67f1",
+    "publishedAt": "2026-07-16T00:30:00+00:00",
+    "recencyScore": 4.52,
+    "valueScore": 2.91,
+    "totalScore": 3.63,
+    "domain": "商业",
     "selected": false,
     "reason": ""
   },
@@ -10616,18 +10640,6 @@
     "valueScore": 5.78,
     "totalScore": 3.63,
     "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "What's Next｜科技早知道",
-    "episodeTitle": "AI 时代的超级入口还是手机吗？| S10E17",
-    "uniqueId": "523a0d42-4c16-4dd6-a2ab-9277fec1a731",
-    "publishedAt": "2026-06-25T12:30:00+00:00",
-    "recencyScore": 1.7,
-    "valueScore": 5.21,
-    "totalScore": 3.63,
-    "domain": "科技",
     "selected": false,
     "reason": ""
   },
@@ -10772,18 +10784,6 @@
     "valueScore": 5.77,
     "totalScore": 3.62,
     "domain": "健康",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "整点亮话",
-    "episodeTitle": "72 杨爸咖啡馆|尹曈：清华经管+科技产品营销，文科生的跨界成长之路",
-    "uniqueId": "6a5cdf2c6356eb2d9be50b26",
-    "publishedAt": "2026-07-20T01:00:00+00:00",
-    "recencyScore": 5.81,
-    "valueScore": 1.83,
-    "totalScore": 3.62,
-    "domain": "科技",
     "selected": false,
     "reason": ""
   },
@@ -11185,6 +11185,18 @@
   },
   {
     "podcastName": "What's Next｜科技早知道",
+    "episodeTitle": "AI 时代的超级入口还是手机吗？| S10E17",
+    "uniqueId": "523a0d42-4c16-4dd6-a2ab-9277fec1a731",
+    "publishedAt": "2026-06-25T12:30:00+00:00",
+    "recencyScore": 1.62,
+    "valueScore": 5.21,
+    "totalScore": 3.59,
+    "domain": "科技",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "What's Next｜科技早知道",
     "episodeTitle": "SaaStr 2025：Agent 成行业主角，但「人味儿」依然重要 | S9E20",
     "uniqueId": "74903af9-77b7-4738-9b8e-ee2aaf5b5c7b",
     "publishedAt": "2025-06-25T11:00:00+00:00",
@@ -11216,18 +11228,6 @@
     "valueScore": 5.69,
     "totalScore": 3.58,
     "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "about热水频道",
-    "episodeTitle": "柳如是、董小宛……晚明风月里，她们如何在流言中活成自己？｜093 秦淮八艳",
-    "uniqueId": "6a3c21112e335a35a808e8d9",
-    "publishedAt": "2026-06-25T01:00:00+00:00",
-    "recencyScore": 1.66,
-    "valueScore": 5.15,
-    "totalScore": 3.58,
-    "domain": "文化",
     "selected": false,
     "reason": ""
   },
@@ -11456,18 +11456,6 @@
     "valueScore": 5.65,
     "totalScore": 3.56,
     "domain": "科技",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "时雨集",
-    "episodeTitle": "离上帝太远，离美国太近：北大毒枭的墨西哥淘金记",
-    "uniqueId": "6a37b1bb75ba9e0c5336bc8a",
-    "publishedAt": "2026-06-21T10:11:33+00:00",
-    "recencyScore": 1.39,
-    "valueScore": 5.33,
-    "totalScore": 3.56,
-    "domain": "文化",
     "selected": false,
     "reason": ""
   },
@@ -11796,6 +11784,18 @@
     "reason": ""
   },
   {
+    "podcastName": "AI产品黄叔",
+    "episodeTitle": "为什么蹬Codex很累呢？其实完全可以很轻松",
+    "uniqueId": "6a66bdd56356eb2d9be8e357",
+    "publishedAt": "2026-07-27T02:10:15+00:00",
+    "recencyScore": 7.86,
+    "valueScore": 0.01,
+    "totalScore": 3.54,
+    "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "十字路口Crossing",
     "episodeTitle": "从焦虑到自由：AI时代每个人如何拥有自己的小生意? | 对谈硬地骇客、Podwise联创Saito",
     "uniqueId": "666e4326c26e396a360f1314",
@@ -11804,6 +11804,18 @@
     "valueScore": 5.62,
     "totalScore": 3.54,
     "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "about热水频道",
+    "episodeTitle": "柳如是、董小宛……晚明风月里，她们如何在流言中活成自己？｜093 秦淮八艳",
+    "uniqueId": "6a3c21112e335a35a808e8d9",
+    "publishedAt": "2026-06-25T01:00:00+00:00",
+    "recencyScore": 1.58,
+    "valueScore": 5.15,
+    "totalScore": 3.54,
+    "domain": "文化",
     "selected": false,
     "reason": ""
   },
@@ -11828,18 +11840,6 @@
     "valueScore": 5.62,
     "totalScore": 3.54,
     "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "跨域请求",
-    "episodeTitle": "14.⚽️世界杯特辑 - 由误判驱动的足球科技进步史",
-    "uniqueId": "6a3442974233e62bc54c2b54",
-    "publishedAt": "2026-06-18T19:46:13+00:00",
-    "recencyScore": 1.22,
-    "valueScore": 5.44,
-    "totalScore": 3.54,
-    "domain": "科技",
     "selected": false,
     "reason": ""
   },
@@ -11904,18 +11904,6 @@
     "reason": ""
   },
   {
-    "podcastName": "不被定义的职场",
-    "episodeTitle": "EP19 职场人做IP，如何把“打工经验”变成“个人资产”？",
-    "uniqueId": "6a44c90e9d2f57436840d1e8",
-    "publishedAt": "2026-07-01T08:08:14+00:00",
-    "recencyScore": 2.28,
-    "valueScore": 4.58,
-    "totalScore": 3.54,
-    "domain": "职场",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "纵横四海",
     "episodeTitle": "EP71《我们为什么吃（太多）》：减肥它为什么就这么难！",
     "uniqueId": "68aff0315faf368659cffc29",
@@ -11924,18 +11912,6 @@
     "valueScore": 5.61,
     "totalScore": 3.54,
     "domain": "健康",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "about热水频道",
-    "episodeTitle": "李银河×杨大壹：我爱你，但我也有自己的星期天｜095亲密关系",
-    "uniqueId": "6a4e46a23fb7233cbf45d545",
-    "publishedAt": "2026-07-09T01:00:00+00:00",
-    "recencyScore": 3.35,
-    "valueScore": 3.67,
-    "totalScore": 3.53,
-    "domain": "情感",
     "selected": false,
     "reason": ""
   },
@@ -11952,6 +11928,18 @@
     "reason": ""
   },
   {
+    "podcastName": "时雨集",
+    "episodeTitle": "离上帝太远，离美国太近：北大毒枭的墨西哥淘金记",
+    "uniqueId": "6a37b1bb75ba9e0c5336bc8a",
+    "publishedAt": "2026-06-21T10:11:33+00:00",
+    "recencyScore": 1.32,
+    "valueScore": 5.33,
+    "totalScore": 3.53,
+    "domain": "文化",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "贝望录",
     "episodeTitle": "168. 被AI结结实实帮到了：超级个体如何用赛博合伙人解锁新可能",
     "uniqueId": "67b4954d606e5c59404ed184",
@@ -11960,6 +11948,18 @@
     "valueScore": 5.6,
     "totalScore": 3.53,
     "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "咖啡豆｜溯溪运动还留在山野，溯溪鞋为什么已经走进日常生活？",
+    "uniqueId": "6a58b58ba4972c496dfcd76d",
+    "publishedAt": "2026-07-16T23:00:00+00:00",
+    "recencyScore": 4.73,
+    "valueScore": 2.53,
+    "totalScore": 3.52,
+    "domain": "生活",
     "selected": false,
     "reason": ""
   },
@@ -12096,6 +12096,30 @@
     "reason": ""
   },
   {
+    "podcastName": "跨域请求",
+    "episodeTitle": "14.⚽️世界杯特辑 - 由误判驱动的足球科技进步史",
+    "uniqueId": "6a3442974233e62bc54c2b54",
+    "publishedAt": "2026-06-18T19:46:13+00:00",
+    "recencyScore": 1.16,
+    "valueScore": 5.44,
+    "totalScore": 3.51,
+    "domain": "科技",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "世界杯商业收入创新高，12306 试点预约购票",
+    "uniqueId": "6a5de7616356eb2d9be5764d",
+    "publishedAt": "2026-07-20T23:00:00+00:00",
+    "recencyScore": 5.78,
+    "valueScore": 1.65,
+    "totalScore": 3.51,
+    "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#519.巴菲特首次台下对话：恐慌时买入、黄金法则与美国的秘密配",
     "uniqueId": "69f8a6a3f93890ea8138cf28",
@@ -12114,18 +12138,6 @@
     "publishedAt": "2025-04-11T07:17:35+00:00",
     "recencyScore": 1.0,
     "valueScore": 5.56,
-    "totalScore": 3.51,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "What's Next｜科技早知道",
-    "episodeTitle": "1 人公司，扛 5 个人的活，还要管 50 个 Agents ？| S10E18",
-    "uniqueId": "e3a21dde-0bba-4ec2-bf12-5043500ae5c6",
-    "publishedAt": "2026-06-26T09:30:00+00:00",
-    "recencyScore": 1.78,
-    "valueScore": 4.92,
     "totalScore": 3.51,
     "domain": "AI",
     "selected": false,
@@ -12216,6 +12228,18 @@
     "reason": ""
   },
   {
+    "podcastName": "不被定义的职场",
+    "episodeTitle": "EP19 职场人做IP，如何把“打工经验”变成“个人资产”？",
+    "uniqueId": "6a44c90e9d2f57436840d1e8",
+    "publishedAt": "2026-07-01T08:08:14+00:00",
+    "recencyScore": 2.17,
+    "valueScore": 4.58,
+    "totalScore": 3.5,
+    "domain": "职场",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "啊！是猫咪呀",
     "episodeTitle": "S3.E10 你在「装」什么？",
     "uniqueId": "wavpub_wjyZsfTaFSkqJJXagpwXAjzNnpDAdMVKQUgymyCeGGcDwJehGAcqCUmZe",
@@ -12224,18 +12248,6 @@
     "valueScore": 5.55,
     "totalScore": 3.5,
     "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "Vibration 歪波音室",
-    "episodeTitle": "再听 Adam Lambert：野性、骄傲和自我革命",
-    "uniqueId": "wavpub_XXCmEmHaeKDvthSYyFPUnyWzzWbjREevDjDpuETRLDFUCydBMknEHNwZM",
-    "publishedAt": "2026-07-09T21:45:00+00:00",
-    "recencyScore": 3.5,
-    "valueScore": 3.5,
-    "totalScore": 3.5,
-    "domain": "文化",
     "selected": false,
     "reason": ""
   },
@@ -12372,6 +12384,18 @@
     "reason": ""
   },
   {
+    "podcastName": "整点亮话",
+    "episodeTitle": "72 杨爸咖啡馆|尹曈：清华经管+科技产品营销，文科生的跨界成长之路",
+    "uniqueId": "6a5cdf2c6356eb2d9be50b26",
+    "publishedAt": "2026-07-20T01:00:00+00:00",
+    "recencyScore": 5.52,
+    "valueScore": 1.83,
+    "totalScore": 3.49,
+    "domain": "科技",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "乱翻书",
     "episodeTitle": "220.从雷军微博复更开始聊，中国车企的灵魂争夺战",
     "uniqueId": "682596595ccf03732bfd33d7",
@@ -12416,18 +12440,6 @@
     "valueScore": 5.52,
     "totalScore": 3.49,
     "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "其他垃圾",
-    "episodeTitle": "我不是情绪稳定我只是老了",
-    "uniqueId": "6a5a1af26356eb2d9be4352a",
-    "publishedAt": "2026-07-18T13:30:00+00:00",
-    "recencyScore": 5.39,
-    "valueScore": 1.91,
-    "totalScore": 3.48,
-    "domain": "生活",
     "selected": false,
     "reason": ""
   },
@@ -12625,6 +12637,18 @@
   },
   {
     "podcastName": "What's Next｜科技早知道",
+    "episodeTitle": "1 人公司，扛 5 个人的活，还要管 50 个 Agents ？| S10E18",
+    "uniqueId": "e3a21dde-0bba-4ec2-bf12-5043500ae5c6",
+    "publishedAt": "2026-06-26T09:30:00+00:00",
+    "recencyScore": 1.69,
+    "valueScore": 4.92,
+    "totalScore": 3.47,
+    "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "What's Next｜科技早知道",
     "episodeTitle": "S5E30｜压垮全球供应链的最后一根稻草在哪里",
     "uniqueId": "22890135-8ae2-416d-90e9-7f2549f2ca9f",
     "publishedAt": "2021-11-02T22:00:00+00:00",
@@ -12632,18 +12656,6 @@
     "valueScore": 5.49,
     "totalScore": 3.47,
     "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "乱翻书",
-    "episodeTitle": "268.AI时代，个人工作台会重新回到手机吗？",
-    "uniqueId": "6a3bdd319d2f5743683d4841",
-    "publishedAt": "2026-06-24T13:49:54+00:00",
-    "recencyScore": 1.62,
-    "valueScore": 4.99,
-    "totalScore": 3.47,
-    "domain": "AI",
     "selected": false,
     "reason": ""
   },
@@ -12732,18 +12744,6 @@
     "reason": ""
   },
   {
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "签证中心「差评」不断，各国政府为何要将签证服务外包？",
-    "uniqueId": "6a5639df27a4eec16c409f93",
-    "publishedAt": "2026-07-14T23:00:00+00:00",
-    "recencyScore": 4.5,
-    "valueScore": 2.6,
-    "totalScore": 3.46,
-    "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#449. 特朗普的“长矛挑头”外交：伊朗、以色列与国际法终结的序幕",
     "uniqueId": "69a9406fc8cdeb38c2f10c81",
@@ -12828,18 +12828,6 @@
     "reason": ""
   },
   {
-    "podcastName": "纵横四海",
-    "episodeTitle": "卷首语：我憋了一个大招",
-    "uniqueId": "6a62ed12a3fec224d5a2923f",
-    "publishedAt": "2026-07-25T16:00:00+00:00",
-    "recencyScore": 7.69,
-    "valueScore": 0.0,
-    "totalScore": 3.46,
-    "domain": "生活",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "十字路口Crossing",
     "episodeTitle": "字节在跳动，阿里在躁动，AI六小龙被震动｜与「晚点」复盘大模型这一年的激战",
     "uniqueId": "67559babbdb9877a973dd607",
@@ -12860,6 +12848,18 @@
     "valueScore": 5.45,
     "totalScore": 3.45,
     "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "about热水频道",
+    "episodeTitle": "李银河×杨大壹：我爱你，但我也有自己的星期天｜095亲密关系",
+    "uniqueId": "6a4e46a23fb7233cbf45d545",
+    "publishedAt": "2026-07-09T01:00:00+00:00",
+    "recencyScore": 3.19,
+    "valueScore": 3.67,
+    "totalScore": 3.45,
+    "domain": "情感",
     "selected": false,
     "reason": ""
   },
@@ -13076,6 +13076,18 @@
     "valueScore": 5.44,
     "totalScore": 3.44,
     "domain": "科技",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "乱翻书",
+    "episodeTitle": "268.AI时代，个人工作台会重新回到手机吗？",
+    "uniqueId": "6a3bdd319d2f5743683d4841",
+    "publishedAt": "2026-06-24T13:49:54+00:00",
+    "recencyScore": 1.55,
+    "valueScore": 4.99,
+    "totalScore": 3.44,
+    "domain": "AI",
     "selected": false,
     "reason": ""
   },
@@ -13320,6 +13332,18 @@
     "reason": ""
   },
   {
+    "podcastName": "Vibration 歪波音室",
+    "episodeTitle": "再听 Adam Lambert：野性、骄傲和自我革命",
+    "uniqueId": "wavpub_XXCmEmHaeKDvthSYyFPUnyWzzWbjREevDjDpuETRLDFUCydBMknEHNwZM",
+    "publishedAt": "2026-07-09T21:45:00+00:00",
+    "recencyScore": 3.33,
+    "valueScore": 3.5,
+    "totalScore": 3.42,
+    "domain": "文化",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "硅谷101",
     "episodeTitle": "E229｜从手工作坊到全球第一：中国动力电池逆袭史",
     "uniqueId": "c457ca43-1305-44a3-b9cc-c68480802396",
@@ -13376,18 +13400,6 @@
     "valueScore": 5.39,
     "totalScore": 3.41,
     "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "What's Next｜科技早知道",
-    "episodeTitle": "真正改变世界的技术，为什么一开始都不被看好？| S10E16",
-    "uniqueId": "8c95b3dc-d75a-4bdd-84d4-2c06fd2d85b1",
-    "publishedAt": "2026-06-17T09:15:00+00:00",
-    "recencyScore": 1.13,
-    "valueScore": 5.27,
-    "totalScore": 3.41,
-    "domain": "科技",
     "selected": false,
     "reason": ""
   },
@@ -13873,6 +13885,18 @@
   },
   {
     "podcastName": "What's Next｜科技早知道",
+    "episodeTitle": "真正改变世界的技术，为什么一开始都不被看好？| S10E16",
+    "uniqueId": "8c95b3dc-d75a-4bdd-84d4-2c06fd2d85b1",
+    "publishedAt": "2026-06-17T09:15:00+00:00",
+    "recencyScore": 1.08,
+    "valueScore": 5.27,
+    "totalScore": 3.38,
+    "domain": "科技",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "What's Next｜科技早知道",
     "episodeTitle": "S6E40｜从单模态到多模态，人工“智障”何时才能不鸡肋",
     "uniqueId": "5ffae38d-5c34-404d-9d75-02abe5315d14",
     "publishedAt": "2022-11-30T11:15:00+00:00",
@@ -13998,18 +14022,6 @@
     "publishedAt": "2025-04-28T00:00:00+00:00",
     "recencyScore": 1.0,
     "valueScore": 5.3,
-    "totalScore": 3.37,
-    "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "咖啡豆｜少糖低糖正流行，为何越来越多营养补剂被做成软糖？",
-    "uniqueId": "6a4f6e4c1e32575f5eb3c5a6",
-    "publishedAt": "2026-07-09T23:00:00+00:00",
-    "recencyScore": 3.51,
-    "valueScore": 3.25,
     "totalScore": 3.37,
     "domain": "商业",
     "selected": false,
@@ -14184,6 +14196,18 @@
     "reason": ""
   },
   {
+    "podcastName": "其他垃圾",
+    "episodeTitle": "我不是情绪稳定我只是老了",
+    "uniqueId": "6a5a1af26356eb2d9be4352a",
+    "publishedAt": "2026-07-18T13:30:00+00:00",
+    "recencyScore": 5.13,
+    "valueScore": 1.91,
+    "totalScore": 3.36,
+    "domain": "生活",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "张小珺Jùn｜商业访谈录",
     "episodeTitle": "136. 全球大模型季报第9集：和广密聊，Coding是AGI第二幕、硅谷御三家真相、模型正成为新一代OS",
     "uniqueId": "69de68cfb977fb2c47f1ee14",
@@ -14192,6 +14216,18 @@
     "valueScore": 5.29,
     "totalScore": 3.36,
     "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "签证中心「差评」不断，各国政府为何要将签证服务外包？",
+    "uniqueId": "6a5639df27a4eec16c409f93",
+    "publishedAt": "2026-07-14T23:00:00+00:00",
+    "recencyScore": 4.28,
+    "valueScore": 2.6,
+    "totalScore": 3.36,
+    "domain": "商业",
     "selected": false,
     "reason": ""
   },
@@ -14676,30 +14712,6 @@
     "reason": ""
   },
   {
-    "podcastName": "搞钱女孩",
-    "episodeTitle": "旋子：AI时代如何引流获客？搞定 AI 搜索优化，GEO是门好生意！",
-    "uniqueId": "6a32fd2b43a22a695585919e",
-    "publishedAt": "2026-06-18T00:30:00+00:00",
-    "recencyScore": 1.17,
-    "valueScore": 5.09,
-    "totalScore": 3.33,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "诗梳风",
-    "episodeTitle": "EP23 何为理解 · Thoughts",
-    "uniqueId": "6a4516239d2f57436840fd8a",
-    "publishedAt": "2026-07-02T01:00:00+00:00",
-    "recencyScore": 2.36,
-    "valueScore": 4.1,
-    "totalScore": 3.32,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "十字路口Crossing",
     "episodeTitle": "AI 在中国②：“10 亿规模的公司了，AI 帮我们收入再涨了 30%” | 暖哇科技与百药师的案例实践与启示",
     "uniqueId": "66ee3d696920a36bfc902c11",
@@ -15097,6 +15109,18 @@
   },
   {
     "podcastName": "搞钱女孩",
+    "episodeTitle": "旋子：AI时代如何引流获客？搞定 AI 搜索优化，GEO是门好生意！",
+    "uniqueId": "6a32fd2b43a22a695585919e",
+    "publishedAt": "2026-06-18T00:30:00+00:00",
+    "recencyScore": 1.11,
+    "valueScore": 5.09,
+    "totalScore": 3.3,
+    "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "搞钱女孩",
     "episodeTitle": "勇敢做AI浪潮里的一朵小浪花，搞钱没有天花板 | 深圳听友会",
     "uniqueId": "69e953321e94ae6921ed3394",
     "publishedAt": "2026-04-22T23:26:30+00:00",
@@ -15152,6 +15176,18 @@
     "valueScore": 5.16,
     "totalScore": 3.29,
     "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "咖啡豆｜少糖低糖正流行，为何越来越多营养补剂被做成软糖？",
+    "uniqueId": "6a4f6e4c1e32575f5eb3c5a6",
+    "publishedAt": "2026-07-09T23:00:00+00:00",
+    "recencyScore": 3.34,
+    "valueScore": 3.25,
+    "totalScore": 3.29,
+    "domain": "商业",
     "selected": false,
     "reason": ""
   },
@@ -15272,6 +15308,18 @@
     "valueScore": 5.16,
     "totalScore": 3.29,
     "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "纵横四海",
+    "episodeTitle": "卷首语：我憋了一个大招",
+    "uniqueId": "6a62ed12a3fec224d5a2923f",
+    "publishedAt": "2026-07-25T16:00:00+00:00",
+    "recencyScore": 7.32,
+    "valueScore": 0.0,
+    "totalScore": 3.29,
+    "domain": "生活",
     "selected": false,
     "reason": ""
   },
@@ -15440,6 +15488,18 @@
     "valueScore": 5.15,
     "totalScore": 3.28,
     "domain": "文化",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "诗梳风",
+    "episodeTitle": "EP23 何为理解 · Thoughts",
+    "uniqueId": "6a4516239d2f57436840fd8a",
+    "publishedAt": "2026-07-02T01:00:00+00:00",
+    "recencyScore": 2.25,
+    "valueScore": 4.1,
+    "totalScore": 3.27,
+    "domain": "AI",
     "selected": false,
     "reason": ""
   },
@@ -16068,18 +16128,6 @@
     "reason": ""
   },
   {
-    "podcastName": "那里的城",
-    "episodeTitle": "22.珠海｜从海岛到特区：沿着情侣路读懂珠海",
-    "uniqueId": "6a53c1131e32575f5eb554a4",
-    "publishedAt": "2026-07-12T23:00:00+00:00",
-    "recencyScore": 4.07,
-    "valueScore": 2.5,
-    "totalScore": 3.21,
-    "domain": "生活",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "What's Next｜科技早知道",
     "episodeTitle": "杀伤链上的红线之争：当 AI 能够决定战场上的生死，人类离集体卸责还有多远？| S10E03",
     "uniqueId": "7869d2b0-a5c1-43a7-9982-ad493eec7e82",
@@ -16572,18 +16620,6 @@
     "reason": ""
   },
   {
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "淘宝闪购｜零食量贩店「缩水款」引争议，夏奇拉将登美加墨决赛中场秀",
-    "uniqueId": "6a5794b8a4972c496dfc614e",
-    "publishedAt": "2026-07-15T23:00:00+00:00",
-    "recencyScore": 4.73,
-    "valueScore": 1.9,
-    "totalScore": 3.17,
-    "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#321.你的思想如何构建与塑造：大脑的感官整合、注意力管理与思维模拟理论",
     "uniqueId": "691ac67e6018cc2c9835ff3f",
@@ -16880,18 +16916,6 @@
     "valueScore": 4.9,
     "totalScore": 3.15,
     "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "在东南亚势如破竹的蜜雪冰城，为何在日本三年只开了 4 家店？",
-    "uniqueId": "6a534f204adef2b36562a96a",
-    "publishedAt": "2026-07-12T23:00:00+00:00",
-    "recencyScore": 4.07,
-    "valueScore": 2.39,
-    "totalScore": 3.15,
-    "domain": "商业",
     "selected": false,
     "reason": ""
   },
@@ -17252,6 +17276,18 @@
     "valueScore": 4.86,
     "totalScore": 3.12,
     "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "那里的城",
+    "episodeTitle": "22.珠海｜从海岛到特区：沿着情侣路读懂珠海",
+    "uniqueId": "6a53c1131e32575f5eb554a4",
+    "publishedAt": "2026-07-12T23:00:00+00:00",
+    "recencyScore": 3.88,
+    "valueScore": 2.5,
+    "totalScore": 3.12,
+    "domain": "生活",
     "selected": false,
     "reason": ""
   },
@@ -17952,6 +17988,18 @@
     "reason": ""
   },
   {
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "淘宝闪购｜零食量贩店「缩水款」引争议，夏奇拉将登美加墨决赛中场秀",
+    "uniqueId": "6a5794b8a4972c496dfc614e",
+    "publishedAt": "2026-07-15T23:00:00+00:00",
+    "recencyScore": 4.5,
+    "valueScore": 1.9,
+    "totalScore": 3.07,
+    "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#453.众神之上的凡人：米开朗基罗的艺术长征，从《大卫》到西斯廷的永恒光芒",
     "uniqueId": "69afd732f3a96904386e485c",
@@ -18067,6 +18115,18 @@
     "recencyScore": 1.0,
     "valueScore": 4.76,
     "totalScore": 3.07,
+    "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "在东南亚势如破竹的蜜雪冰城，为何在日本三年只开了 4 家店？",
+    "uniqueId": "6a534f204adef2b36562a96a",
+    "publishedAt": "2026-07-12T23:00:00+00:00",
+    "recencyScore": 3.88,
+    "valueScore": 2.39,
+    "totalScore": 3.06,
     "domain": "商业",
     "selected": false,
     "reason": ""
@@ -18356,18 +18416,6 @@
     "valueScore": 4.71,
     "totalScore": 3.04,
     "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "M字闲聊",
-    "episodeTitle": "湘女一➕快乐冠军➕尖叫女王，野生珍妮来了！",
-    "uniqueId": "6a5da137a3fec224d5a03f1a",
-    "publishedAt": "2026-07-21T16:00:00+00:00",
-    "recencyScore": 6.3,
-    "valueScore": 0.37,
-    "totalScore": 3.04,
-    "domain": "科技",
     "selected": false,
     "reason": ""
   },
@@ -18972,18 +19020,6 @@
     "reason": ""
   },
   {
-    "podcastName": "思文，败类",
-    "episodeTitle": "107. 四川人为什么这么神！",
-    "uniqueId": "6a4c6ff93fb7233cbf44ed3b",
-    "publishedAt": "2026-07-07T16:00:00+00:00",
-    "recencyScore": 3.13,
-    "valueScore": 2.91,
-    "totalScore": 3.01,
-    "domain": "文化",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "Vibration 歪波音室",
     "episodeTitle": "4月新歌&演出推荐丨裘德、刘雨昕、霉霉、宇多田光…还有哪些宝藏值得听？",
     "uniqueId": "wavpub_cjYpLqBSfSVFPhJxzuvaTVkAhDMEqPtFKtKAJWGqARuvPPyKqpjYVXBnJ",
@@ -19064,18 +19100,6 @@
     "valueScore": 4.64,
     "totalScore": 3.0,
     "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "世界杯场边的「下注」生意，为何在不断壮大？",
-    "uniqueId": "6a4cf04c3fb7233cbf453b07",
-    "publishedAt": "2026-07-07T23:00:00+00:00",
-    "recencyScore": 3.17,
-    "valueScore": 2.86,
-    "totalScore": 3.0,
-    "domain": "商业",
     "selected": false,
     "reason": ""
   },
@@ -19500,18 +19524,6 @@
     "reason": ""
   },
   {
-    "podcastName": "富女之友",
-    "episodeTitle": "Vol11.35+中女真实提前退休生活居然是这样的？",
-    "uniqueId": "6a4785f62e335a35a80d8e5a",
-    "publishedAt": "2026-07-03T12:38:38+00:00",
-    "recencyScore": 2.54,
-    "valueScore": 3.33,
-    "totalScore": 2.97,
-    "domain": "生活",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "What's Next｜科技早知道",
     "episodeTitle": "S7E38 | 当一个国家抛弃自己的货币：阿根廷「全面美元化」下的绝望与豪赌",
     "uniqueId": "6ce263aa-c5a0-4ec5-878d-dc3516a610c6",
@@ -19760,18 +19772,6 @@
     "valueScore": 4.56,
     "totalScore": 2.96,
     "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "诗梳风",
-    "episodeTitle": "EP24 · 我们应该如何对待和吸收他人作品？· Thoughts",
-    "uniqueId": "6a4e65ed2e335a35a8103cd6",
-    "publishedAt": "2026-07-09T01:00:00+00:00",
-    "recencyScore": 3.35,
-    "valueScore": 2.63,
-    "totalScore": 2.95,
-    "domain": "文化",
     "selected": false,
     "reason": ""
   },
@@ -20052,6 +20052,18 @@
     "reason": ""
   },
   {
+    "podcastName": "思文，败类",
+    "episodeTitle": "107. 四川人为什么这么神！",
+    "uniqueId": "6a4c6ff93fb7233cbf44ed3b",
+    "publishedAt": "2026-07-07T16:00:00+00:00",
+    "recencyScore": 2.97,
+    "valueScore": 2.91,
+    "totalScore": 2.94,
+    "domain": "文化",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "纵横四海",
     "episodeTitle": "EP32《金钱心理学》：不要用低端局的努力，玩高端局的游戏",
     "uniqueId": "64ddfd4ae490c5dee5b7ae21",
@@ -20132,6 +20144,18 @@
     "valueScore": 4.51,
     "totalScore": 2.93,
     "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "世界杯场边的「下注」生意，为何在不断壮大？",
+    "uniqueId": "6a4cf04c3fb7233cbf453b07",
+    "publishedAt": "2026-07-07T23:00:00+00:00",
+    "recencyScore": 3.02,
+    "valueScore": 2.86,
+    "totalScore": 2.93,
+    "domain": "商业",
     "selected": false,
     "reason": ""
   },
@@ -20288,6 +20312,18 @@
     "valueScore": 4.49,
     "totalScore": 2.92,
     "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "富女之友",
+    "episodeTitle": "Vol11.35+中女真实提前退休生活居然是这样的？",
+    "uniqueId": "6a4785f62e335a35a80d8e5a",
+    "publishedAt": "2026-07-03T12:38:38+00:00",
+    "recencyScore": 2.42,
+    "valueScore": 3.33,
+    "totalScore": 2.92,
+    "domain": "生活",
     "selected": false,
     "reason": ""
   },
@@ -20508,18 +20544,6 @@
     "reason": ""
   },
   {
-    "podcastName": "AI产品黄叔",
-    "episodeTitle": "昨天面试发现挺尴尬的。现在这个节点，要不就是 Agent 用得特别强，要么就是专业能力很突出",
-    "uniqueId": "6a6028d66356eb2d9be66125",
-    "publishedAt": "2026-07-22T02:20:54+00:00",
-    "recencyScore": 6.43,
-    "valueScore": 0.01,
-    "totalScore": 2.9,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "about热水频道",
     "episodeTitle": "当身体变强，人生也会慢慢变顺｜079体能",
     "uniqueId": "69b1602384bce022f9ed185d",
@@ -20564,6 +20588,18 @@
     "valueScore": 4.45,
     "totalScore": 2.9,
     "domain": "财经",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "M字闲聊",
+    "episodeTitle": "湘女一➕快乐冠军➕尖叫女王，野生珍妮来了！",
+    "uniqueId": "6a5da137a3fec224d5a03f1a",
+    "publishedAt": "2026-07-21T16:00:00+00:00",
+    "recencyScore": 5.99,
+    "valueScore": 0.37,
+    "totalScore": 2.9,
+    "domain": "科技",
     "selected": false,
     "reason": ""
   },
@@ -20904,12 +20940,12 @@
     "reason": ""
   },
   {
-    "podcastName": "about热水频道",
-    "episodeTitle": "是谁在网文中偷偷重养自己我不说｜092网文",
-    "uniqueId": "6a32f67f43a22a695585911b",
-    "publishedAt": "2026-06-18T01:00:00+00:00",
-    "recencyScore": 1.17,
-    "valueScore": 4.28,
+    "podcastName": "诗梳风",
+    "episodeTitle": "EP24 · 我们应该如何对待和吸收他人作品？· Thoughts",
+    "uniqueId": "6a4e65ed2e335a35a8103cd6",
+    "publishedAt": "2026-07-09T01:00:00+00:00",
+    "recencyScore": 3.19,
+    "valueScore": 2.63,
     "totalScore": 2.88,
     "domain": "文化",
     "selected": false,
@@ -21068,30 +21104,6 @@
     "valueScore": 4.4,
     "totalScore": 2.87,
     "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "低 GI 概念食品泛滥，喜茶投资小众茶饮品牌",
-    "uniqueId": "6a54f33727a4eec16c40153f",
-    "publishedAt": "2026-07-13T23:00:00+00:00",
-    "recencyScore": 4.28,
-    "valueScore": 1.72,
-    "totalScore": 2.87,
-    "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#590.走进 Anthropic CEO 达里奥·阿莫代的思想世界",
-    "uniqueId": "6a33fa604233e62bc54c17fc",
-    "publishedAt": "2026-06-18T16:58:38+00:00",
-    "recencyScore": 1.21,
-    "valueScore": 4.22,
-    "totalScore": 2.87,
-    "domain": "AI",
     "selected": false,
     "reason": ""
   },
@@ -21313,18 +21325,6 @@
   },
   {
     "podcastName": "Vibration 歪波音室",
-    "episodeTitle": "6月新歌推荐丨A-Lin、马念先、娅娅、MONO… 本月超量推荐🥹！",
-    "uniqueId": "wavpub_AAHYfPWjPhFTtBdHHcAgXqdTuqUKJUycnctVwruFVfQpMBEUvYnDUsucg",
-    "publishedAt": "2026-06-28T21:30:00+00:00",
-    "recencyScore": 2.02,
-    "valueScore": 3.55,
-    "totalScore": 2.86,
-    "domain": "文化",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "Vibration 歪波音室",
     "episodeTitle": "你所不认识的 ONE OK ROCK",
     "uniqueId": "wavpub_UnVYWbqKMZZSBuMPBXSWVYXTWHRpghDTaFpuhEnRAUCUhnZSeDXZCYpbZ",
     "publishedAt": "2022-06-03T03:40:00+00:00",
@@ -21356,6 +21356,18 @@
     "valueScore": 4.36,
     "totalScore": 2.85,
     "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "about热水频道",
+    "episodeTitle": "是谁在网文中偷偷重养自己我不说｜092网文",
+    "uniqueId": "6a32f67f43a22a695585911b",
+    "publishedAt": "2026-06-18T01:00:00+00:00",
+    "recencyScore": 1.11,
+    "valueScore": 4.28,
+    "totalScore": 2.85,
+    "domain": "文化",
     "selected": false,
     "reason": ""
   },
@@ -21596,6 +21608,18 @@
     "valueScore": 4.34,
     "totalScore": 2.84,
     "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#590.走进 Anthropic CEO 达里奥·阿莫代的思想世界",
+    "uniqueId": "6a33fa604233e62bc54c17fc",
+    "publishedAt": "2026-06-18T16:58:38+00:00",
+    "recencyScore": 1.15,
+    "valueScore": 4.22,
+    "totalScore": 2.84,
+    "domain": "AI",
     "selected": false,
     "reason": ""
   },
@@ -22002,6 +22026,18 @@
     "publishedAt": "2022-05-08T22:50:15+00:00",
     "recencyScore": 1.0,
     "valueScore": 4.3,
+    "totalScore": 2.82,
+    "domain": "文化",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "Vibration 歪波音室",
+    "episodeTitle": "6月新歌推荐丨A-Lin、马念先、娅娅、MONO… 本月超量推荐🥹！",
+    "uniqueId": "wavpub_AAHYfPWjPhFTtBdHHcAgXqdTuqUKJUycnctVwruFVfQpMBEUvYnDUsucg",
+    "publishedAt": "2026-06-28T21:30:00+00:00",
+    "recencyScore": 1.92,
+    "valueScore": 3.55,
     "totalScore": 2.82,
     "domain": "文化",
     "selected": false,
@@ -22524,18 +22560,6 @@
     "reason": ""
   },
   {
-    "podcastName": "思文，败类",
-    "episodeTitle": "106. 来自艺术治疗师的“都市愉悦清单”",
-    "uniqueId": "6a3bac719d2f5743683d2df9",
-    "publishedAt": "2026-06-24T16:00:00+00:00",
-    "recencyScore": 1.63,
-    "valueScore": 3.73,
-    "totalScore": 2.79,
-    "domain": "文化",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "搞钱女孩",
     "episodeTitle": "副业入局养老赛道变现150W，50+人群的含金量还在上升！",
     "uniqueId": "67db042edd11f9c8c1c9171b",
@@ -22628,6 +22652,18 @@
     "valueScore": 4.23,
     "totalScore": 2.78,
     "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "低 GI 概念食品泛滥，喜茶投资小众茶饮品牌",
+    "uniqueId": "6a54f33727a4eec16c40153f",
+    "publishedAt": "2026-07-13T23:00:00+00:00",
+    "recencyScore": 4.07,
+    "valueScore": 1.72,
+    "totalScore": 2.78,
+    "domain": "商业",
     "selected": false,
     "reason": ""
   },
@@ -22813,9 +22849,9 @@
   },
   {
     "podcastName": "AI产品黄叔",
-    "episodeTitle": "微信是个大金矿，如何用Agent挖掘",
-    "uniqueId": "6a5ed4416356eb2d9be5c7c2",
-    "publishedAt": "2026-07-21T02:11:24+00:00",
+    "episodeTitle": "昨天面试发现挺尴尬的。现在这个节点，要不就是 Agent 用得特别强，要么就是专业能力很突出",
+    "uniqueId": "6a6028d66356eb2d9be66125",
+    "publishedAt": "2026-07-22T02:20:54+00:00",
     "recencyScore": 6.12,
     "valueScore": 0.01,
     "totalScore": 2.76,
@@ -23012,6 +23048,18 @@
     "valueScore": 4.18,
     "totalScore": 2.75,
     "domain": "生活",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "思文，败类",
+    "episodeTitle": "106. 来自艺术治疗师的“都市愉悦清单”",
+    "uniqueId": "6a3bac719d2f5743683d2df9",
+    "publishedAt": "2026-06-24T16:00:00+00:00",
+    "recencyScore": 1.55,
+    "valueScore": 3.73,
+    "totalScore": 2.75,
+    "domain": "文化",
     "selected": false,
     "reason": ""
   },
@@ -23868,18 +23916,6 @@
     "reason": ""
   },
   {
-    "podcastName": "入木一分",
-    "episodeTitle": "演唱会调音有多难？买什么位置好？",
-    "uniqueId": "6a4f53a21e32575f5eb3b137",
-    "publishedAt": "2026-07-09T16:00:00+00:00",
-    "recencyScore": 3.46,
-    "valueScore": 2.08,
-    "totalScore": 2.7,
-    "domain": "文化",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "What's Next｜科技早知道",
     "episodeTitle": "S7E34 | 从共享办公巨头到负债百亿美元，WeWork 为什么不 Work 了？",
     "uniqueId": "06e47e4c-6a49-437f-a642-ebf102cdea69",
@@ -23946,18 +23982,6 @@
     "publishedAt": "2023-10-11T00:00:00+00:00",
     "recencyScore": 1.0,
     "valueScore": 4.09,
-    "totalScore": 2.7,
-    "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "搞钱女孩",
-    "episodeTitle": "对话蒋友柏：如何跳出原生家庭重塑自我？真老钱亲测有效的人生设计思维",
-    "uniqueId": "6a3c1b6b9d2f5743683d62c5",
-    "publishedAt": "2026-06-24T23:30:00+00:00",
-    "recencyScore": 1.66,
-    "valueScore": 3.55,
     "totalScore": 2.7,
     "domain": "商业",
     "selected": false,
@@ -24457,6 +24481,18 @@
   },
   {
     "podcastName": "搞钱女孩",
+    "episodeTitle": "对话蒋友柏：如何跳出原生家庭重塑自我？真老钱亲测有效的人生设计思维",
+    "uniqueId": "6a3c1b6b9d2f5743683d62c5",
+    "publishedAt": "2026-06-24T23:30:00+00:00",
+    "recencyScore": 1.58,
+    "valueScore": 3.55,
+    "totalScore": 2.66,
+    "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "搞钱女孩",
     "episodeTitle": "魔都“负豪”自曝：亏掉一个亿后才明白，赚钱不是对努力的回报",
     "uniqueId": "693705c83fec3166cff86b5d",
     "publishedAt": "2025-12-08T23:30:00+00:00",
@@ -24708,18 +24744,6 @@
     "reason": ""
   },
   {
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "她研社｜咖啡豆：辣妹风女装 BM 曾被大量吐槽，为什么国产「BM 学徒」越来越多？",
-    "uniqueId": "6a467c799d2f574368419e7f",
-    "publishedAt": "2026-07-02T23:00:00+00:00",
-    "recencyScore": 2.47,
-    "valueScore": 2.76,
-    "totalScore": 2.63,
-    "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "What's Next｜科技早知道",
     "episodeTitle": "#53 都什么年代了，投票系统怎么还这么落后？",
     "uniqueId": "f2885415-414f-46d9-ad19-39d41f526d4c",
@@ -24877,10 +24901,10 @@
   },
   {
     "podcastName": "AI产品黄叔",
-    "episodeTitle": "开启一个Agent新时代",
-    "uniqueId": "6a5d7dd4a3fec224d5a02412",
-    "publishedAt": "2026-07-20T01:46:50+00:00",
-    "recencyScore": 5.81,
+    "episodeTitle": "微信是个大金矿，如何用Agent挖掘",
+    "uniqueId": "6a5ed4416356eb2d9be5c7c2",
+    "publishedAt": "2026-07-21T02:11:24+00:00",
+    "recencyScore": 5.82,
     "valueScore": 0.01,
     "totalScore": 2.62,
     "domain": "AI",
@@ -24936,14 +24960,14 @@
     "reason": ""
   },
   {
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "蛋白粉的关键原料日益紧俏，乳清蛋白为什么变得越来越抢手？",
-    "uniqueId": "6a4a0aed3fb7233cbf43efc9",
-    "publishedAt": "2026-07-05T23:00:00+00:00",
-    "recencyScore": 2.87,
-    "valueScore": 2.42,
+    "podcastName": "入木一分",
+    "episodeTitle": "演唱会调音有多难？买什么位置好？",
+    "uniqueId": "6a4f53a21e32575f5eb3b137",
+    "publishedAt": "2026-07-09T16:00:00+00:00",
+    "recencyScore": 3.29,
+    "valueScore": 2.08,
     "totalScore": 2.62,
-    "domain": "商业",
+    "domain": "文化",
     "selected": false,
     "reason": ""
   },
@@ -25028,18 +25052,6 @@
     "valueScore": 3.94,
     "totalScore": 2.62,
     "domain": "情感",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "Peril Crosser 渡厄",
-    "episodeTitle": "EP53: 赛博无间道，从Claude隐写风波看科技封建主义与巨头博弈",
-    "uniqueId": "https://perilcrosser.com/?p=264",
-    "publishedAt": "2026-07-12T06:48:36+00:00",
-    "recencyScore": 3.94,
-    "valueScore": 1.52,
-    "totalScore": 2.61,
-    "domain": "AI",
     "selected": false,
     "reason": ""
   },
@@ -25488,18 +25500,6 @@
     "reason": ""
   },
   {
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "vivo｜咖啡豆：「新鲜零食」概念火热，这门生意如何吸引老牌零食玩家相继试水？",
-    "uniqueId": "6a3d1b439d2f5743683dd033",
-    "publishedAt": "2026-06-25T23:00:00+00:00",
-    "recencyScore": 1.74,
-    "valueScore": 3.28,
-    "totalScore": 2.59,
-    "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "碳基生物生存指南",
     "episodeTitle": "E05 2024啦，如何科学地立稳稳的flag",
     "uniqueId": "65918a8fce7b77ef72b97262",
@@ -25554,6 +25554,18 @@
     "publishedAt": "2024-12-02T00:00:00+00:00",
     "recencyScore": 1.0,
     "valueScore": 3.87,
+    "totalScore": 2.58,
+    "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "她研社｜咖啡豆：辣妹风女装 BM 曾被大量吐槽，为什么国产「BM 学徒」越来越多？",
+    "uniqueId": "6a467c799d2f574368419e7f",
+    "publishedAt": "2026-07-02T23:00:00+00:00",
+    "recencyScore": 2.35,
+    "valueScore": 2.76,
     "totalScore": 2.58,
     "domain": "商业",
     "selected": false,
@@ -25908,6 +25920,18 @@
     "reason": ""
   },
   {
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "蛋白粉的关键原料日益紧俏，乳清蛋白为什么变得越来越抢手？",
+    "uniqueId": "6a4a0aed3fb7233cbf43efc9",
+    "publishedAt": "2026-07-05T23:00:00+00:00",
+    "recencyScore": 2.73,
+    "valueScore": 2.42,
+    "totalScore": 2.56,
+    "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "What's Next｜科技早知道",
     "episodeTitle": "S5E08｜ 风起云涌，中美音频市场入局者究竟谁能玩得转？",
     "uniqueId": "c42b989c-a003-43a5-8e4a-15450667b2fd",
@@ -25988,6 +26012,18 @@
     "valueScore": 3.82,
     "totalScore": 2.55,
     "domain": "文化",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "vivo｜咖啡豆：「新鲜零食」概念火热，这门生意如何吸引老牌零食玩家相继试水？",
+    "uniqueId": "6a3d1b439d2f5743683dd033",
+    "publishedAt": "2026-06-25T23:00:00+00:00",
+    "recencyScore": 1.66,
+    "valueScore": 3.28,
+    "totalScore": 2.55,
+    "domain": "商业",
     "selected": false,
     "reason": ""
   },
@@ -26220,18 +26256,6 @@
     "reason": ""
   },
   {
-    "podcastName": "富女之友",
-    "episodeTitle": "Vol10.我们的羊毛人生！信用卡让我实现商务舱自由",
-    "uniqueId": "6a3c533b2e335a35a808ec70",
-    "publishedAt": "2026-06-26T12:30:00+00:00",
-    "recencyScore": 1.79,
-    "valueScore": 3.14,
-    "totalScore": 2.53,
-    "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "What's Next｜科技早知道",
     "episodeTitle": "S6E17｜蹲了 WWDC 一天，苹果好像在下一盘大棋",
     "uniqueId": "3dbdf241-c769-483e-bf39-93dd20ac0e57",
@@ -26300,6 +26324,18 @@
     "valueScore": 3.79,
     "totalScore": 2.53,
     "domain": "生活",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "Peril Crosser 渡厄",
+    "episodeTitle": "EP53: 赛博无间道，从Claude隐写风波看科技封建主义与巨头博弈",
+    "uniqueId": "https://perilcrosser.com/?p=264",
+    "publishedAt": "2026-07-12T06:48:36+00:00",
+    "recencyScore": 3.75,
+    "valueScore": 1.52,
+    "totalScore": 2.52,
+    "domain": "AI",
     "selected": false,
     "reason": ""
   },
@@ -26677,18 +26713,6 @@
   },
   {
     "podcastName": "其他垃圾",
-    "episodeTitle": "全球老登，主动找崩",
-    "uniqueId": "6a4767402e335a35a80d7b51",
-    "publishedAt": "2026-07-04T13:00:00+00:00",
-    "recencyScore": 2.67,
-    "valueScore": 2.36,
-    "totalScore": 2.5,
-    "domain": "情感",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "其他垃圾",
     "episodeTitle": "Ep39. 贾玲，我们的天才女友",
     "uniqueId": "65dc674cdde969cfdc0f743c",
     "publishedAt": "2024-02-27T16:00:00+00:00",
@@ -26754,18 +26778,6 @@
     "publishedAt": "2024-12-10T02:23:51+00:00",
     "recencyScore": 1.0,
     "valueScore": 3.73,
-    "totalScore": 2.5,
-    "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "淘宝闪购｜小米汽车宣布新产品系列，巴基斯坦小城撑起全球足球制造",
-    "uniqueId": "6a4e4c743fb7233cbf45d875",
-    "publishedAt": "2026-07-08T23:00:00+00:00",
-    "recencyScore": 3.34,
-    "valueScore": 1.82,
     "totalScore": 2.5,
     "domain": "商业",
     "selected": false,
@@ -26844,6 +26856,18 @@
     "reason": ""
   },
   {
+    "podcastName": "AI产品黄叔",
+    "episodeTitle": "开启一个Agent新时代",
+    "uniqueId": "6a5d7dd4a3fec224d5a02412",
+    "publishedAt": "2026-07-20T01:46:50+00:00",
+    "recencyScore": 5.53,
+    "valueScore": 0.01,
+    "totalScore": 2.49,
+    "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "其他垃圾",
     "episodeTitle": "Ep30. 千万富婆木子美，和她写床评的前半生",
     "uniqueId": "654fa9da0c723621c7f4d5b4",
@@ -26874,6 +26898,18 @@
     "publishedAt": "2022-10-27T23:00:00+00:00",
     "recencyScore": 1.0,
     "valueScore": 3.7,
+    "totalScore": 2.49,
+    "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "富女之友",
+    "episodeTitle": "Vol10.我们的羊毛人生！信用卡让我实现商务舱自由",
+    "uniqueId": "6a3c533b2e335a35a808ec70",
+    "publishedAt": "2026-06-26T12:30:00+00:00",
+    "recencyScore": 1.7,
+    "valueScore": 3.14,
     "totalScore": 2.49,
     "domain": "商业",
     "selected": false,
@@ -27553,6 +27589,18 @@
   },
   {
     "podcastName": "其他垃圾",
+    "episodeTitle": "全球老登，主动找崩",
+    "uniqueId": "6a4767402e335a35a80d7b51",
+    "publishedAt": "2026-07-04T13:00:00+00:00",
+    "recencyScore": 2.54,
+    "valueScore": 2.36,
+    "totalScore": 2.44,
+    "domain": "情感",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "其他垃圾",
     "episodeTitle": "Ep18. 没有生殖器的芭比，能引领女性向上吗？",
     "uniqueId": "64be52a7e8176c3ff88d23d1",
     "publishedAt": "2023-07-24T10:29:58+00:00",
@@ -27708,18 +27756,6 @@
     "reason": ""
   },
   {
-    "podcastName": "蜉蝣天地 Meanders",
-    "episodeTitle": "赵丽娜：在场比赢重要；门将的信心、直觉与热爱",
-    "uniqueId": "6a44e41c9d2f57436840e5a2",
-    "publishedAt": "2026-07-02T09:00:00+00:00",
-    "recencyScore": 2.4,
-    "valueScore": 2.46,
-    "totalScore": 2.43,
-    "domain": "健康",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "about热水频道",
     "episodeTitle": "重新爱上这个世界的方法是什么？｜博物04",
     "uniqueId": "6a21d200b30e1571aea0d3be",
@@ -27728,6 +27764,18 @@
     "valueScore": 3.6,
     "totalScore": 2.43,
     "domain": "生活",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "淘宝闪购｜小米汽车宣布新产品系列，巴基斯坦小城撑起全球足球制造",
+    "uniqueId": "6a4e4c743fb7233cbf45d875",
+    "publishedAt": "2026-07-08T23:00:00+00:00",
+    "recencyScore": 3.17,
+    "valueScore": 1.82,
+    "totalScore": 2.43,
+    "domain": "商业",
     "selected": false,
     "reason": ""
   },
@@ -28488,6 +28536,18 @@
     "reason": ""
   },
   {
+    "podcastName": "蜉蝣天地 Meanders",
+    "episodeTitle": "赵丽娜：在场比赢重要；门将的信心、直觉与热爱",
+    "uniqueId": "6a44e41c9d2f57436840e5a2",
+    "publishedAt": "2026-07-02T09:00:00+00:00",
+    "recencyScore": 2.28,
+    "valueScore": 2.46,
+    "totalScore": 2.38,
+    "domain": "健康",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "硅谷101",
     "episodeTitle": "S2E62｜再谈教育创新，一所没有校园的创新型大学",
     "uniqueId": "4229dd3b-85ca-4f27-a297-c0d2891659fc",
@@ -28627,30 +28687,6 @@
     "recencyScore": 1.0,
     "valueScore": 3.51,
     "totalScore": 2.38,
-    "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "M字闲聊",
-    "episodeTitle": "换个城市生活：离开前讲讲它的坏话，怎么每一句都像在夸？",
-    "uniqueId": "6a55b38627a4eec16c4053a7",
-    "publishedAt": "2026-07-14T16:00:00+00:00",
-    "recencyScore": 4.44,
-    "valueScore": 0.68,
-    "totalScore": 2.37,
-    "domain": "生活",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "她研社｜雀巢、好时背后的隐形巨头，如何让大牌外包巧克力生产？",
-    "uniqueId": "6a43c11d9d2f574368405f46",
-    "publishedAt": "2026-06-30T23:00:00+00:00",
-    "recencyScore": 2.24,
-    "valueScore": 2.47,
-    "totalScore": 2.37,
     "domain": "商业",
     "selected": false,
     "reason": ""
@@ -29232,18 +29268,6 @@
     "reason": ""
   },
   {
-    "podcastName": "Peril Crosser 渡厄",
-    "episodeTitle": "EP52: 为什么回报是零？聊聊企业AI落地生死攸关的加减法",
-    "uniqueId": "https://perilcrosser.com/?p=243",
-    "publishedAt": "2026-07-04T23:58:32+00:00",
-    "recencyScore": 2.74,
-    "valueScore": 1.99,
-    "totalScore": 2.33,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "about热水频道",
     "episodeTitle": "世界很快，但我们去公园听了会儿鸟｜博物03",
     "uniqueId": "69df8907e2c8be31554c5b39",
@@ -29384,6 +29408,18 @@
     "valueScore": 3.4,
     "totalScore": 2.32,
     "domain": "职场",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "她研社｜雀巢、好时背后的隐形巨头，如何让大牌外包巧克力生产？",
+    "uniqueId": "6a43c11d9d2f574368405f46",
+    "publishedAt": "2026-06-30T23:00:00+00:00",
+    "recencyScore": 2.13,
+    "valueScore": 2.47,
+    "totalScore": 2.32,
+    "domain": "商业",
     "selected": false,
     "reason": ""
   },
@@ -29952,18 +29988,6 @@
     "reason": ""
   },
   {
-    "podcastName": "富女之友",
-    "episodeTitle": "Vol9.如何实现提前退休？你离财富自由真的不远",
-    "uniqueId": "6a33b6e24233e62bc54bfaf6",
-    "publishedAt": "2026-06-19T11:30:00+00:00",
-    "recencyScore": 1.26,
-    "valueScore": 3.14,
-    "totalScore": 2.29,
-    "domain": "财经",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "时雨集",
     "episodeTitle": "消失的邻居，与他窗外的石碑：东京“坟景房”生存指南",
     "uniqueId": "6998384fde29766da900bd11",
@@ -30157,18 +30181,6 @@
   },
   {
     "podcastName": "声动早咖啡",
-    "episodeTitle": "她研社｜披萨、炸鸡和奶茶店纷纷卖起「能量碗」，餐饮品牌为什么要重新开始做轻食？",
-    "uniqueId": "6a413ee49d2f5743683f3c1a",
-    "publishedAt": "2026-06-28T23:00:00+00:00",
-    "recencyScore": 2.02,
-    "valueScore": 2.5,
-    "totalScore": 2.28,
-    "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "声动早咖啡",
     "episodeTitle": "图拉斯｜腾讯出手投资育碧，市值腰斩的法国游戏巨头有何吸引力？",
     "uniqueId": "6804d027cdd692da158049d2",
     "publishedAt": "2025-04-20T23:00:00+00:00",
@@ -30336,6 +30348,18 @@
     "reason": ""
   },
   {
+    "podcastName": "M字闲聊",
+    "episodeTitle": "换个城市生活：离开前讲讲它的坏话，怎么每一句都像在夸？",
+    "uniqueId": "6a55b38627a4eec16c4053a7",
+    "publishedAt": "2026-07-14T16:00:00+00:00",
+    "recencyScore": 4.22,
+    "valueScore": 0.68,
+    "totalScore": 2.27,
+    "domain": "生活",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "声动早咖啡",
     "episodeTitle": "从日本到欧美，大受欢迎的网络漫画平台为何都来自韩国？",
     "uniqueId": "682c9884fcbc2e206be6faca",
@@ -30368,6 +30392,18 @@
     "valueScore": 3.31,
     "totalScore": 2.27,
     "domain": "职场",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "富女之友",
+    "episodeTitle": "Vol9.如何实现提前退休？你离财富自由真的不远",
+    "uniqueId": "6a33b6e24233e62bc54bfaf6",
+    "publishedAt": "2026-06-19T11:30:00+00:00",
+    "recencyScore": 1.2,
+    "valueScore": 3.14,
+    "totalScore": 2.27,
+    "domain": "财经",
     "selected": false,
     "reason": ""
   },
@@ -30420,24 +30456,24 @@
     "reason": ""
   },
   {
+    "podcastName": "Peril Crosser 渡厄",
+    "episodeTitle": "EP52: 为什么回报是零？聊聊企业AI落地生死攸关的加减法",
+    "uniqueId": "https://perilcrosser.com/?p=243",
+    "publishedAt": "2026-07-04T23:58:32+00:00",
+    "recencyScore": 2.6,
+    "valueScore": 1.99,
+    "totalScore": 2.26,
+    "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "about热水频道",
     "episodeTitle": "新的一年怎么盘活？这些方法总是好用！｜热水观察室09",
     "uniqueId": "6967dccb47cd598dbf0486cd",
     "publishedAt": "2026-01-15T01:00:00+00:00",
     "recencyScore": 1.0,
     "valueScore": 3.29,
-    "totalScore": 2.26,
-    "domain": "生活",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "猫山王榴莲价格大幅下降，奥特莱斯加速向三四线城市扩张",
-    "uniqueId": "6a4b99be2e335a35a80ef59e",
-    "publishedAt": "2026-07-06T23:00:00+00:00",
-    "recencyScore": 3.02,
-    "valueScore": 1.63,
     "totalScore": 2.26,
     "domain": "生活",
     "selected": false,
@@ -30476,18 +30512,6 @@
     "valueScore": 3.27,
     "totalScore": 2.25,
     "domain": "财经",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "诗梳风",
-    "episodeTitle": "Bonus 何为记忆：水门事件当事人的案例 · Case",
-    "uniqueId": "6a4518a69d2f57436840ff2e",
-    "publishedAt": "2026-07-02T01:01:38+00:00",
-    "recencyScore": 2.36,
-    "valueScore": 2.16,
-    "totalScore": 2.25,
-    "domain": "商业",
     "selected": false,
     "reason": ""
   },
@@ -30620,6 +30644,18 @@
     "valueScore": 3.25,
     "totalScore": 2.24,
     "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "她研社｜披萨、炸鸡和奶茶店纷纷卖起「能量碗」，餐饮品牌为什么要重新开始做轻食？",
+    "uniqueId": "6a413ee49d2f5743683f3c1a",
+    "publishedAt": "2026-06-28T23:00:00+00:00",
+    "recencyScore": 1.92,
+    "valueScore": 2.5,
+    "totalScore": 2.24,
+    "domain": "商业",
     "selected": false,
     "reason": ""
   },
@@ -31117,18 +31153,6 @@
   },
   {
     "podcastName": "声动早咖啡",
-    "episodeTitle": "她研社｜蜜雪冰城在香港相继关店，梅罗跻身「十亿美元富豪俱乐部」",
-    "uniqueId": "6a451cbc2e335a35a80c8a88",
-    "publishedAt": "2026-07-01T23:00:00+00:00",
-    "recencyScore": 2.35,
-    "valueScore": 2.09,
-    "totalScore": 2.21,
-    "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "声动早咖啡",
     "episodeTitle": "索尼音频｜从「一劳永逸」到二手价跳水，劳力士为何不再保值了？",
     "uniqueId": "67e29befaf5840b33338da92",
     "publishedAt": "2025-03-25T23:00:00+00:00",
@@ -31184,6 +31208,18 @@
     "valueScore": 3.2,
     "totalScore": 2.21,
     "domain": "文化",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "诗梳风",
+    "episodeTitle": "Bonus 何为记忆：水门事件当事人的案例 · Case",
+    "uniqueId": "6a4518a69d2f57436840ff2e",
+    "publishedAt": "2026-07-02T01:01:38+00:00",
+    "recencyScore": 2.25,
+    "valueScore": 2.16,
+    "totalScore": 2.2,
+    "domain": "商业",
     "selected": false,
     "reason": ""
   },
@@ -31388,6 +31424,18 @@
     "valueScore": 3.17,
     "totalScore": 2.19,
     "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "猫山王榴莲价格大幅下降，奥特莱斯加速向三四线城市扩张",
+    "uniqueId": "6a4b99be2e335a35a80ef59e",
+    "publishedAt": "2026-07-06T23:00:00+00:00",
+    "recencyScore": 2.87,
+    "valueScore": 1.63,
+    "totalScore": 2.19,
+    "domain": "生活",
     "selected": false,
     "reason": ""
   },
@@ -31902,6 +31950,18 @@
     "publishedAt": "2025-07-15T23:00:00+00:00",
     "recencyScore": 1.0,
     "valueScore": 3.1,
+    "totalScore": 2.16,
+    "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "她研社｜蜜雪冰城在香港相继关店，梅罗跻身「十亿美元富豪俱乐部」",
+    "uniqueId": "6a451cbc2e335a35a80c8a88",
+    "publishedAt": "2026-07-01T23:00:00+00:00",
+    "recencyScore": 2.24,
+    "valueScore": 2.09,
     "totalScore": 2.16,
     "domain": "商业",
     "selected": false,
@@ -32605,18 +32665,6 @@
   },
   {
     "podcastName": "声动早咖啡",
-    "episodeTitle": "她研社｜腾讯内测面向境外游客的应用，古茗即饮果汁将进入零售渠道",
-    "uniqueId": "6a4240df2e335a35a80b3afc",
-    "publishedAt": "2026-06-29T23:00:00+00:00",
-    "recencyScore": 2.13,
-    "valueScore": 2.1,
-    "totalScore": 2.11,
-    "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "声动早咖啡",
     "episodeTitle": "人工智能被频繁写进裁员理由，AI 真的在大规模取代人类工作吗？",
     "uniqueId": "6953dd352db086f897dc8f83",
     "publishedAt": "2025-12-30T23:00:00+00:00",
@@ -32780,18 +32828,6 @@
     "valueScore": 3.0,
     "totalScore": 2.1,
     "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "入木一分",
-    "episodeTitle": "做蔡依林演唱会，要先读300页剧本？ ｜ 对话音乐总监陈君豪",
-    "uniqueId": "6a3a3b019d2f5743683c7592",
-    "publishedAt": "2026-06-23T12:00:00+00:00",
-    "recencyScore": 1.54,
-    "valueScore": 2.56,
-    "totalScore": 2.1,
-    "domain": "文化",
     "selected": false,
     "reason": ""
   },
@@ -33204,6 +33240,18 @@
     "reason": ""
   },
   {
+    "podcastName": "入木一分",
+    "episodeTitle": "做蔡依林演唱会，要先读300页剧本？ ｜ 对话音乐总监陈君豪",
+    "uniqueId": "6a3a3b019d2f5743683c7592",
+    "publishedAt": "2026-06-23T12:00:00+00:00",
+    "recencyScore": 1.46,
+    "valueScore": 2.56,
+    "totalScore": 2.07,
+    "domain": "文化",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "声动早咖啡",
     "episodeTitle": "图拉斯｜咖啡豆：打折成常态、山寨满天飞，安踏为何看上狼爪？",
     "uniqueId": "6809da197a449ae85868a8b5",
@@ -33356,6 +33404,18 @@
     "valueScore": 2.93,
     "totalScore": 2.06,
     "domain": "财经",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "她研社｜腾讯内测面向境外游客的应用，古茗即饮果汁将进入零售渠道",
+    "uniqueId": "6a4240df2e335a35a80b3afc",
+    "publishedAt": "2026-06-29T23:00:00+00:00",
+    "recencyScore": 2.02,
+    "valueScore": 2.1,
+    "totalScore": 2.06,
+    "domain": "商业",
     "selected": false,
     "reason": ""
   },
@@ -33836,18 +33896,6 @@
     "valueScore": 2.87,
     "totalScore": 2.03,
     "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "虚构立影",
-    "episodeTitle": "06 如何专业地谈论文学？",
-    "uniqueId": "6a2e17104233e62bc5496b3d",
-    "publishedAt": "2026-06-15T23:00:00+00:00",
-    "recencyScore": 1.06,
-    "valueScore": 2.82,
-    "totalScore": 2.03,
-    "domain": "文化",
     "selected": false,
     "reason": ""
   },
@@ -34364,6 +34412,18 @@
     "valueScore": 2.81,
     "totalScore": 2.0,
     "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "虚构立影",
+    "episodeTitle": "06 如何专业地谈论文学？",
+    "uniqueId": "6a2e17104233e62bc5496b3d",
+    "publishedAt": "2026-06-15T23:00:00+00:00",
+    "recencyScore": 1.0,
+    "valueScore": 2.82,
+    "totalScore": 2.0,
+    "domain": "文化",
     "selected": false,
     "reason": ""
   },
@@ -35388,18 +35448,6 @@
     "reason": ""
   },
   {
-    "podcastName": "那里的城",
-    "episodeTitle": "21.宁波 I 书藏古今，港通天下：甬城的“有意思”，一半藏在「天一阁-月湖」",
-    "uniqueId": "6a3a594f2e335a35a8081424",
-    "publishedAt": "2026-06-23T22:00:00+00:00",
-    "recencyScore": 1.57,
-    "valueScore": 2.26,
-    "totalScore": 1.95,
-    "domain": "生活",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "声动早咖啡",
     "episodeTitle": "咖啡豆｜面包节、高端烘焙店越来越多，山姆盒马为何也开始自己烤面包？",
     "uniqueId": "6a05db091b7bd5029529356b",
@@ -35504,18 +35552,6 @@
     "valueScore": 2.72,
     "totalScore": 1.95,
     "domain": "科技",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "蜉蝣天地 Meanders",
-    "episodeTitle": "感官放大世界：和任宁聊观鸟、自然与自由",
-    "uniqueId": "6a39f21e2e335a35a807c21f",
-    "publishedAt": "2026-06-23T09:00:00+00:00",
-    "recencyScore": 1.53,
-    "valueScore": 2.28,
-    "totalScore": 1.94,
-    "domain": "商业",
     "selected": false,
     "reason": ""
   },
@@ -35916,14 +35952,14 @@
     "reason": ""
   },
   {
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "卖旧衣服的 2nd Street，为什么在日本门店比优衣库还多？",
-    "uniqueId": "6a3a9bf79d2f5743683cb503",
-    "publishedAt": "2026-06-23T23:00:00+00:00",
-    "recencyScore": 1.58,
-    "valueScore": 2.19,
+    "podcastName": "那里的城",
+    "episodeTitle": "21.宁波 I 书藏古今，港通天下：甬城的“有意思”，一半藏在「天一阁-月湖」",
+    "uniqueId": "6a3a594f2e335a35a8081424",
+    "publishedAt": "2026-06-23T22:00:00+00:00",
+    "recencyScore": 1.5,
+    "valueScore": 2.26,
     "totalScore": 1.92,
-    "domain": "商业",
+    "domain": "生活",
     "selected": false,
     "reason": ""
   },
@@ -36156,6 +36192,18 @@
     "reason": ""
   },
   {
+    "podcastName": "蜉蝣天地 Meanders",
+    "episodeTitle": "感官放大世界：和任宁聊观鸟、自然与自由",
+    "uniqueId": "6a39f21e2e335a35a807c21f",
+    "publishedAt": "2026-06-23T09:00:00+00:00",
+    "recencyScore": 1.46,
+    "valueScore": 2.28,
+    "totalScore": 1.91,
+    "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "其他垃圾",
     "episodeTitle": "《恋爱兄妹》：在恋综里找到我的电子家庭",
     "uniqueId": "6659d80cad5aa5d8c2c56093",
@@ -36174,30 +36222,6 @@
     "publishedAt": "2025-05-23T08:11:18+00:00",
     "recencyScore": 1.0,
     "valueScore": 2.66,
-    "totalScore": 1.91,
-    "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "M字闲聊",
-    "episodeTitle": "你有你的奥德赛，我有我的甘露寺",
-    "uniqueId": "6a4785a09d2f574368420568",
-    "publishedAt": "2026-07-07T16:00:00+00:00",
-    "recencyScore": 3.13,
-    "valueScore": 0.91,
-    "totalScore": 1.91,
-    "domain": "健康",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "发卡量三年减少上亿张，为什么现在用信用卡的人越来越少？",
-    "uniqueId": "6a37a560608f69578bd77b39",
-    "publishedAt": "2026-06-21T23:00:00+00:00",
-    "recencyScore": 1.43,
-    "valueScore": 2.31,
     "totalScore": 1.91,
     "domain": "商业",
     "selected": false,
@@ -36978,6 +37002,30 @@
     "publishedAt": "2025-06-24T16:00:00+00:00",
     "recencyScore": 1.0,
     "valueScore": 2.6,
+    "totalScore": 1.88,
+    "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "卖旧衣服的 2nd Street，为什么在日本门店比优衣库还多？",
+    "uniqueId": "6a3a9bf79d2f5743683cb503",
+    "publishedAt": "2026-06-23T23:00:00+00:00",
+    "recencyScore": 1.5,
+    "valueScore": 2.19,
+    "totalScore": 1.88,
+    "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "发卡量三年减少上亿张，为什么现在用信用卡的人越来越少？",
+    "uniqueId": "6a37a560608f69578bd77b39",
+    "publishedAt": "2026-06-21T23:00:00+00:00",
+    "recencyScore": 1.36,
+    "valueScore": 2.31,
     "totalScore": 1.88,
     "domain": "商业",
     "selected": false,
@@ -37772,6 +37820,18 @@
     "valueScore": 2.52,
     "totalScore": 1.84,
     "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "M字闲聊",
+    "episodeTitle": "你有你的奥德赛，我有我的甘露寺",
+    "uniqueId": "6a4785a09d2f574368420568",
+    "publishedAt": "2026-07-07T16:00:00+00:00",
+    "recencyScore": 2.97,
+    "valueScore": 0.91,
+    "totalScore": 1.84,
+    "domain": "健康",
     "selected": false,
     "reason": ""
   },
@@ -38892,18 +38952,6 @@
     "reason": ""
   },
   {
-    "podcastName": "整点亮话",
-    "episodeTitle": "67 杨爸咖啡馆|张文婷：保险经纪人为什么会是职场打工人的归宿？",
-    "uniqueId": "6a2eb9b34233e62bc549bbe0",
-    "publishedAt": "2026-06-15T01:00:00+00:00",
-    "recencyScore": 1.01,
-    "valueScore": 2.42,
-    "totalScore": 1.79,
-    "domain": "职场",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "钱婧老师的会客厅",
     "episodeTitle": "Vol 31. 北师大讲座实录｜从学生到职场人的六个能力真相",
     "uniqueId": "64be1156d0844ea812614ef7",
@@ -39145,6 +39193,18 @@
   },
   {
     "podcastName": "整点亮话",
+    "episodeTitle": "67 杨爸咖啡馆|张文婷：保险经纪人为什么会是职场打工人的归宿？",
+    "uniqueId": "6a2eb9b34233e62bc549bbe0",
+    "publishedAt": "2026-06-15T01:00:00+00:00",
+    "recencyScore": 1.0,
+    "valueScore": 2.42,
+    "totalScore": 1.78,
+    "domain": "职场",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "整点亮话",
     "episodeTitle": "47 从茶水间到自媒体，公司如何“管理”你的声音？",
     "uniqueId": "6963a64cf8b05f9f7500aceb",
     "publishedAt": "2026-01-12T01:00:00+00:00",
@@ -39284,18 +39344,6 @@
     "valueScore": 2.4,
     "totalScore": 1.77,
     "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "整点亮话",
-    "episodeTitle": "68 串台|汽车自媒体到底挣不挣钱？",
-    "uniqueId": "6a38f0a8608f69578bd8126b",
-    "publishedAt": "2026-06-22T08:28:08+00:00",
-    "recencyScore": 1.45,
-    "valueScore": 2.03,
-    "totalScore": 1.77,
-    "domain": "职场",
     "selected": false,
     "reason": ""
   },
@@ -39913,18 +39961,6 @@
   },
   {
     "podcastName": "声动早咖啡",
-    "episodeTitle": "淘宝闪购｜豆包专业版正式上线收费，足球球衣成为时尚单品",
-    "uniqueId": "6a3bb9319d2f5743683d34b5",
-    "publishedAt": "2026-06-24T23:00:00+00:00",
-    "recencyScore": 1.66,
-    "valueScore": 1.81,
-    "totalScore": 1.74,
-    "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "声动早咖啡",
     "episodeTitle": "咖啡豆｜从高端水果到超市日常，国产蓝莓为何在变多变甜？",
     "uniqueId": "6a218cf0b30e1571aea0c109",
     "publishedAt": "2026-06-04T23:00:00+00:00",
@@ -40100,6 +40136,18 @@
     "valueScore": 2.35,
     "totalScore": 1.74,
     "domain": "财经",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "68 串台|汽车自媒体到底挣不挣钱？",
+    "uniqueId": "6a38f0a8608f69578bd8126b",
+    "publishedAt": "2026-06-22T08:28:08+00:00",
+    "recencyScore": 1.38,
+    "valueScore": 2.03,
+    "totalScore": 1.74,
+    "domain": "职场",
     "selected": false,
     "reason": ""
   },
@@ -40392,18 +40440,6 @@
     "reason": ""
   },
   {
-    "podcastName": "整点亮话",
-    "episodeTitle": "70.全网独家：追觅离职员工回头望，回忆那些在追觅工作的日子",
-    "uniqueId": "6a476a179d2f57436841f4c6",
-    "publishedAt": "2026-07-06T01:00:00+00:00",
-    "recencyScore": 2.88,
-    "valueScore": 0.79,
-    "totalScore": 1.73,
-    "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "韩叙的朋友们",
     "episodeTitle": "47.从播客到个人IP，创作者和创业者的双重身份·对谈携隐Melody",
     "uniqueId": "663a5946dbd3c12f0afe104b",
@@ -40604,6 +40640,18 @@
     "valueScore": 2.3,
     "totalScore": 1.71,
     "domain": "生活",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "淘宝闪购｜豆包专业版正式上线收费，足球球衣成为时尚单品",
+    "uniqueId": "6a3bb9319d2f5743683d34b5",
+    "publishedAt": "2026-06-24T23:00:00+00:00",
+    "recencyScore": 1.58,
+    "valueScore": 1.81,
+    "totalScore": 1.71,
+    "domain": "商业",
     "selected": false,
     "reason": ""
   },
@@ -41144,30 +41192,6 @@
     "valueScore": 2.26,
     "totalScore": 1.69,
     "domain": "生活",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "茉莉奶白在纽约陷入闭店纠纷，比亚迪计划推动子品牌自负盈亏",
-    "uniqueId": "6a390a0e9d2f5743683be22f",
-    "publishedAt": "2026-06-22T23:00:00+00:00",
-    "recencyScore": 1.5,
-    "valueScore": 1.85,
-    "totalScore": 1.69,
-    "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "山姆中国连换两高管，足球运动在美国越来越受欢迎",
-    "uniqueId": "6a32a61c4233e62bc54b89a9",
-    "publishedAt": "2026-06-17T23:00:00+00:00",
-    "recencyScore": 1.17,
-    "valueScore": 2.12,
-    "totalScore": 1.69,
-    "domain": "商业",
     "selected": false,
     "reason": ""
   },
@@ -41749,9 +41773,9 @@
   },
   {
     "podcastName": "声动早咖啡",
-    "episodeTitle": "即饮咖啡份额超过星巴克，能量饮料起家的东鹏如何攻占新品类？",
-    "uniqueId": "6a3151634233e62bc54af38c",
-    "publishedAt": "2026-06-16T23:00:00+00:00",
+    "episodeTitle": "山姆中国连换两高管，足球运动在美国越来越受欢迎",
+    "uniqueId": "6a32a61c4233e62bc54b89a9",
+    "publishedAt": "2026-06-17T23:00:00+00:00",
     "recencyScore": 1.11,
     "valueScore": 2.12,
     "totalScore": 1.67,
@@ -41876,6 +41900,18 @@
     "valueScore": 2.22,
     "totalScore": 1.67,
     "domain": "科技",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "整点亮话",
+    "episodeTitle": "70.全网独家：追觅离职员工回头望，回忆那些在追觅工作的日子",
+    "uniqueId": "6a476a179d2f57436841f4c6",
+    "publishedAt": "2026-07-06T01:00:00+00:00",
+    "recencyScore": 2.74,
+    "valueScore": 0.79,
+    "totalScore": 1.67,
+    "domain": "商业",
     "selected": false,
     "reason": ""
   },
@@ -42032,6 +42068,18 @@
     "valueScore": 2.2,
     "totalScore": 1.66,
     "domain": "健康",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "茉莉奶白在纽约陷入闭店纠纷，比亚迪计划推动子品牌自负盈亏",
+    "uniqueId": "6a390a0e9d2f5743683be22f",
+    "publishedAt": "2026-06-22T23:00:00+00:00",
+    "recencyScore": 1.43,
+    "valueScore": 1.85,
+    "totalScore": 1.66,
+    "domain": "商业",
     "selected": false,
     "reason": ""
   },
@@ -42421,18 +42469,6 @@
   },
   {
     "podcastName": "韩叙的朋友们",
-    "episodeTitle": "69.半年复盘：用AI把一人公司做深，这是创业3年最好的6个月",
-    "uniqueId": "6a454a912e335a35a80c9f11",
-    "publishedAt": "2026-07-02T00:00:00+00:00",
-    "recencyScore": 2.36,
-    "valueScore": 1.07,
-    "totalScore": 1.65,
-    "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "韩叙的朋友们",
     "episodeTitle": "26.从教育机构的内容运营，到千万GMV的抖音主播·对谈阿月",
     "uniqueId": "6398c6ae3a2b7eba5ceb462f",
     "publishedAt": "2022-12-14T00:30:00+00:00",
@@ -42584,6 +42620,18 @@
     "valueScore": 2.17,
     "totalScore": 1.64,
     "domain": "生活",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "即饮咖啡份额超过星巴克，能量饮料起家的东鹏如何攻占新品类？",
+    "uniqueId": "6a3151634233e62bc54af38c",
+    "publishedAt": "2026-06-16T23:00:00+00:00",
+    "recencyScore": 1.06,
+    "valueScore": 2.12,
+    "totalScore": 1.64,
+    "domain": "商业",
     "selected": false,
     "reason": ""
   },
@@ -43800,6 +43848,18 @@
     "reason": ""
   },
   {
+    "podcastName": "韩叙的朋友们",
+    "episodeTitle": "69.半年复盘：用AI把一人公司做深，这是创业3年最好的6个月",
+    "uniqueId": "6a454a912e335a35a80c9f11",
+    "publishedAt": "2026-07-02T00:00:00+00:00",
+    "recencyScore": 2.24,
+    "valueScore": 1.07,
+    "totalScore": 1.6,
+    "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "思文，败类",
     "episodeTitle": "32.理想伴侣大讨论：正常就很奢侈了吗？",
     "uniqueId": "65a656adb5e4856c70a0fc70",
@@ -43830,18 +43890,6 @@
     "publishedAt": "2025-09-18T02:22:46+00:00",
     "recencyScore": 1.0,
     "valueScore": 2.08,
-    "totalScore": 1.59,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "AI产品黄叔",
-    "episodeTitle": "OpenAI官宣Agent时代彻底来了",
-    "uniqueId": "6a5046001e32575f5eb405a2",
-    "publishedAt": "2026-07-10T01:09:25+00:00",
-    "recencyScore": 3.52,
-    "valueScore": 0.01,
     "totalScore": 1.59,
     "domain": "AI",
     "selected": false,
@@ -45036,18 +45084,6 @@
     "reason": ""
   },
   {
-    "podcastName": "诗梳风",
-    "episodeTitle": "EP22 只是一次考试",
-    "uniqueId": "6a2d2a6843a22a695583156f",
-    "publishedAt": "2026-06-15T01:00:00+00:00",
-    "recencyScore": 1.01,
-    "valueScore": 1.99,
-    "totalScore": 1.55,
-    "domain": "生活",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "其他垃圾",
     "episodeTitle": "再见爱人第四季：看中年夫妻和全世界做恨",
     "uniqueId": "67371bf343dc3a4387e3094e",
@@ -45216,6 +45252,18 @@
     "reason": ""
   },
   {
+    "podcastName": "诗梳风",
+    "episodeTitle": "EP22 只是一次考试",
+    "uniqueId": "6a2d2a6843a22a695583156f",
+    "publishedAt": "2026-06-15T01:00:00+00:00",
+    "recencyScore": 1.0,
+    "valueScore": 1.99,
+    "totalScore": 1.54,
+    "domain": "生活",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "其他垃圾",
     "episodeTitle": "求求了，我是真的不想网贷🙏",
     "uniqueId": "69170377cbba038b428b4665",
@@ -45246,18 +45294,6 @@
     "publishedAt": "2024-07-09T16:00:00+00:00",
     "recencyScore": 1.0,
     "valueScore": 1.98,
-    "totalScore": 1.54,
-    "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "蚂蚁测试 AI 版支付宝，市场监管总局约谈山姆",
-    "uniqueId": "6a2fffb043a22a6955844245",
-    "publishedAt": "2026-06-15T23:00:00+00:00",
-    "recencyScore": 1.06,
-    "valueScore": 1.93,
     "totalScore": 1.54,
     "domain": "商业",
     "selected": false,
@@ -45984,6 +46020,18 @@
     "reason": ""
   },
   {
+    "podcastName": "AI产品黄叔",
+    "episodeTitle": "OpenAI官宣Agent时代彻底来了",
+    "uniqueId": "6a5046001e32575f5eb405a2",
+    "publishedAt": "2026-07-10T01:09:25+00:00",
+    "recencyScore": 3.35,
+    "valueScore": 0.01,
+    "totalScore": 1.51,
+    "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "诗梳风",
     "episodeTitle": "EP16 汉洋会被什么选题吸引 · Thoughts",
     "uniqueId": "69fb06a1e1eb34a939d67530",
@@ -46016,6 +46064,18 @@
     "valueScore": 1.92,
     "totalScore": 1.51,
     "domain": "情感",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "蚂蚁测试 AI 版支付宝，市场监管总局约谈山姆",
+    "uniqueId": "6a2fffb043a22a6955844245",
+    "publishedAt": "2026-06-15T23:00:00+00:00",
+    "recencyScore": 1.0,
+    "valueScore": 1.93,
+    "totalScore": 1.51,
+    "domain": "商业",
     "selected": false,
     "reason": ""
   },
@@ -47604,30 +47664,6 @@
     "reason": ""
   },
   {
-    "podcastName": "AI产品黄叔",
-    "episodeTitle": "仿佛自己触摸到了AI的浪潮",
-    "uniqueId": "6a4dca523fb7233cbf458942",
-    "publishedAt": "2026-07-08T04:01:49+00:00",
-    "recencyScore": 3.21,
-    "valueScore": 0.01,
-    "totalScore": 1.45,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "AI产品黄叔",
-    "episodeTitle": "构建了一套和codex/youmind协作的内容管线",
-    "uniqueId": "6a4db3ed3fb7233cbf4578e0",
-    "publishedAt": "2026-07-08T02:22:15+00:00",
-    "recencyScore": 3.2,
-    "valueScore": 0.01,
-    "totalScore": 1.45,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "M字闲聊",
     "episodeTitle": "恋爱经济学：宁做算盘精，不做冤大头？",
     "uniqueId": "669f388b8fcadceb9045802d",
@@ -48972,6 +49008,18 @@
     "reason": ""
   },
   {
+    "podcastName": "AI产品黄叔",
+    "episodeTitle": "仿佛自己触摸到了AI的浪潮",
+    "uniqueId": "6a4dca523fb7233cbf458942",
+    "publishedAt": "2026-07-08T04:01:49+00:00",
+    "recencyScore": 3.05,
+    "valueScore": 0.01,
+    "totalScore": 1.38,
+    "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "诗梳风",
     "episodeTitle": "EP0 空气在词句间流动",
     "uniqueId": "6970a7df109824f9e1c08440",
@@ -49068,22 +49116,10 @@
     "reason": ""
   },
   {
-    "podcastName": "Peril Crosser 渡厄",
-    "episodeTitle": "EP50: 日本西南挂逼游4: 手指刷牙，赛博柏青哥与九州的海上落日",
-    "uniqueId": "https://perilcrosser.com/?p=239",
-    "publishedAt": "2026-06-24T13:35:54+00:00",
-    "recencyScore": 1.62,
-    "valueScore": 1.17,
-    "totalScore": 1.37,
-    "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "AI产品黄叔",
-    "episodeTitle": "正确的事是发现错了马上改",
-    "uniqueId": "6a4c61743fb7233cbf44e082",
-    "publishedAt": "2026-07-07T02:18:21+00:00",
+    "episodeTitle": "构建了一套和codex/youmind协作的内容管线",
+    "uniqueId": "6a4db3ed3fb7233cbf4578e0",
+    "publishedAt": "2026-07-08T02:22:15+00:00",
     "recencyScore": 3.04,
     "valueScore": 0.01,
     "totalScore": 1.37,
@@ -49837,6 +49873,18 @@
   },
   {
     "podcastName": "Peril Crosser 渡厄",
+    "episodeTitle": "EP50: 日本西南挂逼游4: 手指刷牙，赛博柏青哥与九州的海上落日",
+    "uniqueId": "https://perilcrosser.com/?p=239",
+    "publishedAt": "2026-06-24T13:35:54+00:00",
+    "recencyScore": 1.54,
+    "valueScore": 1.17,
+    "totalScore": 1.34,
+    "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "Peril Crosser 渡厄",
     "episodeTitle": "EP38: AI的哲学原理4：透过大模型看《苏菲的世界》，算力的尽头全是哲学",
     "uniqueId": "https://perilcrosser.com/?p=200",
     "publishedAt": "2026-04-12T02:25:48+00:00",
@@ -50312,6 +50360,18 @@
     "valueScore": 1.59,
     "totalScore": 1.32,
     "domain": "财经",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "AI产品黄叔",
+    "episodeTitle": "正确的事是发现错了马上改",
+    "uniqueId": "6a4c61743fb7233cbf44e082",
+    "publishedAt": "2026-07-07T02:18:21+00:00",
+    "recencyScore": 2.89,
+    "valueScore": 0.01,
+    "totalScore": 1.31,
+    "domain": "AI",
     "selected": false,
     "reason": ""
   },
@@ -50876,18 +50936,6 @@
     "valueScore": 1.52,
     "totalScore": 1.29,
     "domain": "文化",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "Peril Crosser 渡厄",
-    "episodeTitle": "EP51: 日本西南挂逼游5: 徒步阿苏火山，西国无双与两碗拉面的圆满收官",
-    "uniqueId": "https://perilcrosser.com/?p=241",
-    "publishedAt": "2026-06-28T05:10:02+00:00",
-    "recencyScore": 1.95,
-    "valueScore": 0.73,
-    "totalScore": 1.28,
-    "domain": "商业",
     "selected": false,
     "reason": ""
   },
@@ -51732,6 +51780,18 @@
     "reason": ""
   },
   {
+    "podcastName": "Peril Crosser 渡厄",
+    "episodeTitle": "EP51: 日本西南挂逼游5: 徒步阿苏火山，西国无双与两碗拉面的圆满收官",
+    "uniqueId": "https://perilcrosser.com/?p=241",
+    "publishedAt": "2026-06-28T05:10:02+00:00",
+    "recencyScore": 1.85,
+    "valueScore": 0.73,
+    "totalScore": 1.23,
+    "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "硅谷101",
     "episodeTitle": "14: 美国大学的生与死（现象篇）",
     "uniqueId": "987ef1b8-d24b-455f-b2d8-5c8ab4d11cf2",
@@ -52112,18 +52172,6 @@
     "valueScore": 1.4,
     "totalScore": 1.22,
     "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "韩叙的朋友们",
-    "episodeTitle": "68.一个文科生，怎么混成了朋友圈里的AI专家 · 对谈李申伟",
-    "uniqueId": "6a3052464233e62bc54a7461",
-    "publishedAt": "2026-06-16T00:30:00+00:00",
-    "recencyScore": 1.06,
-    "valueScore": 1.35,
-    "totalScore": 1.22,
-    "domain": "AI",
     "selected": false,
     "reason": ""
   },
@@ -52532,6 +52580,18 @@
     "valueScore": 1.37,
     "totalScore": 1.2,
     "domain": "科技",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "韩叙的朋友们",
+    "episodeTitle": "68.一个文科生，怎么混成了朋友圈里的AI专家 · 对谈李申伟",
+    "uniqueId": "6a3052464233e62bc54a7461",
+    "publishedAt": "2026-06-16T00:30:00+00:00",
+    "recencyScore": 1.01,
+    "valueScore": 1.35,
+    "totalScore": 1.2,
+    "domain": "AI",
     "selected": false,
     "reason": ""
   },
@@ -53676,18 +53736,6 @@
     "reason": ""
   },
   {
-    "podcastName": "AI产品黄叔",
-    "episodeTitle": "昨天聊了1小时，这几个特质在AI时代很值钱",
-    "uniqueId": "6a4716359d2f57436841bfed",
-    "publishedAt": "2026-07-03T01:56:01+00:00",
-    "recencyScore": 2.49,
-    "valueScore": 0.01,
-    "totalScore": 1.13,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "声动早咖啡",
     "episodeTitle": "图拉斯®｜iPhone 16 系列在华销量增长两成，理想汽车放缓出海速度",
     "uniqueId": "67166a0adb2cf82757e40f86",
@@ -54529,18 +54577,6 @@
   },
   {
     "podcastName": "Peril Crosser 渡厄",
-    "episodeTitle": "EP49: 日本西南挂逼游3: 暴雨骑行，古老名汤与鲣鱼",
-    "uniqueId": "https://perilcrosser.com/?p=237",
-    "publishedAt": "2026-06-21T05:57:23+00:00",
-    "recencyScore": 1.38,
-    "valueScore": 0.84,
-    "totalScore": 1.08,
-    "domain": "文化",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "Peril Crosser 渡厄",
     "episodeTitle": "EP37: AI的哲学原理3：透过大模型看《苏菲的世界》，算力的尽头全是哲学",
     "uniqueId": "https://perilcrosser.com/?p=198",
     "publishedAt": "2026-04-05T02:36:28+00:00",
@@ -54740,6 +54776,18 @@
     "valueScore": 1.12,
     "totalScore": 1.07,
     "domain": "生活",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "AI产品黄叔",
+    "episodeTitle": "昨天聊了1小时，这几个特质在AI时代很值钱",
+    "uniqueId": "6a4716359d2f57436841bfed",
+    "publishedAt": "2026-07-03T01:56:01+00:00",
+    "recencyScore": 2.36,
+    "valueScore": 0.01,
+    "totalScore": 1.07,
+    "domain": "AI",
     "selected": false,
     "reason": ""
   },
@@ -54960,18 +55008,6 @@
     "reason": ""
   },
   {
-    "podcastName": "Peril Crosser 渡厄",
-    "episodeTitle": "EP48: 日本西南挂逼游2: 奇巧木桥，海上神明与尾道的无尽阶梯",
-    "uniqueId": "https://perilcrosser.com/?p=235",
-    "publishedAt": "2026-06-17T05:29:27+00:00",
-    "recencyScore": 1.13,
-    "valueScore": 1.01,
-    "totalScore": 1.06,
-    "domain": "文化",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "声动早咖啡",
     "episodeTitle": "成立 180 多年的《经济学人》，为什么可以稳定地赚钱？",
     "uniqueId": "65f97f73696bd9a879239ca5",
@@ -55080,6 +55116,18 @@
     "reason": ""
   },
   {
+    "podcastName": "Peril Crosser 渡厄",
+    "episodeTitle": "EP49: 日本西南挂逼游3: 暴雨骑行，古老名汤与鲣鱼",
+    "uniqueId": "https://perilcrosser.com/?p=237",
+    "publishedAt": "2026-06-21T05:57:23+00:00",
+    "recencyScore": 1.31,
+    "valueScore": 0.84,
+    "totalScore": 1.05,
+    "domain": "文化",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "M字闲聊",
     "episodeTitle": "年终表彰大会：2024一般，但我很好！",
     "uniqueId": "6770e60e1e823e72d393924e",
@@ -55160,6 +55208,18 @@
     "valueScore": 1.09,
     "totalScore": 1.05,
     "domain": "科技",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "Peril Crosser 渡厄",
+    "episodeTitle": "EP48: 日本西南挂逼游2: 奇巧木桥，海上神明与尾道的无尽阶梯",
+    "uniqueId": "https://perilcrosser.com/?p=235",
+    "publishedAt": "2026-06-17T05:29:27+00:00",
+    "recencyScore": 1.07,
+    "valueScore": 1.01,
+    "totalScore": 1.04,
+    "domain": "文化",
     "selected": false,
     "reason": ""
   },
@@ -55352,18 +55412,6 @@
     "valueScore": 1.05,
     "totalScore": 1.03,
     "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "M字闲聊",
-    "episodeTitle": "我的少女少男时代：那时候花样可真多啊！",
-    "uniqueId": "6a3a05019d2f5743683c4bb7",
-    "publishedAt": "2026-06-23T16:00:00+00:00",
-    "recencyScore": 1.55,
-    "valueScore": 0.61,
-    "totalScore": 1.03,
-    "domain": "文化",
     "selected": false,
     "reason": ""
   },
@@ -55824,6 +55872,18 @@
     "reason": ""
   },
   {
+    "podcastName": "M字闲聊",
+    "episodeTitle": "我的少女少男时代：那时候花样可真多啊！",
+    "uniqueId": "6a3a05019d2f5743683c4bb7",
+    "publishedAt": "2026-06-23T16:00:00+00:00",
+    "recencyScore": 1.48,
+    "valueScore": 0.61,
+    "totalScore": 1.0,
+    "domain": "文化",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "声动早咖啡",
     "episodeTitle": "AI 科学家获诺贝尔物理学奖，美国10 多个州起诉 TikTok",
     "uniqueId": "67068b1781cdab3a93d6a4b0",
@@ -56252,18 +56312,6 @@
     "valueScore": 0.94,
     "totalScore": 0.97,
     "domain": "文化",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "AI产品黄叔",
-    "episodeTitle": "Codex+大三学生，助我拿下平台合作",
-    "uniqueId": "6a4323049d2f5743683ffa52",
-    "publishedAt": "2026-06-30T02:00:57+00:00",
-    "recencyScore": 2.14,
-    "valueScore": 0.01,
-    "totalScore": 0.97,
-    "domain": "科技",
     "selected": false,
     "reason": ""
   },
@@ -57061,13 +57109,13 @@
   },
   {
     "podcastName": "AI产品黄叔",
-    "episodeTitle": "消耗Token是为了Agent-First思维",
-    "uniqueId": "6a41d2d89d2f5743683f5ec4",
-    "publishedAt": "2026-06-29T02:06:14+00:00",
+    "episodeTitle": "Codex+大三学生，助我拿下平台合作",
+    "uniqueId": "6a4323049d2f5743683ffa52",
+    "publishedAt": "2026-06-30T02:00:57+00:00",
     "recencyScore": 2.04,
     "valueScore": 0.01,
     "totalScore": 0.92,
-    "domain": "AI",
+    "domain": "科技",
     "selected": false,
     "reason": ""
   },
@@ -57548,6 +57596,18 @@
     "valueScore": 0.78,
     "totalScore": 0.88,
     "domain": "职场",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "AI产品黄叔",
+    "episodeTitle": "消耗Token是为了Agent-First思维",
+    "uniqueId": "6a41d2d89d2f5743683f5ec4",
+    "publishedAt": "2026-06-29T02:06:14+00:00",
+    "recencyScore": 1.94,
+    "valueScore": 0.01,
+    "totalScore": 0.88,
+    "domain": "AI",
     "selected": false,
     "reason": ""
   },
@@ -58177,18 +58237,6 @@
   },
   {
     "podcastName": "Vibration 歪波音室",
-    "episodeTitle": "韩国嘻哈 Mixtape：万花筒",
-    "uniqueId": "wavpub_PxEabjnVMmWPFjcRyYABUupwxQRxnCKtrAEWeuZkZUqAbsVHGYfqhCwhK",
-    "publishedAt": "2026-06-21T21:30:00+00:00",
-    "recencyScore": 1.42,
-    "valueScore": 0.32,
-    "totalScore": 0.82,
-    "domain": "文化",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "Vibration 歪波音室",
     "episodeTitle": "最近华语圈值得听的专辑",
     "uniqueId": "wavpub_fuuHaEjqnhWseSRuzVrBWGgfVWTPmAegeYBLZjMPMBsSZUVFNGmCYXmqP",
     "publishedAt": "2020-01-05T03:51:01+00:00",
@@ -58440,30 +58488,6 @@
     "reason": ""
   },
   {
-    "podcastName": "AI产品黄叔",
-    "episodeTitle": "Token消耗大法",
-    "uniqueId": "6a3de4662e335a35a8099452",
-    "publishedAt": "2026-06-26T02:32:14+00:00",
-    "recencyScore": 1.75,
-    "valueScore": 0.01,
-    "totalScore": 0.79,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "M字闲聊",
-    "episodeTitle": "控制欲：是多余的指手画脚，还是获得安全感的唯一渠道？",
-    "uniqueId": "6a30ba8a4233e62bc54a9398",
-    "publishedAt": "2026-06-16T16:00:00+00:00",
-    "recencyScore": 1.09,
-    "valueScore": 0.54,
-    "totalScore": 0.79,
-    "domain": "情感",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "特朗普、MAGA、狗狗币、奥巴马、历史与政治【lex fridman中文版】",
     "uniqueId": "6759d23dbdb9877a97300bbf",
@@ -58596,6 +58620,18 @@
     "reason": ""
   },
   {
+    "podcastName": "Vibration 歪波音室",
+    "episodeTitle": "韩国嘻哈 Mixtape：万花筒",
+    "uniqueId": "wavpub_PxEabjnVMmWPFjcRyYABUupwxQRxnCKtrAEWeuZkZUqAbsVHGYfqhCwhK",
+    "publishedAt": "2026-06-21T21:30:00+00:00",
+    "recencyScore": 1.35,
+    "valueScore": 0.32,
+    "totalScore": 0.78,
+    "domain": "文化",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "贤者时间",
     "episodeTitle": "巨大时代里，我们努力过着的小小人生 | 深夜篇",
     "uniqueId": "xmly_track_542611446",
@@ -58616,6 +58652,18 @@
     "valueScore": 0.58,
     "totalScore": 0.77,
     "domain": "科技",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "M字闲聊",
+    "episodeTitle": "控制欲：是多余的指手画脚，还是获得安全感的唯一渠道？",
+    "uniqueId": "6a30ba8a4233e62bc54a9398",
+    "publishedAt": "2026-06-16T16:00:00+00:00",
+    "recencyScore": 1.04,
+    "valueScore": 0.54,
+    "totalScore": 0.77,
+    "domain": "情感",
     "selected": false,
     "reason": ""
   },
@@ -58736,6 +58784,18 @@
     "valueScore": 0.58,
     "totalScore": 0.77,
     "domain": "财经",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "AI产品黄叔",
+    "episodeTitle": "Token消耗大法",
+    "uniqueId": "6a3de4662e335a35a8099452",
+    "publishedAt": "2026-06-26T02:32:14+00:00",
+    "recencyScore": 1.67,
+    "valueScore": 0.01,
+    "totalScore": 0.76,
+    "domain": "AI",
     "selected": false,
     "reason": ""
   },
@@ -59209,18 +59269,6 @@
   },
   {
     "podcastName": "外部性",
-    "episodeTitle": "99.如何用AI学哲学",
-    "uniqueId": "6a312b4043a22a695584c97a",
-    "publishedAt": "2026-06-16T16:00:00+00:00",
-    "recencyScore": 1.09,
-    "valueScore": 0.44,
-    "totalScore": 0.73,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "外部性",
     "episodeTitle": "73.外有美联储降息，内有超预期刺激，股市拐点到了吗？",
     "uniqueId": "66f6703781cdab3a9378ea0d",
     "publishedAt": "2024-09-27T08:43:34+00:00",
@@ -59300,6 +59348,18 @@
     "valueScore": 0.48,
     "totalScore": 0.71,
     "domain": "文化",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "外部性",
+    "episodeTitle": "99.如何用AI学哲学",
+    "uniqueId": "6a312b4043a22a695584c97a",
+    "publishedAt": "2026-06-16T16:00:00+00:00",
+    "recencyScore": 1.04,
+    "valueScore": 0.44,
+    "totalScore": 0.71,
+    "domain": "AI",
     "selected": false,
     "reason": ""
   },
@@ -59448,18 +59508,6 @@
     "reason": ""
   },
   {
-    "podcastName": "AI产品黄叔",
-    "episodeTitle": "立个flag，年底小红书10万粉",
-    "uniqueId": "6a39e5e39d2f5743683c30fd",
-    "publishedAt": "2026-06-23T01:49:00+00:00",
-    "recencyScore": 1.51,
-    "valueScore": 0.01,
-    "totalScore": 0.68,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "Vibration 歪波音室",
     "episodeTitle": "🎷爵士嘻哈 Mixtape：快乐不必要但很重要",
     "uniqueId": "wavpub_GpyTXHdtJKfRWZeRjwAtLrJVzDmTfVEkANmmCEMpJhUbNnsvbvcGxcWyv",
@@ -59569,9 +59617,9 @@
   },
   {
     "podcastName": "AI产品黄叔",
-    "episodeTitle": "为了实现每天一个小目标，我做了个app",
-    "uniqueId": "6a3898da75ba9e0c53370823",
-    "publishedAt": "2026-06-22T02:08:12+00:00",
+    "episodeTitle": "立个flag，年底小红书10万粉",
+    "uniqueId": "6a39e5e39d2f5743683c30fd",
+    "publishedAt": "2026-06-23T01:49:00+00:00",
     "recencyScore": 1.43,
     "valueScore": 0.01,
     "totalScore": 0.65,
@@ -59804,6 +59852,18 @@
     "valueScore": 0.31,
     "totalScore": 0.62,
     "domain": "文化",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "AI产品黄叔",
+    "episodeTitle": "为了实现每天一个小目标，我做了个app",
+    "uniqueId": "6a3898da75ba9e0c53370823",
+    "publishedAt": "2026-06-22T02:08:12+00:00",
+    "recencyScore": 1.36,
+    "valueScore": 0.01,
+    "totalScore": 0.62,
+    "domain": "AI",
     "selected": false,
     "reason": ""
   },
@@ -60553,18 +60613,6 @@
   },
   {
     "podcastName": "AI产品黄叔",
-    "episodeTitle": "为何说有经验的人才能用好AI",
-    "uniqueId": "6a3356674233e62bc54bbaf0",
-    "publishedAt": "2026-06-18T02:23:31+00:00",
-    "recencyScore": 1.18,
-    "valueScore": 0.01,
-    "totalScore": 0.54,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "AI产品黄叔",
     "episodeTitle": "AI硬件的创新更多是渐进式创新",
     "uniqueId": "6710568bdb2cf82757cb9903",
     "publishedAt": "2024-10-17T00:12:59+00:00",
@@ -60668,18 +60716,6 @@
     "valueScore": 0.14,
     "totalScore": 0.53,
     "domain": "生活",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "AI产品黄叔",
-    "episodeTitle": "AI浪潮里，共识是最重要的",
-    "uniqueId": "6a2f5fd543a22a695583d290",
-    "publishedAt": "2026-06-15T02:21:35+00:00",
-    "recencyScore": 1.01,
-    "valueScore": 0.11,
-    "totalScore": 0.52,
-    "domain": "AI",
     "selected": false,
     "reason": ""
   },
@@ -60793,11 +60829,23 @@
   },
   {
     "podcastName": "AI产品黄叔",
-    "episodeTitle": "人脉在AI时代的价值",
-    "uniqueId": "6a31ffb94233e62bc54b2434",
-    "publishedAt": "2026-06-17T02:07:29+00:00",
+    "episodeTitle": "为何说有经验的人才能用好AI",
+    "uniqueId": "6a3356674233e62bc54bbaf0",
+    "publishedAt": "2026-06-18T02:23:31+00:00",
     "recencyScore": 1.12,
     "valueScore": 0.01,
+    "totalScore": 0.51,
+    "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "AI产品黄叔",
+    "episodeTitle": "AI浪潮里，共识是最重要的",
+    "uniqueId": "6a2f5fd543a22a695583d290",
+    "publishedAt": "2026-06-15T02:21:35+00:00",
+    "recencyScore": 1.0,
+    "valueScore": 0.11,
     "totalScore": 0.51,
     "domain": "AI",
     "selected": false,
@@ -60889,9 +60937,9 @@
   },
   {
     "podcastName": "AI产品黄叔",
-    "episodeTitle": "昨天参加理想汽车发布会后的一些思考",
-    "uniqueId": "6a30ac1b4233e62bc54a8787",
-    "publishedAt": "2026-06-16T01:52:19+00:00",
+    "episodeTitle": "人脉在AI时代的价值",
+    "uniqueId": "6a31ffb94233e62bc54b2434",
+    "publishedAt": "2026-06-17T02:07:29+00:00",
     "recencyScore": 1.06,
     "valueScore": 0.01,
     "totalScore": 0.48,
@@ -61244,6 +61292,18 @@
     "valueScore": 0.04,
     "totalScore": 0.47,
     "domain": "情感",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "AI产品黄叔",
+    "episodeTitle": "昨天参加理想汽车发布会后的一些思考",
+    "uniqueId": "6a30ac1b4233e62bc54a8787",
+    "publishedAt": "2026-06-16T01:52:19+00:00",
+    "recencyScore": 1.01,
+    "valueScore": 0.01,
+    "totalScore": 0.46,
+    "domain": "AI",
     "selected": false,
     "reason": ""
   },

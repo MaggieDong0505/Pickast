@@ -8,33 +8,49 @@
 import { BriefingCardData } from './types';
 
 export const initialData: BriefingCardData = {
-  "dateStr": "2026.08.02",
-  "chinaDateStr": "星期日 / SUNDAY",
+  "dateStr": "2026.08.03",
+  "chinaDateStr": "星期一 / MONDAY",
   "title": "今天最值得听 • TODAY'S VOICE",
   "issueNo": "精选 3 条",
   "mainEpisode": {
-    "episodeId": "5fd236d7-9a72-4b15-9e84-e83ceadd1b41",
-    "podcastName": "硅谷101",
-    "episodeTitle": "E246｜何谓蒸馏？聊聊硅谷如何看中国开放模型逼近前沿",
-    "description": "7月27日，月之暗面正式发布Kimi K3的完整模型权重。自7月16日API上线以来，K3就在在多项测试中展现出接近前沿模型的能力。因此，它成为了硅谷最近讨论开源时的重要案例之一。从2025年初的DeepSeek时刻，到当下的Kimi K3，中国开源模型正在从成本更低、能力稍弱的替代品，逐渐逼近甚至超过最强的闭源前沿模型。\n\n随之而来的，是一场越来越激烈的蒸馏争论。什么是蒸馏？通过闭源模型的输出进行训练，和未经授权的大规模能力提取，有什么区别？即使中国实验室使用过美国模型生成的数据，它又究竟能解释多少最终能力？\n\n本期播客，我们邀请到两位嘉宾来分别从开源生态和企业的视角，讨论这一波中国开源模型的影响：前Hugging Face亚太开源生态负责人王铁震，和TinyFish联合创始人Keith Zhai。\n\n我们从K3带给硅谷的挑战聊起，讨论了为什么把中国模型的进步全部归因于蒸馏，实际上忽略了架构、强化学习、数据工程和推理基础设施上的创新。而当蒸馏从一种中性的训练技术，变成商业竞争和政策讨论中的指控时，争议的核心又变成了什么？\n\n在此之外，我们也讨论了K3针对大型推理服务商设计的商业授权：当开源权重模型持续压低成本，它会如何冲击OpenAI、Anthropic等闭源实验室的商业模式？当模型能力逐渐商品化，未来AI行业的价值会流向模型本身、推理基础设施，还是Agent与企业工作流？\n\n注：本期播客中提到的“开源”，更准确地说是开放权重（open weights）。K3官方称自己为开放模型，它使用的是Kimi K3 License，不是标准 MIT/Apache 这类完全开放的OSI license。\n\n【主播】\n\nYiwen，硅谷101特约研究员\n\n【嘉宾】\n\n王铁震，Hugging Face前亚太生态负责人\n\nKeith Zhai，TinyFish联合创始人\n\n【你将听到】\n\n中国开放模型，硅谷怎么看？\n\n01:45 Kimi K3为什么突然成为硅谷关注的焦点？\n\n03:33 从DeepSeek、GLM到K3：硅谷对中国模型的判断如何变化\n\n06:51 企业为什么开始转向中国模型\n\n10:23 中国开放模型推理成本\n\n蒸馏争端始末\n\n13:24 蒸馏争议：到底什么是蒸馏？\n\n17:22 K3是否可能在短时间内蒸馏最强闭源模型？\n\n19:48 蒸馏能解释模型的核心能力吗？\n\n开放模型对闭源商业模式的影响\n\n23:54 K3 License与开放模型商业化\n\n34:27 开放模型会怎样冲击OpenAI和Anthropic的收入与估值？\n\n37:39 英伟达为什么支持开放权重\n\n43:41 中国公司为什么选择开放\n\n强大的开放能力下，Agent生态如何变化？\n\n45:04 Thinking Machines为什么开放权重？\n\n48:39 开放模型催生的新生态\n\n48:43 OpenRouter等多模型平台为什么开始受益？\n\n49:56 对Agent产品和基础设施的影响\n\n开放模型的安全之争\n\n55:40 接近前沿的模型，到底应不应该开放权重？\n\n01:04:01 开源和闭源模型，谁更容易被滥用？\n\n【延伸阅读和相关术】\n\nKimi K3官方技术报告与模型权重\n\nKimi K3授权协议\n\nAnthropic对蒸馏攻击的指控\n\n《开放权重与美国AI领导力》\n\n【相关术语】\n\n开放权重（Open Weights）：指模型开发者公开模型训练完成后的参数文件，允许用户下载模型，并在自己的设备或云端进行部署、推理、微调或进一步开发。开放权重并不意味着训练数据、训练代码和完整训练流程也同时公开，具体使用方式还会受到模型授权协议的限制。\n\n开源模型（Open-Source Models）：通常指不仅公开模型权重，还公开足以让外部开发者研究、修改和复现模型的更多组成部分，例如训练代码、模型架构、数据处理方法、训练流程，以及在部分情况下使用的训练数据。由于大模型很少完整披露所有训练材料，目前业界对什么样的模型可以被严格称为“开源”仍存在争议。\n\n思维链（Chain of Thought）：指模型在生成最终答案之前，用一系列中间步骤拆解问题、组织信息和进行推理的过程。\n\n规模扩展效率（Scaling Effiency）：指模型将计算资源转化为能力提升的效率，也就是在使用相同或更少的算力、数据或训练成本时，能否获得更好的模型表现。\n\n键值缓存（KV Cache）：指模型在处理上下文和生成内容时，保存此前token在注意力计算中产生的Key和Value数据。这样，模型在生成下一个token时不必重新计算全部历史内容，可以显著降低重复计算，提高生成速度；但上下文越长，KV Cache占用的内存通常也越大。\n\n【硅谷101正在招聘】\n\n《硅谷101》招聘多个全职岗位，欢迎加入我们的超酷的深度内容工作团队！\n\n👉🏻点击查看招聘详情\n\n【监制】\n\n泓君\n\n【后期】\n\nAmei\n\n【运营】\n\n朱婕\n\n【BGM】\n\nKablaam - Ealot\n\nFlickering Torches - Christian Andersen\n\nRadar Focus - Blue Saga\n\nPulse Runner - Helmut Schenker\n\n【在这里找到我们】\n\n公众号：硅谷101\n\n收听渠道：Apple Podcast｜Spotify｜小宇宙｜喜马拉雅｜蜻蜓FM｜荔枝FM｜网易云音乐｜QQ音乐\n\n其他平台：YouTube｜Bilibili 搜索「硅谷101播客」\n\n联系我们：podcast@sv101.net\nSpecial Guests: Keith Zhai and 王铁震.",
-    "publishedAt": "2026-08-01T00:00:00+00:00",
-    "rssUrl": "https://feeds.fireside.fm/sv101/rss",
-    "coverImageUrl": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/f/f0f20376-8faf-4940-b920-84af6c734e2d/cover.jpg?v=6",
-    "coverText": "硅谷",
+    "episodeId": "6a6ed539ab3a91c24a0e6790",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#659.xAI 联合创始人：Igor Babuschkin 解读模型开发的未来",
+    "description": "📝 本期播客简介\n本期我们克隆了：知名播客 Unsupervised Learning: With Jacob Effron xAI Co-Founder: Igor Babuschkin Unpacks the Future of Model Development\n原内容更新时间：2026-07-31\n本期嘉宾是xAI联合创始人、River AI创始人Igor Babuschkin，主持人是Redpoint投资人Jacob Effron。Igor的职业生涯几乎横跨了所有顶级AI实验室：在DeepMind主导星际争霸和AlphaCode项目，在OpenAI推理团队早期加入、参与了o1模型诞生前的研究，随后联合创办xAI，在约120天内建成Colossus数据中心，并推动Grok系列模型达到前沿水平。\n这期节目里，Igor首次深度分享了离开xAI后创办River AI的完整思考，以及他在企业AI、个人AI和本地硬件上的三个核心押注。他还坦诚聊到了与Elon Musk共事的真实体验、对Cursor收购的看法、为什么他认为闭源模型厂商作为生意正陷入困境，以及他对AI对齐、开源模型和人类未来的深刻反思。如果你关心AI行业的走向、模型训练的瓶颈，或者想了解顶级AI研究者如何看待这个时代的变革，这期节目会给你大量一手判断。\n👨‍⚕️ 本期嘉宾\nIgor Babuschkin，River AI创始人兼CEO，xAI联合创始人。他的职业生涯横跨DeepMind、OpenAI和xAI三大顶级AI实验室：在DeepMind主导了星际争霸AI项目和AlphaCode项目，在OpenAI参与了推理方向的早期研究，随后联合创办xAI并主导了Colossus数据中心的建设。2025年离开xAI后创办River AI，专注于企业AI、个人AI和本地硬件三个方向。他是一位兼具研究深度和工程能力的AI领域领军人物，对模型训练、强化学习和AI对齐有极深的理解。\n⏱️ 时间戳\n00:00 开场 & 播客简介\n嘉宾登场与背景介绍\n01:10 主持人Jacob Effron介绍Igor的传奇经历\n02:18 Igor接受邀请，对话正式开始\n从科幻小说到AI愿景\n02:56 Igor谈为何写科幻小说：编程Agent的爆发\n04:17 现代版《魔法师的学徒》：AI失控的隐喻\n05:11 个人AI是Agent的下一个迭代方向\nAI的下一步：从可验证到不可验证\n05:57 科学发现是AI的下一个明确方向\n07:16 数据瓶颈：物理世界实验的挑战\n08:09 超级AI与日常AI的分化\nRiver AI的三个赌注\n09:26 创办River AI的动机：分发AI的控制权\n11:20 三个项目：企业API、个人AI、本地硬件\n11:36 第一个赌注：River API强化学习服务\n12:12 第二个赌注：个人AI与个性化对齐\n13:10 第三个赌注：本地硬件与推理算力\n本地AI的隐私与控制\n14:47 控制权是本地AI的核心动机\n15:02 本地设备的低延迟优势\n15:23 个人AI的隐私问题与数据安全\n模型个性化与端到端训练\n15:57 个人模型的持续学习与定制\n16:24 端到端训练的重要性\n17:08 以个体幸福感为奖励函数\n企业AI与开源模型的未来\n19:19 企业定制模型的成本与速度考量\n19:50 专有模型与开源模型的竞争格局\n20:36 开源模型变强带来的趋势变化\n21:42 专有模型厂商的困境：两头受压\n开源模型与地缘政治\n27:48 中国开源模型的优势与风险\n28:13 开源模型降低门槛的价值\n29:03 对模型后门风险的评估\n29:37 美国需要最好的开源模型\n从DeepMind到OpenAI的旅程\n30:38 回顾AI进展的惊人时刻\n30:55 从物理学家到AI研究者的转变\n32:04 星际争霸项目的技术挑战\n33:04 AlphaCode：编程是下一个大方向\n33:49 加入OpenAI推理团队\nOpenAI与DeepMind的比较\n34:50 两家实验室的文化差异\n35:11 OpenAI的优势：人才密度与共识\n35:42 对AI权力集中的担忧\nxAI的创立与Colossus\n37:11 与Elon Musk的相遇与共鸣\n37:49 xAI的创立与人才聚集\n38:26 Colossus数据中心：120天的奇迹\n39:10 质疑传统数据中心建设方式\n与Elon共事的体验\n40:10 Elon对工程师的尊重\n40:46 深入工程细节的领导风格\n41:08 高能量与团队动力\nCursor收购与编程模型\n41:25 Cursor收购是极其聪明的一步\n41:52 真实世界编程数据的价值\n42:24 强化学习环境的重要性\n模型训练的瓶颈与突破\n43:08 最大瓶颈：长时域与不可验证奖励\n43:39 编程赛道的陷阱与长时域领域\n44:04 Agent rollout时间对训练的限制\n不可验证领域的进展\n44:37 LLM裁判方法的兴起\n44:50 模型自身判断力的可靠性\n45:18 配方已存在，等待大规模实验\nAI的变革时刻与未来\n45:41 编程Agent的变革超出预期\n46:22 阶跃变化时刻的不可预测性\n人类与机器的共生\n46:50 人类在AI时代的位置\n47:12 与机器建立正确的共生方式\n47:58 对齐需要更深层次的进展\nAI安全与放缓的呼吁\n49:17 对放缓AI发展的公开信的看法\n49:32 AI已太大，难以慢下来\n50:02 在安全技术上加速\n开源模型与对齐研究\n50:15 开源模型对安全研究的价值\n50:35 网络安全能力是当前最大风险\nAI的风险评估\n50:55 AI放大不平等的直接风险\n51:18 模型接管一切的远期风险\n结尾与感悟\n51:40 《向机器神祈祷》中的动人句子\n51:57 第一次让模型跑起来的神奇感觉\n52:39 收尾与感谢\n🌟 精彩内容\n💡 \"我们想做爵士乐队，不想做军乐队\"\nIgor用\"爵士乐队\"形容Notion的组织状态：不是没有结构，而是在结构中允许即兴、协作和个人发挥。AI时代变化太快，传统计划与层级不足以应对每周都在变的技术环境。\n\"我们想做爵士乐队，不想做军乐队。\"\n💡 AI产品不是造桥，而是酿啤酒\n传统软件像造桥，设计清楚结果可预测；用language model构建产品更像酿啤酒，你无法完全控制\"酵母\"，只能让最强的人一起实验、评估、打磨。\n\"用language model构建产品，更像是在酿啤酒。\"\n💡 编程Agent的爆发是所有人都没预料到的变革\nIgor坦言，他原本预期编程模型会平稳进步，但2025年11月、12月编程Agent突然跨过能力门槛，使用量爆发式增长，这种阶跃变化完全超出预期。\n\"使用量的突然爆发，那真的是另一回事。\"\n💡 闭源模型厂商正被两头挤压\n前沿模型强到可能不被允许发布，而开源模型每个月都在变强。Igor认为做专有模型其实不是个好位置，出路在于创新和走向分布式。\n\"你把模型做得太好了，不让你发布；但开源就在你身后，每个月都在变强。\"\n💡 个人AI的核心是端到端训练个体幸福感\nIgor认为，未来的个人AI应该针对每个个体进行端到端训练，以最大化一个人的幸福感为奖励函数，而不是让模型在平均用户上表现良好。\n\"你真的要针对你想优化的那个真实信号去做端到端训练——也就是个体的幸福感。\"\n💡 本地硬件是AI控制权的根本\nIgor强调，把推理算力带到用户本地，让模型真正属于个人，是解决AI权力集中的根本一步。这既是研究问题，也是工程问题。\n\"我们能不能把推理算力带到用户本地？要真正在办公室、在家里放一台小设备就能跑前沿模型，需要做到什么？\"\n💡 美国需要拥有最好的开源模型\nIgor认为，美国拥有最好的开源模型至关重要，这既是地缘政治的需要，也是让更多人参与AI对齐研究的基础。\n\"我们应该都想办法，怎么让一个美国团队训练出全世界最好的开源模型，没有之一。\"\n💡 人类需要与机器建立深层次的共生\n面对\"机器能做所有工作，人类还剩什么\"的问题，Igor认为关键在于找到与机器的正确共生方式，这需要对齐方面的新进展，甚至可能包括神经接口。\n\"我们应该努力的方向，是想办法让共生继续下去。而对我来说，这需要对齐方面的新进展。\"\n🌐 播客信息补充\n本播客采用原有人声声线进行播客音频制作，也可能会有一些地方听起来怪怪的\n使用 AI 进行翻译，因此可能会有一些地方不通顺；\n如果有后续想要听中文版的其他外文播客，也欢迎联系微信：iEvenight\n\n在小宇宙查看该单集文稿",
+    "publishedAt": "2026-08-02T06:49:37+00:00",
+    "rssUrl": "https://feed.xyzfm.space/r8t44lmvu99m",
+    "coverImageUrl": "https://image.xyzcdn.net/FgPi3C76e0yvQlUYo8TDbk1GTgp8.png",
+    "coverText": "跨国",
     "coverBg": "bg-[#18181B]",
     "coverTextColor": "text-amber-50",
-    "whyRecommended": "适合关注AI开源与闭源之争的听众，从KimiK3出发，深入剖析蒸馏争议与商业模式冲击。",
+    "whyRecommended": "适合关注AI行业前沿的听众，Igor首次分享创办RiverAI的思考与三大押注，提供一手判断。",
     "viewpoints": [
-      "Kimi K3为何成为硅谷关注焦点",
-      "蒸馏争议：技术还是商业指控",
-      "开放模型冲击闭源商业模式"
+      "River AI的三个核心押注：企业API、个人AI、本地硬件",
+      "闭源模型厂商正被开源模型和监管两头挤压",
+      "个人AI应以个体幸福感为奖励函数进行端到端训练"
     ],
-    "goldenQuotes": [],
-    "triageTag": "📖值得精听｜Kimi K3引发蒸馏争议",
-    "href": "https://sv101.fireside.fm/259",
-    "whyRecommend": "适合关注AI开源与闭源之争的听众，从KimiK3出发，深入剖析蒸馏争议与商业模式冲击。",
-    "goldenQuote": "适合关注AI开源与闭源之争的听众，从KimiK3出发，深入剖析蒸馏争议与商业模式冲击。",
-    "topicTag": "📖值得精听｜Kimi K3引发蒸馏争议"
+    "goldenQuotes": [
+      {
+        "quote": "我们想做爵士乐队，不想做军乐队。",
+        "source": "来自本期 shownote",
+        "source_note": "来自本期 shownote"
+      },
+      {
+        "quote": "用language model构建产品，更像是在酿啤酒。",
+        "source": "来自本期 shownote",
+        "source_note": "来自本期 shownote"
+      },
+      {
+        "quote": "使用量的突然爆发，那真的是另一回事。",
+        "source": "来自本期 shownote",
+        "source_note": "来自本期 shownote"
+      }
+    ],
+    "triageTag": "📖值得精听｜Igor谈River",
+    "href": "cosmos://page.cos/episode/6a6ed539ab3a91c24a0e6790?utm_source=rss",
+    "whyRecommend": "适合关注AI行业前沿的听众，Igor首次分享创办RiverAI的思考与三大押注，提供一手判断。",
+    "goldenQuote": "我们想做爵士乐队，不想做军乐队。",
+    "topicTag": "📖值得精听｜Igor谈River"
   },
   "backupEpisodes": [
     {
@@ -48,7 +64,7 @@ export const initialData: BriefingCardData = {
       "coverText": "时雨",
       "coverBg": "bg-[#18181B]",
       "coverTextColor": "text-amber-50",
-      "whyRecommended": "适合对新闻史与权力博弈感兴趣的听众，从五角大楼文件案切入，探讨第四权力与真相的代价。",
+      "whyRecommended": "适合对新闻史与权力博弈感兴趣的听众，从五角大楼文件案透视第四权力的边界与代价。",
       "viewpoints": [
         "五角大楼文件揭露越战真相",
         "华盛顿邮报接力刊发文件",
@@ -64,7 +80,7 @@ export const initialData: BriefingCardData = {
       "triageTag": "📖值得精听｜五角大楼文件泄密始末",
       "href": "cosmos://page.cos/episode/6a6afbe9b581962ce2bddf68?utm_source=rss",
       "scenario": "",
-      "whyRecommend": "适合对新闻史与权力博弈感兴趣的听众，从五角大楼文件案切入，探讨第四权力与真相的代价。",
+      "whyRecommend": "适合对新闻史与权力博弈感兴趣的听众，从五角大楼文件案透视第四权力的边界与代价。",
       "goldenQuote": "新闻界是为被统治者服务，而不是为统治者服务",
       "topicTag": "📖值得精听｜五角大楼文件泄密始末"
     },
@@ -82,8 +98,8 @@ export const initialData: BriefingCardData = {
       "whyRecommended": "适合准备步入婚姻或身处婚姻的女性，用律师一线经验拆解财产风险与维权实操，帮你筑牢资产防火墙。",
       "viewpoints": [
         "婚前存款婚后混同，离婚时可能被分割",
-        "备婚女性建议专开银行卡，避免财产混同",
-        "离婚时过错方少分财产，法律有明确规定"
+        "备婚女性建议专开银行卡避免财产混同",
+        "趁对方愧疚期签订婚内财产协议并及时过户"
       ],
       "goldenQuotes": [
         {
