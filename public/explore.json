@@ -1,5 +1,100 @@
 [
   {
+    "title": "AI会消灭还是创造就业？",
+    "domainTag": "AI与职场",
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI自动化任务后释放积压需求，反而创造更多岗位",
+        "episodeId": "6a6a2a8c56a3f3491ba717f4"
+      },
+      {
+        "podcast": "不被定义的职场",
+        "point": "AI替代基础工作，公司更看重不可替代性而非苦劳",
+        "episodeId": "6a6f71631b5e24969ce7c73b"
+      }
+    ],
+    "createdAt": "2026-08-05T06:19:14.679657+08:00",
+    "updatedAt": "2026-08-05T06:19:14.679657+08:00"
+  },
+  {
+    "title": "AI泡沫会破裂吗？",
+    "domainTag": "AI投资",
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "市场抛售与基本面不符，底层需求全面加速",
+        "episodeId": "6a71ea981b5e24969ce8e115"
+      },
+      {
+        "podcast": "搞钱女孩",
+        "point": "华尔街公认AI有泡沫，但离破灭还早",
+        "episodeId": "6a6a433356a3f3491ba71cf4"
+      }
+    ],
+    "createdAt": "2026-08-05T06:19:14.679657+08:00",
+    "updatedAt": "2026-08-05T06:19:14.679657+08:00"
+  },
+  {
+    "title": "AI会取代咨询公司吗？",
+    "domainTag": "AI与商业",
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI能处理远超分析师的信息量，应取代麦肯锡等咨询巨头",
+        "episodeId": "6a6eb8a6ab3a91c24a0e5d40"
+      },
+      {
+        "podcast": "十字路口Crossing",
+        "point": "AI让效率无限提升，咨询等知识工作将被重构",
+        "episodeId": "6a6eb9e71b5e24969ce77ab5"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-08-05T06:19:14.679657+08:00",
+    "updatedAt": "2026-08-05T06:19:14.679657+08:00"
+  },
+  {
+    "title": "AI模型能力真的在逼近前沿吗？",
+    "domainTag": "AI技术",
+    "consensus": [
+      {
+        "podcast": "硅谷101",
+        "point": "Kimi K3开放权重逼近前沿，硅谷开始重新评估中国模型",
+        "episodeId": "5fd236d7-9a72-4b15-9e84-e83ceadd1b41"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "Russ认为前沿模型架构高度同质化，真正驱动力在工程和数据",
+        "episodeId": "6a6eb8a6ab3a91c24a0e5d40"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-08-05T06:19:14.679657+08:00",
+    "updatedAt": "2026-08-05T06:19:14.679657+08:00"
+  },
+  {
+    "title": "AI算力军备竞赛还能持续多久？",
+    "domainTag": "AI基础设施",
+    "consensus": [
+      {
+        "podcast": "十分吸引",
+        "point": "AI需求爆发改写光通信迭代节奏，光模块成AI淘金热里的铲子",
+        "episodeId": "6a6403f76356eb2d9be7fc38"
+      },
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "国产超节点元年，系统层面堆料追赶英伟达但CUDA未破",
+        "episodeId": "a6c6ab3e-72b2-470b-aefd-04b19679d37f"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-08-05T06:19:14.679657+08:00",
+    "updatedAt": "2026-08-05T06:19:14.679657+08:00"
+  },
+  {
     "title": "AIAgent支付会成新基建吗？",
     "domainTag": "AI与金融",
     "consensus": [

@@ -1,5 +1,150 @@
 [
   {
+    "generatedAt": "2026-08-05T06:19:14.679657+08:00",
+    "title": "AI会取代咨询公司吗？",
+    "domainTag": "AI与商业",
+    "podcasts": [
+      "十字路口Crossing",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a6eb8a6ab3a91c24a0e5d40",
+      "6a6eb9e71b5e24969ce77ab5"
+    ],
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI能处理远超分析师的信息量，应取代麦肯锡等咨询巨头",
+        "episodeId": "6a6eb8a6ab3a91c24a0e5d40"
+      },
+      {
+        "podcast": "十字路口Crossing",
+        "point": "AI让效率无限提升，咨询等知识工作将被重构",
+        "episodeId": "6a6eb9e71b5e24969ce77ab5"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:dfc5b45b2e01ccff6742971b90672a138b08faab8b7d2e5f00b9752ca63c11b9",
+    "createdAt": "2026-08-05T06:19:14.679657+08:00",
+    "updatedAt": "2026-08-05T06:19:14.679657+08:00"
+  },
+  {
+    "generatedAt": "2026-08-05T06:19:14.679657+08:00",
+    "title": "AI会消灭还是创造就业？",
+    "domainTag": "AI与职场",
+    "podcasts": [
+      "不被定义的职场",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a6a2a8c56a3f3491ba717f4",
+      "6a6f71631b5e24969ce7c73b"
+    ],
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI自动化任务后释放积压需求，反而创造更多岗位",
+        "episodeId": "6a6a2a8c56a3f3491ba717f4"
+      },
+      {
+        "podcast": "不被定义的职场",
+        "point": "AI替代基础工作，公司更看重不可替代性而非苦劳",
+        "episodeId": "6a6f71631b5e24969ce7c73b"
+      }
+    ],
+    "fingerprint": "v1:5e6b6c76ef11f21d13c30a60867c108d79aba235fb0c18470617fb1639796692",
+    "createdAt": "2026-08-05T06:19:14.679657+08:00",
+    "updatedAt": "2026-08-05T06:19:14.679657+08:00"
+  },
+  {
+    "generatedAt": "2026-08-05T06:19:14.679657+08:00",
+    "title": "AI泡沫会破裂吗？",
+    "domainTag": "AI投资",
+    "podcasts": [
+      "搞钱女孩",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a6a433356a3f3491ba71cf4",
+      "6a71ea981b5e24969ce8e115"
+    ],
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "市场抛售与基本面不符，底层需求全面加速",
+        "episodeId": "6a71ea981b5e24969ce8e115"
+      },
+      {
+        "podcast": "搞钱女孩",
+        "point": "华尔街公认AI有泡沫，但离破灭还早",
+        "episodeId": "6a6a433356a3f3491ba71cf4"
+      }
+    ],
+    "fingerprint": "v1:345aec93fd3accda07d7f9e4f3c80f1daf1bebd5225d3c17eed3df55edc52c0b",
+    "createdAt": "2026-08-05T06:19:14.679657+08:00",
+    "updatedAt": "2026-08-05T06:19:14.679657+08:00"
+  },
+  {
+    "generatedAt": "2026-08-05T06:19:14.679657+08:00",
+    "title": "AI模型能力真的在逼近前沿吗？",
+    "domainTag": "AI技术",
+    "podcasts": [
+      "硅谷101",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "5fd236d7-9a72-4b15-9e84-e83ceadd1b41",
+      "6a6eb8a6ab3a91c24a0e5d40"
+    ],
+    "consensus": [
+      {
+        "podcast": "硅谷101",
+        "point": "Kimi K3开放权重逼近前沿，硅谷开始重新评估中国模型",
+        "episodeId": "5fd236d7-9a72-4b15-9e84-e83ceadd1b41"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "Russ认为前沿模型架构高度同质化，真正驱动力在工程和数据",
+        "episodeId": "6a6eb8a6ab3a91c24a0e5d40"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:e7929cd181e5e1aa35a87b998fbc08c66439af7d4dd57424641548b61b1e7c55",
+    "createdAt": "2026-08-05T06:19:14.679657+08:00",
+    "updatedAt": "2026-08-05T06:19:14.679657+08:00"
+  },
+  {
+    "generatedAt": "2026-08-05T06:19:14.679657+08:00",
+    "title": "AI算力军备竞赛还能持续多久？",
+    "domainTag": "AI基础设施",
+    "podcasts": [
+      "What's Next｜科技早知道",
+      "十分吸引"
+    ],
+    "episodeIds": [
+      "6a6403f76356eb2d9be7fc38",
+      "a6c6ab3e-72b2-470b-aefd-04b19679d37f"
+    ],
+    "consensus": [
+      {
+        "podcast": "十分吸引",
+        "point": "AI需求爆发改写光通信迭代节奏，光模块成AI淘金热里的铲子",
+        "episodeId": "6a6403f76356eb2d9be7fc38"
+      },
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "国产超节点元年，系统层面堆料追赶英伟达但CUDA未破",
+        "episodeId": "a6c6ab3e-72b2-470b-aefd-04b19679d37f"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:aa68741c16c95a8d9a074238b172014f4fe2ba6d75d09c088b9a2bb24eda2cba",
+    "createdAt": "2026-08-05T06:19:14.679657+08:00",
+    "updatedAt": "2026-08-05T06:19:14.679657+08:00"
+  },
+  {
     "generatedAt": "2026-08-02T06:02:57.675003+08:00",
     "title": "开源模型会颠覆闭源巨头吗？",
     "domainTag": "AI竞争格局",
@@ -746,161 +891,5 @@
     "fingerprint": "v1:d977a5e4791856b90ccdc9f0caf523eb59f78cab6408a22cb6104c39d6e07d73",
     "createdAt": "2026-07-15T06:06:00.379218+08:00",
     "updatedAt": "2026-07-15T06:06:00.379218+08:00"
-  },
-  {
-    "generatedAt": "2026-07-15T06:06:00.379218+08:00",
-    "title": "AI时代企业如何获得投资回报？",
-    "domainTag": "AI商业化",
-    "podcasts": [
-      "Peril Crosser 渡厄",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "6a551c05ca0de6c44ae69557",
-      "https://perilcrosser.com/?p=243"
-    ],
-    "consensus": [
-      {
-        "podcast": "Peril Crosser 渡厄",
-        "point": "95%的企业AI投资零回报，做减法行不通",
-        "episodeId": "https://perilcrosser.com/?p=243"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "企业客户对AI模型公司的信任已崩塌",
-        "episodeId": "6a551c05ca0de6c44ae69557"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:05d0725bf96c1cad8736cd2eaf4eb2c9ad50ec6854bb2f2609c73657a4424385",
-    "createdAt": "2026-07-15T06:06:00.379218+08:00",
-    "updatedAt": "2026-07-15T06:06:00.379218+08:00"
-  },
-  {
-    "generatedAt": "2026-07-15T06:06:00.379218+08:00",
-    "title": "AI时代如何保持创作的真实感？",
-    "domainTag": "创造力与表达",
-    "podcasts": [
-      "十分吸引",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "6a50bf8a1e32575f5eb453cd",
-      "6a5473931e32575f5eb58f0a"
-    ],
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI生成内容泛滥，真实感和真人视角更稀缺",
-        "episodeId": "6a5473931e32575f5eb58f0a"
-      },
-      {
-        "podcast": "十分吸引",
-        "point": "AI腔不美，因为每个起承转合都套着模板",
-        "episodeId": "6a50bf8a1e32575f5eb453cd"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:d826071258ce9eb306828c88c889d7ce6b5dcfae1a5036318219405b50e83408",
-    "createdAt": "2026-07-15T06:06:00.379218+08:00",
-    "updatedAt": "2026-07-15T06:06:00.379218+08:00"
-  },
-  {
-    "generatedAt": "2026-07-14T06:02:52.854822+08:00",
-    "title": "AI时代如何培养品味和判断力？",
-    "domainTag": "认知与创造力",
-    "podcasts": [
-      "十分吸引",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "6a43a9699d2f574368405276",
-      "6a50bf8a1e32575f5eb453cd"
-    ],
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI让做东西变容易，品味成为最稀缺资源",
-        "episodeId": "6a43a9699d2f574368405276"
-      },
-      {
-        "podcast": "十分吸引",
-        "point": "AI生成内容越廉价，审美力和判断力越稀缺",
-        "episodeId": "6a50bf8a1e32575f5eb453cd"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:4bba9af6ecdf300981750a7b3c284a95da0cbd80c017891bafcaaa417c1f752b",
-    "createdAt": "2026-07-14T06:02:52.854822+08:00",
-    "updatedAt": "2026-07-14T06:02:52.854822+08:00"
-  },
-  {
-    "generatedAt": "2026-07-13T05:58:34.381241+08:00",
-    "title": "AI时代如何保持独立思考？",
-    "domainTag": "认知与创造力",
-    "podcasts": [
-      "跨国串门儿计划",
-      "跨域请求"
-    ],
-    "episodeIds": [
-      "6a4034262e335a35a80a5f75",
-      "6a42ca2b2e335a35a80b6f42",
-      "6a4f1b653fb7233cbf461824"
-    ],
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "成为二手思考者代价高昂，需警惕算法同化",
-        "episodeId": "6a4034262e335a35a80a5f75"
-      },
-      {
-        "podcast": "跨域请求",
-        "point": "AI同化让人用AI术语理解自己，需反向输出",
-        "episodeId": "6a42ca2b2e335a35a80b6f42"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI写作可能摧毁思考能力，好的写作是好的思考产物",
-        "episodeId": "6a4f1b653fb7233cbf461824"
-      },
-      {
-        "podcast": "跨域请求",
-        "point": "人开始用AI的词和结构理解自己，可能被同化而不自知",
-        "episodeId": "6a42ca2b2e335a35a80b6f42"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:cca1e9b118f7cf8eff6265c8a67ef125f82e348e836b67cd47e3c296fe150648",
-    "createdAt": "2026-07-05T06:05:08.060576+08:00",
-    "updatedAt": "2026-07-13T05:58:34.381241+08:00"
-  },
-  {
-    "generatedAt": "2026-07-13T05:58:34.381241+08:00",
-    "title": "AI时代如何保护个人记忆？",
-    "domainTag": "AI与隐私",
-    "podcasts": [
-      "Peril Crosser 渡厄",
-      "What's Next｜科技早知道"
-    ],
-    "episodeIds": [
-      "a70c41aa-41ae-488d-a6e2-63c3de5b9ec3",
-      "https://perilcrosser.com/?p=264"
-    ],
-    "consensus": [
-      {
-        "podcast": "What's Next｜科技早知道",
-        "point": "大模型做记忆有天花板，无法精确定位事实记忆",
-        "episodeId": "a70c41aa-41ae-488d-a6e2-63c3de5b9ec3"
-      },
-      {
-        "podcast": "Peril Crosser 渡厄",
-        "point": "Claude Code在本地埋下时区嗅探和隐写术，用户数据被",
-        "episodeId": "https://perilcrosser.com/?p=264"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:dde1a11efca43e6d26678fed48871d097c12822a3c0042bad842f003fff06f13",
-    "createdAt": "2026-07-13T05:58:34.381241+08:00",
-    "updatedAt": "2026-07-13T05:58:34.381241+08:00"
   }
 ]
