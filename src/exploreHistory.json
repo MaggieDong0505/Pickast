@@ -1,5 +1,92 @@
 [
   {
+    "generatedAt": "2026-08-06T06:17:21.344285+08:00",
+    "title": "AI时代销售模式会被彻底颠覆吗？",
+    "domainTag": "AI与商业",
+    "podcasts": [
+      "乱翻书",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a61ac16a3fec224d5a207e9",
+      "6a6da28d1b5e24969ce72d4c"
+    ],
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI原生平台将取代传统销售记录系统",
+        "episodeId": "6a61ac16a3fec224d5a207e9"
+      },
+      {
+        "podcast": "乱翻书",
+        "point": "AI办公产品需从架构上为AI设计",
+        "episodeId": "6a6da28d1b5e24969ce72d4c"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:4d0adfe3a9053948bcccdfd32c7fd98d21bc2c6692cc8746ac2aea0bcc136578",
+    "createdAt": "2026-08-06T06:17:21.344285+08:00",
+    "updatedAt": "2026-08-06T06:17:21.344285+08:00"
+  },
+  {
+    "generatedAt": "2026-08-06T06:17:21.344285+08:00",
+    "title": "AI基础设施投资是泡沫还是机遇？",
+    "domainTag": "AI投资",
+    "podcasts": [
+      "十分吸引",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a6403f76356eb2d9be7fc38",
+      "6a71ea981b5e24969ce8e115"
+    ],
+    "consensus": [
+      {
+        "podcast": "十分吸引",
+        "point": "光通信成AI淘金热里的卖铲子生意",
+        "episodeId": "6a6403f76356eb2d9be7fc38"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "GPU需求与token增长全面加速",
+        "episodeId": "6a71ea981b5e24969ce8e115"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:86a85faa033d9ad560c9fe744115d2a307a6778f6ebcfe8bafed16ab4588926e",
+    "createdAt": "2026-08-06T06:17:21.344285+08:00",
+    "updatedAt": "2026-08-06T06:17:21.344285+08:00"
+  },
+  {
+    "generatedAt": "2026-08-06T06:17:21.344285+08:00",
+    "title": "AI时代如何保持精力与动力？",
+    "domainTag": "身心健康",
+    "podcasts": [
+      "碳基生物生存指南",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6a69b3d456a3f3491ba6d65d",
+      "6a6aaf0256a3f3491ba73198"
+    ],
+    "consensus": [
+      {
+        "podcast": "碳基生物生存指南",
+        "point": "精力受动机响应敏感性影响，非天生",
+        "episodeId": "6a69b3d456a3f3491ba6d65d"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "找到热情需先保持结构，避免麻木",
+        "episodeId": "6a6aaf0256a3f3491ba73198"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:021f3cde020928ce331fd5119097d2363a6a90d781fb3b326ddc419653c78b32",
+    "createdAt": "2026-08-06T06:17:21.344285+08:00",
+    "updatedAt": "2026-08-06T06:17:21.344285+08:00"
+  },
+  {
     "generatedAt": "2026-08-05T06:19:14.679657+08:00",
     "title": "AI会取代咨询公司吗？",
     "domainTag": "AI与商业",
@@ -804,92 +891,5 @@
     "fingerprint": "v1:a661d74ec6d6f53e9df42cfb991d4e908ce47ae15eac8fad784aed6992f8dfba",
     "createdAt": "2026-07-20T05:59:47.803499+08:00",
     "updatedAt": "2026-07-20T05:59:47.803499+08:00"
-  },
-  {
-    "generatedAt": "2026-07-20T05:59:47.803499+08:00",
-    "title": "机器人通用操作何时能实现？",
-    "domainTag": "具身智能",
-    "podcasts": [
-      "张小珺Jùn｜商业访谈录",
-      "硅谷101"
-    ],
-    "episodeIds": [
-      "6a57a05da4972c496dfc67f1",
-      "fc9a3737-81a9-49cf-a7d6-530c77df836e"
-    ],
-    "consensus": [
-      {
-        "podcast": "硅谷101",
-        "point": "机器人操作物体比运动控制难2-3个数量级",
-        "episodeId": "fc9a3737-81a9-49cf-a7d6-530c77df836e"
-      },
-      {
-        "podcast": "张小珺Jùn｜商业访谈录",
-        "point": "Pi专注机器人大脑，目标是通用操作",
-        "episodeId": "6a57a05da4972c496dfc67f1"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:b052f1cd4dd2f97d08fef6117b0350f8ad9c5ac422957954a12649f2d2be9649",
-    "createdAt": "2026-07-20T05:59:47.803499+08:00",
-    "updatedAt": "2026-07-20T05:59:47.803499+08:00"
-  },
-  {
-    "generatedAt": "2026-07-17T06:10:20.455343+08:00",
-    "title": "企业AI投资回报是零吗？",
-    "domainTag": "AI商业化",
-    "podcasts": [
-      "Peril Crosser 渡厄",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "6a52a93b1e32575f5eb4eb08",
-      "https://perilcrosser.com/?p=243"
-    ],
-    "consensus": [],
-    "divergence": [
-      {
-        "podcast": "Peril Crosser 渡厄",
-        "point": "95%企业AI投资获得零财务回报",
-        "episodeId": "https://perilcrosser.com/?p=243"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI ROI真实，公司支出1/3在AI但回报巨大",
-        "episodeId": "6a52a93b1e32575f5eb4eb08"
-      }
-    ],
-    "fingerprint": "v1:c013f0ed3acecebcec95e44c6a7a05cac8d49dd51c1368739ae2ea6428bc6398",
-    "createdAt": "2026-07-17T06:10:20.455343+08:00",
-    "updatedAt": "2026-07-17T06:10:20.455343+08:00"
-  },
-  {
-    "generatedAt": "2026-07-15T06:06:00.379218+08:00",
-    "title": "AI自我进化会很快失控吗？",
-    "domainTag": "AI安全",
-    "podcasts": [
-      "硅谷101",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "308f9278-dd48-44d3-a4ce-ee436968fc28",
-      "6a4f1b653fb7233cbf461824"
-    ],
-    "consensus": [],
-    "divergence": [
-      {
-        "podcast": "硅谷101",
-        "point": "最快半年能跑通第一个闭环，但解决漂移需2-3年",
-        "episodeId": "308f9278-dd48-44d3-a4ce-ee436968fc28"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "实验室里的人相信AI会不断变聪明直到比人类聪明",
-        "episodeId": "6a4f1b653fb7233cbf461824"
-      }
-    ],
-    "fingerprint": "v1:d977a5e4791856b90ccdc9f0caf523eb59f78cab6408a22cb6104c39d6e07d73",
-    "createdAt": "2026-07-15T06:06:00.379218+08:00",
-    "updatedAt": "2026-07-15T06:06:00.379218+08:00"
   }
 ]

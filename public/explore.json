@@ -1,5 +1,62 @@
 [
   {
+    "title": "AI基础设施投资是泡沫还是机遇？",
+    "domainTag": "AI投资",
+    "consensus": [
+      {
+        "podcast": "十分吸引",
+        "point": "光通信成AI淘金热里的卖铲子生意",
+        "episodeId": "6a6403f76356eb2d9be7fc38"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "GPU需求与token增长全面加速",
+        "episodeId": "6a71ea981b5e24969ce8e115"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-08-06T06:17:21.344285+08:00",
+    "updatedAt": "2026-08-06T06:17:21.344285+08:00"
+  },
+  {
+    "title": "AI时代如何保持精力与动力？",
+    "domainTag": "身心健康",
+    "consensus": [
+      {
+        "podcast": "碳基生物生存指南",
+        "point": "精力受动机响应敏感性影响，非天生",
+        "episodeId": "6a69b3d456a3f3491ba6d65d"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "找到热情需先保持结构，避免麻木",
+        "episodeId": "6a6aaf0256a3f3491ba73198"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-08-06T06:17:21.344285+08:00",
+    "updatedAt": "2026-08-06T06:17:21.344285+08:00"
+  },
+  {
+    "title": "AI时代销售模式会被彻底颠覆吗？",
+    "domainTag": "AI与商业",
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI原生平台将取代传统销售记录系统",
+        "episodeId": "6a61ac16a3fec224d5a207e9"
+      },
+      {
+        "podcast": "乱翻书",
+        "point": "AI办公产品需从架构上为AI设计",
+        "episodeId": "6a6da28d1b5e24969ce72d4c"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-08-06T06:17:21.344285+08:00",
+    "updatedAt": "2026-08-06T06:17:21.344285+08:00"
+  },
+  {
     "title": "AI会消灭还是创造就业？",
     "domainTag": "AI与职场",
     "consensus": [],
@@ -589,110 +646,5 @@
     ],
     "createdAt": "2026-07-15T06:06:00.379218+08:00",
     "updatedAt": "2026-07-15T06:06:00.379218+08:00"
-  },
-  {
-    "title": "AI时代企业如何获得投资回报？",
-    "domainTag": "AI商业化",
-    "consensus": [
-      {
-        "podcast": "Peril Crosser 渡厄",
-        "point": "95%的企业AI投资零回报，做减法行不通",
-        "episodeId": "https://perilcrosser.com/?p=243"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "企业客户对AI模型公司的信任已崩塌",
-        "episodeId": "6a551c05ca0de6c44ae69557"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-07-15T06:06:00.379218+08:00",
-    "updatedAt": "2026-07-15T06:06:00.379218+08:00"
-  },
-  {
-    "title": "AI时代如何保持创作的真实感？",
-    "domainTag": "创造力与表达",
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI生成内容泛滥，真实感和真人视角更稀缺",
-        "episodeId": "6a5473931e32575f5eb58f0a"
-      },
-      {
-        "podcast": "十分吸引",
-        "point": "AI腔不美，因为每个起承转合都套着模板",
-        "episodeId": "6a50bf8a1e32575f5eb453cd"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-07-15T06:06:00.379218+08:00",
-    "updatedAt": "2026-07-15T06:06:00.379218+08:00"
-  },
-  {
-    "title": "AI时代如何培养品味和判断力？",
-    "domainTag": "认知与创造力",
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI让做东西变容易，品味成为最稀缺资源",
-        "episodeId": "6a43a9699d2f574368405276"
-      },
-      {
-        "podcast": "十分吸引",
-        "point": "AI生成内容越廉价，审美力和判断力越稀缺",
-        "episodeId": "6a50bf8a1e32575f5eb453cd"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-07-14T06:02:52.854822+08:00",
-    "updatedAt": "2026-07-14T06:02:52.854822+08:00"
-  },
-  {
-    "title": "AI时代如何保护个人记忆？",
-    "domainTag": "AI与隐私",
-    "consensus": [
-      {
-        "podcast": "What's Next｜科技早知道",
-        "point": "大模型做记忆有天花板，无法精确定位事实记忆",
-        "episodeId": "a70c41aa-41ae-488d-a6e2-63c3de5b9ec3"
-      },
-      {
-        "podcast": "Peril Crosser 渡厄",
-        "point": "Claude Code在本地埋下时区嗅探和隐写术，用户数据被",
-        "episodeId": "https://perilcrosser.com/?p=264"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-07-13T05:58:34.381241+08:00",
-    "updatedAt": "2026-07-13T05:58:34.381241+08:00"
-  },
-  {
-    "title": "AI时代如何保持独立思考？",
-    "domainTag": "认知与创造力",
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "成为二手思考者代价高昂，需警惕算法同化",
-        "episodeId": "6a4034262e335a35a80a5f75"
-      },
-      {
-        "podcast": "跨域请求",
-        "point": "AI同化让人用AI术语理解自己，需反向输出",
-        "episodeId": "6a42ca2b2e335a35a80b6f42"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI写作可能摧毁思考能力，好的写作是好的思考产物",
-        "episodeId": "6a4f1b653fb7233cbf461824"
-      },
-      {
-        "podcast": "跨域请求",
-        "point": "人开始用AI的词和结构理解自己，可能被同化而不自知",
-        "episodeId": "6a42ca2b2e335a35a80b6f42"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-07-05T06:05:08.060576+08:00",
-    "updatedAt": "2026-07-13T05:58:34.381241+08:00"
   }
 ]
