@@ -1,5 +1,26 @@
 [
   {
+    "episodeId": "6a9070f7ef65145dfcc683dc",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#690.DHH 狂热转型：手写代码已死，Agent 时代人类只剩品味与愿景",
+    "generatedAt": "2026-08-28T11:40:02.929578+08:00",
+    "fingerprint": "6a9070f7ef65145dfcc683dc"
+  },
+  {
+    "episodeId": "6a8f27b81352af56ff3c98a0",
+    "podcastName": "about热水频道",
+    "episodeTitle": "越剧，如何成为女性改变命运的一条路？｜101越剧",
+    "generatedAt": "2026-08-28T11:40:02.929578+08:00",
+    "fingerprint": "6a8f27b81352af56ff3c98a0"
+  },
+  {
+    "episodeId": "6a8f2c2def65145dfcc5f5ab",
+    "podcastName": "搞钱女孩",
+    "episodeTitle": "对话徐沪生：“一条”创始人30年内容心法，教你做又美又爆的IP号！",
+    "generatedAt": "2026-08-28T11:40:02.929578+08:00",
+    "fingerprint": "6a8f2c2def65145dfcc5f5ab"
+  },
+  {
     "episodeId": "6a8ed9061352af56ff3c777c",
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#689.Dylan Patel：2028 年两家 AI 实验室如何吞下全球算力，并把世界推向高利率时代",
@@ -187,26 +208,5 @@
     "episodeTitle": "E239｜SpaceX要让太空算力从科幻走向现实，但它划算吗？",
     "generatedAt": "2026-06-14T00:00:00+08:00",
     "fingerprint": "259291f5-2715-4dde-bcfe-b5beb4df5793"
-  },
-  {
-    "episodeId": "6a2d01304233e62bc54917e4",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#583. Bill Gurley：如何建立系统判断力，AI 泡沫与资本狂热下的认知突围",
-    "generatedAt": "2026-06-13T00:00:00+08:00",
-    "fingerprint": "6a2d01304233e62bc54917e4"
-  },
-  {
-    "episodeId": "259291f5-2715-4dde-bcfe-b5beb4df5793",
-    "podcastName": "硅谷101",
-    "episodeTitle": "E239｜SpaceX要让太空算力从科幻走向现实，但它划算吗？",
-    "generatedAt": "2026-06-13T00:00:00+08:00",
-    "fingerprint": "259291f5-2715-4dde-bcfe-b5beb4df5793"
-  },
-  {
-    "episodeId": "6a242507b30e1571aea1b88d",
-    "podcastName": "十分吸引",
-    "episodeTitle": "Vol.70 亢奋的韩国：AI芯片、K-Pop与K型社会",
-    "generatedAt": "2026-06-13T00:00:00+08:00",
-    "fingerprint": "6a242507b30e1571aea1b88d"
   }
 ]
