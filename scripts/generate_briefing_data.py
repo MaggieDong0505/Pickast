@@ -1666,10 +1666,13 @@ def episode_ai_prompt(item: ScoredEpisode, suggested_triage: str) -> str:
 
 
 def fallback_card_without_ai(card: dict) -> dict:
-    card["whyRecommended"] = ""
-    card["viewpoints"] = []
-    card["goldenQuotes"] = []
-    card["triageTag"] = ""
+    description = str(card.get("description") or "")
+    lead = first_informative_lines(description, limit=1)
+    snippet = lead[0][:20].rstrip("，。,；：") if lead else "本期核心内容"
+    card["whyRecommended"] = f"聚焦{snippet}，适合想快速判断这期是否值得听的人。"
+    card["viewpoints"] = first_informative_lines(description, limit=3)
+    card["goldenQuotes"] = local_golden_quotes(description)
+    card["triageTag"] = "🚶边走边听｜主线清楚好进入"
     return card
 
 
@@ -1694,8 +1697,8 @@ def local_why_recommended(item: ScoredEpisode) -> str:
     domain = item.domain
     lead = first_informative_lines(item.episode.description, limit=1)
     if lead:
-        snippet = lead[0][:28].rstrip("，。,；：")
-        return f"适合想快速判断{domain}议题值不值得听的人，重点会落在{snippet}。"
+        snippet = lead[0][:18].rstrip("，。,；：")
+        return f"聚焦{snippet}，适合想快速判断这期{domain}内容是否值得听的人。"
     return f"适合想快速了解{domain}方向近况的听众。"
 
 
@@ -1822,8 +1825,7 @@ def build_card_for_item(item: ScoredEpisode, env: dict[str, str], timeout: int, 
     suggested_triage = base_triage_label(item)
 
     if not env.get("DEEPSEEK_API_KEY"):
-        fallback_card_without_ai(card)
-        return card
+        return build_local_card(item, scenario_index=scenario_index)
 
     print(f"[AI] Curating {item.episode.podcast_name} - {item.episode.episode_title}", flush=True)
     ai_data = deepseek_json(
@@ -2403,6 +2405,10 @@ def main() -> int:
         print("\nSkipped feed details:")
         for failure in failures:
             print(f"- {failure}")
+
+    if not briefing_valid or not ranking_valid or not explore_valid:
+        print("Generation failed schema validation; no deployment should proceed.", file=sys.stderr)
+        return 1
 
     return 0
 

@@ -1053,6 +1053,10 @@ export default function App() {
             outline: none !important;
             box-shadow: none !important;
           }
+          *:focus-visible {
+            outline: 2px solid #D14A28 !important;
+            outline-offset: 2px !important;
+          }
           a, button {
             -webkit-tap-highlight-color: transparent !important;
             outline: none !important;

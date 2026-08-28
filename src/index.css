@@ -200,7 +200,7 @@
 @media (max-height: 720px) {
   .episode-card {
     gap: 5px;
-    max-height: calc(100svh - 268px);
+    max-height: calc(100svh - 248px);
     padding-bottom: 8px;
   }
 
