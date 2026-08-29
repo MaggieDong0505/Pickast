@@ -1,5 +1,26 @@
 [
   {
+    "episodeId": "6a91ea6aa0210c197dc9d9ec",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#692.Neil Movva：把 AI 推理成本降 10 倍，智能充裕时代如何绕开芯片与电力瓶颈",
+    "generatedAt": "2026-08-29T11:07:57.165652+08:00",
+    "fingerprint": "6a91ea6aa0210c197dc9d9ec"
+  },
+  {
+    "episodeId": "6a91488cf03e74ee6b013747",
+    "podcastName": "富女之友",
+    "episodeTitle": "Vol15.听康复医生拆解普通人如何正确运动！99%人不知道的吃练秘籍",
+    "generatedAt": "2026-08-29T11:07:57.165652+08:00",
+    "fingerprint": "6a91488cf03e74ee6b013747"
+  },
+  {
+    "episodeId": "6a8efed81352af56ff3c8ccf",
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "外卖成为海底捞增长最快的业务，乐高表示不会用 AI 来设计产品",
+    "generatedAt": "2026-08-29T11:07:57.165652+08:00",
+    "fingerprint": "6a8efed81352af56ff3c8ccf"
+  },
+  {
     "episodeId": "6a8d8efcef65145dfcc53adc",
     "podcastName": "贝望录",
     "episodeTitle": "236. 一个中国舞团第一次“出海”爱丁堡，如何在4600多场演出中被看见？",
@@ -187,26 +208,5 @@
     "episodeTitle": "Vol.71 当AI成为新基础设施，财富将如何重新分配？｜串台：听懂涨声",
     "generatedAt": "2026-06-16T00:00:00+08:00",
     "fingerprint": "6a2e69284233e62bc5499160"
-  },
-  {
-    "episodeId": "6a2e69284233e62bc5499160",
-    "podcastName": "十分吸引",
-    "episodeTitle": "Vol.71 当AI成为新基础设施，财富将如何重新分配？｜串台：听懂涨声",
-    "generatedAt": "2026-06-15T00:00:00+08:00",
-    "fingerprint": "6a2e69284233e62bc5499160"
-  },
-  {
-    "episodeId": "6a2a808262c3d8534722ac02",
-    "podcastName": "42章经",
-    "episodeTitle": "泡沫的四个必要不充分条件 | 对谈经济学者朱宁教授",
-    "generatedAt": "2026-06-15T00:00:00+08:00",
-    "fingerprint": "6a2a808262c3d8534722ac02"
-  },
-  {
-    "episodeId": "6a2ea7064233e62bc549afed",
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "电商女装退货率居高不下，为什么不能只怪「七天无理由退货」？",
-    "generatedAt": "2026-06-15T00:00:00+08:00",
-    "fingerprint": "6a2ea7064233e62bc549afed"
   }
 ]
