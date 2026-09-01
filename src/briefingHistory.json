@@ -1,5 +1,26 @@
 [
   {
+    "episodeId": "6a969582f03e74ee6b03456a",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#699.Gavin Baker：AI 需求远未见顶，算力短缺将如何重塑全球产业",
+    "generatedAt": "2026-09-02T07:13:44.157243+08:00",
+    "fingerprint": "6a969582f03e74ee6b03456a"
+  },
+  {
+    "episodeId": "6a92a055f03e74ee6b01aaa7",
+    "podcastName": "整点亮话",
+    "episodeTitle": "78 杨爸咖啡馆|杨悦卿：一个中国汽车人的情怀与匠心",
+    "generatedAt": "2026-09-02T07:13:44.157243+08:00",
+    "fingerprint": "6a92a055f03e74ee6b01aaa7"
+  },
+  {
+    "episodeId": "6a9409e3a0210c197dca7e05",
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "难以影响购票决策的飞机餐，为何成为航司升级重点？",
+    "generatedAt": "2026-09-02T07:13:44.157243+08:00",
+    "fingerprint": "6a9409e3a0210c197dca7e05"
+  },
+  {
     "episodeId": "6a9521b8a0210c197dcaee59",
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#697.ChatGPT Work产品经理：AI 同事正在接管执行，你的职业价值只剩下野心与判断力？",
@@ -187,26 +208,5 @@
     "episodeTitle": "#588.成功所需的心态框架与每日具体行动",
     "generatedAt": "2026-06-20T00:00:00+08:00",
     "fingerprint": "6a339d5143a22a695585d897"
-  },
-  {
-    "episodeId": "6a2faf024233e62bc54a23d0",
-    "podcastName": "贝望录",
-    "episodeTitle": "226. 世界杯凭什么越办越贵？从一场球赛到千亿生意，是谁在掌控足球世界",
-    "generatedAt": "2026-06-19T00:00:00+08:00",
-    "fingerprint": "6a2faf024233e62bc54a23d0"
-  },
-  {
-    "episodeId": "47b7778e-1ed6-4dab-b7c9-8b4a6555b867",
-    "podcastName": "硅谷101",
-    "episodeTitle": "E240｜OpenAI联手PE砸下40亿美元，聊聊硅谷最火新职位FDE",
-    "generatedAt": "2026-06-19T00:00:00+08:00",
-    "fingerprint": "47b7778e-1ed6-4dab-b7c9-8b4a6555b867"
-  },
-  {
-    "episodeId": "6a3442974233e62bc54c2b54",
-    "podcastName": "跨域请求",
-    "episodeTitle": "14.⚽️世界杯特辑 - 由误判驱动的技术进步史",
-    "generatedAt": "2026-06-19T00:00:00+08:00",
-    "fingerprint": "6a3442974233e62bc54c2b54"
   }
 ]
