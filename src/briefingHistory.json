@@ -1,5 +1,26 @@
 [
   {
+    "episodeId": "6a9521b8a0210c197dcaee59",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#697.ChatGPT Work产品经理：AI 同事正在接管执行，你的职业价值只剩下野心与判断力？",
+    "generatedAt": "2026-09-01T08:31:48.606391+08:00",
+    "fingerprint": "6a9521b8a0210c197dcaee59"
+  },
+  {
+    "episodeId": "6a943a66a0210c197dca9607",
+    "podcastName": "十分吸引",
+    "episodeTitle": "EP.01 黄金、美债与凯文・沃什",
+    "generatedAt": "2026-09-01T08:31:48.606391+08:00",
+    "fingerprint": "6a943a66a0210c197dca9607"
+  },
+  {
+    "episodeId": "6a942fbdf03e74ee6b022bc9",
+    "podcastName": "那里的城",
+    "episodeTitle": "24.佛山｜武术之外，佛山还有什么？",
+    "generatedAt": "2026-09-01T08:31:48.606391+08:00",
+    "fingerprint": "6a942fbdf03e74ee6b022bc9"
+  },
+  {
     "episodeId": "6a931643a0210c197dca3d2e",
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#695.Stripe CEO：AI 时代别只怕失败，更要提前想清楚“成功以后怎么办”",
@@ -187,26 +208,5 @@
     "episodeTitle": "14.⚽️世界杯特辑 - 由误判驱动的技术进步史",
     "generatedAt": "2026-06-19T00:00:00+08:00",
     "fingerprint": "6a3442974233e62bc54c2b54"
-  },
-  {
-    "episodeId": "6a311e554233e62bc54ad7c9",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#586.All-in：Anthropic 的Fable风波、AI 国有化、通胀升温与加州选举乱象",
-    "generatedAt": "2026-06-18T00:00:00+08:00",
-    "fingerprint": "6a311e554233e62bc54ad7c9"
-  },
-  {
-    "episodeId": "6a2faf024233e62bc54a23d0",
-    "podcastName": "贝望录",
-    "episodeTitle": "226. 世界杯凭什么越办越贵？从一场球赛到千亿生意，是谁在掌控足球世界",
-    "generatedAt": "2026-06-18T00:00:00+08:00",
-    "fingerprint": "6a2faf024233e62bc54a23d0"
-  },
-  {
-    "episodeId": "8c95b3dc-d75a-4bdd-84d4-2c06fd2d85b1",
-    "podcastName": "What's Next｜科技早知道",
-    "episodeTitle": "真正改变世界的技术，为什么一开始都不被看好？| S10E16",
-    "generatedAt": "2026-06-18T00:00:00+08:00",
-    "fingerprint": "8c95b3dc-d75a-4bdd-84d4-2c06fd2d85b1"
   }
 ]
