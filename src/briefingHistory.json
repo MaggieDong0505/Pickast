@@ -1,5 +1,26 @@
 [
   {
+    "episodeId": "6a9d3bbff03e74ee6b05e1fe",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#708.波兰科幻巨擘Jacek Dukaj：技术进步、人类天性与人工智能的未来",
+    "generatedAt": "2026-09-08T07:25:27.557390+08:00",
+    "fingerprint": "6a9d3bbff03e74ee6b05e1fe"
+  },
+  {
+    "episodeId": "6a9da18ff03e74ee6b061083",
+    "podcastName": "整点亮话",
+    "episodeTitle": "79 如果没了工作，人生就完了？—我们为什么把整副身家押在了“上班”上",
+    "generatedAt": "2026-09-08T07:25:27.557390+08:00",
+    "fingerprint": "6a9da18ff03e74ee6b061083"
+  },
+  {
+    "episodeId": "https://perilcrosser.com/?p=283",
+    "podcastName": "Peril Crosser 渡厄",
+    "episodeTitle": "EP61: 肉搏与算计：聊聊互联网大厂与资本局里的《非对称风险》",
+    "generatedAt": "2026-09-08T07:25:27.557390+08:00",
+    "fingerprint": "https://perilcrosser.com/?p=283"
+  },
+  {
     "episodeId": "6a9d92d0f03e74ee6b060d1d",
     "podcastName": "时雨集",
     "episodeTitle": "古巴的至暗时刻：断油断电断粮，大国弃子，何去何从？",
@@ -187,26 +208,5 @@
     "episodeTitle": "我不再抵抗无聊，我滑向它",
     "generatedAt": "2026-08-30T07:12:44.792213+08:00",
     "fingerprint": "6a915adaf03e74ee6b0145ec"
-  },
-  {
-    "episodeId": "6a91ea6aa0210c197dc9d9ec",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#692.Neil Movva：把 AI 推理成本降 10 倍，智能充裕时代如何绕开芯片与电力瓶颈",
-    "generatedAt": "2026-08-29T11:07:57.165652+08:00",
-    "fingerprint": "6a91ea6aa0210c197dc9d9ec"
-  },
-  {
-    "episodeId": "6a91488cf03e74ee6b013747",
-    "podcastName": "富女之友",
-    "episodeTitle": "Vol15.听康复医生拆解普通人如何正确运动！99%人不知道的吃练秘籍",
-    "generatedAt": "2026-08-29T11:07:57.165652+08:00",
-    "fingerprint": "6a91488cf03e74ee6b013747"
-  },
-  {
-    "episodeId": "6a8efed81352af56ff3c8ccf",
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "外卖成为海底捞增长最快的业务，乐高表示不会用 AI 来设计产品",
-    "generatedAt": "2026-08-29T11:07:57.165652+08:00",
-    "fingerprint": "6a8efed81352af56ff3c8ccf"
   }
 ]
