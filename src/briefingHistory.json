@@ -1,5 +1,26 @@
 [
   {
+    "episodeId": "6a9e915ca0210c197dceeac1",
+    "podcastName": "跨域请求",
+    "episodeTitle": "19.💻程序员天花板 Jeff Dean 离职创业：人形谷歌技术史",
+    "generatedAt": "2026-09-09T07:18:05.780068+08:00",
+    "fingerprint": "6a9e915ca0210c197dceeac1"
+  },
+  {
+    "episodeId": "6a9f839da0210c197dcf441e",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#711.Lenny 对话 a16z 合伙人：公司会变成一系列闭环",
+    "generatedAt": "2026-09-09T07:18:05.780068+08:00",
+    "fingerprint": "6a9f839da0210c197dcf441e"
+  },
+  {
+    "episodeId": "6a9f0401f03e74ee6b06b139",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#709.All-in：GPT-6 达到 AGI？科技热潮 2.0、纽约市禁止学校使用 AI",
+    "generatedAt": "2026-09-09T07:18:05.780068+08:00",
+    "fingerprint": "6a9f0401f03e74ee6b06b139"
+  },
+  {
     "episodeId": "6a9d3bbff03e74ee6b05e1fe",
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#708.波兰科幻巨擘Jacek Dukaj：技术进步、人类天性与人工智能的未来",
@@ -187,26 +208,5 @@
     "episodeTitle": "孙宇晨的国产浪漫💗",
     "generatedAt": "2026-08-31T07:22:23.604523+08:00",
     "fingerprint": "6a91a6c0f03e74ee6b016921"
-  },
-  {
-    "episodeId": "6a927dd1a0210c197dca01cc",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#694.All-In：AI 狂潮、美国债务与癌症治疗，谁会成为下一个系统性赢家？",
-    "generatedAt": "2026-08-30T07:12:44.792213+08:00",
-    "fingerprint": "6a927dd1a0210c197dca01cc"
-  },
-  {
-    "episodeId": "6a8eb50eef65145dfcc5c072",
-    "podcastName": "纵横四海",
-    "episodeTitle": "EP86 颠覆工作流，效率提升3000%",
-    "generatedAt": "2026-08-30T07:12:44.792213+08:00",
-    "fingerprint": "6a8eb50eef65145dfcc5c072"
-  },
-  {
-    "episodeId": "6a915adaf03e74ee6b0145ec",
-    "podcastName": "其他垃圾",
-    "episodeTitle": "我不再抵抗无聊，我滑向它",
-    "generatedAt": "2026-08-30T07:12:44.792213+08:00",
-    "fingerprint": "6a915adaf03e74ee6b0145ec"
   }
 ]
