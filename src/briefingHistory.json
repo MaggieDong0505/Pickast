@@ -1,5 +1,26 @@
 [
   {
+    "episodeId": "b59d5e79-65af-4a1a-ac50-b54e665474ad",
+    "podcastName": "What's Next｜科技早知道",
+    "episodeTitle": "AI for Science 爆发：AI 能解锁伟大的科学发现吗？ | S10E29",
+    "generatedAt": "2026-09-11T07:03:58.488287+08:00",
+    "fingerprint": "b59d5e79-65af-4a1a-ac50-b54e665474ad"
+  },
+  {
+    "episodeId": "6aa2814f9d32647781671622",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#715.a16z x 李飞飞：新视角预测通向空间智能",
+    "generatedAt": "2026-09-11T07:03:58.488287+08:00",
+    "fingerprint": "6aa2814f9d32647781671622"
+  },
+  {
+    "episodeId": "6aa01491f03e74ee6b0730ef",
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "猪肉价格经历漫长下跌，为什么「猪周期」不再遵循老节奏？",
+    "generatedAt": "2026-09-11T07:03:58.488287+08:00",
+    "fingerprint": "6aa01491f03e74ee6b0730ef"
+  },
+  {
     "episodeId": "6aa1a08d9d3264778166b832",
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#714.Tibo 谈 Codex：harness 总比模型快一步",
@@ -187,26 +208,5 @@
     "episodeTitle": "难以影响购票决策的飞机餐，为何成为航司升级重点？",
     "generatedAt": "2026-09-02T07:13:44.157243+08:00",
     "fingerprint": "6a9409e3a0210c197dca7e05"
-  },
-  {
-    "episodeId": "6a9521b8a0210c197dcaee59",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#697.ChatGPT Work产品经理：AI 同事正在接管执行，你的职业价值只剩下野心与判断力？",
-    "generatedAt": "2026-09-01T08:31:48.606391+08:00",
-    "fingerprint": "6a9521b8a0210c197dcaee59"
-  },
-  {
-    "episodeId": "6a943a66a0210c197dca9607",
-    "podcastName": "十分吸引",
-    "episodeTitle": "EP.01 黄金、美债与凯文・沃什",
-    "generatedAt": "2026-09-01T08:31:48.606391+08:00",
-    "fingerprint": "6a943a66a0210c197dca9607"
-  },
-  {
-    "episodeId": "6a942fbdf03e74ee6b022bc9",
-    "podcastName": "那里的城",
-    "episodeTitle": "24.佛山｜武术之外，佛山还有什么？",
-    "generatedAt": "2026-09-01T08:31:48.606391+08:00",
-    "fingerprint": "6a942fbdf03e74ee6b022bc9"
   }
 ]
