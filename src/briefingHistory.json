@@ -1,5 +1,26 @@
 [
   {
+    "episodeId": "6aa6adcc9d3264778168765d",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#720.构建 AI 科学家，除了智能之外究竟还需要什么",
+    "generatedAt": "2026-09-14T07:04:41.442680+08:00",
+    "fingerprint": "6aa6adcc9d3264778168765d"
+  },
+  {
+    "episodeId": "6aa2968c9d32647781671fbb",
+    "podcastName": "十分吸引",
+    "episodeTitle": "EP.02 中国走出通缩了吗？",
+    "generatedAt": "2026-09-14T07:04:41.442680+08:00",
+    "fingerprint": "6aa2968c9d32647781671fbb"
+  },
+  {
+    "episodeId": "6aa68350492687f6aad92ca7",
+    "podcastName": "颜如玉|医美 A to Z",
+    "episodeTitle": "EP35｜胶原水光到底在“补”什么？从材料到打法一次讲清",
+    "generatedAt": "2026-09-14T07:04:41.442680+08:00",
+    "fingerprint": "6aa68350492687f6aad92ca7"
+  },
+  {
     "episodeId": "6aa56b809d32647781681ac0",
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#718. RSI：人工智能研究人员就当前范式能走多远展开辩论",
@@ -187,26 +208,5 @@
     "episodeTitle": "153. 和曾鸣聊产业史观：残酷的真相、会消亡的公司、优秀≠卓越、“OAI、Anth大概率不是原生时代大赢家”",
     "generatedAt": "2026-09-05T06:57:39.071391+08:00",
     "fingerprint": "6a97f287f03e74ee6b03ea5b"
-  },
-  {
-    "episodeId": "6a99cf7cf03e74ee6b04b98c",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#703.当 AI Agent 开始结盟、作弊与自我扩散，我们还来得及控制吗？",
-    "generatedAt": "2026-09-04T07:11:39.710899+08:00",
-    "fingerprint": "6a99cf7cf03e74ee6b04b98c"
-  },
-  {
-    "episodeId": "6a97a9daa0210c197dcc1ba0",
-    "podcastName": "十字路口Crossing",
-    "episodeTitle": "对卷卷的3小时访谈：从抖音到AI 3D、创业的过山车、成为制造业OS的野心、基础模型不会吞噬一切！",
-    "generatedAt": "2026-09-04T07:11:39.710899+08:00",
-    "fingerprint": "6a97a9daa0210c197dcc1ba0"
-  },
-  {
-    "episodeId": "6a9886a6a0210c197dcc8760",
-    "podcastName": "about热水频道",
-    "episodeTitle": "古代法医究竟是怎么破案的？｜102宋慈",
-    "generatedAt": "2026-09-04T07:11:39.710899+08:00",
-    "fingerprint": "6a9886a6a0210c197dcc8760"
   }
 ]
