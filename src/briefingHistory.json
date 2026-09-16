@@ -1,5 +1,26 @@
 [
   {
+    "episodeId": "786d63c4-d46c-4ff3-80f8-fc895b2a57f0",
+    "podcastName": "硅谷101",
+    "episodeTitle": "E251｜推理芯片之战：聊聊Groq、Cerebras与OpenAI三大路径与Bill Dally的设计哲学",
+    "generatedAt": "2026-09-17T07:36:54.354985+08:00",
+    "fingerprint": "786d63c4-d46c-4ff3-80f8-fc895b2a57f0"
+  },
+  {
+    "episodeId": "6aaae0289d326477816a478d",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#727.Shopify CEO：如何运用一个 AI 顾问团来审视最棘手的决策",
+    "generatedAt": "2026-09-17T07:36:54.354985+08:00",
+    "fingerprint": "6aaae0289d326477816a478d"
+  },
+  {
+    "episodeId": "6aa8f7a49d32647781697459",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#724.家得宝：把普通人变成建造者",
+    "generatedAt": "2026-09-17T07:36:54.354985+08:00",
+    "fingerprint": "6aa8f7a49d32647781697459"
+  },
+  {
     "episodeId": "6aa8daa09d32647781695e39",
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#722. OpenAI 研究员Norm Brown：Agent 将继续快速变强",
@@ -187,26 +208,5 @@
     "episodeTitle": "EP61: 肉搏与算计：聊聊互联网大厂与资本局里的《非对称风险》",
     "generatedAt": "2026-09-08T07:25:27.557390+08:00",
     "fingerprint": "https://perilcrosser.com/?p=283"
-  },
-  {
-    "episodeId": "6a9d92d0f03e74ee6b060d1d",
-    "podcastName": "时雨集",
-    "episodeTitle": "古巴的至暗时刻：断油断电断粮，大国弃子，何去何从？",
-    "generatedAt": "2026-09-07T06:51:04.147506+08:00",
-    "fingerprint": "6a9d92d0f03e74ee6b060d1d"
-  },
-  {
-    "episodeId": "6a9abd3df03e74ee6b052a28",
-    "podcastName": "十字路口Crossing",
-    "episodeTitle": "她被骗过、被救过、被捧上神坛过、被疼痛击倒过，决定在AI时代继续冒险｜对谈陈安妮",
-    "generatedAt": "2026-09-07T06:51:04.147506+08:00",
-    "fingerprint": "6a9abd3df03e74ee6b052a28"
-  },
-  {
-    "episodeId": "6a9c2b20a0210c197dcdff92",
-    "podcastName": "颜如玉|医美 A to Z",
-    "episodeTitle": "EP34｜严蕾×付思祺：掉头发怎么办？防脱洗发水、生发针、米诺地尔、植发，到底该选哪个？",
-    "generatedAt": "2026-09-07T06:51:04.147506+08:00",
-    "fingerprint": "6a9c2b20a0210c197dcdff92"
   }
 ]
