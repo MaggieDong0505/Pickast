@@ -1,5 +1,26 @@
 [
   {
+    "episodeId": "6aaa9f039d326477816a3488",
+    "podcastName": "十字路口Crossing",
+    "episodeTitle": "于是转身向具身走去｜对话王家伟：24 岁的具身智能首席科学家",
+    "generatedAt": "2026-09-18T07:29:28.439905+08:00",
+    "fingerprint": "6aaa9f039d326477816a3488"
+  },
+  {
+    "episodeId": "6aaacf639d326477816a4612",
+    "podcastName": "搞钱女孩",
+    "episodeTitle": "35+不中危！职业转型、现金流、健康，人生风险管理指南 | 上海听友会",
+    "generatedAt": "2026-09-18T07:29:28.439905+08:00",
+    "fingerprint": "6aaacf639d326477816a4612"
+  },
+  {
+    "episodeId": "6aa9329c051af796b9e8a2dc",
+    "podcastName": "乱翻书",
+    "episodeTitle": "274.从全面屏到中折叠，小米的高端化这次找对路了吗？",
+    "generatedAt": "2026-09-18T07:29:28.439905+08:00",
+    "fingerprint": "6aa9329c051af796b9e8a2dc"
+  },
+  {
     "episodeId": "786d63c4-d46c-4ff3-80f8-fc895b2a57f0",
     "podcastName": "硅谷101",
     "episodeTitle": "E251｜推理芯片之战：聊聊Groq、Cerebras与OpenAI三大路径与Bill Dally的设计哲学",
@@ -187,26 +208,5 @@
     "episodeTitle": "#709.All-in：GPT-6 达到 AGI？科技热潮 2.0、纽约市禁止学校使用 AI",
     "generatedAt": "2026-09-09T07:18:05.780068+08:00",
     "fingerprint": "6a9f0401f03e74ee6b06b139"
-  },
-  {
-    "episodeId": "6a9d3bbff03e74ee6b05e1fe",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#708.波兰科幻巨擘Jacek Dukaj：技术进步、人类天性与人工智能的未来",
-    "generatedAt": "2026-09-08T07:25:27.557390+08:00",
-    "fingerprint": "6a9d3bbff03e74ee6b05e1fe"
-  },
-  {
-    "episodeId": "6a9da18ff03e74ee6b061083",
-    "podcastName": "整点亮话",
-    "episodeTitle": "79 如果没了工作，人生就完了？—我们为什么把整副身家押在了“上班”上",
-    "generatedAt": "2026-09-08T07:25:27.557390+08:00",
-    "fingerprint": "6a9da18ff03e74ee6b061083"
-  },
-  {
-    "episodeId": "https://perilcrosser.com/?p=283",
-    "podcastName": "Peril Crosser 渡厄",
-    "episodeTitle": "EP61: 肉搏与算计：聊聊互联网大厂与资本局里的《非对称风险》",
-    "generatedAt": "2026-09-08T07:25:27.557390+08:00",
-    "fingerprint": "https://perilcrosser.com/?p=283"
   }
 ]
