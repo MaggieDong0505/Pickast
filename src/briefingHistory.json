@@ -1,5 +1,26 @@
 [
   {
+    "episodeId": "f98c4370-6653-4af3-9a43-386bf0ea0547",
+    "podcastName": "What's Next｜科技早知道",
+    "episodeTitle": "Snap 做了十年眼镜，终于等到它的时代了吗？| S10E30",
+    "generatedAt": "2026-09-19T07:11:24.940494+08:00",
+    "fingerprint": "f98c4370-6653-4af3-9a43-386bf0ea0547"
+  },
+  {
+    "episodeId": "6aacc332051af796b9ea063d",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#729.OpenAI：多 Agent 让 RSI 更可行",
+    "generatedAt": "2026-09-19T07:11:24.940494+08:00",
+    "fingerprint": "6aacc332051af796b9ea063d"
+  },
+  {
+    "episodeId": "6aaa9890051af796b9e93c72",
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "图拉斯｜苹果成今年艾美奖的最大赢家，携程二季度由盈转亏",
+    "generatedAt": "2026-09-19T07:11:24.940494+08:00",
+    "fingerprint": "6aaa9890051af796b9e93c72"
+  },
+  {
     "episodeId": "6aaa9f039d326477816a3488",
     "podcastName": "十字路口Crossing",
     "episodeTitle": "于是转身向具身走去｜对话王家伟：24 岁的具身智能首席科学家",
@@ -187,26 +208,5 @@
     "episodeTitle": "怡宝纯净水份额下滑，安踏旗下瑜伽服品牌开设健身房",
     "generatedAt": "2026-09-10T07:08:16.145419+08:00",
     "fingerprint": "6a9ec764f03e74ee6b069cc2"
-  },
-  {
-    "episodeId": "6a9e915ca0210c197dceeac1",
-    "podcastName": "跨域请求",
-    "episodeTitle": "19.💻程序员天花板 Jeff Dean 离职创业：人形谷歌技术史",
-    "generatedAt": "2026-09-09T07:18:05.780068+08:00",
-    "fingerprint": "6a9e915ca0210c197dceeac1"
-  },
-  {
-    "episodeId": "6a9f839da0210c197dcf441e",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#711.Lenny 对话 a16z 合伙人：公司会变成一系列闭环",
-    "generatedAt": "2026-09-09T07:18:05.780068+08:00",
-    "fingerprint": "6a9f839da0210c197dcf441e"
-  },
-  {
-    "episodeId": "6a9f0401f03e74ee6b06b139",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#709.All-in：GPT-6 达到 AGI？科技热潮 2.0、纽约市禁止学校使用 AI",
-    "generatedAt": "2026-09-09T07:18:05.780068+08:00",
-    "fingerprint": "6a9f0401f03e74ee6b06b139"
   }
 ]
