@@ -1,5 +1,26 @@
 [
   {
+    "episodeId": "6aab7810051af796b9e98353",
+    "podcastName": "贝望录",
+    "episodeTitle": "238. 特斯拉之后，汽车行业改变的不是动力，而是一整套游戏规则丨串台「Freda下午茶」",
+    "generatedAt": "2026-09-20T06:52:16.206753+08:00",
+    "fingerprint": "6aab7810051af796b9e98353"
+  },
+  {
+    "episodeId": "78ec2d74-0ad7-4c6f-9764-728eec0e6e87",
+    "podcastName": "硅谷101",
+    "episodeTitle": "外滩大会线下圆桌｜敢把钱包交给AI吗？聊聊Agent交易爆发前夜的信任基建",
+    "generatedAt": "2026-09-20T06:52:16.206753+08:00",
+    "fingerprint": "78ec2d74-0ad7-4c6f-9764-728eec0e6e87"
+  },
+  {
+    "episodeId": "6aabc0eb051af796b9e9aed7",
+    "podcastName": "贤者时间",
+    "episodeTitle": "我的前半生易如反掌，直到！",
+    "generatedAt": "2026-09-20T06:52:16.206753+08:00",
+    "fingerprint": "6aabc0eb051af796b9e9aed7"
+  },
+  {
     "episodeId": "f98c4370-6653-4af3-9a43-386bf0ea0547",
     "podcastName": "What's Next｜科技早知道",
     "episodeTitle": "Snap 做了十年眼镜，终于等到它的时代了吗？| S10E30",
@@ -187,26 +208,5 @@
     "episodeTitle": "猪肉价格经历漫长下跌，为什么「猪周期」不再遵循老节奏？",
     "generatedAt": "2026-09-11T07:03:58.488287+08:00",
     "fingerprint": "6aa01491f03e74ee6b0730ef"
-  },
-  {
-    "episodeId": "6aa1a08d9d3264778166b832",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#714.Tibo 谈 Codex：harness 总比模型快一步",
-    "generatedAt": "2026-09-10T07:08:16.145419+08:00",
-    "fingerprint": "6aa1a08d9d3264778166b832"
-  },
-  {
-    "episodeId": "6a9d8edaa0210c197dce7435",
-    "podcastName": "贝望录",
-    "episodeTitle": "237. 英伦奇葩说丨英国人的“准时”有多复杂？",
-    "generatedAt": "2026-09-10T07:08:16.145419+08:00",
-    "fingerprint": "6a9d8edaa0210c197dce7435"
-  },
-  {
-    "episodeId": "6a9ec764f03e74ee6b069cc2",
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "怡宝纯净水份额下滑，安踏旗下瑜伽服品牌开设健身房",
-    "generatedAt": "2026-09-10T07:08:16.145419+08:00",
-    "fingerprint": "6a9ec764f03e74ee6b069cc2"
   }
 ]
