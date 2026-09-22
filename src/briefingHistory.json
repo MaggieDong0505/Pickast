@@ -1,5 +1,26 @@
 [
   {
+    "episodeId": "6ab235ed93d5eb3bdc7936fb",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#735. Jev 模型创始人访谈：为什么我无法在 OpenAI 构建 Jev",
+    "generatedAt": "2026-09-23T07:33:36.225922+08:00",
+    "fingerprint": "6ab235ed93d5eb3bdc7936fb"
+  },
+  {
+    "episodeId": "6ab0ef2ef04646b3a954e483",
+    "podcastName": "颜如玉|医美 A to Z",
+    "episodeTitle": "EP36｜20+件好物推荐！从防晒到救急，皮肤科医生的翻包日记！",
+    "generatedAt": "2026-09-23T07:33:36.225922+08:00",
+    "fingerprint": "6ab0ef2ef04646b3a954e483"
+  },
+  {
+    "episodeId": "6ab0ecd493d5eb3bdc78b46a",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#732.Lenny's Podcast｜Snapchat：增长来自核心产品",
+    "generatedAt": "2026-09-23T07:33:36.225922+08:00",
+    "fingerprint": "6ab0ecd493d5eb3bdc78b46a"
+  },
+  {
     "episodeId": "6ab029b7ac389df82734ebb6",
     "podcastName": "乱翻书",
     "episodeTitle": "275.AI办公的热闹还没散，个人Agent的战争已经开始｜拆解Town、Instinct、Grok Bot与Muse",
@@ -187,26 +208,5 @@
     "episodeTitle": "EP35｜胶原水光到底在“补”什么？从材料到打法一次讲清",
     "generatedAt": "2026-09-14T07:04:41.442680+08:00",
     "fingerprint": "6aa68350492687f6aad92ca7"
-  },
-  {
-    "episodeId": "6aa56b809d32647781681ac0",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#718. RSI：人工智能研究人员就当前范式能走多远展开辩论",
-    "generatedAt": "2026-09-13T06:56:37.831392+08:00",
-    "fingerprint": "6aa56b809d32647781681ac0"
-  },
-  {
-    "episodeId": "6aa28057492687f6aad7e181",
-    "podcastName": "诗梳风",
-    "episodeTitle": "EP28 动机、主题、熟能生巧：「二十世纪的乐器」课程复盘（上）· Case",
-    "generatedAt": "2026-09-13T06:56:37.831392+08:00",
-    "fingerprint": "6aa28057492687f6aad7e181"
-  },
-  {
-    "episodeId": "6aa1b2249d3264778166b9e4",
-    "podcastName": "搞钱女孩",
-    "episodeTitle": "大喜：家居博主靠 \"婆婆逼生二胎送别墅\" 爆火，如何用编剧思维快速起号？",
-    "generatedAt": "2026-09-13T06:56:37.831392+08:00",
-    "fingerprint": "6aa1b2249d3264778166b9e4"
   }
 ]
