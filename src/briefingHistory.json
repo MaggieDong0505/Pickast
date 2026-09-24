@@ -1,5 +1,26 @@
 [
   {
+    "episodeId": "6ab4b804e742e36efcbab131",
+    "podcastName": "乱翻书",
+    "episodeTitle": "277.从提醒你，到替你办：Today想把Personal AI带到哪一步？",
+    "generatedAt": "2026-09-25T07:50:32.697020+08:00",
+    "fingerprint": "6ab4b804e742e36efcbab131"
+  },
+  {
+    "episodeId": "833a6b89-e6a1-4d61-a3b3-46f4d664894e",
+    "podcastName": "硅谷101",
+    "episodeTitle": "E252｜硅谷睡眠外挂：富人的玩具，还是预防医疗的入口？｜对话Eight Sleep创始人",
+    "generatedAt": "2026-09-25T07:50:32.697020+08:00",
+    "fingerprint": "833a6b89-e6a1-4d61-a3b3-46f4d664894e"
+  },
+  {
+    "episodeId": "6ab2833093d5eb3bdc795f6f",
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "一辆「小电驴」卖到三四千元，小牛、九号如何实现电动两轮车高端化？",
+    "generatedAt": "2026-09-25T07:50:32.697020+08:00",
+    "fingerprint": "6ab2833093d5eb3bdc795f6f"
+  },
+  {
     "episodeId": "6ab2546493d5eb3bdc794b18",
     "podcastName": "乱翻书",
     "episodeTitle": "276.当AI给出所有答案，年轻人如何找到自己的问题？",
@@ -187,26 +208,5 @@
     "episodeTitle": "图拉斯｜把校徽印上卫衣 T 恤，美国大学如何把授权校名做成一门生意？",
     "generatedAt": "2026-09-16T07:29:29.919399+08:00",
     "fingerprint": "6aa68fb49d326477816866e6"
-  },
-  {
-    "episodeId": "6aa75cef492687f6aad97139",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#721.All-In：AI 末日论正在变成监管工具",
-    "generatedAt": "2026-09-15T07:49:05.228822+08:00",
-    "fingerprint": "6aa75cef492687f6aad97139"
-  },
-  {
-    "episodeId": "6aa76141492687f6aad974bc",
-    "podcastName": "乱翻书",
-    "episodeTitle": "273.逛完外滩大会，发现蚂蚁找到了新位置",
-    "generatedAt": "2026-09-15T07:49:05.228822+08:00",
-    "fingerprint": "6aa76141492687f6aad974bc"
-  },
-  {
-    "episodeId": "6aa41d87492687f6aad88ee3",
-    "podcastName": "纵横四海",
-    "episodeTitle": "EP87《稀缺》：如何设计一个让自己变聪明的系统",
-    "generatedAt": "2026-09-15T07:49:05.228822+08:00",
-    "fingerprint": "6aa41d87492687f6aad88ee3"
   }
 ]
