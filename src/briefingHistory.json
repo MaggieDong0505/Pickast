@@ -1,5 +1,26 @@
 [
   {
+    "episodeId": "0a1dd0c4-a1f7-4f7c-b334-bd807ca72a5d",
+    "podcastName": "硅谷101",
+    "episodeTitle": "E253｜谁在给大模型出题、卖题、判卷？聊聊AI数据行业的野蛮生长",
+    "generatedAt": "2026-09-29T08:56:01.019442+08:00",
+    "fingerprint": "0a1dd0c4-a1f7-4f7c-b334-bd807ca72a5d"
+  },
+  {
+    "episodeId": "6ab8a23ce742e36efcbba3ef",
+    "podcastName": "整点亮话",
+    "episodeTitle": "82 请三天休十三天，请假难度赛美签",
+    "generatedAt": "2026-09-29T08:56:01.019442+08:00",
+    "fingerprint": "6ab8a23ce742e36efcbba3ef"
+  },
+  {
+    "episodeId": "66007bf4-d1b8-576c-836d-a49d15c5ffed",
+    "podcastName": "Peril Crosser 渡厄",
+    "episodeTitle": "EP64: 平庸之恶，从艾希曼审判到算法与劳务外包",
+    "generatedAt": "2026-09-29T08:56:01.019442+08:00",
+    "fingerprint": "66007bf4-d1b8-576c-836d-a49d15c5ffed"
+  },
+  {
     "episodeId": "6ab90f11195d838e2aeaac9f",
     "podcastName": "十分吸引",
     "episodeTitle": "EP.04 美元人民币汇率同涨真相：读懂全球金融新秩序",
@@ -187,26 +208,5 @@
     "episodeTitle": "我的前半生易如反掌，直到！",
     "generatedAt": "2026-09-20T06:52:16.206753+08:00",
     "fingerprint": "6aabc0eb051af796b9e9aed7"
-  },
-  {
-    "episodeId": "f98c4370-6653-4af3-9a43-386bf0ea0547",
-    "podcastName": "What's Next｜科技早知道",
-    "episodeTitle": "Snap 做了十年眼镜，终于等到它的时代了吗？| S10E30",
-    "generatedAt": "2026-09-19T07:11:24.940494+08:00",
-    "fingerprint": "f98c4370-6653-4af3-9a43-386bf0ea0547"
-  },
-  {
-    "episodeId": "6aacc332051af796b9ea063d",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#729.OpenAI：多 Agent 让 RSI 更可行",
-    "generatedAt": "2026-09-19T07:11:24.940494+08:00",
-    "fingerprint": "6aacc332051af796b9ea063d"
-  },
-  {
-    "episodeId": "6aaa9890051af796b9e93c72",
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "图拉斯｜苹果成今年艾美奖的最大赢家，携程二季度由盈转亏",
-    "generatedAt": "2026-09-19T07:11:24.940494+08:00",
-    "fingerprint": "6aaa9890051af796b9e93c72"
   }
 ]
