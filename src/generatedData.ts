@@ -8,94 +8,100 @@
 import { BriefingCardData } from './types';
 
 export const initialData: BriefingCardData = {
-  "dateStr": "2026.10.01",
-  "chinaDateStr": "星期四 / THURSDAY",
+  "dateStr": "2026.10.02",
+  "chinaDateStr": "星期五 / FRIDAY",
   "title": "今天最值得听 • TODAY'S VOICE",
   "issueNo": "精选 3 条",
   "mainEpisode": {
-    "episodeId": "ffa704b7-dbee-46d9-929f-3c926df29b0f",
-    "podcastName": "啊！是猫咪呀",
-    "episodeTitle": "S6.E3 生成亲密",
-    "description": "欢迎收听【AI与人性】系列节目第二期。\n\n上一期，我们见证了 AI 如何不断突破人类智力与创造力的边界。这一期，我们会聊聊 AI 时代人类情感生活的巨变。\n\nAI发展的轨迹，已然从工业自动化与生产力工具，扩展到「亲密关系」的模拟。\n\n早期的 Siri 或 Alexa 仅是查天气、设闹钟的功能性介质；而如今，AI 伙伴的核心卖点已转向拟人化人格、长期陪伴与即时的情感羁绊。如果说传统的机器人延展的是人类操控物质世界的能力，那么今天的Chatbot人触及的，则是我们的内心世界——它们开始深度参与我们对自我、他人以及亲密关系的重构。\n\n半个多世纪前，阿兰·图灵将人类的“智力”简化为了行为与功能上的模仿；今天，情感似乎同样可以被精准地模拟。和AI的沟通并不需要真正的“心灵在场”，大模型仅凭对语言的概率统计，就能精准推断出屏幕这头人类的情感状态，并反哺以一种“被深度理解”的实感。\n\n当 AI 正在用一种完全非人类的方式介入人类最私密的情感生活，精准触及并重塑着人类的潜意识，人类的心灵、情感生活以及人类之间维系的关系，又会发生什么样的变化？\n\n🎉 本期节目由「科沃斯T90S PRO」赞助播出！\n\nAI 懂不懂人心仍未可知，但深耕行业 28 年的家用机器人品牌科沃斯，早已将我们做家务的痛点彻底摸透。作为地面清洁领域的领头羊与滚筒洗地机器人的开创者，科沃斯始终专注技术细节，用实力诠释何为值得信赖的家庭助手。\n\n旗舰新品科沃斯T90S PRO，就是帮家庭告别繁琐家务的省心之选。它搭载第三代滚筒活水技术，每分钟自清洁260次，时刻保持滚筒干净，70℃热水能瞬间溶解厨房风干的油渍和酱油痕迹，再配合强劲的对地压强实时按压擦拭，地面滚过之处即刻光洁如镜。面对养宠人和长发女生最头疼的毛发，它的飓风防缠功能可以把30厘米长发顺畅吸入，底盘始终清爽。而像橱柜凹槽、直角墙根这些大扫除难以触及的地方，它也能灵活延伸贴边清理，轻松覆盖卫生死角。更让人放心的是它的超级续航，回基站洗滚筒的3分钟就能快速补电10%，一口气干完全屋，绝不在中途断电罢工。\n\n把地面家务交给像科沃斯，把宝贵的时间留给自己和身边珍贵的人❤️！\n欢迎了解更多👇\n复制淘口令打开淘宝：37￥ CZ009 D7m1TNCrG6w￥ https://m.tb.cn/h.8C6flje 【新品】科沃斯T90SPRO扫地机器人扫拖一体清洗全自动滚筒活水3.0\n\n京东链接：https://u.jd.com/4rfb7L9\n\n本期福利：下单备注【 啊！是猫咪呀 】额外加赠抗菌滚筒拖布一个\n\n📃时间线|内容\nChapter 1: 理解的三重境界\n[0:13:31] 图灵测试本质上是关于「沟通」的测试\n\n[0:23:25] 要做到什么才算是「理解」了对方\n\n[0:25:18] AI 凭什么以「我」自居？\n\n[0:34:35] 中文屋：人类「理解」语言和机器有什么不同？\n\n[0:38:22]  母语羞耻源自语言和经验的缠绕\n\n[0:45:051] 大模型的「涌现」时刻\n——当系统足够复杂\n\n[0:51:12] 理解的不同维度\n1）功能 2）语义 3）经验\n\nChapter 2：心灵的图灵测试\n[0:55:14]  我们能AI身上学到什么沟通技巧？\n\n[0:56:14] 记忆：情感纽带形成的核心机智\n\n[1:04:27] 不带ego的倾听视角\n\n[1:06:01] 情感模式识别\n\n[1:08:22] 海量人类经验数据库\n\n**明知道AI 只是机器，为什么我们总会错以为他们是「人」？\n**\n[1:11:55] Eliza 效应\n——人类倾向于对计算机程序赋予远超其代码实际所具备的智能、理解力和共情心的现象\n\n[1:18:58] 人类与科技客体互动简史\n\n1997年的「拓麻歌子」和1998年的 「菲比小精灵」是 「第一批向人类乞求爱的计算机」\n\n帕罗: 吉尼斯世界纪录认证为「世界上最具疗愈功效的机器人」\n\n[1:30:09] 人类情感依恋的触发机制\n\n[1:33:03] 情感面向上的图灵测试，是一个建立在「人类极易进行自我欺骗」这一本能之上的测试。\n\nChapter 3: 「足够好的」心理治疗\n[1:41:57] 被AI突破的心理诊疗室\n\n[1:54:55]  AI 无法成为真正的心理治疗师，但它可能会在大规模上取代「心理治疗」这项活动\n\n[2:00:11] 一位精神分析师和Claude的深度讨论\n\n[2:07:24] 象征化：艰难的代谢\n——将混沌的感受转化为语言需要多少努力？\n\n[2:17:43] 反移情：人类内心结构的重组的关键\n\nChapter 4：无风险依恋\n[2:27:31] 人们越来越倾向「低风险」、「低维护」的关系\n\n[2:30:50]  过度保护的边界\n\n[2:36:54] 没有伤害，就没有“宽恕”与“修复”\n\n[2:38:11]  AI Sycophancy 马屁精效应\n\n[2:44:43] 为什么今天人们的情感变得更加脆弱了？\n\n[2:50:27] The Anti-Social 反社会世纪\n\n[3:01:31]  前超人类主义\n人类和机器客体的融合，已经在「心灵层面」率先发生\n\n📚引用\nJoseph Weizenbaum - Computer Power and Human Reason From Judgment to Calculation\n\nSherry Turkle - Alone Together Why We Expect More From Technology and Less From Each Other\n\nAndrew McStay - Emotional AI The Rise of Empathic Media\n\nSherry Turkle - Reclaiming Conversation\n\nSherry Turkle - Who Do We Become when we talk to machines\n\nJames Muldoon - Love Machines How Artificial Intelligence Is Transforming Our Relationship\n\nMichal Novak - Not Therapist, but Therapy\n\nDerek Thompson  - The Anti-Social Century\n\n🎵音乐\nYehezkel Raz - Valley of Gold\nMansij - Kiwi Juice - No Backing Vocals\nYehezkel Raz - Ballerina\n3 Gymnopédies- No 1, Lent et douloureux\nRomeo - Chamber Particles - Creative Cut - Minimal\nAmos Ever Hadani - Evolution\nNobou - Particles\nOut of Flux - Graystar\nAmos Ever Hadani - Evolution\nArdie Son - The Art of Connection\nYehezkel Raz - Murmuring\nYehezkel Raz - Ganymede\nEldad Zitrin - Time to Go\nRomeo - Novella\nNotize - Transition\nJohnny Gorillas - Digital Prelude in C Major\nLaurel Violet - Letting Go\nRomeo - Overture\n\n✍🏻联系我们\n小红书 🍠：老鱼小吴\n听友群 🐱: 添加小助手wx - badaolaoyu\n邮箱（听众来信/商务洽谈）：ahsmmy@163.com",
-    "publishedAt": "2026-09-30T03:37:17+00:00",
-    "rssUrl": "https://proxy.wavpub.com/ahsmmy.xml",
-    "coverImageUrl": "https://i.typlog.com/ahsmmy/8209260786_018287.png?x-oss-process=image/auto-orient,1/interlace,1/quality,q_90/resize,m_fill,w_1920,h_1920/format,jpg",
-    "coverText": "啊！",
+    "episodeId": "6abcea5ce742e36efcbd2baa",
+    "podcastName": "碳基生物生存指南",
+    "episodeTitle": "E35 抄袭、造假、洗稿，学术的象牙塔里为什么丑闻层出不穷？",
+    "description": "今年学术很火，但可惜不是以好的方式火。抄袭、造假、洗稿，为什么学术好像突然变成了一个“流氓圈“？\n当你看到无数标题党想马上按下结论，拉下院长，觉得中国学术已经无可救药的时候，我想邀请你停下来，听听中、欧，文、理科学者怎么说，听听学术造假吹哨人怎么说，听听专门研究学术造假的学者怎么说，甚至，来听听论文工厂的运营怎么说。\n事实上，学术造假这件事，涉及到的不只是一两位学者，还有一整个产业链、以及整个学术评价和晋升体系。而就连学术造假纠察这件事儿也没那么容易，很多看似应该随机的小数点，在学术里，它真的就不随机。\n讽刺很容易，理解却需要时间。而只有真正理解这件事的复杂性，也许，我们才能开始讨论，该如何解决。\n【时间轴】\n00:00 调查记者梦妮深入论文工厂👀\n08:45 如何系统性研究学术造假产业链\n16:35 学术造假对咱普通人有什么影响呢\n20:29 谁该为学术造假负责\n21:12 从理解做学问，是怎样一种职业开始\n24:28 中国学术圈现状\n30:39 欧洲学术圈现状（德国）\n33:19 这套学术评价体系，适合什么样的人\n41:20 多少博士，能最终成为教授\n42:38 所以，到底是谁在造假？\n48:36 造假调查：斯坦福真实&嘉宾分享\n60:24爆火全网的“随机数生成器”指控，其实有很大风险\n67:57 耿同学，冤枉了学者？？\n69:38 对学术造假吹哨人，是否需要约束\n72:21 学术体系，该如何改进\n74:49 方案一：更多钱，抽奖式经费申请？\n80:39 方案二：更少钱，让领域更纯粹？\n87:10 所以，为什么学术的象牙塔里，丑闻层出不穷？\n87:45 一些小心翼翼地时事评论\n96:31 最后一个问题 💌\n📃 本期播客提到的文献素材传送门：\n假论文，已经成为一项产业： https://www.pnas.org/doi/10.1073/pnas.2420092122\n被撤回的论文由少数编辑负责审稿：“The 45 PLOS ONE editors whom we were able to flag due to the anomalous rate at which they accepted retracted or PubPeer commented publications or had their submissions handled by other flagged editors comprise only 0.25% of all editors. These individuals edited 1.3% of all articles published in PLOS ONE by 2024 but 30.2% of retracted articles. More than half of these editors (25 of 45) also authored articles retracted by PLOS ONE.”\n论文撤回比例集中于特定子学科 ：“Consistent with most scientists’ expectations concerning egregious errors or scientific fraud, for CRISPR-Cas9, we find that the rate of retractions is only about 0.1%. The rate of retractions increases from tRNA (peak of ∼1% for tRNA and cancer) to circular RNAs (peak of ∼2.5%), miRNAs (peak of ∼4% for miRNA and cancer), and lncRNAs (peak of ∼4%). We also find higher rates of retractions for subfields focused on cancer than on development.Retraction rates can be highly variable across publishers for articles in these subfields. Indeed, for studies concerning “lncRNAs” and “miRNAs and cancer” published in certain journals, the retraction rate exceeds 10%, while for some other journals the rate is close to zero, far below expectation.”\n假论文数量增长，远高于真论文：”We also find that the number of retracted articles has been increasing exponentially over the last 30 y (Fig. 5B). Remarkably, and testifying to the enormous impact of postpublication review efforts, we find the number of articles with PubPeer comments has also been increasing exponentially. To provide perspective, we note that the number of retracted articles and PubPeer-commented articles has been doubling every 3.3 y and every 3.6 y, respectively, while the total number of publications has been doubling every 15.0 y. ”\n英国皇家学会2010报告《科学世纪：确保我们未来的繁荣》，涉及到博士就业流向： https://royalsociety.org/-/media/policy/publications/2010/4294970126.pdf\n0.45%的博士生，最后会成为博士：图1.6\n学者中的男女比例失衡：“Despite progress in the past decade, ensuring a diverse scientific workforce remains a challenge. Women are still under-represented in the latter stages of scientific careers, particularly in the physical sciences. While 35% of all researchers in science- related disciplines are women, the proportion falls to 30% for lecturers, 21 % for senior lecturers and just 11 % for professors.”\nMarc 斯坦福学术造假事件调查报告： https://boardoftrustees.stanford.edu/sites/g/files/sbiybj31576/files/media/file/scientific-panel-final-report.pdf ：“Dr. Tessier-Lavigne did not have actual knowledge of any manipulation of research data, did not have a material role in the preparation of the data and/or figures that have been publicly challenged, and was not in a position where a reasonable scientist would be expected to have detected any such misconduct.”； “The Scientific Panel has concluded that Dr. Tessier-Lavigne did not have actual knowledge of the manipulation of research data that occurred in his lab and was not reckless in failing to identify such manipulation prior to publication.”\n因为人的参与，随机数就并不随机： https://pmc.ncbi.nlm.nih.gov/articles/PMC12589620/ ：“Previously, the phenomenon of end digit (ED) preference has been described for several measurement types in social sciences, public health, and epidemiology”， https://www.researchgate.net/publication/279544736_It_Seems_Factual_But_Is_It_Effects_of_Using_Sharp_versus_Round_Numbers_in_Advertising_Claims：“ An experiment is described that examines whether consumers make the false assumption that claims using sharp numbers are less likely to be estimates (i.e., are more factual) than those using round numbers and, if so, whether this makes sharp-number claims more believable.”\n抽签式科研基金发放： https://www.nature.com/articles/d41586-026-02082-7 ：“If reviewers can’t reliably tell the difference between top grant proposals, why should they pretend they can? A new wave of funders is turning to lotteries to break the tie.”\n科普/记者频道 Christophe - I tried to buy a scientific paper： https://www.youtube.com/watch?v=SEwiOykoXXc\n本期音乐：片尾曲 Battles and Wasteland by Neo Retros\n封面设计特别感谢：wow lab\n小红书账号：梦妮爱读文献 （ID：4196506308）\n\n在小宇宙查看该单集文稿",
+    "publishedAt": "2026-09-30T11:05:09+00:00",
+    "rssUrl": "https://feed.xyzfm.space/wyedwp8eyy3q",
+    "coverImageUrl": "https://image.xyzcdn.net/Fo2TwF7EPzFhEi2Ocg87gaFOUmpl.PNG",
+    "coverText": "碳基",
     "coverBg": "bg-[#18181B]",
     "coverTextColor": "text-amber-50",
-    "whyRecommended": "聚焦欢迎收听【AI与人性】系列节目第二期，适合想快速判断这期是否值得听的人。",
+    "whyRecommended": "聚焦今年学术很火，但可惜不是以好的方式火。抄，适合想快速判断这期是否值得听的人。",
     "viewpoints": [
-      "欢迎收听【AI与人性】系列节目第二期。",
-      "上一期，我们见证了 AI 如何不断突破人类智力与创造力的边界。这一期，我们会聊聊 AI 时代人类情感生活的巨变。",
-      "AI发展的轨迹，已然从工业自动化与生产力工具，扩展到「亲密关系」的模拟。"
+      "今年学术很火，但可惜不是以好的方式火。抄袭、造假、洗稿，为什么学术好像突然变成了一个“流氓圈“？",
+      "当你看到无数标题党想马上按下结论，拉下院长，觉得中国学术已经无可救药的时候，我想邀请你停下来，听听中、欧，文、理科学者怎么说，听听学术造假吹哨人怎么说，听听专门研究学术造假的学者怎么说，甚至，来听听论文工厂的运营怎么说。",
+      "事实上，学术造假这件事，涉及到的不只是一两位学者，还有一整个产业链、以及整个学术评价和晋升体系。而就连学术造假纠察这件事儿也没那么容易，很多看似应该随机的小数点，在学术里，它真的就不随机。"
     ],
-    "goldenQuotes": [],
+    "goldenQuotes": [
+      {
+        "quote": "miRNAs and cancer",
+        "source": "来自本期 shownote",
+        "source_note": "来自本期 shownote"
+      }
+    ],
     "triageTag": "🚶边走边听｜主线清楚好进入",
-    "href": "ffa704b7-dbee-46d9-929f-3c926df29b0f",
-    "whyRecommend": "聚焦欢迎收听【AI与人性】系列节目第二期，适合想快速判断这期是否值得听的人。",
-    "goldenQuote": "聚焦欢迎收听【AI与人性】系列节目第二期，适合想快速判断这期是否值得听的人。",
+    "href": "cosmos://page.cos/episode/6abcea5ce742e36efcbd2baa?utm_source=rss",
+    "whyRecommend": "聚焦今年学术很火，但可惜不是以好的方式火。抄，适合想快速判断这期是否值得听的人。",
+    "goldenQuote": "miRNAs and cancer",
     "topicTag": "🚶边走边听｜主线清楚好进入"
   },
   "backupEpisodes": [
     {
-      "episodeId": "6aba821b195d838e2aeb3c09",
-      "podcastName": "贝望录",
-      "episodeTitle": "241. 《早春晴朗》之外，聊聊广告人“穿衣密码”里藏着的一个行业的黄金年代",
-      "description": "最近热播的《早春晴朗》，让很多人重新想起那个曾经充满想象力的广告行业。本期「贝望录」，Bessie找来分别代表Account客户服务、Creative创意的Angel陈蓉和大龙与代表Media媒介部门的Bessie自己，集结广告公司三个部门从“广告人上班到底穿什么？”聊起，带大家一起回到广告行业的现场。第一天进奥美，为什么穿一身西装反而会被认为“overdress”？为什么Account的办公桌里总要藏着一套“接客装”？创意人看起来最不在乎穿什么，却又最在意“我是谁”；一件穿了30年的橘色皮衣，甚至成了大龙比稿时的“幸运战袍”。从白衬衫、黑西装、手拿包，到Freitag和那些叫不出名字的小众品牌，衣服背后，其实是不同部门的工作方式、职业身份，以及一个行业独特的审美和文化。主播和嘉宾也聊到媒介从广告公司独立出来的过程，互联网和科技公司兴起之后，办公室的穿衣规则如何被重新改写；还聊起那些今天看来“不可思议”的广告公司年会——有人扮猫王、修女、玛丽莲·梦露，也有人平时西装革履，到了年会上彻底变成另一个人。 主播和嘉宾们留存至今的一张照片、一块工牌、一本便签，为什么几十年后依然舍不得丢？也许所谓“黄金年代”，真正让人怀念的，从来不只是穿什么，而是那群一起工作、一起熬夜、一起做出好作品的人。\n【本节目由Withinlink碚曦投资协作体出品】\n【嘉宾】\nAngel 陈蓉\n资深广告人，前奥美中国首席增长官及奥美互动中国区总裁，现商业博主“天使姐Angel”\n大龙 龙杰琦\n资深创意长工，前奥美北京创意总监，现TOPic & Loong 创始人\n【主持】\n李倩玲 Bessie Lee\n广告营销行业资深从业者，商业观察者\n【本期内容提要】\n00:12 「早春晴朗」为什么让Bessie想聊聊广告行业？从Account、Creative、Media三大部门聊起广告人的穿衣变化\n02:44 第一天上班穿什么？Angel回忆90年代末进入奥美，以及当年广告人的“酷”\n06:19 为什么穿一身西装去奥美反而会overdress？Account办公桌里永远备着的“接客装”\n08:10 大龙1989年入行，从白衬衫到牛仔裤，创意人的穿衣逻辑是什么？\n11:26 Account、Creative、Media三大部门如何各有各的“穿衣密码”？\n13:29 BetaCam时代的媒介采购：为什么一个黑色man bag成了媒介人的统一装备？\n17:13 文案和美术的边界在哪里？做久了以后，“工种”为什么会慢慢消失？\n20:37 为什么“尊重创意”也是一种企业文化？穿衣如何成为创意部门最直观的身份标识？\n23:47 创意人的白衬衫不是为了时尚，而是为了把脑子留给创意：一个idea为什么可能在任何地方突然出现？\n26:02 从《广告狂人》的西装，到90年代的广告公司，广告人的着装发生了什么变化？\n28:35 为什么Account偏爱黑西装？“不要让造型大过实力”，也是一种职业分寸\n34:36 一件30年前的橘色皮衣，为什么成了大龙的“比稿战袍”？\n38:49 Account真的羡慕创意人的随意吗？面对不同客户，什么叫“场景化穿着”？\n45:55 创意人为什么总想穿得“不一样”？曾经很酷的造型，为什么过几年就突然变土？\n52:21 为什么创意人不爱大Logo？“厂商都没给我钱，我为什么要替它做广告？”\n53:21 ECD到底在做什么？当职位越来越高，为什么反而可能离创意越来越远？\n57:00 媒介部门的身份变化：从拥有最好的电脑、做最多的Excel，到独立出来寻找自己的文化\n01:00:29 互联网公司的双肩包，为什么和广告人的包是两套完全不同的逻辑？\n01:04:54 创意人的“酷包”：为什么有人宁愿背不那么实用的Freitag？\n01:08:19 广告公司的年会为什么曾经如此疯狂？微博出现之前，那些少有人知道的“黄金时代”\n01:12:02 猫王、修女、玛丽莲·梦露……广告人的年会有多敢玩？一场年会，如何让同事重新认识彼此？\n01:17:18 一本便签、一块工牌、一张画像：离开广告公司多年后，为什么这些东西依然舍不得丢？\n01:22:02 穿什么从来不只是审美：衣服如何成为一个广告人的身份识别，也成为一个时代的切片？\n01:23:50 大龙给年轻广告人的一句话：广告公司也许只是一个起点，但好的创意品味和工作方法，可以带你走得更远\n01:24:52 黄金年代已经过去，但那些一起工作、熬夜、做作品的人，会一直留在记忆里\n\n👆🏻Angel提到的奥美便签\n👆🏻大龙提到的奥美工牌\n👆🏻Bessie提到的画像\n👆🏻当年的betacam带\n👆🏻大龙的“战袍”\n【后期制作】\nDante\n【收听方式】\n推荐您使用Apple Podcast、小宇宙APP、喜马拉雅、荔枝播客、网易云音乐、QQ音乐、Spotify或任意泛用型播客客户端订阅收听《贝望录》。\n【互动方式】\n微博：@贝望录\n微信公众号：贝望录+\n商务合作：beiwanglu@withinlink.com",
-      "publishedAt": "2026-09-30T00:00:00+00:00",
-      "rssUrl": "https://feed.xyzfm.space/n67ujl39p8xq",
-      "coverImageUrl": "https://image.xyzcdn.net/Fq4faTEl7Vr6-gl_QkmKIh4NA9Bn.png",
-      "coverText": "贝望",
+      "episodeId": "6abe1c43e742e36efcbd742b",
+      "podcastName": "跨国串门儿计划",
+      "episodeTitle": "#748.比尔·阿克曼：投资前先想清楚十年后还愿意持有吗",
+      "description": "📝 本期播客简介 \n本期我们克隆了：The Knowledge Project Podcast · Bill Ackman: People are Going to Lose a Lot of Money 原内容更新时间：2026-09-29\n“总有一天会出事，可能会出现某种崩盘，让很多人赔掉一大笔钱。”Bill Ackman 谈到 AI、风险投资和泡沫时，给出了这个警告。\n作为 Pershing Square 的创始人兼 CEO，Ackman 讲了他如何判断企业的颠覆风险、为什么卖掉 Netflix 后又买回来，以及普通人投资时该怎么做。他也讲到女儿露西突发脑出血后的漫长康复，以及他和妻子筹建脑研究所、希望让更多患者受益的计划。\n👤 本期嘉宾 \nBill Ackman 是 Pershing Square Capital Management 的创始人兼 CEO，长期从事投资，也参与公司的治理与战略决策。他分享了 Pershing Square 的研究和投资流程，包括如何评估企业、避免颠覆风险，以及如何从投资失误中修订原则；女儿露西脑出血后，他还把办公室搬进医院，并推动筹建以脑部康复和长寿为重点的研究所。\n⏱️ 时间戳\n00:53 女儿重伤与脑康复 \n14:05 团队、泡沫与资金纪律 \n23:19 投资判断与AI颠覆 \n37:35 股东积极主义与投资选择 \n42:51 从弃置资产到永久资本 \n59:59 识人、领导与人生意义\n🌟 精彩内容 \n💡 AI让投资判断更难 \nAI可能改变企业的生存条件，投资者得判断一家公司的护城河还能不能守住。连巴菲特当年也没看出互联网会如何冲击 World Book；AI的颠覆风险更难预测。 \n\"我们所有人都注定会在某家公司上显得判断失误，因为没能预见 AI 带来的颠覆风险。\"\n💡 资金充裕，也可能加速公司出局 \n一家创业公司两周内估值从 4 亿美元升到 10 亿美元，另一家公司 A 轮投前估值达到 50 亿美元。Ackman 认为，融资容易会让公司花钱失去纪律；市场爆雷后，资金只能支撑几个月的公司可能消失。 \n\"把每一美元都当成自己的钱，仔细花，不要以为这种资金充裕、随时都能融资的局面会一直持续下去。\"\n💡 Netflix变了，投资逻辑就不成立了 \nNetflix管理层刚说不会推出广告套餐，几周后却表示要做广告模式。Ackman认为，这一变化打破了原有投资逻辑，于是卖出；等Netflix证明广告模式可行、股价回到合理水平后，Pershing Square 又买了回来。 \n\"如果你得知了和原先投资逻辑不一致的新信息，你要么因为股价变便宜了而大幅加仓……要么就得离场。\"\n💡 普通人别等市场便宜再开始 \n想自己挑股票，就得投入时间学习和研究；如果只是想投资股市，指数基金是个很好的选择。越早开始长期投资，越能发挥复利的力量。 \n\"别因为觉得市场太贵，就一直拿着现金不投资。\"\n💡 脑出血后的康复，保险只管一段时间 露西脑部受压 19 个小时后接受手术，醒来时不会走路、不会说话，也看不见了。她的行走、语言和视力逐渐出现进展；Ackman指出，保险可能只支付 6 周护理费用，但康复可能持续很多年。 \"人们在很多年后仍然可能继续康复。\"\n🌐 播客信息补充 \n本播客采用原有人声声线进行播客音频制作，也可能会有一些地方听起来怪怪的 \n使用 AI 进行翻译，因此可能会有一些地方不通顺\n\n在小宇宙查看该单集文稿",
+      "publishedAt": "2026-10-01T09:00:28+00:00",
+      "rssUrl": "https://feed.xyzfm.space/r8t44lmvu99m",
+      "coverImageUrl": "https://image.xyzcdn.net/FgPi3C76e0yvQlUYo8TDbk1GTgp8.png",
+      "coverText": "跨国",
       "coverBg": "bg-[#18181B]",
       "coverTextColor": "text-amber-50",
-      "whyRecommended": "聚焦最近热播的《早春晴朗》，让很多人重新想起，适合想快速判断这期是否值得听的人。",
+      "whyRecommended": "聚焦本期我们克隆了：The Knowledg，适合想快速判断这期是否值得听的人。",
       "viewpoints": [
-        "最近热播的《早春晴朗》，让很多人重新想起那个曾经充满想象力的广告行业。本期「贝望录」，Bessie找来分别代表Account客户服务、Creative创意的Angel陈蓉和大龙与代表Media媒介部门的Bessie自己，集结广告公司三个部门从“广告人上班到底穿什么？”聊起，带大家一起回到广告行业的现场。第一天进奥美，为什么穿一身西装反而会被认为“overdress”？为什么Account的办公桌里总要藏着一套“接客装”？创意人看起来最不在乎穿什么，却又最在意“我是谁”；一件穿了30年的橘色皮衣，甚至成了大龙比稿时的“幸运战袍”。从白衬衫、黑西装、手拿包，到Freitag和那些叫不出名字的小众品牌，衣服背后，其实是不同部门的工作方式、职业身份，以及一个行业独特的审美和文化。主播和嘉宾也聊到媒介从广告公司独立出来的过程，互联网和科技公司兴起之后，办公室的穿衣规则如何被重新改写；还聊起那些今天看来“不可思议”的广告公司年会——有人扮猫王、修女、玛丽莲·梦露，也有人平时西装革履，到了年会上彻底变成另一个人。 主播和嘉宾们留存至今的一张照片、一块工牌、一本便签，为什么几十年后依然舍不得丢？也许所谓“黄金年代”，真正让人怀念的，从来不只是穿什么，而是那群一起工作、一起熬夜、一起做出好作品的人。",
-        "【本节目由Withinlink碚曦投资协作体出品】",
-        "资深广告人，前奥美中国首席增长官及奥美互动中国区总裁，现商业博主“天使姐Angel”"
+        "本期我们克隆了：The Knowledge Project Podcast · Bill Ackman: People are Going to Lose a Lot of Money 原内容更新时间：2026-09-29",
+        "“总有一天会出事，可能会出现某种崩盘，让很多人赔掉一大笔钱。”Bill Ackman 谈到 AI、风险投资和泡沫时，给出了这个警告。",
+        "作为 Pershing Square 的创始人兼 CEO，Ackman 讲了他如何判断企业的颠覆风险、为什么卖掉 Netflix 后又买回来，以及普通人投资时该怎么做。他也讲到女儿露西突发脑出血后的漫长康复，以及他和妻子筹建脑研究所、希望让更多患者受益的计划。"
       ],
       "goldenQuotes": [
         {
-          "quote": "广告人上班到底穿什么？",
+          "quote": "总有一天会出事，可能会出现某种崩盘，让很多人赔掉一大笔钱。",
           "source": "来自本期 shownote",
           "source_note": "来自本期 shownote"
         },
         {
-          "quote": "厂商都没给我钱，我为什么要替它做广告？",
+          "quote": "我们所有人都注定会在某家公司上显得判断失误，因为没能预见 AI 带来的颠覆风险。",
           "source": "来自本期 shownote",
           "source_note": "来自本期 shownote"
         }
       ],
       "triageTag": "🚶边走边听｜主线清楚好进入",
-      "href": "cosmos://page.cos/episode/6aba821b195d838e2aeb3c09?utm_source=rss",
+      "href": "cosmos://page.cos/episode/6abe1c43e742e36efcbd742b?utm_source=rss",
       "scenario": "",
-      "whyRecommend": "聚焦最近热播的《早春晴朗》，让很多人重新想起，适合想快速判断这期是否值得听的人。",
-      "goldenQuote": "广告人上班到底穿什么？",
+      "whyRecommend": "聚焦本期我们克隆了：The Knowledg，适合想快速判断这期是否值得听的人。",
+      "goldenQuote": "总有一天会出事，可能会出现某种崩盘，让很多人赔掉一大笔钱。",
       "topicTag": "🚶边走边听｜主线清楚好进入"
     },
     {
-      "episodeId": "6ab99252195d838e2aeaca68",
-      "podcastName": "那里的城",
-      "episodeTitle": "25.上饶｜入世婺源，出世三清，山水皆有茶～",
-      "description": "最近机缘巧合去了一趟上饶，前后只待了两天半。原本想着就是看看三清山的仙山云海，逛逛婺源的徽派古村，走完才发现，这座赣闽浙皖四省交界的城市，藏着好多超出预期的故事。\n从地名的由来、地缘文化的碰撞，到千年茶路的兴衰，再到茶圣陆羽的隐居往事，每一处都很有说头。这期节目就结合这次实地旅行体验，带大家从仙山走到古村，重新认识了解一次这座山水之间的城市——上饶。\n同时我也会逐一解答以下几个问题：\n上饶的名字由何而来？\n三清山为什么被称作 “江南第一仙山”，山顶三清宫的选址藏着怎样的巧思？\n婺源隶属于江西，为什么处处是徽派建筑？\n茶圣陆羽为什么会选择在上饶隐居？\n-\n01:43 城市篇：上饶的得名由来与城市特点\n06:13 三清山实地旅行体验\n16:32 从三清山看上饶前世今生\n19:43 婺源县城旅行感受\n23:52 茶文化与河口商贸地位\n26:38 上饶旅行路线建议\n27:38 茶圣陆羽与上饶的渊源\n-\n↑“经典”打卡位\n↑三清山只是这里的一个“点”\n↑“定海神针”（巨蟒峰）\n↑“阳光海岸”\n↑对面一片云～\n↑到了“对面”\n↑能见度瞬间为“0”，准备成仙～\n↑该下山了\n↑八卦对应的道教节点\n↑中午 12 点，三千福地表演\n↑上饶的一些吃喝\n-\n主要参考资料：\n《浙赣边际的共富新故事》上饶日报\n《中国社会科学报》2020年7月31日第1979期\n《鄱阳湖文学研究》2024冬季刊总第59期\n《水系深刻影响赣鄱文化的孕育与发展》胡绽英\n《品读上饶经典》程建平\n《江西上饶三清山机场建成通航》中国新闻网\n《三清山机场内部大曝光，处处彰显三清山特色！》三清山官网\n《南畿名邑数婺源》新华网 刘子丫\n-\n下一城再见～\n\n在小宇宙查看该单集文稿",
-      "publishedAt": "2026-09-28T02:30:00+00:00",
-      "rssUrl": "https://feed.xyzfm.space/7mxpwfdqkpkk",
-      "coverImageUrl": "https://image.xyzcdn.net/Fh0g_q9HbmNJ9Je4JNOzU43Ao_g5.jpg",
-      "coverText": "那里",
+      "episodeId": "6abbc141e742e36efcbcc703",
+      "podcastName": "声动早咖啡",
+      "episodeTitle": "索道赚钱能力堪比茅台，山岳景区为何还在为增长发愁？",
+      "description": "张家界旅游集团计划花费大约 3.5 亿元收购天子山索道运营公司 51% 的股权。然而在这之前，张家界旅游集团才刚刚被撤销股票交易的风险警示。连续多年的亏损一度把这家公司推到破产边缘。一家经营压力还没有完全缓解的景区公司，为什么在这个时候拿出数亿元来买索道？在这笔收购的背后，又藏着山岳型景区怎样的经营难题呢？本期轻解读就与之相关 [06:38]。你最近一次走进山野是在什么时候？你心目中理想的徒步或登山旅程应该是怎样的呢？在评论区和我们一起聊聊吧。\n\n本期还有关于广汽集团、SpaceX、Manus 和物美的新动态 [01:47]，欢迎收听！\n\n特别提醒\n本期是早咖啡国庆假期前的最后一期节目，节后将会在 2026 年 10 月 8 日恢复更新，我们节后见～\n\n主播\nMengyi\n\n幕后制作\n监制：Zelin、Stella、榛子\n声音设计：沁茗、明圣\n运营：George\n封面设计：饭团\n营销内容策划：beibei\n商业内容策划：茹雪\n声动活泼商业化小队：新新、秋杰、琳琳、迪卡、Emma\n\n商务合作：声动早咖啡等节目商业合作持续招募中，点击链接直达 声动商务会客厅，或者发送邮件至 business@shengfm.cn 联系我们；\n加入我们：声动活泼目前开放内容监制、商业发展等全职岗位，还在招聘内容实习生等，工作地点北京东城区，详细岗位信息与申请方式，请点击链接；\n听众投稿：如果你了解身边日常现象的背后原因，欢迎投稿，你的发现可能出现在节目中。\n加入听友群：节目专属听友群开放中，群内定期开展社群专属活动。扫码添加声小音企业微信👇并发送「早咖啡」，拉你入群。\n「用声音碰撞世界」，声动活泼致力于为人们提供源源不断的思考养料。\n我们还有这些播客：声东击西、What's Next｜科技早知道、商业WHY酱、跳进兔子洞&跳进兔子洞第三季、吃喝玩乐了不起、不止金钱、泡腾 VC、反潮流俱乐部\n本节目音频内容及文字版权归声动活泼所有，未经授权不得用于 AI 模型训练等用途",
+      "publishedAt": "2026-09-29T23:00:00+00:00",
+      "rssUrl": "https://feed.xyzfm.space/q88qwmydeuw8",
+      "coverImageUrl": "https://image.xyzcdn.net/FmH9eTO0HDhknAT6XajyN4yY0Naw.jpeg",
+      "coverText": "声动",
       "coverBg": "bg-[#18181B]",
       "coverTextColor": "text-amber-50",
-      "whyRecommended": "聚焦最近机缘巧合去了一趟上饶，前后只待了两天，适合想快速判断这期是否值得听的人。",
+      "whyRecommended": "聚焦张家界旅游集团计划花费大约 3.5 亿元，适合想快速判断这期是否值得听的人。",
       "viewpoints": [
-        "最近机缘巧合去了一趟上饶，前后只待了两天半。原本想着就是看看三清山的仙山云海，逛逛婺源的徽派古村，走完才发现，这座赣闽浙皖四省交界的城市，藏着好多超出预期的故事。",
-        "从地名的由来、地缘文化的碰撞，到千年茶路的兴衰，再到茶圣陆羽的隐居往事，每一处都很有说头。这期节目就结合这次实地旅行体验，带大家从仙山走到古村，重新认识了解一次这座山水之间的城市——上饶。",
-        "同时我也会逐一解答以下几个问题："
+        "张家界旅游集团计划花费大约 3.5 亿元收购天子山索道运营公司 51% 的股权。然而在这之前，张家界旅游集团才刚刚被撤销股票交易的风险警示。连续多年的亏损一度把这家公司推到破产边缘。一家经营压力还没有完全缓解的景区公司，为什么在这个时候拿出数亿元来买索道？在这笔收购的背后，又藏着山岳型景区怎样的经营难题呢？本期轻解读就与之相关 [06:38]。你最近一次走进山野是在什么时候？你心目中理想的徒步或登山旅程应该是怎样的呢？在评论区和我们一起聊聊吧。",
+        "本期还有关于广汽集团、SpaceX、Manus 和物美的新动态 [01:47]，欢迎收听！",
+        "本期是早咖啡国庆假期前的最后一期节目，节后将会在 2026 年 10 月 8 日恢复更新，我们节后见～"
       ],
       "goldenQuotes": [],
       "triageTag": "☕有空再听｜主线清楚好进入",
-      "href": "cosmos://page.cos/episode/6ab99252195d838e2aeaca68?utm_source=rss",
+      "href": "cosmos://page.cos/episode/6abbc141e742e36efcbcc703?utm_source=rss",
       "scenario": "",
-      "whyRecommend": "聚焦最近机缘巧合去了一趟上饶，前后只待了两天，适合想快速判断这期是否值得听的人。",
-      "goldenQuote": "聚焦最近机缘巧合去了一趟上饶，前后只待了两天，适合想快速判断这期是否值得听的人。",
+      "whyRecommend": "聚焦张家界旅游集团计划花费大约 3.5 亿元，适合想快速判断这期是否值得听的人。",
+      "goldenQuote": "聚焦张家界旅游集团计划花费大约 3.5 亿元，适合想快速判断这期是否值得听的人。",
       "topicTag": "☕有空再听｜主线清楚好进入"
     }
   ],
