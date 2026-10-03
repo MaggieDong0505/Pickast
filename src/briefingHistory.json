@@ -1,5 +1,26 @@
 [
   {
+    "episodeId": "6ac10e16e742e36efcbe18d1",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#752.Vercel CEO 揭秘其智能体工程工作流程：AI 软件工厂瓶颈不在代码，而在人",
+    "generatedAt": "2026-10-04T07:42:56.157114+08:00",
+    "fingerprint": "6ac10e16e742e36efcbe18d1"
+  },
+  {
+    "episodeId": "6abec328195d838e2aec7e63",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#750.理查德·费曼 - 物理定律的本质 (1964) - 完整版",
+    "generatedAt": "2026-10-04T07:42:56.157114+08:00",
+    "fingerprint": "6abec328195d838e2aec7e63"
+  },
+  {
+    "episodeId": "6abc0813195d838e2aebbf64",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#746. AI视频生意：看懂增长和模型成本这笔账",
+    "generatedAt": "2026-10-04T07:42:56.157114+08:00",
+    "fingerprint": "6abc0813195d838e2aebbf64"
+  },
+  {
     "episodeId": "6abeb3f9195d838e2aec7dab",
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#749.雷·达里奥 2019 课堂实录：投资原则",
@@ -187,26 +208,5 @@
     "episodeTitle": "一辆「小电驴」卖到三四千元，小牛、九号如何实现电动两轮车高端化？",
     "generatedAt": "2026-09-25T07:50:32.697020+08:00",
     "fingerprint": "6ab2833093d5eb3bdc795f6f"
-  },
-  {
-    "episodeId": "6ab2546493d5eb3bdc794b18",
-    "podcastName": "乱翻书",
-    "episodeTitle": "276.当AI给出所有答案，年轻人如何找到自己的问题？",
-    "generatedAt": "2026-09-24T07:34:39.244507+08:00",
-    "fingerprint": "6ab2546493d5eb3bdc794b18"
-  },
-  {
-    "episodeId": "6aaeaa3dac389df827346355",
-    "podcastName": "贝望录",
-    "episodeTitle": "240. 月饼一年只卖两个月，为什么还能做成282亿的生意？",
-    "generatedAt": "2026-09-24T07:34:39.244507+08:00",
-    "fingerprint": "6aaeaa3dac389df827346355"
-  },
-  {
-    "episodeId": "6ab1ef0493d5eb3bdc790d27",
-    "podcastName": "M字闲聊",
-    "episodeTitle": "交朋友怎么这么难啊？",
-    "generatedAt": "2026-09-24T07:34:39.244507+08:00",
-    "fingerprint": "6ab1ef0493d5eb3bdc790d27"
   }
 ]
