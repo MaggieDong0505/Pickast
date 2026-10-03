@@ -1,5 +1,26 @@
 [
   {
+    "episodeId": "6abeb3f9195d838e2aec7dab",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#749.雷·达里奥 2019 课堂实录：投资原则",
+    "generatedAt": "2026-10-03T08:21:34.585754+08:00",
+    "fingerprint": "6abeb3f9195d838e2aec7dab"
+  },
+  {
+    "episodeId": "6abec310e742e36efcbd9ae4",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#751.汉斯·季默：从导演的故事找到电影配乐",
+    "generatedAt": "2026-10-03T08:21:34.585754+08:00",
+    "fingerprint": "6abec310e742e36efcbd9ae4"
+  },
+  {
+    "episodeId": "2d6bfcec-31c3-4ef2-981f-6dc2864cf92d",
+    "podcastName": "What's Next｜科技早知道",
+    "episodeTitle": "当眼镜、耳机、手机都有 AI，谁来统一你的「第二大脑」| 2026 高通骁龙峰会 S10E31",
+    "generatedAt": "2026-10-03T08:21:34.585754+08:00",
+    "fingerprint": "2d6bfcec-31c3-4ef2-981f-6dc2864cf92d"
+  },
+  {
     "episodeId": "6abcea5ce742e36efcbd2baa",
     "podcastName": "碳基生物生存指南",
     "episodeTitle": "E35 抄袭、造假、洗稿，学术的象牙塔里为什么丑闻层出不穷？",
@@ -187,26 +208,5 @@
     "episodeTitle": "交朋友怎么这么难啊？",
     "generatedAt": "2026-09-24T07:34:39.244507+08:00",
     "fingerprint": "6ab1ef0493d5eb3bdc790d27"
-  },
-  {
-    "episodeId": "6ab235ed93d5eb3bdc7936fb",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#735. Jev 模型创始人访谈：为什么我无法在 OpenAI 构建 Jev",
-    "generatedAt": "2026-09-23T07:33:36.225922+08:00",
-    "fingerprint": "6ab235ed93d5eb3bdc7936fb"
-  },
-  {
-    "episodeId": "6ab0ef2ef04646b3a954e483",
-    "podcastName": "颜如玉|医美 A to Z",
-    "episodeTitle": "EP36｜20+件好物推荐！从防晒到救急，皮肤科医生的翻包日记！",
-    "generatedAt": "2026-09-23T07:33:36.225922+08:00",
-    "fingerprint": "6ab0ef2ef04646b3a954e483"
-  },
-  {
-    "episodeId": "6ab0ecd493d5eb3bdc78b46a",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#732.Lenny's Podcast｜Snapchat：增长来自核心产品",
-    "generatedAt": "2026-09-23T07:33:36.225922+08:00",
-    "fingerprint": "6ab0ecd493d5eb3bdc78b46a"
   }
 ]

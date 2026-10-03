@@ -8,101 +8,112 @@
 import { BriefingCardData } from './types';
 
 export const initialData: BriefingCardData = {
-  "dateStr": "2026.10.02",
-  "chinaDateStr": "星期五 / FRIDAY",
+  "dateStr": "2026.10.03",
+  "chinaDateStr": "星期六 / SATURDAY",
   "title": "今天最值得听 • TODAY'S VOICE",
   "issueNo": "精选 3 条",
   "mainEpisode": {
-    "episodeId": "6abcea5ce742e36efcbd2baa",
-    "podcastName": "碳基生物生存指南",
-    "episodeTitle": "E35 抄袭、造假、洗稿，学术的象牙塔里为什么丑闻层出不穷？",
-    "description": "今年学术很火，但可惜不是以好的方式火。抄袭、造假、洗稿，为什么学术好像突然变成了一个“流氓圈“？\n当你看到无数标题党想马上按下结论，拉下院长，觉得中国学术已经无可救药的时候，我想邀请你停下来，听听中、欧，文、理科学者怎么说，听听学术造假吹哨人怎么说，听听专门研究学术造假的学者怎么说，甚至，来听听论文工厂的运营怎么说。\n事实上，学术造假这件事，涉及到的不只是一两位学者，还有一整个产业链、以及整个学术评价和晋升体系。而就连学术造假纠察这件事儿也没那么容易，很多看似应该随机的小数点，在学术里，它真的就不随机。\n讽刺很容易，理解却需要时间。而只有真正理解这件事的复杂性，也许，我们才能开始讨论，该如何解决。\n【时间轴】\n00:00 调查记者梦妮深入论文工厂👀\n08:45 如何系统性研究学术造假产业链\n16:35 学术造假对咱普通人有什么影响呢\n20:29 谁该为学术造假负责\n21:12 从理解做学问，是怎样一种职业开始\n24:28 中国学术圈现状\n30:39 欧洲学术圈现状（德国）\n33:19 这套学术评价体系，适合什么样的人\n41:20 多少博士，能最终成为教授\n42:38 所以，到底是谁在造假？\n48:36 造假调查：斯坦福真实&嘉宾分享\n60:24爆火全网的“随机数生成器”指控，其实有很大风险\n67:57 耿同学，冤枉了学者？？\n69:38 对学术造假吹哨人，是否需要约束\n72:21 学术体系，该如何改进\n74:49 方案一：更多钱，抽奖式经费申请？\n80:39 方案二：更少钱，让领域更纯粹？\n87:10 所以，为什么学术的象牙塔里，丑闻层出不穷？\n87:45 一些小心翼翼地时事评论\n96:31 最后一个问题 💌\n📃 本期播客提到的文献素材传送门：\n假论文，已经成为一项产业： https://www.pnas.org/doi/10.1073/pnas.2420092122\n被撤回的论文由少数编辑负责审稿：“The 45 PLOS ONE editors whom we were able to flag due to the anomalous rate at which they accepted retracted or PubPeer commented publications or had their submissions handled by other flagged editors comprise only 0.25% of all editors. These individuals edited 1.3% of all articles published in PLOS ONE by 2024 but 30.2% of retracted articles. More than half of these editors (25 of 45) also authored articles retracted by PLOS ONE.”\n论文撤回比例集中于特定子学科 ：“Consistent with most scientists’ expectations concerning egregious errors or scientific fraud, for CRISPR-Cas9, we find that the rate of retractions is only about 0.1%. The rate of retractions increases from tRNA (peak of ∼1% for tRNA and cancer) to circular RNAs (peak of ∼2.5%), miRNAs (peak of ∼4% for miRNA and cancer), and lncRNAs (peak of ∼4%). We also find higher rates of retractions for subfields focused on cancer than on development.Retraction rates can be highly variable across publishers for articles in these subfields. Indeed, for studies concerning “lncRNAs” and “miRNAs and cancer” published in certain journals, the retraction rate exceeds 10%, while for some other journals the rate is close to zero, far below expectation.”\n假论文数量增长，远高于真论文：”We also find that the number of retracted articles has been increasing exponentially over the last 30 y (Fig. 5B). Remarkably, and testifying to the enormous impact of postpublication review efforts, we find the number of articles with PubPeer comments has also been increasing exponentially. To provide perspective, we note that the number of retracted articles and PubPeer-commented articles has been doubling every 3.3 y and every 3.6 y, respectively, while the total number of publications has been doubling every 15.0 y. ”\n英国皇家学会2010报告《科学世纪：确保我们未来的繁荣》，涉及到博士就业流向： https://royalsociety.org/-/media/policy/publications/2010/4294970126.pdf\n0.45%的博士生，最后会成为博士：图1.6\n学者中的男女比例失衡：“Despite progress in the past decade, ensuring a diverse scientific workforce remains a challenge. Women are still under-represented in the latter stages of scientific careers, particularly in the physical sciences. While 35% of all researchers in science- related disciplines are women, the proportion falls to 30% for lecturers, 21 % for senior lecturers and just 11 % for professors.”\nMarc 斯坦福学术造假事件调查报告： https://boardoftrustees.stanford.edu/sites/g/files/sbiybj31576/files/media/file/scientific-panel-final-report.pdf ：“Dr. Tessier-Lavigne did not have actual knowledge of any manipulation of research data, did not have a material role in the preparation of the data and/or figures that have been publicly challenged, and was not in a position where a reasonable scientist would be expected to have detected any such misconduct.”； “The Scientific Panel has concluded that Dr. Tessier-Lavigne did not have actual knowledge of the manipulation of research data that occurred in his lab and was not reckless in failing to identify such manipulation prior to publication.”\n因为人的参与，随机数就并不随机： https://pmc.ncbi.nlm.nih.gov/articles/PMC12589620/ ：“Previously, the phenomenon of end digit (ED) preference has been described for several measurement types in social sciences, public health, and epidemiology”， https://www.researchgate.net/publication/279544736_It_Seems_Factual_But_Is_It_Effects_of_Using_Sharp_versus_Round_Numbers_in_Advertising_Claims：“ An experiment is described that examines whether consumers make the false assumption that claims using sharp numbers are less likely to be estimates (i.e., are more factual) than those using round numbers and, if so, whether this makes sharp-number claims more believable.”\n抽签式科研基金发放： https://www.nature.com/articles/d41586-026-02082-7 ：“If reviewers can’t reliably tell the difference between top grant proposals, why should they pretend they can? A new wave of funders is turning to lotteries to break the tie.”\n科普/记者频道 Christophe - I tried to buy a scientific paper： https://www.youtube.com/watch?v=SEwiOykoXXc\n本期音乐：片尾曲 Battles and Wasteland by Neo Retros\n封面设计特别感谢：wow lab\n小红书账号：梦妮爱读文献 （ID：4196506308）\n\n在小宇宙查看该单集文稿",
-    "publishedAt": "2026-09-30T11:05:09+00:00",
-    "rssUrl": "https://feed.xyzfm.space/wyedwp8eyy3q",
-    "coverImageUrl": "https://image.xyzcdn.net/Fo2TwF7EPzFhEi2Ocg87gaFOUmpl.PNG",
-    "coverText": "碳基",
+    "episodeId": "6abeb3f9195d838e2aec7dab",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#749.雷·达里奥 2019 课堂实录：投资原则",
+    "description": "📝 本期播客简介\n本期我们克隆了：Liwa Capital Advisors · Ray Dalio Explaining Principles of Investing\n原内容更新时间：2019 年\n“投资的圣杯，就是找到 15 条或更多优质的不相关收益流。”Ray Dalio 从经济如何运转讲起，试着用一套原则解释市场周期，以及投资组合该怎么搭建。\n他把经济拆成生产率、债务周期、政治与市场之间的相互作用，再谈资产价格、风险溢价和分散投资。重点不只是押中表现最好的资产，而是理解不同资产为什么涨跌，并用彼此不相关的收益流控制组合风险。\n👤 本期嘉宾\nRay Dalio 是投资者，也是《原则》的作者。他把自己关于人生、工作、经济和投资的原则记录下来，并用历史数据检验投资标准；他还提到，自己的成功和桥水的成功都离不开对无知的认识与分散投资。\n⏱️ 时间戳\n00:00 原则与经济周期\n09:25 周期后段与政治变局\n21:46 分散投资与收益流\n🌟 精彩内容\n💡 分散投资，降风险不必降收益\nRay Dalio 认为，组合不同的收益流，降低风险的幅度可以大于收益减少的幅度。找到彼此不相关的投资，比把钱押在单一“最好”的投资上更能改善风险收益比。\n\"分散投资降低风险的幅度可以大于它降低收益的幅度，从而改善回报与风险的比例。\"\n💡 好投资也可能只是变贵了\n股票、大宗商品等资产类别会轮流表现好或表现差。投资者容易把近期表现好的资产当成好投资，却忽略它可能只是价格变高了；关键是让组合保持平衡。\n\"大多数投资者犯的最大错误，就是觉得表现好的投资就是好投资，而不是意识到它只是变得更贵了。\"\n💡 债务带来购买力，也带来偿还周期\n信贷让人能花得比挣得多，偿还债务时则必须花得比挣得少。短期周期反复出现，刺激与偿还交替；长期债务累积到一定阶段，央行降息的空间也会逐渐耗尽。\n\"获得信贷时，你可以花得比挣得多；还债时，你就得花得比挣得少，这就是这个周期的本质。\"\n💡 利润增长背后，是收入差距扩大\n自 2000 年以来，利润率已经翻了一倍多；技术替代人力、全球化等因素都参与其中。企业受益的同时，美国底层 60%人口的实际收入自 1980 年以来没有增长。\n\"这对公司来说很好，但对一部分人来说并不好。\"\n💡 中国将成为世界的重要力量\nRay Dalio 把技术、教育、竞争力等因素纳入国家实力的观察框架，并将中国与美国放进同一张长期变化的图景中。他认为，中国市场和经济在贸易、地缘政治与科技方面的影响力都会扩大。\n\"中国市场将在我们所处的环境中发挥重要作用，中国经济也一样。\"\n💡 十五条不相关收益流，可大幅降低风险\n他用投资组合举例：加入五条不相关收益流，风险已经降低一半以上；增加到十五条，风险降低将近八成。他将这种组合思路视为提升风险收益比的关键。\n\"如果增加到 15 条，风险会降低将近 80%。\"\n🌐 播客信息补充\n本播客采用原有人声声线进行播客音频制作，也可能会有一些地方听起来怪怪的\n使用 AI 进行翻译，因此可能会有一些地方不通顺\n\n在小宇宙查看该单集文稿",
+    "publishedAt": "2026-10-01T19:32:13+00:00",
+    "rssUrl": "https://feed.xyzfm.space/r8t44lmvu99m",
+    "coverImageUrl": "https://image.xyzcdn.net/FgPi3C76e0yvQlUYo8TDbk1GTgp8.png",
+    "coverText": "跨国",
     "coverBg": "bg-[#18181B]",
     "coverTextColor": "text-amber-50",
-    "whyRecommended": "聚焦今年学术很火，但可惜不是以好的方式火。抄，适合想快速判断这期是否值得听的人。",
+    "whyRecommended": "聚焦本期我们克隆了：Liwa Capital，适合想快速判断这期是否值得听的人。",
     "viewpoints": [
-      "今年学术很火，但可惜不是以好的方式火。抄袭、造假、洗稿，为什么学术好像突然变成了一个“流氓圈“？",
-      "当你看到无数标题党想马上按下结论，拉下院长，觉得中国学术已经无可救药的时候，我想邀请你停下来，听听中、欧，文、理科学者怎么说，听听学术造假吹哨人怎么说，听听专门研究学术造假的学者怎么说，甚至，来听听论文工厂的运营怎么说。",
-      "事实上，学术造假这件事，涉及到的不只是一两位学者，还有一整个产业链、以及整个学术评价和晋升体系。而就连学术造假纠察这件事儿也没那么容易，很多看似应该随机的小数点，在学术里，它真的就不随机。"
+      "本期我们克隆了：Liwa Capital Advisors · Ray Dalio Explaining Principles of Investing",
+      "原内容更新时间：2019 年",
+      "“投资的圣杯，就是找到 15 条或更多优质的不相关收益流。”Ray Dalio 从经济如何运转讲起，试着用一套原则解释市场周期，以及投资组合该怎么搭建。"
     ],
     "goldenQuotes": [
       {
-        "quote": "miRNAs and cancer",
+        "quote": "投资的圣杯，就是找到 15 条或更多优质的不相关收益流。",
+        "source": "来自本期 shownote",
+        "source_note": "来自本期 shownote"
+      },
+      {
+        "quote": "分散投资降低风险的幅度可以大于它降低收益的幅度，从而改善回报与风险的比例。",
         "source": "来自本期 shownote",
         "source_note": "来自本期 shownote"
       }
     ],
     "triageTag": "🚶边走边听｜主线清楚好进入",
-    "href": "cosmos://page.cos/episode/6abcea5ce742e36efcbd2baa?utm_source=rss",
-    "whyRecommend": "聚焦今年学术很火，但可惜不是以好的方式火。抄，适合想快速判断这期是否值得听的人。",
-    "goldenQuote": "miRNAs and cancer",
+    "href": "cosmos://page.cos/episode/6abeb3f9195d838e2aec7dab?utm_source=rss",
+    "whyRecommend": "聚焦本期我们克隆了：Liwa Capital，适合想快速判断这期是否值得听的人。",
+    "goldenQuote": "投资的圣杯，就是找到 15 条或更多优质的不相关收益流。",
     "topicTag": "🚶边走边听｜主线清楚好进入"
   },
   "backupEpisodes": [
     {
-      "episodeId": "6abe1c43e742e36efcbd742b",
+      "episodeId": "6abec310e742e36efcbd9ae4",
       "podcastName": "跨国串门儿计划",
-      "episodeTitle": "#748.比尔·阿克曼：投资前先想清楚十年后还愿意持有吗",
-      "description": "📝 本期播客简介 \n本期我们克隆了：The Knowledge Project Podcast · Bill Ackman: People are Going to Lose a Lot of Money 原内容更新时间：2026-09-29\n“总有一天会出事，可能会出现某种崩盘，让很多人赔掉一大笔钱。”Bill Ackman 谈到 AI、风险投资和泡沫时，给出了这个警告。\n作为 Pershing Square 的创始人兼 CEO，Ackman 讲了他如何判断企业的颠覆风险、为什么卖掉 Netflix 后又买回来，以及普通人投资时该怎么做。他也讲到女儿露西突发脑出血后的漫长康复，以及他和妻子筹建脑研究所、希望让更多患者受益的计划。\n👤 本期嘉宾 \nBill Ackman 是 Pershing Square Capital Management 的创始人兼 CEO，长期从事投资，也参与公司的治理与战略决策。他分享了 Pershing Square 的研究和投资流程，包括如何评估企业、避免颠覆风险，以及如何从投资失误中修订原则；女儿露西脑出血后，他还把办公室搬进医院，并推动筹建以脑部康复和长寿为重点的研究所。\n⏱️ 时间戳\n00:53 女儿重伤与脑康复 \n14:05 团队、泡沫与资金纪律 \n23:19 投资判断与AI颠覆 \n37:35 股东积极主义与投资选择 \n42:51 从弃置资产到永久资本 \n59:59 识人、领导与人生意义\n🌟 精彩内容 \n💡 AI让投资判断更难 \nAI可能改变企业的生存条件，投资者得判断一家公司的护城河还能不能守住。连巴菲特当年也没看出互联网会如何冲击 World Book；AI的颠覆风险更难预测。 \n\"我们所有人都注定会在某家公司上显得判断失误，因为没能预见 AI 带来的颠覆风险。\"\n💡 资金充裕，也可能加速公司出局 \n一家创业公司两周内估值从 4 亿美元升到 10 亿美元，另一家公司 A 轮投前估值达到 50 亿美元。Ackman 认为，融资容易会让公司花钱失去纪律；市场爆雷后，资金只能支撑几个月的公司可能消失。 \n\"把每一美元都当成自己的钱，仔细花，不要以为这种资金充裕、随时都能融资的局面会一直持续下去。\"\n💡 Netflix变了，投资逻辑就不成立了 \nNetflix管理层刚说不会推出广告套餐，几周后却表示要做广告模式。Ackman认为，这一变化打破了原有投资逻辑，于是卖出；等Netflix证明广告模式可行、股价回到合理水平后，Pershing Square 又买了回来。 \n\"如果你得知了和原先投资逻辑不一致的新信息，你要么因为股价变便宜了而大幅加仓……要么就得离场。\"\n💡 普通人别等市场便宜再开始 \n想自己挑股票，就得投入时间学习和研究；如果只是想投资股市，指数基金是个很好的选择。越早开始长期投资，越能发挥复利的力量。 \n\"别因为觉得市场太贵，就一直拿着现金不投资。\"\n💡 脑出血后的康复，保险只管一段时间 露西脑部受压 19 个小时后接受手术，醒来时不会走路、不会说话，也看不见了。她的行走、语言和视力逐渐出现进展；Ackman指出，保险可能只支付 6 周护理费用，但康复可能持续很多年。 \"人们在很多年后仍然可能继续康复。\"\n🌐 播客信息补充 \n本播客采用原有人声声线进行播客音频制作，也可能会有一些地方听起来怪怪的 \n使用 AI 进行翻译，因此可能会有一些地方不通顺\n\n在小宇宙查看该单集文稿",
-      "publishedAt": "2026-10-01T09:00:28+00:00",
+      "episodeTitle": "#751.汉斯·季默：从导演的故事找到电影配乐",
+      "description": "📝 本期播客简介\n本期我们克隆了：Rick Beato · The Hans Zimmer Interview\n原内容更新时间：2025-03-14\n《盗梦空间》还在拍摄时，汉斯·季默已经开始写配乐；等克里斯托弗·诺兰把画面交给他，音乐甚至精准落在了鞋子掉下楼沿的那一刻。\n在 Rick Beato 位于洛杉矶的工作室里，汉斯·季默讲述自己如何从导演的故事里找到电影的基调，为什么有时要在看见画面前动笔，以及他如何让采样音源、真实乐团和一群才华横溢的音乐家共同完成配乐。他也谈到电影工业越来越保守、年轻作曲家如何入行，以及现场演出带给他的怯场与惊喜。\n👤 本期嘉宾\n汉斯·季默是电影作曲家，作品包括《狮子王》《角斗士》《盗梦空间》《星际穿越》和《沙丘》。他从早期使用采样器、合成器开始，创作电影配乐多年，也为现场演出组建乐队、与管弦乐团合作；他谈创作时既有亲身经验，也熟悉从写主题、做采样音源到录制乐团的整个过程。\n⏱️ 时间戳\n00:35 让灵感流动的录音室\n02:14 做减法，专注音乐\n06:03 音乐人要能自己动手\n07:21 先听导演讲故事\n12:20 让音乐家带来新声音\n21:52 采样与临时配乐的拉锯\n25:57 新东西需要时间适应\n30:17 从怯场到巡演\n33:47 电影行业越来越保守\n48:01 工作室里的合作与成长\n56:34 旋律与走出舒适区\n1:00:11 配乐也能独立成立\n1:05:53 Fairlight 改变创作方式\n1:09:28 现场交流与演奏乐趣\n1:14:41 录音空间与好莱坞之声\n1:21:29 音乐来自一生所听\n🌟 精彩内容\n💡 先听导演讲故事，再写音乐\n汉斯通常不先读剧本，而是让导演讲述故事里对自己最重要的部分，再从讲述中感受电影的基调。《盗梦空间》时，他在没有画面的情况下动笔，还用无标题的音乐片段测试导演能否感受到对应场景。\n\"我的工作，是听他讲故事，然后做出连他都想象不到的东西。\"\n💡 《盗梦空间》的音乐卡准了鞋子落下\n汉斯熟悉剧本，特意写了一段音乐，让它落在玛丽昂·歌迪亚饰演的角色走到楼沿、鞋子掉下去的瞬间。诺兰第一次给他看电影时，那个音乐点已经和画面安排在一起。\n\"我写了一个音乐点，要正好落在鞋子掉下去的那一刻。\"\n💡 采样音源是安全网，乐团让音乐活起来\n汉斯早期用采样音源向导演展示管弦乐效果，也让它在正式录音时成为复杂段落的安全网。但他认为真实乐手带来的细微差异，能让音乐从精确的个人表达变成更丰富的集体演奏。\n\"但其他乐手各自细微不同的态度和情绪，会让它产生合唱般的丰富效果。\"\n💡 新音乐会让人害怕\n泰伦斯·马力克第一次听到《细细的红线》的一段旋律时，说它不像电影配乐、也记不住。几周后，他却打电话来唱起那段旋律，说想把它用进电影。\n\"大家想要新东西，但新东西又让人害怕。\"\n💡 写旋律，先别急着碰键盘\n汉斯会先在脑子里听到一点东西，再开始动手；如果一上来就弹，他担心自己只会反复弹熟悉的和弦。他从斯坦利·迈尔斯那里学到，旋律是音乐继续往前走的路。\n\"我脑子里听到点东西之前，不会碰键盘，不然我就会一遍又一遍地弹那几组该死的和弦。\"\n💡 怯场不是拒绝上台的理由\n约翰尼·马尔和法瑞尔·威廉姆斯劝汉斯走到观众面前演奏。他最初坚称自己会怯场，后来接受邀请登台，才慢慢学会把紧张当作现场演出的一部分。\n\"基本上每个人都会怯场；如果你不怯场，那你什么感觉都没有。\"\n🌐 播客信息补充\n本播客采用原有人声声线进行播客音频制作，也可能会有一些地方听起来怪怪的\n使用 AI 进行翻译，因此可能会有一些地方不通顺\n\n在小宇宙查看该单集文稿",
+      "publishedAt": "2026-10-02T17:57:53+00:00",
       "rssUrl": "https://feed.xyzfm.space/r8t44lmvu99m",
       "coverImageUrl": "https://image.xyzcdn.net/FgPi3C76e0yvQlUYo8TDbk1GTgp8.png",
       "coverText": "跨国",
       "coverBg": "bg-[#18181B]",
       "coverTextColor": "text-amber-50",
-      "whyRecommended": "聚焦本期我们克隆了：The Knowledg，适合想快速判断这期是否值得听的人。",
+      "whyRecommended": "聚焦本期我们克隆了：Rick Beato ·，适合想快速判断这期是否值得听的人。",
       "viewpoints": [
-        "本期我们克隆了：The Knowledge Project Podcast · Bill Ackman: People are Going to Lose a Lot of Money 原内容更新时间：2026-09-29",
-        "“总有一天会出事，可能会出现某种崩盘，让很多人赔掉一大笔钱。”Bill Ackman 谈到 AI、风险投资和泡沫时，给出了这个警告。",
-        "作为 Pershing Square 的创始人兼 CEO，Ackman 讲了他如何判断企业的颠覆风险、为什么卖掉 Netflix 后又买回来，以及普通人投资时该怎么做。他也讲到女儿露西突发脑出血后的漫长康复，以及他和妻子筹建脑研究所、希望让更多患者受益的计划。"
+        "本期我们克隆了：Rick Beato · The Hans Zimmer Interview",
+        "原内容更新时间：2025-03-14",
+        "《盗梦空间》还在拍摄时，汉斯·季默已经开始写配乐；等克里斯托弗·诺兰把画面交给他，音乐甚至精准落在了鞋子掉下楼沿的那一刻。"
       ],
       "goldenQuotes": [
         {
-          "quote": "总有一天会出事，可能会出现某种崩盘，让很多人赔掉一大笔钱。",
+          "quote": "我的工作，是听他讲故事，然后做出连他都想象不到的东西。",
           "source": "来自本期 shownote",
           "source_note": "来自本期 shownote"
         },
         {
-          "quote": "我们所有人都注定会在某家公司上显得判断失误，因为没能预见 AI 带来的颠覆风险。",
+          "quote": "我写了一个音乐点，要正好落在鞋子掉下去的那一刻。",
+          "source": "来自本期 shownote",
+          "source_note": "来自本期 shownote"
+        }
+      ],
+      "triageTag": "☕有空再听｜主线清楚好进入",
+      "href": "cosmos://page.cos/episode/6abec310e742e36efcbd9ae4?utm_source=rss",
+      "scenario": "",
+      "whyRecommend": "聚焦本期我们克隆了：Rick Beato ·，适合想快速判断这期是否值得听的人。",
+      "goldenQuote": "我的工作，是听他讲故事，然后做出连他都想象不到的东西。",
+      "topicTag": "☕有空再听｜主线清楚好进入"
+    },
+    {
+      "episodeId": "2d6bfcec-31c3-4ef2-981f-6dc2864cf92d",
+      "podcastName": "What's Next｜科技早知道",
+      "episodeTitle": "当眼镜、耳机、手机都有 AI，谁来统一你的「第二大脑」| 2026 高通骁龙峰会 S10E31",
+      "description": "几天前，2026 高通骁龙峰会在夏威夷茂宜岛开幕。高通今年整场峰会就围绕一个核心叙事： Agentic AI 的时代，手机正在从「以 App 为中心」转向「以智能体为中心」。围绕 Agentic AI 的方向，高通在芯片上一口气发了两颗的 2nm 的旗舰芯片，设备形态从手机延伸到了 眼镜、耳机、甚至 AI Pin；还和阿里、 Google等软件厂商合作了 AI 笔记本电脑 。你能感觉到，高通不只是在发一颗芯片，而是想把整个智能体时代的基础设施全部握在手里。\n\n除了带给大家峰会现场的最新发布，我们还想跟大家聊聊三个大的话题：手机、眼镜和耳机这些新的 AI 设备给我们带来了什么？我们有了这么多的 AI 入口，手机的地位会不会改变？还有就是当我们拥有了如此之多的 AI 设备以后，谁来把我们的这些记忆统一起来，更高效地服务我们？\n\n本期人物\n\n王博：甲子光年 首席内容官\n\nZiad Asghar：高通产品管理高级副总裁（Senior Vice President, Product Management, Qualcomm）\n\n王吉平：IDC 分析师（聚焦终端业务：PC、平板、手机、可穿戴、机器人等）\n\nShawn：Memories.ai 创始人，前 Meta Reality Labs\n\n时间轴\n\n[01:18] Agentic AI 的体验将从意图开始\n\nCEO Cristiano Amon 宣布手机从 APP 中心转向智能体中心\n\n高通的野心不止芯片，从眼镜、耳机到笔记本，要做 AI 时代的基础设施\n\n[08:51] 手机会被取代吗？\n\n终端入口变多了，但手机仍是承载个人上下文和隐私信息的中枢\n\n手机从贴身工具升级为 hub，边缘侧算力分发给眼镜等配件\n\n[11:48] 消费者会为新的终端买单吗？\n\n存储超级周期之下，手机出货量跌 16.7%，安卓均价涨 40%\n\n消费者是否愿意付费要看 AI 溢价能否撑起消费者的涨价承受力\n\n[17:39] Remember → Understand → Act：高通画出个人 AI 路线图\n\n终端持续感知和记录，AI 判断哪些重要、哪些是隐私\n\nMemories.ai 给 AI 装上“视觉记忆”，把海量视频高效 index 成可检索的个人记忆\n\n[25:01] 隐私放在哪？端侧和云端的分工\n\n感知数据和个人记忆留在本地，复杂推理和 agent 任务去云端\n\n“它就是我的另一个大脑，存在我信任的设备里”\n\n[27:06] 跨设备互操作标准，高通的软件生态野心\n\n高通正在 Snapdragon 设备间推进互操作协议，目标是开放为行业标准，让非高通设备也能接入\n\n39 亿美元买下 Modular，Mojo 和 MAX 帮助模型在不同硬件上统一部署\n\n幕后制作\n\n监制：Yaxian\n\n后期：迪卡\n\n运营：George\n\n设计：饭团\n\n商业合作\n\n声动活泼商业化小队，点击链接直达声动商务会客厅，也可发送邮件至 business@shengfm.cn 联系我们。\n\n加入声动活泼\n\n声动活泼正在招聘全职商务运营经理、早咖啡内容实习生和社群实习生，如果你也对播客行业的内容制作感兴趣，欢迎点击招聘入口\n\n关于声动活泼\n\n「用声音碰撞世界」，声动活泼致力于为人们提供源源不断的思考养料。\n\n我们还有这些播客：声动早咖啡、声东击西、吃喝玩乐了不起、反潮流俱乐部、泡腾 VC、商业WHY酱、跳进兔子洞、不止金钱\n\n欢迎在即刻、微博等社交媒体上与我们互动，搜索 声动活泼 即可找到我们。\n\n期待你给我们写邮件，邮箱地址是：ting@sheng.fm\n\n欢迎扫码添加声小音，在节目之外和我们保持联系。\nSpecial Guests: Shawn, Ziad Asghar, 王博, and 王吉平.",
+      "publishedAt": "2026-09-30T11:45:00+00:00",
+      "rssUrl": "https://feeds.fireside.fm/guiguzaozhidao/rss",
+      "coverImageUrl": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/4/4931937e-0184-4c61-a658-6b03c254754d/cover.jpg?v=10",
+      "coverText": "Wh",
+      "coverBg": "bg-[#18181B]",
+      "coverTextColor": "text-amber-50",
+      "whyRecommended": "聚焦几天前，2026 高通骁龙峰会在夏威夷茂，适合想快速判断这期是否值得听的人。",
+      "viewpoints": [
+        "几天前，2026 高通骁龙峰会在夏威夷茂宜岛开幕。高通今年整场峰会就围绕一个核心叙事： Agentic AI 的时代，手机正在从「以 App 为中心」转向「以智能体为中心」。围绕 Agentic AI 的方向，高通在芯片上一口气发了两颗的 2nm 的旗舰芯片，设备形态从手机延伸到了 眼镜、耳机、甚至 AI Pin；还和阿里、 Google等软件厂商合作了 AI 笔记本电脑 。你能感觉到，高通不只是在发一颗芯片，而是想把整个智能体时代的基础设施全部握在手里。",
+        "除了带给大家峰会现场的最新发布，我们还想跟大家聊聊三个大的话题：手机、眼镜和耳机这些新的 AI 设备给我们带来了什么？我们有了这么多的 AI 入口，手机的地位会不会改变？还有就是当我们拥有了如此之多的 AI 设备以后，谁来把我们的这些记忆统一起来，更高效地服务我们？",
+        "王博：甲子光年 首席内容官"
+      ],
+      "goldenQuotes": [
+        {
+          "quote": "它就是我的另一个大脑，存在我信任的设备里",
           "source": "来自本期 shownote",
           "source_note": "来自本期 shownote"
         }
       ],
       "triageTag": "🚶边走边听｜主线清楚好进入",
-      "href": "cosmos://page.cos/episode/6abe1c43e742e36efcbd742b?utm_source=rss",
+      "href": "https://guiguzaozhidao.fireside.fm/20240446",
       "scenario": "",
-      "whyRecommend": "聚焦本期我们克隆了：The Knowledg，适合想快速判断这期是否值得听的人。",
-      "goldenQuote": "总有一天会出事，可能会出现某种崩盘，让很多人赔掉一大笔钱。",
+      "whyRecommend": "聚焦几天前，2026 高通骁龙峰会在夏威夷茂，适合想快速判断这期是否值得听的人。",
+      "goldenQuote": "它就是我的另一个大脑，存在我信任的设备里",
       "topicTag": "🚶边走边听｜主线清楚好进入"
-    },
-    {
-      "episodeId": "6abbc141e742e36efcbcc703",
-      "podcastName": "声动早咖啡",
-      "episodeTitle": "索道赚钱能力堪比茅台，山岳景区为何还在为增长发愁？",
-      "description": "张家界旅游集团计划花费大约 3.5 亿元收购天子山索道运营公司 51% 的股权。然而在这之前，张家界旅游集团才刚刚被撤销股票交易的风险警示。连续多年的亏损一度把这家公司推到破产边缘。一家经营压力还没有完全缓解的景区公司，为什么在这个时候拿出数亿元来买索道？在这笔收购的背后，又藏着山岳型景区怎样的经营难题呢？本期轻解读就与之相关 [06:38]。你最近一次走进山野是在什么时候？你心目中理想的徒步或登山旅程应该是怎样的呢？在评论区和我们一起聊聊吧。\n\n本期还有关于广汽集团、SpaceX、Manus 和物美的新动态 [01:47]，欢迎收听！\n\n特别提醒\n本期是早咖啡国庆假期前的最后一期节目，节后将会在 2026 年 10 月 8 日恢复更新，我们节后见～\n\n主播\nMengyi\n\n幕后制作\n监制：Zelin、Stella、榛子\n声音设计：沁茗、明圣\n运营：George\n封面设计：饭团\n营销内容策划：beibei\n商业内容策划：茹雪\n声动活泼商业化小队：新新、秋杰、琳琳、迪卡、Emma\n\n商务合作：声动早咖啡等节目商业合作持续招募中，点击链接直达 声动商务会客厅，或者发送邮件至 business@shengfm.cn 联系我们；\n加入我们：声动活泼目前开放内容监制、商业发展等全职岗位，还在招聘内容实习生等，工作地点北京东城区，详细岗位信息与申请方式，请点击链接；\n听众投稿：如果你了解身边日常现象的背后原因，欢迎投稿，你的发现可能出现在节目中。\n加入听友群：节目专属听友群开放中，群内定期开展社群专属活动。扫码添加声小音企业微信👇并发送「早咖啡」，拉你入群。\n「用声音碰撞世界」，声动活泼致力于为人们提供源源不断的思考养料。\n我们还有这些播客：声东击西、What's Next｜科技早知道、商业WHY酱、跳进兔子洞&跳进兔子洞第三季、吃喝玩乐了不起、不止金钱、泡腾 VC、反潮流俱乐部\n本节目音频内容及文字版权归声动活泼所有，未经授权不得用于 AI 模型训练等用途",
-      "publishedAt": "2026-09-29T23:00:00+00:00",
-      "rssUrl": "https://feed.xyzfm.space/q88qwmydeuw8",
-      "coverImageUrl": "https://image.xyzcdn.net/FmH9eTO0HDhknAT6XajyN4yY0Naw.jpeg",
-      "coverText": "声动",
-      "coverBg": "bg-[#18181B]",
-      "coverTextColor": "text-amber-50",
-      "whyRecommended": "聚焦张家界旅游集团计划花费大约 3.5 亿元，适合想快速判断这期是否值得听的人。",
-      "viewpoints": [
-        "张家界旅游集团计划花费大约 3.5 亿元收购天子山索道运营公司 51% 的股权。然而在这之前，张家界旅游集团才刚刚被撤销股票交易的风险警示。连续多年的亏损一度把这家公司推到破产边缘。一家经营压力还没有完全缓解的景区公司，为什么在这个时候拿出数亿元来买索道？在这笔收购的背后，又藏着山岳型景区怎样的经营难题呢？本期轻解读就与之相关 [06:38]。你最近一次走进山野是在什么时候？你心目中理想的徒步或登山旅程应该是怎样的呢？在评论区和我们一起聊聊吧。",
-        "本期还有关于广汽集团、SpaceX、Manus 和物美的新动态 [01:47]，欢迎收听！",
-        "本期是早咖啡国庆假期前的最后一期节目，节后将会在 2026 年 10 月 8 日恢复更新，我们节后见～"
-      ],
-      "goldenQuotes": [],
-      "triageTag": "☕有空再听｜主线清楚好进入",
-      "href": "cosmos://page.cos/episode/6abbc141e742e36efcbcc703?utm_source=rss",
-      "scenario": "",
-      "whyRecommend": "聚焦张家界旅游集团计划花费大约 3.5 亿元，适合想快速判断这期是否值得听的人。",
-      "goldenQuote": "聚焦张家界旅游集团计划花费大约 3.5 亿元，适合想快速判断这期是否值得听的人。",
-      "topicTag": "☕有空再听｜主线清楚好进入"
     }
   ],
   "synthesis": null
