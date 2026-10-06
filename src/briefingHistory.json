@@ -1,5 +1,26 @@
 [
   {
+    "episodeId": "6ac37be2195d838e2aed7fff",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#754. 如何思考科学",
+    "generatedAt": "2026-10-06T09:43:12.233419+08:00",
+    "fingerprint": "6ac37be2195d838e2aed7fff"
+  },
+  {
+    "episodeId": "6ac32c37195d838e2aed683a",
+    "podcastName": "虚构立影",
+    "episodeTitle": "12 细读简·奥斯丁：理智不是情感的敌人，算计才是",
+    "generatedAt": "2026-10-06T09:43:12.233419+08:00",
+    "fingerprint": "6ac32c37195d838e2aed683a"
+  },
+  {
+    "episodeId": "19cd2055-84fa-5360-88d3-e5e9c3237dca",
+    "podcastName": "Peril Crosser 渡厄",
+    "episodeTitle": "EP65: 纯粹理性批判：Transformer，现象界与AI的缸中之脑困境",
+    "generatedAt": "2026-10-06T09:43:12.233419+08:00",
+    "fingerprint": "19cd2055-84fa-5360-88d3-e5e9c3237dca"
+  },
+  {
     "episodeId": "6ac12348195d838e2aed0286",
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#753.Apps, Agents和聚合：AI Agent 会成为你办事的唯一界面",
@@ -187,26 +208,5 @@
     "episodeTitle": "EP29 \"你们能活多久？\"——创业两年，我们有了答案",
     "generatedAt": "2026-09-27T07:29:04.382692+08:00",
     "fingerprint": "6ab505fa195d838e2ae9bb85"
-  },
-  {
-    "episodeId": "6ab64bd8195d838e2aea07ae",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#737.Liquid：蠕虫 302 个神经元，启发了另一种 AI 架构",
-    "generatedAt": "2026-09-26T07:55:20.702426+08:00",
-    "fingerprint": "6ab64bd8195d838e2aea07ae"
-  },
-  {
-    "episodeId": "6ab6160ae742e36efcbb152a",
-    "podcastName": "富女之友",
-    "episodeTitle": "Vol17. 普通人医美避坑全攻略！那些机构绝不会告诉你的信息差",
-    "generatedAt": "2026-09-26T07:55:20.702426+08:00",
-    "fingerprint": "6ab6160ae742e36efcbb152a"
-  },
-  {
-    "episodeId": "6ab6244b195d838e2ae9fdf3",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#736. Mike Wilson：AI后遗症迟早会来，现在还没到",
-    "generatedAt": "2026-09-26T07:55:20.702426+08:00",
-    "fingerprint": "6ab6244b195d838e2ae9fdf3"
   }
 ]
