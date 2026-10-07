@@ -1,5 +1,26 @@
 [
   {
+    "episodeId": "6ac5480ee742e36efcbf0ea5",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#755. Lauren & Matt Pocock：如何把 2000 个PR上到生产环境",
+    "generatedAt": "2026-10-07T08:34:17.190874+08:00",
+    "fingerprint": "6ac5480ee742e36efcbf0ea5"
+  },
+  {
+    "episodeId": "fe8697b1-e892-4c84-990d-0559b949a852",
+    "podcastName": "Vibration 歪波音室",
+    "episodeTitle": "秋日限定歌单：云淡秋深，风来夜长",
+    "generatedAt": "2026-10-07T08:34:17.190874+08:00",
+    "fingerprint": "fe8697b1-e892-4c84-990d-0559b949a852"
+  },
+  {
+    "episodeId": "6abec328195d838e2aec7e63",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#750.理查德·费曼 - 物理定律的本质 (1964) - 完整版",
+    "generatedAt": "2026-10-07T08:34:17.190874+08:00",
+    "fingerprint": "6abec328195d838e2aec7e63"
+  },
+  {
     "episodeId": "6ac37be2195d838e2aed7fff",
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#754. 如何思考科学",
@@ -187,26 +208,5 @@
     "episodeTitle": "什么奥不奥德赛的，反正我用这些方法找自己｜热水观察室011",
     "generatedAt": "2026-09-28T07:44:32.521947+08:00",
     "fingerprint": "6ab3c80ef04646b3a956076d"
-  },
-  {
-    "episodeId": "6ab79736195d838e2aea4f3f",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#739.黄仁勋：「五层蛋糕」里，最重要的是应用层",
-    "generatedAt": "2026-09-27T07:29:04.382692+08:00",
-    "fingerprint": "6ab79736195d838e2aea4f3f"
-  },
-  {
-    "episodeId": "6ab78ef1195d838e2aea4cce",
-    "podcastName": "时雨集",
-    "episodeTitle": "中情局视角下的1979年伊朗人质事件",
-    "generatedAt": "2026-09-27T07:29:04.382692+08:00",
-    "fingerprint": "6ab78ef1195d838e2aea4cce"
-  },
-  {
-    "episodeId": "6ab505fa195d838e2ae9bb85",
-    "podcastName": "不被定义的职场",
-    "episodeTitle": "EP29 \"你们能活多久？\"——创业两年，我们有了答案",
-    "generatedAt": "2026-09-27T07:29:04.382692+08:00",
-    "fingerprint": "6ab505fa195d838e2ae9bb85"
   }
 ]
