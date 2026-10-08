@@ -1,5 +1,26 @@
 [
   {
+    "episodeId": "6ac59c6ce742e36efcbf181a",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#756. Huberman 多集混剪｜学习、专注与深度工作",
+    "generatedAt": "2026-10-08T08:54:55.524842+08:00",
+    "fingerprint": "6ac59c6ce742e36efcbf181a"
+  },
+  {
+    "episodeId": "6ac59d83195d838e2aedfea2",
+    "podcastName": "十分吸引",
+    "episodeTitle": "EP.05 便利店里看懂中国零售商业模式变迁",
+    "generatedAt": "2026-10-08T08:54:55.524842+08:00",
+    "fingerprint": "6ac59d83195d838e2aedfea2"
+  },
+  {
+    "episodeId": "6ac5ac8e195d838e2aee04ef",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#757.ChatGPT 负责人 Tibo 谈 Dots、环境人工智能以及为什么互联网上的大部分行为很快将由人工智能完成",
+    "generatedAt": "2026-10-08T08:54:55.524842+08:00",
+    "fingerprint": "6ac5ac8e195d838e2aee04ef"
+  },
+  {
     "episodeId": "6ac5480ee742e36efcbf0ea5",
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#755. Lauren & Matt Pocock：如何把 2000 个PR上到生产环境",
@@ -187,26 +208,5 @@
     "episodeTitle": "EP64: 平庸之恶，从艾希曼审判到算法与劳务外包",
     "generatedAt": "2026-09-29T08:56:01.019442+08:00",
     "fingerprint": "66007bf4-d1b8-576c-836d-a49d15c5ffed"
-  },
-  {
-    "episodeId": "6ab90f11195d838e2aeaac9f",
-    "podcastName": "十分吸引",
-    "episodeTitle": "EP.04 美元人民币汇率同涨真相：读懂全球金融新秩序",
-    "generatedAt": "2026-09-28T07:44:32.521947+08:00",
-    "fingerprint": "6ab90f11195d838e2aeaac9f"
-  },
-  {
-    "episodeId": "6ab7fc0b195d838e2aea6ccf",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#740.Huberman Lab｜减重不能只靠把胃变小",
-    "generatedAt": "2026-09-28T07:44:32.521947+08:00",
-    "fingerprint": "6ab7fc0b195d838e2aea6ccf"
-  },
-  {
-    "episodeId": "6ab3c80ef04646b3a956076d",
-    "podcastName": "about热水频道",
-    "episodeTitle": "什么奥不奥德赛的，反正我用这些方法找自己｜热水观察室011",
-    "generatedAt": "2026-09-28T07:44:32.521947+08:00",
-    "fingerprint": "6ab3c80ef04646b3a956076d"
   }
 ]

@@ -8,106 +8,106 @@
 import { BriefingCardData } from './types';
 
 export const initialData: BriefingCardData = {
-  "dateStr": "2026.10.07",
-  "chinaDateStr": "星期三 / WEDNESDAY",
+  "dateStr": "2026.10.08",
+  "chinaDateStr": "星期四 / THURSDAY",
   "title": "今天最值得听 • TODAY'S VOICE",
   "issueNo": "精选 3 条",
   "mainEpisode": {
-    "episodeId": "6ac5480ee742e36efcbf0ea5",
+    "episodeId": "6ac59c6ce742e36efcbf181a",
     "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#755. Lauren & Matt Pocock：如何把 2000 个PR上到生产环境",
-    "description": "📝 本期播客简介\n本期我们克隆了：Matt Pocock · LIVE: Poteto (creator of pstack) on shipping 1,000's of PR's a month at SpaceX\n原内容更新时间：2026-10-03\n当你睡着时，Agent 能不能自己验证、修好并合并代码？Lauren Tan 在 SpaceX AI 的工作中，已经把这件事做成了日常流程。\nMatt Pocock 和 Lauren Tan 从她如何把 Agent 的工作量扩大到每月数千个 PR 聊起，拆解建立信任的关键：让 Agent 看见并验证自己的工作，把重复、确定的操作写成工具，再用代码库规则减少出错空间。他们也聊到如何从 bug 报告中获取上下文、协调多个 Agent，以及为什么领域专业知识反而更重要。\n👤 本期嘉宾\nLauren Tan（Poteto），pstack 的创作者。她曾在 Meta 的 React 团队工作，之后加入 Cursor（现为 SpaceX AI），参与 Agent 窗口开发。她围绕 Agent 的验证、技能和工作环境持续实践，并分享过自己如何把大量 PR 交付到生产环境。\n⏱️ 时间戳\n00:34 信任阶梯与专业经验\n08:29 米其林厨房与验证\n23:07 用环境约束 Agent\n39:33 抽查与自动合并\n48:00 把对话变成个人流程\n🌟 精彩内容\n💡 专业知识，反而更值钱\n模型越强，瓶颈越不在 Agent，而在于人能不能把意图和目标讲清楚。医生、律师等领域专家，只要懂得使用 Agent，就有机会把专业构想做成产品。\n\"领域专业知识比以往任何时候都重要。\"\n💡 验证让 Agent 摆脱人肉中转\nAgent 能运行代码、像用户一样操作应用，还能调试和记录信息；看得到结果，才能自己迭代。Lauren 把验证称为自己开始攀上信任阶梯的关键技能。\n\"如果 Agent 实际上看不到自己的工作结果，它就根本没法迭代。\"\n💡 规则把错误挡在代码库之外\n在 Grok Bot 项目中，早期版本有大约 8 个包揽一切的大文件，每个至少 1 万行。她把功能拆进各自目录，再用严格的 lint 规则和固定模式，让糟糕的写法更难出现。\n\"好的代码库，是容易修改的代码库。\"\n💡 外循环把 bug 报告变成工作\nGrok Bot 收集 Slack、X、邮件和 Linear 上的外部信息，再把上下文交给 Cursor Projects，由协调 Agent 分派子 Agent。多份相关 bug 报告放在一起，还能帮助 Agent 找到共同根因，而不是重复修补。\n\"把这两个循环接起来以后，效果就非常非常强。\"\n💡 她让 Agent 合并代码，早上再抽查\n她搭起严格的验证循环，为 PR 启动验证 Agent 和模糊测试；Agent 会运行应用、尝试找问题并修复。代码合并后，她再看提交记录；如果发现共性问题，就调整规则和环境。\n\"现在我已经做到，PR 合并之后我才去审查。\"\n💡 过去的聊天记录，是流程宝库\nLauren 会从旧对话里找出自己纠正 Agent 的地方，把反复介入的经验整理成 skill、lint 规则或工具。pstack 的 recall skill，就是从她需要把旧聊天里的上下文带进新对话这一问题中长出来的。\n\"过去的聊天记录就像一个上下文宝库。\"\n🌐 播客信息补充\n本播客采用原有人声声线进行播客音频制作，也可能会有一些地方听起来怪怪的\n使用 AI 进行翻译，因此可能会有一些地方不通顺\n\n在小宇宙查看该单集文稿",
-    "publishedAt": "2026-10-06T19:20:51+00:00",
+    "episodeTitle": "#756. Huberman 多集混剪｜学习、专注与深度工作",
+    "description": "📝 本期播客简介\n本期我们从 43 期 Huberman Lab节目中混剪并克隆出了一份「学习指南」。43 期里挑出讲学习、多巴胺、专注和深度工作的片段，按主题重新编排而成的一集。斯坦福大学神经生物学教授 Andrew Huberman 和 20 位嘉宾的话都是原话剪辑，没有另加旁白；每位嘉宾第一次出场前，保留了 Huberman 原本对他的介绍。\n原内容时间跨度：2021-02-08 至 2026-08-31\n全集分 12 章，先讲大脑为什么能学、靠什么学，再讲动力从哪里来、怎么专注、怎么做深度工作、怎么学得更快，然后是如何记住、怎样睡好，以及如何克服拖延、养成习惯、设定目标，最后把这些方法排进一天的日程。同一个知识点只保留讲得最清楚的那一版，尽量做到能听懂、能照着做。\n文字稿链接：https://my.feishu.cn/docx/GfLCdauwRoIcO6xoK0LcW9x1noc?from=from_copylink\n👤 本期嘉宾\nAndrew Huberman：斯坦福大学医学院神经生物学和眼科学教授，Huberman Lab 主持人\nCal Newport：乔治城大学计算机科学教授，《深度工作》作者\nAnna Lembke：斯坦福大学精神病学家，成瘾医学专家，《成瘾》作者\nMatthew Walker：睡眠科学家，《我们为什么要睡觉》作者\nJames Clear：《掌控习惯》作者\nCharan Ranganath：加州大学戴维斯分校心理学与神经科学教授，研究人类记忆\nWendy Suzuki：纽约大学神经科学与心理学教授，研究学习与记忆\nGina Poe：加州大学洛杉矶分校教授，研究睡眠与学习\nTerry Sejnowski：索尔克生物研究所计算神经生物学实验室主任\nMichael Kilgard：得克萨斯大学达拉斯分校教授，神经可塑性研究者\nDavid Eagleman：神经科学家、科普作家\nMary Helen Immordino-Yang：南加州大学教育、心理学与神经科学教授，研究情绪与学习\nMarc Berman：芝加哥大学心理学教授，研究环境对大脑的影响\nMasud Husain：牛津大学神经科医生、神经科学家，研究动机与快乐\nKentaro Fujita：俄亥俄州立大学心理学教授，研究自我控制\nEmily Balcetis：纽约大学心理学教授，研究动机与目标设定\nAlan Castel：加州大学洛杉矶分校心理学教授，研究记忆与认知衰老\nPoppy Crum：神经科学家，斯坦福大学教授，前杜比实验室首席科学家\nJosh Waitzkin：国际象棋冠军、太极推手冠军，《学习之道》作者\nTommy Wood：华盛顿大学医生、神经科学研究者\nJoe Liemandt：Alpha School 负责人\n⏱️ 时间戳\n00:01 开场：你的大脑可以被重塑\n02:28 学习的底层原理：注意力、犯错与可塑性\n22:08 多巴胺：动机从哪里来\n49:08 专注力的生理工具\n1:21:36 深度工作（Cal Newport）\n2:23:02 高效学习方法：自测、掌握与刻意练习\n3:03:18 把学到的留住：记忆\n3:34:28 睡眠与休息：学习的另一半\n4:06:02 拖延、自控与意志力\n4:24:44 习惯：养成与戒除\n4:54:29 目标：设定、追踪与坚持\n5:23:27 一天的完整方案\n🌟 精彩内容\n💡 考自己，比重读有效得多\n读完一遍就合上书回忆，比反复重读强得多：自测既检验你会了什么，也让大脑真正记住。读得越多越觉得自己会了，这种熟悉感恰恰是错觉。\n“跟只是接触材料相比，自我测试能让你遗忘的内容减少一半。”\n💡 犯错，才是大脑开始改变的信号\n学东西时卡住、出错、觉得挫败，不是该停下的信号。神经系统正是在出错时释放化学物质，告诉大脑“回路需要调整”。挫败时多坚持一会儿，学习才真正发生。\n“触发可塑性的信号，就是犯错。”\n💡 让努力本身成为奖励\n多巴胺管的是“想要”，不是快乐。每次做事都叠加刺激（音乐、咖啡、奖励），基线会被拉低，越来越难有动力。更持久的办法，是把吃力的过程本身当成奖励。\n“要学会通过努力本身，让多巴胺猛增。”\n💡 手机放到另一个房间\nCal Newport 和 Huberman 都把手机挪出工作的房间：一天里真正高质量的深度工作只有几个小时，频繁切换任务的代价远比想象中大。\n“如果手机放在另一个房间，你的认知表现似乎就会恢复到之前较高的水平。”\n💡 学完先睡一觉\nMatthew Walker 的实验显示，学习后的睡眠像给记忆按下保存键；练习完的技能，在睡过一晚后速度和准确率都明显提升，而熬夜突击的内容一个月后几乎全忘。\n“让你达到完美的不是练习本身，而是练习之后再睡上一晚。”\n💡 偶尔断一次没关系，别断两次\nJames Clear 的习惯原则：不追求完美的连续记录，坏日子也做一个最小版本，关键是不让一次失手变成放弃。\n“别连续错过 2 次，这句话是一种鼓励。”\n📚 剪辑来源（Huberman Lab 原节目，按发布时间）\n- 2021-02-08 How to Focus to Change Your Brain\n- 2021-02-15 Using Failures, Movement & Balance to Learn Faster\n- 2021-02-22 Optimize Your Learning & Creativity with Science-Based Tools\n- 2021-03-22 How to Increase Motivation & Drive\n- 2021-05-17 How to Learn Skills Faster\n- 2021-07-05 The Science of Hearing, Balance & Accelerated Learning\n- 2021-07-12 Maximizing Productivity, Physical & Mental Health with Daily Tools\n- 2021-08-16 Dr. Anna Lembke: Understanding & Treating Addiction\n- 2021-09-13 ADHD & How Anyone Can Improve Their Focus\n- 2021-09-27 Controlling Your Dopamine For Motivation, Focus & Satisfaction\n- 2022-01-03 The Science of Making & Breaking Habits\n- 2022-01-17 The Science of Setting & Achieving Goals\n- 2022-01-31 Optimizing Workspace for Productivity, Focus, & Creativity\n- 2022-05-16 Understand & Improve Memory Using Science-Based Tools\n- 2022-05-23 Dr. Wendy Suzuki: Boost Attention & Memory with Science-Based Tools\n- 2022-08-01 Dr. Emily Balcetis: Tools for Setting & Achieving Goals\n- 2022-09-05 Focus Toolkit: Tools to Improve Your Focus & Concentration\n- 2023-02-13 Dr. Gina Poe: Use Sleep to Enhance Learning, Memory & Emotional State\n- 2023-03-27 Leverage Dopamine to Overcome Procrastination & Optimize Effort\n- 2023-04-24 Science-Based Mental Training & Visualization for Improved Learning\n- 2023-06-05 Dr. Immordino-Yang: How Emotions & Social Factors Impact Learning\n- 2023-07-17 How to Enhance Performance & Learning by Applying a Growth Mindset\n- 2023-08-28 Goals Toolkit: How to Set & Achieve Your Goals\n- 2023-09-18 How to Use Music to Boost Motivation, Mood & Improve Learning\n- 2023-09-29 AMA #11: Improve Task Switching & Productivity and Reduce Brain Fog\n- 2023-10-09 How to Increase Your Willpower & Tenacity\n- 2024-03-11 Dr. Cal Newport: How to Enhance Focus and Improve Productivity\n- 2024-04-24 Guest Series | Dr. Matt Walker: Using Sleep to Improve Learning, Creativity & Memory\n- 2024-08-26 Optimal Protocols for Studying & Learning\n- 2024-09-30 Dr. Charan Ranganath: How to Improve Memory & Focus Using Science Protocols\n- 2024-11-18 Dr. Terry Sejnowski: How to Improve at Learning Using Neuroscience & AI\n- 2025-01-27 Josh Waitzkin: The Art of Learning & Living Life\n- 2025-07-14 How Nature & Other Physical Environments Impact Your Focus, Cognition & Health | Dr. Marc Berman\n- 2025-08-11 How to Rewire Your Brain & Learn Faster | Dr. Michael Kilgard\n- 2025-09-29 Enhance Your Learning Speed & Health Using Neuroscience Based Protocols | Dr. Poppy Crum\n- 2026-01-05 Best Ways to Build Better Habits & Break Bad Ones | James Clear\n- 2026-01-26 Science & Tools of Learning & Memory | Dr. David Eagleman\n- 2026-02-02 How Dopamine & Serotonin Shape Decisions, Motivation & Learning | Dr. Read Montague\n- 2026-05-11 Master Self Control & Overcome Procrastination | Dr. Kentaro Fujita\n- 2026-07-13 How to Improve Your Memory & Cognitive Function at Any Age | Dr. Alan Castel\n- 2026-07-20 Accelerate Learning & Increase Cognitive Capacity | Dr. Tommy Wood\n- 2026-08-24 How to Improve Motivation & Overcome Procrastination | Dr. Masud Husain\n- 2026-08-31 How to Accelerate Learning & Improve Education | Joe Liemandt\n🌐 播客信息补充\n本播客采用原有人声声线进行播客音频制作，也可能会有一些地方听起来怪怪的\n使用 AI 进行翻译，因此可能会有一些地方不通顺\n\n在小宇宙查看该单集文稿",
+    "publishedAt": "2026-10-07T01:34:02+00:00",
     "rssUrl": "https://feed.xyzfm.space/r8t44lmvu99m",
     "coverImageUrl": "https://image.xyzcdn.net/FgPi3C76e0yvQlUYo8TDbk1GTgp8.png",
     "coverText": "跨国",
     "coverBg": "bg-[#18181B]",
     "coverTextColor": "text-amber-50",
-    "whyRecommended": "聚焦本期我们克隆了：Matt Pocock ，适合想快速判断这期是否值得听的人。",
+    "whyRecommended": "聚焦本期我们从 43 期 Huberman ，适合想快速判断这期是否值得听的人。",
     "viewpoints": [
-      "本期我们克隆了：Matt Pocock · LIVE: Poteto (creator of pstack) on shipping 1,000's of PR's a month at SpaceX",
-      "原内容更新时间：2026-10-03",
-      "当你睡着时，Agent 能不能自己验证、修好并合并代码？Lauren Tan 在 SpaceX AI 的工作中，已经把这件事做成了日常流程。"
+      "本期我们从 43 期 Huberman Lab节目中混剪并克隆出了一份「学习指南」。43 期里挑出讲学习、多巴胺、专注和深度工作的片段，按主题重新编排而成的一集。斯坦福大学神经生物学教授 Andrew Huberman 和 20 位嘉宾的话都是原话剪辑，没有另加旁白；每位嘉宾第一次出场前，保留了 Huberman 原本对他的介绍。",
+      "原内容时间跨度：2021-02-08 至 2026-08-31",
+      "全集分 12 章，先讲大脑为什么能学、靠什么学，再讲动力从哪里来、怎么专注、怎么做深度工作、怎么学得更快，然后是如何记住、怎样睡好，以及如何克服拖延、养成习惯、设定目标，最后把这些方法排进一天的日程。同一个知识点只保留讲得最清楚的那一版，尽量做到能听懂、能照着做。"
     ],
     "goldenQuotes": [
       {
-        "quote": "领域专业知识比以往任何时候都重要。",
+        "quote": "跟只是接触材料相比，自我测试能让你遗忘的内容减少一半。",
         "source": "来自本期 shownote",
         "source_note": "来自本期 shownote"
       },
       {
-        "quote": "如果 Agent 实际上看不到自己的工作结果，它就根本没法迭代。",
+        "quote": "触发可塑性的信号，就是犯错。",
         "source": "来自本期 shownote",
         "source_note": "来自本期 shownote"
       }
     ],
     "triageTag": "🚶边走边听｜主线清楚好进入",
-    "href": "cosmos://page.cos/episode/6ac5480ee742e36efcbf0ea5?utm_source=rss",
-    "whyRecommend": "聚焦本期我们克隆了：Matt Pocock ，适合想快速判断这期是否值得听的人。",
-    "goldenQuote": "领域专业知识比以往任何时候都重要。",
+    "href": "cosmos://page.cos/episode/6ac59c6ce742e36efcbf181a?utm_source=rss",
+    "whyRecommend": "聚焦本期我们从 43 期 Huberman ，适合想快速判断这期是否值得听的人。",
+    "goldenQuote": "跟只是接触材料相比，自我测试能让你遗忘的内容减少一半。",
     "topicTag": "🚶边走边听｜主线清楚好进入"
   },
   "backupEpisodes": [
     {
-      "episodeId": "fe8697b1-e892-4c84-990d-0559b949a852",
-      "podcastName": "Vibration 歪波音室",
-      "episodeTitle": "秋日限定歌单：云淡秋深，风来夜长",
-      "description": "秋天到了\n\n白雲又流浪回原點\n\n失去關懷的樹枝上\n\n許多懸宕的心\n\n已經結成隱密的果實\n\n——《有秋天抵達的幾則》鯨向海\n\n👇配套歌单，点击超链接收藏\n\n网易云音乐、Spotify\n\n \n\n✨ 歪波 · 支持计划：后台语音+私人音乐直播\n每月 10 元，支持《Vibration 歪波音室》继续做下去！\n\n为了表达感谢，我会留给你一些生活、幕后语音。尽量维持每月 2-4 条后台语音，分享最近的生活、工作和一些没放进正片的想法。以及，每个月将会有 2-3 次私人的音乐直播【Vibration Club】，我会在直播中分享由我人工挑选的各种歌单（有时也会邀请你一起分享），陪你度过纯粹的音乐时光（直播也会有视频回放可以看和听）。\n感兴趣请👉点击链接\n\n \n\n🕕 时间轴与歌曲列表\n（歌曲名 – 音乐人）\n\n02:25 Terrapin – Clairo06:33 Candlelight – 落日飞车11:17 Kundela Mawedi – Atabasca17:56 I Come With Mud – Men I Trust23:50 昼間から夜 – mei ehara29:11 Luciférine – 青葉市子35:26 Allday – HIMI42:37 We Need You – Cleo Sol\n \n\n🕺 Staff\n主播、声音剪辑制作、信息整合：拾壹封面图原作者：Annie Spratt\n \n\n📎 节目介绍\n「Vibration 歪波音室」是一档以爱好者的视角分享音乐的播客节目，希望能让你进入更丰富有趣的音乐世界。欢迎大家到微博还有小红书关注我的账号，除了节目资讯之外，我也会在上面分享更多音乐和我的生活～\n\n🎯 商务、媒体合作：添加微信 relic_ice，请备注来意📬 如果有任何问题或反馈，欢迎评论留言或发电子邮件至：relicice@gmail.com",
-      "publishedAt": "2026-10-04T21:15:00+00:00",
-      "rssUrl": "https://s2.proxy.wavpub.com/vibration.xml",
-      "coverImageUrl": "https://media-one.wavpub.com/covers/ac342332-acdc-45df-bb31-916a5ed01a91/a0a4cdf596098ad5.png",
-      "coverText": "Vi",
+      "episodeId": "6ac59d83195d838e2aedfea2",
+      "podcastName": "十分吸引",
+      "episodeTitle": "EP.05 便利店里看懂中国零售商业模式变迁",
+      "description": "中国的便利店数量全球第一，20.8万家，比美国还多出5.6万家；另外，这些年全国大街小巷零食量贩店遍地开花，同一个街区，便利店和零食量贩店比邻而居，价格差异巨大却共存。\n在两套生意模型背后，藏着什么样的商业逻辑？开一家便利店或者零食量贩店能赚钱吗？\n这一期我们请来老朋友孙悦，从便利店、零食量贩店一路聊到Costco、蜜雪和古茗，想从便利店看看中国零售商业模式的转变，以及真正有价值的零售生意到底应该是什么样子。\n免责声明：本节目内容仅为信息分享与逻辑推演，不构成任何投资建议。市场有风险，投资需谨慎。\n=================================本期嘉宾：\n孙悦 公众号《孙悦研究随笔》\n本期主播：敏姐\n微信公众号《刘敏的咖啡馆》\n小红书：敏姐attractor\n本期文字稿：\n便利店里看懂中国零售商业模式变迁丨做客《十分吸引》=================================隆重推荐：吸引子attractor Skill以吸引子五步方法论作为指导，在节目270万字语料库的基础上接入51个宏观结构化指标，动态监控关键路标。用系统生态的视角看待问题，用适应性的策略解决问题。可交流投资、可讨论人生。反正都是这个不确定的世界中的一环。WorkBuddy、Codex、Claude Code、Hermes等所有主流Agent均可安装。或者进入这个安装地址亦可安装：吸引子 Attractor · 系统化洞察，多元化适应\n使用中遇到问题或者想加听友群交流，请扫描下面二维码：\n==============时间线==============\n第一部分 两家店卖的不是同一瓶水\n03:15 同货不同价 矿泉水便利店卖2块，零食店1块2；3块钱的标准瓶装可乐，零食店2块3。省的那家没消灭贵的那家，因为卖的不是同一瓶水。\n07:32 效率和快乐 便利店顾客停留半分钟，零食店1800多个SKU停留6分钟。便利店卖的是时间，零食店卖的是逛和快乐，是低成本低门槛的快乐。\n11:05 散称的毛利 近期缺斤短两的争议主要出在散称商品上，因为散装要上秤。散称、不容易比价的商品，才是零食店毛利的主要来源。\n第二部分 一睁眼就欠2000块\n13:25 长沙90平米鲜食便利店的账 房租600、人工600、装修转让和设备折旧200、水电200、损耗100、杂费100，一天合计1800。不是卖1800的货，是赚1800。\n16:17 卖6900才回本 毛利率26%，客单15元，要日卖460单。高峰8小时扛275单，不到2分钟成交一单，店员同时要热包子、做咖啡、补货、接外卖。\n20:48 县城的逻辑不一样 700个县城样本日均工作6.9小时，对便利的需求反而更弱。县城开便利店更像开零食店：要120到150平米的大店、做鲜食、灯要亮、24小时营业。\n23:41 熟人社会与陌生人社会 写字楼下面扫码就走，县城要的是亮堂、热闹、能逛的第三空间。同一门生意，底层差的是时间感和生活节奏。\n第三部分 抄日本作业，抄的都是成本\n27:31 日本把便利店做成了系统 铃木敏文1974年在东京开出第一家，此后共同配送、POS电子订货、鲜食一日三配，把便利店变成一套可以复制的系统。\n29:14 便利店是时间稀缺型的生意 人均GDP 2000美元导入、5000美元快长、1万美元进竞争拐点。中国2006、2011、2018年跨过三道线，正好是经济上行的那十几年。\n33:06 抄作业抄的都是成本 日系带进24小时营业和统一配送，但新佳宜吴敏仪说抄的都是成本：湖南一年吃掉几百亿麻辣食品，比关东煮更该先把麻辣做好。\n34:38 门店数全球第一，密度还差得远 2025年底TOP100合计20.8万家，美国15.2万、日本5.7万。但渗透率中国是5800人一家，韩国970人一家。密度前三是东莞、长沙、太原。\n39:13 店越多，生意越难做 2026年上半年闭店7418家、净增仅1391家。单店日销从2019年5297元降到2025年4453元，净利润还在增长的企业从45%掉到25%。\n40:56 三个趋势 TOP10门店占比从32%升到42%，小店不是关门而是翻店改造成加盟店；家家做自有品牌，行业平均占比5%，椰子水价格只有大爆品的一半；区域龙头只往下沉，覆盖省份从3.7个降到3.6个。\n第四部分 零食店为什么更便宜还开得更快\n51:08 规模化直采 鸣鸣很忙26405家店，上半年GMV638.89亿，单店日销1万4，是便利店的三倍。招股书写明直接向厂商采购、减少中间环节，价格比线下超市同类便宜25%。\n52:50 议价权看上游财报 盐津铺子对零食很忙的收入占比从2022年7.3%升到2025年30.85%；反过来零食很忙最大供应商只占采购额3%。这是明显的不对称。\n56:12 加盟商为什么跟着开 长保商品不用日配、店员只管结账，日销高但单量一样；26000多家店里直营只有9家，铺子和人力都是加盟商的；资本三年半投进来约16亿。\n59:27 三个问题 店均订单从462涨到481单，客单价却从35元降到31元，日均GMV下滑8%，高增长不等于每家店都在长；总部开新店会稀释加盟商的销售额，300米距离保护在增长放缓时未必守得住；收入如果只是流水，不沉淀为用户信任和对消费者偏好的洞察，就不是长期优势。\n第五部分 什么样的零售生意能穿越周期\n01:02:37 结构性的低成本 一句话概括就是能否以结构性的低成本持续提供高质价比。靠补贴、烧钱、短秤、转嫁成本压下来的价格，都不算。\n01:04:39 Costco 2750亿美元收入、全球不到1000家店、坪效是沃尔玛3倍，SKU不到4000个，加价率上限14%、平均11%，从不花钱打广告。\n01:06:17 提价3%就能增税前收入50% 联合创始人西内加尔说，把番茄酱从1美元提到1.03美元没人会察觉，但不这么做，因为提价像吸海洛因，吸了一点就会想要更多。\n01:08:47 蜜雪和古茗投的不是同一个地方 蜜雪固定资产54.6亿占收入16%，五个生产基地、核心食材100%自产；古茗10.1亿占8%，靠区域加密把仓到店物流成本压到销售额1%以下，98%门店两日一配。\n01:12:15 三个判断 价格带里有没有消费者真实感知得到的质价比；低成本是否健康可持续，能不能让消费者、加盟商、供应商、总部都获益；规模扩大之后，除了收入数字还留下了什么。\n\n在小宇宙查看该单集文稿",
+      "publishedAt": "2026-10-07T01:23:17+00:00",
+      "rssUrl": "https://feed.xyzfm.space/nc63kbv63kjh",
+      "coverImageUrl": "https://image.xyzcdn.net/FiD7tnQ-I0LXpArN8EMTHl91kNOB.jpg",
+      "coverText": "十分",
       "coverBg": "bg-[#18181B]",
       "coverTextColor": "text-amber-50",
-      "whyRecommended": "聚焦《有秋天抵達的幾則》鯨向海，适合想快速判断这期是否值得听的人。",
+      "whyRecommended": "聚焦中国的便利店数量全球第一，20.8万家，适合想快速判断这期是否值得听的人。",
       "viewpoints": [
-        "《有秋天抵達的幾則》鯨向海",
-        "👇配套歌单，点击超链接收藏",
-        "网易云音乐、Spotify"
+        "中国的便利店数量全球第一，20.8万家，比美国还多出5.6万家；另外，这些年全国大街小巷零食量贩店遍地开花，同一个街区，便利店和零食量贩店比邻而居，价格差异巨大却共存。",
+        "在两套生意模型背后，藏着什么样的商业逻辑？开一家便利店或者零食量贩店能赚钱吗？",
+        "这一期我们请来老朋友孙悦，从便利店、零食量贩店一路聊到Costco、蜜雪和古茗，想从便利店看看中国零售商业模式的转变，以及真正有价值的零售生意到底应该是什么样子。"
       ],
       "goldenQuotes": [],
-      "triageTag": "☕有空再听｜主线清楚好进入",
-      "href": "fe8697b1-e892-4c84-990d-0559b949a852",
+      "triageTag": "🚶边走边听｜主线清楚好进入",
+      "href": "cosmos://page.cos/episode/6ac59d83195d838e2aedfea2?utm_source=rss",
       "scenario": "",
-      "whyRecommend": "聚焦《有秋天抵達的幾則》鯨向海，适合想快速判断这期是否值得听的人。",
-      "goldenQuote": "聚焦《有秋天抵達的幾則》鯨向海，适合想快速判断这期是否值得听的人。",
-      "topicTag": "☕有空再听｜主线清楚好进入"
+      "whyRecommend": "聚焦中国的便利店数量全球第一，20.8万家，适合想快速判断这期是否值得听的人。",
+      "goldenQuote": "聚焦中国的便利店数量全球第一，20.8万家，适合想快速判断这期是否值得听的人。",
+      "topicTag": "🚶边走边听｜主线清楚好进入"
     },
     {
-      "episodeId": "6abec328195d838e2aec7e63",
+      "episodeId": "6ac5ac8e195d838e2aee04ef",
       "podcastName": "跨国串门儿计划",
-      "episodeTitle": "#750.理查德·费曼 - 物理定律的本质 (1964) - 完整版",
-      "description": "🎙️ 费曼：理解物理定律，先学会接受它的反直觉\n📝 本期播客简介\n本期我们克隆了：Richard Feynman's Lectures · Richard Feynman - The Character of Physical Law (1964) - Complete - Better Audio\n原内容更新时间：1964年\n“猜想是谁提出的、他叫什么名字，都无关紧要。如果它和实验结果不符，那它就是错的。”费曼从万有引力定律讲起，追问自然规律究竟是什么、科学又怎样一步步逼近它。\n这套康奈尔大学讲座从引力、数学与物理的关系，讲到守恒、对称、过去与未来、量子力学，以及寻找新定律的方法。费曼既讲开普勒如何从精确观测中找出行星轨道，也讲双孔实验为何让电子的行为无法用日常经验解释。\n👤 本期嘉宾\n理查德·费曼，理论物理学家。这套讲座录制于1964年康奈尔大学，他以万有引力定律为例，讲解物理定律的特征、历史和检验方式，并进一步谈到量子力学与科学发现。\n⏱️ 时间戳\n00:18 物理定律与引力\n04:46 第谷与开普勒\n13:49 牛顿引力的检验\n42:08 数学如何连接物理\n1:29:47 守恒定律的意义\n2:15:54 物理定律的对称性\n3:08:01 不可逆与时间方向\n3:48:32 量子力学的双孔实验\n4:38:18 猜测并检验新定律\n5:19:03 理论等价与探索未来\n🌟 精彩内容\n💡 精确观测，才能让理论改道\n第谷·布拉赫一夜接一夜记录行星位置，开普勒则用这些数据反复试错。火星的位置偏了8角分，开普勒没有把偏差归咎于观测，而是放弃圆轨道，最终找到了椭圆轨道。\n\"正因为观测足够精确，他才能继续尝试别的方案，最后终于找到了答案。\"\n💡 能量守恒，连看不见的能量也得算\n费曼用孩子玩积木打比方：妈妈发现积木少了，就去盒子和水槽里找看不见的积木。能量守恒也一样，运动、热、光、化学反应里的能量形式各异，总量却始终相同。\n\"存在一个可以算出来、而且始终不变的数。我也只能这样解释了。\"\n💡 过去与未来的区别，不在基本定律里\n分子碰撞遵循的定律可以倒放；蓝水和白水混合后却不会自行分开。表面上的不可逆，来自随机变化让混合更可能发生，而要解释我们为什么从有序走向无序，还得追问宇宙过去为何更有序。\n\"这些过程所谓不可逆，只是说沿一个方向发展很可能发生；反过来虽然也可能，而且符合物理定律，却一百万年里都不会发生。\"\n💡 电子像粒子，却会产生干涉\n双孔实验中，电子一个个到达探测器；两个孔都打开时，它们的到达概率却不能由分别通过两个孔的结果相加得到。想知道电子经过哪个孔，就得用光观察，而观察会改变干涉图样。\n\"电子像粒子一样，一个个地到达；但这些粒子的到达概率，是按波的强度那样的规律决定的。\"\n💡 科学只能排除错误，不能证明正确\n一个理论即使经得起几百年检验，也可能在新实验里露出偏差；牛顿的万有引力定律就是例子。科学要做的不是只在已知范围内验证理论，而是尽可能去那些可能出错的地方找证据。\n\"所以我们永远不能证明自己是对的，只能确定自己错了。\"\n🌐 播客信息补充\n本播客采用原有人声声线进行播客音频制作，也可能会有一些地方听起来怪怪的\n使用 AI 进行翻译，因此可能会有一些地方不通顺\n\n在小宇宙查看该单集文稿",
-      "publishedAt": "2026-10-01T21:33:17+00:00",
+      "episodeTitle": "#757.ChatGPT 负责人 Tibo 谈 Dots、环境人工智能以及为什么互联网上的大部分行为很快将由人工智能完成",
+      "description": "📝 本期播客简介\n本期我们克隆了：Lenny's Podcast · OpenAI’s Head of ChatGPT: We’re entering a new era of AI (again) | Tibo Sottiaux\n原内容更新时间：2026-10-04\n“互联网上的大部分操作，都会由 Agent 来完成。”这不只是技术预测，也意味着产品和工作方式都要重新设计：当 Agent 成为用户，产品该怎么接住它们带来的流量？\nLenny 与 OpenAI ChatGPT 和 Codex 负责人 Tibo Sottiaux 聊 Agent 的未来：从一个全天候、会理解目标并持续学习的助手，到 Agent 如何改变产品分发、工作技能和人与技术的关系。Tibo 也谈到，AI 提效不该只是催着人做更多事，以及他的 Dot 如何在现场演示开始前五分钟发现线上故障。\n👤 本期嘉宾\nTibo Sottiaux 负责 OpenAI 的 ChatGPT 和 Codex。他参与推动 Codex、ChatGPT Work 和 Dots 等产品的发展，也长期参与耗时长、持续运行的 Agent 系统与记忆能力研究。他从产品发布、团队协作和实际使用场景出发，谈 Agent 如何落地，以及怎样为安全和人类需求设计 AI。\n⏱️ 时间戳\n01:20 智能体走向常在\n07:45 共建Dots与开放生态\n15:03 AI重塑工作与行业\n🌟 精彩内容\n💡 Agent 会成为互联网的主要使用者\nTibo 判断，互联网上大多数操作最终会由 Agent 完成。Notion 接入 MCP 后，能实际干活的 Agent 带来大量流量，产品团队也必须考虑系统承载和商业模式。\n\"我觉得互联网上的大部分操作，都会由 Agent 来完成。\"\n💡 未来不必自己编排一堆循环\n反复设置循环、调试工作流只是过渡。Tibo 描绘的方向是一个全天候理解目标、记住偏好、从反馈中学习的 Agent；用户不必先想好每一步该怎么安排。\n\"长远来看，你想要的就是一个能根据你想达成的目标来学习的系统。\"\n💡 AI 时代，品味比打字速度更重要\n在他看来，打字快的价值正在下降；理解用户、判断什么才算好、持续迭代，反而越来越重要。岗位边界也会变模糊，创造者不必只做设计或只做工程。\n\"重要性在下降的一项技能，就是打字快。\"\n💡 AI 不该只催人做更多事\nAgent 越多、产出越快，不代表工作就更好。Tibo 希望 AI 能减少干扰，让人少开会、好好休息，把注意力留给真正想做的事。\n\"而不只是每秒多发一个 prompt。\"\n💡 他的 Dot 提前发现了线上故障\nDevDay 现场演示前五分钟，Dot 发现 ChatGPT 线上系统出了故障，还主动问能不能尝试修复。Tibo 没让它动手，而是联系工程团队排查。\n\"嘿，线上系统出故障了。要我试着修一下吗？\"\n🌐 播客信息补充\n本播客采用原有人声声线进行播客音频制作，也可能会有一些地方听起来怪怪的\n使用 AI 进行翻译，因此可能会有一些地方不通顺\n\n在小宇宙查看该单集文稿",
+      "publishedAt": "2026-10-07T02:24:52+00:00",
       "rssUrl": "https://feed.xyzfm.space/r8t44lmvu99m",
       "coverImageUrl": "https://image.xyzcdn.net/FgPi3C76e0yvQlUYo8TDbk1GTgp8.png",
       "coverText": "跨国",
       "coverBg": "bg-[#18181B]",
       "coverTextColor": "text-amber-50",
-      "whyRecommended": "聚焦🎙️ 费曼：理解物理定律，先学会接受它的，适合想快速判断这期是否值得听的人。",
+      "whyRecommended": "聚焦本期我们克隆了：Lenny's Podc，适合想快速判断这期是否值得听的人。",
       "viewpoints": [
-        "🎙️ 费曼：理解物理定律，先学会接受它的反直觉",
-        "本期我们克隆了：Richard Feynman's Lectures · Richard Feynman - The Character of Physical Law (1964) - Complete - Better Audio",
-        "原内容更新时间：1964年"
+        "本期我们克隆了：Lenny's Podcast · OpenAI’s Head of ChatGPT: We’re entering a new era of AI (again) | Tibo Sottiaux",
+        "原内容更新时间：2026-10-04",
+        "“互联网上的大部分操作，都会由 Agent 来完成。”这不只是技术预测，也意味着产品和工作方式都要重新设计：当 Agent 成为用户，产品该怎么接住它们带来的流量？"
       ],
       "goldenQuotes": [
         {
-          "quote": "猜想是谁提出的、他叫什么名字，都无关紧要。如果它和实验结果不符，那它就是错的。",
+          "quote": "互联网上的大部分操作，都会由 Agent 来完成。",
           "source": "来自本期 shownote",
           "source_note": "来自本期 shownote"
         },
         {
-          "quote": "正因为观测足够精确，他才能继续尝试别的方案，最后终于找到了答案。",
+          "quote": "我觉得互联网上的大部分操作，都会由 Agent 来完成。",
           "source": "来自本期 shownote",
           "source_note": "来自本期 shownote"
         }
       ],
-      "triageTag": "🚶边走边听｜主线清楚好进入",
-      "href": "cosmos://page.cos/episode/6abec328195d838e2aec7e63?utm_source=rss",
+      "triageTag": "☕有空再听｜主线清楚好进入",
+      "href": "cosmos://page.cos/episode/6ac5ac8e195d838e2aee04ef?utm_source=rss",
       "scenario": "",
-      "whyRecommend": "聚焦🎙️ 费曼：理解物理定律，先学会接受它的，适合想快速判断这期是否值得听的人。",
-      "goldenQuote": "猜想是谁提出的、他叫什么名字，都无关紧要。如果它和实验结果不符，那它就是错的。",
-      "topicTag": "🚶边走边听｜主线清楚好进入"
+      "whyRecommend": "聚焦本期我们克隆了：Lenny's Podc，适合想快速判断这期是否值得听的人。",
+      "goldenQuote": "互联网上的大部分操作，都会由 Agent 来完成。",
+      "topicTag": "☕有空再听｜主线清楚好进入"
     }
   ],
   "synthesis": null
