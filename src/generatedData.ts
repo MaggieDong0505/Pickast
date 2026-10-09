@@ -8,105 +8,83 @@
 import { BriefingCardData } from './types';
 
 export const initialData: BriefingCardData = {
-  "dateStr": "2026.10.08",
-  "chinaDateStr": "星期四 / THURSDAY",
+  "dateStr": "2026.10.09",
+  "chinaDateStr": "星期五 / FRIDAY",
   "title": "今天最值得听 • TODAY'S VOICE",
   "issueNo": "精选 3 条",
   "mainEpisode": {
-    "episodeId": "6ac59c6ce742e36efcbf181a",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#756. Huberman 多集混剪｜学习、专注与深度工作",
-    "description": "📝 本期播客简介\n本期我们从 43 期 Huberman Lab节目中混剪并克隆出了一份「学习指南」。43 期里挑出讲学习、多巴胺、专注和深度工作的片段，按主题重新编排而成的一集。斯坦福大学神经生物学教授 Andrew Huberman 和 20 位嘉宾的话都是原话剪辑，没有另加旁白；每位嘉宾第一次出场前，保留了 Huberman 原本对他的介绍。\n原内容时间跨度：2021-02-08 至 2026-08-31\n全集分 12 章，先讲大脑为什么能学、靠什么学，再讲动力从哪里来、怎么专注、怎么做深度工作、怎么学得更快，然后是如何记住、怎样睡好，以及如何克服拖延、养成习惯、设定目标，最后把这些方法排进一天的日程。同一个知识点只保留讲得最清楚的那一版，尽量做到能听懂、能照着做。\n文字稿链接：https://my.feishu.cn/docx/GfLCdauwRoIcO6xoK0LcW9x1noc?from=from_copylink\n👤 本期嘉宾\nAndrew Huberman：斯坦福大学医学院神经生物学和眼科学教授，Huberman Lab 主持人\nCal Newport：乔治城大学计算机科学教授，《深度工作》作者\nAnna Lembke：斯坦福大学精神病学家，成瘾医学专家，《成瘾》作者\nMatthew Walker：睡眠科学家，《我们为什么要睡觉》作者\nJames Clear：《掌控习惯》作者\nCharan Ranganath：加州大学戴维斯分校心理学与神经科学教授，研究人类记忆\nWendy Suzuki：纽约大学神经科学与心理学教授，研究学习与记忆\nGina Poe：加州大学洛杉矶分校教授，研究睡眠与学习\nTerry Sejnowski：索尔克生物研究所计算神经生物学实验室主任\nMichael Kilgard：得克萨斯大学达拉斯分校教授，神经可塑性研究者\nDavid Eagleman：神经科学家、科普作家\nMary Helen Immordino-Yang：南加州大学教育、心理学与神经科学教授，研究情绪与学习\nMarc Berman：芝加哥大学心理学教授，研究环境对大脑的影响\nMasud Husain：牛津大学神经科医生、神经科学家，研究动机与快乐\nKentaro Fujita：俄亥俄州立大学心理学教授，研究自我控制\nEmily Balcetis：纽约大学心理学教授，研究动机与目标设定\nAlan Castel：加州大学洛杉矶分校心理学教授，研究记忆与认知衰老\nPoppy Crum：神经科学家，斯坦福大学教授，前杜比实验室首席科学家\nJosh Waitzkin：国际象棋冠军、太极推手冠军，《学习之道》作者\nTommy Wood：华盛顿大学医生、神经科学研究者\nJoe Liemandt：Alpha School 负责人\n⏱️ 时间戳\n00:01 开场：你的大脑可以被重塑\n02:28 学习的底层原理：注意力、犯错与可塑性\n22:08 多巴胺：动机从哪里来\n49:08 专注力的生理工具\n1:21:36 深度工作（Cal Newport）\n2:23:02 高效学习方法：自测、掌握与刻意练习\n3:03:18 把学到的留住：记忆\n3:34:28 睡眠与休息：学习的另一半\n4:06:02 拖延、自控与意志力\n4:24:44 习惯：养成与戒除\n4:54:29 目标：设定、追踪与坚持\n5:23:27 一天的完整方案\n🌟 精彩内容\n💡 考自己，比重读有效得多\n读完一遍就合上书回忆，比反复重读强得多：自测既检验你会了什么，也让大脑真正记住。读得越多越觉得自己会了，这种熟悉感恰恰是错觉。\n“跟只是接触材料相比，自我测试能让你遗忘的内容减少一半。”\n💡 犯错，才是大脑开始改变的信号\n学东西时卡住、出错、觉得挫败，不是该停下的信号。神经系统正是在出错时释放化学物质，告诉大脑“回路需要调整”。挫败时多坚持一会儿，学习才真正发生。\n“触发可塑性的信号，就是犯错。”\n💡 让努力本身成为奖励\n多巴胺管的是“想要”，不是快乐。每次做事都叠加刺激（音乐、咖啡、奖励），基线会被拉低，越来越难有动力。更持久的办法，是把吃力的过程本身当成奖励。\n“要学会通过努力本身，让多巴胺猛增。”\n💡 手机放到另一个房间\nCal Newport 和 Huberman 都把手机挪出工作的房间：一天里真正高质量的深度工作只有几个小时，频繁切换任务的代价远比想象中大。\n“如果手机放在另一个房间，你的认知表现似乎就会恢复到之前较高的水平。”\n💡 学完先睡一觉\nMatthew Walker 的实验显示，学习后的睡眠像给记忆按下保存键；练习完的技能，在睡过一晚后速度和准确率都明显提升，而熬夜突击的内容一个月后几乎全忘。\n“让你达到完美的不是练习本身，而是练习之后再睡上一晚。”\n💡 偶尔断一次没关系，别断两次\nJames Clear 的习惯原则：不追求完美的连续记录，坏日子也做一个最小版本，关键是不让一次失手变成放弃。\n“别连续错过 2 次，这句话是一种鼓励。”\n📚 剪辑来源（Huberman Lab 原节目，按发布时间）\n- 2021-02-08 How to Focus to Change Your Brain\n- 2021-02-15 Using Failures, Movement & Balance to Learn Faster\n- 2021-02-22 Optimize Your Learning & Creativity with Science-Based Tools\n- 2021-03-22 How to Increase Motivation & Drive\n- 2021-05-17 How to Learn Skills Faster\n- 2021-07-05 The Science of Hearing, Balance & Accelerated Learning\n- 2021-07-12 Maximizing Productivity, Physical & Mental Health with Daily Tools\n- 2021-08-16 Dr. Anna Lembke: Understanding & Treating Addiction\n- 2021-09-13 ADHD & How Anyone Can Improve Their Focus\n- 2021-09-27 Controlling Your Dopamine For Motivation, Focus & Satisfaction\n- 2022-01-03 The Science of Making & Breaking Habits\n- 2022-01-17 The Science of Setting & Achieving Goals\n- 2022-01-31 Optimizing Workspace for Productivity, Focus, & Creativity\n- 2022-05-16 Understand & Improve Memory Using Science-Based Tools\n- 2022-05-23 Dr. Wendy Suzuki: Boost Attention & Memory with Science-Based Tools\n- 2022-08-01 Dr. Emily Balcetis: Tools for Setting & Achieving Goals\n- 2022-09-05 Focus Toolkit: Tools to Improve Your Focus & Concentration\n- 2023-02-13 Dr. Gina Poe: Use Sleep to Enhance Learning, Memory & Emotional State\n- 2023-03-27 Leverage Dopamine to Overcome Procrastination & Optimize Effort\n- 2023-04-24 Science-Based Mental Training & Visualization for Improved Learning\n- 2023-06-05 Dr. Immordino-Yang: How Emotions & Social Factors Impact Learning\n- 2023-07-17 How to Enhance Performance & Learning by Applying a Growth Mindset\n- 2023-08-28 Goals Toolkit: How to Set & Achieve Your Goals\n- 2023-09-18 How to Use Music to Boost Motivation, Mood & Improve Learning\n- 2023-09-29 AMA #11: Improve Task Switching & Productivity and Reduce Brain Fog\n- 2023-10-09 How to Increase Your Willpower & Tenacity\n- 2024-03-11 Dr. Cal Newport: How to Enhance Focus and Improve Productivity\n- 2024-04-24 Guest Series | Dr. Matt Walker: Using Sleep to Improve Learning, Creativity & Memory\n- 2024-08-26 Optimal Protocols for Studying & Learning\n- 2024-09-30 Dr. Charan Ranganath: How to Improve Memory & Focus Using Science Protocols\n- 2024-11-18 Dr. Terry Sejnowski: How to Improve at Learning Using Neuroscience & AI\n- 2025-01-27 Josh Waitzkin: The Art of Learning & Living Life\n- 2025-07-14 How Nature & Other Physical Environments Impact Your Focus, Cognition & Health | Dr. Marc Berman\n- 2025-08-11 How to Rewire Your Brain & Learn Faster | Dr. Michael Kilgard\n- 2025-09-29 Enhance Your Learning Speed & Health Using Neuroscience Based Protocols | Dr. Poppy Crum\n- 2026-01-05 Best Ways to Build Better Habits & Break Bad Ones | James Clear\n- 2026-01-26 Science & Tools of Learning & Memory | Dr. David Eagleman\n- 2026-02-02 How Dopamine & Serotonin Shape Decisions, Motivation & Learning | Dr. Read Montague\n- 2026-05-11 Master Self Control & Overcome Procrastination | Dr. Kentaro Fujita\n- 2026-07-13 How to Improve Your Memory & Cognitive Function at Any Age | Dr. Alan Castel\n- 2026-07-20 Accelerate Learning & Increase Cognitive Capacity | Dr. Tommy Wood\n- 2026-08-24 How to Improve Motivation & Overcome Procrastination | Dr. Masud Husain\n- 2026-08-31 How to Accelerate Learning & Improve Education | Joe Liemandt\n🌐 播客信息补充\n本播客采用原有人声声线进行播客音频制作，也可能会有一些地方听起来怪怪的\n使用 AI 进行翻译，因此可能会有一些地方不通顺\n\n在小宇宙查看该单集文稿",
-    "publishedAt": "2026-10-07T01:34:02+00:00",
-    "rssUrl": "https://feed.xyzfm.space/r8t44lmvu99m",
-    "coverImageUrl": "https://image.xyzcdn.net/FgPi3C76e0yvQlUYo8TDbk1GTgp8.png",
-    "coverText": "跨国",
+    "episodeId": "6ac799c1195d838e2aeed4dd",
+    "podcastName": "贝望录",
+    "episodeTitle": "27. 找出路丨从外企高管到开养生饮品店，一个“小生意”到底有多难做？",
+    "description": "从美资医疗器械公司的管培生、高管，到自己开一家养生熟水店，丁辉用了近十年，完成了一次从“大公司”到“小生意”的转身。本期「贝望录｜找出路」，Bessie 与 Sammy 对话的嘉宾就是这样一位从大平台到小生意的创业者。2017年嘉宾离开外企，最初只是因为接触中医产生兴趣，后来在上海偶然看到一家本草饮品店，2018年开始研发，2019年开出第一家本草小匠。如今，这个品牌已经有多家门店，并准备从“买了就走”的功能型门店，走向更有文化和体验感的空间。但一家养生饮品店，真正难的远不只是把东西煮出来：20多种饮品怎么根据用户需求研发？药食同源的边界怎么守？中药材质量如何把关？为什么门店特别挑选址？为什么店员不仅要会做饮料，还要持续学习和回答消费者的问题？普通食品又为什么不能宣传“功效”？丁辉也分享了自己创业后最大的认知变化——创业者最容易犯的错，是把“自己认为好的东西”误当成用户需求。而从外企走出来，他真正获得的，也许不是更大的办公室、更高的title，而是重新拥有了对产品、价格、供应商、员工和每一个具体决定的掌控权。做生意五年以后，它也不再只是赚钱的business，而开始成为生活的一部分。对于想从大公司出来的人，他给出的建议很朴素：先确认自己真的感兴趣，再给自己至少三年的“净投入期”，并确保家庭和财务都能够承受这段时间。\n【本节目由Withinlink碚曦投资协作体出品】\n【嘉宾】\n丁辉\n「本草小匠养生熟水」创始人，前外资医疗企业高管\n【主持】\n李倩玲 Bessie Lee\n广告营销行业资深从业者，商业观察者\n颜婷 Sammy Yan\n公众号“塞米的小趋势研究室”主理人\n【本期内容提要】\n02:38从美资医疗器械公司管培生做起，丁辉在两家外企工作了10年，2017年离开外企，后来开始做本草小匠\n03:53最初创业并不是做饮品，而是在社区医疗项目中接触中医；兴趣逐渐变成了创业的方向\n05:26一次上海逛街偶然看到本草植物饮品店，让他第一次意识到传统本草也可以变成一种现代消费品。\n07:35本草小匠到底卖什么？\n09:39Sammy第一次发现本草小匠时候觉得这是干净、现代的门店，加上“明厨”式的煎煮过程，让她从此几乎每天喝三杯\n11:43 20多种饮品如何分类？是按照中医对于食材寒热温凉的理解，分成温暖、平衡、清凉三类\n16:10为什么一定要把煮锅摆在消费者面前？因为食品安全越来越成为用户的底层需求，“吃得明白”本身就是产品体验的一部分\n18:14一杯养生熟水可能要煮50分钟到近3小时，门店每天7点多就开始备料，靠滚动煮制保证全天供应\n21:39普通食品生意的边界：产品研发只能使用“药食同源”目录里的食材，中医古方再好，超出食品经营范围也不能直接使用\n25:43养生饮品是趋势，但线下门店极其挑选址；不是所有年轻人都需要养生，更重要的是找到真正匹配自己的客群\n31:00中药材供应链质量参差不齐，如何挑选？从原产地、炮制，到供应商资质，再到最直接的办法——自己喝、自己判断\n35:28为了挑一款真正好的新会陈皮，前前后后测试十几款；所谓“好材料”，最后还是要回到真实的味觉体验\n37:27普通食品不能宣传保健、药用功效，本草小匠甚至曾因宣传问题被罚款；“养生”生意的法律边界到底在哪里？\n45:31一家养生饮品店为什么既挑地点，又挑店员？除了手工制作，30%—40%的用户还会在购买时咨询身体和饮品选择的问题\n50:19店员辛苦并不必然带来高流动率；年轻员工更在意的是工作是否顺心、报酬是否合理，以及能不能在团队里获得成长\n52:03从功能型小店走向体验型门店：未来不仅卖饮品，也希望把中医、本草文化和消费体验放进一个更完整的空间里\n56:32第一家店第一年就没有亏损；一个30—35平方米的标准店，运营半年到一年后基本可以形成比较健康的财务模型\n58:06为什么前期不急着砸钱做营销？有限的钱更应该投入产品、食材、招聘、培训和用户服务，先把“内功”打好\n01:00:46多家门店之后，怎么管理品质？每周分析差评，不要求顾客删差评，甚至把差评当成企业“照镜子”的机会\n01:03:31一次店员被连续投诉“态度冷冰冰”，最后发现问题出在员工对绩效制度的不满，公司因此重新调整奖金方案\n01:08:32创业后最大的认知冲击：自己觉得专业、纯粹、好的产品，消费者未必喜欢；创业者最容易把自己的需求误认为用户需求\n01:12:34从大公司出来之后，丁辉几乎没有经历所谓“放下身段”的痛苦，因为他一直认为大公司的平台才是光环，而不是自己\n01:14:59创业真正吸引他的，是重新拥有大量具体的决定权：产品、价格、供应商、员工奖金，甚至一个商业机会接不接，都可以自己决定\n01:17:29一件事如果做超过5年，它往往就不再只是赚钱的business，而会成为生活的一部分；只有真的喜欢，才更可能做久、做深\n01:19:30如果准备离开大公司创业，最重要的是兴趣；如果只是因为“这可能赚钱”，反而要谨慎\n01:20:53给创业者的现实建议：至少准备好三年的净投入期，即使三年没有新增收入，甚至还要持续往里投，也不能让家庭生活受到重大影响\n01:22:46 Bessie的“去光环化”建议：别太依赖大公司的办公室、配车等外显条件，提前适应失去这些东西之后的生活\n01:24:55从外企高管到多家门店，再到体验店，创业路上的失败和踩坑，也成为今天这门生意最重要的经验资产\n如果你希望联系丁辉，可以添加微信dinghui5200，添加微信请注明「贝望录丨找出路」😊\n如果你对《打工转型小生意入门手册》具体内容感兴趣，扫描下图中的QR code订阅吧！👍\n\n【后期制作】\nJean\n【收听方式】\n推荐您使用Apple Podcast、小宇宙APP、喜马拉雅、荔枝播客、网易云音乐、QQ音乐、Spotify或任意泛用型播客客户端订阅收听《贝望录》。\n【互动方式】\n微博：@贝望录\n微信公众号：贝望录+\n商务合作：beiwanglu@withinlink.com\n*本订阅节目内容及观点仅供参考，不构成任何商业决策建议。",
+    "publishedAt": "2026-10-09T00:00:00+00:00",
+    "rssUrl": "https://feed.xyzfm.space/n67ujl39p8xq",
+    "coverImageUrl": "https://image.xyzcdn.net/Fq4faTEl7Vr6-gl_QkmKIh4NA9Bn.png",
+    "coverText": "贝望",
     "coverBg": "bg-[#18181B]",
     "coverTextColor": "text-amber-50",
-    "whyRecommended": "聚焦本期我们从 43 期 Huberman ，适合想快速判断这期是否值得听的人。",
+    "whyRecommended": "聚焦从美资医疗器械公司的管培生、高管，到自己，适合想快速判断这期是否值得听的人。",
     "viewpoints": [
-      "本期我们从 43 期 Huberman Lab节目中混剪并克隆出了一份「学习指南」。43 期里挑出讲学习、多巴胺、专注和深度工作的片段，按主题重新编排而成的一集。斯坦福大学神经生物学教授 Andrew Huberman 和 20 位嘉宾的话都是原话剪辑，没有另加旁白；每位嘉宾第一次出场前，保留了 Huberman 原本对他的介绍。",
-      "原内容时间跨度：2021-02-08 至 2026-08-31",
-      "全集分 12 章，先讲大脑为什么能学、靠什么学，再讲动力从哪里来、怎么专注、怎么做深度工作、怎么学得更快，然后是如何记住、怎样睡好，以及如何克服拖延、养成习惯、设定目标，最后把这些方法排进一天的日程。同一个知识点只保留讲得最清楚的那一版，尽量做到能听懂、能照着做。"
+      "从美资医疗器械公司的管培生、高管，到自己开一家养生熟水店，丁辉用了近十年，完成了一次从“大公司”到“小生意”的转身。本期「贝望录｜找出路」，Bessie 与 Sammy 对话的嘉宾就是这样一位从大平台到小生意的创业者。2017年嘉宾离开外企，最初只是因为接触中医产生兴趣，后来在上海偶然看到一家本草饮品店，2018年开始研发，2019年开出第一家本草小匠。如今，这个品牌已经有多家门店，并准备从“买了就走”的功能型门店，走向更有文化和体验感的空间。但一家养生饮品店，真正难的远不只是把东西煮出来：20多种饮品怎么根据用户需求研发？药食同源的边界怎么守？中药材质量如何把关？为什么门店特别挑选址？为什么店员不仅要会做饮料，还要持续学习和回答消费者的问题？普通食品又为什么不能宣传“功效”？丁辉也分享了自己创业后最大的认知变化——创业者最容易犯的错，是把“自己认为好的东西”误当成用户需求。而从外企走出来，他真正获得的，也许不是更大的办公室、更高的title，而是重新拥有了对产品、价格、供应商、员工和每一个具体决定的掌控权。做生意五年以后，它也不再只是赚钱的business，而开始成为生活的一部分。对于想从大公司出来的人，他给出的建议很朴素：先确认自己真的感兴趣，再给自己至少三年的“净投入期”，并确保家庭和财务都能够承受这段时间。",
+      "【本节目由Withinlink碚曦投资协作体出品】",
+      "「本草小匠养生熟水」创始人，前外资医疗企业高管"
     ],
-    "goldenQuotes": [
-      {
-        "quote": "跟只是接触材料相比，自我测试能让你遗忘的内容减少一半。",
-        "source": "来自本期 shownote",
-        "source_note": "来自本期 shownote"
-      },
-      {
-        "quote": "触发可塑性的信号，就是犯错。",
-        "source": "来自本期 shownote",
-        "source_note": "来自本期 shownote"
-      }
-    ],
+    "goldenQuotes": [],
     "triageTag": "🚶边走边听｜主线清楚好进入",
-    "href": "cosmos://page.cos/episode/6ac59c6ce742e36efcbf181a?utm_source=rss",
-    "whyRecommend": "聚焦本期我们从 43 期 Huberman ，适合想快速判断这期是否值得听的人。",
-    "goldenQuote": "跟只是接触材料相比，自我测试能让你遗忘的内容减少一半。",
+    "href": "cosmos://page.cos/episode/6ac799c1195d838e2aeed4dd?utm_source=rss",
+    "whyRecommend": "聚焦从美资医疗器械公司的管培生、高管，到自己，适合想快速判断这期是否值得听的人。",
+    "goldenQuote": "聚焦从美资医疗器械公司的管培生、高管，到自己，适合想快速判断这期是否值得听的人。",
     "topicTag": "🚶边走边听｜主线清楚好进入"
   },
   "backupEpisodes": [
     {
-      "episodeId": "6ac59d83195d838e2aedfea2",
-      "podcastName": "十分吸引",
-      "episodeTitle": "EP.05 便利店里看懂中国零售商业模式变迁",
-      "description": "中国的便利店数量全球第一，20.8万家，比美国还多出5.6万家；另外，这些年全国大街小巷零食量贩店遍地开花，同一个街区，便利店和零食量贩店比邻而居，价格差异巨大却共存。\n在两套生意模型背后，藏着什么样的商业逻辑？开一家便利店或者零食量贩店能赚钱吗？\n这一期我们请来老朋友孙悦，从便利店、零食量贩店一路聊到Costco、蜜雪和古茗，想从便利店看看中国零售商业模式的转变，以及真正有价值的零售生意到底应该是什么样子。\n免责声明：本节目内容仅为信息分享与逻辑推演，不构成任何投资建议。市场有风险，投资需谨慎。\n=================================本期嘉宾：\n孙悦 公众号《孙悦研究随笔》\n本期主播：敏姐\n微信公众号《刘敏的咖啡馆》\n小红书：敏姐attractor\n本期文字稿：\n便利店里看懂中国零售商业模式变迁丨做客《十分吸引》=================================隆重推荐：吸引子attractor Skill以吸引子五步方法论作为指导，在节目270万字语料库的基础上接入51个宏观结构化指标，动态监控关键路标。用系统生态的视角看待问题，用适应性的策略解决问题。可交流投资、可讨论人生。反正都是这个不确定的世界中的一环。WorkBuddy、Codex、Claude Code、Hermes等所有主流Agent均可安装。或者进入这个安装地址亦可安装：吸引子 Attractor · 系统化洞察，多元化适应\n使用中遇到问题或者想加听友群交流，请扫描下面二维码：\n==============时间线==============\n第一部分 两家店卖的不是同一瓶水\n03:15 同货不同价 矿泉水便利店卖2块，零食店1块2；3块钱的标准瓶装可乐，零食店2块3。省的那家没消灭贵的那家，因为卖的不是同一瓶水。\n07:32 效率和快乐 便利店顾客停留半分钟，零食店1800多个SKU停留6分钟。便利店卖的是时间，零食店卖的是逛和快乐，是低成本低门槛的快乐。\n11:05 散称的毛利 近期缺斤短两的争议主要出在散称商品上，因为散装要上秤。散称、不容易比价的商品，才是零食店毛利的主要来源。\n第二部分 一睁眼就欠2000块\n13:25 长沙90平米鲜食便利店的账 房租600、人工600、装修转让和设备折旧200、水电200、损耗100、杂费100，一天合计1800。不是卖1800的货，是赚1800。\n16:17 卖6900才回本 毛利率26%，客单15元，要日卖460单。高峰8小时扛275单，不到2分钟成交一单，店员同时要热包子、做咖啡、补货、接外卖。\n20:48 县城的逻辑不一样 700个县城样本日均工作6.9小时，对便利的需求反而更弱。县城开便利店更像开零食店：要120到150平米的大店、做鲜食、灯要亮、24小时营业。\n23:41 熟人社会与陌生人社会 写字楼下面扫码就走，县城要的是亮堂、热闹、能逛的第三空间。同一门生意，底层差的是时间感和生活节奏。\n第三部分 抄日本作业，抄的都是成本\n27:31 日本把便利店做成了系统 铃木敏文1974年在东京开出第一家，此后共同配送、POS电子订货、鲜食一日三配，把便利店变成一套可以复制的系统。\n29:14 便利店是时间稀缺型的生意 人均GDP 2000美元导入、5000美元快长、1万美元进竞争拐点。中国2006、2011、2018年跨过三道线，正好是经济上行的那十几年。\n33:06 抄作业抄的都是成本 日系带进24小时营业和统一配送，但新佳宜吴敏仪说抄的都是成本：湖南一年吃掉几百亿麻辣食品，比关东煮更该先把麻辣做好。\n34:38 门店数全球第一，密度还差得远 2025年底TOP100合计20.8万家，美国15.2万、日本5.7万。但渗透率中国是5800人一家，韩国970人一家。密度前三是东莞、长沙、太原。\n39:13 店越多，生意越难做 2026年上半年闭店7418家、净增仅1391家。单店日销从2019年5297元降到2025年4453元，净利润还在增长的企业从45%掉到25%。\n40:56 三个趋势 TOP10门店占比从32%升到42%，小店不是关门而是翻店改造成加盟店；家家做自有品牌，行业平均占比5%，椰子水价格只有大爆品的一半；区域龙头只往下沉，覆盖省份从3.7个降到3.6个。\n第四部分 零食店为什么更便宜还开得更快\n51:08 规模化直采 鸣鸣很忙26405家店，上半年GMV638.89亿，单店日销1万4，是便利店的三倍。招股书写明直接向厂商采购、减少中间环节，价格比线下超市同类便宜25%。\n52:50 议价权看上游财报 盐津铺子对零食很忙的收入占比从2022年7.3%升到2025年30.85%；反过来零食很忙最大供应商只占采购额3%。这是明显的不对称。\n56:12 加盟商为什么跟着开 长保商品不用日配、店员只管结账，日销高但单量一样；26000多家店里直营只有9家，铺子和人力都是加盟商的；资本三年半投进来约16亿。\n59:27 三个问题 店均订单从462涨到481单，客单价却从35元降到31元，日均GMV下滑8%，高增长不等于每家店都在长；总部开新店会稀释加盟商的销售额，300米距离保护在增长放缓时未必守得住；收入如果只是流水，不沉淀为用户信任和对消费者偏好的洞察，就不是长期优势。\n第五部分 什么样的零售生意能穿越周期\n01:02:37 结构性的低成本 一句话概括就是能否以结构性的低成本持续提供高质价比。靠补贴、烧钱、短秤、转嫁成本压下来的价格，都不算。\n01:04:39 Costco 2750亿美元收入、全球不到1000家店、坪效是沃尔玛3倍，SKU不到4000个，加价率上限14%、平均11%，从不花钱打广告。\n01:06:17 提价3%就能增税前收入50% 联合创始人西内加尔说，把番茄酱从1美元提到1.03美元没人会察觉，但不这么做，因为提价像吸海洛因，吸了一点就会想要更多。\n01:08:47 蜜雪和古茗投的不是同一个地方 蜜雪固定资产54.6亿占收入16%，五个生产基地、核心食材100%自产；古茗10.1亿占8%，靠区域加密把仓到店物流成本压到销售额1%以下，98%门店两日一配。\n01:12:15 三个判断 价格带里有没有消费者真实感知得到的质价比；低成本是否健康可持续，能不能让消费者、加盟商、供应商、总部都获益；规模扩大之后，除了收入数字还留下了什么。\n\n在小宇宙查看该单集文稿",
-      "publishedAt": "2026-10-07T01:23:17+00:00",
-      "rssUrl": "https://feed.xyzfm.space/nc63kbv63kjh",
-      "coverImageUrl": "https://image.xyzcdn.net/FiD7tnQ-I0LXpArN8EMTHl91kNOB.jpg",
-      "coverText": "十分",
+      "episodeId": "8fa0b58e-8359-4609-8e84-30c9a632df50",
+      "podcastName": "硅谷101",
+      "episodeTitle": "E255｜模型越来越强，为什么用户没感觉？再访阿里国际站总裁张阔",
+      "description": "模型在榜单上越来越强，为什么真正把工作交给AI，还是需要人反复解释、检查和兜底？\n\n半年前，我们与阿里国际站总裁张阔聊了Accio Work，以及Agent如何参与采购和日常经营。半年后，我们再次请到他，聊聊这半年来商家使用Accio Work的真实案例，试图回答这个问题：模型能力的提升，究竟有多少变成了商家工作里的进步？\n\n张阔分享，很多模型的通用评测成绩已经接近满分，但团队在真实经营中，并没有感受到同样幅度的提升。为此，他们从实际业务中整理了107个任务，包括比较供应商报价、识别钓鱼邮件、预订船期和处理交易纠纷。据他介绍，在这套特定评测中，最前沿模型在无人干预条件下的任务通过率约为61%。\n\n这些任务没有数学竞赛那么耀眼，却直接关系到商家的成本、交期和利润。一个好用的Agent，既要能把工作做完，也要让人用得起；既要理解工具和流程，也要理解这盘生意究竟想追求什么。\n\n这期节目，我们聊聊榜单成绩与实际交付之间的落差、通用模型与垂直产品的竞争，以及当AI接手越来越多的执行工作，人还需要保留哪些判断。\n\n【主播】\n\nYiwen，硅谷101主持人\n\n【嘉宾】\n\n张阔，阿里国际站总裁\n\n【你将听到】\n\n从写代码到做生意，Agent还差什么？\n\n01:18 AI同事市场：编程之外，专业工作走到了哪一步？\n\n02:38 商业任务为什么比编程更难？\n\n03:48 从采购搜索到日常经营，Accio Work的任务边界如何扩展\n\n06:12 商家案例：植物监测产品，从创意走到设计、供应链和销售\n\n07:47 找工厂、比报价、拿样品：采购流程里，人和AI如何协作\n\n通用模型越来越强，垂直产品还有什么优势？\n\n10:13 中美Agent生态的差异：垂直SaaS与平台工具\n\n11:30 AI会替代SaaS吗？\n\n14:11 独立站与平台电商：不同市场如何影响产品设计\n\n15:16 Agent公式：模型 × 工程框架 × 上下文\n\n17:46 模型与工程联合优化，不能只等模型升级\n\n榜单接近满分，真实工作为什么还会失败？\n\n20:29 107个真实任务：无人干预条件下，最前沿模型通过率约61%\n\n24:32 报价、钓鱼邮件、订船和纠纷：怎样才算真正完成任务？\n\n26:33 新版本也可能退步，评测必须持续做\n\n28:55 多平台经营：有流水，不代表有利润\n\n32:39 产品品味、市场判断与预算分配：老板仍要做的选择\n\n最贵的模型，不一定是最好的选择\n\n33:44 多模型路由：如何为不同任务匹配能力与成本？\n\n38:05 多个Agent建议冲突，商家该听谁的？\n\n40:35 上云、定时任务、事件响应与长期经营，是不同的能力\n\n43:05 CoCreate现场：商家对Agent有哪些期待？\n\n44:43 小企业如何借助AI，把生意做得更大\n\n【往期相关】\n\nE231｜从B2B到A2A：Agent新基建，如何让“一人企业”做全球生意？\n\n【硅谷101年会来了，线下见】\n\n10月10日—11日，我们将在【硅谷】举办Alignment 2026年度大会，从大模型、Agent、机器人到AI Infra，从实验室里的突破，到真实世界的商业化，我们直击AI变化最剧烈的前沿。来自OpenAI、Anthropic、NVIDIA、Meta、Google DeepMind、SemiAnalysis、Cerebras等公司的研究者、创业者与投资人将齐聚现场，分享正在发生的机遇和挑战。\n\n点击报名入口 ，使用折扣码【FANS15】注册，还可以获得15%折扣。\n\n【硅谷101听友群】\n\n在这里，和同好一起深聊科技、商业与未来，期待你的声音，也期待更多有趣的讨论。\n\n扫码加入，即刻相遇！\n\n【监制】\n\n泓君\n\n【后期】\n\nAmei\n\n【运营】\n\n朱婕\n\n【BGM】\n\nTrace - Lennon Hutton\n\nSignal Containment - Out To The World\n\nReclaim - Megan Wofford\n\n【在这里找到我们】\n\n公众号：硅谷101\n\n收听渠道：Apple Podcast｜Spotify｜小宇宙｜喜马拉雅｜蜻蜓FM｜荔枝FM｜网易云音乐｜QQ音乐\n\n其他平台：YouTube｜Bilibili 搜索「硅谷101播客」\n\n联系我们：podcast@sv101.net\nSpecial Guest: 张阔.",
+      "publishedAt": "2026-10-08T23:00:00+00:00",
+      "rssUrl": "https://feeds.fireside.fm/sv101/rss",
+      "coverImageUrl": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/f/f0f20376-8faf-4940-b920-84af6c734e2d/cover.jpg?v=6",
+      "coverText": "硅谷",
       "coverBg": "bg-[#18181B]",
       "coverTextColor": "text-amber-50",
-      "whyRecommended": "聚焦中国的便利店数量全球第一，20.8万家，适合想快速判断这期是否值得听的人。",
+      "whyRecommended": "聚焦模型在榜单上越来越强，为什么真正把工作交，适合想快速判断这期是否值得听的人。",
       "viewpoints": [
-        "中国的便利店数量全球第一，20.8万家，比美国还多出5.6万家；另外，这些年全国大街小巷零食量贩店遍地开花，同一个街区，便利店和零食量贩店比邻而居，价格差异巨大却共存。",
-        "在两套生意模型背后，藏着什么样的商业逻辑？开一家便利店或者零食量贩店能赚钱吗？",
-        "这一期我们请来老朋友孙悦，从便利店、零食量贩店一路聊到Costco、蜜雪和古茗，想从便利店看看中国零售商业模式的转变，以及真正有价值的零售生意到底应该是什么样子。"
+        "模型在榜单上越来越强，为什么真正把工作交给AI，还是需要人反复解释、检查和兜底？",
+        "半年前，我们与阿里国际站总裁张阔聊了Accio Work，以及Agent如何参与采购和日常经营。半年后，我们再次请到他，聊聊这半年来商家使用Accio Work的真实案例，试图回答这个问题：模型能力的提升，究竟有多少变成了商家工作里的进步？",
+        "张阔分享，很多模型的通用评测成绩已经接近满分，但团队在真实经营中，并没有感受到同样幅度的提升。为此，他们从实际业务中整理了107个任务，包括比较供应商报价、识别钓鱼邮件、预订船期和处理交易纠纷。据他介绍，在这套特定评测中，最前沿模型在无人干预条件下的任务通过率约为61%。"
       ],
       "goldenQuotes": [],
       "triageTag": "🚶边走边听｜主线清楚好进入",
-      "href": "cosmos://page.cos/episode/6ac59d83195d838e2aedfea2?utm_source=rss",
+      "href": "https://sv101.fireside.fm/269",
       "scenario": "",
-      "whyRecommend": "聚焦中国的便利店数量全球第一，20.8万家，适合想快速判断这期是否值得听的人。",
-      "goldenQuote": "聚焦中国的便利店数量全球第一，20.8万家，适合想快速判断这期是否值得听的人。",
+      "whyRecommend": "聚焦模型在榜单上越来越强，为什么真正把工作交，适合想快速判断这期是否值得听的人。",
+      "goldenQuote": "聚焦模型在榜单上越来越强，为什么真正把工作交，适合想快速判断这期是否值得听的人。",
       "topicTag": "🚶边走边听｜主线清楚好进入"
     },
     {
-      "episodeId": "6ac5ac8e195d838e2aee04ef",
-      "podcastName": "跨国串门儿计划",
-      "episodeTitle": "#757.ChatGPT 负责人 Tibo 谈 Dots、环境人工智能以及为什么互联网上的大部分行为很快将由人工智能完成",
-      "description": "📝 本期播客简介\n本期我们克隆了：Lenny's Podcast · OpenAI’s Head of ChatGPT: We’re entering a new era of AI (again) | Tibo Sottiaux\n原内容更新时间：2026-10-04\n“互联网上的大部分操作，都会由 Agent 来完成。”这不只是技术预测，也意味着产品和工作方式都要重新设计：当 Agent 成为用户，产品该怎么接住它们带来的流量？\nLenny 与 OpenAI ChatGPT 和 Codex 负责人 Tibo Sottiaux 聊 Agent 的未来：从一个全天候、会理解目标并持续学习的助手，到 Agent 如何改变产品分发、工作技能和人与技术的关系。Tibo 也谈到，AI 提效不该只是催着人做更多事，以及他的 Dot 如何在现场演示开始前五分钟发现线上故障。\n👤 本期嘉宾\nTibo Sottiaux 负责 OpenAI 的 ChatGPT 和 Codex。他参与推动 Codex、ChatGPT Work 和 Dots 等产品的发展，也长期参与耗时长、持续运行的 Agent 系统与记忆能力研究。他从产品发布、团队协作和实际使用场景出发，谈 Agent 如何落地，以及怎样为安全和人类需求设计 AI。\n⏱️ 时间戳\n01:20 智能体走向常在\n07:45 共建Dots与开放生态\n15:03 AI重塑工作与行业\n🌟 精彩内容\n💡 Agent 会成为互联网的主要使用者\nTibo 判断，互联网上大多数操作最终会由 Agent 完成。Notion 接入 MCP 后，能实际干活的 Agent 带来大量流量，产品团队也必须考虑系统承载和商业模式。\n\"我觉得互联网上的大部分操作，都会由 Agent 来完成。\"\n💡 未来不必自己编排一堆循环\n反复设置循环、调试工作流只是过渡。Tibo 描绘的方向是一个全天候理解目标、记住偏好、从反馈中学习的 Agent；用户不必先想好每一步该怎么安排。\n\"长远来看，你想要的就是一个能根据你想达成的目标来学习的系统。\"\n💡 AI 时代，品味比打字速度更重要\n在他看来，打字快的价值正在下降；理解用户、判断什么才算好、持续迭代，反而越来越重要。岗位边界也会变模糊，创造者不必只做设计或只做工程。\n\"重要性在下降的一项技能，就是打字快。\"\n💡 AI 不该只催人做更多事\nAgent 越多、产出越快，不代表工作就更好。Tibo 希望 AI 能减少干扰，让人少开会、好好休息，把注意力留给真正想做的事。\n\"而不只是每秒多发一个 prompt。\"\n💡 他的 Dot 提前发现了线上故障\nDevDay 现场演示前五分钟，Dot 发现 ChatGPT 线上系统出了故障，还主动问能不能尝试修复。Tibo 没让它动手，而是联系工程团队排查。\n\"嘿，线上系统出故障了。要我试着修一下吗？\"\n🌐 播客信息补充\n本播客采用原有人声声线进行播客音频制作，也可能会有一些地方听起来怪怪的\n使用 AI 进行翻译，因此可能会有一些地方不通顺\n\n在小宇宙查看该单集文稿",
-      "publishedAt": "2026-10-07T02:24:52+00:00",
-      "rssUrl": "https://feed.xyzfm.space/r8t44lmvu99m",
-      "coverImageUrl": "https://image.xyzcdn.net/FgPi3C76e0yvQlUYo8TDbk1GTgp8.png",
-      "coverText": "跨国",
+      "episodeId": "6ac5c327e742e36efcbf27b5",
+      "podcastName": "M字闲聊",
+      "episodeTitle": "关于减肥的邪门歪道，我要告诉你很多~很多！",
+      "description": "减肥又复胖是我的宿命……\n一年半后，我们又要聊减肥了，因为什么呢？还不是又胖了！\n人们在减肥的道路上总是走走停停，甚至大走回头路！\n这次我们就聊聊减肥的心态，比如为什么人自己在找借口的时候根本浑然不觉，甚至欺骗自己？\n再聊聊打减肥针这件事，庄尼打针这么久，为什么还是反弹了？它的弊端是什么？\n我们也专门研究了专业的减肥门诊医生的减肥方式，来了个大辩论，迷路有很多邪门发言要呐喊！\n欢迎大家留下你的减肥方式，我们一起瘦下去，或者复胖……\n感谢溪木源对本期节目的赞助播出！\n给敏感肌朋友安利一下最近在用的【溪木源山茶花特修水乳】。想开始用功效护肤、又怕刺激的，可以把它当第一步。不走猛药路线，而是先安抚泛红，再把屏障养稳，顺带让暗沉脸透亮一点。水乳质地都很清爽，上脸不闷不粘，拍开就吸收。\n- 偏干、混干、屏障容易不稳的肤质，选山茶花系列，侧重舒敏保湿、修护屏障。\n- 混油、油敏可以选层孔菌系列，无酸控油，帮助调理水油平衡。\nM字闲聊听友有专属优惠，大家可以基于自己的肤质按需选择~\n【购买方式】：点击链接 https://s.tb.cn/c.0xxVgX 即可领券购买\n在这里可以找到主播：\n迷路微博：@林晓路123 @林迷路迷路 小红书：@林迷路迷路 @eastendmi\n庄尼微博：@庄尼走路 小红书：@庄尼走路 @庄尼的衣柜\n如看不到快团团图片，可在主播们的微博中找到。\nM字闲聊听众投稿小程序上线\n只需点击www.wjx.cn 即可参与投稿！",
+      "publishedAt": "2026-10-07T16:00:00+00:00",
+      "rssUrl": "https://feed.xyzfm.space/b8xmtth7fqae",
+      "coverImageUrl": "https://image.xyzcdn.net/Fh-V0BTMMZUQCpInZzh4oOEMTSd3.jpg",
+      "coverText": "M字",
       "coverBg": "bg-[#18181B]",
       "coverTextColor": "text-amber-50",
-      "whyRecommended": "聚焦本期我们克隆了：Lenny's Podc，适合想快速判断这期是否值得听的人。",
+      "whyRecommended": "聚焦减肥又复胖是我的宿命……，适合想快速判断这期是否值得听的人。",
       "viewpoints": [
-        "本期我们克隆了：Lenny's Podcast · OpenAI’s Head of ChatGPT: We’re entering a new era of AI (again) | Tibo Sottiaux",
-        "原内容更新时间：2026-10-04",
-        "“互联网上的大部分操作，都会由 Agent 来完成。”这不只是技术预测，也意味着产品和工作方式都要重新设计：当 Agent 成为用户，产品该怎么接住它们带来的流量？"
+        "减肥又复胖是我的宿命……",
+        "一年半后，我们又要聊减肥了，因为什么呢？还不是又胖了！",
+        "人们在减肥的道路上总是走走停停，甚至大走回头路！"
       ],
-      "goldenQuotes": [
-        {
-          "quote": "互联网上的大部分操作，都会由 Agent 来完成。",
-          "source": "来自本期 shownote",
-          "source_note": "来自本期 shownote"
-        },
-        {
-          "quote": "我觉得互联网上的大部分操作，都会由 Agent 来完成。",
-          "source": "来自本期 shownote",
-          "source_note": "来自本期 shownote"
-        }
-      ],
+      "goldenQuotes": [],
       "triageTag": "☕有空再听｜主线清楚好进入",
-      "href": "cosmos://page.cos/episode/6ac5ac8e195d838e2aee04ef?utm_source=rss",
+      "href": "cosmos://page.cos/episode/6ac5c327e742e36efcbf27b5?utm_source=rss",
       "scenario": "",
-      "whyRecommend": "聚焦本期我们克隆了：Lenny's Podc，适合想快速判断这期是否值得听的人。",
-      "goldenQuote": "互联网上的大部分操作，都会由 Agent 来完成。",
+      "whyRecommend": "聚焦减肥又复胖是我的宿命……，适合想快速判断这期是否值得听的人。",
+      "goldenQuote": "聚焦减肥又复胖是我的宿命……，适合想快速判断这期是否值得听的人。",
       "topicTag": "☕有空再听｜主线清楚好进入"
     }
   ],
