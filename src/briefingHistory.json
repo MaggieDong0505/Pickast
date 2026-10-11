@@ -1,5 +1,26 @@
 [
   {
+    "episodeId": "6ac9fff8195d838e2aefc153",
+    "podcastName": "跨域请求",
+    "episodeTitle": "20.☢️AI时代的奥本海默困境：明知可能毁灭人类，为何还要继续",
+    "generatedAt": "2026-10-11T08:11:21.487060+08:00",
+    "fingerprint": "6ac9fff8195d838e2aefc153"
+  },
+  {
+    "episodeId": "6ac91500e742e36efcc089fc",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#761. 产品精通、耐痛能力和不懈的雄心",
+    "generatedAt": "2026-10-11T08:11:21.487060+08:00",
+    "fingerprint": "6ac91500e742e36efcc089fc"
+  },
+  {
+    "episodeId": "6ac7b241e742e36efcbff9ba",
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "咖啡豆｜「希尔顿们」入驻县域市场，国际中端连锁酒店为何加速扩张？",
+    "generatedAt": "2026-10-11T08:11:21.487060+08:00",
+    "fingerprint": "6ac7b241e742e36efcbff9ba"
+  },
+  {
     "episodeId": "6ac79cf4e742e36efcbfedbc",
     "podcastName": "富女之友",
     "episodeTitle": "Vol18.普通人与AI相处指南！入门到精通只要三步",
@@ -187,26 +208,5 @@
     "episodeTitle": "索道赚钱能力堪比茅台，山岳景区为何还在为增长发愁？",
     "generatedAt": "2026-10-02T08:39:08.882324+08:00",
     "fingerprint": "6abbc141e742e36efcbcc703"
-  },
-  {
-    "episodeId": "ffa704b7-dbee-46d9-929f-3c926df29b0f",
-    "podcastName": "啊！是猫咪呀",
-    "episodeTitle": "S6.E3 生成亲密",
-    "generatedAt": "2026-10-01T08:28:36.159941+08:00",
-    "fingerprint": "ffa704b7-dbee-46d9-929f-3c926df29b0f"
-  },
-  {
-    "episodeId": "6aba821b195d838e2aeb3c09",
-    "podcastName": "贝望录",
-    "episodeTitle": "241. 《早春晴朗》之外，聊聊广告人“穿衣密码”里藏着的一个行业的黄金年代",
-    "generatedAt": "2026-10-01T08:28:36.159941+08:00",
-    "fingerprint": "6aba821b195d838e2aeb3c09"
-  },
-  {
-    "episodeId": "6ab99252195d838e2aeaca68",
-    "podcastName": "那里的城",
-    "episodeTitle": "25.上饶｜入世婺源，出世三清，山水皆有茶～",
-    "generatedAt": "2026-10-01T08:28:36.159941+08:00",
-    "fingerprint": "6ab99252195d838e2aeaca68"
   }
 ]
