@@ -1,5 +1,26 @@
 [
   {
+    "episodeId": "6aca7f91e742e36efcc10957",
+    "podcastName": "十字路口Crossing",
+    "episodeTitle": "“有了AI，我感觉自己强得可怕！”｜对谈鸭哥",
+    "generatedAt": "2026-10-12T08:25:11.339656+08:00",
+    "fingerprint": "6aca7f91e742e36efcc10957"
+  },
+  {
+    "episodeId": "6acb17c5e742e36efcc126b0",
+    "podcastName": "颜如玉|医美 A to Z",
+    "episodeTitle": "EP38｜婚礼前的医美准备（上）：医生教你提前半年花钱在刀刃上",
+    "generatedAt": "2026-10-12T08:25:11.339656+08:00",
+    "fingerprint": "6acb17c5e742e36efcc126b0"
+  },
+  {
+    "episodeId": "6acaef37195d838e2af00042",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#765. Eugene Wei｜社交媒体算法：看懂注意力如何改写你的表达",
+    "generatedAt": "2026-10-12T08:25:11.339656+08:00",
+    "fingerprint": "6acaef37195d838e2af00042"
+  },
+  {
     "episodeId": "6ac9fff8195d838e2aefc153",
     "podcastName": "跨域请求",
     "episodeTitle": "20.☢️AI时代的奥本海默困境：明知可能毁灭人类，为何还要继续",
@@ -187,26 +208,5 @@
     "episodeTitle": "当眼镜、耳机、手机都有 AI，谁来统一你的「第二大脑」| 2026 高通骁龙峰会 S10E31",
     "generatedAt": "2026-10-03T08:21:34.585754+08:00",
     "fingerprint": "2d6bfcec-31c3-4ef2-981f-6dc2864cf92d"
-  },
-  {
-    "episodeId": "6abcea5ce742e36efcbd2baa",
-    "podcastName": "碳基生物生存指南",
-    "episodeTitle": "E35 抄袭、造假、洗稿，学术的象牙塔里为什么丑闻层出不穷？",
-    "generatedAt": "2026-10-02T08:39:08.882324+08:00",
-    "fingerprint": "6abcea5ce742e36efcbd2baa"
-  },
-  {
-    "episodeId": "6abe1c43e742e36efcbd742b",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#748.比尔·阿克曼：投资前先想清楚十年后还愿意持有吗",
-    "generatedAt": "2026-10-02T08:39:08.882324+08:00",
-    "fingerprint": "6abe1c43e742e36efcbd742b"
-  },
-  {
-    "episodeId": "6abbc141e742e36efcbcc703",
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "索道赚钱能力堪比茅台，山岳景区为何还在为增长发愁？",
-    "generatedAt": "2026-10-02T08:39:08.882324+08:00",
-    "fingerprint": "6abbc141e742e36efcbcc703"
   }
 ]
