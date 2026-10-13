@@ -1,5 +1,26 @@
 [
   {
+    "episodeId": "6accc5de195d838e2af0bd9a",
+    "podcastName": "42章经",
+    "episodeTitle": "一个 Personal Agent 创业者的思考｜对谈 Ambi 创始人子皓",
+    "generatedAt": "2026-10-13T10:31:19.099032+08:00",
+    "fingerprint": "6accc5de195d838e2af0bd9a"
+  },
+  {
+    "episodeId": "6acc9b86e742e36efcc1c122",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#768. 查理·芒格：人类误判的心理学 - 误判往往不是单一心理在作祟",
+    "generatedAt": "2026-10-13T10:31:19.099032+08:00",
+    "fingerprint": "6acc9b86e742e36efcc1c122"
+  },
+  {
+    "episodeId": "3caeb29b-5e69-49a5-be5e-c4fd3336c35e",
+    "podcastName": "Vibration 歪波音室",
+    "episodeTitle": "🏞️公园散步 Mixtape：慢点走吧",
+    "generatedAt": "2026-10-13T10:31:19.099032+08:00",
+    "fingerprint": "3caeb29b-5e69-49a5-be5e-c4fd3336c35e"
+  },
+  {
     "episodeId": "6aca7f91e742e36efcc10957",
     "podcastName": "十字路口Crossing",
     "episodeTitle": "“有了AI，我感觉自己强得可怕！”｜对谈鸭哥",
@@ -187,26 +208,5 @@
     "episodeTitle": "#746. AI视频生意：看懂增长和模型成本这笔账",
     "generatedAt": "2026-10-04T07:42:56.157114+08:00",
     "fingerprint": "6abc0813195d838e2aebbf64"
-  },
-  {
-    "episodeId": "6abeb3f9195d838e2aec7dab",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#749.雷·达里奥 2019 课堂实录：投资原则",
-    "generatedAt": "2026-10-03T08:21:34.585754+08:00",
-    "fingerprint": "6abeb3f9195d838e2aec7dab"
-  },
-  {
-    "episodeId": "6abec310e742e36efcbd9ae4",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#751.汉斯·季默：从导演的故事找到电影配乐",
-    "generatedAt": "2026-10-03T08:21:34.585754+08:00",
-    "fingerprint": "6abec310e742e36efcbd9ae4"
-  },
-  {
-    "episodeId": "2d6bfcec-31c3-4ef2-981f-6dc2864cf92d",
-    "podcastName": "What's Next｜科技早知道",
-    "episodeTitle": "当眼镜、耳机、手机都有 AI，谁来统一你的「第二大脑」| 2026 高通骁龙峰会 S10E31",
-    "generatedAt": "2026-10-03T08:21:34.585754+08:00",
-    "fingerprint": "2d6bfcec-31c3-4ef2-981f-6dc2864cf92d"
   }
 ]
