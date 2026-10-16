@@ -1,5 +1,26 @@
 [
   {
+    "episodeId": "df4fa6fe-db30-4fb5-809f-67fe0b42ca3b",
+    "podcastName": "What's Next｜科技早知道",
+    "episodeTitle": "用光调控神经细胞：今年诺贝尔奖如何改变我们对情绪的理解？ | 串台「声东击西」S10E32",
+    "generatedAt": "2026-10-17T07:26:12.927945+08:00",
+    "fingerprint": "df4fa6fe-db30-4fb5-809f-67fe0b42ca3b"
+  },
+  {
+    "episodeId": "6acf1fc4195d838e2af1abe3",
+    "podcastName": "贝望录",
+    "episodeTitle": "28. 找出路丨卖掉公司、买下足球队，再从头做儿童意面，创业者如何一次次的找到出路？",
+    "generatedAt": "2026-10-17T07:26:12.927945+08:00",
+    "fingerprint": "6acf1fc4195d838e2af1abe3"
+  },
+  {
+    "episodeId": "6ad0bd950e4e410a05bd68be",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#773. 黄仁勋：从算力需求看英伟达的增长逻辑",
+    "generatedAt": "2026-10-17T07:26:12.927945+08:00",
+    "fingerprint": "6ad0bd950e4e410a05bd68be"
+  },
+  {
     "episodeId": "6ad0bea30e4e410a05bd694b",
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#774. Acquired｜NFL：联盟优先，球队才能一起赢",
@@ -187,26 +208,5 @@
     "episodeTitle": "#757.ChatGPT 负责人 Tibo 谈 Dots、环境人工智能以及为什么互联网上的大部分行为很快将由人工智能完成",
     "generatedAt": "2026-10-08T08:54:55.524842+08:00",
     "fingerprint": "6ac5ac8e195d838e2aee04ef"
-  },
-  {
-    "episodeId": "6ac5480ee742e36efcbf0ea5",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#755. Lauren & Matt Pocock：如何把 2000 个PR上到生产环境",
-    "generatedAt": "2026-10-07T08:34:17.190874+08:00",
-    "fingerprint": "6ac5480ee742e36efcbf0ea5"
-  },
-  {
-    "episodeId": "fe8697b1-e892-4c84-990d-0559b949a852",
-    "podcastName": "Vibration 歪波音室",
-    "episodeTitle": "秋日限定歌单：云淡秋深，风来夜长",
-    "generatedAt": "2026-10-07T08:34:17.190874+08:00",
-    "fingerprint": "fe8697b1-e892-4c84-990d-0559b949a852"
-  },
-  {
-    "episodeId": "6abec328195d838e2aec7e63",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#750.理查德·费曼 - 物理定律的本质 (1964) - 完整版",
-    "generatedAt": "2026-10-07T08:34:17.190874+08:00",
-    "fingerprint": "6abec328195d838e2aec7e63"
   }
 ]
