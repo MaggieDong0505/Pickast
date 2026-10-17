@@ -1,5 +1,26 @@
 [
   {
+    "episodeId": "6ad1ee350e4e410a05bde007",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#775. Dots 引领 ChatGPT 的未来：持续盯任务，跨应用接上你的工作",
+    "generatedAt": "2026-10-18T06:59:54.887203+08:00",
+    "fingerprint": "6ad1ee350e4e410a05bde007"
+  },
+  {
+    "episodeId": "6ad2d4b0641ef406308cdd7c",
+    "podcastName": "其他垃圾",
+    "episodeTitle": "上班后，旅行的滋味变了",
+    "generatedAt": "2026-10-18T06:59:54.887203+08:00",
+    "fingerprint": "6ad2d4b0641ef406308cdd7c"
+  },
+  {
+    "episodeId": "6acf81f0195d838e2af1e281",
+    "podcastName": "张小珺Jùn｜商业访谈录",
+    "episodeTitle": "154. 对Dyna创始人Lindon的3小时访谈：机器人世界的迷雾、分歧与抉择，修心、《沉思录》与王阳明",
+    "generatedAt": "2026-10-18T06:59:54.887203+08:00",
+    "fingerprint": "6acf81f0195d838e2af1e281"
+  },
+  {
     "episodeId": "df4fa6fe-db30-4fb5-809f-67fe0b42ca3b",
     "podcastName": "What's Next｜科技早知道",
     "episodeTitle": "用光调控神经细胞：今年诺贝尔奖如何改变我们对情绪的理解？ | 串台「声东击西」S10E32",
@@ -187,26 +208,5 @@
     "episodeTitle": "关于减肥的邪门歪道，我要告诉你很多~很多！",
     "generatedAt": "2026-10-09T09:08:58.936981+08:00",
     "fingerprint": "6ac5c327e742e36efcbf27b5"
-  },
-  {
-    "episodeId": "6ac59c6ce742e36efcbf181a",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#756. Huberman 多集混剪｜学习、专注与深度工作",
-    "generatedAt": "2026-10-08T08:54:55.524842+08:00",
-    "fingerprint": "6ac59c6ce742e36efcbf181a"
-  },
-  {
-    "episodeId": "6ac59d83195d838e2aedfea2",
-    "podcastName": "十分吸引",
-    "episodeTitle": "EP.05 便利店里看懂中国零售商业模式变迁",
-    "generatedAt": "2026-10-08T08:54:55.524842+08:00",
-    "fingerprint": "6ac59d83195d838e2aedfea2"
-  },
-  {
-    "episodeId": "6ac5ac8e195d838e2aee04ef",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#757.ChatGPT 负责人 Tibo 谈 Dots、环境人工智能以及为什么互联网上的大部分行为很快将由人工智能完成",
-    "generatedAt": "2026-10-08T08:54:55.524842+08:00",
-    "fingerprint": "6ac5ac8e195d838e2aee04ef"
   }
 ]
