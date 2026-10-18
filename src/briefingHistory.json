@@ -1,5 +1,26 @@
 [
   {
+    "episodeId": "6ad2412d0e4e410a05be01a7",
+    "podcastName": "十字路口Crossing",
+    "episodeTitle": "新的创业机会，正在 Claude Code 和 Codex 周围长出来｜对谈 Treg",
+    "generatedAt": "2026-10-19T06:58:09.530886+08:00",
+    "fingerprint": "6ad2412d0e4e410a05be01a7"
+  },
+  {
+    "episodeId": "6ad244f50e4e410a05be0317",
+    "podcastName": "颜如玉|医美 A to Z",
+    "episodeTitle": "EP38｜婚礼前的医美准备（下）：从三个月到最后一天，不犯错比变美更重要",
+    "generatedAt": "2026-10-19T06:58:09.530886+08:00",
+    "fingerprint": "6ad244f50e4e410a05be0317"
+  },
+  {
+    "episodeId": "6ad325f4641ef406308cfd8a",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#777. All-in｜AI 算力融资：判断风险，先看回本周期",
+    "generatedAt": "2026-10-19T06:58:09.530886+08:00",
+    "fingerprint": "6ad325f4641ef406308cfd8a"
+  },
+  {
     "episodeId": "6ad1ee350e4e410a05bde007",
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#775. Dots 引领 ChatGPT 的未来：持续盯任务，跨应用接上你的工作",
@@ -187,26 +208,5 @@
     "episodeTitle": "12 细读简·奥斯丁：理智不是情感的敌人，算计才是",
     "generatedAt": "2026-10-10T08:41:12.736988+08:00",
     "fingerprint": "6ac32c37195d838e2aed683a"
-  },
-  {
-    "episodeId": "6ac799c1195d838e2aeed4dd",
-    "podcastName": "贝望录",
-    "episodeTitle": "27. 找出路丨从外企高管到开养生饮品店，一个“小生意”到底有多难做？",
-    "generatedAt": "2026-10-09T09:08:58.936981+08:00",
-    "fingerprint": "6ac799c1195d838e2aeed4dd"
-  },
-  {
-    "episodeId": "8fa0b58e-8359-4609-8e84-30c9a632df50",
-    "podcastName": "硅谷101",
-    "episodeTitle": "E255｜模型越来越强，为什么用户没感觉？再访阿里国际站总裁张阔",
-    "generatedAt": "2026-10-09T09:08:58.936981+08:00",
-    "fingerprint": "8fa0b58e-8359-4609-8e84-30c9a632df50"
-  },
-  {
-    "episodeId": "6ac5c327e742e36efcbf27b5",
-    "podcastName": "M字闲聊",
-    "episodeTitle": "关于减肥的邪门歪道，我要告诉你很多~很多！",
-    "generatedAt": "2026-10-09T09:08:58.936981+08:00",
-    "fingerprint": "6ac5c327e742e36efcbf27b5"
   }
 ]

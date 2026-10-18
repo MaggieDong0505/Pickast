@@ -8,111 +8,100 @@
 import { BriefingCardData } from './types';
 
 export const initialData: BriefingCardData = {
-  "dateStr": "2026.10.18",
-  "chinaDateStr": "星期日 / SUNDAY",
+  "dateStr": "2026.10.19",
+  "chinaDateStr": "星期一 / MONDAY",
   "title": "今天最值得听 • TODAY'S VOICE",
   "issueNo": "精选 3 条",
   "mainEpisode": {
-    "episodeId": "6ad1ee350e4e410a05bde007",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#775. Dots 引领 ChatGPT 的未来：持续盯任务，跨应用接上你的工作",
-    "description": "🎙️ 个人 AI 助手：持续盯任务，跨应用接上你的工作\n📝 本期播客简介\n本期我们克隆了：Sources Podcast · OpenAI’s Dots lead on the future of ChatGPT\n原内容更新时间：2026-10-01\n“一个特别厉害的首席工程师，却不肯看 Slack，也不肯看 Linear”——这正是只会等人下指令的 AI Agent 的局限。OpenAI 想把它推进到下一阶段：主动智能，让 Agent 能持续跟进任务、主动发现可以帮忙的事。\nOpenAI Dots 产品负责人 Alexander Embiricos 解释了 Dots 为什么拥有自己的云端电脑、如何在不同工具和对话里共享上下文，以及 Space 怎样让人和 Agent 一起协作文档与项目。他还谈到授权和隐私的安全设计、全天候助手的定价思路，以及一位工程师醒来后才发现 Dot 已经替他修好 bug 的故事。\n👤 本期嘉宾\nAlexander Embiricos，OpenAI Dots 产品负责人。他因创业公司被 OpenAI 收购而加入公司，此后持续参与 Dots 的构想与开发；从桌面助手、编程 Agent 到云端持续运行的 Agent，他经历了相关产品能力逐步成熟的过程，因此能从产品设计与落地角度解释个人 Agent 如何主动工作、如何获得上下文，以及如何控制权限和风险。\n⏱️ 时间戳\n00:00 主动智能的到来\n05:40 Dots的形态与安全\n27:15 生态、定价与未来\n🌟 精彩内容\n💡 Agent 的下一步，是主动做事\n聊天之后，编程 Agent 学会了动手，但它仍常常等着人发指令。Dots 要解决的，是让 Agent 持续跟进任务，并主动提出可以怎样帮忙。\n\"所以在我看来，这一切现在发生，是因为我们终于能用更符合人们直觉的方式提供智能了。\"\n💡 一个 Agent，跨应用接上同一份上下文\n通勤时，Embiricos 会和 Dot 通话；工作时，又会在 Slack 的不同讨论串里找它。无论从哪里联系，Dot 都能接上此前的对话和信息。\n\"但不管我在哪里跟它聊，用的都是同一份上下文，我们之前聊过的所有内容，它都知道。\"\n💡 默认先提议，不替你擅自行动\nDot 可以利用接入的工具做研究、发现日程冲突，但不会直接改会议；即使它掌握了问题答案，也不会替用户直接发出去。用户确认后，才会采取实际行动。\n\"但在你确认之前，它不会采取实际行动。\"\n💡 助手不该因额度耗尽而突然停摆\n如果 Dot 负责盯航班、看路况并在合适时叫车，额度用完就停可能让任务落空。OpenAI 想尝试固定月费，让 Dot 全天候可联系，再按付费档位决定它能承担多少工作。\n\"你的 Dot 应该全天候随时可用，不能有什么情况让它用不了。\"\n💡 工程师睡醒，发现 Dot 已经修好 bug\n一位工程师让 Dot 持续关注反馈频道。Dot 发现问题后创建了 PR；有人批准后，它按自己摸清的工程师习惯自动合并，工程师醒来才发现 Slack 里满是表扬。\n\"他让自己的 Dot 持续关注反馈频道。\"  (行533-545? quote 行535)\n💡 免费用户最终也会用上这些能力\nDots 先作为高端独立产品推出，之后会逐步扩大开放范围。Embiricos 说，最终要把这些能力融入 Chat，让普通用户不用改变习惯，也能获得更强的助手。\n\"最终，我们还得让免费用户也能用到这些能力。\" (469) \n}\nNeed format quote citations no citations required. Point last sentence quote. mistake Dots spelling title okay. Fix title says AI Chinese familiar. \"固定月费、全天候在线，额度不再卡住任务\" arguably quota not exactly no limit, says no run out, paid by work volume and model adjusts. Candidate unsupported “额度不再卡住” supported. Content quotes exact line 535. Last quote exact 465. Bullet interpretation. We need all contents 3 lines? heading, decode, quote. fine. Potential strange trailing } in final remove. Also first quote excerpt exact line 16-17 combines; valid. Candidate titles ```\n🎙️ 个人 AI 助手：让它主动做事，也守住授权边界\n📝 本期播客简介\n本期我们克隆了：Sources Podcast · OpenAI’s Dots lead on the future of ChatGPT\n原内容更新时间：2026-10-01\n“一个特别厉害的首席工程师，却不肯看 Slack，也不肯看 Linear”——这正是只会等人下指令的 AI Agent 的局限。OpenAI 想把它推进到下一阶段：主动智能，让 Agent 能持续跟进任务、主动发现可以帮忙的事。\nOpenAI Dots 产品负责人 Alexander Embiricos 解释了 Dots 为什么拥有自己的云端电脑、如何在不同工具和对话里共享上下文，以及 Space 怎样让人和 Agent 一起协作文档与项目。他还谈到授权和隐私的安全设计、全天候助手的定价思路，以及一位工程师醒来后才发现 Dot 已经替他修好 bug 的故事。\n👤 本期嘉宾\nAlexander Embiricos，OpenAI Dots 产品负责人。他因创业公司被 OpenAI 收购而加入公司，此后持续参与 Dots 的构想与开发；从桌面助手、编程 Agent 到云端持续运行的 Agent，他经历了相关产品能力逐步成熟的过程，因此能从产品设计与落地角度解释个人 Agent 如何主动工作、如何获得上下文，以及如何控制权限和风险。\n🌟 精彩内容\n💡 Agent 的下一步，是主动做事\n聊天之后，编程 Agent 学会了动手，但它仍常常等着人发指令。Dots 要解决的，是让 Agent 持续跟进任务，并主动提出可以怎样帮忙。\n\"所以在我看来，这一切现在发生，是因为我们终于能用更符合人们直觉的方式提供智能了。\"\n💡 一个 Agent，跨应用接上同一份上下文\n通勤时，Embiricos 会和 Dot 通话；工作时，又会在 Slack 的不同讨论串里找它。无论从哪里联系，Dot 都能接上此前的对话和信息。\n\"但不管我在哪里跟它聊，用的都是同一份上下文，我们之前聊过的所有内容，它都知道。\"\n💡 默认先提议，不替你擅自行动\nDot 可以利用接入的工具做研究、发现日程冲突，但不会直接改会议；即使它掌握了问题答案，也不会替用户直接发出去。用户确认后，才会采取实际行动。\n\"但在你确认之前，它不会采取实际行动。\"\n💡 助手不该因额度耗尽而突然停摆\n如果 Dot 负责盯航班、看路况并在合适时叫车，额度用完就停可能让任务落空。OpenAI 想尝试固定月费，让 Dot 全天候可联系，再按付费档位决定它能承担多少工作。\n\"你的 Dot 应该全天候随时可用，不能有什么情况让它用不了。\"\n💡 工程师睡醒，发现 Dot 已经修好 bug\n一位工程师让 Dot 持续关注反馈频道。Dot 发现问题后创建了 PR；有人批准后，它按自己摸清的工程师习惯自动合并，工程师醒来才发现 Slack 里满是表扬。\n\"他让自己的 Dot 持续关注反馈频道。\"\n💡 免费用户最终也会用上这些能力\nDots 先作为高端独立产品推出，之后会逐步扩大开放范围。Embiricos 说，最终要把这些能力融入 Chat，让普通用户不用改变习惯，也能获得更强的助手。\n\"最终，我们还得让免费用户也能用到这些能力。\"\n```\n🌐 播客信息补充\n本播客采用原有人声声线进行播客音频制作，也可能会有一些地方听起来怪怪的\n使用 AI 进行翻译，因此可能会有一些地方不通顺\n\n在小宇宙查看该单集文稿",
-    "publishedAt": "2026-10-16T09:51:56+00:00",
-    "rssUrl": "https://feed.xyzfm.space/r8t44lmvu99m",
-    "coverImageUrl": "https://image.xyzcdn.net/FgPi3C76e0yvQlUYo8TDbk1GTgp8.png",
-    "coverText": "跨国",
+    "episodeId": "6ad2412d0e4e410a05be01a7",
+    "podcastName": "十字路口Crossing",
+    "episodeTitle": "新的创业机会，正在 Claude Code 和 Codex 周围长出来｜对谈 Treg",
+    "description": "➤ Claude Code 和 Codex 越来越强，AI 应用创业者还能做什么？\n本周「十字路口」的嘉宾是 Treg 创始人 Jason Zhou 和 Founding Engineer 石天鑫。*创业 9 个多月，从设计 Agent SuperDesign，到全自动增长 Agent，再到为 Agent 提供数据和工具的 Treg，他们接连经历了方向调整。\n这期我们沿着他们三次转型的经历，聊了为什么垂直 Agent 面临着“绝境”、「0 人公司」为什么比想象中难做，为什么 AI 干了很多活却未必带来增长，也聊了 Ego、ChatCut 等围绕 Coding Agent 生长的产品，以及同时运行多个 Agent 后，人开始遇到的新瓶颈。\n新的创业机会，正在 Claude Code 和 Codex 的生态里长出来。对一个创业团队来说，怎样找到值得做好的那一部分，又怎样借助模型的进步继续往前走？Treg 的故事，提供了一个正在发生的样本。\n🎬 我们的视频播客将同步上线于 @Koji杨远骋 的视频号、抖音、小红书、哔哩哔哩、Youtube 等平台。\n📒 文字版将发布于 @十字路口Crossing 公众号。\n🟢 Part 1｜三次 Pivot[00:02:18] 9 个月、三次转型：SuperDesign、增长 Agent 与 Treg\n[00:03:10] 从周末项目到 6000+ GitHub Star\n[00:04:59] 模型吞噬应用：为什么放弃 SuperDesign？\n[00:06:59] 「0 人公司」的创业浪潮是错误假设\n🟢 Part 2｜终于找到了新方向！[00:14:42] 一个 Codex 插件，意外改变了增长曲线\n[00:17:36] 从增长 Agent 中拆出最有价值的一层\n[00:18:04] Agent 最常买什么工具？\n[00:20:13] 浏览器抓不到的数据，就是工具市场的价值\n[00:21:57] Treg 为什么更像 Costco？\n[00:23:39] 应用公司的数据飞轮\n🟢 Part 3｜Codex / Claude Code 正在成为新平台[00:25:38] 三次转型后的教训：站在 Claude Code 和 Codex 的肩膀上\n[00:26:43] Ego(lite)、ChatCut：围绕 Coding Agent 生长的新工具\n[00:31:56] 从 Vibe Island 到 Orca：多 Agent 时代的新机会\n🟢 Part 4｜人和 Agent，究竟该怎么一起工作？[00:34:25] 转型阵痛期决定：两个月不做产品\n[00:35:01] 「0 人公司」并不成立\n[00:36:18] Loop Engineering 要怎么搞？\n[00:38:50] 同时跑 5–10 个 Session，人开始成为瓶颈\n[00:40:13] Claude Code 还是 Codex？\n[00:41:41] Grok Bot 与云端沙盒\n[00:43:22] 国产模型、视频模型与高速模型分别适合什么场景？\n🟢 Part 5｜把才华埋葬在昨天，继续创业[00:45:08] 当程序员再也写不过 AI\n[00:46:05] 人生的十字路口：从单项技能走向跨领域能力\n[00:47:15] 三次转型中，最想放弃的时刻\n[00:49:05] Fail Fast：让注定失败的方向尽快结束\n[00:49:22] 如果相信 AGI 会到来，为什么还要创业？\n[00:50:28] 即使有了万能模型，它依然需要更好的工具\n欢迎订阅「十字路口」：🚦 我们关注新一代 AI 技术浪潮带来的行业新变化和创业新机会。\n🚦 十字路口是乔布斯对苹果公司的一个比喻，形容它站在科技与人文的十字路口，伟大的产品往往诞生在这里。AI 正在给各行各业带来改变，我们寻找、访谈和凝聚新一代 AI 创业者和 AI 时代的积极行动者，和他们一起，探索和拥抱新变化，新的可能性。\n👦🏻  主播 Koji：我创办了十字路口，发起了 AI Hacker House 这个新一代 AI 创业者的社群空间，在真格基金担任 Venture Partner 投资合伙人。我相信科技尤其是 AI 是我们这一代人最大的价值创造机遇。Koji 的即刻，Koji 的网站\n\n在小宇宙查看该单集文稿",
+    "publishedAt": "2026-10-18T16:00:00+00:00",
+    "rssUrl": "https://feed.xyzfm.space/68fyjknth9hj",
+    "coverImageUrl": "https://image.xyzcdn.net/FuncakppkBIB95Ip2AiOCNIsibFk.png",
+    "coverText": "十字",
     "coverBg": "bg-[#18181B]",
     "coverTextColor": "text-amber-50",
-    "whyRecommended": "聚焦🎙️ 个人 AI 助手：持续盯任务，跨应，适合想快速判断这期是否值得听的人。",
+    "whyRecommended": "聚焦➤ Claude Code 和 Code，适合想快速判断这期是否值得听的人。",
     "viewpoints": [
-      "🎙️ 个人 AI 助手：持续盯任务，跨应用接上你的工作",
-      "本期我们克隆了：Sources Podcast · OpenAI’s Dots lead on the future of ChatGPT",
-      "原内容更新时间：2026-10-01"
+      "➤ Claude Code 和 Codex 越来越强，AI 应用创业者还能做什么？",
+      "本周「十字路口」的嘉宾是 Treg 创始人 Jason Zhou 和 Founding Engineer 石天鑫。*创业 9 个多月，从设计 Agent SuperDesign，到全自动增长 Agent，再到为 Agent 提供数据和工具的 Treg，他们接连经历了方向调整。",
+      "这期我们沿着他们三次转型的经历，聊了为什么垂直 Agent 面临着“绝境”、「0 人公司」为什么比想象中难做，为什么 AI 干了很多活却未必带来增长，也聊了 Ego、ChatCut 等围绕 Coding Agent 生长的产品，以及同时运行多个 Agent 后，人开始遇到的新瓶颈。"
     ],
-    "goldenQuotes": [
-      {
-        "quote": "一个特别厉害的首席工程师，却不肯看 Slack，也不肯看 Linear",
-        "source": "来自本期 shownote",
-        "source_note": "来自本期 shownote"
-      },
-      {
-        "quote": "所以在我看来，这一切现在发生，是因为我们终于能用更符合人们直觉的方式提供智能了。",
-        "source": "来自本期 shownote",
-        "source_note": "来自本期 shownote"
-      }
-    ],
+    "goldenQuotes": [],
     "triageTag": "🚶边走边听｜主线清楚好进入",
-    "href": "cosmos://page.cos/episode/6ad1ee350e4e410a05bde007?utm_source=rss",
-    "whyRecommend": "聚焦🎙️ 个人 AI 助手：持续盯任务，跨应，适合想快速判断这期是否值得听的人。",
-    "goldenQuote": "一个特别厉害的首席工程师，却不肯看 Slack，也不肯看 Linear",
+    "href": "cosmos://page.cos/episode/6ad2412d0e4e410a05be01a7?utm_source=rss",
+    "whyRecommend": "聚焦➤ Claude Code 和 Code，适合想快速判断这期是否值得听的人。",
+    "goldenQuote": "聚焦➤ Claude Code 和 Code，适合想快速判断这期是否值得听的人。",
     "topicTag": "🚶边走边听｜主线清楚好进入"
   },
   "backupEpisodes": [
     {
-      "episodeId": "6ad2d4b0641ef406308cdd7c",
-      "podcastName": "其他垃圾",
-      "episodeTitle": "上班后，旅行的滋味变了",
-      "description": "感谢妙界品牌对本期节目的大力支持。\n如果想买按摩仪，不如用上我们其他垃圾的听友优惠。全年低机制，额外叠加平台大促活动优惠，价保一年买贵退差。点击进入专属购买链接：https://mo.m.tmall.com/page/38172136?shop_id=227373533&item_id=978505252045\n\n国庆，和度过国庆旅行后空虚的其他垃圾，回来了。\n在这垃圾不更新的二十来天里，我们重新思考了旅行和上班的辩证关系（x\n上班之后的旅行，怎么好像滋味变了？单纯的旅行到底能不能改变人生？\n\n【TimeLine】\n01:45 文化苦旅与疯狂出发：上班是我旅行的休息\n12:05 大江大河，能让大厂员工停止对齐颗粒度吗？\n17:24 上班以后，旅行被剪掉了前因后果\n19:38 爬完雪山，我竟然开始感恩公司\n27:05 工作要留痕，出来玩也要向自己交代\n31:54 单纯的旅行能改变人生么\n40:10 我们参悟的旅行之道\n50:28 至少在这个小岛上，我是我自己的国王\n\n【本期主播】\n小田/小邱，小红书账号@其他吧唧\n合作联系：kubrickneruda@foxmail.com\n添加垃圾转运小助手（微信号：Otherwaste_)，拉你进群哦！\n\n【特别支持】\nif你是和我们一样的长期对着电脑的打工族，if你也经常觉得肩颈酸痛，斜方肌肌肉容易紧张僵硬，记得要关爱自己的肩颈问题哦。本期节目感谢妙界R9揉捶一体肩颈按摩仪特别支持：\n✅ 按摩肩颈有两把刷子\n👉揉捶双芯动力：上侧揉捏脖颈穴位疏通经络，下侧边揉边捶，1200+次/分钟捶打频率，深度放松肩背硬邦邦的肌肉，还原真人按摩手感。\n👉5种模式+3档力度：受力不受力都能找到舒服的档位，带语音播报，长辈也能轻松上手。\n✅ 放松肌肉一把好手\n👉升级仿艾灸碳热敷：温热能渗进颈椎，不是表面发烫，按完整个肩膀都是暖的，酸痛感直接消一半，对软化肌肉的效果也很好。\n✅ 使用超便捷，完全不落灰\n👉三种佩戴方式：我最常用肩带式设计，扣上立马解放双手，办公、刷剧的同时也能按摩。\n👉全身可用：按完肩颈还能顺带按按腰背，全身按摩一个搞定。\n👉售后有保障：7天无理由+运费险，一年以换代修，两年质保。\n【其他垃圾】妙界听友专属福利，以下方式任选其一即可获取全年最优惠机制：\n1、点击进入专属购买链接：\n淘宝：https://mo.m.tmall.com/page/38172136?shop_id=227373533&item_id=978505252045\n京东：https://coupon.m.jd.com/coupons/show.action?key=ccmcc0sfo9a2449bacace03b30a83ee3&roleId=3305086201&to=https://shop.m.jd.com/shop/home?shopId=1000483997\n2、复制淘口令：58￥sdPvTIOZnJO￥ / CZ193\n3、在淘宝搜索：“妙界〞 找到【妙界旗舰店】向客服报暗号“其他垃圾”即可获得专属链接。\n【关于其他垃圾】\n其他垃圾是一档可以收听的都市生活周刊，由两个爱刨根问底的女的制作。我们考据生活，解码热点，和所有非常规的活法站在一起。\n欢迎垃圾佬们点点关注，一键回家。也欢迎把我们捡走，推荐给你的垃圾朋友。你也可以在Youtube，Spotify，喜马拉雅，苹果podcast上找到我们。\n\n在小宇宙查看该单集文稿",
-      "publishedAt": "2026-10-17T13:30:00+00:00",
-      "rssUrl": "https://feed.xyzfm.space/kdyd7hk6tfjq",
-      "coverImageUrl": "https://image.xyzcdn.net/FoPe-tZzXhncs9SQoyzgyvHEmwFx.jpg",
-      "coverText": "其他",
+      "episodeId": "6ad244f50e4e410a05be0317",
+      "podcastName": "颜如玉|医美 A to Z",
+      "episodeTitle": "EP38｜婚礼前的医美准备（下）：从三个月到最后一天，不犯错比变美更重要",
+      "description": "🎤【主播介绍】\n严蕾医生：成都序章医疗美容诊所创始人，医正严词学术沟通平台创始人。医学硕士，副主任医师。\n罗瑶佳医生：卓正医疗深圳皮肤医美医生。医学硕士，主治医师。\n📚【本期简介】\n上一集，我们从婚前半年开始，聊了问题肌管理和长期医美规划。这一集，严蕾和罗瑶佳两位医生继续带大家倒数，看看越接近重要日子，哪些事情值得做，哪些项目又该及时按下暂停键。\n婚纱露出来的肩颈、后背和手臂，哪些皮肤问题容易被忽略？眼周细纹为什么有时候化妆后反而更明显？对于光子、水光、刷酸、肉毒这些项目，医美新手和熟客的时间安排又有什么不同？\n我们还准备了一份实用的婚礼最后7天应急指南：突然冒出又红又痛的大痘痘、皮肤干燥卡粉、出现过敏或红疹，甚至婚礼前一天脸肿了，两位医生会如何判断和处理？\n这份倒计时攻略同样适用于年会、重要聚会、拍写真，以及每一个希望自己状态更好的日子。\n重要日子越来越近，给自己多一点从容，少一点折腾。毕竟，开开心心地享受那个特别的时刻，比什么都重要。💗\n📺【视频平台】\n小红书：热玛吉 | 成都严蕾助理\n视频号：严蕾医生-医正严词、成都严蕾的理性皮肤美学\n🎧 精彩时间轴：\n01:35 婚纱露肤部位：肩颈、后背、手臂，哪些细节最容易被忽略？\n06:42 网红“直角肩”真的好看吗？两位医生为什么不建议盲目追求？\n10:20 口服胶原蛋白肽、美白补充剂，提前三个月来得及吗？\n13:04 眼周抗衰：为什么有些细纹和松弛，化妆后反而更明显？\n17:58 婚礼只剩一个月，哪些医美项目应该按下暂停键？\n20:00 医美老手VS新手：婚前一个月的项目选择有什么区别？\n21:22 婚前焦虑怎么缓解？医生也成了新娘的“娘家人”\n27:37 婚礼前5天突然冒出又红又痛的大痘痘，千万别自己挤！\n30:03 婚礼前3天突然干燥卡粉、满脸红疹，还有办法补救吗？\n32:26 婚礼前一天脸肿了怎么办？两位医生分享各自的经验\n35:41 最后24小时：饮食、睡眠、护肤，哪些习惯千万别临时改变？\n37:55 快问快答：第一次打肉毒、刷酸、脱毛、水光，到底提前多久？\n43:02 新郎也需要医美准备吗？身材、发型、皮肤和牙齿哪个更重要？\n48:03 只有5000元预算，新郎怎么花？两位医生给出不同方案\n50:44 婚礼上的妈妈们：色斑、松弛、眼周问题，应该提前多久准备？\n56:06 爸爸们要不要做医美？两位医生聊聊那些可爱的爸爸们\n57:21 婚礼的最后一条建议：放下焦虑，开开心心迎接重要的一天\n🌹【宝藏地图】\n注：以下图片可能由 AI 生成，仅用于医学科普与外观示意，不涉及任何真实患者肖像，也不对应具体临床案例。如需转载、引用或二次使用图片，请注明来源为“颜如玉”播客。图片表现与真实病例在颜色、边界、分布和严重程度上都可能存在差异，不\n能作为个人自我判断和自行治疗的依据。请不要仅凭网络图片对自己的症状和需求作出结论，更不要使用不正规的方式处理或治疗。涉及治疗问题，仍应前往正规医疗机构，由专业医生面诊、诊断并制定治疗方案。\n🔗【互动与福利】\n添加小助理（微信号：momentpoet，暗号：加听友群）加入“颜如玉-医美A to Z”听友群，更快获取惊喜福利！\n⚠️【免责声明】\n信息性质所涉及的内容，包括但不限于医学知识科普、案例分享及行业观察，仅作为科普信息供参考，不具有法律效力。尽管主理人均拥有丰富的临床皮肤科经验，但播客中的言论不构成针对任何个体的正式医疗建议、诊断或治疗方案。收听本节目或在评论区互动，并不等同于建立了真实的医患关系。针对具体的皮肤问题或医美需求，请务必前往正规医疗机构进行面对面的专业面诊。医美治疗具有高度的个体差异性，节目中提到的临床案例、参数设置及疗效分享仅代表该特定情境下的医生经验，不保证在所有人身上具有普适性。医美有风险，决策需谨慎。本节目内容版权归《颜如玉- 医美A to Z》制作团队所有。未经授权，严禁任何形式的二改、剪辑或商业传播。\n\n在小宇宙查看该单集文稿",
+      "publishedAt": "2026-10-18T16:00:00+00:00",
+      "rssUrl": "https://feed.xyzfm.space/aduupe3jptpf",
+      "coverImageUrl": "https://image.xyzcdn.net/FrbQlPufI9ta7wswshR1_dVnufXn.png",
+      "coverText": "颜如",
       "coverBg": "bg-[#18181B]",
       "coverTextColor": "text-amber-50",
-      "whyRecommended": "聚焦感谢妙界品牌对本期节目的大力支持，适合想快速判断这期是否值得听的人。",
+      "whyRecommended": "聚焦严蕾医生：成都序章医疗美容诊所创始人，医，适合想快速判断这期是否值得听的人。",
       "viewpoints": [
-        "感谢妙界品牌对本期节目的大力支持。",
-        "如果想买按摩仪，不如用上我们其他垃圾的听友优惠。全年低机制，额外叠加平台大促活动优惠，价保一年买贵退差。点击进入专属购买链接：https://mo.m.tmall.com/page/38172136?shop_id=227373533&item_id=978505252045",
-        "国庆，和度过国庆旅行后空虚的其他垃圾，回来了。"
+        "严蕾医生：成都序章医疗美容诊所创始人，医正严词学术沟通平台创始人。医学硕士，副主任医师。",
+        "罗瑶佳医生：卓正医疗深圳皮肤医美医生。医学硕士，主治医师。",
+        "上一集，我们从婚前半年开始，聊了问题肌管理和长期医美规划。这一集，严蕾和罗瑶佳两位医生继续带大家倒数，看看越接近重要日子，哪些事情值得做，哪些项目又该及时按下暂停键。"
       ],
       "goldenQuotes": [
         {
-          "quote": "妙界〞 找到【妙界旗舰店】向客服报暗号“其他垃圾",
+          "quote": "颜如玉-医美A to Z",
           "source": "来自本期 shownote",
           "source_note": "来自本期 shownote"
         }
       ],
       "triageTag": "🚶边走边听｜主线清楚好进入",
-      "href": "cosmos://page.cos/episode/6ad2d4b0641ef406308cdd7c?utm_source=rss",
+      "href": "cosmos://page.cos/episode/6ad244f50e4e410a05be0317?utm_source=rss",
       "scenario": "",
-      "whyRecommend": "聚焦感谢妙界品牌对本期节目的大力支持，适合想快速判断这期是否值得听的人。",
-      "goldenQuote": "妙界〞 找到【妙界旗舰店】向客服报暗号“其他垃圾",
+      "whyRecommend": "聚焦严蕾医生：成都序章医疗美容诊所创始人，医，适合想快速判断这期是否值得听的人。",
+      "goldenQuote": "颜如玉-医美A to Z",
       "topicTag": "🚶边走边听｜主线清楚好进入"
     },
     {
-      "episodeId": "6acf81f0195d838e2af1e281",
-      "podcastName": "张小珺Jùn｜商业访谈录",
-      "episodeTitle": "154. 对Dyna创始人Lindon的3小时访谈：机器人世界的迷雾、分歧与抉择，修心、《沉思录》与王阳明",
-      "description": "今天我们的嘉宾是一位美国连续创业者，Dyna Robotics创始人兼CEO Lindon Gao。此前，他做过两段生意，一次完整的创业。Dyna可以说是他的第四次创业了。\n在硅谷，Dyna和之前来过我们节目的Pi（Physical Intelligence）的纯大脑研究路线非常不一样。相比从通用智能出发、探索机器人大脑的研究路径，Dyna选择了一条“Product-research”的道路：以具体的工作流为最小单元，从真实任务出发，反过来驱动模型的预训练。\n全球机器人行业还远远没有达到收敛的时刻。这是一条无比漫长的长跑——你看不见终点，有时候你也看不出清楚四周。每一位创业者都必须在这张尚未绘制完成的地图上，找到自己的方向，做出关键决策，并在迷途中找回自己。\n而Lindon谈到，创业也是一场自我的修心。有时候，真正的转变只在一念之间。\n过去，他曾要求自己做一个“不能犯错的CEO”。但后来他意识到，恰恰是这种对犯错的恐惧，让自己“为了不能犯错而做了很多错误的决策”。\n直到去年底，他才刚刚渡过了这段难关。\nOUTLINE:\n00:01:41 “我们是蟑螂，我们死不了”         \n00:24:49 “我可以闻得到钱 ”       \n00:40:32 机器人开放地图和“product research”路线图      \n02:00:08 中国      \n02:13:01 丢下包袱，迷雾中探出一条自己的路\nLINKS：\n如果你想服用文字版，请搜索我们工作室的公众号：语言即世界language is world。\nDISCLAIMER: 本内容不作为投资建议。\nCONTACT: xiaojunzhang@lisw.ai\nJump into the new world-and explore with us!😉",
-      "publishedAt": "2026-10-15T00:00:00+00:00",
-      "rssUrl": "https://feed.xyzfm.space/dk4yh3pkpjp3",
-      "coverImageUrl": "https://image.xyzcdn.net/FvGVAbzyMtir_oSGBEi6zLuOTn8J.png",
-      "coverText": "张小",
+      "episodeId": "6ad325f4641ef406308cfd8a",
+      "podcastName": "跨国串门儿计划",
+      "episodeTitle": "#777. All-in｜AI 算力融资：判断风险，先看回本周期",
+      "description": "📝 本期播客简介\n本期我们克隆了：All-In Podcast · CoreWeave Crash, AI Trade Cracks, Anthropic IPO Red Flags, Bill Gates Doomer\n原内容更新时间：2026-10-17\nAI 算力需求这么旺，为什么一家算力公司的债券收益率会飙到 15%？All-In 的嘉宾们拆解 CoreWeave 的融资结构：长期合同锁住收入，也可能让公司错过现货涨价；借款成本上升，则会挤压利润、逼近收支平衡点。\n代替 Friedberg 做客的 Ben Horowitz，和 David Sacks、Chamath 等人还讨论了 AI 投资是否出现泡沫、软件降价与定制开发、电力如何成为算力生意的瓶颈。讨论的核心不是“AI 有没有需求”，而是这些公司能否按合理成本融资、建成设施并及时回本。\n👤 本期嘉宾\nBen Horowitz，风投公司 Andreessen Horowitz 的联合创始人之一，本期代替 Friedberg 做客。他和 Marc Andreessen 曾通过 Loudcloud 推动云服务商业模式的发展，也亲历过早期带宽价格暴跌带来的风险；他因此对依赖借款、长期合同和复杂融资结构的算力生意格外谨慎。\n⏱️ 时间戳\n02:07 CoreWeave债务风波\n27:15 AI通缩与软件重构\n40:47 Anthropic投资者日反响\n57:49 Anthropic的物联网警告\n1:14:13 理解末日论者盖茨\n🌟 精彩内容\n💡 长期合同锁收入，也锁住价格\nCoreWeave 用客户合同、GPU 和数据中心项目组成融资“盒子”，收入先支付运营成本和债务，剩余部分才归公司。问题是，固定价格合同挡住了现货算力涨价带来的额外收入。\n\"这些合同的价格是固定的。\"\n💡 利率上升会把算力项目推近临界点\nCoreWeave 还需要为已签合同筹集约 350 亿美元；部分 GPU 贷款利率已飙到 15%。如果后续融资成本继续上升，固定的合同收入就更难覆盖成本和还款。\n\"如果融资利率升到 10%、11%、12%、13%、14%、15%这个区间，他们就非常非常接近那个临界点了。\"\n💡 AI 需求旺，不代表债务不会出问题\n嘉宾认为，算力需求还在增长，老款 GPU 仍能租出高价，建设新设施也受电力和许可限制；但如果债务状况失控，需求旺盛也救不了所有公司。\n\"如果债务状况严重失控，谁都有可能被拖垮。\"\n💡 回本周期是该盯紧的指标\nCoreWeave 称项目约 2.5 年回本，SpaceX 约 1 年。回本越快，越能降低债务风险；如果周期开始拉长，就要追问需求、现货价格或建设进度出了什么问题。\n\"只要回本周期足够短，我就看不出这些公司怎么会亏。\"\n💡 电力可能成为新的护城河\n算力设施不只需要 GPU，还得有电、冷却和数据中心。电力短缺与建设瓶颈可能让云服务商无法及时提供容量，连产品准备上线的创业公司也会被卡住。\n\"我觉得电力会成为护城河。\"\n💡 软件变便宜，定制开发却可能更多\n编程助手让企业能为自己的具体需求开发软件，软件价格下降的同时，用途和数量也可能增加。对程序员的需求没有因此消失：代码更多了，还需要人理解底层、管理流程和维护。\n\"软件价格肯定会下降，但软件的数量会大幅增加。\"\n🌐 播客信息补充\n本播客采用原有人声声线进行播客音频制作，也可能会有一些地方听起来怪怪的\n使用 AI 进行翻译，因此可能会有一些地方不通顺\n\n在小宇宙查看该单集文稿",
+      "publishedAt": "2026-10-17T07:55:27+00:00",
+      "rssUrl": "https://feed.xyzfm.space/r8t44lmvu99m",
+      "coverImageUrl": "https://image.xyzcdn.net/FgPi3C76e0yvQlUYo8TDbk1GTgp8.png",
+      "coverText": "跨国",
       "coverBg": "bg-[#18181B]",
       "coverTextColor": "text-amber-50",
-      "whyRecommended": "聚焦今天我们的嘉宾是一位美国连续创业者，Dy，适合想快速判断这期是否值得听的人。",
+      "whyRecommended": "聚焦本期我们克隆了：All-In Podca，适合想快速判断这期是否值得听的人。",
       "viewpoints": [
-        "今天我们的嘉宾是一位美国连续创业者，Dyna Robotics创始人兼CEO Lindon Gao。此前，他做过两段生意，一次完整的创业。Dyna可以说是他的第四次创业了。",
-        "在硅谷，Dyna和之前来过我们节目的Pi（Physical Intelligence）的纯大脑研究路线非常不一样。相比从通用智能出发、探索机器人大脑的研究路径，Dyna选择了一条“Product-research”的道路：以具体的工作流为最小单元，从真实任务出发，反过来驱动模型的预训练。",
-        "全球机器人行业还远远没有达到收敛的时刻。这是一条无比漫长的长跑——你看不见终点，有时候你也看不出清楚四周。每一位创业者都必须在这张尚未绘制完成的地图上，找到自己的方向，做出关键决策，并在迷途中找回自己。"
+        "本期我们克隆了：All-In Podcast · CoreWeave Crash, AI Trade Cracks, Anthropic IPO Red Flags, Bill Gates Doomer",
+        "原内容更新时间：2026-10-17",
+        "AI 算力需求这么旺，为什么一家算力公司的债券收益率会飙到 15%？All-In 的嘉宾们拆解 CoreWeave 的融资结构：长期合同锁住收入，也可能让公司错过现货涨价；借款成本上升，则会挤压利润、逼近收支平衡点。"
       ],
       "goldenQuotes": [
         {
-          "quote": "Product-research",
+          "quote": "这些合同的价格是固定的。",
           "source": "来自本期 shownote",
           "source_note": "来自本期 shownote"
         },
         {
-          "quote": "为了不能犯错而做了很多错误的决策",
+          "quote": "如果债务状况严重失控，谁都有可能被拖垮。",
           "source": "来自本期 shownote",
           "source_note": "来自本期 shownote"
         }
       ],
       "triageTag": "☕有空再听｜主线清楚好进入",
-      "href": "cosmos://page.cos/episode/6acf81f0195d838e2af1e281?utm_source=rss",
+      "href": "cosmos://page.cos/episode/6ad325f4641ef406308cfd8a?utm_source=rss",
       "scenario": "",
-      "whyRecommend": "聚焦今天我们的嘉宾是一位美国连续创业者，Dy，适合想快速判断这期是否值得听的人。",
-      "goldenQuote": "Product-research",
+      "whyRecommend": "聚焦本期我们克隆了：All-In Podca，适合想快速判断这期是否值得听的人。",
+      "goldenQuote": "这些合同的价格是固定的。",
       "topicTag": "☕有空再听｜主线清楚好进入"
     }
   ],
