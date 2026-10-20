@@ -1,5 +1,26 @@
 [
   {
+    "episodeId": "6ad4760d0e4e410a05be939d",
+    "podcastName": "十分吸引",
+    "episodeTitle": "EP.06 美元百年王座之路：危机、战争、美联储与布雷顿森林",
+    "generatedAt": "2026-10-20T08:12:12.621316+08:00",
+    "fingerprint": "6ad4760d0e4e410a05be939d"
+  },
+  {
+    "episodeId": "9e6e1db1-f30b-492d-8a09-d8756b9df700",
+    "podcastName": "硅谷101",
+    "episodeTitle": "E256｜Agent、机器人与制药，谁先被GPT-6 Astra改写？",
+    "generatedAt": "2026-10-20T08:12:12.621316+08:00",
+    "fingerprint": "9e6e1db1-f30b-492d-8a09-d8756b9df700"
+  },
+  {
+    "episodeId": "6ad039fbe742e36efcc32e5b",
+    "podcastName": "整点亮话",
+    "episodeTitle": "84 没有勾心，只有豆角——回东北老家，发现大厂给我的焦虑“失效”了",
+    "generatedAt": "2026-10-20T08:12:12.621316+08:00",
+    "fingerprint": "6ad039fbe742e36efcc32e5b"
+  },
+  {
     "episodeId": "6ad2412d0e4e410a05be01a7",
     "podcastName": "十字路口Crossing",
     "episodeTitle": "新的创业机会，正在 Claude Code 和 Codex 周围长出来｜对谈 Treg",
@@ -187,26 +208,5 @@
     "episodeTitle": "咖啡豆｜「希尔顿们」入驻县域市场，国际中端连锁酒店为何加速扩张？",
     "generatedAt": "2026-10-11T08:11:21.487060+08:00",
     "fingerprint": "6ac7b241e742e36efcbff9ba"
-  },
-  {
-    "episodeId": "6ac79cf4e742e36efcbfedbc",
-    "podcastName": "富女之友",
-    "episodeTitle": "Vol18.普通人与AI相处指南！入门到精通只要三步",
-    "generatedAt": "2026-10-10T08:41:12.736988+08:00",
-    "fingerprint": "6ac79cf4e742e36efcbfedbc"
-  },
-  {
-    "episodeId": "6ac7bd96195d838e2aeee783",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#759. Y Combinator 2014 年创业课程 20 讲",
-    "generatedAt": "2026-10-10T08:41:12.736988+08:00",
-    "fingerprint": "6ac7bd96195d838e2aeee783"
-  },
-  {
-    "episodeId": "6ac32c37195d838e2aed683a",
-    "podcastName": "虚构立影",
-    "episodeTitle": "12 细读简·奥斯丁：理智不是情感的敌人，算计才是",
-    "generatedAt": "2026-10-10T08:41:12.736988+08:00",
-    "fingerprint": "6ac32c37195d838e2aed683a"
   }
 ]
