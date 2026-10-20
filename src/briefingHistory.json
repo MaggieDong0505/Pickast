@@ -1,5 +1,26 @@
 [
   {
+    "episodeId": "6ad7a479d421cc8077339c62",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#782. JRE｜Thomas Campbell：AI 只是在猜下一个词，还是已经有了意识？",
+    "generatedAt": "2026-10-21T07:46:39.193292+08:00",
+    "fingerprint": "6ad7a479d421cc8077339c62"
+  },
+  {
+    "episodeId": "6ad75c9cd421cc8077337ca6",
+    "podcastName": "不被定义的职场",
+    "episodeTitle": "EP30 卡住你的不是不够努力，是你不知道揣着什么上路",
+    "generatedAt": "2026-10-21T07:46:39.193292+08:00",
+    "fingerprint": "6ad75c9cd421cc8077337ca6"
+  },
+  {
+    "episodeId": "6ad4d0fd641ef406308d80fa",
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "海外航司纷纷拥抱星链，免费 Wi-Fi 为何逐渐成为航司新标配？",
+    "generatedAt": "2026-10-21T07:46:39.193292+08:00",
+    "fingerprint": "6ad4d0fd641ef406308d80fa"
+  },
+  {
     "episodeId": "6ad4760d0e4e410a05be939d",
     "podcastName": "十分吸引",
     "episodeTitle": "EP.06 美元百年王座之路：危机、战争、美联储与布雷顿森林",
@@ -187,26 +208,5 @@
     "episodeTitle": "#765. Eugene Wei｜社交媒体算法：看懂注意力如何改写你的表达",
     "generatedAt": "2026-10-12T08:25:11.339656+08:00",
     "fingerprint": "6acaef37195d838e2af00042"
-  },
-  {
-    "episodeId": "6ac9fff8195d838e2aefc153",
-    "podcastName": "跨域请求",
-    "episodeTitle": "20.☢️AI时代的奥本海默困境：明知可能毁灭人类，为何还要继续",
-    "generatedAt": "2026-10-11T08:11:21.487060+08:00",
-    "fingerprint": "6ac9fff8195d838e2aefc153"
-  },
-  {
-    "episodeId": "6ac91500e742e36efcc089fc",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#761. 产品精通、耐痛能力和不懈的雄心",
-    "generatedAt": "2026-10-11T08:11:21.487060+08:00",
-    "fingerprint": "6ac91500e742e36efcc089fc"
-  },
-  {
-    "episodeId": "6ac7b241e742e36efcbff9ba",
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "咖啡豆｜「希尔顿们」入驻县域市场，国际中端连锁酒店为何加速扩张？",
-    "generatedAt": "2026-10-11T08:11:21.487060+08:00",
-    "fingerprint": "6ac7b241e742e36efcbff9ba"
   }
 ]
