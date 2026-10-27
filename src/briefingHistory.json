@@ -1,5 +1,26 @@
 [
   {
+    "episodeId": "6ade4656c96c8942ec12167a",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#793. npm创始人Laurie Voss：如何判断你的 AI 智能体是否足够优秀",
+    "generatedAt": "2026-10-27T08:20:28.128548+08:00",
+    "fingerprint": "6ade4656c96c8942ec12167a"
+  },
+  {
+    "episodeId": "6adc9ab5c96c8942ec119163",
+    "podcastName": "整点亮话",
+    "episodeTitle": "85 加哥会客厅｜大雄同学：40岁，把自己送回学校——从字节到大阪，为什么重新开始？",
+    "generatedAt": "2026-10-27T08:20:28.128548+08:00",
+    "fingerprint": "6adc9ab5c96c8942ec119163"
+  },
+  {
+    "episodeId": "6adfa28ac96c8942ec12acd9",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#794. Rob Snyder：别说服客户，去找已经在尝试改变的人",
+    "generatedAt": "2026-10-27T08:20:28.128548+08:00",
+    "fingerprint": "6adfa28ac96c8942ec12acd9"
+  },
+  {
     "episodeId": "6ade1138c96c8942ec1207f7",
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#791.Google前CEO：模型开发要6个月，发布后不到5个月就过时",
@@ -187,26 +208,5 @@
     "episodeTitle": "154. 对Dyna创始人Lindon的3小时访谈：机器人世界的迷雾、分歧与抉择，修心、《沉思录》与王阳明",
     "generatedAt": "2026-10-18T06:59:54.887203+08:00",
     "fingerprint": "6acf81f0195d838e2af1e281"
-  },
-  {
-    "episodeId": "df4fa6fe-db30-4fb5-809f-67fe0b42ca3b",
-    "podcastName": "What's Next｜科技早知道",
-    "episodeTitle": "用光调控神经细胞：今年诺贝尔奖如何改变我们对情绪的理解？ | 串台「声东击西」S10E32",
-    "generatedAt": "2026-10-17T07:26:12.927945+08:00",
-    "fingerprint": "df4fa6fe-db30-4fb5-809f-67fe0b42ca3b"
-  },
-  {
-    "episodeId": "6acf1fc4195d838e2af1abe3",
-    "podcastName": "贝望录",
-    "episodeTitle": "28. 找出路丨卖掉公司、买下足球队，再从头做儿童意面，创业者如何一次次的找到出路？",
-    "generatedAt": "2026-10-17T07:26:12.927945+08:00",
-    "fingerprint": "6acf1fc4195d838e2af1abe3"
-  },
-  {
-    "episodeId": "6ad0bd950e4e410a05bd68be",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#773. 黄仁勋：从算力需求看英伟达的增长逻辑",
-    "generatedAt": "2026-10-17T07:26:12.927945+08:00",
-    "fingerprint": "6ad0bd950e4e410a05bd68be"
   }
 ]
