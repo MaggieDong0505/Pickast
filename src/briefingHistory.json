@@ -1,5 +1,26 @@
 [
   {
+    "episodeId": "6ae04a1197726cd467586246",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#796.Lex 对话数学家｜AI能组合已知方法，却还没提出新数学问题",
+    "generatedAt": "2026-10-28T08:24:25.810076+08:00",
+    "fingerprint": "6ae04a1197726cd467586246"
+  },
+  {
+    "episodeId": "6ade1953c96c8942ec120bbe",
+    "podcastName": "贝望录",
+    "episodeTitle": "243. 行动亚洲的20年，一个公益组织如何活下去，又如何改变世界？",
+    "generatedAt": "2026-10-28T08:24:25.810076+08:00",
+    "fingerprint": "6ade1953c96c8942ec120bbe"
+  },
+  {
+    "episodeId": "6ae02a64c96c8942ec12db08",
+    "podcastName": "思文，败类",
+    "episodeTitle": "115.配不配得不重要，窝囊人生蛮好笑",
+    "generatedAt": "2026-10-28T08:24:25.810076+08:00",
+    "fingerprint": "6ae02a64c96c8942ec12db08"
+  },
+  {
     "episodeId": "6ade4656c96c8942ec12167a",
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#793. npm创始人Laurie Voss：如何判断你的 AI 智能体是否足够优秀",
@@ -187,26 +208,5 @@
     "episodeTitle": "#777. All-in｜AI 算力融资：判断风险，先看回本周期",
     "generatedAt": "2026-10-19T06:58:09.530886+08:00",
     "fingerprint": "6ad325f4641ef406308cfd8a"
-  },
-  {
-    "episodeId": "6ad1ee350e4e410a05bde007",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#775. Dots 引领 ChatGPT 的未来：持续盯任务，跨应用接上你的工作",
-    "generatedAt": "2026-10-18T06:59:54.887203+08:00",
-    "fingerprint": "6ad1ee350e4e410a05bde007"
-  },
-  {
-    "episodeId": "6ad2d4b0641ef406308cdd7c",
-    "podcastName": "其他垃圾",
-    "episodeTitle": "上班后，旅行的滋味变了",
-    "generatedAt": "2026-10-18T06:59:54.887203+08:00",
-    "fingerprint": "6ad2d4b0641ef406308cdd7c"
-  },
-  {
-    "episodeId": "6acf81f0195d838e2af1e281",
-    "podcastName": "张小珺Jùn｜商业访谈录",
-    "episodeTitle": "154. 对Dyna创始人Lindon的3小时访谈：机器人世界的迷雾、分歧与抉择，修心、《沉思录》与王阳明",
-    "generatedAt": "2026-10-18T06:59:54.887203+08:00",
-    "fingerprint": "6acf81f0195d838e2af1e281"
   }
 ]
