@@ -1,5 +1,26 @@
 [
   {
+    "episodeId": "7a1e61d3-f02c-498b-ac84-cf68f59b4ca9",
+    "podcastName": "硅谷101",
+    "episodeTitle": "E257｜对话Vitalik：AI安全背后的哲学思想，有效利他主义如何影响硅谷？",
+    "generatedAt": "2026-10-29T08:44:51.752091+08:00",
+    "fingerprint": "7a1e61d3-f02c-498b-ac84-cf68f59b4ca9"
+  },
+  {
+    "episodeId": "6ae2371797726cd46759506e",
+    "podcastName": "搞钱女孩",
+    "episodeTitle": "AI时代做OPC真的香吗？聊聊一人公司的定位、定价、商业模式",
+    "generatedAt": "2026-10-29T08:44:51.752091+08:00",
+    "fingerprint": "6ae2371797726cd46759506e"
+  },
+  {
+    "episodeId": "6ae0289c97726cd467584da3",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#795. 2045 年的计算机芯片会是什么样子？",
+    "generatedAt": "2026-10-29T08:44:51.752091+08:00",
+    "fingerprint": "6ae0289c97726cd467584da3"
+  },
+  {
     "episodeId": "6ae04a1197726cd467586246",
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#796.Lex 对话数学家｜AI能组合已知方法，却还没提出新数学问题",
@@ -187,26 +208,5 @@
     "episodeTitle": "84 没有勾心，只有豆角——回东北老家，发现大厂给我的焦虑“失效”了",
     "generatedAt": "2026-10-20T08:12:12.621316+08:00",
     "fingerprint": "6ad039fbe742e36efcc32e5b"
-  },
-  {
-    "episodeId": "6ad2412d0e4e410a05be01a7",
-    "podcastName": "十字路口Crossing",
-    "episodeTitle": "新的创业机会，正在 Claude Code 和 Codex 周围长出来｜对谈 Treg",
-    "generatedAt": "2026-10-19T06:58:09.530886+08:00",
-    "fingerprint": "6ad2412d0e4e410a05be01a7"
-  },
-  {
-    "episodeId": "6ad244f50e4e410a05be0317",
-    "podcastName": "颜如玉|医美 A to Z",
-    "episodeTitle": "EP38｜婚礼前的医美准备（下）：从三个月到最后一天，不犯错比变美更重要",
-    "generatedAt": "2026-10-19T06:58:09.530886+08:00",
-    "fingerprint": "6ad244f50e4e410a05be0317"
-  },
-  {
-    "episodeId": "6ad325f4641ef406308cfd8a",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#777. All-in｜AI 算力融资：判断风险，先看回本周期",
-    "generatedAt": "2026-10-19T06:58:09.530886+08:00",
-    "fingerprint": "6ad325f4641ef406308cfd8a"
   }
 ]
