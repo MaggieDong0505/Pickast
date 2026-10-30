@@ -1,5 +1,26 @@
 [
   {
+    "episodeId": "6ae2f5b397726cd467599520",
+    "podcastName": "跨域请求",
+    "episodeTitle": "21.🍸AI越好用人越笨？个人到社会的技术倒退｜串台《金酒半杯》",
+    "generatedAt": "2026-10-30T08:46:11.692952+08:00",
+    "fingerprint": "6ae2f5b397726cd467599520"
+  },
+  {
+    "episodeId": "6ae3101197726cd46759a8e3",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#800. 唐·瓦伦丁与红杉资本画像",
+    "generatedAt": "2026-10-30T08:46:11.692952+08:00",
+    "fingerprint": "6ae3101197726cd46759a8e3"
+  },
+  {
+    "episodeId": "6ae0b2e7c96c8942ec133473",
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "达霏欣｜抛弃合作近 40 年的百事，美国肯德基在折腾什么？",
+    "generatedAt": "2026-10-30T08:46:11.692952+08:00",
+    "fingerprint": "6ae0b2e7c96c8942ec133473"
+  },
+  {
     "episodeId": "7a1e61d3-f02c-498b-ac84-cf68f59b4ca9",
     "podcastName": "硅谷101",
     "episodeTitle": "E257｜对话Vitalik：AI安全背后的哲学思想，有效利他主义如何影响硅谷？",
@@ -187,26 +208,5 @@
     "episodeTitle": "海外航司纷纷拥抱星链，免费 Wi-Fi 为何逐渐成为航司新标配？",
     "generatedAt": "2026-10-21T07:46:39.193292+08:00",
     "fingerprint": "6ad4d0fd641ef406308d80fa"
-  },
-  {
-    "episodeId": "6ad4760d0e4e410a05be939d",
-    "podcastName": "十分吸引",
-    "episodeTitle": "EP.06 美元百年王座之路：危机、战争、美联储与布雷顿森林",
-    "generatedAt": "2026-10-20T08:12:12.621316+08:00",
-    "fingerprint": "6ad4760d0e4e410a05be939d"
-  },
-  {
-    "episodeId": "9e6e1db1-f30b-492d-8a09-d8756b9df700",
-    "podcastName": "硅谷101",
-    "episodeTitle": "E256｜Agent、机器人与制药，谁先被GPT-6 Astra改写？",
-    "generatedAt": "2026-10-20T08:12:12.621316+08:00",
-    "fingerprint": "9e6e1db1-f30b-492d-8a09-d8756b9df700"
-  },
-  {
-    "episodeId": "6ad039fbe742e36efcc32e5b",
-    "podcastName": "整点亮话",
-    "episodeTitle": "84 没有勾心，只有豆角——回东北老家，发现大厂给我的焦虑“失效”了",
-    "generatedAt": "2026-10-20T08:12:12.621316+08:00",
-    "fingerprint": "6ad039fbe742e36efcc32e5b"
   }
 ]
