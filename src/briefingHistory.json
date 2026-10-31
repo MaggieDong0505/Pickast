@@ -1,5 +1,26 @@
 [
   {
+    "episodeId": "03e51cc1-020d-4c30-8c07-8f8614b46e7f",
+    "podcastName": "What's Next｜科技早知道",
+    "episodeTitle": "Anthropic冲刺IPO：2万亿美元估值贵不贵？拆解Claude的增长、成本与竞争｜S10E34",
+    "generatedAt": "2026-10-31T08:37:25.784657+08:00",
+    "fingerprint": "03e51cc1-020d-4c30-8c07-8f8614b46e7f"
+  },
+  {
+    "episodeId": "6ae3986ac96c8942ec146fb4",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#801. 当智能免费时，什么仍然有价值",
+    "generatedAt": "2026-10-31T08:37:25.784657+08:00",
+    "fingerprint": "6ae3986ac96c8942ec146fb4"
+  },
+  {
+    "episodeId": "6ae22cf797726cd467594ef9",
+    "podcastName": "about热水频道",
+    "episodeTitle": "人性，千百年来就没变过｜108希腊神话",
+    "generatedAt": "2026-10-31T08:37:25.784657+08:00",
+    "fingerprint": "6ae22cf797726cd467594ef9"
+  },
+  {
     "episodeId": "6ae2f5b397726cd467599520",
     "podcastName": "跨域请求",
     "episodeTitle": "21.🍸AI越好用人越笨？个人到社会的技术倒退｜串台《金酒半杯》",
@@ -187,26 +208,5 @@
     "episodeTitle": "千余家影院直播体育赛事，上半年国内金饰消费量下跌三成",
     "generatedAt": "2026-10-22T07:58:20.979816+08:00",
     "fingerprint": "6ad625fd66729f5c712df259"
-  },
-  {
-    "episodeId": "6ad7a479d421cc8077339c62",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#782. JRE｜Thomas Campbell：AI 只是在猜下一个词，还是已经有了意识？",
-    "generatedAt": "2026-10-21T07:46:39.193292+08:00",
-    "fingerprint": "6ad7a479d421cc8077339c62"
-  },
-  {
-    "episodeId": "6ad75c9cd421cc8077337ca6",
-    "podcastName": "不被定义的职场",
-    "episodeTitle": "EP30 卡住你的不是不够努力，是你不知道揣着什么上路",
-    "generatedAt": "2026-10-21T07:46:39.193292+08:00",
-    "fingerprint": "6ad75c9cd421cc8077337ca6"
-  },
-  {
-    "episodeId": "6ad4d0fd641ef406308d80fa",
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "海外航司纷纷拥抱星链，免费 Wi-Fi 为何逐渐成为航司新标配？",
-    "generatedAt": "2026-10-21T07:46:39.193292+08:00",
-    "fingerprint": "6ad4d0fd641ef406308d80fa"
   }
 ]
