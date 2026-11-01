@@ -1,5 +1,26 @@
 [
   {
+    "episodeId": "6ae622cfc96c8942ec1548a0",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#803.All-In｜Anthropic可能是风投史上创造价值最快的公司",
+    "generatedAt": "2026-11-01T08:00:34.376534+08:00",
+    "fingerprint": "6ae622cfc96c8942ec1548a0"
+  },
+  {
+    "episodeId": "6ae55910c96c8942ec150100",
+    "podcastName": "其他垃圾",
+    "episodeTitle": "如何在人生的贤者时间，活得更性感？",
+    "generatedAt": "2026-11-01T08:00:34.376534+08:00",
+    "fingerprint": "6ae55910c96c8942ec150100"
+  },
+  {
+    "episodeId": "6ae3388097726cd46759be3e",
+    "podcastName": "声动早咖啡",
+    "episodeTitle": "达霏欣｜咖啡豆：好莱坞迎来恐怖片大年，为什么这类电影越来越多？",
+    "generatedAt": "2026-11-01T08:00:34.376534+08:00",
+    "fingerprint": "6ae3388097726cd46759be3e"
+  },
+  {
     "episodeId": "03e51cc1-020d-4c30-8c07-8f8614b46e7f",
     "podcastName": "What's Next｜科技早知道",
     "episodeTitle": "Anthropic冲刺IPO：2万亿美元估值贵不贵？拆解Claude的增长、成本与竞争｜S10E34",
@@ -187,26 +208,5 @@
     "episodeTitle": "张骏×胡叫：为什么不敢做一个“没用”的人？｜视频播客01",
     "generatedAt": "2026-10-23T07:57:31.712289+08:00",
     "fingerprint": "6ad90644b381c0fcba19c4bc"
-  },
-  {
-    "episodeId": "6ad8ed3db381c0fcba19c208",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#784.黄仁勋 GTC 演讲：用公司的知识和工具打造专属 agent",
-    "generatedAt": "2026-10-22T07:58:20.979816+08:00",
-    "fingerprint": "6ad8ed3db381c0fcba19c208"
-  },
-  {
-    "episodeId": "6ad8ff50ef67611cac7a2c02",
-    "podcastName": "搞钱女孩",
-    "episodeTitle": "纯过日子人致富指南：不买房、攒本金、复利别断、戒掉攀比！",
-    "generatedAt": "2026-10-22T07:58:20.979816+08:00",
-    "fingerprint": "6ad8ff50ef67611cac7a2c02"
-  },
-  {
-    "episodeId": "6ad625fd66729f5c712df259",
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "千余家影院直播体育赛事，上半年国内金饰消费量下跌三成",
-    "generatedAt": "2026-10-22T07:58:20.979816+08:00",
-    "fingerprint": "6ad625fd66729f5c712df259"
   }
 ]
