@@ -1,5 +1,26 @@
 [
   {
+    "episodeId": "6aeec21d5b7c4709bfe262c0",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#814. 深度解读Anthropic S-1招股书",
+    "generatedAt": "2026-11-08T08:22:53.032001+08:00",
+    "fingerprint": "6aeec21d5b7c4709bfe262c0"
+  },
+  {
+    "episodeId": "6aec6bc06381f0f964c45068",
+    "podcastName": "42章经",
+    "episodeTitle": "锐评国模与 Neo Lab，畅谈 RL 人生与 RLaaS | 对谈 Mind Lab 首席科学家骁腾",
+    "generatedAt": "2026-11-08T08:22:53.032001+08:00",
+    "fingerprint": "6aec6bc06381f0f964c45068"
+  },
+  {
+    "episodeId": "6aef03eeb4a4e20202f62fc1",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#815.All-In联合主持人Chamath：为什么打扑克能训练你接受损失？",
+    "generatedAt": "2026-11-08T08:22:53.032001+08:00",
+    "fingerprint": "6aef03eeb4a4e20202f62fc1"
+  },
+  {
     "episodeId": "6aee45dab4a4e20202f5f73f",
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#813. Transformer创造者：AI 与加密将如何在未来十年重塑世界",
@@ -187,26 +208,5 @@
     "episodeTitle": "达霏欣｜抛弃合作近 40 年的百事，美国肯德基在折腾什么？",
     "generatedAt": "2026-10-30T08:46:11.692952+08:00",
     "fingerprint": "6ae0b2e7c96c8942ec133473"
-  },
-  {
-    "episodeId": "7a1e61d3-f02c-498b-ac84-cf68f59b4ca9",
-    "podcastName": "硅谷101",
-    "episodeTitle": "E257｜对话Vitalik：AI安全背后的哲学思想，有效利他主义如何影响硅谷？",
-    "generatedAt": "2026-10-29T08:44:51.752091+08:00",
-    "fingerprint": "7a1e61d3-f02c-498b-ac84-cf68f59b4ca9"
-  },
-  {
-    "episodeId": "6ae2371797726cd46759506e",
-    "podcastName": "搞钱女孩",
-    "episodeTitle": "AI时代做OPC真的香吗？聊聊一人公司的定位、定价、商业模式",
-    "generatedAt": "2026-10-29T08:44:51.752091+08:00",
-    "fingerprint": "6ae2371797726cd46759506e"
-  },
-  {
-    "episodeId": "6ae0289c97726cd467584da3",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#795. 2045 年的计算机芯片会是什么样子？",
-    "generatedAt": "2026-10-29T08:44:51.752091+08:00",
-    "fingerprint": "6ae0289c97726cd467584da3"
   }
 ]
