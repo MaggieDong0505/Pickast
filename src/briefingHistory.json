@@ -1,5 +1,26 @@
 [
   {
+    "episodeId": "7b500b8f-cfde-4da1-9559-8128adcea8f6",
+    "podcastName": "What's Next｜科技早知道",
+    "episodeTitle": "通用 AI 助手走向大众，垂直 Agent 的机遇藏在哪里？｜对话小影科技韩晟 S10E35",
+    "generatedAt": "2026-11-10T11:23:05.440914+08:00",
+    "fingerprint": "7b500b8f-cfde-4da1-9559-8128adcea8f6"
+  },
+  {
+    "episodeId": "6af1751a5b7c4709bfe35712",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#820. 丹尼尔·卡尼曼：思考，快与慢",
+    "generatedAt": "2026-11-10T11:23:05.440914+08:00",
+    "fingerprint": "6af1751a5b7c4709bfe35712"
+  },
+  {
+    "episodeId": "cf828f9b-aec5-59ed-9941-414612d9f0cf",
+    "podcastName": "Peril Crosser 渡厄",
+    "episodeTitle": "EP70: 弗洛伊德：黑夜的闯入者，潜意识的发现与泛性论真相",
+    "generatedAt": "2026-11-10T11:23:05.440914+08:00",
+    "fingerprint": "cf828f9b-aec5-59ed-9941-414612d9f0cf"
+  },
+  {
     "episodeId": "6af030b3b4a4e20202f68499",
     "podcastName": "跨国串门儿计划",
     "episodeTitle": "#816.All-In：中期选举血洗、4 万亿美元 AI 抛售、数据中心冻结，特朗普下一步何去何从",
@@ -187,26 +208,5 @@
     "episodeTitle": "达霏欣｜咖啡豆：好莱坞迎来恐怖片大年，为什么这类电影越来越多？",
     "generatedAt": "2026-11-01T08:00:34.376534+08:00",
     "fingerprint": "6ae3388097726cd46759be3e"
-  },
-  {
-    "episodeId": "03e51cc1-020d-4c30-8c07-8f8614b46e7f",
-    "podcastName": "What's Next｜科技早知道",
-    "episodeTitle": "Anthropic冲刺IPO：2万亿美元估值贵不贵？拆解Claude的增长、成本与竞争｜S10E34",
-    "generatedAt": "2026-10-31T08:37:25.784657+08:00",
-    "fingerprint": "03e51cc1-020d-4c30-8c07-8f8614b46e7f"
-  },
-  {
-    "episodeId": "6ae3986ac96c8942ec146fb4",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#801. 当智能免费时，什么仍然有价值",
-    "generatedAt": "2026-10-31T08:37:25.784657+08:00",
-    "fingerprint": "6ae3986ac96c8942ec146fb4"
-  },
-  {
-    "episodeId": "6ae22cf797726cd467594ef9",
-    "podcastName": "about热水频道",
-    "episodeTitle": "人性，千百年来就没变过｜108希腊神话",
-    "generatedAt": "2026-10-31T08:37:25.784657+08:00",
-    "fingerprint": "6ae22cf797726cd467594ef9"
   }
 ]
