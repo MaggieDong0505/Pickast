@@ -1,5 +1,26 @@
 [
   {
+    "episodeId": "6af33e13b4a4e20202f7e158",
+    "podcastName": "贝望录",
+    "episodeTitle": "246. 从《克拉克森的农场》到中国现代牧场，养1.4万头奶牛，是一门怎样的生意？",
+    "generatedAt": "2026-11-11T09:10:34.033894+08:00",
+    "fingerprint": "6af33e13b4a4e20202f7e158"
+  },
+  {
+    "episodeId": "6af316b6b4a4e20202f7cbd2",
+    "podcastName": "乱翻书",
+    "episodeTitle": "278.在红果做AI漫剧的人，是骆驼祥子吗？一个人、16亿播放、七位数收入",
+    "generatedAt": "2026-11-11T09:10:34.033894+08:00",
+    "fingerprint": "6af316b6b4a4e20202f7cbd2"
+  },
+  {
+    "episodeId": "6af1b8a9b4a4e20202f73529",
+    "podcastName": "时雨集",
+    "episodeTitle": "答听友问：远方无数的人们，都和我们有关",
+    "generatedAt": "2026-11-11T09:10:34.033894+08:00",
+    "fingerprint": "6af1b8a9b4a4e20202f73529"
+  },
+  {
     "episodeId": "7b500b8f-cfde-4da1-9559-8128adcea8f6",
     "podcastName": "What's Next｜科技早知道",
     "episodeTitle": "通用 AI 助手走向大众，垂直 Agent 的机遇藏在哪里？｜对话小影科技韩晟 S10E35",
@@ -187,26 +208,5 @@
     "episodeTitle": "别跟我聊意义，我只想好好过日子！",
     "generatedAt": "2026-11-02T08:31:03.662914+08:00",
     "fingerprint": "6ae4761897726cd4675a3fab"
-  },
-  {
-    "episodeId": "6ae622cfc96c8942ec1548a0",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#803.All-In｜Anthropic可能是风投史上创造价值最快的公司",
-    "generatedAt": "2026-11-01T08:00:34.376534+08:00",
-    "fingerprint": "6ae622cfc96c8942ec1548a0"
-  },
-  {
-    "episodeId": "6ae55910c96c8942ec150100",
-    "podcastName": "其他垃圾",
-    "episodeTitle": "如何在人生的贤者时间，活得更性感？",
-    "generatedAt": "2026-11-01T08:00:34.376534+08:00",
-    "fingerprint": "6ae55910c96c8942ec150100"
-  },
-  {
-    "episodeId": "6ae3388097726cd46759be3e",
-    "podcastName": "声动早咖啡",
-    "episodeTitle": "达霏欣｜咖啡豆：好莱坞迎来恐怖片大年，为什么这类电影越来越多？",
-    "generatedAt": "2026-11-01T08:00:34.376534+08:00",
-    "fingerprint": "6ae3388097726cd46759be3e"
   }
 ]
