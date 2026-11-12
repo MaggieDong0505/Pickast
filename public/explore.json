@@ -1,5 +1,81 @@
 [
   {
+    "title": "AI会让大多数人失业吗？",
+    "domainTag": "AI与就业",
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI提高生产率，中位数人群或受益，但工资会剧烈震荡",
+        "episodeId": "6ae7959797726cd4675b2730"
+      },
+      {
+        "podcast": "时雨集",
+        "point": "AI已冲击大量岗位，求职季史无前例，差距正被拉开",
+        "episodeId": "6af1b8a9b4a4e20202f73529"
+      }
+    ],
+    "createdAt": "2026-11-12T10:11:52.267922+08:00",
+    "updatedAt": "2026-11-12T10:11:52.267922+08:00"
+  },
+  {
+    "title": "AI漫剧是普通人的新机会吗？",
+    "domainTag": "AI与内容创作",
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "乱翻书",
+        "point": "一人公司靠AI漫剧半年七位数收入，是普通人机会",
+        "episodeId": "6af316b6b4a4e20202f7cbd2"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI不能替人做出真正有用的完整产品，仍需懂架构",
+        "episodeId": "6aeb3d1597726cd4675cd4c6"
+      }
+    ],
+    "createdAt": "2026-11-12T10:11:52.267922+08:00",
+    "updatedAt": "2026-11-12T10:11:52.267922+08:00"
+  },
+  {
+    "title": "通用Agent还是垂直Agent更有前途",
+    "domainTag": "AI产品",
+    "consensus": [],
+    "divergence": [
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "垂直Agent在复杂专业场景有不可替代的机会",
+        "episodeId": "7b500b8f-cfde-4da1-9559-8128adcea8f6"
+      },
+      {
+        "podcast": "十字路口Crossing",
+        "point": "Personal Agent真的有用，通用助手价值被低估",
+        "episodeId": "6af00645b4a4e20202f67440"
+      }
+    ],
+    "createdAt": "2026-11-12T10:11:52.267922+08:00",
+    "updatedAt": "2026-11-12T10:11:52.267922+08:00"
+  },
+  {
+    "title": "AI越强用的人会越笨吗？",
+    "domainTag": "AI与认知",
+    "consensus": [
+      {
+        "podcast": "跨域请求",
+        "point": "AI让学习太丝滑，卡住试错的Aha moment正在消失",
+        "episodeId": "6ae2f5b397726cd467599520"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "用模型前得懂原理，否则无法指挥模型做对事",
+        "episodeId": "6ae3986ac96c8942ec146fb4"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-11-12T10:11:52.267922+08:00",
+    "updatedAt": "2026-11-12T10:11:52.267922+08:00"
+  },
+  {
     "title": "AI基础设施投资是泡沫还是机遇？",
     "domainTag": "AI投资",
     "consensus": [
