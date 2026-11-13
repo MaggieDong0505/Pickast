@@ -1,5 +1,24 @@
 [
   {
+    "title": "Anthropic两万亿美元估值贵不贵？",
+    "domainTag": "AI投资",
+    "consensus": [
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "需求真实但高估值可能面临调整",
+        "episodeId": "03e51cc1-020d-4c30-8c07-8f8614b46e7f"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "算力采购承诺8000亿仍嫌保守",
+        "episodeId": "6aeec21d5b7c4709bfe262c0"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-11-13T09:45:12.350570+08:00",
+    "updatedAt": "2026-11-13T09:45:12.350570+08:00"
+  },
+  {
     "title": "AI会让大多数人失业吗？",
     "domainTag": "AI与就业",
     "consensus": [],
@@ -578,92 +597,5 @@
     "divergence": [],
     "createdAt": "2026-07-24T06:10:32.362881+08:00",
     "updatedAt": "2026-07-24T06:10:32.362881+08:00"
-  },
-  {
-    "title": "AIAgent支付安全吗？",
-    "domainTag": "AI与金融",
-    "consensus": [],
-    "divergence": [
-      {
-        "podcast": "What's Next｜科技早知道",
-        "point": "法币体系有成熟追责机制，更安全",
-        "episodeId": "9a652c19-ceb3-46c2-87b4-bca36e684311"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "Agent 自主消费不可逆，信任未建立",
-        "episodeId": "6a5f445b6356eb2d9be61775"
-      }
-    ],
-    "createdAt": "2026-07-23T06:12:14.090380+08:00",
-    "updatedAt": "2026-07-23T06:12:14.090380+08:00"
-  },
-  {
-    "title": "AI基础设施瓶颈到底在哪？",
-    "domainTag": "AI基础设施",
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "存储和电力是 AI 扩展的最大制约",
-        "episodeId": "6a52a93b1e32575f5eb4eb08"
-      },
-      {
-        "podcast": "十字路口Crossing",
-        "point": "推理加速需要从算子到部署全栈优化",
-        "episodeId": "6a5c6a91a3fec224d59fd014"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-07-23T06:12:14.090380+08:00",
-    "updatedAt": "2026-07-23T06:12:14.090380+08:00"
-  },
-  {
-    "title": "AI应用层现在是创业好时机吗？",
-    "domainTag": "AI创业",
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "基础设施已就位，应用层爆发时机成熟",
-        "episodeId": "6a50a4fb1e32575f5eb4424d"
-      },
-      {
-        "podcast": "十字路口Crossing",
-        "point": "Agent元年500天，GUI退场，应用层机会涌现",
-        "episodeId": "6a4511d92e335a35a80c8431"
-      }
-    ],
-    "divergence": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "基础设施已建好，现在是应用层创业的黄金时代",
-        "episodeId": "6a50a4fb1e32575f5eb4424d"
-      },
-      {
-        "podcast": "42章经",
-        "point": "AI四年，应用市场冷到谷底，投资人几乎不投应用",
-        "episodeId": "6a5b98a66356eb2d9be4ad2c"
-      }
-    ],
-    "createdAt": "2026-07-12T05:57:44.294747+08:00",
-    "updatedAt": "2026-07-20T05:59:47.803499+08:00"
-  },
-  {
-    "title": "AI时代还需要深度阅读吗？",
-    "domainTag": "认知与学习",
-    "consensus": [
-      {
-        "podcast": "about热水频道",
-        "point": "深度阅读是大脑的康复锻炼",
-        "episodeId": "6a57a863016dcc7e0542c7df"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "好的写作在于新颖和出人意料，AI做不到",
-        "episodeId": "6a4f1b653fb7233cbf461824"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-07-20T05:59:47.803499+08:00",
-    "updatedAt": "2026-07-20T05:59:47.803499+08:00"
   }
 ]

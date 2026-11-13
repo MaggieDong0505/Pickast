@@ -1,5 +1,34 @@
 [
   {
+    "generatedAt": "2026-11-13T09:45:12.350570+08:00",
+    "title": "Anthropic两万亿美元估值贵不贵？",
+    "domainTag": "AI投资",
+    "podcasts": [
+      "What's Next｜科技早知道",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "03e51cc1-020d-4c30-8c07-8f8614b46e7f",
+      "6aeec21d5b7c4709bfe262c0"
+    ],
+    "consensus": [
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "需求真实但高估值可能面临调整",
+        "episodeId": "03e51cc1-020d-4c30-8c07-8f8614b46e7f"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "算力采购承诺8000亿仍嫌保守",
+        "episodeId": "6aeec21d5b7c4709bfe262c0"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:82027a36c522cf3c2e5e3f6f5e2302d7d311acf75b369d45c76f5ffdcdf8947c",
+    "createdAt": "2026-11-13T09:45:12.350570+08:00",
+    "updatedAt": "2026-11-13T09:45:12.350570+08:00"
+  },
+  {
     "generatedAt": "2026-11-12T10:11:52.267922+08:00",
     "title": "AI会让大多数人失业吗？",
     "domainTag": "AI与就业",
@@ -849,34 +878,5 @@
     "fingerprint": "v1:0c33fe8bc11fed53ddaa380f100e4501f8a84eea0606a912a686fb67e58a4fc0",
     "createdAt": "2026-07-27T06:06:02.826140+08:00",
     "updatedAt": "2026-07-27T06:06:02.826140+08:00"
-  },
-  {
-    "generatedAt": "2026-07-24T06:10:32.362881+08:00",
-    "title": "AI教育能取代传统课堂吗？",
-    "domainTag": "AI与社会",
-    "podcasts": [
-      "about热水频道",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "6a57a863016dcc7e0542c7df",
-      "6a5a03e86356eb2d9be42c8e"
-    ],
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "Demis Hassabis提出翻转课堂，AI负责个性化学习",
-        "episodeId": "6a5a03e86356eb2d9be42c8e"
-      },
-      {
-        "podcast": "about热水频道",
-        "point": "AI应辅助而非替代深度阅读和思考",
-        "episodeId": "6a57a863016dcc7e0542c7df"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:83cc8d248b6c8dfc5954292c739671500c7468a9a4828b02fbcdd166d12ffe6c",
-    "createdAt": "2026-07-24T06:10:32.362881+08:00",
-    "updatedAt": "2026-07-24T06:10:32.362881+08:00"
   }
 ]
