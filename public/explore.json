@@ -1,5 +1,81 @@
 [
   {
+    "title": "AI创业该追风口还是守本行？",
+    "domainTag": "AI创业",
+    "consensus": [
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "创业者要判断机会是否真正属于自己，而非追逐热门赛道",
+        "episodeId": "7b500b8f-cfde-4da1-9559-8128adcea8f6"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "融太多钱会让人误以为已经做成，实际却没有",
+        "episodeId": "6aed718c5b7c4709bfe1f7c7"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-11-14T09:23:09.243023+08:00",
+    "updatedAt": "2026-11-14T09:23:09.243023+08:00"
+  },
+  {
+    "title": "DatingApp能高效找到伴侣吗？",
+    "domainTag": "亲密关系",
+    "consensus": [
+      {
+        "podcast": "富女之友",
+        "point": "Dating App是效率工具，帮人提前完成关系筛选",
+        "episodeId": "6aed58915b7c4709bfe1ea0a"
+      },
+      {
+        "podcast": "思文，败类",
+        "point": "AI聊天无法取代线下真实社交和具体朋友的力量",
+        "episodeId": "6af04a865b7c4709bfe2dcff"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-11-14T09:23:09.243023+08:00",
+    "updatedAt": "2026-11-14T09:23:09.243023+08:00"
+  },
+  {
+    "title": "回小城市是退路还是另一种选择？",
+    "domainTag": "城市与职业",
+    "consensus": [
+      {
+        "podcast": "整点亮话",
+        "point": "城市选择首先是生活方式选择，不是好坏辩论",
+        "episodeId": "6ae35dba97726cd46759d267"
+      },
+      {
+        "podcast": "时雨集",
+        "point": "旅行和居住没有高低之分，关键看个人想要什么",
+        "episodeId": "6af1b8a9b4a4e20202f73529"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-11-14T09:23:09.243023+08:00",
+    "updatedAt": "2026-11-14T09:23:09.243023+08:00"
+  },
+  {
+    "title": "审美是可以被训练出来的吗？",
+    "domainTag": "审美与创作",
+    "consensus": [
+      {
+        "podcast": "诗梳风",
+        "point": "审美是索引不是目录，先问感受再看数据",
+        "episodeId": "6af3f97d14d01a26f8a82bd0"
+      },
+      {
+        "podcast": "AI产品黄叔",
+        "point": "opus让人变成导演，工具降低创作门槛",
+        "episodeId": "6af674093caef3b52f550134"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-11-14T09:23:09.243023+08:00",
+    "updatedAt": "2026-11-14T09:23:09.243023+08:00"
+  },
+  {
     "title": "Anthropic两万亿美元估值贵不贵？",
     "domainTag": "AI投资",
     "consensus": [
@@ -578,24 +654,5 @@
     "divergence": [],
     "createdAt": "2026-07-27T06:06:02.826140+08:00",
     "updatedAt": "2026-07-27T06:06:02.826140+08:00"
-  },
-  {
-    "title": "AI教育能取代传统课堂吗？",
-    "domainTag": "AI与社会",
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "Demis Hassabis提出翻转课堂，AI负责个性化学习",
-        "episodeId": "6a5a03e86356eb2d9be42c8e"
-      },
-      {
-        "podcast": "about热水频道",
-        "point": "AI应辅助而非替代深度阅读和思考",
-        "episodeId": "6a57a863016dcc7e0542c7df"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-07-24T06:10:32.362881+08:00",
-    "updatedAt": "2026-07-24T06:10:32.362881+08:00"
   }
 ]
