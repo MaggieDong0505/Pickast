@@ -1,5 +1,100 @@
 [
   {
+    "title": "AI助手该记住你多少隐私才够好用？",
+    "domainTag": "AI与隐私",
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "Illia认为AI应保护隐私、与用户目标一致",
+        "episodeId": "6aee45dab4a4e20202f5f73f"
+      },
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "通用Agent掌握用户长期积累的个人信息和上下文",
+        "episodeId": "7b500b8f-cfde-4da1-9559-8128adcea8f6"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-11-15T08:56:35.069664+08:00",
+    "updatedAt": "2026-11-15T08:56:35.069664+08:00"
+  },
+  {
+    "title": "AI时代读大学和研究生还有价值吗？",
+    "domainTag": "AI与教育",
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "LeCun认为世界模型学习路径不同于文本训练，教育需重估",
+        "episodeId": "6af8a6ea3caef3b52f55c2c7"
+      },
+      {
+        "podcast": "时雨集",
+        "point": "AI冲击岗位，学生间差距正在被拉开",
+        "episodeId": "6af1b8a9b4a4e20202f73529"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-11-15T08:56:35.069664+08:00",
+    "updatedAt": "2026-11-15T08:56:35.069664+08:00"
+  },
+  {
+    "title": "AI生成视频能替代专业创作团队吗？",
+    "domainTag": "AI与内容创作",
+    "consensus": [
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "Agent需理解用户真实需求并做出专业判断",
+        "episodeId": "7b500b8f-cfde-4da1-9559-8128adcea8f6"
+      },
+      {
+        "podcast": "乱翻书",
+        "point": "一个人用AI做漫剧16亿播放，投入不到15万",
+        "episodeId": "6af316b6b4a4e20202f7cbd2"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-11-15T08:56:35.069664+08:00",
+    "updatedAt": "2026-11-15T08:56:35.069664+08:00"
+  },
+  {
+    "title": "AI研究能实现递归自我改进吗？",
+    "domainTag": "AI前沿",
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "RSI已经开始，AI正加速AI自身研发",
+        "episodeId": "6af8995114d01a26f8a9de4d"
+      },
+      {
+        "podcast": "十字路口Crossing",
+        "point": "RSI已来，Anthropic文章令人毛骨悚然",
+        "episodeId": "6ae6e230c96c8942ec156ed6"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-11-15T08:56:35.069664+08:00",
+    "updatedAt": "2026-11-15T08:56:35.069664+08:00"
+  },
+  {
+    "title": "AI让公司管理变透明是好事吗？",
+    "domainTag": "AI与管理",
+    "consensus": [
+      {
+        "podcast": "诗梳风",
+        "point": "AI让业务数据显形，先让事实看得见再谈管理",
+        "episodeId": "6aebe3e1c33509d829765719"
+      },
+      {
+        "podcast": "跨域请求",
+        "point": "Agent接入群聊后多人协作，责任反而模糊化",
+        "episodeId": "6af6c7153caef3b52f553332"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-11-15T08:56:35.069664+08:00",
+    "updatedAt": "2026-11-15T08:56:35.069664+08:00"
+  },
+  {
     "title": "AI创业该追风口还是守本行？",
     "domainTag": "AI创业",
     "consensus": [
@@ -568,91 +663,5 @@
     "divergence": [],
     "createdAt": "2026-07-28T06:13:35.200414+08:00",
     "updatedAt": "2026-07-28T06:13:35.200414+08:00"
-  },
-  {
-    "title": "AI时代什么能力最值钱？",
-    "domainTag": "AI与人才",
-    "consensus": [],
-    "divergence": [
-      {
-        "podcast": "硅谷101",
-        "point": "内容工程师将记者编辑的语感拆解成工程规则",
-        "episodeId": "5aeaeb64-9165-4271-9884-23329b511e11"
-      },
-      {
-        "podcast": "十分吸引",
-        "point": "审美力是AI时代最稀缺的能力，AI能识别但无法体验",
-        "episodeId": "6a50bf8a1e32575f5eb453cd"
-      }
-    ],
-    "createdAt": "2026-07-27T06:06:02.826140+08:00",
-    "updatedAt": "2026-07-27T06:06:02.826140+08:00"
-  },
-  {
-    "title": "AI会让科技从业者更倦怠吗？",
-    "domainTag": "AI与职场",
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI蜜月期结束，倦怠飙升，交付更快但质量没更好",
-        "episodeId": "6a567bd927a4eec16c40bae2"
-      },
-      {
-        "podcast": "42章经",
-        "point": "AI四年，应用市场冷到谷底，从业者面临'应用已死'论断",
-        "episodeId": "6a5b98a66356eb2d9be4ad2c"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI蜜月期结束，生产力提升但倦怠激增",
-        "episodeId": "6a567bd927a4eec16c40bae2"
-      },
-      {
-        "podcast": "42章经",
-        "point": "AI四年，应用市场冷，从业者面临困境",
-        "episodeId": "6a5b98a66356eb2d9be4ad2c"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-07-20T05:59:47.803499+08:00",
-    "updatedAt": "2026-07-27T06:06:02.826140+08:00"
-  },
-  {
-    "title": "AI安全监管该不该封禁开源？",
-    "domainTag": "AI治理",
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "美国可能封禁中国开源模型引发巨大争议",
-        "episodeId": "6a65e1856356eb2d9be899d5"
-      },
-      {
-        "podcast": "Peril Crosser 渡厄",
-        "point": "AI越狱事件暴露安全合规审查的漏洞",
-        "episodeId": "https://perilcrosser.com/?p=268"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-07-27T06:06:02.826140+08:00",
-    "updatedAt": "2026-07-27T06:06:02.826140+08:00"
-  },
-  {
-    "title": "AI推理加速能突破硬件瓶颈吗？",
-    "domainTag": "AI基础设施",
-    "consensus": [
-      {
-        "podcast": "十字路口Crossing",
-        "point": "Vidu S1实现实时交互视频，生成速度超过播放速度",
-        "episodeId": "6a5c6a91a3fec224d59fd014"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "Cerebras晶圆级芯片比GPU快58倍，解决推理瓶颈",
-        "episodeId": "6a644f126356eb2d9be8178f"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-07-27T06:06:02.826140+08:00",
-    "updatedAt": "2026-07-27T06:06:02.826140+08:00"
   }
 ]

@@ -1,5 +1,150 @@
 [
   {
+    "generatedAt": "2026-11-15T08:56:35.069664+08:00",
+    "title": "AI研究能实现递归自我改进吗？",
+    "domainTag": "AI前沿",
+    "podcasts": [
+      "十字路口Crossing",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6ae6e230c96c8942ec156ed6",
+      "6af8995114d01a26f8a9de4d"
+    ],
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "RSI已经开始，AI正加速AI自身研发",
+        "episodeId": "6af8995114d01a26f8a9de4d"
+      },
+      {
+        "podcast": "十字路口Crossing",
+        "point": "RSI已来，Anthropic文章令人毛骨悚然",
+        "episodeId": "6ae6e230c96c8942ec156ed6"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:efc01f215d52e3da663f107d11c3b3cc2a6b7109cd11f9993fa95a3fe0ecd630",
+    "createdAt": "2026-11-15T08:56:35.069664+08:00",
+    "updatedAt": "2026-11-15T08:56:35.069664+08:00"
+  },
+  {
+    "generatedAt": "2026-11-15T08:56:35.069664+08:00",
+    "title": "AI让公司管理变透明是好事吗？",
+    "domainTag": "AI与管理",
+    "podcasts": [
+      "诗梳风",
+      "跨域请求"
+    ],
+    "episodeIds": [
+      "6aebe3e1c33509d829765719",
+      "6af6c7153caef3b52f553332"
+    ],
+    "consensus": [
+      {
+        "podcast": "诗梳风",
+        "point": "AI让业务数据显形，先让事实看得见再谈管理",
+        "episodeId": "6aebe3e1c33509d829765719"
+      },
+      {
+        "podcast": "跨域请求",
+        "point": "Agent接入群聊后多人协作，责任反而模糊化",
+        "episodeId": "6af6c7153caef3b52f553332"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:b6ca86ed82ed9049e72edc3b6d3e599abc81afba46a34e7b1477b52b0c548161",
+    "createdAt": "2026-11-15T08:56:35.069664+08:00",
+    "updatedAt": "2026-11-15T08:56:35.069664+08:00"
+  },
+  {
+    "generatedAt": "2026-11-15T08:56:35.069664+08:00",
+    "title": "AI时代读大学和研究生还有价值吗？",
+    "domainTag": "AI与教育",
+    "podcasts": [
+      "时雨集",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6af1b8a9b4a4e20202f73529",
+      "6af8a6ea3caef3b52f55c2c7"
+    ],
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "LeCun认为世界模型学习路径不同于文本训练，教育需重估",
+        "episodeId": "6af8a6ea3caef3b52f55c2c7"
+      },
+      {
+        "podcast": "时雨集",
+        "point": "AI冲击岗位，学生间差距正在被拉开",
+        "episodeId": "6af1b8a9b4a4e20202f73529"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:6446770b2eb2a96e8630a11b125a5779d9026f250e2131cffd985bdde8cde250",
+    "createdAt": "2026-11-15T08:56:35.069664+08:00",
+    "updatedAt": "2026-11-15T08:56:35.069664+08:00"
+  },
+  {
+    "generatedAt": "2026-11-15T08:56:35.069664+08:00",
+    "title": "AI生成视频能替代专业创作团队吗？",
+    "domainTag": "AI与内容创作",
+    "podcasts": [
+      "What's Next｜科技早知道",
+      "乱翻书"
+    ],
+    "episodeIds": [
+      "6af316b6b4a4e20202f7cbd2",
+      "7b500b8f-cfde-4da1-9559-8128adcea8f6"
+    ],
+    "consensus": [
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "Agent需理解用户真实需求并做出专业判断",
+        "episodeId": "7b500b8f-cfde-4da1-9559-8128adcea8f6"
+      },
+      {
+        "podcast": "乱翻书",
+        "point": "一个人用AI做漫剧16亿播放，投入不到15万",
+        "episodeId": "6af316b6b4a4e20202f7cbd2"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:a5ec38f0c70042342f298b85cc314aa66e70bd3bbaa7ff300078735c79eb87ad",
+    "createdAt": "2026-11-15T08:56:35.069664+08:00",
+    "updatedAt": "2026-11-15T08:56:35.069664+08:00"
+  },
+  {
+    "generatedAt": "2026-11-15T08:56:35.069664+08:00",
+    "title": "AI助手该记住你多少隐私才够好用？",
+    "domainTag": "AI与隐私",
+    "podcasts": [
+      "What's Next｜科技早知道",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6aee45dab4a4e20202f5f73f",
+      "7b500b8f-cfde-4da1-9559-8128adcea8f6"
+    ],
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "Illia认为AI应保护隐私、与用户目标一致",
+        "episodeId": "6aee45dab4a4e20202f5f73f"
+      },
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "通用Agent掌握用户长期积累的个人信息和上下文",
+        "episodeId": "7b500b8f-cfde-4da1-9559-8128adcea8f6"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:b745837564e431db99af6975e167adc7761ccdaf4701d28dd7708234fece0e12",
+    "createdAt": "2026-11-15T08:56:35.069664+08:00",
+    "updatedAt": "2026-11-15T08:56:35.069664+08:00"
+  },
+  {
     "generatedAt": "2026-11-14T09:23:09.243023+08:00",
     "title": "AI创业该追风口还是守本行？",
     "domainTag": "AI创业",
@@ -723,150 +868,5 @@
     "fingerprint": "v1:6db8991643ec757c5458557bceb3531ee2ef175dc93c5855aee8741357ef63f2",
     "createdAt": "2026-07-31T06:14:22.960077+08:00",
     "updatedAt": "2026-07-31T06:14:22.960077+08:00"
-  },
-  {
-    "generatedAt": "2026-07-31T06:14:22.960077+08:00",
-    "title": "AI会让人类更疲惫还是更高效？",
-    "domainTag": "AI与社会",
-    "podcasts": [
-      "声动早咖啡",
-      "碳基生物生存指南"
-    ],
-    "episodeIds": [
-      "6a65d2ff6356eb2d9be893fe",
-      "6a69b3d456a3f3491ba6d65d"
-    ],
-    "consensus": [
-      {
-        "podcast": "碳基生物生存指南",
-        "point": "低精力人群与高精力人群各有优劣",
-        "episodeId": "6a69b3d456a3f3491ba6d65d"
-      },
-      {
-        "podcast": "声动早咖啡",
-        "point": "AI 工具增加但工作效率未提升",
-        "episodeId": "6a65d2ff6356eb2d9be893fe"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:f8800c36e9f2148ebb4a981e541f08b2ec60584c66be9787303e0ee8c67cd4b4",
-    "createdAt": "2026-07-31T06:14:22.960077+08:00",
-    "updatedAt": "2026-07-31T06:14:22.960077+08:00"
-  },
-  {
-    "generatedAt": "2026-07-30T06:06:30.954062+08:00",
-    "title": "AI会让工作消失还是创造更多？",
-    "domainTag": "AI与职场",
-    "podcasts": [
-      "42章经",
-      "整点亮话"
-    ],
-    "episodeIds": [
-      "6a5b98a66356eb2d9be4ad2c",
-      "6a6633eda3fec224d5a3b793"
-    ],
-    "consensus": [],
-    "divergence": [
-      {
-        "podcast": "整点亮话",
-        "point": "企业招不到人，打工人找不到工作，供需错配",
-        "episodeId": "6a6633eda3fec224d5a3b793"
-      },
-      {
-        "podcast": "42章经",
-        "point": "AI 应用市场冷到谷底，应用创始人处境艰难",
-        "episodeId": "6a5b98a66356eb2d9be4ad2c"
-      }
-    ],
-    "fingerprint": "v1:24b51293921e84ef4183f74732fd27308a038da185d6086382b1097c8c8d3291",
-    "createdAt": "2026-07-30T06:06:30.954062+08:00",
-    "updatedAt": "2026-07-30T06:06:30.954062+08:00"
-  },
-  {
-    "generatedAt": "2026-07-30T06:06:30.954062+08:00",
-    "title": "机器人该先做大脑还是先做本体？",
-    "domainTag": "机器人",
-    "podcasts": [
-      "张小珺Jùn｜商业访谈录",
-      "硅谷101"
-    ],
-    "episodeIds": [
-      "6a5f79b3a3fec224d5a128cd",
-      "fc9a3737-81a9-49cf-a7d6-530c77df836e"
-    ],
-    "consensus": [
-      {
-        "podcast": "张小珺Jùn｜商业访谈录",
-        "point": "机器人大脑开发落后于本体，需要交替上升",
-        "episodeId": "6a5f79b3a3fec224d5a128cd"
-      },
-      {
-        "podcast": "硅谷101",
-        "point": "操作物体比运动控制难2到3个数量级",
-        "episodeId": "fc9a3737-81a9-49cf-a7d6-530c77df836e"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:383947dd8b759199ec9083c63b5a5efd8ca5223a7bbbe5b5fa00f042978e93a5",
-    "createdAt": "2026-07-30T06:06:30.954062+08:00",
-    "updatedAt": "2026-07-30T06:06:30.954062+08:00"
-  },
-  {
-    "generatedAt": "2026-07-28T06:13:35.200414+08:00",
-    "title": "国产超节点能超越英伟达吗？",
-    "domainTag": "AI芯片",
-    "podcasts": [
-      "What's Next｜科技早知道",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "6a5f8f00a3fec224d5a13421",
-      "a6c6ab3e-72b2-470b-aefd-04b19679d37f"
-    ],
-    "consensus": [],
-    "divergence": [
-      {
-        "podcast": "What's Next｜科技早知道",
-        "point": "系统参数超过NVL72，但CUDA生态未破",
-        "episodeId": "a6c6ab3e-72b2-470b-aefd-04b19679d37f"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "Kimi K3用极致工程翻过围墙，开源冲击波",
-        "episodeId": "6a5f8f00a3fec224d5a13421"
-      }
-    ],
-    "fingerprint": "v1:d68f6c488d67b5f50ee2e04ca75baa4f731b169713af5ef6984d871791648140",
-    "createdAt": "2026-07-28T06:13:35.200414+08:00",
-    "updatedAt": "2026-07-28T06:13:35.200414+08:00"
-  },
-  {
-    "generatedAt": "2026-07-28T06:13:35.200414+08:00",
-    "title": "AI会让人类认知能力退化吗？",
-    "domainTag": "AI与社会",
-    "podcasts": [
-      "声动早咖啡",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "6a567bd927a4eec16c40bae2",
-      "6a65d2ff6356eb2d9be893fe"
-    ],
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI蜜月期结束，过度依赖导致脑子退化",
-        "episodeId": "6a567bd927a4eec16c40bae2"
-      },
-      {
-        "podcast": "声动早咖啡",
-        "point": "AI偏爱否定再转折句式，暴露机器语言痕迹",
-        "episodeId": "6a65d2ff6356eb2d9be893fe"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:46a34dfb9d2a15a162545b6d9a8de5c47b246e9a34cc0ac2c8e62452167fc32e",
-    "createdAt": "2026-07-28T06:13:35.200414+08:00",
-    "updatedAt": "2026-07-28T06:13:35.200414+08:00"
   }
 ]
