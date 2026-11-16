@@ -1,5 +1,150 @@
 [
   {
+    "generatedAt": "2026-11-16T08:54:44.602722+08:00",
+    "title": "AI写代码越多，代码质量越难保证吗？",
+    "domainTag": "AI与软件工程",
+    "podcasts": [
+      "跨国串门儿计划",
+      "跨域请求"
+    ],
+    "episodeIds": [
+      "6af6c7153caef3b52f553332",
+      "6afa0750a4a79edf1379c6c0"
+    ],
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "关键不是写得更快，而是让验证流程足够可靠",
+        "episodeId": "6afa0750a4a79edf1379c6c0"
+      },
+      {
+        "podcast": "跨域请求",
+        "point": "PR审核从逐行看代码变成看测试证据与架构图",
+        "episodeId": "6af6c7153caef3b52f553332"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:8027def3d4be5eabb870561a4d7e3e1ed0a9a0ac9cf0af1294667e89d204263c",
+    "createdAt": "2026-11-16T08:54:44.602722+08:00",
+    "updatedAt": "2026-11-16T08:54:44.602722+08:00"
+  },
+  {
+    "generatedAt": "2026-11-16T08:54:44.602722+08:00",
+    "title": "AI冲击下哪些岗位还值得投入？",
+    "domainTag": "AI与就业",
+    "podcasts": [
+      "时雨集",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6aeec21d5b7c4709bfe262c0",
+      "6af1b8a9b4a4e20202f73529"
+    ],
+    "consensus": [
+      {
+        "podcast": "时雨集",
+        "point": "AI正在拉开学生之间的能力差距",
+        "episodeId": "6af1b8a9b4a4e20202f73529"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI普及比能力进步慢，工作改变是渐进的",
+        "episodeId": "6aeec21d5b7c4709bfe262c0"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:13d6db361aa1ca0b457c08ae834f3a992e407fc87b5bface152860a34e97b410",
+    "createdAt": "2026-11-16T08:54:44.602722+08:00",
+    "updatedAt": "2026-11-16T08:54:44.602722+08:00"
+  },
+  {
+    "generatedAt": "2026-11-16T08:54:44.602722+08:00",
+    "title": "AI时代创业该做减法还是铺摊子？",
+    "domainTag": "创业方法论",
+    "podcasts": [
+      "硅谷101",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6aed718c5b7c4709bfe1f7c7",
+      "f6618818-b288-4798-bab8-d60d77c70aff"
+    ],
+    "consensus": [
+      {
+        "podcast": "硅谷101",
+        "point": "HF0的核心是做减法、聚焦唯一目标",
+        "episodeId": "f6618818-b288-4798-bab8-d60d77c70aff"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "融太多钱会让人误以为已经做成了什么",
+        "episodeId": "6aed718c5b7c4709bfe1f7c7"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:80ee86c2556f03b7d438424de40cb0dbde1c3cf07921d5155061b9e34c27f14d",
+    "createdAt": "2026-11-16T08:54:44.602722+08:00",
+    "updatedAt": "2026-11-16T08:54:44.602722+08:00"
+  },
+  {
+    "generatedAt": "2026-11-16T08:54:44.602722+08:00",
+    "title": "美国选民为何用选票惩罚执政党？",
+    "domainTag": "国际政治",
+    "podcasts": [
+      "贝望录",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6af030b3b4a4e20202f68499",
+      "6af5b83f14d01a26f8a8ee10"
+    ],
+    "consensus": [
+      {
+        "podcast": "贝望录",
+        "point": "选民看钱包和日子而非宏观数据",
+        "episodeId": "6af5b83f14d01a26f8a8ee10"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "Chamath承认完全搞错，选民在意生活成本",
+        "episodeId": "6af030b3b4a4e20202f68499"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:9099bfec761db152ee8210a5d1458e9a7fb900d3c8154e07333793323eb3ac38",
+    "createdAt": "2026-11-16T08:54:44.602722+08:00",
+    "updatedAt": "2026-11-16T08:54:44.602722+08:00"
+  },
+  {
+    "generatedAt": "2026-11-16T08:54:44.602722+08:00",
+    "title": "努力和方向哪个更决定人生走向？",
+    "domainTag": "成长与心态",
+    "podcasts": [
+      "搞钱女孩",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6aeb19c297726cd4675cc214",
+      "6aeb8974c33509d8297642ef"
+    ],
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "光拼命未必能走到想去的地方",
+        "episodeId": "6aeb19c297726cd4675cc214"
+      },
+      {
+        "podcast": "搞钱女孩",
+        "point": "李蕾靠转型方向而非蛮力走出谷底",
+        "episodeId": "6aeb8974c33509d8297642ef"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:ecb8f4104a5931b1cbca0b18e2c90f93164cdbd1fcb2500680b41be2e36b83f5",
+    "createdAt": "2026-11-16T08:54:44.602722+08:00",
+    "updatedAt": "2026-11-16T08:54:44.602722+08:00"
+  },
+  {
     "generatedAt": "2026-11-15T08:56:35.069664+08:00",
     "title": "AI研究能实现递归自我改进吗？",
     "domainTag": "AI前沿",
@@ -723,150 +868,5 @@
     "fingerprint": "v1:76873155d08d94806df86c6963c39e7c817973d3703b61b6b96f732302f3460f",
     "createdAt": "2026-08-01T06:12:01.373290+08:00",
     "updatedAt": "2026-08-01T06:12:01.373290+08:00"
-  },
-  {
-    "generatedAt": "2026-08-01T06:12:01.373290+08:00",
-    "title": "AI时代如何找到职业新定位？",
-    "domainTag": "AI与职场",
-    "podcasts": [
-      "不被定义的职场",
-      "整点亮话"
-    ],
-    "episodeIds": [
-      "6a5cf508a3fec224d5a00e76",
-      "6a6633eda3fec224d5a3b793"
-    ],
-    "consensus": [
-      {
-        "podcast": "整点亮话",
-        "point": "AI岗位增长冲击普通岗位，招聘市场错位",
-        "episodeId": "6a6633eda3fec224d5a3b793"
-      },
-      {
-        "podcast": "不被定义的职场",
-        "point": "离开平台后需重新定义自己是谁",
-        "episodeId": "6a5cf508a3fec224d5a00e76"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:65b7505398bfde3461494d612960cbee4a15c17f0413ace13ff7e013f5285692",
-    "createdAt": "2026-08-01T06:12:01.373290+08:00",
-    "updatedAt": "2026-08-01T06:12:01.373290+08:00"
-  },
-  {
-    "generatedAt": "2026-08-01T06:12:01.373290+08:00",
-    "title": "AI时代如何保持创造力？",
-    "domainTag": "AI与创意",
-    "podcasts": [
-      "硅谷101",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "5aeaeb64-9165-4271-9884-23329b511e11",
-      "6a6a2a8c56a3f3491ba717f4"
-    ],
-    "consensus": [
-      {
-        "podcast": "硅谷101",
-        "point": "内容工程师将新闻训练转化为AI对话能力",
-        "episodeId": "5aeaeb64-9165-4271-9884-23329b511e11"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI消除任务不消除工作，积压需求被释放",
-        "episodeId": "6a6a2a8c56a3f3491ba717f4"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:dd17f93a6edb81efbec6563055a95d6bfa00568f04c407a52051e34c78a567bf",
-    "createdAt": "2026-08-01T06:12:01.373290+08:00",
-    "updatedAt": "2026-08-01T06:12:01.373290+08:00"
-  },
-  {
-    "generatedAt": "2026-08-01T06:12:01.373290+08:00",
-    "title": "AI时代如何保持人类判断力？",
-    "domainTag": "AI与社会",
-    "podcasts": [
-      "诗梳风",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "6a60efaaa3fec224d5a1cc07",
-      "6a6aa338b581962ce2bda1bf"
-    ],
-    "consensus": [
-      {
-        "podcast": "诗梳风",
-        "point": "认知偏见是人性一部分，不是待克服障碍",
-        "episodeId": "6a60efaaa3fec224d5a1cc07"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "人类价值观因是人类的才有价值",
-        "episodeId": "6a6aa338b581962ce2bda1bf"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:d97d58f2b2267cd26ba0472e64f8cc8331b29a93986e2a8d6130f59b42dd6632",
-    "createdAt": "2026-08-01T06:12:01.373290+08:00",
-    "updatedAt": "2026-08-01T06:12:01.373290+08:00"
-  },
-  {
-    "generatedAt": "2026-07-31T06:14:22.960077+08:00",
-    "title": "AIAgent真的能替代人类工作吗？",
-    "domainTag": "AI与职场",
-    "podcasts": [
-      "Peril Crosser 渡厄",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "6a5a0fb36356eb2d9be431a5",
-      "https://perilcrosser.com/?p=266"
-    ],
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "Agent 全自动写代码导致代码库崩溃",
-        "episodeId": "6a5a0fb36356eb2d9be431a5"
-      },
-      {
-        "podcast": "Peril Crosser 渡厄",
-        "point": "AI Agent 泡沫，实际效果不如传统方案",
-        "episodeId": "https://perilcrosser.com/?p=266"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:94e804c86ac8f9d4845b0741195adf3322151ff99107f6e96b6a344791db5d6d",
-    "createdAt": "2026-07-31T06:14:22.960077+08:00",
-    "updatedAt": "2026-07-31T06:14:22.960077+08:00"
-  },
-  {
-    "generatedAt": "2026-07-31T06:14:22.960077+08:00",
-    "title": "AI算力瓶颈到底在哪？",
-    "domainTag": "AI基础设施",
-    "podcasts": [
-      "What's Next｜科技早知道",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "6a644f126356eb2d9be8178f",
-      "a6c6ab3e-72b2-470b-aefd-04b19679d37f"
-    ],
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "GPU 做快速推理存在根本性瓶颈",
-        "episodeId": "6a644f126356eb2d9be8178f"
-      },
-      {
-        "podcast": "What's Next｜科技早知道",
-        "point": "国产超节点用系统方案弥补单芯片差距",
-        "episodeId": "a6c6ab3e-72b2-470b-aefd-04b19679d37f"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:6db8991643ec757c5458557bceb3531ee2ef175dc93c5855aee8741357ef63f2",
-    "createdAt": "2026-07-31T06:14:22.960077+08:00",
-    "updatedAt": "2026-07-31T06:14:22.960077+08:00"
   }
 ]

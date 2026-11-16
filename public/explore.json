@@ -1,5 +1,100 @@
 [
   {
+    "title": "AI写代码越多，代码质量越难保证吗？",
+    "domainTag": "AI与软件工程",
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "关键不是写得更快，而是让验证流程足够可靠",
+        "episodeId": "6afa0750a4a79edf1379c6c0"
+      },
+      {
+        "podcast": "跨域请求",
+        "point": "PR审核从逐行看代码变成看测试证据与架构图",
+        "episodeId": "6af6c7153caef3b52f553332"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-11-16T08:54:44.602722+08:00",
+    "updatedAt": "2026-11-16T08:54:44.602722+08:00"
+  },
+  {
+    "title": "AI冲击下哪些岗位还值得投入？",
+    "domainTag": "AI与就业",
+    "consensus": [
+      {
+        "podcast": "时雨集",
+        "point": "AI正在拉开学生之间的能力差距",
+        "episodeId": "6af1b8a9b4a4e20202f73529"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI普及比能力进步慢，工作改变是渐进的",
+        "episodeId": "6aeec21d5b7c4709bfe262c0"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-11-16T08:54:44.602722+08:00",
+    "updatedAt": "2026-11-16T08:54:44.602722+08:00"
+  },
+  {
+    "title": "AI时代创业该做减法还是铺摊子？",
+    "domainTag": "创业方法论",
+    "consensus": [
+      {
+        "podcast": "硅谷101",
+        "point": "HF0的核心是做减法、聚焦唯一目标",
+        "episodeId": "f6618818-b288-4798-bab8-d60d77c70aff"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "融太多钱会让人误以为已经做成了什么",
+        "episodeId": "6aed718c5b7c4709bfe1f7c7"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-11-16T08:54:44.602722+08:00",
+    "updatedAt": "2026-11-16T08:54:44.602722+08:00"
+  },
+  {
+    "title": "努力和方向哪个更决定人生走向？",
+    "domainTag": "成长与心态",
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "光拼命未必能走到想去的地方",
+        "episodeId": "6aeb19c297726cd4675cc214"
+      },
+      {
+        "podcast": "搞钱女孩",
+        "point": "李蕾靠转型方向而非蛮力走出谷底",
+        "episodeId": "6aeb8974c33509d8297642ef"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-11-16T08:54:44.602722+08:00",
+    "updatedAt": "2026-11-16T08:54:44.602722+08:00"
+  },
+  {
+    "title": "美国选民为何用选票惩罚执政党？",
+    "domainTag": "国际政治",
+    "consensus": [
+      {
+        "podcast": "贝望录",
+        "point": "选民看钱包和日子而非宏观数据",
+        "episodeId": "6af5b83f14d01a26f8a8ee10"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "Chamath承认完全搞错，选民在意生活成本",
+        "episodeId": "6af030b3b4a4e20202f68499"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-11-16T08:54:44.602722+08:00",
+    "updatedAt": "2026-11-16T08:54:44.602722+08:00"
+  },
+  {
     "title": "AI助手该记住你多少隐私才够好用？",
     "domainTag": "AI与隐私",
     "consensus": [
@@ -551,25 +646,6 @@
     "updatedAt": "2026-07-31T06:14:22.960077+08:00"
   },
   {
-    "title": "AI会让人类更疲惫还是更高效？",
-    "domainTag": "AI与社会",
-    "consensus": [
-      {
-        "podcast": "碳基生物生存指南",
-        "point": "低精力人群与高精力人群各有优劣",
-        "episodeId": "6a69b3d456a3f3491ba6d65d"
-      },
-      {
-        "podcast": "声动早咖啡",
-        "point": "AI 工具增加但工作效率未提升",
-        "episodeId": "6a65d2ff6356eb2d9be893fe"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-07-31T06:14:22.960077+08:00",
-    "updatedAt": "2026-07-31T06:14:22.960077+08:00"
-  },
-  {
     "title": "AI算力瓶颈到底在哪？",
     "domainTag": "AI基础设施",
     "consensus": [
@@ -587,81 +663,5 @@
     "divergence": [],
     "createdAt": "2026-07-31T06:14:22.960077+08:00",
     "updatedAt": "2026-07-31T06:14:22.960077+08:00"
-  },
-  {
-    "title": "AI会让工作消失还是创造更多？",
-    "domainTag": "AI与职场",
-    "consensus": [],
-    "divergence": [
-      {
-        "podcast": "整点亮话",
-        "point": "企业招不到人，打工人找不到工作，供需错配",
-        "episodeId": "6a6633eda3fec224d5a3b793"
-      },
-      {
-        "podcast": "42章经",
-        "point": "AI 应用市场冷到谷底，应用创始人处境艰难",
-        "episodeId": "6a5b98a66356eb2d9be4ad2c"
-      }
-    ],
-    "createdAt": "2026-07-30T06:06:30.954062+08:00",
-    "updatedAt": "2026-07-30T06:06:30.954062+08:00"
-  },
-  {
-    "title": "机器人该先做大脑还是先做本体？",
-    "domainTag": "机器人",
-    "consensus": [
-      {
-        "podcast": "张小珺Jùn｜商业访谈录",
-        "point": "机器人大脑开发落后于本体，需要交替上升",
-        "episodeId": "6a5f79b3a3fec224d5a128cd"
-      },
-      {
-        "podcast": "硅谷101",
-        "point": "操作物体比运动控制难2到3个数量级",
-        "episodeId": "fc9a3737-81a9-49cf-a7d6-530c77df836e"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-07-30T06:06:30.954062+08:00",
-    "updatedAt": "2026-07-30T06:06:30.954062+08:00"
-  },
-  {
-    "title": "国产超节点能超越英伟达吗？",
-    "domainTag": "AI芯片",
-    "consensus": [],
-    "divergence": [
-      {
-        "podcast": "What's Next｜科技早知道",
-        "point": "系统参数超过NVL72，但CUDA生态未破",
-        "episodeId": "a6c6ab3e-72b2-470b-aefd-04b19679d37f"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "Kimi K3用极致工程翻过围墙，开源冲击波",
-        "episodeId": "6a5f8f00a3fec224d5a13421"
-      }
-    ],
-    "createdAt": "2026-07-28T06:13:35.200414+08:00",
-    "updatedAt": "2026-07-28T06:13:35.200414+08:00"
-  },
-  {
-    "title": "AI会让人类认知能力退化吗？",
-    "domainTag": "AI与社会",
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI蜜月期结束，过度依赖导致脑子退化",
-        "episodeId": "6a567bd927a4eec16c40bae2"
-      },
-      {
-        "podcast": "声动早咖啡",
-        "point": "AI偏爱否定再转折句式，暴露机器语言痕迹",
-        "episodeId": "6a65d2ff6356eb2d9be893fe"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-07-28T06:13:35.200414+08:00",
-    "updatedAt": "2026-07-28T06:13:35.200414+08:00"
   }
 ]

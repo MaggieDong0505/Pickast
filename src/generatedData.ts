@@ -8,107 +8,101 @@
 import { BriefingCardData } from './types';
 
 export const initialData: BriefingCardData = {
-  "dateStr": "2026.11.15",
-  "chinaDateStr": "星期日 / SUNDAY",
+  "dateStr": "2026.11.16",
+  "chinaDateStr": "星期一 / MONDAY",
   "title": "今天最值得听 • TODAY'S VOICE",
   "issueNo": "精选 3 条",
   "mainEpisode": {
-    "episodeId": "6af6c7153caef3b52f553332",
-    "podcastName": "跨域请求",
-    "episodeTitle": "22.🌉重生之我在硅谷被AI催着干活｜对话Harvey初创成员Joey",
-    "description": "Harvey AI | Spectre | AI Agent | 法律 AI | 硅谷独角兽 | vibe coding | AI Engineer | Joey Wang | Figma | Uber | 谷歌 | OpenAI | 红杉 | Uber Copter | Gabe Pereyra | 法律 AI\n🎧 本期简介\n如果 AI Agent 已经能在群聊里接任务、自己写代码、修 bug，甚至主动来催你审代码，工程师的一天在干什么？Joey 的一天：同时推进五到十个项目，每天只花几分钟给每个 Agent 反馈；更多时候，用他的说法，“我成了 AI agent 的 tool call”（好绝的角度，之前完全没想到过）。他是 Agent 觉得“需要人出面了”才叫上的那个人，比如去工位上催同事审代码，或者跟其它公司协调会议。而在最 AI native 的硅谷，两家公司约个会依然要来回协调一周，因为双方的 Agent 都太厉害了，大家都不敢让它们直接对话。\nJoey 是美国法律 AI 公司 Harvey AI 的工程负责人。他加入时 Harvey 还不到十个人，现在已经超过一千人；在这之前，他在谷歌、Uber 和 Figma 工作过。现在他负责 Harvey 内部的多人协作云端 Agent 平台 Spectre。这次非常有缘，Joey 从硅谷来上海，受邀在 AI Engineer 大会上做分享，CL 刚好也受主办方邀请参会，由共同好友牵线，我们录了这一期节目。\n我们从 Harvey 怎么帮律师干活聊起：保存问答历史、在几千份文件里大海捞针、把上千份合同的关键信息整理成表格。再聊到 Spectre：Agent 接进 Slack 之后，整个团队可以在一个群聊里一起指挥它；PR 审核从逐行看代码，变成看测试证据、思维导图和架构图。也产生了有意思的新时代的副作用：以前是谁提的 PR 谁负责，现在多人共同跟 Agent 做开发，大家都有责任，大家就都无所谓了，“三个和尚没水吃”具象化了；效率提高的同时，工作内容和强度也变高了。Joey 区分了“内卷”和“外卷”，也给出一个自问的办法：多花的时间，是让自己开心，还是让老板开心？\n后半段是我对 Joey 好奇的点：是如何用投资人的心态找工作的，为什么可能不止一次押中未来独角兽？最后是他的“小暴论”：一个人闭门 vibe coding 做出来的东西，上限就是自己的视野和品味，很多只是历史长河里浪费的 token。与其重复造轮子，不如汇集更多人的意见，或者把已有的东西做得更好。\n🧩 概念解释\n人物\nJoey（Joey Wang）：本期嘉宾，Harvey 的工程负责人、早期成员，目前负责内部 Agent 平台 Spectre；此前在 Figma 工作四年，更早在 Uber 和谷歌。本次应邀从湾区来上海参加 AI Engineer 大会做分享嘉宾。\nGabe（Gabe Pereyra）：Harvey 联合创始人，AI 研究出身。节目里讲到，他和另一位律师出身的联合创始人原本是室友，两人把用 AI 处理法律工作的 demo 拿给了 OpenAI 的总法律顾问。\n公司、产品与服务\nHarvey：面向律所和企业法务的 AI 公司。2026 年 9 月宣布融资 5.5 亿美元，美国按收入排名的百强律所中有 80% 在用它的产品。Joey 把它比作“更适合律师用的 ChatGPT”。\nSpectre：Harvey 内部的多人协作云端 Agent 平台。工程师、PM、设计师可以在网页或 Slack 里给同一个 Agent 派任务、补充信息、查看过程，它会生成代码改动（PR）、照看测试和审核，直到可以合并。\nVault：Harvey 的文档工作区，Joey 在 Harvey 主导的产品之一。律师可以上传、管理、分享成千上万份文件，并用 AI 跨文件检索提问；数据存在客户那边。类似于一个 Google Drive。\nReview Table：Vault 的配套功能。从上千份文件里逐一提取签约双方、合同金额、终止日期等信息，生成可以排序、筛选的表格。\nWorkflow Builder：Harvey 一年多前做的功能，让客户自己定义工作流程。Joey 说，到今年，一段足够详细的 Agent 提示词就能替代它。\nFigma：在线协作设计工具，在浏览器里运行，多人可以同时编辑同一份设计稿。\nUber Copter：Uber 推出的直升机出行服务，从曼哈顿飞往肯尼迪机场（JFK）。Joey 在 Uber 时参与过飞行员使用的 App。\nOpenAI / 红杉资本：Harvey 的早期投资方。节目里说 OpenAI 领投了 Harvey 最早的一轮。\nClaude Code、Codex、Claude Cowork、Cursor、GitHub Copilot：常见的 AI 编程和办公工具。Copilot 和早期 Cursor 主要做代码补全（Tab completion），就是在你写代码时自动续写下一段（猜你喜欢）。\nSlack / Linear：Slack 是欧美公司常用的工作聊天软件；Linear 是项目和任务管理工具，一个任务叫一张 ticket，同类的产品还有 Jira。\nReducto、turbopuffer、Exa、You.com、Parallel：节目里举例的外部服务商。Reducto 做文档解析，turbopuffer 做向量数据库，Exa、You.com、Parallel 为 AI 提供联网搜索等服务，Harvey 最后选了 Parallel。\nAI Engineer 大会（AIE）：面向 AI 工程师的技术大会，2026 年在上海办了一场，Joey 是演讲嘉宾。\n技术与用语\nAgent（智能体）：能自己拆解任务、调用工具、连续执行多步操作的 AI，而不只是一问一答。云端 Agent 跑在服务器上，不依赖某个人的电脑，可以几小时甚至几个月持续工作。\nSubagent（子智能体）：主 Agent 把任务拆开后，分派给其他 Agent 去执行的分身。\nTool call（工具调用）：Agent 在执行任务时调用某个外部工具。Joey 自嘲自己变成了 Agent 的一次 tool call：Agent 觉得需要人出面时，就轮到他。\nPR / Commit / Merge：程序员协作的基本单位。Commit 是一次代码提交；PR（Pull Request）是请同事审核、并入主代码的一组改动；Merge 指审核通过后并入。\nCode review（代码审核）：同事检查你的 PR，确认没问题才能合并。\nGit / GitHub / git blame：Git 是在本地管理代码版本的工具，GitHub 是基于 Git 的多人协作平台。git blame 可以查出每一行代码是谁、在哪次提交里写的。\nCI：持续集成。每次提交代码后自动跑测试、检查，CI 失败通常意味着代码有问题。\nBabysit：本义是“看孩子”。这里指 Spectre 替人盯着一个 PR，修掉测试失败、处理其他 Agent 的审核意见，直到可以合并。\nPlan Mode：一些 AI 编程工具的功能，先让 AI 写出执行计划，确认后再动手改代码。\nCompaction（上下文压缩）：对话太长时，把之前的内容压缩成摘要，好让 AI 继续工作。Joey 说早年自己就是那个人肉“压缩算法”。\nArtifact / User journey：Artifact 指 PR 附带的“证据”，比如测试结果、架构图、思维导图；User journey 是用户使用路径，比如“以前不能做这件事，现在可以了”。\n端到端测试（end-to-end test）：从用户实际操作出发，把整个产品流程走一遍的测试。\nPLG（Product-Led Growth）：产品驱动增长，靠产品本身好用来吸引用户、自然扩散，而不是先拿到客户需求再定制。\nPMF（Product-Market Fit）：产品市场匹配，指产品已经被大量用户真正需要和使用。post-PMF 就是过了这一步、进入扩张阶段的公司。\nIC（Individual Contributor）：不带团队、自己做具体工作的一线员工，与管理者相对。\nFounding Engineer：创业公司最早期的工程师，通常什么都要做。\nNeedle in a haystack（大海捞针）：在海量资料里找到一条特定信息。\nFirst draft：初稿。律师常用模板生成初稿，再在此基础上修改。\nVendor / procurement / buy vs build：Vendor 是外部服务商；procurement 是公司的采购流程，常要经过法务和安全审核；buy vs build 指一项能力是买现成的服务，还是自己开发。\nOn call：值班待命，系统出问题时有人能马上处理。\nDeprecate：停止使用、下线某个旧版本，比如节目里提到的旧模型 GPT-4.1。\nLoose end：没收尾的事。这里指开了很多让 Agent 做的方向，但没有收敛进最终产品。\n内卷 / 外卷：Joey 用“外卷”指向外解决新问题、自己有意愿多做的那种忙，和互相消耗的内卷相对。\nBro culture / brilliant jerk：Bro culture 指硅谷一些公司里那种兄弟会式、张扬的男性化氛围；brilliant jerk 指能力很强、但待人傲慢难相处的人。\n天使投资：在公司非常早期时投入资金。Joey 说在硅谷一两千美元就能投，更多是和创业者保持关系、提供建议。\nVibe coding：用自然语言描述想要什么，让 AI 写出程序，自己不太看代码。\nToken：大模型处理文字的基本单位，也是 AI 用量的计费单位。“浪费的 token”指花了算力、却没有产生价值的产出。\nBuild in public：公开构建，把做产品的过程、进展和问题公开分享，邀请别人一起参与。\n⏱️ 章节时间戳\n开场\n00:00 金句预告\n01:02 CL 开场：介绍 Harvey 工程负责人 Joey、这次录制的缘分，以及本期聊到的几组矛盾\n第一部分：Harvey 和 Joey 的来路\n02:54 Joey 的履历和 Harvey 的体量：2026 年 9 月融资 5.5 亿美元，美国百强律所里八成在用\n03:48 Harvey 能帮律师做什么：管理公开法规和客户私有资料，按模板生成初稿，多人接力修改并保留记录\n05:40 为什么不直接用 Claude 或 Codex？区别在多人共享，就像从本地 Git 到 GitHub、从本地文件夹到 Dropbox\n06:33 Joey 在 Figma 的四年：什么是产品驱动增长（PLG），为什么 Figma 早期有很多做游戏引擎的工程师\n08:48 2023 年 Joey 在 Figma 试过用 GPT 生成幻灯片，觉得那时的 AI 还不够聪明，于是看好法律、金融这类愿意为 AI 付费的行业\n10:34 Harvey 怎么起步：两位室友创始人把法律 AI 的 demo 拿给 OpenAI 的总法律顾问，后来 OpenAI 领投了第一轮\n11:45 最早的 Harvey 一问一答、刷新就没：律师不愿意让公司存数据，Joey 的第一个项目是做历史记录\n12:58 Joey 加入时公司只有几个人，没有 PM 和设计师，用 Cursor 的代码补全快速做原型、找客户试\n13:56 一个月做出 Vault：律师版的 Google Drive，在几千份文件里大海捞针；律师的很多工作其实是翻报销单、查邮件往来\n16:04 Vault 的数据存在客户那边；当年的 AI 编程还做不到一句话写出整个产品，用代码补全接受率考核员工如今看来很离谱\n18:09 Review Table：从上千份合同里提取签约方、金额、终止日期，做成可以排序筛选的表格\n18:48 先由人把流程想清楚，只把不确定的部分交给 AI：工程化做好之后，Harvey 到今年才把 GPT-4.1 下线\n20:26 Joey 从 Vault 团队经理回到一线工程师；一年多前做的 Workflow Builder，今年一段 Agent 提示词就能替代\n21:17 模型迭代这么快，是不是学得够慢就不用学？Joey：旧方法仍能补上最后 5%\n第二部分：Spectre，在群聊里一起指挥 Agent\n21:57 Spectre 的由来：把 PR 交给同事时，你跟 AI 说过什么、做没做计划和测试，这些上下文都丢了\n23:12 Spectre 接进 Slack 后，整个团队在一个群聊里指挥同一个 Agent，还能让它把改动部署到共享的测试环境\n24:46 副作用：交给 AI 的事情容易被忘掉；多人共用一个 Agent，变成“三个和尚没水吃”，大家都有责任，于是大家都无所谓\n25:36 Harvey 的规矩：谁发起改动，谁就是这个 PR 的负责人，一两天没动静就让机器人去催\n26:40 PM 也用 Spectre 提 PR，却不熟悉合并流程：一键找合适的审核人；长期还要让系统判断哪些低风险改动可以直接上线\n28:18 最大的问题是收不了尾：开了太多让 Agent 做的方向，结果没有收敛进最终产品\n28:55 AI 写代码太快，需求文档和测试都看不过来，怎么不失控？Joey 把给律师做 Review Table 的思路搬到了代码审核\n30:43 最高效的员工每周有几百个 PR 上线：审核从逐行看代码，变成看测试证据、架构图和用户路径\n31:44 写代码已经不是瓶颈，接下来的瓶颈是验证和理解架构；人的审核记录还能用来训练 AI 判断 PR 能不能合并\n33:46 先审自己的 PR：每一行代码都能追溯到 Spectre 里的一轮对话，就像律师要知道每句话的出处\n第三部分：Joey 和 Agent 的一天\n36:14 Joey 的一天：他的 Agent 没有上下班，有的已经跑了好几个月；例子是让 Harvey 的律师能用上浏览器\n37:55 挑外部服务商：质量之外，更看企业级功能、能不能撑住数据规模、出了问题能不能十分钟内有人响应\n39:29 买还是自己做：买要做调研、拉安全团队对接；自己做就让 Agent 通宵做原型，Joey 第二天测试、每天花几分钟反馈\n41:35 同时推进五到十个项目，Agent 每天自动看客户反馈、修 bug、提 PR；去催同事审核仍是 Joey 自己的活\n42:31 “我变成了 Agent 的一次工具调用”：Agent 觉得需要人出面时，就轮到 Joey\n42:45 最 AI native 的硅谷，两家公司排个会要协调一周：双方 Agent 都太厉害，反而不能让它们直接对话\n第四部分：效率更高，人更卷了？\n43:44 效率这么高，人反而更卷更累了吗？Joey：效率提高了、工作时间没减少，是很多硅谷工程师的共识\n44:46 有人早九晚九，有人下班连 Slack 都不装：大家彼此尊重对工作的不同态度\n45:39 “内卷”还是“外卷”：在相信愿景的创业公司，想推一件事不用再申请人手和经费，交给 Agent 就行\n46:48 如果觉得自己在“外卷”，先问问：多花的时间是让自己开心，还是让老板开心？\n第五部分：用投资人的眼光挑工作\n47:40 Joey 为什么用投资人的眼光挑工作：想不断尝试新东西，大厂给不了空间，只能找已经找到 PMF 的创业公司\n49:42 当年怎么看中 Figma：Uber 时期很欣赏的产品负责人去了 Figma，面试时遇到的每个人都想一起共事\n51:42 为什么选 Harvey：律师软件几十年没变过；创始团队谦逊、聪明、凝聚力强，不是 bro culture 或 brilliant jerk\n53:30 愿意 24/7 一起工作的创始人：就算公司没成，交到战友也值得；能拿到 OpenAI 和红杉的早期投资，也说明他们的能力\n55:12 Joey 做天使投资：在硅谷一两千美元就能投，重点是和年轻创业者保持联系、提供建议\n58:20 投资回报不是重点：Joey 更想看早期公司怎么成长，攒下招人和跨越发展阶段的经验\n59:18 很多工程师以为埋头苦干就够了；Joey 认为瓶颈往往不在技术，而在能不能在公司和行业里发挥自己的价值\n第六部分：被浪费的 token\n01:01:04 Joey 的“小暴论”：很多 vibe coding 做出来的东西，是历史长河里浪费的 token\n01:01:31 一个人的视野和品味有限：要集中客户、PM、设计、数据等多方输入，做完还要请别人试用、公开分享\n01:04:11 先找到真实的需求；工程上与其重写一个只是略有不同的库，不如把现有的库做强\n01:04:57 最大的障碍是 ego：Joey 做 Spectre 是因为没人做，还主动交给 PM、设计、基础设施和安全团队一起改进\n01:06:08 在公司内部 build in public：承认自己不懂、请别人帮忙，并不是坏事\n结尾\n01:06:31 今天没聊完的问题，下次再把“考场”拉回跨域请求\n📚 参考资料\nHarvey 与 Spectre\nHarvey 官方博客：Building Spectre, an internal collaborative cloud agent platform\nHarvey 官方公告：融资 5.5 亿美元，估值 155 亿美元（2026-09）\nHarvey 产品页：Vault\nHarvey 客户页面\n关于 Joey\nAI Engineer 上海 2026：Joey Wang 嘉宾页（演讲：Harvey 内部的上万次 Agent PR）\nThe First Commit 专访：Building Harvey: Trust is the Product\nFigma 官方博客：Inside Figma: how Figma engineering uses FigJam to scale\n💬 一起同行\n欢迎加入听友群～\n加微信 \"cliu21\"，备注“听友”。\n群里会分享我自己和大家在用的 AI 工作流和资讯，希望能让AI 真正解决大家的问题。\n也欢迎来聊天、吐槽、给节目提建议。\n\n在小宇宙查看该单集文稿",
-    "publishedAt": "2026-11-14T12:00:00+00:00",
-    "rssUrl": "https://feed.xyzfm.space/brpnwuweadwg",
-    "coverImageUrl": "https://image.xyzcdn.net/FjIhJVBvoWB1LDy09fEz7iRBlX3b.png",
-    "coverText": "跨域",
+    "episodeId": "6af92b1a3caef3b52f55dd0b",
+    "podcastName": "那里的城",
+    "episodeTitle": "27.深圳｜APEC中国年，从\"深圳速度\"到\"深圳尺度\"",
+    "description": "深圳在APEC 前，悄悄亮出了三张新名片......\n11 月 18 日到 19 日，深圳将迎来 APEC 领导人非正式会议，这是中国继 2001 年上海、2014 年北京之后，第三次担任 APEC 东道主。最近深圳街头到处是 APEC 海报，机场也多了各种熟悉又陌生的语言。\n作为一个常在深圳走走看看的人，我也借这个时间节点，实地逛了几座今年新开的文化地标。这期节目不聊会议本身，而是聊聊当世界再次来到深圳，这座城市正在用什么样的 \"新尺度\" 重新介绍自己 —— 从讲整个中华文明的前海博物馆，到从宇宙讲起的自然博物馆，再到一座九成桥面留给动物的生态桥。\n同时我也会逐一解答以下几个问题：\n前海博物馆为什么能一次性调来 10 件国博国宝级文物，而且大多是第一次出京？\n那件被我排在个人心中第一的错金银云纹青铜犀尊，为什么猜测它的主人可能是汉武帝？\n商代子龙鼎和后母戊鼎，为什么被称作青铜鼎里的 \"绝世双璧\"？\n深圳自然博物馆为什么从宇宙大爆炸讲起，而本地的内容只占八分之一？\n鲲鹏径一号桥，为什么只有10% 的桥面空间留给行人？\n霸王龙化石的牙缝和尾骨上，馆方为什么各藏了一只现代“麻雀”？\n-\n章节一：\n00:00 APEC 背景引入本期主题，借此次会议观察深圳这座城市最近打开的新空间、新切片\n03:25 关键词 \"尺度\" 与三个可玩、可逛的实际案例\n↑街头随处可见的APEC海报\n章节二：\n04:14 \"80 年代看罗湖、90 年代看福田、新世纪看南山、下一个时代看前海\"\n↑前海文化艺术半岛核心区域-前海新地标（背倚大小南山、面朝前海湾）\n05:37 中国古代通史展厅现场初印象\n↑“深博”前海馆（从左到右，从上到下）\n夔龙纹青铜匜（春秋）\n玉柄腰刀（清乾隆御用）\n历代名人画相册-苏轼（清）\n镶宝石金冠（明）\n陶壶（约 1 万年前）\n青花缠枝莲团蝠双兽耳扁瓶（清）\n鱼子绿釉菊瓣茶壶\n08 北京奥运会金牌🥇\n霁青釉粉彩描金燕耳尊（清）\n浑天仪模型\n↑陶女侍俑（唐）\n↑白釉黄彩刻花花口瓷瓶（辽 916-1125 年）& 钧窑玫瑰紫海棠式瓷花盆（宋 960-1279 年）\n很有意思的一组对比～\n16:07 主播心中前三镇馆之宝\n↑船型彩陶壶（仰韶文化早期）\n↑“子龙”青铜鼎 & “子龙”铭文\n（商代出土青铜器中最大的圆形鼎）\n↑错金银云纹青铜犀尊（西汉）\n23:38 前海馆其他展厅以及“山剧场”“海剧场”观景台\n32:46 自然馆开馆背景与八大叙事结构\n35:21 宇宙厅、地球厅、演化厅内容与现场感受\n↑自然博物馆（宇宙厅-地球厅）\n（左起第一列，从上到下，图 2、3 为两种光照状态下的岩石/水晶变化，很神奇）\n（左起第二列，从上到下，图1 自然界中的方体块矿物，图 3 自然“雕刻”的铜树\n↑自然博物馆（演化厅标本、化石）\n（左起第二列，从上到下，图 2 是生物“演化树🌳”）\n↑演化厅恐龙化石\n古代“龙”的灵感来源？\n48:17 恐龙厅与人类厅展厅内容与哲学思考\n↑自然博物馆（恐龙厅、人类厅）\n↑自然博物馆（恐龙厅）\n霸王龙-牙齿缝隙彩蛋🐦‍⬛\n56:20 渡渡鸟与尼科巴鸠如何影响环境，以及被环境所影响\n↑自然博物馆（生态厅-生物厅-家园厅）\n来自全世界的真实和稀有动植物标本\n（左起第二列，从上到下，图 2 深圳城市夜景，前景是梧桐山上的野猪，人与自然应如何相处？）\n1:03:18 鲲鹏径一号桥 —— 生态尺度的代表\n↑鲲鹏径一号桥（央视新闻）\n↑“鲲鹏径一号桥”建成前后梅观快速路卫星对比图（央视新闻）\n章节三：\n1:06:46 APEC中国年，世界再次来到深圳，深圳把自己放在了什么样位置\n-\n节目中提到的景点：\n深圳前海博物馆-大南山-欢乐港湾\n深圳自然博物馆\n深圳鲲鹏远足径\n主要参考资料：\n《亚太经合组织第三十三次领导人非正式会议将于2026年11月18日至19日在深圳举行》新华社\n《中国南方最大综合性自然博物馆开馆》深圳市建筑工务署\n《深圳自然博物馆昨日开馆》深圳市文化广电旅游体育局\n《广东坪山：深圳自然博物馆开馆》新华社\n《山海绿城，深圳的另一种生长逻辑》中国绿色时报\n《“为鸟熄灯”，深圳打造“鸟类友好城市”》新华每日电讯\n《深圳为国际社会贡献生物多样性治理“中国方案”》深圳特区报\n《10月30日，前海博物馆开馆！》深圳发布\n《国家博物馆“数说犀尊”展览全解读》国博 中国文物报\n-\n下一城再见～\n\n在小宇宙查看该单集文稿",
+    "publishedAt": "2026-11-15T22:30:00+00:00",
+    "rssUrl": "https://feed.xyzfm.space/7mxpwfdqkpkk",
+    "coverImageUrl": "https://image.xyzcdn.net/Ft-oWnIX1NeKyHInOieeoA17LNyY.jpg",
+    "coverText": "那里",
     "coverBg": "bg-[#18181B]",
     "coverTextColor": "text-amber-50",
-    "whyRecommended": "适合想了解硅谷AI原生工程实践的听众,用一线视角讲清Agent如何改变协作与审核。",
+    "whyRecommended": "适合想借APEC节点重新认识深圳的听众,用三座新地标讲城市尺度。",
     "viewpoints": [
-      "Harvey工程负责人Joey讲律师AI产品Vault与Review Table",
-      "Spectre让团队在Slack群聊里共同指挥同一个Agent",
-      "AI写代码太快,瓶颈转向验证、理解架构与收尾"
+      "前海博物馆一次调来10件国博国宝级文物",
+      "自然博物馆从宇宙大爆炸讲起,本地内容仅占八分之一",
+      "鲲鹏径一号桥九成桥面留给动物,仅一成给行人"
     ],
     "goldenQuotes": [
       {
-        "quote": "我成了 AI agent 的 tool call",
+        "quote": "深圳在APEC 前，悄悄亮出了三张新名片......",
         "source": "来自本期 shownote",
         "source_note": "来自本期 shownote"
       },
       {
-        "quote": "写代码已经不是瓶颈，接下来的瓶颈是验证和理解架构",
+        "quote": "APEC中国年，世界再次来到深圳，深圳把自己放在了什么样位置",
         "source": "来自本期 shownote",
         "source_note": "来自本期 shownote"
       }
     ],
-    "triageTag": "📖值得精听｜硅谷Agent协作实战",
-    "href": "cosmos://page.cos/episode/6af6c7153caef3b52f553332?utm_source=rss",
-    "whyRecommend": "适合想了解硅谷AI原生工程实践的听众,用一线视角讲清Agent如何改变协作与审核。",
-    "goldenQuote": "我成了 AI agent 的 tool call",
-    "topicTag": "📖值得精听｜硅谷Agent协作实战"
+    "triageTag": "📖值得精听｜三座新地标实地导览",
+    "href": "cosmos://page.cos/episode/6af92b1a3caef3b52f55dd0b?utm_source=rss",
+    "whyRecommend": "适合想借APEC节点重新认识深圳的听众,用三座新地标讲城市尺度。",
+    "goldenQuote": "深圳在APEC 前，悄悄亮出了三张新名片......",
+    "topicTag": "📖值得精听｜三座新地标实地导览"
   },
   "backupEpisodes": [
     {
-      "episodeId": "e1df9736-9c99-5ca8-b170-6b44d92b345f",
-      "podcastName": "Peril Crosser 渡厄",
-      "episodeTitle": "EP71: 弗洛伊德：一仆侍三主的受气包，夹在禽兽本我与道德大棒之间的打工人自我",
-      "description": "当精神分析帝国攀上权力和声望的最顶峰时，内部那场惨烈的弑父大戏，往往就已经悄然拉开了序幕。\n\n弗洛伊德一生都在剖析俄狄浦斯情结，剖析儿子对父亲的挑战，嫉妒与篡位狂想，结果他亲手缔造的学派，最终也毫无例外地被自己的大弟子们以同样惨烈的方式撕扯得千疮百孔。然而个人的决裂在历史洪流面前不过是一道涟漪，第一次世界大战的绞肉机炮火，彻底击碎了十九世纪理性的盲目自信，更无情轰塌了弗洛伊德早期坚信的唯乐原则。\n\n为什么战壕里历经九死一生的老兵，每晚都会在噩梦里精准重演被炮弹炸烂的绝望瞬间？为什么一岁半的外孙会不知疲倦地反复玩着扔线轴的残酷把戏？当生命不仅渴望繁衍，更渴望退回无机物彻底的死寂，死本能与强迫性重复的幽灵便从深渊中缓缓升起。\n\n本期节目跟随弗洛伊德走进人类心灵最残酷的二次重构。从周三学会与荣格的决裂，到一战女儿早夭的人间至暗，从死本能对人类作死自毁与世界大战的冷血解释，到本我，自我与超我的三方内战，我们将看到弗洛伊德如何冷酷拆解康德崇高的先验道德律，揭开良知背后对父亲阉割惩罚的恐惧内化，并检视我们每天赖以生存的自欺防御机制。\n\n本期核心话题\n\n从孤家寡人到维也纳教皇，周三心理学会的雪茄烟雾与克拉克大学演讲封神\n弑父大戏的现实重演，远洋邮轮上的解梦对峙，弗洛伊德在荣格面前的两次当场休克\n图腾与禁忌的原初神话映射，流亡儿子们弑父分肉与禁忌法则诞生\n时代巨震与个人悲剧，三个儿子上前线与最钟爱的二女儿苏菲染疫早夭\n理论塌方，战壕弹震症士兵的创伤性噩梦如何击碎了梦是愿望达成的公理\n外孙的滚轴游戏Fort-Da，从被动承受痛苦到主动掌控创伤的强迫性重复\n惊天逆转超越唯乐原则，生本能与死本能的双重宇宙，为什么所有生命的终极目标都是死亡\n死本能解剖人类自毁，为什么有人反复在同一个坑里摔死，施虐受虐狂与战争狂热的周期泄洪\n冰山模型报废与第二结构模型，一仆侍三主的可怜打工人自我\n硬刚康德实践理性批判，先验道德律不过是儿童期俄狄浦斯阉割恐惧的内化\n自我防御机制大赏，压抑，投射，反向形成，合理化与退行\n唯一的健康通道，升华与人类伟大艺术，科学创造的动力源泉\n\nBackground music from YouTube Audio Library.",
-      "publishedAt": "2026-11-14T04:15:00+00:00",
-      "rssUrl": "https://perilcrosser.com/feed/podcast/",
-      "coverImageUrl": "https://zh.perilcrosser.com/images/Peril_Crosser_Du_E_3000x3000.jpg",
-      "coverText": "Pe",
-      "coverBg": "bg-[#18181B]",
-      "coverTextColor": "text-amber-50",
-      "whyRecommended": "适合对精神分析感兴趣的听众，跟随弗洛伊德从一战创伤走向死本能与三重人格结构。",
-      "viewpoints": [
-        "一战炮火击碎唯乐原则，创伤噩梦催生死本能",
-        "外孙Fort-Da游戏揭示强迫性重复与掌控创伤",
-        "本我自我超我三方内战，自我夹在中间受气"
-      ],
-      "goldenQuotes": [
-        {
-          "quote": "冰山模型报废与第二结构模型，一仆侍三主的可怜打工人自我",
-          "source": "来自本期 shownote",
-          "source_note": "来自本期 shownote"
-        }
-      ],
-      "triageTag": "📖值得精听｜死本能与三重人格结构",
-      "href": "https://zh.perilcrosser.com/episodes/ep71/",
-      "scenario": "",
-      "whyRecommend": "适合对精神分析感兴趣的听众，跟随弗洛伊德从一战创伤走向死本能与三重人格结构。",
-      "goldenQuote": "冰山模型报废与第二结构模型，一仆侍三主的可怜打工人自我",
-      "topicTag": "📖值得精听｜死本能与三重人格结构"
-    },
-    {
-      "episodeId": "6af6a5a13caef3b52f551c95",
+      "episodeId": "6af8a6ea3caef3b52f55c2c7",
       "podcastName": "跨国串门儿计划",
-      "episodeTitle": "#827.斯坦福成瘾门诊主任 Anna Lembke：最严重的成瘾，瘾的不是物质，而是控制感",
-      "description": "📝 本期播客简介\n本期我们克隆了：Andrew Huberman · Overcome Addictions and Obsessions of All Kinds | Dr. Anna Lembke\n原内容更新时间：2026-11-09\n「在最严重的成瘾案例中，人们其实并不是对某种物质或行为上瘾。他们上瘾的是控制感。」斯坦福大学医学院成瘾门诊主任 Anna Lembke，从多巴胺奖赏回路谈到成瘾为何让人越陷越深，也解释为什么有时放下控制、承认自己无能为力，反而能成为康复的转折点。\n这一集还谈到社交媒体成瘾、戒断与复发、童年创伤和成瘾风险，以及共依赖如何让亲人彼此困住。Lembke 也分享了灵性臣服背后的神经机制、日常祈祷与「做好接下来该做的事」，并谈到临床中 GLP-1 对部分严重酒精成瘾患者带来的变化。\n👤 本期嘉宾\nAnna Lembke 是斯坦福大学医学院双重诊断成瘾门诊主任，也是...去小宇宙查看完整单集简介\n在小宇宙查看该单集文稿",
-      "publishedAt": "2026-11-14T02:42:25+00:00",
+      "episodeTitle": "#830.Yann LeCun：世界模型与下一场 AI 革命 | 南洋理工大学高等研究所公开讲座",
+      "description": "📝 本期播客简介\n本期我们克隆了：NTU- Institute of Advanced Studies · Yann LeCun: World Models & The Next AI Revolution | NTU IAS Public Lecture\n原内容更新时间：2026-11-12\n大模型读完人类公开文本，大约要花40万年；一个4岁孩子靠视觉、触觉学习世界，却只用了约1.6万小时。Yann LeCun认为，机器要迈向人类水平的智能，光靠文本训练和生成答案还不够。\n这场南洋理工大学公开讲座中，图灵奖得主 Yann LeCun从婴儿如何建立世界模型讲起，解释JEPA如何在抽象表征中预测、为什么逐像素生成视频会遇到根本困难，以及机器怎样借助世界模型规划行动。他还谈到强化学习为何难以让机器安全地学会开车、AI时代读大学和研究生是否仍有价值，以及JEPA可能如何改变算力与内存的需求。\n👤...去小宇宙查看完整单集简介\n在小宇宙查看该单集文稿",
+      "publishedAt": "2026-11-14T23:00:00+00:00",
       "rssUrl": "https://feed.xyzfm.space/r8t44lmvu99m",
       "coverImageUrl": "https://image.xyzcdn.net/FgPi3C76e0yvQlUYo8TDbk1GTgp8.png",
       "coverText": "跨国",
       "coverBg": "bg-[#18181B]",
       "coverTextColor": "text-amber-50",
-      "whyRecommended": "适合想理解成瘾机制的听众,斯坦福成瘾专家从多巴胺与控制感切入讲康复。",
+      "whyRecommended": "适合想理解LeCun世界模型路线的听众,用婴儿学习类比讲清JEPA与下一场AI革命。",
       "viewpoints": [
-        "最严重成瘾者上瘾的是控制感而非物质",
-        "从多巴胺奖赏回路解释成瘾越陷越深",
-        "谈到社交媒体成瘾、戒断复发与童年创伤"
+        "LeCun 从婴儿如何建立世界模型讲起",
+        "解释 JEPA 如何在抽象表征中预测",
+        "谈到 AI 时代读大学是否仍有价值"
+      ],
+      "goldenQuotes": [],
+      "triageTag": "📖值得精听｜LeCun 讲世界模型与",
+      "href": "cosmos://page.cos/episode/6af8a6ea3caef3b52f55c2c7?utm_source=rss",
+      "scenario": "",
+      "whyRecommend": "适合想理解LeCun世界模型路线的听众,用婴儿学习类比讲清JEPA与下一场AI革命。",
+      "goldenQuote": "适合想理解LeCun世界模型路线的听众,用婴儿学习类比讲清JEPA与下一场AI革命。",
+      "topicTag": "📖值得精听｜LeCun 讲世界模型与"
+    },
+    {
+      "episodeId": "6af9aca7fe62f8f52c4b88f1",
+      "podcastName": "声动早咖啡",
+      "episodeTitle": "黄仁勋突然告别英伟达，「科技界摇滚明星」离职影响几何？",
+      "description": "11 月 12 日，英伟达宣布，黄仁勋已经辞去总裁、首席执行官和董事职务。从最初的出轨事件被曝光，到黄仁勋离开自己 33 年前创立的公司，前后还不到一周的时间。他的离职，会给英伟达和 AI 行业带来什么影响？本期轻解读就与之相关 [06:38]。你对黄仁勋的印象是什么？你觉得他有机会重回英伟达吗？在评论区和我们一起聊聊吧。\n本期还有关于 SpaceX、B 站、微软和腾讯的新动态 [01:20]，欢迎收听！\n你也可以关注早咖啡的小红书、抖音以及微信视频号，解锁更多视频内容，搜索「声动早咖啡」即可找到。\n往期传送门：\n人工智能「军火商」英伟达，是如何达到万亿市值的？\n靠芯片赚得盆满钵满的英伟达，为什么还这么热衷于搞投资？\n主播\nMengyi\n幕后制作\n监制：Zelin、Stella、榛子\n声音设计：沁茗、明圣\n运营：George\n封面设计：饭团\n营销内容策划：beibei\n商业内容策划：茹雪\n...去小宇宙查看完整单集简介\n在小宇宙查看该单集文稿",
+      "publishedAt": "2026-11-15T23:00:00+00:00",
+      "rssUrl": "https://feed.xyzfm.space/q88qwmydeuw8",
+      "coverImageUrl": "https://image.xyzcdn.net/FmH9eTO0HDhknAT6XajyN4yY0Naw.jpeg",
+      "coverText": "声动",
+      "coverBg": "bg-[#18181B]",
+      "coverTextColor": "text-amber-50",
+      "whyRecommended": "适合想快速了解黄仁勋离职事件及其对英伟达与AI行业影响的听众,一期轻解读即可掌握。",
+      "viewpoints": [
+        "黄仁勋辞去英伟达总裁、CEO 和董事职务",
+        "从出轨事件曝光到离职前后不到一周",
+        "节目还涵盖 SpaceX、B 站、微软和腾讯动态"
       ],
       "goldenQuotes": [
         {
-          "quote": "在最严重的成瘾案例中，人们其实并不是对某种物质或行为上瘾。他们上瘾的是控制感。",
+          "quote": "他的离职，会给英伟达和 AI 行业带来什么影响？",
           "source": "来自本期 shownote",
           "source_note": "来自本期 shownote"
         }
       ],
-      "triageTag": "☕有空再听｜成瘾专家谈控制感成瘾",
-      "href": "cosmos://page.cos/episode/6af6a5a13caef3b52f551c95?utm_source=rss",
+      "triageTag": "🚶边走边听｜黄仁勋离职影响解读",
+      "href": "cosmos://page.cos/episode/6af9aca7fe62f8f52c4b88f1?utm_source=rss",
       "scenario": "",
-      "whyRecommend": "适合想理解成瘾机制的听众,斯坦福成瘾专家从多巴胺与控制感切入讲康复。",
-      "goldenQuote": "在最严重的成瘾案例中，人们其实并不是对某种物质或行为上瘾。他们上瘾的是控制感。",
-      "topicTag": "☕有空再听｜成瘾专家谈控制感成瘾"
+      "whyRecommend": "适合想快速了解黄仁勋离职事件及其对英伟达与AI行业影响的听众,一期轻解读即可掌握。",
+      "goldenQuote": "他的离职，会给英伟达和 AI 行业带来什么影响？",
+      "topicTag": "🚶边走边听｜黄仁勋离职影响解读"
     }
   ],
   "synthesis": null
