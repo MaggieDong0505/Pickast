@@ -1,5 +1,150 @@
 [
   {
+    "generatedAt": "2026-11-17T11:39:43.918160+08:00",
+    "title": "黄仁勋离开后英伟达还能领跑吗？",
+    "domainTag": "AI芯片与产业格局",
+    "podcasts": [
+      "声动早咖啡",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6af8995114d01a26f8a9de4d",
+      "6af9aca7fe62f8f52c4b88f1"
+    ],
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "黄仁勋的拍板能力是英伟达持续迭代的关键，缺了他硬件进步会变慢",
+        "episodeId": "6af8995114d01a26f8a9de4d"
+      },
+      {
+        "podcast": "声动早咖啡",
+        "point": "黄仁勋突然辞去CEO等职务，离职前后不到一周",
+        "episodeId": "6af9aca7fe62f8f52c4b88f1"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:652756c32e5734bbbe0d7c21e889146de1694f7eb38fe345da31290db6686f44",
+    "createdAt": "2026-11-17T11:39:43.918160+08:00",
+    "updatedAt": "2026-11-17T11:39:43.918160+08:00"
+  },
+  {
+    "generatedAt": "2026-11-17T11:39:43.918160+08:00",
+    "title": "个人Agent真能替你把事办成吗？",
+    "domainTag": "AI Agent产品",
+    "podcasts": [
+      "十字路口Crossing",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6af00645b4a4e20202f67440",
+      "6afb5e05a4a79edf137a56c0"
+    ],
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "信任是底线，agent出问题用户就再也不会用",
+        "episodeId": "6afb5e05a4a79edf137a56c0"
+      },
+      {
+        "podcast": "十字路口Crossing",
+        "point": "Personal Agent确实有用，是今年真实的体感变化",
+        "episodeId": "6af00645b4a4e20202f67440"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:281d70ac541e594e62a3f4f333222c7a32caae0e68686d325f569e6cd36865af",
+    "createdAt": "2026-11-17T11:39:43.918160+08:00",
+    "updatedAt": "2026-11-17T11:39:43.918160+08:00"
+  },
+  {
+    "generatedAt": "2026-11-17T11:39:43.918160+08:00",
+    "title": "AI能帮人找回做事的信念感吗？",
+    "domainTag": "AI与个人成长",
+    "podcasts": [
+      "about热水频道",
+      "纵横四海"
+    ],
+    "episodeIds": [
+      "6af47fb43caef3b52f545516",
+      "6afad5c6fe62f8f52c4c0c1f"
+    ],
+    "consensus": [
+      {
+        "podcast": "about热水频道",
+        "point": "从民国植物学家身上找回生活心气和做事信念",
+        "episodeId": "6af47fb43caef3b52f545516"
+      },
+      {
+        "podcast": "纵横四海",
+        "point": "用费曼12问题搭建人生OS，让知识真正进入生活",
+        "episodeId": "6afad5c6fe62f8f52c4c0c1f"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:ad3ec770506f08720f866119b06eff31505663d8a23af55448252befb24992f6",
+    "createdAt": "2026-11-17T11:39:43.918160+08:00",
+    "updatedAt": "2026-11-17T11:39:43.918160+08:00"
+  },
+  {
+    "generatedAt": "2026-11-17T11:39:43.918160+08:00",
+    "title": "出海品牌只做语言本地化够吗？",
+    "domainTag": "品牌出海",
+    "podcasts": [
+      "What's Next｜科技早知道",
+      "贝望录"
+    ],
+    "episodeIds": [
+      "6ae97c0297726cd4675bfe0b",
+      "7b500b8f-cfde-4da1-9559-8128adcea8f6"
+    ],
+    "consensus": [
+      {
+        "podcast": "贝望录",
+        "point": "真正的本地化要理解当地用户当下喜欢什么",
+        "episodeId": "6ae97c0297726cd4675bfe0b"
+      },
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "从巴西狂欢节到印度排灯节，文化差异需本地运营",
+        "episodeId": "7b500b8f-cfde-4da1-9559-8128adcea8f6"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:d0d338ab5f5c88c18bf8a20636a9fc5095842ffe711a86f6f4c592fe2cb8e280",
+    "createdAt": "2026-11-17T11:39:43.918160+08:00",
+    "updatedAt": "2026-11-17T11:39:43.918160+08:00"
+  },
+  {
+    "generatedAt": "2026-11-17T11:39:43.918160+08:00",
+    "title": "小赛道创业能成为巨头的盲区吗？",
+    "domainTag": "创业与小众市场",
+    "podcasts": [
+      "What's Next｜科技早知道",
+      "搞钱女孩"
+    ],
+    "episodeIds": [
+      "6af4bcc53caef3b52f546272",
+      "7b500b8f-cfde-4da1-9559-8128adcea8f6"
+    ],
+    "consensus": [
+      {
+        "podcast": "搞钱女孩",
+        "point": "小赛道就是商业壁垒，巨头看不上",
+        "episodeId": "6af4bcc53caef3b52f546272"
+      },
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "满足小众个性化需求的小产品开始有新机会",
+        "episodeId": "7b500b8f-cfde-4da1-9559-8128adcea8f6"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:59b607ebfd5f2dd5a671f2c6475d7fbfc221f3310a44660187dc7a5948cf8883",
+    "createdAt": "2026-11-17T11:39:43.918160+08:00",
+    "updatedAt": "2026-11-17T11:39:43.918160+08:00"
+  },
+  {
     "generatedAt": "2026-11-16T08:54:44.602722+08:00",
     "title": "AI写代码越多，代码质量越难保证吗？",
     "domainTag": "AI与软件工程",
@@ -723,150 +868,5 @@
     "fingerprint": "v1:345aec93fd3accda07d7f9e4f3c80f1daf1bebd5225d3c17eed3df55edc52c0b",
     "createdAt": "2026-08-05T06:19:14.679657+08:00",
     "updatedAt": "2026-08-05T06:19:14.679657+08:00"
-  },
-  {
-    "generatedAt": "2026-08-05T06:19:14.679657+08:00",
-    "title": "AI模型能力真的在逼近前沿吗？",
-    "domainTag": "AI技术",
-    "podcasts": [
-      "硅谷101",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "5fd236d7-9a72-4b15-9e84-e83ceadd1b41",
-      "6a6eb8a6ab3a91c24a0e5d40"
-    ],
-    "consensus": [
-      {
-        "podcast": "硅谷101",
-        "point": "Kimi K3开放权重逼近前沿，硅谷开始重新评估中国模型",
-        "episodeId": "5fd236d7-9a72-4b15-9e84-e83ceadd1b41"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "Russ认为前沿模型架构高度同质化，真正驱动力在工程和数据",
-        "episodeId": "6a6eb8a6ab3a91c24a0e5d40"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:e7929cd181e5e1aa35a87b998fbc08c66439af7d4dd57424641548b61b1e7c55",
-    "createdAt": "2026-08-05T06:19:14.679657+08:00",
-    "updatedAt": "2026-08-05T06:19:14.679657+08:00"
-  },
-  {
-    "generatedAt": "2026-08-05T06:19:14.679657+08:00",
-    "title": "AI算力军备竞赛还能持续多久？",
-    "domainTag": "AI基础设施",
-    "podcasts": [
-      "What's Next｜科技早知道",
-      "十分吸引"
-    ],
-    "episodeIds": [
-      "6a6403f76356eb2d9be7fc38",
-      "a6c6ab3e-72b2-470b-aefd-04b19679d37f"
-    ],
-    "consensus": [
-      {
-        "podcast": "十分吸引",
-        "point": "AI需求爆发改写光通信迭代节奏，光模块成AI淘金热里的铲子",
-        "episodeId": "6a6403f76356eb2d9be7fc38"
-      },
-      {
-        "podcast": "What's Next｜科技早知道",
-        "point": "国产超节点元年，系统层面堆料追赶英伟达但CUDA未破",
-        "episodeId": "a6c6ab3e-72b2-470b-aefd-04b19679d37f"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:aa68741c16c95a8d9a074238b172014f4fe2ba6d75d09c088b9a2bb24eda2cba",
-    "createdAt": "2026-08-05T06:19:14.679657+08:00",
-    "updatedAt": "2026-08-05T06:19:14.679657+08:00"
-  },
-  {
-    "generatedAt": "2026-08-02T06:02:57.675003+08:00",
-    "title": "开源模型会颠覆闭源巨头吗？",
-    "domainTag": "AI竞争格局",
-    "podcasts": [
-      "硅谷101",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "5fd236d7-9a72-4b15-9e84-e83ceadd1b41",
-      "6a5f8f00a3fec224d5a13421"
-    ],
-    "consensus": [
-      {
-        "podcast": "硅谷101",
-        "point": "中国开放模型逼近前沿，冲击闭源商业模式",
-        "episodeId": "5fd236d7-9a72-4b15-9e84-e83ceadd1b41"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "Kimi K3开源引发硅谷恐慌，模型商品化加速",
-        "episodeId": "6a5f8f00a3fec224d5a13421"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:981efb60218642f198692175ef945831196aa413583b7a658ebd19bd0b160df4",
-    "createdAt": "2026-08-02T06:02:57.675003+08:00",
-    "updatedAt": "2026-08-02T06:02:57.675003+08:00"
-  },
-  {
-    "generatedAt": "2026-08-02T06:02:57.675003+08:00",
-    "title": "AIAgent支付会成新基建吗？",
-    "domainTag": "AI与金融",
-    "podcasts": [
-      "What's Next｜科技早知道",
-      "十字路口Crossing"
-    ],
-    "episodeIds": [
-      "6a6320d16356eb2d9be7bd07",
-      "9a652c19-ceb3-46c2-87b4-bca36e684311"
-    ],
-    "consensus": [
-      {
-        "podcast": "What's Next｜科技早知道",
-        "point": "Visa、Stripe、Google同时布局Agent支付",
-        "episodeId": "9a652c19-ceb3-46c2-87b4-bca36e684311"
-      },
-      {
-        "podcast": "十字路口Crossing",
-        "point": "AI正在把全球金融推向关键拐点",
-        "episodeId": "6a6320d16356eb2d9be7bd07"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:5537925292bade9bf2c4068366997ff05f76edb17f1f2388284b26b80758f27f",
-    "createdAt": "2026-08-02T06:02:57.675003+08:00",
-    "updatedAt": "2026-08-02T06:02:57.675003+08:00"
-  },
-  {
-    "generatedAt": "2026-08-01T06:12:01.373290+08:00",
-    "title": "情绪稳定是健康还是压抑？",
-    "domainTag": "心理健康",
-    "podcasts": [
-      "about热水频道",
-      "其他垃圾"
-    ],
-    "episodeIds": [
-      "6a5a1af26356eb2d9be4352a",
-      "6a60ae3aa3fec224d5a1ac6e"
-    ],
-    "consensus": [
-      {
-        "podcast": "about热水频道",
-        "point": "情绪稳定不等于情绪健康，消极情绪需被允许",
-        "episodeId": "6a60ae3aa3fec224d5a1ac6e"
-      },
-      {
-        "podcast": "其他垃圾",
-        "point": "情绪稳定可能只是老了，不再自恋",
-        "episodeId": "6a5a1af26356eb2d9be4352a"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:76873155d08d94806df86c6963c39e7c817973d3703b61b6b96f732302f3460f",
-    "createdAt": "2026-08-01T06:12:01.373290+08:00",
-    "updatedAt": "2026-08-01T06:12:01.373290+08:00"
   }
 ]
