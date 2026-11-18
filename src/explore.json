@@ -1,5 +1,24 @@
 [
   {
+    "title": "AI会让顶尖研究员的工作被自动化吗？",
+    "domainTag": "AI研究与RSI",
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI已在加速AI研发，顶尖研究员工作或只需几个月到两年被自动",
+        "episodeId": "6af8995114d01a26f8a9de4d"
+      },
+      {
+        "podcast": "十字路口Crossing",
+        "point": "RSI前夜，用Kimi加速Kimi，递归自我改进正在发生",
+        "episodeId": "6af936ea14d01a26f8a9fd94"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-11-18T10:49:28.977920+08:00",
+    "updatedAt": "2026-11-18T10:49:28.977920+08:00"
+  },
+  {
     "title": "AI能帮人找回做事的信念感吗？",
     "domainTag": "AI与个人成长",
     "consensus": [
@@ -568,100 +587,5 @@
     "divergence": [],
     "createdAt": "2026-08-05T06:19:14.679657+08:00",
     "updatedAt": "2026-08-05T06:19:14.679657+08:00"
-  },
-  {
-    "title": "AI模型能力真的在逼近前沿吗？",
-    "domainTag": "AI技术",
-    "consensus": [
-      {
-        "podcast": "硅谷101",
-        "point": "Kimi K3开放权重逼近前沿，硅谷开始重新评估中国模型",
-        "episodeId": "5fd236d7-9a72-4b15-9e84-e83ceadd1b41"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "Russ认为前沿模型架构高度同质化，真正驱动力在工程和数据",
-        "episodeId": "6a6eb8a6ab3a91c24a0e5d40"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-08-05T06:19:14.679657+08:00",
-    "updatedAt": "2026-08-05T06:19:14.679657+08:00"
-  },
-  {
-    "title": "AI算力军备竞赛还能持续多久？",
-    "domainTag": "AI基础设施",
-    "consensus": [
-      {
-        "podcast": "十分吸引",
-        "point": "AI需求爆发改写光通信迭代节奏，光模块成AI淘金热里的铲子",
-        "episodeId": "6a6403f76356eb2d9be7fc38"
-      },
-      {
-        "podcast": "What's Next｜科技早知道",
-        "point": "国产超节点元年，系统层面堆料追赶英伟达但CUDA未破",
-        "episodeId": "a6c6ab3e-72b2-470b-aefd-04b19679d37f"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-08-05T06:19:14.679657+08:00",
-    "updatedAt": "2026-08-05T06:19:14.679657+08:00"
-  },
-  {
-    "title": "AIAgent支付会成新基建吗？",
-    "domainTag": "AI与金融",
-    "consensus": [
-      {
-        "podcast": "What's Next｜科技早知道",
-        "point": "Visa、Stripe、Google同时布局Agent支付",
-        "episodeId": "9a652c19-ceb3-46c2-87b4-bca36e684311"
-      },
-      {
-        "podcast": "十字路口Crossing",
-        "point": "AI正在把全球金融推向关键拐点",
-        "episodeId": "6a6320d16356eb2d9be7bd07"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-08-02T06:02:57.675003+08:00",
-    "updatedAt": "2026-08-02T06:02:57.675003+08:00"
-  },
-  {
-    "title": "开源模型会颠覆闭源巨头吗？",
-    "domainTag": "AI竞争格局",
-    "consensus": [
-      {
-        "podcast": "硅谷101",
-        "point": "中国开放模型逼近前沿，冲击闭源商业模式",
-        "episodeId": "5fd236d7-9a72-4b15-9e84-e83ceadd1b41"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "Kimi K3开源引发硅谷恐慌，模型商品化加速",
-        "episodeId": "6a5f8f00a3fec224d5a13421"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-08-02T06:02:57.675003+08:00",
-    "updatedAt": "2026-08-02T06:02:57.675003+08:00"
-  },
-  {
-    "title": "情绪稳定是健康还是压抑？",
-    "domainTag": "心理健康",
-    "consensus": [
-      {
-        "podcast": "about热水频道",
-        "point": "情绪稳定不等于情绪健康，消极情绪需被允许",
-        "episodeId": "6a60ae3aa3fec224d5a1ac6e"
-      },
-      {
-        "podcast": "其他垃圾",
-        "point": "情绪稳定可能只是老了，不再自恋",
-        "episodeId": "6a5a1af26356eb2d9be4352a"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-08-01T06:12:01.373290+08:00",
-    "updatedAt": "2026-08-01T06:12:01.373290+08:00"
   }
 ]

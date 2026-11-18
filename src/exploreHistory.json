@@ -1,5 +1,34 @@
 [
   {
+    "generatedAt": "2026-11-18T10:49:28.977920+08:00",
+    "title": "AI会让顶尖研究员的工作被自动化吗？",
+    "domainTag": "AI研究与RSI",
+    "podcasts": [
+      "十字路口Crossing",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6af8995114d01a26f8a9de4d",
+      "6af936ea14d01a26f8a9fd94"
+    ],
+    "consensus": [
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI已在加速AI研发，顶尖研究员工作或只需几个月到两年被自动",
+        "episodeId": "6af8995114d01a26f8a9de4d"
+      },
+      {
+        "podcast": "十字路口Crossing",
+        "point": "RSI前夜，用Kimi加速Kimi，递归自我改进正在发生",
+        "episodeId": "6af936ea14d01a26f8a9fd94"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:92a47a03ac57aaa2c0a733beabac36d39489b47e82ed8df567473c1ac0eb903e",
+    "createdAt": "2026-11-18T10:49:28.977920+08:00",
+    "updatedAt": "2026-11-18T10:49:28.977920+08:00"
+  },
+  {
     "generatedAt": "2026-11-17T11:39:43.918160+08:00",
     "title": "黄仁勋离开后英伟达还能领跑吗？",
     "domainTag": "AI芯片与产业格局",
@@ -837,35 +866,6 @@
       }
     ],
     "fingerprint": "v1:5e6b6c76ef11f21d13c30a60867c108d79aba235fb0c18470617fb1639796692",
-    "createdAt": "2026-08-05T06:19:14.679657+08:00",
-    "updatedAt": "2026-08-05T06:19:14.679657+08:00"
-  },
-  {
-    "generatedAt": "2026-08-05T06:19:14.679657+08:00",
-    "title": "AI泡沫会破裂吗？",
-    "domainTag": "AI投资",
-    "podcasts": [
-      "搞钱女孩",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "6a6a433356a3f3491ba71cf4",
-      "6a71ea981b5e24969ce8e115"
-    ],
-    "consensus": [],
-    "divergence": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "市场抛售与基本面不符，底层需求全面加速",
-        "episodeId": "6a71ea981b5e24969ce8e115"
-      },
-      {
-        "podcast": "搞钱女孩",
-        "point": "华尔街公认AI有泡沫，但离破灭还早",
-        "episodeId": "6a6a433356a3f3491ba71cf4"
-      }
-    ],
-    "fingerprint": "v1:345aec93fd3accda07d7f9e4f3c80f1daf1bebd5225d3c17eed3df55edc52c0b",
     "createdAt": "2026-08-05T06:19:14.679657+08:00",
     "updatedAt": "2026-08-05T06:19:14.679657+08:00"
   }

@@ -1,5 +1,26 @@
 [
   {
+    "episodeId": "6afc4ed4a4a79edf137ac531",
+    "podcastName": "十分吸引",
+    "episodeTitle": "EP.08 美元80年霸权之路：黄金、石油、债务与潮汐",
+    "generatedAt": "2026-11-18T10:49:28.977920+08:00",
+    "fingerprint": "6afc4ed4a4a79edf137ac531"
+  },
+  {
+    "episodeId": "6afb5e05a4a79edf137a56c0",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#833. Muse 的崛起：本年度最成功消费产品发布内幕",
+    "generatedAt": "2026-11-18T10:49:28.977920+08:00",
+    "fingerprint": "6afb5e05a4a79edf137a56c0"
+  },
+  {
+    "episodeId": "6afc7602a4a79edf137ad929",
+    "podcastName": "跨国串门儿计划",
+    "episodeTitle": "#834.海贼王·尾田荣一郎：为什么我非得画到截稿前最后一刻？",
+    "generatedAt": "2026-11-18T10:49:28.977920+08:00",
+    "fingerprint": "6afc7602a4a79edf137ad929"
+  },
+  {
     "episodeId": "6afad5c6fe62f8f52c4c0c1f",
     "podcastName": "纵横四海",
     "episodeTitle": "EP89 费曼12问题：打造一个支撑你生活顺利运转的人生操作系统（Life OS）",
@@ -187,26 +208,5 @@
     "episodeTitle": "20.三十加中女玩转Dating App方法论！绝不仅仅是相亲局",
     "generatedAt": "2026-11-09T08:42:02.323207+08:00",
     "fingerprint": "6aed58915b7c4709bfe1ea0a"
-  },
-  {
-    "episodeId": "6aeec21d5b7c4709bfe262c0",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#814. 深度解读Anthropic S-1招股书",
-    "generatedAt": "2026-11-08T08:22:53.032001+08:00",
-    "fingerprint": "6aeec21d5b7c4709bfe262c0"
-  },
-  {
-    "episodeId": "6aec6bc06381f0f964c45068",
-    "podcastName": "42章经",
-    "episodeTitle": "锐评国模与 Neo Lab，畅谈 RL 人生与 RLaaS | 对谈 Mind Lab 首席科学家骁腾",
-    "generatedAt": "2026-11-08T08:22:53.032001+08:00",
-    "fingerprint": "6aec6bc06381f0f964c45068"
-  },
-  {
-    "episodeId": "6aef03eeb4a4e20202f62fc1",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#815.All-In联合主持人Chamath：为什么打扑克能训练你接受损失？",
-    "generatedAt": "2026-11-08T08:22:53.032001+08:00",
-    "fingerprint": "6aef03eeb4a4e20202f62fc1"
   }
 ]
