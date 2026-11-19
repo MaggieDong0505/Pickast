@@ -1,5 +1,121 @@
 [
   {
+    "generatedAt": "2026-11-19T10:29:03.470010+08:00",
+    "title": "通用Agent会吃掉垂直Agent的生存",
+    "domainTag": "AI Agent产品格局",
+    "podcasts": [
+      "42章经",
+      "What's Next｜科技早知道"
+    ],
+    "episodeIds": [
+      "6af6678d14d01a26f8a916f6",
+      "7b500b8f-cfde-4da1-9559-8128adcea8f6"
+    ],
+    "consensus": [
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "通用与垂直Agent分工协作，垂直在复杂服务有空间",
+        "episodeId": "7b500b8f-cfde-4da1-9559-8128adcea8f6"
+      },
+      {
+        "podcast": "42章经",
+        "point": "To C通用Agent是平台机会，To B垂直Agent另有",
+        "episodeId": "6af6678d14d01a26f8a916f6"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:f92a2bf51ab1991d1eb0a4935fbd709afe556963d9b5df26cb52731340aff279",
+    "createdAt": "2026-11-19T10:29:03.470010+08:00",
+    "updatedAt": "2026-11-19T10:29:03.470010+08:00"
+  },
+  {
+    "generatedAt": "2026-11-19T10:29:03.470010+08:00",
+    "title": "AI研发AI，人类研究员还剩什么价值？",
+    "domainTag": "AI研究与RSI",
+    "podcasts": [
+      "What's Next｜科技早知道",
+      "跨国串门儿计划"
+    ],
+    "episodeIds": [
+      "6af8995114d01a26f8a9de4d",
+      "c11cceb2-07c2-4c2f-9124-95bd1187c7ec"
+    ],
+    "consensus": [
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "人类仍负责定方向、优化目标和资源约束",
+        "episodeId": "c11cceb2-07c2-4c2f-9124-95bd1187c7ec"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI已在加速AI研发，顶尖研究员工作或两年内自动化",
+        "episodeId": "6af8995114d01a26f8a9de4d"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:dc9bb94444cbb02f16cd63a9abea1f78071a9ec93181833c042fae3843666275",
+    "createdAt": "2026-11-19T10:29:03.470010+08:00",
+    "updatedAt": "2026-11-19T10:29:03.470010+08:00"
+  },
+  {
+    "generatedAt": "2026-11-19T10:29:03.470010+08:00",
+    "title": "AI时代线下社群为什么反而更重要？",
+    "domainTag": "AI与社群连接",
+    "podcasts": [
+      "思文，败类",
+      "贝望录"
+    ],
+    "episodeIds": [
+      "6af04a865b7c4709bfe2dcff",
+      "6afb0f7bfe62f8f52c4c299b"
+    ],
+    "consensus": [
+      {
+        "podcast": "贝望录",
+        "point": "真实思考、判断与信任仍需人与线下共同完成",
+        "episodeId": "6afb0f7bfe62f8f52c4c299b"
+      },
+      {
+        "podcast": "思文，败类",
+        "point": "AI聊天无法取代线下真实朋友带来的力量",
+        "episodeId": "6af04a865b7c4709bfe2dcff"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:ada74ac1a9fe5ed0caca25b4dfd02d512b21729e7041481af070944da38eca6e",
+    "createdAt": "2026-11-19T10:29:03.470010+08:00",
+    "updatedAt": "2026-11-19T10:29:03.470010+08:00"
+  },
+  {
+    "generatedAt": "2026-11-19T10:29:03.470010+08:00",
+    "title": "AI让工作变多还是让人更累？",
+    "domainTag": "AI与工作强度",
+    "podcasts": [
+      "跨国串门儿计划",
+      "跨域请求"
+    ],
+    "episodeIds": [
+      "6af6c7153caef3b52f553332",
+      "6af8a6ea3caef3b52f55c2c7"
+    ],
+    "consensus": [
+      {
+        "podcast": "跨域请求",
+        "point": "效率提高的同时工作内容和强度也变高",
+        "episodeId": "6af6c7153caef3b52f553332"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "coding agent提高产出后人们会做更多探索",
+        "episodeId": "6af8a6ea3caef3b52f55c2c7"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:95cfd4c977afe5c6eb180cd3c138b12e6269bcc5cd6d669f866011d7c6078896",
+    "createdAt": "2026-11-19T10:29:03.470010+08:00",
+    "updatedAt": "2026-11-19T10:29:03.470010+08:00"
+  },
+  {
     "generatedAt": "2026-11-18T10:49:28.977920+08:00",
     "title": "AI会让顶尖研究员的工作被自动化吗？",
     "domainTag": "AI研究与RSI",
@@ -752,121 +868,5 @@
     "fingerprint": "v1:4d0adfe3a9053948bcccdfd32c7fd98d21bc2c6692cc8746ac2aea0bcc136578",
     "createdAt": "2026-08-06T06:17:21.344285+08:00",
     "updatedAt": "2026-08-06T06:17:21.344285+08:00"
-  },
-  {
-    "generatedAt": "2026-08-06T06:17:21.344285+08:00",
-    "title": "AI基础设施投资是泡沫还是机遇？",
-    "domainTag": "AI投资",
-    "podcasts": [
-      "十分吸引",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "6a6403f76356eb2d9be7fc38",
-      "6a71ea981b5e24969ce8e115"
-    ],
-    "consensus": [
-      {
-        "podcast": "十分吸引",
-        "point": "光通信成AI淘金热里的卖铲子生意",
-        "episodeId": "6a6403f76356eb2d9be7fc38"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "GPU需求与token增长全面加速",
-        "episodeId": "6a71ea981b5e24969ce8e115"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:86a85faa033d9ad560c9fe744115d2a307a6778f6ebcfe8bafed16ab4588926e",
-    "createdAt": "2026-08-06T06:17:21.344285+08:00",
-    "updatedAt": "2026-08-06T06:17:21.344285+08:00"
-  },
-  {
-    "generatedAt": "2026-08-06T06:17:21.344285+08:00",
-    "title": "AI时代如何保持精力与动力？",
-    "domainTag": "身心健康",
-    "podcasts": [
-      "碳基生物生存指南",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "6a69b3d456a3f3491ba6d65d",
-      "6a6aaf0256a3f3491ba73198"
-    ],
-    "consensus": [
-      {
-        "podcast": "碳基生物生存指南",
-        "point": "精力受动机响应敏感性影响，非天生",
-        "episodeId": "6a69b3d456a3f3491ba6d65d"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "找到热情需先保持结构，避免麻木",
-        "episodeId": "6a6aaf0256a3f3491ba73198"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:021f3cde020928ce331fd5119097d2363a6a90d781fb3b326ddc419653c78b32",
-    "createdAt": "2026-08-06T06:17:21.344285+08:00",
-    "updatedAt": "2026-08-06T06:17:21.344285+08:00"
-  },
-  {
-    "generatedAt": "2026-08-05T06:19:14.679657+08:00",
-    "title": "AI会取代咨询公司吗？",
-    "domainTag": "AI与商业",
-    "podcasts": [
-      "十字路口Crossing",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "6a6eb8a6ab3a91c24a0e5d40",
-      "6a6eb9e71b5e24969ce77ab5"
-    ],
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI能处理远超分析师的信息量，应取代麦肯锡等咨询巨头",
-        "episodeId": "6a6eb8a6ab3a91c24a0e5d40"
-      },
-      {
-        "podcast": "十字路口Crossing",
-        "point": "AI让效率无限提升，咨询等知识工作将被重构",
-        "episodeId": "6a6eb9e71b5e24969ce77ab5"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:dfc5b45b2e01ccff6742971b90672a138b08faab8b7d2e5f00b9752ca63c11b9",
-    "createdAt": "2026-08-05T06:19:14.679657+08:00",
-    "updatedAt": "2026-08-05T06:19:14.679657+08:00"
-  },
-  {
-    "generatedAt": "2026-08-05T06:19:14.679657+08:00",
-    "title": "AI会消灭还是创造就业？",
-    "domainTag": "AI与职场",
-    "podcasts": [
-      "不被定义的职场",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "6a6a2a8c56a3f3491ba717f4",
-      "6a6f71631b5e24969ce7c73b"
-    ],
-    "consensus": [],
-    "divergence": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI自动化任务后释放积压需求，反而创造更多岗位",
-        "episodeId": "6a6a2a8c56a3f3491ba717f4"
-      },
-      {
-        "podcast": "不被定义的职场",
-        "point": "AI替代基础工作，公司更看重不可替代性而非苦劳",
-        "episodeId": "6a6f71631b5e24969ce7c73b"
-      }
-    ],
-    "fingerprint": "v1:5e6b6c76ef11f21d13c30a60867c108d79aba235fb0c18470617fb1639796692",
-    "createdAt": "2026-08-05T06:19:14.679657+08:00",
-    "updatedAt": "2026-08-05T06:19:14.679657+08:00"
   }
 ]

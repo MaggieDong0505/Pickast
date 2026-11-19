@@ -1,5 +1,81 @@
 [
   {
+    "title": "AI时代线下社群为什么反而更重要？",
+    "domainTag": "AI与社群连接",
+    "consensus": [
+      {
+        "podcast": "贝望录",
+        "point": "真实思考、判断与信任仍需人与线下共同完成",
+        "episodeId": "6afb0f7bfe62f8f52c4c299b"
+      },
+      {
+        "podcast": "思文，败类",
+        "point": "AI聊天无法取代线下真实朋友带来的力量",
+        "episodeId": "6af04a865b7c4709bfe2dcff"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-11-19T10:29:03.470010+08:00",
+    "updatedAt": "2026-11-19T10:29:03.470010+08:00"
+  },
+  {
+    "title": "AI研发AI，人类研究员还剩什么价值？",
+    "domainTag": "AI研究与RSI",
+    "consensus": [
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "人类仍负责定方向、优化目标和资源约束",
+        "episodeId": "c11cceb2-07c2-4c2f-9124-95bd1187c7ec"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "AI已在加速AI研发，顶尖研究员工作或两年内自动化",
+        "episodeId": "6af8995114d01a26f8a9de4d"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-11-19T10:29:03.470010+08:00",
+    "updatedAt": "2026-11-19T10:29:03.470010+08:00"
+  },
+  {
+    "title": "AI让工作变多还是让人更累？",
+    "domainTag": "AI与工作强度",
+    "consensus": [
+      {
+        "podcast": "跨域请求",
+        "point": "效率提高的同时工作内容和强度也变高",
+        "episodeId": "6af6c7153caef3b52f553332"
+      },
+      {
+        "podcast": "跨国串门儿计划",
+        "point": "coding agent提高产出后人们会做更多探索",
+        "episodeId": "6af8a6ea3caef3b52f55c2c7"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-11-19T10:29:03.470010+08:00",
+    "updatedAt": "2026-11-19T10:29:03.470010+08:00"
+  },
+  {
+    "title": "通用Agent会吃掉垂直Agent的生存",
+    "domainTag": "AI Agent产品格局",
+    "consensus": [
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "通用与垂直Agent分工协作，垂直在复杂服务有空间",
+        "episodeId": "7b500b8f-cfde-4da1-9559-8128adcea8f6"
+      },
+      {
+        "podcast": "42章经",
+        "point": "To C通用Agent是平台机会，To B垂直Agent另有",
+        "episodeId": "6af6678d14d01a26f8a916f6"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-11-19T10:29:03.470010+08:00",
+    "updatedAt": "2026-11-19T10:29:03.470010+08:00"
+  },
+  {
     "title": "AI会让顶尖研究员的工作被自动化吗？",
     "domainTag": "AI研究与RSI",
     "consensus": [
@@ -545,25 +621,6 @@
         "podcast": "不被定义的职场",
         "point": "AI替代基础工作，公司更看重不可替代性而非苦劳",
         "episodeId": "6a6f71631b5e24969ce7c73b"
-      }
-    ],
-    "createdAt": "2026-08-05T06:19:14.679657+08:00",
-    "updatedAt": "2026-08-05T06:19:14.679657+08:00"
-  },
-  {
-    "title": "AI泡沫会破裂吗？",
-    "domainTag": "AI投资",
-    "consensus": [],
-    "divergence": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "市场抛售与基本面不符，底层需求全面加速",
-        "episodeId": "6a71ea981b5e24969ce8e115"
-      },
-      {
-        "podcast": "搞钱女孩",
-        "point": "华尔街公认AI有泡沫，但离破灭还早",
-        "episodeId": "6a6a433356a3f3491ba71cf4"
       }
     ],
     "createdAt": "2026-08-05T06:19:14.679657+08:00",
