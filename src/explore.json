@@ -1,5 +1,24 @@
 [
   {
+    "title": "封闭式加速器真能催出创业奇迹吗？",
+    "domainTag": "创业孵化与加速器",
+    "consensus": [
+      {
+        "podcast": "硅谷101",
+        "point": "HF0用修道院式减法与信念感氛围帮创业者聚焦核心目标",
+        "episodeId": "f6618818-b288-4798-bab8-d60d77c70aff"
+      },
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "垂直Agent创业需建立持续迭代的反馈闭环而非依赖单一模型",
+        "episodeId": "7b500b8f-cfde-4da1-9559-8128adcea8f6"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-11-20T10:12:08.993754+08:00",
+    "updatedAt": "2026-11-20T10:12:08.993754+08:00"
+  },
+  {
     "title": "AI时代线下社群为什么反而更重要？",
     "domainTag": "AI与社群连接",
     "consensus": [
@@ -551,44 +570,6 @@
     "updatedAt": "2026-11-12T10:11:52.267922+08:00"
   },
   {
-    "title": "AI基础设施投资是泡沫还是机遇？",
-    "domainTag": "AI投资",
-    "consensus": [
-      {
-        "podcast": "十分吸引",
-        "point": "光通信成AI淘金热里的卖铲子生意",
-        "episodeId": "6a6403f76356eb2d9be7fc38"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "GPU需求与token增长全面加速",
-        "episodeId": "6a71ea981b5e24969ce8e115"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-08-06T06:17:21.344285+08:00",
-    "updatedAt": "2026-08-06T06:17:21.344285+08:00"
-  },
-  {
-    "title": "AI时代如何保持精力与动力？",
-    "domainTag": "身心健康",
-    "consensus": [
-      {
-        "podcast": "碳基生物生存指南",
-        "point": "精力受动机响应敏感性影响，非天生",
-        "episodeId": "6a69b3d456a3f3491ba6d65d"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "找到热情需先保持结构，避免麻木",
-        "episodeId": "6a6aaf0256a3f3491ba73198"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-08-06T06:17:21.344285+08:00",
-    "updatedAt": "2026-08-06T06:17:21.344285+08:00"
-  },
-  {
     "title": "AI时代销售模式会被彻底颠覆吗？",
     "domainTag": "AI与商业",
     "consensus": [
@@ -606,43 +587,5 @@
     "divergence": [],
     "createdAt": "2026-08-06T06:17:21.344285+08:00",
     "updatedAt": "2026-08-06T06:17:21.344285+08:00"
-  },
-  {
-    "title": "AI会消灭还是创造就业？",
-    "domainTag": "AI与职场",
-    "consensus": [],
-    "divergence": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI自动化任务后释放积压需求，反而创造更多岗位",
-        "episodeId": "6a6a2a8c56a3f3491ba717f4"
-      },
-      {
-        "podcast": "不被定义的职场",
-        "point": "AI替代基础工作，公司更看重不可替代性而非苦劳",
-        "episodeId": "6a6f71631b5e24969ce7c73b"
-      }
-    ],
-    "createdAt": "2026-08-05T06:19:14.679657+08:00",
-    "updatedAt": "2026-08-05T06:19:14.679657+08:00"
-  },
-  {
-    "title": "AI会取代咨询公司吗？",
-    "domainTag": "AI与商业",
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI能处理远超分析师的信息量，应取代麦肯锡等咨询巨头",
-        "episodeId": "6a6eb8a6ab3a91c24a0e5d40"
-      },
-      {
-        "podcast": "十字路口Crossing",
-        "point": "AI让效率无限提升，咨询等知识工作将被重构",
-        "episodeId": "6a6eb9e71b5e24969ce77ab5"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-08-05T06:19:14.679657+08:00",
-    "updatedAt": "2026-08-05T06:19:14.679657+08:00"
   }
 ]

@@ -1,5 +1,34 @@
 [
   {
+    "generatedAt": "2026-11-20T10:12:08.993754+08:00",
+    "title": "封闭式加速器真能催出创业奇迹吗？",
+    "domainTag": "创业孵化与加速器",
+    "podcasts": [
+      "What's Next｜科技早知道",
+      "硅谷101"
+    ],
+    "episodeIds": [
+      "7b500b8f-cfde-4da1-9559-8128adcea8f6",
+      "f6618818-b288-4798-bab8-d60d77c70aff"
+    ],
+    "consensus": [
+      {
+        "podcast": "硅谷101",
+        "point": "HF0用修道院式减法与信念感氛围帮创业者聚焦核心目标",
+        "episodeId": "f6618818-b288-4798-bab8-d60d77c70aff"
+      },
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "垂直Agent创业需建立持续迭代的反馈闭环而非依赖单一模型",
+        "episodeId": "7b500b8f-cfde-4da1-9559-8128adcea8f6"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:59580a942e6e40489c31392634eb80f5b752d6aab23075fcf0bf21e63cca9402",
+    "createdAt": "2026-11-20T10:12:08.993754+08:00",
+    "updatedAt": "2026-11-20T10:12:08.993754+08:00"
+  },
+  {
     "generatedAt": "2026-11-19T10:29:03.470010+08:00",
     "title": "通用Agent会吃掉垂直Agent的生存",
     "domainTag": "AI Agent产品格局",
@@ -839,34 +868,5 @@
     "fingerprint": "v1:2dcd6b38ac9d88368cd0c081dbd0e46dae18d320f968755e5a0a96340cde8fa0",
     "createdAt": "2026-11-12T10:11:52.267922+08:00",
     "updatedAt": "2026-11-12T10:11:52.267922+08:00"
-  },
-  {
-    "generatedAt": "2026-08-06T06:17:21.344285+08:00",
-    "title": "AI时代销售模式会被彻底颠覆吗？",
-    "domainTag": "AI与商业",
-    "podcasts": [
-      "乱翻书",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "6a61ac16a3fec224d5a207e9",
-      "6a6da28d1b5e24969ce72d4c"
-    ],
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI原生平台将取代传统销售记录系统",
-        "episodeId": "6a61ac16a3fec224d5a207e9"
-      },
-      {
-        "podcast": "乱翻书",
-        "point": "AI办公产品需从架构上为AI设计",
-        "episodeId": "6a6da28d1b5e24969ce72d4c"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:4d0adfe3a9053948bcccdfd32c7fd98d21bc2c6692cc8746ac2aea0bcc136578",
-    "createdAt": "2026-08-06T06:17:21.344285+08:00",
-    "updatedAt": "2026-08-06T06:17:21.344285+08:00"
   }
 ]
