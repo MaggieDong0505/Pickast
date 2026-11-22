@@ -568,24 +568,5 @@
     "divergence": [],
     "createdAt": "2026-11-12T10:11:52.267922+08:00",
     "updatedAt": "2026-11-12T10:11:52.267922+08:00"
-  },
-  {
-    "title": "AI时代销售模式会被彻底颠覆吗？",
-    "domainTag": "AI与商业",
-    "consensus": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI原生平台将取代传统销售记录系统",
-        "episodeId": "6a61ac16a3fec224d5a207e9"
-      },
-      {
-        "podcast": "乱翻书",
-        "point": "AI办公产品需从架构上为AI设计",
-        "episodeId": "6a6da28d1b5e24969ce72d4c"
-      }
-    ],
-    "divergence": [],
-    "createdAt": "2026-08-06T06:17:21.344285+08:00",
-    "updatedAt": "2026-08-06T06:17:21.344285+08:00"
   }
 ]

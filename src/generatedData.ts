@@ -8,71 +8,45 @@
 import { BriefingCardData } from './types';
 
 export const initialData: BriefingCardData = {
-  "dateStr": "2026.11.20",
-  "chinaDateStr": "星期五 / FRIDAY",
+  "dateStr": "2026.11.22",
+  "chinaDateStr": "星期日 / SUNDAY",
   "title": "今天最值得听 • TODAY'S VOICE",
-  "issueNo": "精选 2 条",
+  "issueNo": "精选 1 条",
   "mainEpisode": {
-    "episodeId": "e1df9736-9c99-5ca8-b170-6b44d92b345f",
+    "episodeId": "d2034bb1-ab37-5166-bda1-b748bbeec89e",
     "podcastName": "Peril Crosser 渡厄",
-    "episodeTitle": "EP71: 弗洛伊德：一仆侍三主的受气包，夹在禽兽本我与道德大棒之间的打工人自我",
-    "description": "当精神分析帝国攀上权力和声望的最顶峰时，内部那场惨烈的弑父大戏，往往就已经悄然拉开了序幕。\n\n弗洛伊德一生都在剖析俄狄浦斯情结，剖析儿子对父亲的挑战，嫉妒与篡位狂想，结果他亲手缔造的学派，最终也毫无例外地被自己的大弟子们以同样惨烈的方式撕扯得千疮百孔。然而个人的决裂在历史洪流面前不过是一道涟漪，第一次世界大战的绞肉机炮火，彻底击碎了十九世纪理性的盲目自信，更无情轰塌了弗洛伊德早期坚信的唯乐原则。\n\n为什么战壕里历经九死一生的老兵，每晚都会在噩梦里精准重演被炮弹炸烂的绝望瞬间？为什么一岁半的外孙会不知疲倦地反复玩着扔线轴的残酷把戏？当生命不仅渴望繁衍，更渴望退回无机物彻底的死寂，死本能与强迫性重复的幽灵便从深渊中缓缓升起。\n\n本期节目跟随弗洛伊德走进人类心灵最残酷的二次重构。从周三学会与荣格的决裂，到一战女儿早夭的人间至暗，从死本能对人类作死自毁与世界大战的冷血解释，到本我，自我与超我的三方内战，我们将看到弗洛伊德如何冷酷拆解康德崇高的先验道德律，揭开良知背后对父亲阉割惩罚的恐惧内化，并检视我们每天赖以生存的自欺防御机制。\n\n本期核心话题\n\n从孤家寡人到维也纳教皇，周三心理学会的雪茄烟雾与克拉克大学演讲封神\n弑父大戏的现实重演，远洋邮轮上的解梦对峙，弗洛伊德在荣格面前的两次当场休克\n图腾与禁忌的原初神话映射，流亡儿子们弑父分肉与禁忌法则诞生\n时代巨震与个人悲剧，三个儿子上前线与最钟爱的二女儿苏菲染疫早夭\n理论塌方，战壕弹震症士兵的创伤性噩梦如何击碎了梦是愿望达成的公理\n外孙的滚轴游戏Fort-Da，从被动承受痛苦到主动掌控创伤的强迫性重复\n惊天逆转超越唯乐原则，生本能与死本能的双重宇宙，为什么所有生命的终极目标都是死亡\n死本能解剖人类自毁，为什么有人反复在同一个坑里摔死，施虐受虐狂与战争狂热的周期泄洪\n冰山模型报废与第二结构模型，一仆侍三主的可怜打工人自我\n硬刚康德实践理性批判，先验道德律不过是儿童期俄狄浦斯阉割恐惧的内化\n自我防御机制大赏，压抑，投射，反向形成，合理化与退行\n唯一的健康通道，升华与人类伟大艺术，科学创造的动力源泉\n\nBackground music from YouTube Audio Library.",
-    "publishedAt": "2026-11-14T04:15:00+00:00",
+    "episodeTitle": "EP72: 弗洛伊德：为什么罪疚感专杀老实人？多巴胺生理骗局与超我的黑社会保护费",
+    "description": "为什么现代人成了装上假肢的神，享有历史上最丰富的物质与最长久的寿命，却前所未有地焦虑成灾，抑郁横行？\n\n在弗洛伊德看来，人类追求的持久幸福在生理硬件上压根就不存在。快乐只是痛苦突然释放那一瞬间的短暂落差，而痛苦却是全天候常驻的。更残酷的是，文明从来不是一座免费的福利院，而是一场拿本能自由换取物理安全的霸王条款交易。当我们作为懂事的文明好人，死死咬紧牙关把怒火咽回肚子里时，这股破坏能量并没有消失，而是掉头倒灌回体内，被心智顶端的超我全盘收缴。不是因为你干了坏事才感到内疚，而是因为你越善良，越守规矩，你喂给超我恶霸的弹药就越充足，超我对你的内部拷打就越凶残。\n\n本期节目是弗洛伊德四部曲的第三期。我们将先跟着这位心灵神探回到维也纳贝格街19号诊室，彻底破译他临床生涯里最扑朔迷离，售后也最荒诞的鼠人与狼人两大世纪奇案——看看三点八克朗邮费如何在德语鼠币汇率里演化成铁桶烤鼠的强迫症迷宫，看看俄国顶级富二代狼人如何在十月革命破产后，靠着精神分析界的众筹皇粮活到九十二岁高龄。随后，我们将顺着弗洛伊德晚年扔出的两颗思想重磅炸弹——一个幻觉的未来与文明及其不满，见证他与诺奖文豪罗曼·罗兰关于大洋感的交锋，一步步拆解那份留给全人类的终极诊断书。\n\n本期核心话题\n\n强迫症巅峰鼠人案，三点八克朗邮费死循环与明明知道债主是C小姐却故意屏蔽记忆的心理诡计\n德语鼠币汇率全破译，老鼠Ratten，分期付款Raten，赌鬼老爹Spielratten与娶富家女Heiraten的四重谐音加密\n鼠人午夜十二点给亡父鬼魂开门并脱裤子照镜子的精分现场，与一战战壕里的悲剧结局\n狼人案四步福尔摩斯解梦，为什么核桃树上坐着六七只长着狐狸大尾巴的白狼，格林童话狼和七只小山羊与裁缝揪狼尾巴的阉割恐惧\n一岁半原初场景的罗生门，十月革命一夜破产，以及狼人靠精神分析学会众筹养老金吃到九十二岁的六十年魔幻售后\n一个幻觉的未来，为什么人类戒不掉云端超级大爹，谬误与愿望幻觉的严密界定与人类精神断奶期\n罗曼·罗兰的来信挑战，神秘高尚的大洋感如何被弗洛伊德降维拆解为吃奶婴儿未断奶的原始自恋\n永恒之城罗马的心智考古学比喻，为什么成年人的大脑里永远同时耸立着一岁半的婴儿废墟与现代高楼\n文明及其不满四重死锁，装上假肢的神，多巴胺按秒计费的生理骗局，纯爱战神的软肋与叔本华的寒冬豪猪悖论\n为什么罪疚感专杀老实人，攻击性守恒与超我的黑社会保护费机制，以及倒霉时自抽耳光的厄运道德化\n\nBackground music from YouTube Audio Library.",
+    "publishedAt": "2026-11-21T04:15:00+00:00",
     "rssUrl": "https://perilcrosser.com/feed/podcast/",
     "coverImageUrl": "https://zh.perilcrosser.com/images/Peril_Crosser_Du_E_3000x3000.jpg",
     "coverText": "Pe",
     "coverBg": "bg-[#18181B]",
     "coverTextColor": "text-amber-50",
-    "whyRecommended": "适合对精神分析史与人性暗面好奇的听众,用弗洛伊德的理论崩塌串起一战创伤与死本能。",
+    "whyRecommended": "适合对精神分析好奇的听众,用鼠人狼人两案串起弗洛伊德晚期的文明诊断。",
     "viewpoints": [
-      "弗洛伊德与荣格决裂,弑父大戏在学派内重演",
-      "一战炮火击碎唯乐原则,死本能由此浮现",
-      "本我自我超我三方内战,自我夹在中间受气"
+      "拆解鼠人案三点八克朗邮费死循环与四重谐音加密",
+      "狼人案四步解梦与六十年魔幻售后",
+      "文明及其不满四重死锁与超我保护费机制"
     ],
-    "goldenQuotes": [],
-    "triageTag": "🚶边走边听｜弗洛伊德死本能与自我结构",
-    "href": "https://zh.perilcrosser.com/episodes/ep71/",
-    "whyRecommend": "适合对精神分析史与人性暗面好奇的听众,用弗洛伊德的理论崩塌串起一战创伤与死本能。",
-    "goldenQuote": "适合对精神分析史与人性暗面好奇的听众,用弗洛伊德的理论崩塌串起一战创伤与死本能。",
-    "topicTag": "🚶边走边听｜弗洛伊德死本能与自我结构"
+    "goldenQuotes": [
+      {
+        "quote": "文明从来不是一座免费的福利院，而是一场拿本能自由换取物理安全的霸王条款交易。",
+        "source": "来自本期 shownote",
+        "source_note": "来自本期 shownote"
+      },
+      {
+        "quote": "快乐只是痛苦突然释放那一瞬间的短暂落差，而痛苦却是全天候常驻的。",
+        "source": "来自本期 shownote",
+        "source_note": "来自本期 shownote"
+      }
+    ],
+    "triageTag": "📖值得精听｜鼠人狼人案与超我机制",
+    "href": "https://zh.perilcrosser.com/episodes/ep72/",
+    "whyRecommend": "适合对精神分析好奇的听众,用鼠人狼人两案串起弗洛伊德晚期的文明诊断。",
+    "goldenQuote": "文明从来不是一座免费的福利院，而是一场拿本能自由换取物理安全的霸王条款交易。",
+    "topicTag": "📖值得精听｜鼠人狼人案与超我机制"
   },
-  "backupEpisodes": [
-    {
-      "episodeId": "abb94660-2b59-4f44-a837-932c00158fa6",
-      "podcastName": "Vibration 歪波音室",
-      "episodeTitle": "一把 Bass，藏着什么流行音乐的秘密？",
-      "description": "一首歌里，Bass 往往是最容易被忽略的声音。它可能决定了整首歌的律动，甚至成为我们记住一首歌的原因，但平常听歌的时候，我们却很少特别注意，Bass 究竟在一首歌里做了什么。\n从 Motown 灵魂乐的轻快律动，到摇滚乐里让人过耳不忘的低音 Riff，再到 Neo-Soul 松弛又精妙的节奏，这期节目，我们将跟随几位传奇 Bass 手的演奏，重新聆听那些熟悉的经典歌曲，仔细感受那些容易被忽略的低音细节，试着用一个新的角度，重新欣赏这些经典之作。\n2026 年，恰逢 Fender Precision Bass 这把传奇乐器诞生 75 周年。\n这次 Vibration 歪波音室，特别携手 Fender，从这把经典电贝司的历史出发，回顾它如何参与塑造过去 75 年的流行音乐。\n💡本期节目与 Fender 合作呈现\n👉本期节目歌单：网易云音乐、Spotify\nㅤ\n🕕 时间轴\n05:50 从低音提琴到 Precision Bass：1951 年，一把改变现代乐团演奏方式的电贝斯诞生\n12:09 James Jamerson 和 Motown：切分节奏、八度跳进，以及充满旋律感的经典 Bassline\n31:09 Donald \"Duck\" Dunn 的灵魂乐：用简洁的低音与鼓点，建立鲜明的律动\n38:15 从 Pink Floyd 到 Iron Maiden：从七拍子 riff 到朋克与重金属的低音演奏\n54:18 Kim Deal 另类摇滚：精简的 Bassline 如何支撑 Pixies 的音乐\n01:05:19 Pino Palladino 在《Voodoo》里的表现：6/8 律动、节奏的细微变化，以及 Neo-Soul 的低音魅力\n01:19:19 Precision Bass 75 年：回顾经典乐器的历史与不同世代的演奏者。\nㅤ\n🎵 本期播放曲目\nThe Supremes - You Can't Hurry Love（1966）\nPink Floyd - Money（1973）\nQueen - Another One Bites the Dust（1980）\nFour Tops - Reach Out I'll Be There（1966）\nSam & Dave - Soul Man（1967）\nThe Clash - London Calling（1979）\nIron Maiden - The Trooper（1983）\nPixies - Debaser（1989）\nD'Angelo - Send It On（2000）\n以上按照歌曲在节目中首次出现的顺序排列，部分曲目会在音乐分析时重播。歌曲用于介绍不同的 Bass 演奏方式和欣赏，并非所有作品均使用 Fender Precision Bass 录制。\nㅤ\n🎸 Fender 75 周年纪念版 Precision Bass 系列\n2026 年是 Fender Precision Bass 诞生 75 周年。作为公认的全球首款量产电贝斯，P Bass 凭借经典设计与标志性音色，成为现代流行音乐史上的重要乐器。\n为纪念这一里程碑，Fender 推出三款 75 周年限量型号：\n美产第二代复古系列 1951 Precision Bass®：复刻初代设计，采用梣木琴身、硝基漆面与单线圈拾音器，保留经典复古音色。\n美产专业系列 PJ Bass™：结合火焰枫木贴面、圆润指板边缘与双拾音器配置，提供更丰富的音色选择。\n第二代玩家系列 Precision Bass®：采用钻石尘闪光漆面与 Thunderbolt™ 拾音器，兼具醒目外观、饱满低频与清晰音色。\n三款纪念型号分别致敬 P Bass 的经典起点、设计演进与当代表现，融合了 Fender 的经典设计、匠心巧思与现代质感，为玩家打造不受流派、风格或技术水平限制，且拥有无限潜能的乐器。\nJames Jamerson 签名款 1962 Precision Bass® 电贝斯\nJames Jamerson 是 Motown 之声的重要奠基者，他以富有旋律性与律动感的 Precision Bass® 演奏，影响了 Paul McCartney、Marcus Miller、Geddy Lee 等众多贝斯手。\n为致敬这位传奇音乐人，Fender 推出 James Jamerson 签名款 1962 Precision Bass®，还原其经典乐器的外观、演奏手感与标志性 Motown 音色。\n主要配置：\n桤木琴身，3 色日落渐变 Heirloom™ 硝基漆面\n60 年代风格 C 形枫木琴颈，玫瑰木指板\n定制 James Jamerson 1962 Precision Bass 拾音器\nPure Vintage 琴桥及内置静音装置，重现经典 Motown 低音质感\nPrecision Bass 75 周年艺术家系列特辑《Lowdown On The Low End》\n为庆祝 Precision Bass 问世 75 周年，Fender 以独家视角呈现艺术家系列特辑《Lowdown On The Low End》，邀请当今多位极具代表性、录音履历辉煌、备受瞩目的Precision Bass 贝斯手。众人齐聚洛杉矶传奇录音棚 Sound City，畅谈关于 P Bass 的一切。\n在这部系列特辑中，Fender 与各位艺术家展开访谈、对谈与即兴合奏，分享乐队传奇、录音心得、复古名琴、真实瞬间。\n特邀艺人包括（按字母排序）：Bob Glaub, Freddie Washington, Geezer Butler, Justin Bivona, Leland Sklar, Matt Freeman, Nate Mendel, Tal Wilkenfeld\nEP1 - https://b23.tv/Fq1OG5L\nEP2 - https://b23.tv/qTlLnoB\nEP3 - https://b23.tv/rC93Wz1\nㅤ\n📎 参考来源以及延伸阅读Fender — Legendary Lows: The Precision Bass Story\nFender — Exploring the James Jamerson 1962 Precision Bass\nDetroit Historical Society — The Funk Brothers\nBassline Publishing — The Four Tops: Reach Out I'll Be There\nStax Records — Booker T. & The M.G.'s\nGuitar World — David Gilmour: Shine On Interview\nGuitar.com — The Guitar Gear Used on The Clash's London Calling\nAll About Jazz — Pino Palladino: The Craftsman from Wales\nReverb — Video: Pino Palladino's Neo-Soul Basslines with D'Angelo, Erykah Badu and José James\nStanding in the Shadows of Motown（2002）\nㅤ\n💻 Staff\n主播、声音剪辑制作、文案：拾壹\n部分内容提供：Fender\nㅤ\n📎 节目介绍「Vibration 歪波音室」是一档以爱好者的视角分享音乐的播客节目，希望能让你进入更丰富有趣的音乐世界。\n🎯 商务、媒体合作：添加微信 relic_ice，请备注来意\n📬 如果有任何问题或反馈，欢迎评论留言或发电子邮件至：relicice@gmail.com",
-      "publishedAt": "2026-11-15T22:30:00+00:00",
-      "rssUrl": "https://s2.proxy.wavpub.com/vibration.xml",
-      "coverImageUrl": "https://media-one.wavpub.com/covers/ac342332-acdc-45df-bb31-916a5ed01a91/ep-aadb909b107a7a0d.jpg",
-      "coverText": "Vi",
-      "coverBg": "bg-[#18181B]",
-      "coverTextColor": "text-amber-50",
-      "whyRecommended": "适合想听懂贝斯在歌里干了什么的听众,借传奇贝斯手与经典曲目重听熟悉旋律。",
-      "viewpoints": [
-        "从低音提琴到1951年诞生的Precision Bass电贝斯",
-        "James Jamerson用切分节奏与八度跳进塑造Motown之声",
-        "Pino Palladino在《Voodoo》里展现Neo-Soul低音魅力"
-      ],
-      "goldenQuotes": [
-        {
-          "quote": "一首歌里，Bass 往往是最容易被忽略的声音。",
-          "source": "来自本期 shownote",
-          "source_note": "来自本期 shownote"
-        },
-        {
-          "quote": "它可能决定了整首歌的律动，甚至成为我们记住一首歌的原因",
-          "source": "来自本期 shownote",
-          "source_note": "来自本期 shownote"
-        }
-      ],
-      "triageTag": "📖值得精听｜贝斯手经典曲目逐段拆解",
-      "href": "abb94660-2b59-4f44-a837-932c00158fa6",
-      "scenario": "",
-      "whyRecommend": "适合想听懂贝斯在歌里干了什么的听众,借传奇贝斯手与经典曲目重听熟悉旋律。",
-      "goldenQuote": "一首歌里，Bass 往往是最容易被忽略的声音。",
-      "topicTag": "📖值得精听｜贝斯手经典曲目逐段拆解"
-    }
-  ],
+  "backupEpisodes": [],
   "synthesis": null
 };

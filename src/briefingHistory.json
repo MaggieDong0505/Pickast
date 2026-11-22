@@ -1,5 +1,12 @@
 [
   {
+    "episodeId": "d2034bb1-ab37-5166-bda1-b748bbeec89e",
+    "podcastName": "Peril Crosser 渡厄",
+    "episodeTitle": "EP72: 弗洛伊德：为什么罪疚感专杀老实人？多巴胺生理骗局与超我的黑社会保护费",
+    "generatedAt": "2026-11-22T09:07:21.534101+08:00",
+    "fingerprint": "d2034bb1-ab37-5166-bda1-b748bbeec89e"
+  },
+  {
     "episodeId": "e1df9736-9c99-5ca8-b170-6b44d92b345f",
     "podcastName": "Peril Crosser 渡厄",
     "episodeTitle": "EP71: 弗洛伊德：一仆侍三主的受气包，夹在禽兽本我与道德大棒之间的打工人自我",
@@ -201,12 +208,5 @@
     "episodeTitle": "答听友问：远方无数的人们，都和我们有关",
     "generatedAt": "2026-11-11T09:10:34.033894+08:00",
     "fingerprint": "6af1b8a9b4a4e20202f73529"
-  },
-  {
-    "episodeId": "7b500b8f-cfde-4da1-9559-8128adcea8f6",
-    "podcastName": "What's Next｜科技早知道",
-    "episodeTitle": "通用 AI 助手走向大众，垂直 Agent 的机遇藏在哪里？｜对话小影科技韩晟 S10E35",
-    "generatedAt": "2026-11-10T11:23:05.440914+08:00",
-    "fingerprint": "7b500b8f-cfde-4da1-9559-8128adcea8f6"
   }
 ]

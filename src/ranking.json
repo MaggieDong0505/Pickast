@@ -4,9 +4,9 @@
     "episodeTitle": "当 AI 研发下一代 AI，人类研究员还剩下什么？|S10E36",
     "uniqueId": "c11cceb2-07c2-4c2f-9124-95bd1187c7ec",
     "publishedAt": "2026-11-18T12:00:00+00:00",
-    "recencyScore": 10.0,
+    "recencyScore": 9.26,
     "valueScore": 8.53,
-    "totalScore": 9.19,
+    "totalScore": 8.86,
     "domain": "AI",
     "selected": false,
     "reason": ""
@@ -16,9 +16,9 @@
     "episodeTitle": "通用 AI 助手走向大众，垂直 Agent 的机遇藏在哪里？｜对话小影科技韩晟 S10E35",
     "uniqueId": "7b500b8f-cfde-4da1-9559-8128adcea8f6",
     "publishedAt": "2026-11-09T10:00:00+00:00",
-    "recencyScore": 6.48,
+    "recencyScore": 5.88,
     "valueScore": 8.23,
-    "totalScore": 7.44,
+    "totalScore": 7.17,
     "domain": "AI",
     "selected": false,
     "reason": ""
@@ -28,9 +28,9 @@
     "episodeTitle": "E257｜对话Vitalik：AI安全背后的哲学思想，有效利他主义如何影响硅谷？",
     "uniqueId": "7a1e61d3-f02c-498b-ac84-cf68f59b4ca9",
     "publishedAt": "2026-10-28T23:00:00+00:00",
-    "recencyScore": 3.65,
+    "recencyScore": 3.31,
     "valueScore": 10.0,
-    "totalScore": 7.14,
+    "totalScore": 6.99,
     "domain": "AI",
     "selected": false,
     "reason": ""
@@ -40,9 +40,9 @@
     "episodeTitle": "Anthropic冲刺IPO：2万亿美元估值贵不贵？拆解Claude的增长、成本与竞争｜S10E34",
     "uniqueId": "03e51cc1-020d-4c30-8c07-8f8614b46e7f",
     "publishedAt": "2026-10-30T09:00:00+00:00",
-    "recencyScore": 3.92,
+    "recencyScore": 3.56,
     "valueScore": 9.1,
-    "totalScore": 6.77,
+    "totalScore": 6.61,
     "domain": "商业",
     "selected": false,
     "reason": ""
@@ -52,21 +52,21 @@
     "episodeTitle": "一把 Bass，藏着什么流行音乐的秘密？",
     "uniqueId": "abb94660-2b59-4f44-a837-932c00158fa6",
     "publishedAt": "2026-11-15T22:30:00+00:00",
-    "recencyScore": 8.98,
+    "recencyScore": 8.14,
     "valueScore": 4.37,
-    "totalScore": 6.44,
+    "totalScore": 6.07,
     "domain": "文化",
-    "selected": true,
-    "reason": "从Bass切入流行音乐史，专业且有经典曲目分析"
+    "selected": false,
+    "reason": ""
   },
   {
     "podcastName": "What's Next｜科技早知道",
     "episodeTitle": "从免费披萨到订错机票：硅谷创业者正在解决 Agent 的哪些麻烦？ | 硅谷线下活动 S10E33",
     "uniqueId": "039d9703-e999-454e-b6f4-f3d42ff195be",
     "publishedAt": "2026-10-22T11:00:00+00:00",
-    "recencyScore": 2.64,
+    "recencyScore": 2.39,
     "valueScore": 8.66,
-    "totalScore": 5.95,
+    "totalScore": 5.84,
     "domain": "AI",
     "selected": false,
     "reason": ""
@@ -82,6 +82,18 @@
     "domain": "健康",
     "selected": false,
     "reason": ""
+  },
+  {
+    "podcastName": "Peril Crosser 渡厄",
+    "episodeTitle": "EP72: 弗洛伊德：为什么罪疚感专杀老实人？多巴胺生理骗局与超我的黑社会保护费",
+    "uniqueId": "d2034bb1-ab37-5166-bda1-b748bbeec89e",
+    "publishedAt": "2026-11-21T04:15:00+00:00",
+    "recencyScore": 10.0,
+    "valueScore": 2.23,
+    "totalScore": 5.73,
+    "domain": "文化",
+    "selected": true,
+    "reason": "弗洛伊德四部曲第三期，鼠人狼人案例与文明不满深度拆解，思想密度极高"
   },
   {
     "podcastName": "What's Next｜科技早知道",
@@ -120,18 +132,6 @@
     "reason": ""
   },
   {
-    "podcastName": "What's Next｜科技早知道",
-    "episodeTitle": "用光调控神经细胞：今年诺贝尔奖如何改变我们对情绪的理解？ | 串台「声东击西」S10E32",
-    "uniqueId": "df4fa6fe-db30-4fb5-809f-67fe0b42ca3b",
-    "publishedAt": "2026-10-16T10:00:00+00:00",
-    "recencyScore": 1.95,
-    "valueScore": 8.05,
-    "totalScore": 5.31,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "硅谷101",
     "episodeTitle": "E253｜谁在给大模型出题、卖题、判卷？聊聊AI数据行业的野蛮生长",
     "uniqueId": "0a1dd0c4-a1f7-4f7c-b334-bd807ca72a5d",
@@ -144,14 +144,14 @@
     "reason": ""
   },
   {
-    "podcastName": "硅谷101",
-    "episodeTitle": "E258｜聊聊硅谷创业“修道院”HF0与OpenRouter早期故事",
-    "uniqueId": "f6618818-b288-4798-bab8-d60d77c70aff",
-    "publishedAt": "2026-11-09T23:00:00+00:00",
-    "recencyScore": 6.66,
-    "valueScore": 4.03,
-    "totalScore": 5.21,
-    "domain": "商业",
+    "podcastName": "What's Next｜科技早知道",
+    "episodeTitle": "用光调控神经细胞：今年诺贝尔奖如何改变我们对情绪的理解？ | 串台「声东击西」S10E32",
+    "uniqueId": "df4fa6fe-db30-4fb5-809f-67fe0b42ca3b",
+    "publishedAt": "2026-10-16T10:00:00+00:00",
+    "recencyScore": 1.77,
+    "valueScore": 8.05,
+    "totalScore": 5.22,
+    "domain": "AI",
     "selected": false,
     "reason": ""
   },
@@ -205,6 +205,18 @@
   },
   {
     "podcastName": "硅谷101",
+    "episodeTitle": "E258｜聊聊硅谷创业“修道院”HF0与OpenRouter早期故事",
+    "uniqueId": "f6618818-b288-4798-bab8-d60d77c70aff",
+    "publishedAt": "2026-11-09T23:00:00+00:00",
+    "recencyScore": 6.04,
+    "valueScore": 4.03,
+    "totalScore": 4.93,
+    "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "硅谷101",
     "episodeTitle": "E251｜推理芯片之战：聊聊Groq、Cerebras与OpenAI三大路径与Bill Dally的设计哲学",
     "uniqueId": "786d63c4-d46c-4ff3-80f8-fc895b2a57f0",
     "publishedAt": "2026-09-16T00:00:00+00:00",
@@ -238,18 +250,6 @@
     "domain": "商业",
     "selected": false,
     "reason": ""
-  },
-  {
-    "podcastName": "Peril Crosser 渡厄",
-    "episodeTitle": "EP71: 弗洛伊德：一仆侍三主的受气包，夹在禽兽本我与道德大棒之间的打工人自我",
-    "uniqueId": "e1df9736-9c99-5ca8-b170-6b44d92b345f",
-    "publishedAt": "2026-11-14T04:15:00+00:00",
-    "recencyScore": 8.22,
-    "valueScore": 1.71,
-    "totalScore": 4.64,
-    "domain": "职场",
-    "selected": true,
-    "reason": "深度拆解弗洛伊德死本能与三我结构，思想密度极高"
   },
   {
     "podcastName": "硅谷101",
@@ -324,18 +324,6 @@
     "reason": ""
   },
   {
-    "podcastName": "硅谷101",
-    "episodeTitle": "E255｜模型越来越强，为什么用户没感觉？再访阿里国际站总裁张阔",
-    "uniqueId": "8fa0b58e-8359-4609-8e84-30c9a632df50",
-    "publishedAt": "2026-10-08T23:00:00+00:00",
-    "recencyScore": 1.34,
-    "valueScore": 7.08,
-    "totalScore": 4.5,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "啊！是猫咪呀",
     "episodeTitle": "S4.E7 超人马斯克，超级NPD",
     "uniqueId": "ea31ba78-c058-441d-b7fc-514b0ab9c5f0",
@@ -397,12 +385,12 @@
   },
   {
     "podcastName": "硅谷101",
-    "episodeTitle": "E256｜Agent、机器人与制药，谁先被GPT-6 Astra改写？",
-    "uniqueId": "9e6e1db1-f30b-492d-8a09-d8756b9df700",
-    "publishedAt": "2026-10-19T23:00:00+00:00",
-    "recencyScore": 2.33,
-    "valueScore": 6.1,
-    "totalScore": 4.4,
+    "episodeTitle": "E255｜模型越来越强，为什么用户没感觉？再访阿里国际站总裁张阔",
+    "uniqueId": "8fa0b58e-8359-4609-8e84-30c9a632df50",
+    "publishedAt": "2026-10-08T23:00:00+00:00",
+    "recencyScore": 1.22,
+    "valueScore": 7.08,
+    "totalScore": 4.44,
     "domain": "AI",
     "selected": false,
     "reason": ""
@@ -524,6 +512,30 @@
     "valueScore": 7.01,
     "totalScore": 4.31,
     "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "Peril Crosser 渡厄",
+    "episodeTitle": "EP71: 弗洛伊德：一仆侍三主的受气包，夹在禽兽本我与道德大棒之间的打工人自我",
+    "uniqueId": "e1df9736-9c99-5ca8-b170-6b44d92b345f",
+    "publishedAt": "2026-11-14T04:15:00+00:00",
+    "recencyScore": 7.46,
+    "valueScore": 1.71,
+    "totalScore": 4.3,
+    "domain": "职场",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "硅谷101",
+    "episodeTitle": "E256｜Agent、机器人与制药，谁先被GPT-6 Astra改写？",
+    "uniqueId": "9e6e1db1-f30b-492d-8a09-d8756b9df700",
+    "publishedAt": "2026-10-19T23:00:00+00:00",
+    "recencyScore": 2.11,
+    "valueScore": 6.1,
+    "totalScore": 4.3,
+    "domain": "AI",
     "selected": false,
     "reason": ""
   },
@@ -2760,18 +2772,6 @@
     "reason": ""
   },
   {
-    "podcastName": "Vibration 歪波音室",
-    "episodeTitle": "10月新歌推荐丨朱婧汐、柏林护士、LISA 、Ashe…不要错过！",
-    "uniqueId": "b905f17c-056a-40aa-8aa3-bad510461156",
-    "publishedAt": "2026-10-29T21:30:00+00:00",
-    "recencyScore": 3.83,
-    "valueScore": 3.24,
-    "totalScore": 3.51,
-    "domain": "文化",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "硅谷101",
     "episodeTitle": "18: 后软银时代，谁在硅谷买买买？",
     "uniqueId": "bb8ca96a-bcd7-4eaa-b190-47ecf37da17d",
@@ -3240,18 +3240,6 @@
     "reason": ""
   },
   {
-    "podcastName": "Peril Crosser 渡厄",
-    "episodeTitle": "EP70: 弗洛伊德：黑夜的闯入者，潜意识的发现与泛性论真相",
-    "uniqueId": "cf828f9b-aec5-59ed-9941-414612d9f0cf",
-    "publishedAt": "2026-11-07T04:40:00+00:00",
-    "recencyScore": 5.8,
-    "valueScore": 1.45,
-    "totalScore": 3.41,
-    "domain": "生活",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "硅谷101",
     "episodeTitle": "E229｜从手工作坊到全球第一：中国动力电池逆袭史",
     "uniqueId": "c457ca43-1305-44a3-b9cc-c68480802396",
@@ -3704,6 +3692,18 @@
     "valueScore": 5.25,
     "totalScore": 3.34,
     "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "Vibration 歪波音室",
+    "episodeTitle": "10月新歌推荐丨朱婧汐、柏林护士、LISA 、Ashe…不要错过！",
+    "uniqueId": "b905f17c-056a-40aa-8aa3-bad510461156",
+    "publishedAt": "2026-10-29T21:30:00+00:00",
+    "recencyScore": 3.47,
+    "valueScore": 3.24,
+    "totalScore": 3.34,
+    "domain": "文化",
     "selected": false,
     "reason": ""
   },
@@ -4308,18 +4308,6 @@
     "reason": ""
   },
   {
-    "podcastName": "Peril Crosser 渡厄",
-    "episodeTitle": "EP69: 从硅谷到深圳再到肯尼亚田间：老登眼中，一个具身智能数据狂飙背后的精英草台班子",
-    "uniqueId": "b57d6503-1765-50da-8911-f95a69d45f02",
-    "publishedAt": "2026-10-31T13:45:00+00:00",
-    "recencyScore": 4.16,
-    "valueScore": 2.45,
-    "totalScore": 3.22,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "What's Next｜科技早知道",
     "episodeTitle": "S5 年度回顾系列 EP1｜2021 过去了，我们为什么依旧看好生物科技？",
     "uniqueId": "e85923ca-a214-441b-afde-1321bf122a21",
@@ -4508,6 +4496,18 @@
     "valueScore": 4.95,
     "totalScore": 3.17,
     "domain": "商业",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "Peril Crosser 渡厄",
+    "episodeTitle": "EP70: 弗洛伊德：黑夜的闯入者，潜意识的发现与泛性论真相",
+    "uniqueId": "cf828f9b-aec5-59ed-9941-414612d9f0cf",
+    "publishedAt": "2026-11-07T04:40:00+00:00",
+    "recencyScore": 5.26,
+    "valueScore": 1.45,
+    "totalScore": 3.16,
+    "domain": "生活",
     "selected": false,
     "reason": ""
   },
@@ -4724,18 +4724,6 @@
     "valueScore": 4.84,
     "totalScore": 3.11,
     "domain": "商业",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "Vibration 歪波音室",
-    "episodeTitle": "🌃舒缓睡前 Mixtape：沉浸入流",
-    "uniqueId": "1b762123-aaf3-475f-9728-61fbf78d31c7",
-    "publishedAt": "2026-11-09T13:00:00+00:00",
-    "recencyScore": 6.52,
-    "valueScore": 0.32,
-    "totalScore": 3.11,
-    "domain": "文化",
     "selected": false,
     "reason": ""
   },
@@ -5024,6 +5012,18 @@
     "valueScore": 4.74,
     "totalScore": 3.06,
     "domain": "情感",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "Peril Crosser 渡厄",
+    "episodeTitle": "EP69: 从硅谷到深圳再到肯尼亚田间：老登眼中，一个具身智能数据狂飙背后的精英草台班子",
+    "uniqueId": "b57d6503-1765-50da-8911-f95a69d45f02",
+    "publishedAt": "2026-10-31T13:45:00+00:00",
+    "recencyScore": 3.78,
+    "valueScore": 2.45,
+    "totalScore": 3.05,
+    "domain": "AI",
     "selected": false,
     "reason": ""
   },
@@ -5929,6 +5929,18 @@
   },
   {
     "podcastName": "Vibration 歪波音室",
+    "episodeTitle": "🌃舒缓睡前 Mixtape：沉浸入流",
+    "uniqueId": "1b762123-aaf3-475f-9728-61fbf78d31c7",
+    "publishedAt": "2026-11-09T13:00:00+00:00",
+    "recencyScore": 5.91,
+    "valueScore": 0.32,
+    "totalScore": 2.84,
+    "domain": "文化",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "Vibration 歪波音室",
     "episodeTitle": "神专丨OK Computer, 科技让我们冰冷而疏离",
     "uniqueId": "871f7954-ce7d-41b8-88f1-4e99ede2c4d3",
     "publishedAt": "2026-02-08T22:00:00+00:00",
@@ -6150,18 +6162,6 @@
     "publishedAt": "2024-07-28T02:40:30+00:00",
     "recencyScore": 1.0,
     "valueScore": 4.26,
-    "totalScore": 2.79,
-    "domain": "文化",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "Vibration 歪波音室",
-    "episodeTitle": "神专丨《Innervisions》：在失序的世界里，仍然相信明天",
-    "uniqueId": "8aa1315f-a882-43bb-85c4-09ddf3181919",
-    "publishedAt": "2026-10-22T21:09:31+00:00",
-    "recencyScore": 2.7,
-    "valueScore": 2.86,
     "totalScore": 2.79,
     "domain": "文化",
     "selected": false,
@@ -6612,6 +6612,18 @@
     "reason": ""
   },
   {
+    "podcastName": "Vibration 歪波音室",
+    "episodeTitle": "神专丨《Innervisions》：在失序的世界里，仍然相信明天",
+    "uniqueId": "8aa1315f-a882-43bb-85c4-09ddf3181919",
+    "publishedAt": "2026-10-22T21:09:31+00:00",
+    "recencyScore": 2.45,
+    "valueScore": 2.86,
+    "totalScore": 2.68,
+    "domain": "文化",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "Peril Crosser 渡厄",
     "episodeTitle": "EP8: 从卖猫到罗永浩：从产品视角理解“别惹沉默的老实人”",
     "uniqueId": "https://perilcrosser.com/?p=42",
@@ -6788,18 +6800,6 @@
     "valueScore": 3.94,
     "totalScore": 2.62,
     "domain": "科技",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "Peril Crosser 渡厄",
-    "episodeTitle": "EP67: 判断力批判：AI短剧狂潮，万卡集群的崇高与一根草叶的牛顿",
-    "uniqueId": "0446eed4-2a6e-539a-a4ab-4fd8beac4a9b",
-    "publishedAt": "2026-10-17T02:15:00+00:00",
-    "recencyScore": 2.02,
-    "valueScore": 3.09,
-    "totalScore": 2.61,
-    "domain": "AI",
     "selected": false,
     "reason": ""
   },
@@ -7116,6 +7116,18 @@
     "reason": ""
   },
   {
+    "podcastName": "Peril Crosser 渡厄",
+    "episodeTitle": "EP67: 判断力批判：AI短剧狂潮，万卡集群的崇高与一根草叶的牛顿",
+    "uniqueId": "0446eed4-2a6e-539a-a4ab-4fd8beac4a9b",
+    "publishedAt": "2026-10-17T02:15:00+00:00",
+    "recencyScore": 1.83,
+    "valueScore": 3.09,
+    "totalScore": 2.52,
+    "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
     "podcastName": "硅谷101",
     "episodeTitle": "S2E65｜一个重大的决定，我们要做视频了（附答听众提问）",
     "uniqueId": "545d3eb3-58a2-44f9-948b-ae9ceb0efff2",
@@ -7328,18 +7340,6 @@
     "valueScore": 3.68,
     "totalScore": 2.47,
     "domain": "文化",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "Peril Crosser 渡厄",
-    "episodeTitle": "EP68: 信息熵与极大似然：从蒸汽机煤烟到大模型损失函数，为什么两百年来我们都在用log计算命运？",
-    "uniqueId": "d4f9f654-6775-5653-8c63-02f1d8cabf3d",
-    "publishedAt": "2026-10-24T23:25:00+00:00",
-    "recencyScore": 2.99,
-    "valueScore": 2.03,
-    "totalScore": 2.46,
-    "domain": "AI",
     "selected": false,
     "reason": ""
   },
@@ -7676,6 +7676,18 @@
     "valueScore": 3.45,
     "totalScore": 2.35,
     "domain": "生活",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "Peril Crosser 渡厄",
+    "episodeTitle": "EP68: 信息熵与极大似然：从蒸汽机煤烟到大模型损失函数，为什么两百年来我们都在用log计算命运？",
+    "uniqueId": "d4f9f654-6775-5653-8c63-02f1d8cabf3d",
+    "publishedAt": "2026-10-24T23:25:00+00:00",
+    "recencyScore": 2.72,
+    "valueScore": 2.03,
+    "totalScore": 2.34,
+    "domain": "AI",
     "selected": false,
     "reason": ""
   },
@@ -8952,18 +8964,6 @@
     "reason": ""
   },
   {
-    "podcastName": "Peril Crosser 渡厄",
-    "episodeTitle": "EP66: 实践理性批判：双重绞刑架，AI责任洗白与配得上的幸福",
-    "uniqueId": "a9692cbe-e251-54fc-a198-149ea5f628ac",
-    "publishedAt": "2026-10-10T04:42:00+00:00",
-    "recencyScore": 1.43,
-    "valueScore": 2.26,
-    "totalScore": 1.89,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "What's Next｜科技早知道",
     "episodeTitle": "Episode 37: 美国出新规，中国投资人在硅谷步步维艰？",
     "uniqueId": "http://audio.xmcdn.com/group49/M09/6A/30/wKgKmFvAhB_C6vOXAPwCt8GmhZg962.m4a",
@@ -9092,6 +9092,18 @@
     "valueScore": 2.52,
     "totalScore": 1.84,
     "domain": "文化",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "Peril Crosser 渡厄",
+    "episodeTitle": "EP66: 实践理性批判：双重绞刑架，AI责任洗白与配得上的幸福",
+    "uniqueId": "a9692cbe-e251-54fc-a198-149ea5f628ac",
+    "publishedAt": "2026-10-10T04:42:00+00:00",
+    "recencyScore": 1.3,
+    "valueScore": 2.26,
+    "totalScore": 1.83,
+    "domain": "AI",
     "selected": false,
     "reason": ""
   },
@@ -11353,18 +11365,6 @@
   },
   {
     "podcastName": "Vibration 歪波音室",
-    "episodeTitle": "秋日限定歌单：云淡秋深，风来夜长",
-    "uniqueId": "fe8697b1-e892-4c84-990d-0559b949a852",
-    "publishedAt": "2026-10-04T21:15:00+00:00",
-    "recencyScore": 1.1,
-    "valueScore": 1.18,
-    "totalScore": 1.14,
-    "domain": "文化",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "Vibration 歪波音室",
     "episodeTitle": "冬日限定歌单：陪你温暖地发呆",
     "uniqueId": "3b02d025-bf4a-4d2e-ad8a-0ad06d0d706f",
     "publishedAt": "2025-12-05T06:11:40+00:00",
@@ -11456,6 +11456,18 @@
     "valueScore": 1.19,
     "totalScore": 1.1,
     "domain": "AI",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "Vibration 歪波音室",
+    "episodeTitle": "秋日限定歌单：云淡秋深，风来夜长",
+    "uniqueId": "fe8697b1-e892-4c84-990d-0559b949a852",
+    "publishedAt": "2026-10-04T21:15:00+00:00",
+    "recencyScore": 1.0,
+    "valueScore": 1.18,
+    "totalScore": 1.1,
+    "domain": "文化",
     "selected": false,
     "reason": ""
   },
@@ -11616,18 +11628,6 @@
     "reason": ""
   },
   {
-    "podcastName": "Peril Crosser 渡厄",
-    "episodeTitle": "EP65: 纯粹理性批判：Transformer，现象界与AI的缸中之脑困境",
-    "uniqueId": "19cd2055-84fa-5360-88d3-e5e9c3237dca",
-    "publishedAt": "2026-10-03T04:38:00+00:00",
-    "recencyScore": 1.01,
-    "valueScore": 1.08,
-    "totalScore": 1.05,
-    "domain": "AI",
-    "selected": false,
-    "reason": ""
-  },
-  {
     "podcastName": "What's Next｜科技早知道",
     "episodeTitle": "Bonus | 一个小号外，以及期待和大家线下见面",
     "uniqueId": "32daeb32-23b7-44b7-b832-f81105682d8b",
@@ -11648,6 +11648,18 @@
     "valueScore": 1.09,
     "totalScore": 1.05,
     "domain": "科技",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "Peril Crosser 渡厄",
+    "episodeTitle": "EP65: 纯粹理性批判：Transformer，现象界与AI的缸中之脑困境",
+    "uniqueId": "19cd2055-84fa-5360-88d3-e5e9c3237dca",
+    "publishedAt": "2026-10-03T04:38:00+00:00",
+    "recencyScore": 1.0,
+    "valueScore": 1.08,
+    "totalScore": 1.04,
+    "domain": "AI",
     "selected": false,
     "reason": ""
   },
@@ -12049,18 +12061,6 @@
   },
   {
     "podcastName": "Vibration 歪波音室",
-    "episodeTitle": "🏞️公园散步 Mixtape：慢点走吧",
-    "uniqueId": "3caeb29b-5e69-49a5-be5e-c4fd3336c35e",
-    "publishedAt": "2026-10-10T23:34:00+00:00",
-    "recencyScore": 1.49,
-    "valueScore": 0.34,
-    "totalScore": 0.86,
-    "domain": "文化",
-    "selected": false,
-    "reason": ""
-  },
-  {
-    "podcastName": "Vibration 歪波音室",
     "episodeTitle": "最近华语圈值得听的专辑 Vol.7",
     "uniqueId": "d3a0a475-1152-452b-85e8-dcd5f6a5b764",
     "publishedAt": "2021-12-10T04:00:00+00:00",
@@ -12248,6 +12248,18 @@
     "valueScore": 0.62,
     "totalScore": 0.79,
     "domain": "职场",
+    "selected": false,
+    "reason": ""
+  },
+  {
+    "podcastName": "Vibration 歪波音室",
+    "episodeTitle": "🏞️公园散步 Mixtape：慢点走吧",
+    "uniqueId": "3caeb29b-5e69-49a5-be5e-c4fd3336c35e",
+    "publishedAt": "2026-10-10T23:34:00+00:00",
+    "recencyScore": 1.35,
+    "valueScore": 0.34,
+    "totalScore": 0.79,
+    "domain": "文化",
     "selected": false,
     "reason": ""
   },
