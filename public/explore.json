@@ -1,5 +1,43 @@
 [
   {
+    "title": "AI工具人人可用后新人门槛更高了吗？",
+    "domainTag": "AI与人才门槛",
+    "consensus": [
+      {
+        "podcast": "硅谷101",
+        "point": "AI工具普及后新人入门门槛反而更高",
+        "episodeId": "bc105fa7-23de-4c70-a338-6d70daf9aed1"
+      },
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "开发门槛降低致产品同质化，识别真实需求更关键",
+        "episodeId": "7b500b8f-cfde-4da1-9559-8128adcea8f6"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-11-23T09:30:36.477828+08:00",
+    "updatedAt": "2026-11-23T09:30:36.477828+08:00"
+  },
+  {
+    "title": "量化交易公司算不算AI实验室？",
+    "domainTag": "AI与金融量化",
+    "consensus": [
+      {
+        "podcast": "硅谷101",
+        "point": "量化公司囤算力抢人才，与AI Lab界限正在消失",
+        "episodeId": "bc105fa7-23de-4c70-a338-6d70daf9aed1"
+      },
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "头部模型公司用AI加速自身研发，形成研发闭环",
+        "episodeId": "c11cceb2-07c2-4c2f-9124-95bd1187c7ec"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-11-23T09:30:36.477828+08:00",
+    "updatedAt": "2026-11-23T09:30:36.477828+08:00"
+  },
+  {
     "title": "封闭式加速器真能催出创业奇迹吗？",
     "domainTag": "创业孵化与加速器",
     "consensus": [

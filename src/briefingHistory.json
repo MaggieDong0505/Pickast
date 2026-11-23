@@ -1,5 +1,26 @@
 [
   {
+    "episodeId": "bc105fa7-23de-4c70-a338-6d70daf9aed1",
+    "podcastName": "硅谷101",
+    "episodeTitle": "E259｜机械神教与反人性策略：华尔街量化巨头的AI之路",
+    "generatedAt": "2026-11-23T09:30:36.477828+08:00",
+    "fingerprint": "bc105fa7-23de-4c70-a338-6d70daf9aed1"
+  },
+  {
+    "episodeId": "c11cceb2-07c2-4c2f-9124-95bd1187c7ec",
+    "podcastName": "What's Next｜科技早知道",
+    "episodeTitle": "当 AI 研发下一代 AI，人类研究员还剩下什么？|S10E36",
+    "generatedAt": "2026-11-23T09:30:36.477828+08:00",
+    "fingerprint": "c11cceb2-07c2-4c2f-9124-95bd1187c7ec"
+  },
+  {
+    "episodeId": "594b3c72-56e0-4504-a5c1-4b01e4e1e0d7",
+    "podcastName": "Vibration 歪波音室",
+    "episodeTitle": "庄达菲《感，觉》：把生活里的小事，慢慢写成歌",
+    "generatedAt": "2026-11-23T09:30:36.477828+08:00",
+    "fingerprint": "594b3c72-56e0-4504-a5c1-4b01e4e1e0d7"
+  },
+  {
     "episodeId": "d2034bb1-ab37-5166-bda1-b748bbeec89e",
     "podcastName": "Peril Crosser 渡厄",
     "episodeTitle": "EP72: 弗洛伊德：为什么罪疚感专杀老实人？多巴胺生理骗局与超我的黑社会保护费",
@@ -187,26 +208,5 @@
     "episodeTitle": "#817.Anthropic技术人员：你的旧提示词正在让AI变差",
     "generatedAt": "2026-11-12T10:11:52.267922+08:00",
     "fingerprint": "6af02451b4a4e20202f67f19"
-  },
-  {
-    "episodeId": "6af33e13b4a4e20202f7e158",
-    "podcastName": "贝望录",
-    "episodeTitle": "246. 从《克拉克森的农场》到中国现代牧场，养1.4万头奶牛，是一门怎样的生意？",
-    "generatedAt": "2026-11-11T09:10:34.033894+08:00",
-    "fingerprint": "6af33e13b4a4e20202f7e158"
-  },
-  {
-    "episodeId": "6af316b6b4a4e20202f7cbd2",
-    "podcastName": "乱翻书",
-    "episodeTitle": "278.在红果做AI漫剧的人，是骆驼祥子吗？一个人、16亿播放、七位数收入",
-    "generatedAt": "2026-11-11T09:10:34.033894+08:00",
-    "fingerprint": "6af316b6b4a4e20202f7cbd2"
-  },
-  {
-    "episodeId": "6af1b8a9b4a4e20202f73529",
-    "podcastName": "时雨集",
-    "episodeTitle": "答听友问：远方无数的人们，都和我们有关",
-    "generatedAt": "2026-11-11T09:10:34.033894+08:00",
-    "fingerprint": "6af1b8a9b4a4e20202f73529"
   }
 ]
