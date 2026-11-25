@@ -1,5 +1,19 @@
 [
   {
+    "episodeId": "34b5fd41-4431-485c-98e6-c8a7008b2d62",
+    "podcastName": "硅谷101",
+    "episodeTitle": "E260｜黄仁勋归来之际，深聊英伟达、CoreWeave和算力信用市场",
+    "generatedAt": "2026-11-25T12:03:46.856886+08:00",
+    "fingerprint": "34b5fd41-4431-485c-98e6-c8a7008b2d62"
+  },
+  {
+    "episodeId": "d2034bb1-ab37-5166-bda1-b748bbeec89e",
+    "podcastName": "Peril Crosser 渡厄",
+    "episodeTitle": "EP72: 弗洛伊德：为什么罪疚感专杀老实人？多巴胺生理骗局与超我的黑社会保护费",
+    "generatedAt": "2026-11-25T12:03:46.856886+08:00",
+    "fingerprint": "d2034bb1-ab37-5166-bda1-b748bbeec89e"
+  },
+  {
     "episodeId": "bc105fa7-23de-4c70-a338-6d70daf9aed1",
     "podcastName": "硅谷101",
     "episodeTitle": "E259｜机械神教与反人性策略：华尔街量化巨头的AI之路",
@@ -194,19 +208,5 @@
     "episodeTitle": "没想到，我在庐山植物园的档案里，找回了心气｜109静生所",
     "generatedAt": "2026-11-12T10:11:52.267922+08:00",
     "fingerprint": "6af47fb43caef3b52f545516"
-  },
-  {
-    "episodeId": "f6618818-b288-4798-bab8-d60d77c70aff",
-    "podcastName": "硅谷101",
-    "episodeTitle": "E258｜聊聊硅谷创业“修道院”HF0与OpenRouter早期故事",
-    "generatedAt": "2026-11-12T10:11:52.267922+08:00",
-    "fingerprint": "f6618818-b288-4798-bab8-d60d77c70aff"
-  },
-  {
-    "episodeId": "6af02451b4a4e20202f67f19",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#817.Anthropic技术人员：你的旧提示词正在让AI变差",
-    "generatedAt": "2026-11-12T10:11:52.267922+08:00",
-    "fingerprint": "6af02451b4a4e20202f67f19"
   }
 ]

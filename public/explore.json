@@ -1,5 +1,24 @@
 [
   {
+    "title": "AI研发AI，算力需求会减少还是暴增？",
+    "domainTag": "AI研发与算力经济",
+    "consensus": [
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "AI参与研发可提升效率，但大规模并行实验可能消耗更多算力",
+        "episodeId": "c11cceb2-07c2-4c2f-9124-95bd1187c7ec"
+      },
+      {
+        "podcast": "硅谷101",
+        "point": "算力是AI基建核心开支，融资能否撑到收入兑现是关键",
+        "episodeId": "34b5fd41-4431-485c-98e6-c8a7008b2d62"
+      }
+    ],
+    "divergence": [],
+    "createdAt": "2026-11-25T12:03:46.856886+08:00",
+    "updatedAt": "2026-11-25T12:03:46.856886+08:00"
+  },
+  {
     "title": "AI工具人人可用后新人门槛更高了吗？",
     "domainTag": "AI与人才门槛",
     "consensus": [
@@ -545,44 +564,6 @@
         "podcast": "时雨集",
         "point": "AI已冲击大量岗位，求职季史无前例，差距正被拉开",
         "episodeId": "6af1b8a9b4a4e20202f73529"
-      }
-    ],
-    "createdAt": "2026-11-12T10:11:52.267922+08:00",
-    "updatedAt": "2026-11-12T10:11:52.267922+08:00"
-  },
-  {
-    "title": "AI漫剧是普通人的新机会吗？",
-    "domainTag": "AI与内容创作",
-    "consensus": [],
-    "divergence": [
-      {
-        "podcast": "乱翻书",
-        "point": "一人公司靠AI漫剧半年七位数收入，是普通人机会",
-        "episodeId": "6af316b6b4a4e20202f7cbd2"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI不能替人做出真正有用的完整产品，仍需懂架构",
-        "episodeId": "6aeb3d1597726cd4675cd4c6"
-      }
-    ],
-    "createdAt": "2026-11-12T10:11:52.267922+08:00",
-    "updatedAt": "2026-11-12T10:11:52.267922+08:00"
-  },
-  {
-    "title": "通用Agent还是垂直Agent更有前途",
-    "domainTag": "AI产品",
-    "consensus": [],
-    "divergence": [
-      {
-        "podcast": "What's Next｜科技早知道",
-        "point": "垂直Agent在复杂专业场景有不可替代的机会",
-        "episodeId": "7b500b8f-cfde-4da1-9559-8128adcea8f6"
-      },
-      {
-        "podcast": "十字路口Crossing",
-        "point": "Personal Agent真的有用，通用助手价值被低估",
-        "episodeId": "6af00645b4a4e20202f67440"
       }
     ],
     "createdAt": "2026-11-12T10:11:52.267922+08:00",

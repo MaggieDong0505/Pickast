@@ -1,5 +1,34 @@
 [
   {
+    "generatedAt": "2026-11-25T12:03:46.856886+08:00",
+    "title": "AI研发AI，算力需求会减少还是暴增？",
+    "domainTag": "AI研发与算力经济",
+    "podcasts": [
+      "What's Next｜科技早知道",
+      "硅谷101"
+    ],
+    "episodeIds": [
+      "34b5fd41-4431-485c-98e6-c8a7008b2d62",
+      "c11cceb2-07c2-4c2f-9124-95bd1187c7ec"
+    ],
+    "consensus": [
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "AI参与研发可提升效率，但大规模并行实验可能消耗更多算力",
+        "episodeId": "c11cceb2-07c2-4c2f-9124-95bd1187c7ec"
+      },
+      {
+        "podcast": "硅谷101",
+        "point": "算力是AI基建核心开支，融资能否撑到收入兑现是关键",
+        "episodeId": "34b5fd41-4431-485c-98e6-c8a7008b2d62"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:1cde2d87f26263bc3189a0c45f1444e4b89897716661250577806b445500df3c",
+    "createdAt": "2026-11-25T12:03:46.856886+08:00",
+    "updatedAt": "2026-11-25T12:03:46.856886+08:00"
+  },
+  {
     "generatedAt": "2026-11-23T09:30:36.477828+08:00",
     "title": "量化交易公司算不算AI实验室？",
     "domainTag": "AI与金融量化",
@@ -837,35 +866,6 @@
       }
     ],
     "fingerprint": "v1:8cd80a3bb1693dff9433c0cc38a2ea66df9f46dd18dd3b88fa5cf93f3fef1bb8",
-    "createdAt": "2026-11-12T10:11:52.267922+08:00",
-    "updatedAt": "2026-11-12T10:11:52.267922+08:00"
-  },
-  {
-    "generatedAt": "2026-11-12T10:11:52.267922+08:00",
-    "title": "AI越强用的人会越笨吗？",
-    "domainTag": "AI与认知",
-    "podcasts": [
-      "跨国串门儿计划",
-      "跨域请求"
-    ],
-    "episodeIds": [
-      "6ae2f5b397726cd467599520",
-      "6ae3986ac96c8942ec146fb4"
-    ],
-    "consensus": [
-      {
-        "podcast": "跨域请求",
-        "point": "AI让学习太丝滑，卡住试错的Aha moment正在消失",
-        "episodeId": "6ae2f5b397726cd467599520"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "用模型前得懂原理，否则无法指挥模型做对事",
-        "episodeId": "6ae3986ac96c8942ec146fb4"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:de428c9c76c02821781bcab4ed203158bce1b07e6b0e6a9a97d71a08453b1eb6",
     "createdAt": "2026-11-12T10:11:52.267922+08:00",
     "updatedAt": "2026-11-12T10:11:52.267922+08:00"
   }
