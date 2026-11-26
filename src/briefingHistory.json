@@ -1,5 +1,19 @@
 [
   {
+    "episodeId": "bc105fa7-23de-4c70-a338-6d70daf9aed1",
+    "podcastName": "硅谷101",
+    "episodeTitle": "E259｜机械神教与反人性策略：华尔街量化巨头的AI之路",
+    "generatedAt": "2026-11-26T11:28:12.690643+08:00",
+    "fingerprint": "bc105fa7-23de-4c70-a338-6d70daf9aed1"
+  },
+  {
+    "episodeId": "594b3c72-56e0-4504-a5c1-4b01e4e1e0d7",
+    "podcastName": "Vibration 歪波音室",
+    "episodeTitle": "庄达菲《感，觉》：把生活里的小事，慢慢写成歌",
+    "generatedAt": "2026-11-26T11:28:12.690643+08:00",
+    "fingerprint": "594b3c72-56e0-4504-a5c1-4b01e4e1e0d7"
+  },
+  {
     "episodeId": "34b5fd41-4431-485c-98e6-c8a7008b2d62",
     "podcastName": "硅谷101",
     "episodeTitle": "E260｜黄仁勋归来之际，深聊英伟达、CoreWeave和算力信用市场",
@@ -194,19 +208,5 @@
     "episodeTitle": "#824.布鲁金斯中国研究员：中国想赢的不是前沿模型，而是AI普及",
     "generatedAt": "2026-11-13T09:45:12.350570+08:00",
     "fingerprint": "6af5ffa03caef3b52f54e9da"
-  },
-  {
-    "episodeId": "6af5debf14d01a26f8a900ac",
-    "podcastName": "张小珺Jùn｜商业访谈录",
-    "episodeTitle": "156. 《侠》｜对影之刃零制作人梁其伟6小时访谈",
-    "generatedAt": "2026-11-13T09:45:12.350570+08:00",
-    "fingerprint": "6af5debf14d01a26f8a900ac"
-  },
-  {
-    "episodeId": "6af47fb43caef3b52f545516",
-    "podcastName": "about热水频道",
-    "episodeTitle": "没想到，我在庐山植物园的档案里，找回了心气｜109静生所",
-    "generatedAt": "2026-11-12T10:11:52.267922+08:00",
-    "fingerprint": "6af47fb43caef3b52f545516"
   }
 ]
