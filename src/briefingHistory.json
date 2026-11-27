@@ -1,5 +1,12 @@
 [
   {
+    "episodeId": "9753c5f7-03dd-4cfa-8d4a-40531f7c4b79",
+    "podcastName": "硅谷101",
+    "episodeTitle": "E261｜表演有效、组团出海，韩国美妆如何抢占美国市场？",
+    "generatedAt": "2026-11-27T11:34:34.190342+08:00",
+    "fingerprint": "9753c5f7-03dd-4cfa-8d4a-40531f7c4b79"
+  },
+  {
     "episodeId": "bc105fa7-23de-4c70-a338-6d70daf9aed1",
     "podcastName": "硅谷101",
     "episodeTitle": "E259｜机械神教与反人性策略：华尔街量化巨头的AI之路",
@@ -201,12 +208,5 @@
     "episodeTitle": "247. 美国人为什么不再支持特朗普? 一个美籍华人眼中的美国民意变化",
     "generatedAt": "2026-11-13T09:45:12.350570+08:00",
     "fingerprint": "6af5b83f14d01a26f8a8ee10"
-  },
-  {
-    "episodeId": "6af5ffa03caef3b52f54e9da",
-    "podcastName": "跨国串门儿计划",
-    "episodeTitle": "#824.布鲁金斯中国研究员：中国想赢的不是前沿模型，而是AI普及",
-    "generatedAt": "2026-11-13T09:45:12.350570+08:00",
-    "fingerprint": "6af5ffa03caef3b52f54e9da"
   }
 ]

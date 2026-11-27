@@ -1,5 +1,34 @@
 [
   {
+    "generatedAt": "2026-11-27T11:34:34.190342+08:00",
+    "title": "韩国美妆出海，中国品牌能复制吗？",
+    "domainTag": "消费品牌与出海",
+    "podcasts": [
+      "Vibration 歪波音室",
+      "硅谷101"
+    ],
+    "episodeIds": [
+      "594b3c72-56e0-4504-a5c1-4b01e4e1e0d7",
+      "9753c5f7-03dd-4cfa-8d4a-40531f7c4b79"
+    ],
+    "consensus": [
+      {
+        "podcast": "硅谷101",
+        "point": "韩妆靠上下游全产业链组团出海，ODM与分销协同",
+        "episodeId": "9753c5f7-03dd-4cfa-8d4a-40531f7c4b79"
+      },
+      {
+        "podcast": "Vibration 歪波音室",
+        "point": "音乐与艺人作为文化产品同样依赖制作与传播体系",
+        "episodeId": "594b3c72-56e0-4504-a5c1-4b01e4e1e0d7"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:8a6fe711a1b82a408a3e57324443974279b0e79cf19589b838d5e76c4e243fe0",
+    "createdAt": "2026-11-27T11:34:34.190342+08:00",
+    "updatedAt": "2026-11-27T11:34:34.190342+08:00"
+  },
+  {
     "generatedAt": "2026-11-25T12:03:46.856886+08:00",
     "title": "AI研发AI，算力需求会减少还是暴增？",
     "domainTag": "AI研发与算力经济",
@@ -839,34 +868,5 @@
     "fingerprint": "v1:82027a36c522cf3c2e5e3f6f5e2302d7d311acf75b369d45c76f5ffdcdf8947c",
     "createdAt": "2026-11-13T09:45:12.350570+08:00",
     "updatedAt": "2026-11-13T09:45:12.350570+08:00"
-  },
-  {
-    "generatedAt": "2026-11-12T10:11:52.267922+08:00",
-    "title": "AI会让大多数人失业吗？",
-    "domainTag": "AI与就业",
-    "podcasts": [
-      "时雨集",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "6ae7959797726cd4675b2730",
-      "6af1b8a9b4a4e20202f73529"
-    ],
-    "consensus": [],
-    "divergence": [
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "AI提高生产率，中位数人群或受益，但工资会剧烈震荡",
-        "episodeId": "6ae7959797726cd4675b2730"
-      },
-      {
-        "podcast": "时雨集",
-        "point": "AI已冲击大量岗位，求职季史无前例，差距正被拉开",
-        "episodeId": "6af1b8a9b4a4e20202f73529"
-      }
-    ],
-    "fingerprint": "v1:8cd80a3bb1693dff9433c0cc38a2ea66df9f46dd18dd3b88fa5cf93f3fef1bb8",
-    "createdAt": "2026-11-12T10:11:52.267922+08:00",
-    "updatedAt": "2026-11-12T10:11:52.267922+08:00"
   }
 ]

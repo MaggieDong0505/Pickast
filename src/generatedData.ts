@@ -8,82 +8,50 @@
 import { BriefingCardData } from './types';
 
 export const initialData: BriefingCardData = {
-  "dateStr": "2026.11.26",
-  "chinaDateStr": "星期四 / THURSDAY",
+  "dateStr": "2026.11.27",
+  "chinaDateStr": "星期五 / FRIDAY",
   "title": "今天最值得听 • TODAY'S VOICE",
-  "issueNo": "精选 2 条",
+  "issueNo": "精选 1 条",
   "mainEpisode": {
-    "episodeId": "bc105fa7-23de-4c70-a338-6d70daf9aed1",
+    "episodeId": "9753c5f7-03dd-4cfa-8d4a-40531f7c4b79",
     "podcastName": "硅谷101",
-    "episodeTitle": "E259｜机械神教与反人性策略：华尔街量化巨头的AI之路",
-    "description": "华尔街最低调、最赚钱的那一批量化交易巨头，也是这一轮AI浪潮里囤算力、抢人才、投资AI实验室最凶猛的那一批。\n\n他们不靠市场趋势赚钱，而是靠波动和速度在毫秒间争夺价差。和大家印象中西装革履的金融人士并不一样，这些公司里的人可能是一群数学家、物理学家，他们把市场当成一个纯粹的客观的自然现象来研究，寻找其中的规律。他们信奉“肉身苦弱，机械飞升”，不愿让个人主观判断干预模型。也正因如此，算力成了他们最重要的运营开支之一。\n\n本期硅谷101播客，我们邀请到两位来自量化巨头XTX Markets、DRW内部的研究者，揭秘AI量化的底层逻辑，探究这个行业能不能被AI改变、会怎么样被AI改变。\n\n我们聊到了很多有意思的观点，比如说，通用大模型的突飞猛进，并没有从根本上改变量化模型。因为市场是一个高维、连续、难以完全定义的不可观察系统，比自然语言要复杂得多。嘉宾们认为，量化模型可能更接近是FSD或机器人模型。量化模型和AI前沿实验室的进化策略也完全不同，AI Lab会把所有的算力和人才集中押注在一起，让模型一代比一代更聪明；但量化模型的策略是分散化的，需要永远尝试新的东西，做出完全不一样的模型，相互补充，形成组合。\n\n而最大的不同，可能是金融行业对风险和纪律的敬畏。保证活下去，活得足够长，这是一个比赚钱更重要的问题。最终我们发现，表面上，量化交易公司几乎都变成了大大小小的AI实验室，华尔街和硅谷在抢同一批人才、同一批芯片，界限似乎正在消失。但不同的底层逻辑，仍然塑造了两个行业截然不同的风格与气质。\n\n【主播】\n\n泓君，硅谷101创始人，播客主理人\n\n【嘉宾】\n\nAtlas Wang，XTX Markets研究总监，德州大学奥斯汀分校终身副教授\n\nWei Wu，初创公司联合创始人，曾任职于DRW、亚马逊及学术机构\n\n嘉宾以个人身份参与本期分享，所表达观点仅代表个人，不代表 XTX Markets，DRW 或其他任职机构的立场。分享内容仅供交流讨论，不构成投资建议。\n\n【你将听到】\n\n量化生意\n\n07:25 量化交易进化史：从“速度派”到“模型派”\n\n13:29 不存在FOMO，量化投资和主观投资都在拥抱AI\n\n17:24 科普：系统化交易，量化交易，α稀缺，过拟合\n\n23:07 “中频看趋势，高频看波动”\n\n25:37 做市商简史和XTX Markets的算力信仰\n\n31:21 算力军备竞赛：科技公司讲叙事，量化公司算ROI\n\n34:37 隔行如隔山：通用大模型为什么看不懂市场行情\n\n38:00 量化公司护城河：infra＞数据＞模型\n\n41:33 模型足够聪明就能赚到钱吗，中间还有这些gap\n\n45:45 数据飞轮为何在金融领域失效了？\n\n48:59 量化模型更接近FDS而不是大语言模型\n\n53:19 回测：赚钱的策略，就是好策略吗？\n\n01:00:54 金融领域的reward，必须放在统计学层面\n\n01:04:48 创业公司的机会&edge\n\n量化模型\n\n01:09:48 一个吃市场数据的world model\n\n01:17:12 策略趋同与人机分歧：模型、策略还是交易直觉？\n\n01:18:47 量化研究员≠擅长炒股，多为理工科背景\n\n01:20:49 如何验证AI量化策略真的有效？\n\n01:23:19 为什么量化需要硬核科学研究者？\n\n01:26:25 量化公司的创新动机与Ensemble逻辑\n\n01:31:55 量化策略亏损时，研究员什么时候该动手？\n\n01:35:48 生成式AI没有改写量化，市场高维连续信号需要Encoding\n\n01:44:34 金融RSI的困境：模型在追赶一个不断变化的市场\n\n硅谷与华尔街\n\n01:48:18 心态差异背后：是否被RSI卷进自动化闭环\n\n01:50:32 嘉宾从AI reseach到金融量化的亲身经历\n\n01:52:11 量化研究员的“品味”是什么？\n\n01:56:35 AI工具人人可用后，新人门槛反而更高\n\n02:00:12 黑盒量化模型，如何让人放心\n\n02:03:58 好的量化公司先要活得长，理想的策略反人性\n\n02:06:51 为什么回测需要很长时间？黑天鹅与风险管理\n\n02:11:46 市场动荡会影响量化吗？好的策略更追求市场中性\n\n02:15:35 量化与主观之间：AI Native投资的中间地带\n\n02:20:46 AI交易工具：信号一旦卖给很多人就不存在了\n\n02:24:04 散户会更活跃，但散户没有edge\n\n02:25:48 就业选择：AI lab VS 量化公司，哪个更赚钱？\n\n【相关阅读和名词解释】\n\n本期节目中提到的量化交易公司：\n\nJane Street\n\nXTX Markets\n\nDRW\n\nCitadel Securities\n\nHudson River Trading（HRT）\n\n幻方量化\n\n文艺复兴\n\nSusquehanna\n\nJump\n\nVirtu\n\nKnight Capital\n\n【新播客：消费101】\n\n《消费101》是《硅谷101》团队新开设的消费垂类节目，由资深消费记者&研究员麻花担任主播，是一档提供有趣、有料、有用的消费行业观察与品牌解读的播客。每周更新，欢迎关注！\n\n【硅谷101听友群】\n\n在这里，和同好一起深聊科技、商业与未来，期待你的声音，也期待更多有趣的讨论。\n\n扫码加入，即刻相遇！\n\n【监制】\n\n泓君\n\n【后期】\n\nAmei\n\n【运营】\n\n朱婕\n\n【BGM】\n\nWhat We Discovered - Philip Ayers\n\nLight-Footed - Bonnie Grace\n\nFlickering Torches - Christian Andersen\n\nImpossible Theory - Rachel Sandy\n\nLost in Time - Aiyo\n\n【在这里找到我们】\n\n公众号：硅谷101\n\n收听渠道：Apple Podcast｜Spotify｜小宇宙｜喜马拉雅｜蜻蜓FM｜荔枝FM｜网易云音乐｜QQ音乐\n\n其他平台：YouTube｜Bilibili 搜索「硅谷101播客」\n\n联系我们：podcast@sv101.net\nSpecial Guests: Atlas Wang and Wei Wu.",
-    "publishedAt": "2026-11-22T23:00:00+00:00",
+    "episodeTitle": "E261｜表演有效、组团出海，韩国美妆如何抢占美国市场？",
+    "description": "在现在这个节骨点，如果问韩国出口全球、销量暴涨的东西，除了三星和海力士的储存芯片外还有什么，那韩妆一定会有姓名。\n\n早在2025年，韩国的美妆出口额就超过了美国，成为仅次于法国的全球第二大美妆出口国，到了2026年，这个势头变得愈发不可收拾。过去两年，它在全球的销售额增长了一倍多，美国有近25%的家庭都用过韩妆产品，今年前三季度出口英国的韩妆还同比增长了1.8倍。\n\n平价的定位是韩妆席卷全球的原因之一，消费者会惊叹于只花一两百人民币，或者10-50美元，就能买来看上去很有科技含量的PDRN、蜗牛粘液。但韩妆风靡的背后，其实是韩国一整套配合出海的机制，比如品牌对营销概念的手拿把掐，韩国想要用文化出海辅助产品出海的国策，以及，他们上下游全产业链的组团式出海。\n\n【主播】\n\n麻花，硅谷101消费话题研究员，消费101主播\n\n【嘉宾】\n\n寒笑 Ray， “美妆内行人 Beauty Insiders”创始主编\n\nKelly，商业科技博主，“凯莉彭”账号主理人\n\n【你将听到】\n\n韩妆格局大盘点：谁在火，谁在卖\n\n03:35 韩妆涌进美国线下店，甚至Costco都出了韩妆大套装\n\n07:05 1/4的美国家庭买过韩妆产品\n\n11:30 1.0韩妆 vs 2.0韩妆，渠道、特色大不同\n\n16:04 现在的韩妆甚至不需要消费者记住品牌名\n\n20:38 新三富 vs 旧三富，韩妆背后的新造富神话\n\n25:17 当年的特殊事件，反而成了新三富崛起的天时地利人和\n\n研发制造、零售营销和出海贸易，韩妆链条大拆解\n\n27:10 中国、韩国和欧美的美妆，研发流程大不同\n\n35:06 全球美妆ODM双巨头科丝美诗和科玛，能力早不止研发制造了\n\n44:39 消费者都想美妆产品有功效，而韩妆最擅长“表演有功效”\n\n51:37 韩式审美为什么强，根源可能是岛国倒逼的审美内卷\n\n58:16 从Gentle Monster和K-pop，看韩国人表达美玩得有多花\n\n01:01:07 K-pop辅助韩妆出海，已经纳入“国策”了\n\n01:07:46 韩国最大的美妆全球贸易商，居然是做半导体起家的\n\n01:13:15 “韩版屈臣氏”Olive Young，成了外国人接触韩妆的重要渠道\n\n唱唱反调：韩妆出海那么强，隐患又在哪儿？\n\n01:20:53 擅长放烟花的韩妆，已经有太多品牌死在了沙滩上\n\n01:26:40 中国美妆，可以对未来更有信心一点\n\n【相关阅读和名词解释】\n\nK-Beauty Goes Global: Sales Surge 53% as Korean Innovation Reshapes Beauty Growth\n\n快速铺货欧美，K-Beauty 如何长成 “美妆版 Shein” ？\n\n小市场，大品牌：韩妆为什么比我们更早学会做全球生意？\n\n本期播客中提到的相关品牌和企业：\n\n 韩妆品牌：Beauty of Joseon朝鮮美人、d'Alba、Torriden 桃瑞丹、Medicube、COSRX、Aestura、TIRTIR， Skin 1004、Round Lab 、Skinfood、Mediheal美迪惠尔、Mixsoon、Anua、兰芝、悦诗风吟、雪花秀、WHOO后、The Face Shop、伊蒂之屋、自然乐园、3CE，Dr.Jart+蒂佳婷\n 韩妆企业：爱茉莉太平洋、LG健康生活、爱敬、APR、d'Alba Global、Goodai Global\n 韩妆ODM公司：科丝美诗 COSMAX、韩国科玛 Kolmar Korea\n 韩妆出海分销商：SILICON2\n 中国美妆：巨子生物、优时颜、玛丽黛佳、珀莱雅、花知晓、创元集团\n 零售商：Musinsa、 Olive Young、T&T Supermarket大统华 、Ulta Beauty、 Target塔吉特、 Sephora丝芙兰\n\n【新播客：消费101】\n\n《消费101》是《硅谷101》团队新开设的消费垂类节目，由资深消费记者&研究员麻花担任主播，是一档提供有趣、有料、有用的消费行业观察与品牌解读的播客。每周更新，欢迎关注！\n\n【监制】\n\n泓君\n\n【后期】\n\nAmei\n\n【运营】\n\n朱婕\n\n【BGM】\n\nALL MY GIRLS - ALICE\n\nDon't Stop - I'MIN\n\nFantasize - I'MIN\n\nSTYLE - Ballpoint\n\n【在这里找到我们】\n\n公众号：硅谷101\n\n收听渠道：Apple Podcast｜Spotify｜小宇宙｜喜马拉雅｜蜻蜓FM｜荔枝FM｜网易云音乐｜QQ音乐\n\n其他平台：YouTube｜Bilibili 搜索「硅谷101播客」\n\n联系我们：podcast@sv101.net\nSpecial Guests: Kelly and 寒笑Ray.",
+    "publishedAt": "2026-11-26T23:00:00+00:00",
     "rssUrl": "https://feeds.fireside.fm/sv101/rss",
     "coverImageUrl": "https://cdn.fireside.fm/file/fireside-images-2024/podcasts/images/f/f0f20376-8faf-4940-b920-84af6c734e2d/cover.jpg?v=6",
     "coverText": "硅谷",
     "coverBg": "bg-[#18181B]",
     "coverTextColor": "text-amber-50",
-    "whyRecommended": "适合想搞懂量化交易与AI真实关系的听众,两位量化巨头研究者拆解底层逻辑。",
+    "whyRecommended": "适合关注消费出海与品牌营销的听众,用韩妆拆解韩国产业链组团出海的完整机制。",
     "viewpoints": [
-      "通用大模型突飞猛进,并未从根本上改变量化模型",
-      "量化模型策略分散化,与AI Lab集中押注的路径不同",
-      "金融行业敬畏风险与纪律,活下去比赚钱更重要"
+      "2025年韩国美妆出口额超过美国,成为全球第二大出口国",
+      "韩妆靠平价定位与营销概念,擅长表演有功效",
+      "韩国上下游全产业链组团式出海,文化出海辅助产品出海"
     ],
     "goldenQuotes": [
       {
-        "quote": "保证活下去，活得足够长，这是一个比赚钱更重要的问题。",
+        "quote": "消费者都想美妆产品有功效，而韩妆最擅长“表演有功效”",
         "source": "来自本期 shownote",
         "source_note": "来自本期 shownote"
       },
       {
-        "quote": "市场是一个高维、连续、难以完全定义的不可观察系统，比自然语言要复杂得多。",
+        "quote": "韩妆风靡的背后，其实是韩国一整套配合出海的机制",
+        "source": "来自本期 shownote",
+        "source_note": "来自本期 shownote"
+      },
+      {
+        "quote": "擅长放烟花的韩妆，已经有太多品牌死在了沙滩上",
         "source": "来自本期 shownote",
         "source_note": "来自本期 shownote"
       }
     ],
-    "triageTag": "📖值得精听｜量化巨头研究者拆解AI量化",
-    "href": "https://sv101.fireside.fm/273",
-    "whyRecommend": "适合想搞懂量化交易与AI真实关系的听众,两位量化巨头研究者拆解底层逻辑。",
-    "goldenQuote": "保证活下去，活得足够长，这是一个比赚钱更重要的问题。",
-    "topicTag": "📖值得精听｜量化巨头研究者拆解AI量化"
+    "triageTag": "📖值得精听｜韩妆产业链出海拆解",
+    "href": "https://sv101.fireside.fm/275",
+    "whyRecommend": "适合关注消费出海与品牌营销的听众,用韩妆拆解韩国产业链组团出海的完整机制。",
+    "goldenQuote": "消费者都想美妆产品有功效，而韩妆最擅长“表演有功效”",
+    "topicTag": "📖值得精听｜韩妆产业链出海拆解"
   },
-  "backupEpisodes": [
-    {
-      "episodeId": "594b3c72-56e0-4504-a5c1-4b01e4e1e0d7",
-      "podcastName": "Vibration 歪波音室",
-      "episodeTitle": "庄达菲《感，觉》：把生活里的小事，慢慢写成歌",
-      "description": "很多人认识庄达菲是因为她的演员身份，但其实她已经写了很多年的歌。从十九岁时写下的《十九》，到记录朋友搬家告别的《放放》，庄达菲一直习惯用音乐记录生活。\n今年，她带来首张完整原创专辑《感，觉》，十三首歌全部由自己作词作曲，并邀请陈珊妮、陈婧霏、反返、荒事等音乐人共同制作。\n这张专辑里，有轻柔的电子流行、带着爵士色彩的吉他，也有更鲜明的独立摇滚。她所写的主题有失眠、错过的电话、某个夏天的回忆、长大以后的困惑……这些看似普通的生活片段，在不同的旋律与编曲里，慢慢形成了她自己的创作语言。\n我挺喜欢这张专辑的，所以这期节目，我会从庄达菲的音乐经历开始，聊聊《感，觉》的词曲、制作与专辑概念，也会试着从中观察当代年轻唱作人的声音审美。\n快点开来听吧~\nㅤ\n🕕 时间轴\n00:09 从《我们的民谣2022》到《东张西望》，庄达菲的音乐创作经历\n05:44《感，觉》的专辑概念，以及 Intro 与 Outro 的首尾呼应\n15:43 从日常生活写歌：亲密关系、童年记忆与成年后的情绪\n42:13 陈珊妮、陈婧霏、反返等制作人如何带来不同的音乐风格\n44:14 这张专辑已经建立的个人特色，以及仍有发展空间的地方\nㅤ\n🎵 本期播放曲目\n1.庄达菲《Intro：感（Pulse）》\n2.庄达菲《晃晃（Lullaby For Tonight）》\n3.庄达菲《重感冒（Overloaded）》\n4.庄达菲《走吧（Shall we?）》\n5.庄达菲《孩子气（Peekaboo）》\n6.庄达菲《一步一步（Goofy Goofy）》\n7.庄达菲《等微微亮（Stay Gold）》\n8.庄达菲《Outro：觉（Resonance）》\nㅤ\n🎸 庄达菲《感，觉》Live Tour 12 月已官宣\n\n实体专辑将率先于巡演现场限量发售，线上及其他渠道，请留意官方信息\n秀动/大麦/网易云/猫眼/票星球 等票务平台皆可购票\n\nㅤ\n💻 Staff\n主播、声音剪辑制作、文案：拾壹\n部分内容提供：创娱无界\nㅤ\n📎 节目介绍\n「Vibration 歪波音室」是一档以爱好者的视角分享音乐的播客节目，希望能让你进入更丰富有趣的音乐世界。\n🎯 商务、媒体合作：添加微信 relic_ice，请备注来意\n📬 如果有任何问题或反馈，欢迎评论留言或发电子邮件至：relicice@gmail.com",
-      "publishedAt": "2026-11-22T22:30:00+00:00",
-      "rssUrl": "https://s2.proxy.wavpub.com/vibration.xml",
-      "coverImageUrl": "https://media-one.wavpub.com/covers/ac342332-acdc-45df-bb31-916a5ed01a91/ep-989e2e73d1f9148c.jpg",
-      "coverText": "Vi",
-      "coverBg": "bg-[#18181B]",
-      "coverTextColor": "text-amber-50",
-      "whyRecommended": "适合想了解庄达菲音乐创作与首张专辑《感，觉》的听众,从词曲制作到专辑概念逐层拆解。",
-      "viewpoints": [
-        "庄达菲十三首歌全部自己作词作曲",
-        "专辑邀陈珊妮、陈婧霏等共同制作",
-        "从失眠、错过的电话等日常写歌"
-      ],
-      "goldenQuotes": [
-        {
-          "quote": "十三首歌全部由自己作词作曲",
-          "source": "来自本期 shownote",
-          "source_note": "来自本期 shownote"
-        },
-        {
-          "quote": "这些看似普通的生活片段，在不同的旋律与编曲里，慢慢形成了她自己的创作语言。",
-          "source": "来自本期 shownote",
-          "source_note": "来自本期 shownote"
-        }
-      ],
-      "triageTag": "🚶边走边听｜庄达菲专辑逐曲拆解",
-      "href": "594b3c72-56e0-4504-a5c1-4b01e4e1e0d7",
-      "scenario": "",
-      "whyRecommend": "适合想了解庄达菲音乐创作与首张专辑《感，觉》的听众,从词曲制作到专辑概念逐层拆解。",
-      "goldenQuote": "十三首歌全部由自己作词作曲",
-      "topicTag": "🚶边走边听｜庄达菲专辑逐曲拆解"
-    }
-  ],
+  "backupEpisodes": [],
   "synthesis": null
 };
