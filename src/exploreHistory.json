@@ -1,5 +1,92 @@
 [
   {
+    "generatedAt": "2026-11-28T11:11:41.023732+08:00",
+    "title": "AI基建的万亿投入，钱能赚回来吗？",
+    "domainTag": "AI投资与回报",
+    "podcasts": [
+      "What's Next｜科技早知道",
+      "硅谷101"
+    ],
+    "episodeIds": [
+      "34b5fd41-4431-485c-98e6-c8a7008b2d62",
+      "a2f80cf4-a36c-4650-9801-56e2049fdc08"
+    ],
+    "consensus": [
+      {
+        "podcast": "硅谷101",
+        "point": "AI融资定价机制不完善，收入兑现是最大考验",
+        "episodeId": "34b5fd41-4431-485c-98e6-c8a7008b2d62"
+      },
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "投资人追问从投多少转向何时赚回来，需追踪真实付费需求",
+        "episodeId": "a2f80cf4-a36c-4650-9801-56e2049fdc08"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:6c854daa0640766bc7fcf9a5697bf796d6a7635791b97678e8b0edda00b408d3",
+    "createdAt": "2026-11-28T11:11:41.023732+08:00",
+    "updatedAt": "2026-11-28T11:11:41.023732+08:00"
+  },
+  {
+    "generatedAt": "2026-11-28T11:11:41.023732+08:00",
+    "title": "AI参与科研，人类科学家的品味能被学会吗",
+    "domainTag": "AI与科研范式",
+    "podcasts": [
+      "Peril Crosser 渡厄",
+      "What's Next｜科技早知道"
+    ],
+    "episodeIds": [
+      "c11cceb2-07c2-4c2f-9124-95bd1187c7ec",
+      "e1df9736-9c99-5ca8-b170-6b44d92b345f"
+    ],
+    "consensus": [
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "科研品味若可描述和验证，AI也可能通过学习逐步获得",
+        "episodeId": "c11cceb2-07c2-4c2f-9124-95bd1187c7ec"
+      },
+      {
+        "podcast": "Peril Crosser 渡厄",
+        "point": "升华与创造的动力源于本能转化，人类心智结构有其独特性",
+        "episodeId": "e1df9736-9c99-5ca8-b170-6b44d92b345f"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:0f2a01a862f4466ee5fc5ac930bd411cd22d4e68e81e90bf990b00fbaea85b92",
+    "createdAt": "2026-11-28T11:11:41.023732+08:00",
+    "updatedAt": "2026-11-28T11:11:41.023732+08:00"
+  },
+  {
+    "generatedAt": "2026-11-28T11:11:41.023732+08:00",
+    "title": "文明越进步，人为什么反而越焦虑？",
+    "domainTag": "现代性与心理困境",
+    "podcasts": [
+      "Peril Crosser 渡厄",
+      "What's Next｜科技早知道"
+    ],
+    "episodeIds": [
+      "a2f80cf4-a36c-4650-9801-56e2049fdc08",
+      "d2034bb1-ab37-5166-bda1-b748bbeec89e"
+    ],
+    "consensus": [
+      {
+        "podcast": "Peril Crosser 渡厄",
+        "point": "文明是用本能自由换物理安全的交易，压抑的能量倒灌回体内",
+        "episodeId": "d2034bb1-ab37-5166-bda1-b748bbeec89e"
+      },
+      {
+        "podcast": "What's Next｜科技早知道",
+        "point": "技术进步并不保证利润和幸福集中，预期落差带来普遍焦虑",
+        "episodeId": "a2f80cf4-a36c-4650-9801-56e2049fdc08"
+      }
+    ],
+    "divergence": [],
+    "fingerprint": "v1:6dd355194f681754b0948fe3a16a8e63d94bda85539b88b3e64f0187fa17122d",
+    "createdAt": "2026-11-28T11:11:41.023732+08:00",
+    "updatedAt": "2026-11-28T11:11:41.023732+08:00"
+  },
+  {
     "generatedAt": "2026-11-27T11:34:34.190342+08:00",
     "title": "韩国美妆出海，中国品牌能复制吗？",
     "domainTag": "消费品牌与出海",
@@ -781,92 +868,5 @@
     "fingerprint": "v1:06b9d7d00b9199741278b4d64ab64323ba138a0b6572a6c24ad6be2cbbe43524",
     "createdAt": "2026-11-14T09:23:09.243023+08:00",
     "updatedAt": "2026-11-14T09:23:09.243023+08:00"
-  },
-  {
-    "generatedAt": "2026-11-14T09:23:09.243023+08:00",
-    "title": "DatingApp能高效找到伴侣吗？",
-    "domainTag": "亲密关系",
-    "podcasts": [
-      "富女之友",
-      "思文，败类"
-    ],
-    "episodeIds": [
-      "6aed58915b7c4709bfe1ea0a",
-      "6af04a865b7c4709bfe2dcff"
-    ],
-    "consensus": [
-      {
-        "podcast": "富女之友",
-        "point": "Dating App是效率工具，帮人提前完成关系筛选",
-        "episodeId": "6aed58915b7c4709bfe1ea0a"
-      },
-      {
-        "podcast": "思文，败类",
-        "point": "AI聊天无法取代线下真实社交和具体朋友的力量",
-        "episodeId": "6af04a865b7c4709bfe2dcff"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:743a63338318088a941317e9e2e55a36e7164e1f7589c82a467a312aeb6b4255",
-    "createdAt": "2026-11-14T09:23:09.243023+08:00",
-    "updatedAt": "2026-11-14T09:23:09.243023+08:00"
-  },
-  {
-    "generatedAt": "2026-11-14T09:23:09.243023+08:00",
-    "title": "审美是可以被训练出来的吗？",
-    "domainTag": "审美与创作",
-    "podcasts": [
-      "AI产品黄叔",
-      "诗梳风"
-    ],
-    "episodeIds": [
-      "6af3f97d14d01a26f8a82bd0",
-      "6af674093caef3b52f550134"
-    ],
-    "consensus": [
-      {
-        "podcast": "诗梳风",
-        "point": "审美是索引不是目录，先问感受再看数据",
-        "episodeId": "6af3f97d14d01a26f8a82bd0"
-      },
-      {
-        "podcast": "AI产品黄叔",
-        "point": "opus让人变成导演，工具降低创作门槛",
-        "episodeId": "6af674093caef3b52f550134"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:f0e79cc5392b4fbeeb34195150e2e9bee7c27a0bd3dc409ccd9b1507afdda37a",
-    "createdAt": "2026-11-14T09:23:09.243023+08:00",
-    "updatedAt": "2026-11-14T09:23:09.243023+08:00"
-  },
-  {
-    "generatedAt": "2026-11-13T09:45:12.350570+08:00",
-    "title": "Anthropic两万亿美元估值贵不贵？",
-    "domainTag": "AI投资",
-    "podcasts": [
-      "What's Next｜科技早知道",
-      "跨国串门儿计划"
-    ],
-    "episodeIds": [
-      "03e51cc1-020d-4c30-8c07-8f8614b46e7f",
-      "6aeec21d5b7c4709bfe262c0"
-    ],
-    "consensus": [
-      {
-        "podcast": "What's Next｜科技早知道",
-        "point": "需求真实但高估值可能面临调整",
-        "episodeId": "03e51cc1-020d-4c30-8c07-8f8614b46e7f"
-      },
-      {
-        "podcast": "跨国串门儿计划",
-        "point": "算力采购承诺8000亿仍嫌保守",
-        "episodeId": "6aeec21d5b7c4709bfe262c0"
-      }
-    ],
-    "divergence": [],
-    "fingerprint": "v1:82027a36c522cf3c2e5e3f6f5e2302d7d311acf75b369d45c76f5ffdcdf8947c",
-    "createdAt": "2026-11-13T09:45:12.350570+08:00",
-    "updatedAt": "2026-11-13T09:45:12.350570+08:00"
   }
 ]
